@@ -57,9 +57,16 @@ export default function App() {
         next.month,
         (chunk) => setNarrativeText((text) => text + chunk),
         controller.signal,
-      ).then(() => {
-        if (!controller.signal.aborted) setNarrativeDone(true)
-      })
+        () => setNarrativeText(''),
+      )
+        .catch((error) => {
+          if (error.name !== 'AbortError') {
+            setNarrativeText(`The written report couldn't load: ${error.message}`)
+          }
+        })
+        .finally(() => {
+          if (!controller.signal.aborted) setNarrativeDone(true)
+        })
     })
     return () => controller.abort()
   }, [month])

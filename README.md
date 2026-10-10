@@ -74,7 +74,7 @@ All arithmetic will happen in plain Python in `backend/app/finance/`. The agents
 | Layer | Choice | Why |
 | --- | --- | --- |
 | Agents | [Strands Agents SDK](https://github.com/strands-agents/sdk-python) (Python) | Required for the AWS challenge. Its agents-as-tools pattern fits a CFO orchestrator with specialists. |
-| Model | Claude Opus 5.5 on Amazon Bedrock | Runs on AWS. Can fall back to the Anthropic API. |
+| Models | Claude Sonnet 5.5 (CFO) and Haiku 5.5 (specialists) via the Anthropic API | Fast enough for a live demo. One API key, nothing else to set up. |
 | Backend | FastAPI | Few files, async, and serves the frontend too. |
 | Data | pandas + CSV files | No database to set up. Uploading new CSVs replaces the in-memory dataset. |
 | Frontend | React + JavaScript + Vite, Recharts for charts | Shared components render both the report and the chat's data cards. FastAPI serves the built files from one process. |
@@ -95,22 +95,37 @@ See the [finance function contract and accounting assumptions](docs/finance-cont
 for agent/API integration. This section runs without model credentials or an API
 server. Agents and the API/UI remain separate implementation sections.
 
-## Frontend development
+## Agents
 
-The report page and chat window run on mock data taken from `scripts/demo_finance.py`
-output, so they need no backend yet. From the repository root:
+Four Strands agents live in [`backend/app/agents/`](backend/app/agents/). The CFO Advisor calls the expense, job profitability and cash flow agents as tools, and those call the finance functions above. Add `ANTHROPIC_API_KEY` to `backend/.env` (copy `backend/.env.example`), then from the repository root:
 
 ```bash
-cd frontend
-npm install
-npm run dev
+python -m backend.app.cli --demo    # the five demo questions in the terminal
+python -m backend.app.cli --report  # monthly report as JSON
 ```
 
-Then open http://localhost:5173. `npm run build` writes `frontend/dist` for FastAPI to
-serve. In development, Vite forwards `/api` requests to FastAPI on port 8000.
+See the [agents README](backend/app/agents/README.md) for the API entry points.
 
-Not connected yet: chat input, file upload, and the AI text (all three show canned
-content). `frontend/src/api/index.js` names the endpoint each function will call.
+## Running the app
+
+The FastAPI server in [`backend/app/main.py`](backend/app/main.py) serves the report data, the streamed chat and report, and the built frontend. From the repository root, after the backend setup above:
+
+```bash
+cd frontend && npm install && npm run build && cd ..
+uvicorn backend.app.main:app --port 8000
+```
+
+Then open http://localhost:8000. For frontend work, run `npm run dev` in `frontend/` alongside the server and open http://localhost:5173; Vite forwards `/api` to port 8000.
+
+| Endpoint | Returns |
+| --- | --- |
+| `GET /api/report?month=` | Every finance result the report page shows for that month |
+| `GET /api/report/narrative?month=` | The CFO's written report, streamed (cached per month) |
+| `GET /api/affordability?amount=` | The purchase check |
+| `POST /api/ask` | The CFO's answer, streamed as status, text and card events |
+| `POST /api/upload` | Replaces the books with four uploaded files after validation |
+
+Still to connect in the UI: the upload dialog (the endpoint is ready).
 
 ## Planned project structure
 

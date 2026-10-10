@@ -1,9 +1,13 @@
 import csv
 import io
+import os
 
 import pytest
 
 from backend.app.data.loader import SAMPLE_DIRECTORY, load_books_from_uploads
+
+# Agents build a model client on construction; tests never call it.
+os.environ.setdefault("ANTHROPIC_API_KEY", "test-key-not-used")
 
 
 @pytest.fixture

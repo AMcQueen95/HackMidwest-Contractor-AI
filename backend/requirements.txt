@@ -1,3 +1,7 @@
 # Runtime requirements for the data/finance component. Agents and API services
 # should extend their own requirements when their implementations land.
 pandas==3.0.6
+
+# Agents
+strands-agents[anthropic]==1.59.0
+python-dotenv==1.1.1

@@ -1,5 +1,5 @@
-import { useMemo } from 'react'
-import { getSampleConversation } from '../api'
+import { useEffect, useRef, useState } from 'react'
+import { ask } from '../api'
 import { SUGGESTED_QUESTIONS } from '../api/mock/chat'
 import { monthName } from '../lib/format'
 import DataCard from './DataCard'
@@ -47,8 +47,27 @@ function NarrativeMessage({ narrative, done, month }) {
   )
 }
 
+// Paragraphs are separated by blank lines; lines starting with "- " are list items.
+function Paragraph({ text }) {
+  const lines = text.split('\n').filter(Boolean)
+  const items = lines.filter((line) => line.startsWith('- '))
+  if (items.length === 0) return <p>{text}</p>
+  const intro = lines.filter((line) => !line.startsWith('- '))
+  return (
+    <>
+      {intro.length > 0 && <p>{intro.join(' ')}</p>}
+      <ul>
+        {items.map((item) => (
+          <li key={item}>{item.slice(2)}</li>
+        ))}
+      </ul>
+    </>
+  )
+}
+
 function Message({ message }) {
   if (message.role === 'user') return <div className="message message-user">{message.text}</div>
+  const waiting = message.pending && !message.text
   return (
     <div className="message message-assistant">
       {message.statuses?.map((status) => (
@@ -56,18 +75,78 @@ function Message({ message }) {
           <CheckIcon /> {status}
         </p>
       ))}
-      {message.text.split('\n\n').map((paragraph) => (
-        <p key={paragraph}>{paragraph}</p>
-      ))}
+      {waiting && (
+        <div className="skeleton" aria-label="Thinking">
+          <span />
+          <span />
+        </div>
+      )}
+      {message.text
+        .trim()
+        .split(/\n\s*\n/)
+        .filter(Boolean)
+        .map((paragraph) => (
+          <Paragraph key={paragraph} text={paragraph} />
+        ))}
+      {message.error && <p className="message-error">{message.error}</p>}
       {message.cards?.map((card) => (
         <DataCard key={card.type} {...card} />
       ))}
+      {message.pending && message.text && <span className="cursor" />}
     </div>
   )
 }
 
 export default function ChatWidget({ open, onOpen, onClose, narrative, narrativeDone, month }) {
-  const sample = useMemo(getSampleConversation, [])
+  const [messages, setMessages] = useState([])
+  const [sessionId, setSessionId] = useState(null)
+  const [input, setInput] = useState('')
+  const busy = messages.at(-1)?.pending ?? false
+  const scroller = useRef(null)
+  const controller = useRef(null)
+
+  useEffect(() => {
+    scroller.current?.scrollTo({ top: scroller.current.scrollHeight })
+  }, [messages])
+
+  // A new month means a new report, so start a fresh conversation seeded with it.
+  useEffect(() => reset(), [month])
+
+  function reset() {
+    controller.current?.abort()
+    setMessages([])
+    setSessionId(null)
+  }
+
+  function updateLast(change) {
+    setMessages((list) => [...list.slice(0, -1), change(list.at(-1))])
+  }
+
+  async function send(question) {
+    question = question.trim()
+    if (!question || busy) return
+    setInput('')
+    setMessages((list) => [
+      ...list,
+      { role: 'user', text: question },
+      { role: 'assistant', text: '', statuses: [], cards: [], pending: true },
+    ])
+    controller.current = new AbortController()
+    const onEvent = (event) => {
+      if (event.type === 'session') setSessionId(event.session_id)
+      if (event.type === 'status') updateLast((m) => ({ ...m, statuses: [...m.statuses, event.text] }))
+      if (event.type === 'text') updateLast((m) => ({ ...m, text: m.text + event.text }))
+      if (event.type === 'text_reset') updateLast((m) => ({ ...m, text: '' }))
+      if (event.type === 'card') updateLast((m) => ({ ...m, cards: [...m.cards, event.card] }))
+      if (event.type === 'error') updateLast((m) => ({ ...m, error: event.message }))
+    }
+    try {
+      await ask(question, { sessionId, month }, onEvent, controller.current.signal)
+    } catch (error) {
+      if (error.name !== 'AbortError') updateLast((m) => ({ ...m, error: error.message }))
+    }
+    updateLast((m) => ({ ...m, pending: false }))
+  }
 
   if (!open) {
     return (
@@ -82,7 +161,12 @@ export default function ChatWidget({ open, onOpen, onClose, narrative, narrative
     <aside className="chat" aria-label="Ask your CFO">
       <header className="chat-header">
         <h2>Ask your CFO</h2>
-        <button type="button" className="button button-quiet" disabled>
+        <button
+          type="button"
+          className="button button-quiet"
+          onClick={reset}
+          disabled={messages.length === 0}
+        >
           New conversation
         </button>
         <button type="button" className="icon-button" aria-label="Close chat" onClick={onClose}>
@@ -90,10 +174,9 @@ export default function ChatWidget({ open, onOpen, onClose, narrative, narrative
         </button>
       </header>
 
-      <div className="chat-messages">
+      <div className="chat-messages" ref={scroller}>
         <NarrativeMessage narrative={narrative} done={narrativeDone} month={month} />
-        <p className="chat-divider">Example conversation</p>
-        {sample.map((message, index) => (
+        {messages.map((message, index) => (
           <Message key={index} message={message} />
         ))}
       </div>
@@ -101,17 +184,36 @@ export default function ChatWidget({ open, onOpen, onClose, narrative, narrative
       <footer className="chat-footer">
         <div className="chips">
           {SUGGESTED_QUESTIONS.map((question) => (
-            <button key={question} type="button" className="chip" disabled>
+            <button
+              key={question}
+              type="button"
+              className="chip"
+              onClick={() => send(question)}
+              disabled={busy}
+            >
               {question}
             </button>
           ))}
         </div>
-        <div className="chat-input">
-          <input type="text" placeholder="Chat isn't connected yet" disabled />
-          <button type="button" className="icon-button" aria-label="Send" disabled>
+        <form
+          className="chat-input"
+          onSubmit={(event) => {
+            event.preventDefault()
+            send(input)
+          }}
+        >
+          <input
+            id="chat-question"
+            type="text"
+            placeholder="Ask about your books"
+            value={input}
+            onChange={(event) => setInput(event.target.value)}
+            disabled={busy}
+          />
+          <button type="submit" className="icon-button" aria-label="Send" disabled={busy || !input.trim()}>
             <SendIcon />
           </button>
-        </div>
+        </form>
       </footer>
     </aside>
   )
