@@ -1,0 +1,602 @@
+{
+  "2026-08": {
+    "business": {
+      "name": "Ridgeline Heating & Air",
+      "currency": "USD",
+      "accounting_basis": "cash",
+      "opening_balance_date": "2026-08-01",
+      "as_of_date": "2026-09-30",
+      "opening_balance": 45000,
+      "labor_rate": 50,
+      "tax_reserve_rate": 0.1
+    },
+    "monthly_summary": {
+      "month": "2026-08",
+      "basis": "cash",
+      "currency": "USD",
+      "period_start": "2026-08-01",
+      "period_end": "2026-08-31",
+      "period_complete": true,
+      "revenue": 60000,
+      "expenses": 45000,
+      "profit": 15000,
+      "transaction_count": 14,
+      "expenses_by_category": {
+        "fuel": 2000,
+        "insurance": 1000,
+        "marketing": 1000,
+        "materials": 10000,
+        "overhead": 6794.57,
+        "payroll": 24000,
+        "software": 205.43
+      }
+    },
+    "expense_changes": {
+      "month": "2026-08",
+      "previous_month": "2026-07",
+      "basis": "cash",
+      "currency": "USD",
+      "period_complete": true,
+      "previous_period_complete": false,
+      "changes": [
+        {
+          "category": "payroll",
+          "previous": 0,
+          "current": 24000,
+          "change": 24000,
+          "change_percent": null
+        },
+        {
+          "category": "materials",
+          "previous": 0,
+          "current": 10000,
+          "change": 10000,
+          "change_percent": null
+        },
+        {
+          "category": "overhead",
+          "previous": 0,
+          "current": 6794.57,
+          "change": 6794.57,
+          "change_percent": null
+        },
+        {
+          "category": "fuel",
+          "previous": 0,
+          "current": 2000,
+          "change": 2000,
+          "change_percent": null
+        },
+        {
+          "category": "insurance",
+          "previous": 0,
+          "current": 1000,
+          "change": 1000,
+          "change_percent": null
+        },
+        {
+          "category": "marketing",
+          "previous": 0,
+          "current": 1000,
+          "change": 1000,
+          "change_percent": null
+        },
+        {
+          "category": "software",
+          "previous": 0,
+          "current": 205.43,
+          "change": 205.43,
+          "change_percent": null
+        }
+      ]
+    },
+    "recurring_charges": {
+      "month": "2026-08",
+      "currency": "USD",
+      "charges": [],
+      "potential_duplicate_groups": [
+        {
+          "category": "software",
+          "vendors": [
+            "Housecall Pro",
+            "Workspace"
+          ],
+          "monthly_total": 205.43,
+          "reason": "Multiple software vendors; review whether their services overlap. This is not proof of duplicate subscriptions."
+        }
+      ]
+    },
+    "job_profitability": {
+      "month": "2026-08",
+      "as_of_date": "2026-09-30",
+      "currency": "USD",
+      "revenue_basis": "quoted_price",
+      "excludes_unallocated_overhead": true,
+      "jobs": [
+        {
+          "job_id": "AUG-001",
+          "customer": "Prairie Medical",
+          "job_type": "commercial_hvac",
+          "quoted_revenue": 22000,
+          "cash_received": 22000,
+          "direct_expenses": 4000,
+          "labor_cost": 6000,
+          "labor_cost_source": "hours_times_rate",
+          "total_cost": 10000,
+          "profit": 12000,
+          "margin_percent": 54.55,
+          "cost_history_complete": true
+        },
+        {
+          "job_id": "AUG-002",
+          "customer": "Oakwood Apartments",
+          "job_type": "commercial_hvac",
+          "quoted_revenue": 18000,
+          "cash_received": 18000,
+          "direct_expenses": 3500,
+          "labor_cost": 5000,
+          "labor_cost_source": "hours_times_rate",
+          "total_cost": 8500,
+          "profit": 9500,
+          "margin_percent": 52.78,
+          "cost_history_complete": true
+        },
+        {
+          "job_id": "AUG-003",
+          "customer": "Cedar Homeowners",
+          "job_type": "residential_hvac",
+          "quoted_revenue": 20000,
+          "cash_received": 20000,
+          "direct_expenses": 2500,
+          "labor_cost": 4000,
+          "labor_cost_source": "hours_times_rate",
+          "total_cost": 6500,
+          "profit": 13500,
+          "margin_percent": 67.5,
+          "cost_history_complete": true
+        }
+      ]
+    },
+    "losing_jobs": {
+      "month": "2026-08",
+      "as_of_date": "2026-09-30",
+      "currency": "USD",
+      "revenue_basis": "quoted_price",
+      "excludes_unallocated_overhead": true,
+      "jobs": []
+    },
+    "margin_by_job_type": {
+      "month": "2026-08",
+      "as_of_date": "2026-09-30",
+      "currency": "USD",
+      "revenue_basis": "quoted_price",
+      "excludes_unallocated_overhead": true,
+      "job_types": [
+        {
+          "job_type": "commercial_hvac",
+          "job_count": 2,
+          "quoted_revenue": 40000,
+          "total_cost": 18500,
+          "profit": 21500,
+          "margin_percent": 53.75
+        },
+        {
+          "job_type": "residential_hvac",
+          "job_count": 1,
+          "quoted_revenue": 20000,
+          "total_cost": 6500,
+          "profit": 13500,
+          "margin_percent": 67.5
+        }
+      ]
+    },
+    "cash_balance": {
+      "as_of_date": "2026-09-30",
+      "opening_balance_date": "2026-08-01",
+      "currency": "USD",
+      "opening_balance": 45000,
+      "cash_in": 105070,
+      "cash_out": 97900,
+      "balance": 52170,
+      "tax_reserve": 717,
+      "available_cash": 51453
+    },
+    "receivables": {
+      "as_of_date": "2026-09-30",
+      "currency": "USD",
+      "total_outstanding": 21000,
+      "overdue_total": 21000,
+      "aging": {
+        "current": 0,
+        "1_30": 21000,
+        "31_60": 0,
+        "61_90": 0,
+        "90_plus": 0
+      },
+      "customers": [
+        {
+          "customer": "Westport Dental",
+          "outstanding": 12000
+        },
+        {
+          "customer": "Brookside Property Mgmt",
+          "outstanding": 9000
+        }
+      ],
+      "invoices": [
+        {
+          "invoice_id": "INV-S01",
+          "job_id": "SEP-001",
+          "customer": "Westport Dental",
+          "due": "2026-09-20",
+          "outstanding": 12000,
+          "days_overdue": 10,
+          "aging_bucket": "1_30"
+        },
+        {
+          "invoice_id": "INV-S02",
+          "job_id": "SEP-002",
+          "customer": "Brookside Property Mgmt",
+          "due": "2026-09-25",
+          "outstanding": 9000,
+          "days_overdue": 5,
+          "aging_bucket": "1_30"
+        }
+      ]
+    }
+  },
+  "2026-09": {
+    "business": {
+      "name": "Ridgeline Heating & Air",
+      "currency": "USD",
+      "accounting_basis": "cash",
+      "opening_balance_date": "2026-08-01",
+      "as_of_date": "2026-09-30",
+      "opening_balance": 45000,
+      "labor_rate": 50,
+      "tax_reserve_rate": 0.1
+    },
+    "monthly_summary": {
+      "month": "2026-09",
+      "basis": "cash",
+      "currency": "USD",
+      "period_start": "2026-09-01",
+      "period_end": "2026-09-30",
+      "period_complete": true,
+      "revenue": 45070,
+      "expenses": 52900,
+      "profit": -7830,
+      "transaction_count": 14,
+      "expenses_by_category": {
+        "fuel": 2700,
+        "insurance": 1260,
+        "marketing": 1500,
+        "materials": 14000,
+        "overhead": 6873,
+        "payroll": 26000,
+        "software": 567
+      }
+    },
+    "expense_changes": {
+      "month": "2026-09",
+      "previous_month": "2026-08",
+      "basis": "cash",
+      "currency": "USD",
+      "period_complete": true,
+      "previous_period_complete": true,
+      "changes": [
+        {
+          "category": "materials",
+          "previous": 10000,
+          "current": 14000,
+          "change": 4000,
+          "change_percent": 40
+        },
+        {
+          "category": "payroll",
+          "previous": 24000,
+          "current": 26000,
+          "change": 2000,
+          "change_percent": 8.33
+        },
+        {
+          "category": "fuel",
+          "previous": 2000,
+          "current": 2700,
+          "change": 700,
+          "change_percent": 35
+        },
+        {
+          "category": "marketing",
+          "previous": 1000,
+          "current": 1500,
+          "change": 500,
+          "change_percent": 50
+        },
+        {
+          "category": "software",
+          "previous": 205.43,
+          "current": 567,
+          "change": 361.57,
+          "change_percent": 176.01
+        },
+        {
+          "category": "insurance",
+          "previous": 1000,
+          "current": 1260,
+          "change": 260,
+          "change_percent": 26
+        },
+        {
+          "category": "overhead",
+          "previous": 6794.57,
+          "current": 6873,
+          "change": 78.43,
+          "change_percent": 1.15
+        }
+      ]
+    },
+    "recurring_charges": {
+      "month": "2026-09",
+      "currency": "USD",
+      "charges": [
+        {
+          "vendor": "Fleet Fuel",
+          "category": "fuel",
+          "months": [
+            "2026-08",
+            "2026-09"
+          ],
+          "latest_monthly_amount": 2700,
+          "average_monthly_amount": 2350
+        },
+        {
+          "vendor": "Housecall Pro",
+          "category": "software",
+          "months": [
+            "2026-08",
+            "2026-09"
+          ],
+          "latest_monthly_amount": 169,
+          "average_monthly_amount": 169
+        },
+        {
+          "vendor": "HVAC Supply",
+          "category": "materials",
+          "months": [
+            "2026-08",
+            "2026-09"
+          ],
+          "latest_monthly_amount": 10832,
+          "average_monthly_amount": 10416
+        },
+        {
+          "vendor": "Local Ads",
+          "category": "marketing",
+          "months": [
+            "2026-08",
+            "2026-09"
+          ],
+          "latest_monthly_amount": 1500,
+          "average_monthly_amount": 1250
+        },
+        {
+          "vendor": "Ridgeline Payroll",
+          "category": "payroll",
+          "months": [
+            "2026-08",
+            "2026-09"
+          ],
+          "latest_monthly_amount": 26000,
+          "average_monthly_amount": 25000
+        },
+        {
+          "vendor": "Shop Insurer",
+          "category": "insurance",
+          "months": [
+            "2026-08",
+            "2026-09"
+          ],
+          "latest_monthly_amount": 1260,
+          "average_monthly_amount": 1130
+        },
+        {
+          "vendor": "Shop Operations",
+          "category": "overhead",
+          "months": [
+            "2026-08",
+            "2026-09"
+          ],
+          "latest_monthly_amount": 6873,
+          "average_monthly_amount": 6833.78
+        }
+      ],
+      "potential_duplicate_groups": [
+        {
+          "category": "software",
+          "vendors": [
+            "Housecall Pro",
+            "ServiceTitan"
+          ],
+          "monthly_total": 567,
+          "reason": "Multiple software vendors; review whether their services overlap. This is not proof of duplicate subscriptions."
+        }
+      ]
+    },
+    "job_profitability": {
+      "month": "2026-09",
+      "as_of_date": "2026-09-30",
+      "currency": "USD",
+      "revenue_basis": "quoted_price",
+      "excludes_unallocated_overhead": true,
+      "jobs": [
+        {
+          "job_id": "SEP-001",
+          "customer": "Westport Dental",
+          "job_type": "commercial_hvac",
+          "quoted_revenue": 12000,
+          "cash_received": 0,
+          "direct_expenses": 9232,
+          "labor_cost": 4000,
+          "labor_cost_source": "hours_times_rate",
+          "total_cost": 13232,
+          "profit": -1232,
+          "margin_percent": -10.27,
+          "cost_history_complete": true
+        },
+        {
+          "job_id": "SEP-002",
+          "customer": "Brookside Property Mgmt",
+          "job_type": "plumbing",
+          "quoted_revenue": 9000,
+          "cash_received": 0,
+          "direct_expenses": 2500,
+          "labor_cost": 3000,
+          "labor_cost_source": "hours_times_rate",
+          "total_cost": 5500,
+          "profit": 3500,
+          "margin_percent": 38.89,
+          "cost_history_complete": true
+        },
+        {
+          "job_id": "SEP-003",
+          "customer": "Maple Homeowners",
+          "job_type": "residential_hvac",
+          "quoted_revenue": 30000,
+          "cash_received": 30000,
+          "direct_expenses": 1600,
+          "labor_cost": 8000,
+          "labor_cost_source": "hours_times_rate",
+          "total_cost": 9600,
+          "profit": 20400,
+          "margin_percent": 68,
+          "cost_history_complete": true
+        },
+        {
+          "job_id": "SEP-004",
+          "customer": "Riverbend Apartments",
+          "job_type": "plumbing",
+          "quoted_revenue": 15070,
+          "cash_received": 15070,
+          "direct_expenses": 668,
+          "labor_cost": 5000,
+          "labor_cost_source": "hours_times_rate",
+          "total_cost": 5668,
+          "profit": 9402,
+          "margin_percent": 62.39,
+          "cost_history_complete": true
+        }
+      ]
+    },
+    "losing_jobs": {
+      "month": "2026-09",
+      "as_of_date": "2026-09-30",
+      "currency": "USD",
+      "revenue_basis": "quoted_price",
+      "excludes_unallocated_overhead": true,
+      "jobs": [
+        {
+          "job_id": "SEP-001",
+          "customer": "Westport Dental",
+          "job_type": "commercial_hvac",
+          "quoted_revenue": 12000,
+          "cash_received": 0,
+          "direct_expenses": 9232,
+          "labor_cost": 4000,
+          "labor_cost_source": "hours_times_rate",
+          "total_cost": 13232,
+          "profit": -1232,
+          "margin_percent": -10.27,
+          "cost_history_complete": true
+        }
+      ]
+    },
+    "margin_by_job_type": {
+      "month": "2026-09",
+      "as_of_date": "2026-09-30",
+      "currency": "USD",
+      "revenue_basis": "quoted_price",
+      "excludes_unallocated_overhead": true,
+      "job_types": [
+        {
+          "job_type": "commercial_hvac",
+          "job_count": 1,
+          "quoted_revenue": 12000,
+          "total_cost": 13232,
+          "profit": -1232,
+          "margin_percent": -10.27
+        },
+        {
+          "job_type": "plumbing",
+          "job_count": 2,
+          "quoted_revenue": 24070,
+          "total_cost": 11168,
+          "profit": 12902,
+          "margin_percent": 53.6
+        },
+        {
+          "job_type": "residential_hvac",
+          "job_count": 1,
+          "quoted_revenue": 30000,
+          "total_cost": 9600,
+          "profit": 20400,
+          "margin_percent": 68
+        }
+      ]
+    },
+    "cash_balance": {
+      "as_of_date": "2026-09-30",
+      "opening_balance_date": "2026-08-01",
+      "currency": "USD",
+      "opening_balance": 45000,
+      "cash_in": 105070,
+      "cash_out": 97900,
+      "balance": 52170,
+      "tax_reserve": 717,
+      "available_cash": 51453
+    },
+    "receivables": {
+      "as_of_date": "2026-09-30",
+      "currency": "USD",
+      "total_outstanding": 21000,
+      "overdue_total": 21000,
+      "aging": {
+        "current": 0,
+        "1_30": 21000,
+        "31_60": 0,
+        "61_90": 0,
+        "90_plus": 0
+      },
+      "customers": [
+        {
+          "customer": "Westport Dental",
+          "outstanding": 12000
+        },
+        {
+          "customer": "Brookside Property Mgmt",
+          "outstanding": 9000
+        }
+      ],
+      "invoices": [
+        {
+          "invoice_id": "INV-S01",
+          "job_id": "SEP-001",
+          "customer": "Westport Dental",
+          "due": "2026-09-20",
+          "outstanding": 12000,
+          "days_overdue": 10,
+          "aging_bucket": "1_30"
+        },
+        {
+          "invoice_id": "INV-S02",
+          "job_id": "SEP-002",
+          "customer": "Brookside Property Mgmt",
+          "due": "2026-09-25",
+          "outstanding": 9000,
+          "days_overdue": 5,
+          "aging_bucket": "1_30"
+        }
+      ]
+    }
+  }
+}

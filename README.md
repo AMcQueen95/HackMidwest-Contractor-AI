@@ -77,7 +77,7 @@ All arithmetic will happen in plain Python in `backend/app/finance/`. The agents
 | Model | Claude Opus 5.5 on Amazon Bedrock | Runs on AWS. Can fall back to the Anthropic API. |
 | Backend | FastAPI | Few files, async, and serves the frontend too. |
 | Data | pandas + CSV files | No database to set up. Uploading new CSVs replaces the in-memory dataset. |
-| Frontend | Static HTML + vanilla JS + Chart.js | No build step, and FastAPI serves it from one process. |
+| Frontend | React + JavaScript + Vite, Recharts for charts | Shared components render both the report and the chat's data cards. FastAPI serves the built files from one process. |
 
 ## Backend finance development
 
@@ -94,6 +94,23 @@ python scripts/demo_finance.py
 See the [finance function contract and accounting assumptions](docs/finance-contract.md)
 for agent/API integration. This section runs without model credentials or an API
 server. Agents and the API/UI remain separate implementation sections.
+
+## Frontend development
+
+The report page and chat window run on mock data taken from `scripts/demo_finance.py`
+output, so they need no backend yet. From the repository root:
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+Then open http://localhost:5173. `npm run build` writes `frontend/dist` for FastAPI to
+serve. In development, Vite forwards `/api` requests to FastAPI on port 8000.
+
+Not connected yet: chat input, file upload, and the AI text (all three show canned
+content). `frontend/src/api/index.js` names the endpoint each function will call.
 
 ## Planned project structure
 
@@ -117,7 +134,11 @@ server. Agents and the API/UI remain separate implementation sections.
 │   │       └── sample/             # sample books
 │   ├── tests/
 │   └── requirements.txt
-├── frontend/                       # index.html, app.js, styles.css
+├── frontend/                       # React app (Vite)
+│   └── src/
+│       ├── api/                    # the only code that talks to the backend; mock data for now
+│       ├── components/             # one component per finance function, used by report and chat
+│       └── lib/                    # number formatting, theme colors
 ├── scripts/
 │   └── generate_sample_data.py     # builds the sample books
 └── docs/
