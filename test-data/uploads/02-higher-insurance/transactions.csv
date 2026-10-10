@@ -1,0 +1,29 @@
+date,description,vendor,category,amount,job_id
+2026-08-01,Business insurance,Shop Insurer,insurance,-1000,
+2026-08-01,Dispatch subscription,Housecall Pro,software,-169,
+2026-08-01,Email subscription,Workspace,software,-36.43,
+2026-08-03,HVAC materials,HVAC Supply,materials,-4000,AUG-001
+2026-08-08,HVAC materials,HVAC Supply,materials,-3500,AUG-002
+2026-08-10,Invoice INV-A01 payment,Prairie Medical,income,22000,AUG-001
+2026-08-10,Local advertising,Local Ads,marketing,-1000,
+2026-08-15,Payroll first half,Ridgeline Payroll,payroll,-12000,
+2026-08-18,Residential HVAC materials,HVAC Supply,materials,-2500,AUG-003
+2026-08-20,Invoice INV-A02 payment,Oakwood Apartments,income,18000,AUG-002
+2026-08-28,Invoice INV-A03 payment,Cedar Homeowners,income,20000,AUG-003
+2026-08-31,Payroll second half,Ridgeline Payroll,payroll,-12000,
+2026-08-31,Fleet fuel,Fleet Fuel,fuel,-2000,
+2026-08-31,Shop rent utilities and overhead,Shop Operations,overhead,-6794.57,
+2026-09-01,Insurance at renewal,Shop Insurer,insurance,-1500,
+2026-09-01,Dispatch subscription,Housecall Pro,software,-169,
+2026-09-01,Second dispatch subscription,ServiceTitan,software,-398,
+2026-09-02,Residential HVAC materials,HVAC Supply,materials,-1600,SEP-003
+2026-09-04,Rooftop unit after supplier price increase,HVAC Supply,materials,-9232,SEP-001
+2026-09-07,Invoice INV-S03 payment,Maple Homeowners,income,30000,SEP-003
+2026-09-07,Plumbing materials,Plumbing Supply,materials,-2500,SEP-002
+2026-09-10,Local advertising,Local Ads,marketing,-1500,
+2026-09-15,Payroll first half,Ridgeline Payroll,payroll,-13000,
+2026-09-19,Plumbing materials,Plumbing Supply,materials,-668,SEP-004
+2026-09-25,Invoice INV-S04 payment,Riverbend Apartments,income,15070,SEP-004
+2026-09-30,Payroll second half,Ridgeline Payroll,payroll,-13000,
+2026-09-30,Fleet fuel,Fleet Fuel,fuel,-2700,
+2026-09-30,Shop rent utilities and overhead,Shop Operations,overhead,-6873,

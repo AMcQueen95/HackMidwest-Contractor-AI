@@ -1,0 +1,8 @@
+job_id,customer,job_type,start_date,end_date,quoted_price,labor_hours,status
+AUG-001,Prairie Medical,commercial_hvac,2026-08-01,2026-08-05,22000,120,completed
+AUG-002,Oakwood Apartments,commercial_hvac,2026-08-06,2026-08-15,18000,100,completed
+AUG-003,Cedar Homeowners,residential_hvac,2026-08-16,2026-08-25,20000,80,completed
+SEP-001,Westport Dental,commercial_hvac,2026-09-01,2026-09-15,12000,80,completed
+SEP-002,Brookside Property Mgmt,plumbing,2026-09-02,2026-09-18,9000,60,completed
+SEP-003,Maple Homeowners,residential_hvac,2026-09-01,2026-09-06,30000,160,completed
+SEP-004,Riverbend Apartments,plumbing,2026-09-18,2026-09-22,15070,100,completed
