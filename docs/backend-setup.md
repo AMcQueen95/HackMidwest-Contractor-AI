@@ -36,13 +36,22 @@ checks the returned value is `750`. It also verifies the OpenAPI schema and stop
 the server before exiting. This validates installed prerequisites; it does not
 validate the Toolbelt CFO application or call a model.
 
-`pytest --version` only confirms the test runner is installed. No application
-test suite exists at this stage.
+`pytest --version` only confirms the test runner is installed. Validate the data
+and finance component with its actual tests and handoff script:
+
+```bash
+python -m pytest backend/tests -q
+python scripts/demo_finance.py
+```
+
+See [the finance contract](finance-contract.md) for inputs, results, and accounting
+assumptions.
 
 ## Next backend section
 
-Implement the backend and its finance tools, add application tests and an
-application dependency manifest, and document the actual server startup command.
+The data loader, sample books, and finance tools are implemented and tested.
+The remaining sections are Strands agents and the API/UI, including an actual
+server startup command.
 Model integration will also need a verified provider, region, model ID, and
 working authentication. Add credential values securely through environment
 settings; do not commit them.

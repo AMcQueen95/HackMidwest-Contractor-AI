@@ -1,0 +1,3 @@
+# Runtime requirements for the data/finance component. Agents and API services
+# should extend their own requirements when their implementations land.
+pandas==3.0.6

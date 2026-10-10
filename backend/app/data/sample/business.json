@@ -1,0 +1,10 @@
+{
+  "name": "Ridgeline Heating & Air",
+  "currency": "USD",
+  "accounting_basis": "cash",
+  "opening_balance": 45000,
+  "opening_balance_date": "2026-08-01",
+  "as_of_date": "2026-09-30",
+  "labor_rate": 50,
+  "tax_reserve_rate": 0.1
+}

@@ -79,6 +79,22 @@ All arithmetic will happen in plain Python in `backend/app/finance/`. The agents
 | Data | pandas + CSV files | No database to set up. Uploading new CSVs replaces the in-memory dataset. |
 | Frontend | Static HTML + vanilla JS + Chart.js | No build step, and FastAPI serves it from one process. |
 
+## Backend finance development
+
+The sample books, validated loader, and nine finance functions are implemented.
+From the repository root:
+
+```bash
+bash scripts/setup_backend.sh
+source .venv/bin/activate
+python -m pytest backend/tests -q
+python scripts/demo_finance.py
+```
+
+See the [finance function contract and accounting assumptions](docs/finance-contract.md)
+for agent/API integration. This section runs without model credentials or an API
+server. Agents and the API/UI remain separate implementation sections.
+
 ## Planned project structure
 
 ```
