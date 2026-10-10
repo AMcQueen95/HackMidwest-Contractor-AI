@@ -69,6 +69,26 @@ flowchart LR
 
 All arithmetic will happen in plain Python in `backend/app/finance/`. The agents decide which numbers to pull and explain them, so they never make up figures.
 
+## Running the agent
+
+Set up the environment once with `bash scripts/setup_backend.sh`, then give it AWS credentials that have Bedrock access (`aws configure`, or `AWS_ACCESS_KEY_ID` / `AWS_SECRET_ACCESS_KEY`).
+
+```bash
+source .venv/bin/activate
+cd backend
+python -m app.agents "Why did profit drop in September?"   # one question
+python -m app.agents                                       # chat
+python -m pytest                                           # wiring tests, no AWS needed
+```
+
+| Variable | Default |
+| --- | --- |
+| `CFO_MODEL_ID` | `global.anthropic.claude-opus-5-5` |
+| `AWS_REGION` | `us-east-1` |
+| `CFO_MAX_TOKENS` | `16000` |
+
+Until `backend/app/finance/` exists, the agents read canned numbers from `backend/app/agents/stub_books.py`, and the CLI says which functions are stubbed. The function contract is at the top of `backend/app/agents/finance_api.py`. Each real function replaces its stub automatically.
+
 ## Tech stack
 
 | Layer | Choice | Why |
