@@ -50,8 +50,9 @@ assumptions.
 ## Next backend section
 
 The data loader, sample books, and finance tools are implemented and tested.
-The remaining sections are Strands agents and the API/UI, including an actual
-server startup command.
+The report API, purchase checks, and upload UI are connected. Follow the
+[live dashboard guide](live-dashboard.md) to start them and run browser tests.
+The remaining section is Strands agents and their chat/narrative integration.
 Model integration will also need a verified provider, region, model ID, and
 working authentication. Add credential values securely through environment
 settings; do not commit them.

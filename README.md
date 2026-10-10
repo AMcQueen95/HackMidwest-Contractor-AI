@@ -92,25 +92,35 @@ python scripts/demo_finance.py
 ```
 
 See the [finance function contract and accounting assumptions](docs/finance-contract.md)
-for agent/API integration. This section runs without model credentials or an API
-server. Agents and the API/UI remain separate implementation sections.
+for agent/API integration. The finance functions run independently without model
+credentials or an API server. The live interface is connected through FastAPI;
+see [live dashboard setup and testing](docs/live-dashboard.md).
 
 ## Frontend development
 
-The report page and chat window run on mock data taken from `scripts/demo_finance.py`
-output, so they need no backend yet. From the repository root:
+The report, purchase calculator, and upload dialog use live Python results.
+Start the backend from the repository root in one terminal:
+
+```bash
+.venv/bin/python -m uvicorn backend.app.main:app --reload --host 127.0.0.1 --port 8000
+```
+
+In a second terminal:
 
 ```bash
 cd frontend
-npm install
+npm ci
 npm run dev
 ```
 
-Then open http://localhost:5173. `npm run build` writes `frontend/dist` for FastAPI to
-serve. In development, Vite forwards `/api` requests to FastAPI on port 8000.
+Open the address printed by Vite in your local browser. `npm run build` writes
+`frontend/dist`; FastAPI serves those files if built before it starts. Vite
+forwards `/api` requests to FastAPI on port 8000 during development.
 
-Not connected yet: chat input, file upload, and the AI text (all three show canned
-content). `frontend/src/api/index.js` names the endpoint each function will call.
+Chat input and AI explanations remain unconnected and are labeled in the UI.
+Uploads validate all four files before replacing the current browser session's
+books. See [the live dashboard guide](docs/live-dashboard.md) for Windows commands,
+API contracts, upload behavior, and browser integration tests.
 
 ## Planned project structure
 

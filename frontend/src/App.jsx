@@ -1,6 +1,5 @@
-import { useEffect, useMemo, useState } from 'react'
-import { getReport, streamNarrative } from './api'
-import { parseNarrative } from './api/mock/narrative'
+import { useEffect, useState } from 'react'
+import { getReport } from './api'
 import AiCaption from './components/AiCaption'
 import ChatWidget from './components/ChatWidget'
 import ExpenseChanges from './components/ExpenseChanges'
@@ -14,7 +13,7 @@ import Receivables from './components/Receivables'
 import RecurringCharges from './components/RecurringCharges'
 import Section from './components/Section'
 import UploadDialog from './components/UploadDialog'
-import { monthName } from './lib/format'
+import { monthName, shortDate } from './lib/format'
 import { ThemeContext } from './lib/theme'
 
 const THEME_KEY = 'toolbelt-theme'
@@ -32,8 +31,9 @@ export default function App() {
   const [theme, setTheme] = useState(savedTheme)
   const [month, setMonth] = useState(null)
   const [report, setReport] = useState(null)
-  const [narrativeText, setNarrativeText] = useState('')
-  const [narrativeDone, setNarrativeDone] = useState(false)
+  const [refresh, setRefresh] = useState(0)
+  const [error, setError] = useState('')
+  const [loading, setLoading] = useState(true)
   const [chatOpen, setChatOpen] = useState(false)
   const [uploadOpen, setUploadOpen] = useState(false)
 
@@ -48,25 +48,41 @@ export default function App() {
 
   useEffect(() => {
     const controller = new AbortController()
-    setNarrativeText('')
-    setNarrativeDone(false)
-    getReport(month).then((next) => {
-      if (controller.signal.aborted) return
-      setReport(next)
-      streamNarrative(
-        next.month,
-        (chunk) => setNarrativeText((text) => text + chunk),
-        controller.signal,
-      ).then(() => {
-        if (!controller.signal.aborted) setNarrativeDone(true)
+    setLoading(true)
+    setError('')
+    getReport(month, controller.signal)
+      .then((next) => {
+        if (!controller.signal.aborted) setReport(next)
       })
-    })
+      .catch((error) => {
+        if (!controller.signal.aborted) setError(error.message)
+      })
+      .finally(() => {
+        if (!controller.signal.aborted) setLoading(false)
+      })
     return () => controller.abort()
-  }, [month])
+  }, [month, refresh])
 
-  const narrative = useMemo(() => parseNarrative(narrativeText), [narrativeText])
+  const uploaded = () => {
+    setUploadOpen(false)
+    setReport(null)
+    setMonth(null)
+    setRefresh((value) => value + 1)
+  }
 
-  if (!report) return null
+  if (error || !report || loading) {
+    return (
+      <main className="page">
+        <h1>Toolbelt CFO</h1>
+        {error ? (
+          <>
+            <p role="alert" className="is-bad">{error}</p>
+            <button className="button" onClick={() => setRefresh((value) => value + 1)}>Try again</button>
+          </>
+        ) : <p role="status">Loading your books…</p>}
+      </main>
+    )
+  }
   const name = monthName(report.month)
 
   return (
@@ -87,7 +103,10 @@ export default function App() {
         </h1>
 
         <HeadlineTiles report={report} />
-        <AiCaption narrative={narrative} done={narrativeDone} onOpenChat={() => setChatOpen(true)} />
+        {!report.monthly_summary.period_complete && (
+          <p className="footnote">Partial reporting month: recorded transactions through {shortDate(report.monthly_summary.period_end)}.</p>
+        )}
+        <AiCaption available={false} />
 
         <div className="grid-2">
           <Section
@@ -146,13 +165,12 @@ export default function App() {
               </InfoTip>
             }
           >
-            <PurchaseCheck />
+            <PurchaseCheck datasetRevision={report.dataset_revision} />
           </Section>
         </div>
 
         <p className="page-footer">
-          Numbers come straight from the books. The AI explains them and never
-          calculates them.
+          Figures are calculated from your books. AI explanations are not connected yet.
         </p>
       </main>
 
@@ -160,11 +178,8 @@ export default function App() {
         open={chatOpen}
         onOpen={() => setChatOpen(true)}
         onClose={() => setChatOpen(false)}
-        narrative={narrative}
-        narrativeDone={narrativeDone}
-        month={report.month}
       />
-      {uploadOpen && <UploadDialog onClose={() => setUploadOpen(false)} />}
+      {uploadOpen && <UploadDialog isSample={report.is_sample} onUploaded={uploaded} onClose={() => setUploadOpen(false)} />}
     </ThemeContext.Provider>
   )
 }

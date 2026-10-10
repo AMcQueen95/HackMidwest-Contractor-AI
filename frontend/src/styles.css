@@ -1215,7 +1215,28 @@ td > .pill:first-child {
 .dialog-footer {
   display: flex;
   justify-content: flex-end;
+  flex-wrap: wrap;
   gap: 10px;
+}
+
+.file-choice {
+  display: grid;
+  gap: 4px;
+  min-width: 0;
+}
+
+.file-choice span {
+  font-size: 13.5px;
+  color: var(--ink-2);
+}
+
+.file-choice input {
+  max-width: 100%;
+  font-size: 13px;
+}
+
+.upload-error {
+  margin-top: 14px;
 }
 
 /* Smaller screens */

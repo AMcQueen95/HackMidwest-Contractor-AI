@@ -87,7 +87,8 @@ For upload integration, gather all four named files and call
 new snapshot before returning `Books`. Replace the current dataset only after
 success; catch `BooksValidationError` to return an appropriate API validation
 error. The function neither changes an existing dataset nor stores uploaded
-files. Session isolation and the HTTP upload route belong to the API section.
+files. The [live dashboard API](live-dashboard.md) implements browser-session
+isolation and this upload route.
 
 ## Accounting and interpretation
 

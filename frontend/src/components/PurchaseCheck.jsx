@@ -2,24 +2,33 @@ import { useEffect, useState } from 'react'
 import { checkAffordability } from '../api'
 import Affordability from './Affordability'
 
-export default function PurchaseCheck() {
+export default function PurchaseCheck({ datasetRevision }) {
   const [input, setInput] = useState('15,000')
   const [result, setResult] = useState(null)
+  const [error, setError] = useState('')
+  const [loading, setLoading] = useState(false)
   const amount = Number(input.replace(/[^0-9.]/g, ''))
 
   useEffect(() => {
+    setResult(null)
+    setError('')
+    setLoading(false)
     if (!(amount > 0)) {
-      setResult(null)
       return
     }
-    let stale = false
-    checkAffordability(amount).then((data) => {
-      if (!stale) setResult(data)
-    })
+    const controller = new AbortController()
+    setLoading(true)
+    const timeout = setTimeout(() => {
+      checkAffordability(amount, controller.signal)
+        .then((data) => { if (!controller.signal.aborted) setResult(data) })
+        .catch((error) => { if (!controller.signal.aborted) setError(error.message) })
+        .finally(() => { if (!controller.signal.aborted) setLoading(false) })
+    }, 200)
     return () => {
-      stale = true
+      clearTimeout(timeout)
+      controller.abort()
     }
-  }, [amount])
+  }, [amount, datasetRevision])
 
   const tidy = () => {
     if (amount > 0) setInput(amount.toLocaleString('en-US'))
@@ -40,7 +49,9 @@ export default function PurchaseCheck() {
           />
         </span>
       </label>
-      {result ? <Affordability data={result} /> : <p className="empty">Enter an amount to check.</p>}
+      {error ? <p role="alert" className="is-bad">{error}</p>
+        : result ? <Affordability data={result} />
+          : <p className="empty" role="status">{loading ? 'Checking your books…' : 'Enter an amount to check.'}</p>}
     </div>
   )
 }

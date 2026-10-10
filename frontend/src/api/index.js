@@ -1,45 +1,38 @@
-// The only place the UI talks to the backend. Everything here returns mock
-// data for now; each function names the real endpoint it will call.
-import books from './mock/books.json'
-import { mockAffordability } from './mock/affordability'
-import { NARRATIVES } from './mock/narrative'
-import { sampleConversation } from './mock/chat'
-
-const MONTHS = Object.keys(books).sort()
-
-const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms))
-
-// GET /api/report?month=YYYY-MM
-export async function getReport(month) {
-  const selected = MONTHS.includes(month) ? month : MONTHS[MONTHS.length - 1]
-  const previous = MONTHS[MONTHS.indexOf(selected) - 1]
-  return {
-    ...books[selected],
-    month: selected,
-    months: MONTHS,
-    is_sample: true,
-    previous_summary: previous ? books[previous].monthly_summary : null,
-    narrative: null,
+// All finance data comes from the Python API. Same-origin requests retain the
+// browser's dataset cookie through Vite's proxy or the built FastAPI app.
+async function request(path, options = {}) {
+  let response
+  try {
+    response = await fetch(path, { credentials: 'same-origin', ...options })
+  } catch (error) {
+    if (error.name === 'AbortError') throw error
+    throw new Error('Could not reach the backend. Check that the API is running and try again.')
   }
-}
-
-// GET /api/report/narrative?month=  (SSE). Calls onText with each chunk.
-export async function streamNarrative(month, onText, signal) {
-  const words = NARRATIVES[month].split(/(?<=\s)/)
-  await sleep(900)
-  for (const word of words) {
-    if (signal?.aborted) return
-    onText(word)
-    await sleep(22)
+  if (!response.ok) {
+    const body = await response.json().catch(() => ({}))
+    const detail = Array.isArray(body.detail)
+      ? body.detail.map((item) => item.msg).join('; ')
+      : body.detail
+    throw new Error(detail || `Request failed (${response.status}). Please try again.`)
   }
+  return response.json()
 }
 
-// GET /api/affordability?amount=
-export async function checkAffordability(amount) {
-  return mockAffordability(books[MONTHS[MONTHS.length - 1]], amount)
+export function getReport(month, signal) {
+  const query = month == null ? '' : `?${new URLSearchParams({ month })}`
+  return request(`/api/report${query}`, { signal })
 }
 
-// Stands in for POST /api/ask until the agents are connected.
-export function getSampleConversation() {
-  return sampleConversation(books[MONTHS[MONTHS.length - 1]])
+export function checkAffordability(amount, signal) {
+  return request(`/api/affordability?${new URLSearchParams({ amount })}`, { signal })
+}
+
+export function uploadBooks(files) {
+  const body = new FormData()
+  for (const file of Object.values(files)) body.append('files', file, file.name)
+  return request('/api/upload', { method: 'POST', body })
+}
+
+export function resetBooks() {
+  return request('/api/reset', { method: 'POST' })
 }

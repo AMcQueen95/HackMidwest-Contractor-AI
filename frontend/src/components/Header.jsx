@@ -26,8 +26,8 @@ export default function Header({ report, month, onMonth, theme, onTheme, onUploa
         </div>
 
         {report && (
-          <div className="dataset-badge" title="You are looking at the built-in sample books">
-            {report.is_sample && <span className="dataset-tag">Sample data</span>}
+          <div className="dataset-badge" title={report.is_sample ? 'Built-in sample books' : 'Your uploaded books for this browser session'}>
+            <span className="dataset-tag">{report.is_sample ? 'Sample data' : 'Your books'}</span>
             <span className="dataset-name">{report.business.name}</span>
           </div>
         )}
