@@ -12,6 +12,8 @@ Owners upload their books (or use sample data) and ask plain questions. A team o
 
 Built at [Hack Midwest](https://hackmidwest.com/), October 10–11, 2026, in Kansas City.
 
+**[View the project overview →](https://claude.ai/artifact/RVDpWGCVuj2weiRAZy1oqC)** It covers the pitch, agent design, tech stack, 24-hour build plan and demo script.
+
 ## Sponsor challenges
 
 | Challenge | How we address it |
