@@ -1,5 +1,6 @@
-import { useEffect, useState } from 'react'
-import { getReport } from './api'
+import { useEffect, useMemo, useState } from 'react'
+import { getReport, streamNarrative } from './api'
+import { parseNarrative } from './api/mock/narrative'
 import AiCaption from './components/AiCaption'
 import ChatWidget from './components/ChatWidget'
 import ExpenseChanges from './components/ExpenseChanges'
@@ -34,6 +35,9 @@ export default function App() {
   const [refresh, setRefresh] = useState(0)
   const [error, setError] = useState('')
   const [loading, setLoading] = useState(true)
+  const [narrativeText, setNarrativeText] = useState('')
+  const [narrativeDone, setNarrativeDone] = useState(false)
+  const [narrativeError, setNarrativeError] = useState('')
   const [chatOpen, setChatOpen] = useState(false)
   const [uploadOpen, setUploadOpen] = useState(false)
 
@@ -62,6 +66,28 @@ export default function App() {
       })
     return () => controller.abort()
   }, [month, refresh])
+
+  const aiAvailable = report?.agent_status?.available ?? false
+  useEffect(() => {
+    const controller = new AbortController()
+    setNarrativeText('')
+    setNarrativeError('')
+    setNarrativeDone(!aiAvailable)
+    if (report && aiAvailable) {
+      streamNarrative(report.month,
+        (chunk) => { if (!controller.signal.aborted) setNarrativeText((text) => text + chunk) },
+        controller.signal,
+        () => { if (!controller.signal.aborted) setNarrativeText('') },
+      ).catch((error) => {
+        if (!controller.signal.aborted) setNarrativeError(error.message)
+      }).finally(() => {
+        if (!controller.signal.aborted) setNarrativeDone(true)
+      })
+    }
+    return () => controller.abort()
+  }, [report, aiAvailable])
+
+  const narrative = useMemo(() => parseNarrative(narrativeText), [narrativeText])
 
   const uploaded = () => {
     setUploadOpen(false)
@@ -106,7 +132,8 @@ export default function App() {
         {!report.monthly_summary.period_complete && (
           <p className="footnote">Partial reporting month: recorded transactions through {shortDate(report.monthly_summary.period_end)}.</p>
         )}
-        <AiCaption available={false} />
+        <AiCaption available={aiAvailable} narrative={narrative} done={narrativeDone}
+          error={narrativeError} message={report.agent_status?.message} onOpenChat={() => setChatOpen(true)} />
 
         <div className="grid-2">
           <Section
@@ -170,14 +197,22 @@ export default function App() {
         </div>
 
         <p className="page-footer">
-          Figures are calculated from your books. AI explanations are not connected yet.
+          Figures are calculated from your books. AI analysis is available when configured.
         </p>
       </main>
 
       <ChatWidget
+        key={`${report.dataset_revision}:${report.month}`}
         open={chatOpen}
         onOpen={() => setChatOpen(true)}
         onClose={() => setChatOpen(false)}
+        narrative={narrative}
+        narrativeDone={narrativeDone}
+        narrativeError={narrativeError}
+        month={report.month}
+        datasetRevision={report.dataset_revision}
+        available={aiAvailable}
+        unavailableMessage={report.agent_status?.message}
       />
       {uploadOpen && <UploadDialog isSample={report.is_sample} onUploaded={uploaded} onClose={() => setUploadOpen(false)} />}
     </ThemeContext.Provider>

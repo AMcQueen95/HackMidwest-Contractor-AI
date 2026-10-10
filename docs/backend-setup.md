@@ -52,10 +52,10 @@ assumptions.
 The data loader, sample books, and finance tools are implemented and tested.
 The report API, purchase checks, and upload UI are connected. Follow the
 [live dashboard guide](live-dashboard.md) to start them and run browser tests.
-The remaining section is Strands agents and their chat/narrative integration.
-Model integration will also need a verified provider, region, model ID, and
-working authentication. Add credential values securely through environment
-settings; do not commit them.
+Strands chat and narrative integration are also implemented. Offline checks use
+fake agents. Live model validation needs an accessible provider/model and working
+authentication. Configure `backend/.env` for local development or secure cloud
+environment settings; do not commit credential values.
 
 Cloud tasks already have isolated environments. Use the existing checkout; create
 a Git worktree only when explicitly requested. Virtual environment files can be

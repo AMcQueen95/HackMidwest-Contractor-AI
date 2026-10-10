@@ -1,19 +1,54 @@
 """Live finance API. Start with: python -m uvicorn backend.app.main:app."""
 
+import json
 from pathlib import Path
+from collections.abc import AsyncIterator
 
 from fastapi import FastAPI, File, HTTPException, Request, Response, UploadFile
-from fastapi.responses import JSONResponse
+from fastapi.responses import JSONResponse, StreamingResponse
 from fastapi.staticfiles import StaticFiles
+from pydantic import BaseModel, Field
 from starlette.concurrency import run_in_threadpool
 
 from .data import Books, BooksValidationError, load_books, load_books_from_uploads
 from .data.loader import COLUMNS, MAX_FILE_BYTES
 from .datasets import DatasetStore
 from .finance import affordability, build_report
+from .agent_context import use_dataset
+from .agents import streaming
+from .config import agent_status
 
 COOKIE_NAME = "toolbelt_session"
 FRONTEND_DIST = Path(__file__).resolve().parents[2] / "frontend" / "dist"
+
+
+class AskRequest(BaseModel):
+    question: str = Field(min_length=1, max_length=4000)
+    session_id: str | None = Field(default=None, max_length=128)
+    month: str | None = None
+
+
+def _sse(events: AsyncIterator[dict]) -> StreamingResponse:
+    async def body():
+        async for event in events:
+            yield f"data: {json.dumps(event, default=str)}\n\n"
+
+    return StreamingResponse(
+        body(),
+        media_type="text/event-stream",
+        headers={"Cache-Control": "no-cache", "X-Accel-Buffering": "no"},
+    )
+
+
+def _set_cookie(request: Request, response: Response, token: str):
+    if request.cookies.get(COOKIE_NAME) != token:
+        response.set_cookie(
+            COOKIE_NAME,
+            token,
+            httponly=True,
+            samesite="lax",
+            secure=request.url.scheme == "https",
+        )
 
 
 def create_app(
@@ -47,14 +82,55 @@ def create_app(
         return {"status": "ok"}
 
     @app.get("/api/report")
-    def report(request: Request, month: str | None = None):
-        dataset = store.get(request.cookies.get(COOKIE_NAME))
+    def report(request: Request, response: Response, month: str | None = None):
+        token, dataset = store.ensure(request.cookies.get(COOKIE_NAME))
+        _set_cookie(request, response, token)
         return build_report(
             dataset.books,
             month,
             is_sample=dataset.is_sample,
             dataset_revision=dataset.revision,
-        )
+        ) | {"agent_status": agent_status()}
+
+    @app.get("/api/report/narrative")
+    def narrative(request: Request, month: str | None = None):
+        token, dataset = store.ensure(request.cookies.get(COOKIE_NAME))
+        selected = build_report(dataset.books, month)["month"]
+
+        async def events():
+            with use_dataset(dataset.books, dataset.agent_state):
+                try:
+                    async for chunk in streaming.stream_narrative(selected):
+                        yield {"reset": True} if chunk is None else {"text": chunk}
+                except Exception as exc:
+                    yield {"error": str(exc)}
+                yield {"done": True}
+
+        response = _sse(events())
+        _set_cookie(request, response, token)
+        return response
+
+    @app.post("/api/ask")
+    def ask(request: Request, body: AskRequest):
+        if not body.question.strip():
+            raise HTTPException(422, "Ask a question first.")
+        token, dataset = store.ensure(request.cookies.get(COOKIE_NAME))
+        selected = build_report(dataset.books, body.month)["month"]
+
+        async def events():
+            with use_dataset(dataset.books, dataset.agent_state):
+                try:
+                    async for event in streaming.ask_stream(
+                        body.question.strip(), body.session_id, selected
+                    ):
+                        yield event
+                except Exception as exc:
+                    yield {"type": "error", "message": str(exc)}
+                    yield {"type": "done"}
+
+        response = _sse(events())
+        _set_cookie(request, response, token)
+        return response
 
     @app.get("/api/affordability")
     def purchase_check(request: Request, amount: str):
@@ -93,6 +169,7 @@ def create_app(
             return candidate_report | {
                 "is_sample": False,
                 "dataset_revision": dataset.revision,
+                "agent_status": agent_status(),
             }
         finally:
             for file in files:
@@ -104,7 +181,7 @@ def create_app(
         response.delete_cookie(COOKIE_NAME)
         return build_report(
             store.sample.books, is_sample=True, dataset_revision="sample"
-        )
+        ) | {"agent_status": agent_status()}
 
     directory = frontend_directory if frontend_directory is not None else FRONTEND_DIST
     if directory.is_dir():

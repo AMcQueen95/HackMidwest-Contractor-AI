@@ -1,13 +1,13 @@
 import { SparkIcon } from './Icons'
 
-export default function AiCaption({ narrative, done, onOpenChat, available = true }) {
+export default function AiCaption({ narrative, done, onOpenChat, available = true, error, message }) {
   if (!available) {
     return (
       <div className="caption">
         <span className="caption-icon"><SparkIcon /></span>
         <div className="caption-body">
           <div className="caption-label">AI analysis</div>
-          <p>AI explanations are not connected yet. Your report and purchase checks use live financial calculations.</p>
+          <p>{message || 'AI analysis is not configured. Your financial calculations are still available.'}</p>
         </div>
       </div>
     )
@@ -20,7 +20,9 @@ export default function AiCaption({ narrative, done, onOpenChat, available = tru
       </span>
       <div className="caption-body">
         <div className="caption-label">Your CFO's read</div>
-        {waiting ? (
+        {error ? <p role="alert" className="is-bad">The written report could not load: {error}</p> : waiting && done ? (
+          <p>The AI returned no summary. You can still ask a question in chat.</p>
+        ) : waiting ? (
           <div className="skeleton" aria-label="Writing summary">
             <span />
             <span />
@@ -32,7 +34,7 @@ export default function AiCaption({ narrative, done, onOpenChat, available = tru
           </p>
         )}
       </div>
-      <button type="button" className="button button-quiet" onClick={onOpenChat} disabled={waiting}>
+      <button type="button" className="button button-quiet" onClick={onOpenChat} disabled={waiting && !done}>
         See issues and next steps
       </button>
     </div>

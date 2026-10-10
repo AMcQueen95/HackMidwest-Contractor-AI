@@ -2,7 +2,8 @@
 
 The dashboard, purchase calculator, and four-file upload dialog use the Python
 finance API. Canned finance data is no longer used by the live interface. Agent
-chat and AI narratives remain unconnected and are labeled accordingly.
+chat and written reports use Strands when AI provider access is configured.
+Without credentials, the financial calculations continue to work and chat is disabled.
 
 ## Setup
 
@@ -24,6 +25,13 @@ npm ci
 ```
 
 ## Start development in two terminals
+
+For optional AI features, copy `backend/.env.example` to `backend/.env` only if
+that file does not already exist. Set `ANTHROPIC_API_KEY` locally and verify your
+configured model IDs are accessible to your account. `MODEL_PROVIDER=bedrock`
+uses AWS instead; see the example file and agents README. Never commit secrets.
+Restart the API after changing configuration. No model credentials are needed
+for the dashboard, purchase calculator, or uploads.
 
 In terminal one, from the repository root:
 
@@ -62,15 +70,21 @@ directory. Use one backend worker: uploaded datasets are stored in process memor
    The $15,000 purchase fails the one-month reserve policy.
 2. Select August. Monthly profit should be $15,000. Cash and receivables retain
    their labeled September 30 snapshot date.
-3. Copy the four sample files from `backend/app/data/sample` to a separate
-   directory. In that copy's `transactions.csv`, change September insurance
-   from `-1260` to `-1500`.
+3. Use the four files in `test-data/uploads/02-higher-insurance`.
+   September insurance is already changed from `-1260` to `-1500`.
 4. Choose **Use your own books**, select the four files, and submit. Expenses
    become $53,140 and loss $8,070. The purchase shortfall becomes $16,903. The
    badge changes from **Sample data** to **Your books**.
-5. Try uploading an invoices file without required columns. The dialog should
+5. Upload the four files from `test-data/uploads/03-invalid-invoices`.
+   The invoices file has missing columns. The dialog should
    report the error, remain open, and retain the previous books.
 6. To restore the sample, open the upload dialog and choose **Use sample books**.
+
+With provider credentials configured, also check that the written report loads
+and chat answers a question such as "How much did I spend in September?".
+After uploading the higher-insurance set, chat should use $53,140 expenses and
+start a new conversation. Another browser should still use the sample books.
+If the provider fails, the UI should show an error and leave the dashboard usable.
 
 Uploads replace only this browser session's books; another browser starts with
 the sample. Sessions expire after an hour of inactivity and can be evicted when
@@ -101,19 +115,34 @@ Chromium install, set `TOOLBELT_CHROMIUM_PATH` to its executable instead of
 downloading Playwright's browser. `TOOLBELT_TEST_PYTHON` can select a different
 Python environment; otherwise the suite uses the repository's `.venv`.
 
+Offline backend tests exercise streamed agents with fake model responses,
+including simultaneous browsers and tool threads. Browser tests use the real
+finance API and controlled AI event streams to check narrative rendering, chat
+cards, follow-ups, history reset, and provider errors. The suite disables real
+Anthropic calls in its server process, even if your local key is configured.
+
+Real model checks are opt-in, require provider access, and incur model charges:
+
+```bash
+RUN_LIVE_TESTS=1 .venv/bin/python -m pytest backend/tests/test_agents_live.py -v
+```
+
 ## HTTP contract
 
 | Route | Behavior |
 | --- | --- |
 | `GET /api/health` | Returns `{"status":"ok"}` |
 | `GET /api/report?month=YYYY-MM` | Complete report; month defaults to the as-of month |
+| `GET /api/report/narrative?month=YYYY-MM` | Streamed AI written report for the active browser's books |
+| `POST /api/ask` | JSON `question`, optional `session_id` and `month`; streamed AI response |
 | `GET /api/affordability?amount=15000` | Active books and the last complete month's reserve |
 | `POST /api/upload` | Multipart field `files`, repeated once per required file; returns the new report |
 | `POST /api/reset` | Restores sample books and clears the current browser's dataset cookie |
 
 Report metadata includes `month`, available `months`, `previous_summary`,
-`is_sample`, and `dataset_revision`, followed by the existing finance result
-objects. `narrative` is `null` until agent integration. Months cover the
+`is_sample`, `dataset_revision`, and `agent_status`, followed by the existing finance result
+objects. `agent_status.available` indicates configuration, not verified model access.
+`narrative` remains `null`; written text comes from the separate stream. Months cover the
 opening-balance/as-of window, including months with no transactions. Purchases
 always use snapshot cash, regardless of the selected report month.
 
@@ -123,6 +152,8 @@ missing-parameter errors use FastAPI's standard validation list. State changes
 only after validation and complete report construction succeed. Requests retain
 an HTTP-only, same-origin dataset cookie through Vite's proxy.
 
-Aidan's agent integration should use the active `Books` snapshot from the same
-dataset store. Narrative and ask endpoints are left for that work; no model
-provider, credentials, or model ID is assumed by this section.
+Agents use a request-local books context copied into Strands tool threads.
+Written-report caches and chat sessions belong to each browser dataset, including
+sample datasets. A valid upload creates fresh AI state; rejected uploads preserve
+it. Chat retains at most 32 conversations per dataset. Streaming failures emit an
+error and completion event instead of leaving the UI waiting indefinitely.

@@ -1042,6 +1042,13 @@ td > .pill:first-child {
   list-style: disc;
 }
 
+.message-error {
+  color: var(--bad);
+  background: var(--bad-soft);
+  border-radius: 8px;
+  padding: 8px 10px;
+}
+
 .message-kicker {
   font-size: 12px;
   font-weight: 600;

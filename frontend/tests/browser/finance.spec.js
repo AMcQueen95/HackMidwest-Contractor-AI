@@ -29,7 +29,9 @@ test('dashboard, month selection, and purchase checks use the live API', async (
   await expect(page.locator('.tile-value').nth(1)).toHaveText('$52,900')
   await page.getByLabel(/How much is the purchase/).fill('1000000')
   await expect(page.locator('.affordability .verdict')).toContainText('$1,001,447')
-  await expect(page.getByText('AI explanations are not connected yet. Your report and purchase checks use live financial calculations.')).toBeVisible()
+  await expect(page.getByText('AI analysis is not configured. Your financial calculations are still available.')).toBeVisible()
+  await page.getByRole('button', { name: 'Ask your CFO', exact: true }).click()
+  await expect(page.getByPlaceholder('Ask about your books')).toBeDisabled()
   expect(errors).toEqual([])
 })
 
@@ -71,4 +73,89 @@ test('a failed report request shows an error and can be retried', async ({ page 
   await page.unroute('**/api/report')
   await page.getByRole('button', { name: 'Try again' }).click()
   await expect(page.locator('.tile-value').nth(1)).toHaveText('$52,900')
+})
+
+// Model responses are controlled here; reports/uploads still use the actual API.
+async function enableAi(page) {
+  await page.route(/\/api\/report(?:\?.*)?$/, async (route) => {
+    const response = await route.fetch()
+    const report = await response.json()
+    await route.fulfill({ response, json: { ...report, agent_status: { available: true, message: '' } } })
+  })
+}
+
+function events(items) {
+  return items.map((event) => `data: ${JSON.stringify(event)}\n\n`).join('')
+}
+
+test('AI narrative and chat retain live books and reset after upload', async ({ page }) => {
+  const errors = []
+  page.on('pageerror', (error) => errors.push(error.message))
+  await enableAi(page)
+  await page.route('**/api/report/narrative?*', async (route) => {
+    const report = await (await page.request.get('/api/report')).json()
+    await route.fulfill({ contentType: 'text/event-stream', body: events([
+      { text: 'A preamble.' }, { reset: true },
+      { text: `Expenses are $${report.monthly_summary.expenses.toLocaleString('en-US')}.\n\nIssues\n- Review insurance.\n\nRecommendations\n- Check your policy.` },
+      { done: true },
+    ]) })
+  })
+  const requests = []
+  await page.route('**/api/ask', async (route) => {
+    const request = route.request().postDataJSON()
+    requests.push(request)
+    const report = await (await page.request.get('/api/report')).json()
+    await route.fulfill({ contentType: 'text/event-stream', body: events([
+      { type: 'session', session_id: request.session_id || `chat-${requests.length}` },
+      { type: 'text', text: 'Let me look.' }, { type: 'text_reset' },
+      { type: 'status', text: 'Consulted the expense analyst' },
+      { type: 'text', text: `Your expenses are $${report.monthly_summary.expenses.toLocaleString('en-US')}.` },
+      { type: 'card', card: { type: 'receivables', data: report.receivables } },
+      { type: 'done' },
+    ]) })
+  })
+  await page.goto('/')
+  await expect(page.locator('.caption-body')).toContainText('Expenses are $52,900.')
+  await expect(page.locator('.caption-body')).not.toContainText('A preamble')
+  await page.getByRole('button', { name: 'Ask your CFO', exact: true }).click()
+  const input = page.getByPlaceholder('Ask about your books')
+  await input.fill('How much did I spend?')
+  await page.getByRole('button', { name: 'Send', exact: true }).click()
+  await expect(page.locator('.message-assistant').last()).toContainText('Your expenses are $52,900.')
+  await expect(page.locator('.message-assistant').last()).not.toContainText('Let me look')
+  await expect(page.locator('.data-card')).toContainText('Who owes you')
+  await input.fill('What about insurance?')
+  await page.getByRole('button', { name: 'Send', exact: true }).click()
+  await expect(page.locator('.data-card')).toHaveCount(2)
+  expect(requests[0].session_id).toBeNull()
+  expect(requests[1].session_id).toBe('chat-1')
+  await page.getByRole('button', { name: 'Close chat' }).click()
+  await selectBooks(page)
+  await expect(page.locator('.caption-body')).toContainText('Expenses are $53,140.')
+  await page.getByRole('button', { name: 'Ask your CFO', exact: true }).click()
+  await expect(page.locator('.data-card')).toHaveCount(0)
+  await input.fill('How much did I spend now?')
+  await page.getByRole('button', { name: 'Send', exact: true }).click()
+  await expect(page.locator('.message-assistant').last()).toContainText('Your expenses are $53,140.')
+  expect(requests[2].session_id).toBeNull()
+  expect(errors).toEqual([])
+})
+
+test('model errors finish loading and keep the finance report usable', async ({ page }) => {
+  await enableAi(page)
+  await page.route('**/api/report/narrative?*', (route) => route.fulfill({
+    contentType: 'text/event-stream', body: events([{ error: 'Model unavailable' }, { done: true }]),
+  }))
+  await page.route('**/api/ask', (route) => route.fulfill({ contentType: 'text/event-stream', body: events([
+    { type: 'error', message: 'Model unavailable' }, { type: 'done' },
+  ]) }))
+  await page.goto('/')
+  await expect(page.locator('.caption-body')).toContainText('The written report could not load: Model unavailable')
+  await expect(page.locator('.tile-value').nth(1)).toHaveText('$52,900')
+  await page.getByRole('button', { name: 'Ask your CFO', exact: true }).click()
+  await page.getByPlaceholder('Ask about your books').fill('Why did profit drop?')
+  await page.getByRole('button', { name: 'Send', exact: true }).click()
+  await expect(page.locator('.message-assistant').last()).toContainText('Model unavailable')
+  await expect(page.getByPlaceholder('Ask about your books')).toBeEnabled()
+  await expect(page.locator('.chat .skeleton')).toHaveCount(0)
 })

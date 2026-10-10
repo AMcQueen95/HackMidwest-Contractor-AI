@@ -74,7 +74,7 @@ All arithmetic will happen in plain Python in `backend/app/finance/`. The agents
 | Layer | Choice | Why |
 | --- | --- | --- |
 | Agents | [Strands Agents SDK](https://github.com/strands-agents/sdk-python) (Python) | Required for the AWS challenge. Its agents-as-tools pattern fits a CFO orchestrator with specialists. |
-| Model | Claude Opus 5.5 on Amazon Bedrock | Runs on AWS. Can fall back to the Anthropic API. |
+| Models | Claude Sonnet 5.5 (CFO) and Haiku 5.5 (specialists) via the Anthropic API; configurable Bedrock option | See `backend/.env.example` for provider and model settings. |
 | Backend | FastAPI | Few files, async, and serves the frontend too. |
 | Data | pandas + CSV files | No database to set up. Uploading new CSVs replaces the in-memory dataset. |
 | Frontend | React + JavaScript + Vite, Recharts for charts | Shared components render both the report and the chat's data cards. FastAPI serves the built files from one process. |
@@ -117,10 +117,32 @@ Open the address printed by Vite in your local browser. `npm run build` writes
 `frontend/dist`; FastAPI serves those files if built before it starts. Vite
 forwards `/api` requests to FastAPI on port 8000 during development.
 
-Chat input and AI explanations remain unconnected and are labeled in the UI.
+Chat and AI explanations use Aidan's Strands agents when model access is configured.
+Without an API key, the finance dashboard, uploads, and purchase checks still work.
 Uploads validate all four files before replacing the current browser session's
 books. See [the live dashboard guide](docs/live-dashboard.md) for Windows commands,
 API contracts, upload behavior, and browser integration tests.
+
+## Agents
+
+Four Strands agents live in [`backend/app/agents/`](backend/app/agents/). The CFO
+Advisor calls the expense, job profitability, and cash flow specialists, which
+use the finance functions. If `backend/.env` does not exist, copy
+`backend/.env.example` to it and set `ANTHROPIC_API_KEY` locally. Never commit the key.
+The provider and model IDs are configurable; verify your account has access.
+Restart the backend after changing its environment configuration.
+
+The API binds each agent stream to the same browser dataset as the dashboard.
+Uploads and resets replace that dataset's chat history and written-report cache.
+Other browsers keep their own books and conversations, including on sample data.
+CLI entry points remain available:
+
+```bash
+.venv/bin/python -m backend.app.cli --demo
+.venv/bin/python -m backend.app.cli --report
+```
+
+See the [agents README](backend/app/agents/README.md) for streaming event shapes.
 
 ## Planned project structure
 
@@ -146,7 +168,7 @@ API contracts, upload behavior, and browser integration tests.
 │   └── requirements.txt
 ├── frontend/                       # React app (Vite)
 │   └── src/
-│       ├── api/                    # the only code that talks to the backend; mock data for now
+│       ├── api/                    # HTTP and streamed events; mock data retained as fixtures
 │       ├── components/             # one component per finance function, used by report and chat
 │       └── lib/                    # number formatting, theme colors
 ├── scripts/
