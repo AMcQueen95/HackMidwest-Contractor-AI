@@ -129,8 +129,9 @@ is given, use it as a strong hint. When unsure between business categories,
 choose overhead."""
 
 
-async def categorize(transactions: list[Transaction], batch_size: int = 80) -> None:
-    """Set vendor and category on each transaction, asking once per distinct description."""
+async def categorize(transactions: list[Transaction], batch_size: int = 80, trade_hint: str = "") -> None:
+    """Set vendor and category on each transaction, asking once per distinct description.
+    trade_hint adds the owner's trade vocabulary (e.g. what HVAC purchases look like)."""
     keys, groups = [], {}
     for t in transactions:
         key = (t.description.strip().lower(), t.vendor.strip().lower(), t.hint.strip().lower(), t.amount > 0)
@@ -147,7 +148,7 @@ async def categorize(transactions: list[Transaction], batch_size: int = 80) -> N
                                      "source_category": t.hint or None,
                                      "direction": "in" if t.amount > 0 else "out",
                                      "account": t.account}))
-        result = await structured("specialist", CATEGORIZE_SYSTEM,
+        result = await structured("specialist", CATEGORIZE_SYSTEM + (f"\n\n{trade_hint}" if trade_hint else ""),
                                   "Categorize these transactions:\n" + "\n".join(lines), CategorizedBatch)
         return {item.id: item for item in result.items}
 

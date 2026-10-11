@@ -7,6 +7,7 @@ import MarginByJobType from './MarginByJobType'
 import MonthlySummary from './MonthlySummary'
 import Receivables from './Receivables'
 import RecurringCharges from './RecurringCharges'
+import { TradeSectionBody } from './TradeSections'
 
 // One entry per finance function. `card` events from POST /api/ask carry
 // {type, data}, where type is the function name.
@@ -26,6 +27,14 @@ const CARDS = {
 }
 
 export default function DataCard({ type, data }) {
+  if (type?.startsWith('trade:')) {
+    return (
+      <div className="data-card">
+        <h4>{data.title}</h4>
+        <TradeSectionBody section={data} compact />
+      </div>
+    )
+  }
   const card = CARDS[type]
   if (!card) return null
   return (

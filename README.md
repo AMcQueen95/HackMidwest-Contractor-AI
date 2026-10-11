@@ -148,6 +148,10 @@ See the [agents README](backend/app/agents/README.md) for streaming event shapes
 
 Owners can upload any CSV exports they have (bank, card, QuickBooks, Jobber and so on), as many as they like, and connect bank accounts through Plaid. Agents identify each file and categorize transactions; code converts the values and the loader validates the result. Backend only for now: see [docs/imports.md](docs/imports.md) for the endpoints and Plaid setup.
 
+## Trade profiles
+
+The app adapts to the owner's trade: its own report sections, a trade analyst agent, and trade advice in every answer. HVAC, plumbing and electrical are built, each with five sections and a year-long sample business. See [docs/trades.md](docs/trades.md).
+
 ## Planned project structure
 
 ```

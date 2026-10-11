@@ -1,0 +1,896 @@
+job_id,customer,job_type,start_date,end_date,quoted_price,labor_hours,status
+SA-0001,"Lindqvist residence, 3105 Oak St",AC repair - not cooling,2025-10-01,2025-10-01,340.00,1.5,completed
+SA-0002,"Price residence, 4277 Brookside Blvd",AC repair - not cooling,2025-10-01,2025-10-01,600.00,2,completed
+SA-0003,"Whitfield residence, 1021 Ward Pkwy",Thermostat repair,2025-10-04,2025-10-04,760.00,2,completed
+SA-0004,"Tran residence, 3909 Oak St",Blower motor repair,2025-10-06,2025-10-06,720.00,2.5,completed
+SA-0005,"Hughes residence, 7596 Oak St",Igniter replacement,2025-10-06,2025-10-06,450.00,3,completed
+SA-0006,"Haddad residence, 2619 Gillham Rd",Service call - diagnostic,2025-10-06,2025-10-06,290.00,1.5,completed
+SA-0007,"Ortiz residence, 9641 Wornall Rd",Furnace repair - no heat,2025-10-08,2025-10-08,580.00,4,completed
+SA-0008,"Ellison residence, 2689 Oak St",Blower motor repair,2025-10-08,2025-10-08,590.00,1.5,completed
+SA-0009,"Russo residence, 4938 Oak St",Service call - diagnostic,2025-10-09,2025-10-09,290.00,2.5,completed
+SA-0010,"Hughes residence, 254 Broadway Blvd",Service call - diagnostic,2025-10-09,2025-10-09,930.00,3,completed
+SA-0011,"Miller residence, 3042 State Line Rd",Service call - diagnostic,2025-10-10,2025-10-10,730.00,4,completed
+SA-0012,"Price residence, 132 State Line Rd",Furnace repair - no heat,2025-10-10,2025-10-10,570.00,1.5,completed
+SA-0013,"Garza residence, 4165 Brookside Blvd",Thermostat repair,2025-10-10,2025-10-10,290.00,1.5,completed
+SA-0014,"Russo residence, 2025 State Line Rd",AC and furnace changeout,2025-10-10,2025-10-12,7400.00,16,completed
+SA-0015,"Tran residence, 1452 Main St",Blower motor repair,2025-10-11,2025-10-11,890.00,1.5,completed
+SA-0016,"Schultz residence, 2858 State Line Rd",Igniter replacement,2025-10-11,2025-10-11,760.00,3,completed
+SA-0017,"Mendez residence, 7685 Holmes Rd",Igniter replacement,2025-10-13,2025-10-13,300.00,2.5,completed
+SA-0018,"Novak residence, 7381 Wornall Rd",Furnace repair - no heat,2025-10-15,2025-10-15,420.00,2,completed
+SA-0019,"Ortiz residence, 9052 Oak St",Blower motor repair,2025-10-18,2025-10-18,880.00,2,completed
+SA-0020,"Kowalski residence, 2933 Ward Pkwy",Furnace repair - no heat,2025-10-18,2025-10-18,890.00,2.5,completed
+SA-0021,"Lopez residence, 7897 Gillham Rd",AC and furnace changeout,2025-10-18,2025-10-20,11800.00,14,completed
+SA-0022,"Lopez residence, 7897 Gillham Rd",Warranty callback - install follow-up,2025-11-01,2025-11-01,0.00,4,completed
+SA-0023,"Delgado residence, 8930 Ward Pkwy",Furnace repair - no heat,2025-10-21,2025-10-21,600.00,1.5,completed
+SA-0024,"Iverson residence, 2898 Wornall Rd",Blower motor repair,2025-10-21,2025-10-21,330.00,1.5,completed
+SA-0025,"Moreau residence, 8511 Holmes Rd",Blower motor repair,2025-10-22,2025-10-22,200.00,3,completed
+SA-0026,"Okafor residence, 8128 Brookside Blvd",Igniter replacement,2025-10-23,2025-10-23,820.00,1.5,completed
+SA-0027,"Delgado residence, 9631 Ward Pkwy",AC repair - not cooling,2025-10-24,2025-10-24,480.00,3,completed
+SA-0028,"Ellison residence, 9862 State Line Rd",Furnace repair - no heat,2025-10-25,2025-10-25,830.00,3,completed
+SA-0029,"Ortiz residence, 8750 Oak St",Igniter replacement,2025-10-27,2025-10-27,920.00,3,completed
+SA-0030,"Delgado residence, 7128 Oak St",Furnace repair - no heat,2025-10-27,2025-10-27,530.00,4,completed
+SA-0031,"Ortiz residence, 5437 State Line Rd",Thermostat repair,2025-10-28,2025-10-28,700.00,3,completed
+SA-0032,"Ortiz residence, 665 Wornall Rd",AC and furnace changeout,2025-10-29,2025-10-31,11200.00,14,completed
+SA-0033,"Bauer residence, 9046 Ward Pkwy",Blower motor repair,2025-10-31,2025-10-31,670.00,2.5,completed
+SA-0034,"Iverson residence, 6764 Brookside Blvd",Thermostat repair,2025-10-31,2025-10-31,240.00,2.5,completed
+SA-0035,"Ortiz residence, 4314 State Line Rd",AC system replacement,2025-10-31,2025-11-02,7200.00,10,completed
+SA-0036,"Brooks residence, 4050 Holmes Rd",Service call - diagnostic,2025-11-01,2025-11-01,820.00,3,completed
+SA-0037,"Haddad residence, 7033 Gillham Rd",Thermostat repair,2025-11-01,2025-11-01,940.00,2.5,completed
+SA-0038,"Delgado residence, 3302 Main St",Furnace repair - no heat,2025-11-03,2025-11-03,850.00,1.5,completed
+SA-0039,"Hughes residence, 7203 Holmes Rd",Furnace repair - no heat,2025-11-03,2025-11-03,300.00,3,completed
+SA-0040,"Bauer residence, 8636 Gillham Rd",Igniter replacement,2025-11-04,2025-11-04,480.00,2.5,completed
+SA-0041,"Garza residence, 9816 Ward Pkwy",Igniter replacement,2025-11-05,2025-11-05,520.00,4,completed
+SA-0042,"Nguyen residence, 4623 Wornall Rd",Thermostat repair,2025-11-06,2025-11-06,810.00,1.5,completed
+SA-0043,"Sorensen residence, 9346 Main St",Furnace repair - no heat,2025-11-06,2025-11-06,580.00,3,completed
+SA-0044,"Patel residence, 2855 Oak St",Furnace repair - no heat,2025-11-07,2025-11-07,250.00,2.5,completed
+SA-0045,"Jensen residence, 7778 Holmes Rd",Blower motor repair,2025-11-10,2025-11-10,350.00,3,completed
+SA-0046,"Abernathy residence, 6352 Gillham Rd",Furnace repair - no heat,2025-11-11,2025-11-11,630.00,4,completed
+SA-0047,"Tran residence, 8619 Brookside Blvd",AC repair - not cooling,2025-11-13,2025-11-13,620.00,4,completed
+SA-0048,"Mendez residence, 6914 Troost Ave",Furnace repair - no heat,2025-11-14,2025-11-14,790.00,1.5,completed
+SA-0049,"Quinn residence, 695 Holmes Rd",Furnace repair - no heat,2025-11-15,2025-11-15,370.00,4,completed
+SA-0050,"Tran residence, 7750 Oak St",Thermostat repair,2025-11-15,2025-11-15,690.00,1.5,completed
+SA-0051,"Bauer residence, 870 Wornall Rd",AC repair - not cooling,2025-11-15,2025-11-15,680.00,1.5,completed
+SA-0052,"Okafor residence, 7823 Wornall Rd",Ductwork replacement,2025-11-15,2025-11-17,4800.00,16,completed
+SA-0053,"Bauer residence, 972 Oak St",Thermostat repair,2025-11-17,2025-11-17,590.00,2.5,completed
+SA-0054,"Okafor residence, 347 Troost Ave",Blower motor repair,2025-11-17,2025-11-17,230.00,3,completed
+SA-0055,"Coleman residence, 4669 Brookside Blvd",Thermostat repair,2025-11-18,2025-11-18,760.00,3,completed
+SA-0056,"Lindqvist residence, 9387 Oak St",Furnace repair - no heat,2025-11-18,2025-11-18,750.00,2,completed
+SA-0057,"Miller residence, 6318 Main St",Thermostat repair,2025-11-19,2025-11-19,260.00,3,completed
+SA-0058,"Nguyen residence, 6280 Holmes Rd",AC repair - not cooling,2025-11-20,2025-11-20,360.00,2.5,completed
+SA-0059,"Miller residence, 567 State Line Rd",Igniter replacement,2025-11-20,2025-11-20,750.00,2,completed
+SA-0060,"Bauer residence, 1953 Main St",Thermostat repair,2025-11-21,2025-11-21,900.00,2,completed
+SA-0061,"Kim residence, 432 Gillham Rd",Igniter replacement,2025-11-21,2025-11-21,280.00,4,completed
+SA-0062,"Sorensen residence, 4972 Wornall Rd",Igniter replacement,2025-11-24,2025-11-24,510.00,3,completed
+SA-0063,"Whitfield residence, 2855 Main St",Blower motor repair,2025-11-24,2025-11-24,400.00,4,completed
+SA-0064,"Russo residence, 6708 Holmes Rd",Service call - diagnostic,2025-11-24,2025-11-24,940.00,2.5,completed
+SA-0065,"Russo residence, 8995 Oak St",Service call - diagnostic,2025-11-25,2025-11-25,650.00,3,completed
+SA-0066,"Ellison residence, 5048 Ward Pkwy",Blower motor repair,2025-11-25,2025-11-25,360.00,4,completed
+SA-0067,"Coleman residence, 8241 Ward Pkwy",Gas furnace and coil install,2025-11-25,2025-11-27,12000.00,14,completed
+SA-0068,"Hughes residence, 8863 Oak St",Service call - diagnostic,2025-11-26,2025-11-26,940.00,2.5,completed
+SA-0069,"Tran residence, 6482 Oak St",Igniter replacement,2025-11-26,2025-11-26,820.00,2,completed
+SA-0070,"Price residence, 6067 Holmes Rd",Blower motor repair,2025-11-26,2025-11-26,470.00,4,completed
+SA-0071,Crown Center Retail,Commercial RTU replacement,2025-11-26,2025-11-30,14400.00,48,completed
+SA-0072,"Delgado residence, 6227 Ward Pkwy",Service call - diagnostic,2025-11-27,2025-11-27,510.00,4,completed
+SA-0073,"Nguyen residence, 7593 Broadway Blvd",Furnace repair - no heat,2025-11-27,2025-11-27,340.00,2.5,completed
+SA-0074,"Russo residence, 156 Main St",Blower motor repair,2025-11-27,2025-11-27,350.00,1.5,completed
+SA-0075,"Moreau residence, 8057 State Line Rd",Service call - diagnostic,2025-11-28,2025-11-28,850.00,4,completed
+SA-0076,"Sorensen residence, 7739 Main St",Igniter replacement,2025-11-28,2025-11-28,350.00,4,completed
+SA-0077,"Iverson residence, 7698 Troost Ave",Service call - diagnostic,2025-11-28,2025-11-28,240.00,1.5,completed
+SA-0078,"Schultz residence, 7056 Main St",Furnace replacement,2025-11-29,2025-12-01,8800.00,14,completed
+SA-0079,"Schultz residence, 7056 Main St",Warranty callback - install follow-up,2025-12-10,2025-12-10,0.00,4,completed
+SA-0080,"Tran residence, 1342 Troost Ave",Furnace repair - no heat,2025-12-01,2025-12-01,710.00,1.5,completed
+SA-0081,"Ellison residence, 3070 Oak St",AC repair - not cooling,2025-12-02,2025-12-02,810.00,3,completed
+SA-0082,"Quinn residence, 9775 Gillham Rd",Igniter replacement,2025-12-03,2025-12-03,330.00,2,completed
+SA-0083,"Russo residence, 1907 Broadway Blvd",Igniter replacement,2025-12-03,2025-12-03,910.00,2,completed
+SA-0084,"Jensen residence, 5313 Main St",Thermostat repair,2025-12-03,2025-12-03,630.00,2.5,completed
+SA-0085,"Sorensen residence, 9674 State Line Rd",Blower motor repair,2025-12-04,2025-12-04,760.00,4,completed
+SA-0086,"Tran residence, 4213 Gillham Rd",Igniter replacement,2025-12-04,2025-12-04,470.00,1.5,completed
+SA-0087,"Ortiz residence, 4916 Oak St",Furnace repair - no heat,2025-12-04,2025-12-04,640.00,4,completed
+SA-0088,"Delgado residence, 3676 Ward Pkwy",AC repair - not cooling,2025-12-05,2025-12-05,370.00,1.5,completed
+SA-0089,"Ortiz residence, 8942 Gillham Rd",AC repair - not cooling,2025-12-05,2025-12-05,450.00,1.5,completed
+SA-0090,"Okafor residence, 4836 Brookside Blvd",Thermostat repair,2025-12-05,2025-12-05,660.00,1.5,completed
+SA-0091,"Patel residence, 9754 Troost Ave",Furnace replacement,2025-12-05,2025-12-07,13800.00,10,completed
+SA-0092,"Tran residence, 9221 Gillham Rd",Igniter replacement,2025-12-06,2025-12-06,490.00,2,completed
+SA-0093,"Hughes residence, 8884 Brookside Blvd",Igniter replacement,2025-12-06,2025-12-06,280.00,4,completed
+SA-0094,"Abernathy residence, 6859 Gillham Rd",Furnace repair - no heat,2025-12-06,2025-12-06,520.00,3,completed
+SA-0095,"Kowalski residence, 7669 Oak St",Blower motor repair,2025-12-08,2025-12-08,320.00,4,completed
+SA-0096,"Jensen residence, 4935 Ward Pkwy",Service call - diagnostic,2025-12-08,2025-12-08,760.00,1.5,completed
+SA-0097,"Patel residence, 264 State Line Rd",Furnace repair - no heat,2025-12-08,2025-12-08,450.00,4,completed
+SA-0098,"Moreau residence, 1298 Holmes Rd",Thermostat repair,2025-12-09,2025-12-09,250.00,3,completed
+SA-0099,"Coleman residence, 4218 Broadway Blvd",Furnace replacement,2025-12-09,2025-12-11,11100.00,16,completed
+SA-0100,"Garza residence, 4801 Oak St",AC repair - not cooling,2025-12-10,2025-12-10,630.00,1.5,completed
+SA-0101,"Lindqvist residence, 4494 Gillham Rd",Furnace repair - no heat,2025-12-11,2025-12-11,880.00,3,completed
+SA-0102,"Kim residence, 6889 Main St",Service call - diagnostic,2025-12-11,2025-12-11,410.00,3,completed
+SA-0103,"Haddad residence, 1575 Holmes Rd",Furnace replacement,2025-12-11,2025-12-13,13900.00,12,completed
+SA-0104,"Haddad residence, 1575 Holmes Rd",Warranty callback - install follow-up,2025-12-28,2025-12-28,0.00,2,completed
+SA-0105,"Iverson residence, 5577 Oak St",Thermostat repair,2025-12-12,2025-12-12,820.00,4,completed
+SA-0106,"Bauer residence, 8105 Troost Ave",AC repair - not cooling,2025-12-12,2025-12-12,620.00,1.5,completed
+SA-0107,"Coleman residence, 8903 Main St",Thermostat repair,2025-12-13,2025-12-13,440.00,1.5,completed
+SA-0108,"Bauer residence, 2487 Gillham Rd",AC repair - not cooling,2025-12-13,2025-12-13,630.00,3,completed
+SA-0109,"Delgado residence, 7639 Ward Pkwy",Service call - diagnostic,2025-12-15,2025-12-15,380.00,1.5,completed
+SA-0110,"Jensen residence, 5040 Brookside Blvd",Service call - diagnostic,2025-12-16,2025-12-16,800.00,2.5,completed
+SA-0111,"Moreau residence, 7186 Holmes Rd",Blower motor repair,2025-12-16,2025-12-16,810.00,1.5,completed
+SA-0112,"Kowalski residence, 9877 Broadway Blvd",Service call - diagnostic,2025-12-16,2025-12-16,640.00,3,completed
+SA-0113,"Ortiz residence, 3287 Wornall Rd",Igniter replacement,2025-12-17,2025-12-17,600.00,2,completed
+SA-0114,"Schultz residence, 5158 Broadway Blvd",Service call - diagnostic,2025-12-17,2025-12-17,730.00,3,completed
+SA-0115,"Ortiz residence, 4854 Main St",Furnace repair - no heat,2025-12-17,2025-12-17,910.00,1.5,completed
+SA-0116,"Whitfield residence, 6963 Main St",Thermostat repair,2025-12-18,2025-12-18,500.00,1.5,completed
+SA-0117,"Ellison residence, 2221 Holmes Rd",Furnace repair - no heat,2025-12-18,2025-12-18,720.00,2.5,completed
+SA-0118,"Iverson residence, 4526 Ward Pkwy",Service call - diagnostic,2025-12-18,2025-12-18,370.00,2.5,completed
+SA-0119,"Moreau residence, 2211 Wornall Rd",AC repair - not cooling,2025-12-19,2025-12-19,220.00,2.5,completed
+SA-0120,"Garza residence, 6166 Troost Ave",Blower motor repair,2025-12-19,2025-12-19,920.00,4,completed
+SA-0121,"Price residence, 360 Ward Pkwy",Furnace repair - no heat,2025-12-19,2025-12-19,220.00,2.5,completed
+SA-0122,"Nguyen residence, 7369 Ward Pkwy",Furnace replacement,2025-12-19,2025-12-21,12700.00,12,completed
+SA-0123,"Ellison residence, 8350 Gillham Rd",Service call - diagnostic,2025-12-20,2025-12-20,190.00,3,completed
+SA-0124,"Miller residence, 3143 Ward Pkwy",Gas furnace and coil install,2025-12-22,2025-12-24,8600.00,12,completed
+SA-0125,"Lopez residence, 7359 Main St",Furnace replacement,2025-12-23,2025-12-25,9200.00,16,completed
+SA-0126,"Lopez residence, 7359 Main St",Warranty callback - install follow-up,2026-01-10,2026-01-10,0.00,2,completed
+SA-0127,"Okafor residence, 8475 Main St",Service call - diagnostic,2025-12-24,2025-12-24,490.00,2,completed
+SA-0128,"Whitfield residence, 8273 Broadway Blvd",Blower motor repair,2025-12-24,2025-12-24,180.00,2,completed
+SA-0129,"Ellison residence, 1206 Holmes Rd",Service call - diagnostic,2025-12-24,2025-12-24,630.00,2,completed
+SA-0130,"Nguyen residence, 2317 Broadway Blvd",Igniter replacement,2025-12-25,2025-12-25,600.00,4,completed
+SA-0131,"Moreau residence, 5245 Ward Pkwy",Igniter replacement,2025-12-26,2025-12-26,410.00,3,completed
+SA-0132,"Price residence, 5286 Broadway Blvd",Thermostat repair,2025-12-27,2025-12-27,280.00,3,completed
+SA-0133,"Kim residence, 2044 Gillham Rd",AC repair - not cooling,2025-12-27,2025-12-27,240.00,2,completed
+SA-0134,"Coleman residence, 2581 Oak St",AC repair - not cooling,2025-12-27,2025-12-27,950.00,2,completed
+SA-0135,"Hughes residence, 2635 Ward Pkwy",Furnace replacement,2025-12-27,2025-12-29,12200.00,14,completed
+SA-0136,"Iverson residence, 9830 State Line Rd",Furnace repair - no heat,2025-12-29,2025-12-29,780.00,1.5,completed
+SA-0137,"Abernathy residence, 9190 Gillham Rd",Thermostat repair,2025-12-29,2025-12-29,940.00,1.5,completed
+SA-0138,"Kowalski residence, 2446 State Line Rd",Furnace replacement,2025-12-29,2025-12-31,13100.00,12,completed
+SA-0139,"Novak residence, 2397 Gillham Rd",AC repair - not cooling,2025-12-30,2025-12-30,530.00,3,completed
+SA-0140,"Ortiz residence, 9736 Troost Ave",Service call - diagnostic,2025-12-30,2025-12-30,240.00,1.5,completed
+SA-0141,"Coleman residence, 1097 Gillham Rd",Thermostat repair,2025-12-30,2025-12-30,920.00,1.5,completed
+SA-0142,"Coleman residence, 5578 Holmes Rd",Gas furnace and coil install,2025-12-30,2026-01-01,14500.00,14,completed
+SA-0143,"Delgado residence, 6029 Main St",Igniter replacement,2025-12-31,2025-12-31,190.00,1.5,completed
+SA-0144,"Price residence, 7874 Main St",AC repair - not cooling,2026-01-01,2026-01-01,730.00,1.5,completed
+SA-0145,"Tran residence, 1291 Troost Ave",Service call - diagnostic,2026-01-01,2026-01-01,350.00,2.5,completed
+SA-0146,"Hughes residence, 6758 Oak St",Thermostat repair,2026-01-01,2026-01-01,840.00,1.5,completed
+SA-0147,"Quinn residence, 510 Brookside Blvd",Furnace replacement,2026-01-01,2026-01-03,9800.00,12,completed
+SA-0148,"Quinn residence, 510 Brookside Blvd",Warranty callback - install follow-up,2026-01-11,2026-01-11,0.00,3,completed
+SA-0149,"Nguyen residence, 1478 Wornall Rd",Ductwork replacement,2026-01-01,2026-01-03,6100.00,24,completed
+SA-0150,"Abernathy residence, 388 Oak St",Service call - diagnostic,2026-01-02,2026-01-02,390.00,2,completed
+SA-0151,"Patel residence, 3820 State Line Rd",Blower motor repair,2026-01-02,2026-01-02,740.00,2,completed
+SA-0152,"Delgado residence, 8654 Troost Ave",Service call - diagnostic,2026-01-02,2026-01-02,300.00,2,completed
+SA-0153,"Lindqvist residence, 4293 Brookside Blvd",Igniter replacement,2026-01-05,2026-01-05,390.00,3,completed
+SA-0154,"Garza residence, 8131 Wornall Rd",AC repair - not cooling,2026-01-05,2026-01-05,720.00,2.5,completed
+SA-0155,"Garza residence, 3828 Troost Ave",Blower motor repair,2026-01-06,2026-01-06,230.00,1.5,completed
+SA-0156,"Coleman residence, 6072 Gillham Rd",Furnace repair - no heat,2026-01-06,2026-01-06,390.00,1.5,completed
+SA-0157,"Jensen residence, 3705 Holmes Rd",Igniter replacement,2026-01-06,2026-01-06,500.00,2,completed
+SA-0158,"Novak residence, 834 Holmes Rd",Thermostat repair,2026-01-08,2026-01-08,400.00,3,completed
+SA-0159,"Coleman residence, 5898 Main St",Blower motor repair,2026-01-10,2026-01-10,560.00,3,completed
+SA-0160,"Schultz residence, 9482 Troost Ave",Furnace replacement,2026-01-10,2026-01-12,7100.00,12,completed
+SA-0161,"Schultz residence, 9482 Troost Ave",Warranty callback - install follow-up,2026-02-03,2026-02-03,0.00,3,completed
+SA-0162,"Nguyen residence, 209 Ward Pkwy",Thermostat repair,2026-01-12,2026-01-12,560.00,4,completed
+SA-0163,"Miller residence, 2984 Oak St",Blower motor repair,2026-01-12,2026-01-12,690.00,2,completed
+SA-0164,"Patel residence, 7052 Broadway Blvd",Blower motor repair,2026-01-12,2026-01-12,180.00,2,completed
+SA-0165,"Ortiz residence, 7751 Gillham Rd",Igniter replacement,2026-01-14,2026-01-14,340.00,2.5,completed
+SA-0166,"Sorensen residence, 9867 Brookside Blvd",Blower motor repair,2026-01-15,2026-01-15,870.00,1.5,completed
+SA-0167,"Mendez residence, 6557 Gillham Rd",Igniter replacement,2026-01-16,2026-01-16,510.00,2,completed
+SA-0168,"Abernathy residence, 9528 Ward Pkwy",Furnace repair - no heat,2026-01-16,2026-01-16,580.00,2,completed
+SA-0169,"Jensen residence, 6590 Oak St",Service call - diagnostic,2026-01-16,2026-01-16,740.00,3,completed
+SA-0170,"Nguyen residence, 2916 Broadway Blvd",Service call - diagnostic,2026-01-17,2026-01-17,920.00,2.5,completed
+SA-0171,"Hughes residence, 6227 Brookside Blvd",Furnace replacement,2026-01-17,2026-01-19,13700.00,12,completed
+SA-0172,"Bauer residence, 1697 Gillham Rd",Thermostat repair,2026-01-19,2026-01-19,560.00,3,completed
+SA-0173,"Kim residence, 5253 Ward Pkwy",Furnace replacement,2026-01-19,2026-01-21,12300.00,10,completed
+SA-0174,"Tran residence, 8835 Wornall Rd",Thermostat repair,2026-01-20,2026-01-20,500.00,2.5,completed
+SA-0175,"Price residence, 4757 Oak St",Gas furnace and coil install,2026-01-20,2026-01-22,12300.00,10,completed
+SA-0176,"Price residence, 4757 Oak St",Warranty callback - install follow-up,2026-02-03,2026-02-03,0.00,2,completed
+SA-0177,"Novak residence, 3347 Gillham Rd",Furnace repair - no heat,2026-01-21,2026-01-21,600.00,4,completed
+SA-0178,"Hughes residence, 6996 Main St",Thermostat repair,2026-01-21,2026-01-21,430.00,1.5,completed
+SA-0179,"Quinn residence, 5627 Wornall Rd",Thermostat repair,2026-01-21,2026-01-21,720.00,2.5,completed
+SA-0180,"Hughes residence, 2294 Main St",AC repair - not cooling,2026-01-22,2026-01-22,360.00,1.5,completed
+SA-0181,"Novak residence, 1185 Oak St",Service call - diagnostic,2026-01-23,2026-01-23,910.00,4,completed
+SA-0182,"Whitfield residence, 4189 Main St",Igniter replacement,2026-01-23,2026-01-23,620.00,2.5,completed
+SA-0183,"Ortiz residence, 1674 Troost Ave",Blower motor repair,2026-01-24,2026-01-24,610.00,4,completed
+SA-0184,"Russo residence, 4450 Oak St",Service call - diagnostic,2026-01-24,2026-01-24,380.00,1.5,completed
+SA-0185,"Quinn residence, 7265 Brookside Blvd",Thermostat repair,2026-01-26,2026-01-26,830.00,2.5,completed
+SA-0186,"Kim residence, 574 State Line Rd",Blower motor repair,2026-01-27,2026-01-27,720.00,3,completed
+SA-0187,"Miller residence, 6820 Broadway Blvd",Blower motor repair,2026-01-27,2026-01-27,790.00,2.5,completed
+SA-0188,"Sorensen residence, 1436 Wornall Rd",Service call - diagnostic,2026-01-28,2026-01-28,360.00,2,completed
+SA-0189,"Coleman residence, 9390 Main St",Thermostat repair,2026-01-29,2026-01-29,570.00,4,completed
+SA-0190,"Novak residence, 1206 Holmes Rd",Furnace repair - no heat,2026-01-29,2026-01-29,570.00,2.5,completed
+SA-0191,"Lopez residence, 1913 Oak St",Igniter replacement,2026-01-31,2026-01-31,740.00,1.5,completed
+SA-0192,"Nguyen residence, 8225 Brookside Blvd",Blower motor repair,2026-01-31,2026-01-31,510.00,2.5,completed
+SA-0193,"Ortiz residence, 2502 Ward Pkwy",Igniter replacement,2026-01-31,2026-01-31,230.00,2,completed
+SA-0194,"Iverson residence, 6116 Gillham Rd",Furnace repair - no heat,2026-02-02,2026-02-02,800.00,4,completed
+SA-0195,"Bauer residence, 6306 Oak St",Thermostat repair,2026-02-02,2026-02-02,210.00,4,completed
+SA-0196,"Coleman residence, 2067 Gillham Rd",Thermostat repair,2026-02-02,2026-02-02,620.00,4,completed
+SA-0197,"Russo residence, 8770 Holmes Rd",Igniter replacement,2026-02-03,2026-02-03,920.00,3,completed
+SA-0198,"Ellison residence, 5652 Holmes Rd",Thermostat repair,2026-02-03,2026-02-03,730.00,1.5,completed
+SA-0199,"Delgado residence, 2375 Ward Pkwy",Igniter replacement,2026-02-05,2026-02-05,200.00,1.5,completed
+SA-0200,"Whitfield residence, 7576 State Line Rd",Furnace replacement,2026-02-05,2026-02-07,11600.00,10,completed
+SA-0201,"Tran residence, 7882 Broadway Blvd",Igniter replacement,2026-02-06,2026-02-06,710.00,1.5,completed
+SA-0202,"Brooks residence, 3603 Oak St",Thermostat repair,2026-02-06,2026-02-06,870.00,2,completed
+SA-0203,"Whitfield residence, 2055 Main St",AC repair - not cooling,2026-02-07,2026-02-07,380.00,2.5,completed
+SA-0204,"Delgado residence, 6721 Troost Ave",AC repair - not cooling,2026-02-07,2026-02-07,570.00,3,completed
+SA-0205,"Sorensen residence, 3301 Brookside Blvd",Blower motor repair,2026-02-07,2026-02-07,220.00,2,completed
+SA-0206,"Schultz residence, 2944 Gillham Rd",Blower motor repair,2026-02-09,2026-02-09,540.00,2.5,completed
+SA-0207,"Okafor residence, 9461 Troost Ave",Igniter replacement,2026-02-09,2026-02-09,340.00,2.5,completed
+SA-0208,"Price residence, 3464 Main St",Igniter replacement,2026-02-09,2026-02-09,920.00,2.5,completed
+SA-0209,"Nguyen residence, 4850 Broadway Blvd",Service call - diagnostic,2026-02-10,2026-02-10,890.00,2.5,completed
+SA-0210,"Mendez residence, 5445 Oak St",Igniter replacement,2026-02-10,2026-02-10,220.00,3,completed
+SA-0211,"Tran residence, 2552 Ward Pkwy",Furnace repair - no heat,2026-02-10,2026-02-10,930.00,2.5,completed
+SA-0212,"Coleman residence, 5659 Oak St",AC repair - not cooling,2026-02-11,2026-02-11,470.00,2,completed
+SA-0213,"Patel residence, 894 State Line Rd",Service call - diagnostic,2026-02-11,2026-02-11,540.00,2,completed
+SA-0214,"Hughes residence, 8471 Holmes Rd",Furnace repair - no heat,2026-02-12,2026-02-12,930.00,1.5,completed
+SA-0215,"Brooks residence, 2877 Holmes Rd",Igniter replacement,2026-02-13,2026-02-13,520.00,2.5,completed
+SA-0216,"Lopez residence, 2885 Brookside Blvd",Service call - diagnostic,2026-02-13,2026-02-13,200.00,3,completed
+SA-0217,"Ellison residence, 9740 Oak St",Thermostat repair,2026-02-13,2026-02-13,800.00,2,completed
+SA-0218,"Miller residence, 7058 Main St",Thermostat repair,2026-02-14,2026-02-14,730.00,4,completed
+SA-0219,"Russo residence, 8262 Wornall Rd",Service call - diagnostic,2026-02-16,2026-02-16,790.00,2.5,completed
+SA-0220,"Abernathy residence, 5335 State Line Rd",Thermostat repair,2026-02-16,2026-02-16,920.00,4,completed
+SA-0221,"Haddad residence, 1594 Holmes Rd",AC repair - not cooling,2026-02-17,2026-02-17,320.00,4,completed
+SA-0222,"Bauer residence, 8648 Troost Ave",Thermostat repair,2026-02-18,2026-02-18,170.00,1.5,completed
+SA-0223,"Moreau residence, 3667 Gillham Rd",AC repair - not cooling,2026-02-18,2026-02-18,800.00,3,completed
+SA-0224,"Moreau residence, 3125 State Line Rd",Service call - diagnostic,2026-02-18,2026-02-18,620.00,3,completed
+SA-0225,"Sorensen residence, 7752 Holmes Rd",Furnace replacement,2026-02-19,2026-02-21,10900.00,12,completed
+SA-0226,"Moreau residence, 283 Wornall Rd",Service call - diagnostic,2026-02-20,2026-02-20,500.00,2,completed
+SA-0227,"Patel residence, 6589 State Line Rd",Igniter replacement,2026-02-23,2026-02-23,280.00,3,completed
+SA-0228,"Lindqvist residence, 6766 Ward Pkwy",AC repair - not cooling,2026-02-23,2026-02-23,920.00,2.5,completed
+SA-0229,"Kowalski residence, 5791 Oak St",Thermostat repair,2026-02-23,2026-02-23,900.00,4,completed
+SA-0230,"Sorensen residence, 7893 Ward Pkwy",Furnace replacement,2026-02-23,2026-02-25,11300.00,10,completed
+SA-0231,"Coleman residence, 9858 Troost Ave",Blower motor repair,2026-02-24,2026-02-24,200.00,3,completed
+SA-0232,"Garza residence, 7523 Oak St",Igniter replacement,2026-02-24,2026-02-24,890.00,2,completed
+SA-0233,"Quinn residence, 2048 Gillham Rd",Thermostat repair,2026-02-24,2026-02-24,690.00,3,completed
+SA-0234,"Whitfield residence, 9552 Troost Ave",Gas furnace and coil install,2026-02-24,2026-02-26,13600.00,16,completed
+SA-0235,"Kim residence, 1757 State Line Rd",Igniter replacement,2026-02-25,2026-02-25,750.00,2.5,completed
+SA-0236,"Lopez residence, 3919 Troost Ave",Furnace replacement,2026-02-25,2026-02-27,10300.00,16,completed
+SA-0237,"Lopez residence, 3919 Troost Ave",Warranty callback - install follow-up,2026-03-13,2026-03-13,0.00,3,completed
+SA-0238,"Bauer residence, 8875 Brookside Blvd",Service call - diagnostic,2026-02-26,2026-02-26,330.00,1.5,completed
+SA-0239,"Hughes residence, 5177 Broadway Blvd",AC repair - not cooling,2026-02-26,2026-02-26,750.00,1.5,completed
+SA-0240,"Ellison residence, 7985 Ward Pkwy",Furnace repair - no heat,2026-02-26,2026-02-26,490.00,3,completed
+SA-0241,"Schultz residence, 6977 Gillham Rd",AC repair - not cooling,2026-02-27,2026-02-27,230.00,2.5,completed
+SA-0242,"Tran residence, 5831 State Line Rd",Blower motor repair,2026-02-27,2026-02-27,700.00,3,completed
+SA-0243,"Lindqvist residence, 6904 Ward Pkwy",Igniter replacement,2026-02-27,2026-02-27,760.00,1.5,completed
+SA-0244,"Sorensen residence, 9880 Gillham Rd",Furnace replacement,2026-02-27,2026-03-01,9800.00,12,completed
+SA-0245,"Abernathy residence, 8020 Holmes Rd",Furnace repair - no heat,2026-02-28,2026-02-28,910.00,1.5,completed
+SA-0246,"Abernathy residence, 8490 Wornall Rd",Thermostat repair,2026-02-28,2026-02-28,780.00,1.5,completed
+SA-0247,"Coleman residence, 2734 Brookside Blvd",Blower motor repair,2026-03-02,2026-03-02,390.00,2.5,completed
+SA-0248,"Nguyen residence, 9130 Wornall Rd",Furnace repair - no heat,2026-03-02,2026-03-02,360.00,4,completed
+SA-0249,"Garza residence, 8217 Wornall Rd",Furnace repair - no heat,2026-03-03,2026-03-03,400.00,2.5,completed
+SA-0250,"Abernathy residence, 7042 Ward Pkwy",Igniter replacement,2026-03-03,2026-03-03,300.00,3,completed
+SA-0251,"Whitfield residence, 3630 State Line Rd",Thermostat repair,2026-03-03,2026-03-03,880.00,1.5,completed
+SA-0252,"Kowalski residence, 3949 Gillham Rd",Blower motor repair,2026-03-04,2026-03-04,810.00,2.5,completed
+SA-0253,"Jensen residence, 3054 Wornall Rd",Service call - diagnostic,2026-03-05,2026-03-05,920.00,4,completed
+SA-0254,"Moreau residence, 8378 Gillham Rd",AC repair - not cooling,2026-03-05,2026-03-05,190.00,2.5,completed
+SA-0255,"Lindqvist residence, 9060 Wornall Rd",Thermostat repair,2026-03-05,2026-03-05,690.00,2.5,completed
+SA-0256,Crown Center Retail,Commercial RTU replacement,2026-03-05,2026-03-09,14600.00,48,completed
+SA-0257,"Russo residence, 3502 Oak St",Furnace repair - no heat,2026-03-06,2026-03-06,380.00,1.5,completed
+SA-0258,"Quinn residence, 1746 Troost Ave",Igniter replacement,2026-03-07,2026-03-07,470.00,2,completed
+SA-0259,"Okafor residence, 3963 State Line Rd",Igniter replacement,2026-03-07,2026-03-07,560.00,2,completed
+SA-0260,Waldo Vet Clinic,Commercial RTU replacement,2026-03-07,2026-03-11,12400.00,48,completed
+SA-0261,"Ellison residence, 8825 Gillham Rd",Igniter replacement,2026-03-09,2026-03-09,520.00,4,completed
+SA-0262,"Okafor residence, 2303 Holmes Rd",Furnace repair - no heat,2026-03-09,2026-03-09,560.00,2,completed
+SA-0263,"Mendez residence, 4486 Gillham Rd",Furnace repair - no heat,2026-03-09,2026-03-09,500.00,3,completed
+SA-0264,"Hughes residence, 2920 Ward Pkwy",AC repair - not cooling,2026-03-10,2026-03-10,550.00,2.5,completed
+SA-0265,"Patel residence, 6671 Main St",Service call - diagnostic,2026-03-10,2026-03-10,900.00,4,completed
+SA-0266,"Delgado residence, 7366 Troost Ave",Igniter replacement,2026-03-10,2026-03-10,850.00,1.5,completed
+SA-0267,"Whitfield residence, 9349 Holmes Rd",AC repair - not cooling,2026-03-12,2026-03-12,420.00,2,completed
+SA-0268,"Kowalski residence, 883 Main St",Furnace repair - no heat,2026-03-12,2026-03-12,550.00,2.5,completed
+SA-0269,"Price residence, 7070 State Line Rd",Blower motor repair,2026-03-12,2026-03-12,220.00,2,completed
+SA-0270,"Price residence, 2935 Ward Pkwy",AC repair - not cooling,2026-03-13,2026-03-13,470.00,2,completed
+SA-0271,"Coleman residence, 3182 Holmes Rd",Service call - diagnostic,2026-03-14,2026-03-14,540.00,4,completed
+SA-0272,"Garza residence, 3137 Wornall Rd",AC system replacement,2026-03-14,2026-03-16,8100.00,14,completed
+SA-0273,"Kowalski residence, 7833 Brookside Blvd",Igniter replacement,2026-03-16,2026-03-16,900.00,1.5,completed
+SA-0274,"Mendez residence, 5545 Gillham Rd",Service call - diagnostic,2026-03-16,2026-03-16,870.00,4,completed
+SA-0275,"Okafor residence, 5667 State Line Rd",AC and furnace changeout,2026-03-16,2026-03-18,13300.00,12,completed
+SA-0276,"Whitfield residence, 6807 Gillham Rd",Furnace repair - no heat,2026-03-18,2026-03-18,250.00,2,completed
+SA-0277,"Quinn residence, 6556 Oak St",AC repair - not cooling,2026-03-19,2026-03-19,260.00,2.5,completed
+SA-0278,"Jensen residence, 4282 Main St",Thermostat repair,2026-03-19,2026-03-19,660.00,4,completed
+SA-0279,"Abernathy residence, 5045 Holmes Rd",Service call - diagnostic,2026-03-20,2026-03-20,750.00,4,completed
+SA-0280,"Abernathy residence, 154 Gillham Rd",AC repair - not cooling,2026-03-20,2026-03-20,880.00,1.5,completed
+SA-0281,"Russo residence, 603 Wornall Rd",Furnace repair - no heat,2026-03-21,2026-03-21,910.00,4,completed
+SA-0282,"Price residence, 3913 State Line Rd",Furnace repair - no heat,2026-03-21,2026-03-21,440.00,1.5,completed
+SA-0283,"Russo residence, 9603 Gillham Rd",Furnace repair - no heat,2026-03-25,2026-03-25,450.00,3,completed
+SA-0284,"Nguyen residence, 1671 Ward Pkwy",AC repair - not cooling,2026-03-26,2026-03-26,210.00,4,completed
+SA-0285,"Miller residence, 298 Main St",Service call - diagnostic,2026-03-26,2026-03-26,200.00,2.5,completed
+SA-0286,"Lindqvist residence, 5057 State Line Rd",Heat pump install,2026-03-27,2026-03-29,7800.00,14,completed
+SA-0287,"Abernathy residence, 598 Ward Pkwy",Service call - diagnostic,2026-03-28,2026-03-28,240.00,2,completed
+SA-0288,"Nguyen residence, 8660 Troost Ave",Furnace repair - no heat,2026-03-28,2026-03-28,660.00,4,completed
+SA-0289,"Novak residence, 4457 Broadway Blvd",Furnace repair - no heat,2026-03-30,2026-03-30,330.00,3,completed
+SA-0290,"Bauer residence, 9498 Broadway Blvd",AC repair - not cooling,2026-03-30,2026-03-30,690.00,2.5,completed
+SA-0291,"Novak residence, 8036 State Line Rd",AC repair - not cooling,2026-04-01,2026-04-01,820.00,2.5,completed
+SA-0292,"Novak residence, 9105 Holmes Rd",Thermostat repair,2026-04-01,2026-04-01,210.00,1.5,completed
+SA-0293,"Schultz residence, 5503 Brookside Blvd",Igniter replacement,2026-04-01,2026-04-01,380.00,4,completed
+SA-0294,"Mendez residence, 380 State Line Rd",Thermostat repair,2026-04-02,2026-04-02,380.00,1.5,completed
+SA-0295,"Delgado residence, 4563 Ward Pkwy",AC repair - not cooling,2026-04-03,2026-04-03,220.00,3,completed
+SA-0296,"Moreau residence, 544 Oak St",Service call - diagnostic,2026-04-03,2026-04-03,860.00,2.5,completed
+SA-0297,"Ortiz residence, 1101 Holmes Rd",AC repair - not cooling,2026-04-03,2026-04-03,750.00,3,completed
+SA-0298,"Whitfield residence, 7607 Brookside Blvd",Thermostat repair,2026-04-04,2026-04-04,910.00,1.5,completed
+SA-0299,"Quinn residence, 1953 Troost Ave",Furnace repair - no heat,2026-04-04,2026-04-04,500.00,3,completed
+SA-0300,"Patel residence, 7306 Ward Pkwy",AC and furnace changeout,2026-04-04,2026-04-06,7900.00,12,completed
+SA-0301,"Coleman residence, 5200 Oak St",Igniter replacement,2026-04-06,2026-04-06,320.00,2,completed
+SA-0302,"Moreau residence, 3624 Wornall Rd",Thermostat repair,2026-04-06,2026-04-06,420.00,2,completed
+SA-0303,"Ortiz residence, 705 Brookside Blvd",Igniter replacement,2026-04-07,2026-04-07,630.00,2,completed
+SA-0304,"Garza residence, 6391 Main St",AC repair - not cooling,2026-04-07,2026-04-07,920.00,2,completed
+SA-0305,"Nguyen residence, 9059 Oak St",Service call - diagnostic,2026-04-08,2026-04-08,370.00,2.5,completed
+SA-0306,"Mendez residence, 2343 Oak St",Igniter replacement,2026-04-08,2026-04-08,670.00,2.5,completed
+SA-0307,"Garza residence, 3312 Brookside Blvd",Thermostat repair,2026-04-08,2026-04-08,930.00,2,completed
+SA-0308,"Sorensen residence, 9640 Ward Pkwy",AC and furnace changeout,2026-04-08,2026-04-10,9400.00,12,completed
+SA-0309,"Kim residence, 3681 Broadway Blvd",Blower motor repair,2026-04-10,2026-04-10,240.00,4,completed
+SA-0310,"Okafor residence, 5997 State Line Rd",Blower motor repair,2026-04-11,2026-04-11,280.00,2.5,completed
+SA-0311,"Hughes residence, 2458 Brookside Blvd",Thermostat repair,2026-04-11,2026-04-11,490.00,2,completed
+SA-0312,"Coleman residence, 5012 Broadway Blvd",Thermostat repair,2026-04-13,2026-04-13,460.00,2.5,completed
+SA-0313,"Schultz residence, 6459 Oak St",Igniter replacement,2026-04-14,2026-04-14,610.00,3,completed
+SA-0314,"Hughes residence, 5865 Broadway Blvd",Furnace repair - no heat,2026-04-15,2026-04-15,530.00,3,completed
+SA-0315,"Moreau residence, 1467 Brookside Blvd",AC and furnace changeout,2026-04-15,2026-04-17,10900.00,10,completed
+SA-0316,"Whitfield residence, 2526 Wornall Rd",Furnace repair - no heat,2026-04-16,2026-04-16,190.00,4,completed
+SA-0317,"Kim residence, 2644 Broadway Blvd",Igniter replacement,2026-04-16,2026-04-16,770.00,2,completed
+SA-0318,"Russo residence, 4937 Wornall Rd",Igniter replacement,2026-04-17,2026-04-17,550.00,4,completed
+SA-0319,"Ellison residence, 3805 Main St",Blower motor repair,2026-04-18,2026-04-18,810.00,4,completed
+SA-0320,"Lindqvist residence, 5676 Wornall Rd",Service call - diagnostic,2026-04-20,2026-04-20,900.00,2.5,completed
+SA-0321,"Miller residence, 6151 State Line Rd",AC system replacement,2026-04-20,2026-04-22,10400.00,14,completed
+SA-0322,Westport Dental Group,Commercial RTU replacement,2026-04-20,2026-04-24,13700.00,48,completed
+SA-0323,"Kowalski residence, 2093 Brookside Blvd",AC repair - not cooling,2026-04-21,2026-04-21,180.00,2.5,completed
+SA-0324,"Moreau residence, 7690 Broadway Blvd",Blower motor repair,2026-04-21,2026-04-21,930.00,2.5,completed
+SA-0325,"Coleman residence, 7872 Main St",Furnace repair - no heat,2026-04-21,2026-04-21,300.00,4,completed
+SA-0326,"Tran residence, 7135 Broadway Blvd",Thermostat repair,2026-04-22,2026-04-22,920.00,1.5,completed
+SA-0327,"Miller residence, 5944 Wornall Rd",Igniter replacement,2026-04-23,2026-04-23,240.00,3,completed
+SA-0328,"Patel residence, 9343 State Line Rd",AC repair - not cooling,2026-04-24,2026-04-24,710.00,3,completed
+SA-0329,"Novak residence, 2829 Broadway Blvd",Service call - diagnostic,2026-04-25,2026-04-25,600.00,3,completed
+SA-0330,"Garza residence, 8909 Troost Ave",Blower motor repair,2026-04-25,2026-04-25,480.00,1.5,completed
+SA-0331,"Quinn residence, 8484 Troost Ave",Igniter replacement,2026-04-25,2026-04-25,870.00,1.5,completed
+SA-0332,"Mendez residence, 8656 Broadway Blvd",Blower motor repair,2026-04-27,2026-04-27,380.00,1.5,completed
+SA-0333,"Ellison residence, 3833 Wornall Rd",Furnace repair - no heat,2026-04-27,2026-04-27,490.00,1.5,completed
+SA-0334,"Schultz residence, 2894 Broadway Blvd",AC system replacement,2026-04-28,2026-04-30,13900.00,16,completed
+SA-0335,"Okafor residence, 6102 Gillham Rd",Service call - diagnostic,2026-04-29,2026-04-29,730.00,2.5,completed
+SA-0336,"Garza residence, 2957 Broadway Blvd",Furnace repair - no heat,2026-04-30,2026-04-30,550.00,2,completed
+SA-0337,"Patel residence, 8290 Ward Pkwy",Furnace repair - no heat,2026-04-30,2026-04-30,320.00,4,completed
+SA-0338,"Kim residence, 8047 Main St",Blower motor repair,2026-04-30,2026-04-30,830.00,4,completed
+SA-0339,"Quinn residence, 3541 Wornall Rd",Service call - diagnostic,2026-05-01,2026-05-01,170.00,2,completed
+SA-0340,"Whitfield residence, 5056 Main St",Service call - diagnostic,2026-05-01,2026-05-01,180.00,4,completed
+SA-0341,"Patel residence, 2504 Gillham Rd",Furnace repair - no heat,2026-05-02,2026-05-02,230.00,3,completed
+SA-0342,"Jensen residence, 4621 Wornall Rd",AC system replacement,2026-05-02,2026-05-04,7500.00,16,completed
+SA-0343,"Jensen residence, 4621 Wornall Rd",Warranty callback - install follow-up,2026-05-14,2026-05-14,0.00,4,completed
+SA-0344,"Coleman residence, 2978 Main St",Refrigerant leak repair,2026-05-04,2026-05-04,340.00,4,completed
+SA-0345,"Whitfield residence, 4346 Oak St",Service call - diagnostic,2026-05-04,2026-05-04,800.00,3,completed
+SA-0346,"Mendez residence, 2747 Holmes Rd",AC and furnace changeout,2026-05-04,2026-05-06,13700.00,12,completed
+SA-0347,"Russo residence, 2535 State Line Rd",Furnace repair - no heat,2026-05-05,2026-05-05,740.00,2,completed
+SA-0348,"Lindqvist residence, 9695 Wornall Rd",AC and furnace changeout,2026-05-05,2026-05-07,9100.00,12,completed
+SA-0349,"Hughes residence, 3177 Oak St",Service call - diagnostic,2026-05-06,2026-05-06,320.00,2,completed
+SA-0350,"Quinn residence, 3692 Gillham Rd",Capacitor and contactor replacement,2026-05-06,2026-05-06,910.00,3,completed
+SA-0351,"Patel residence, 2963 Brookside Blvd",Service call - diagnostic,2026-05-06,2026-05-06,200.00,4,completed
+SA-0352,"Kim residence, 7230 State Line Rd",Thermostat repair,2026-05-07,2026-05-07,330.00,2,completed
+SA-0353,Plaza Fitness,Commercial RTU replacement,2026-05-07,2026-05-11,17400.00,60,completed
+SA-0354,"Schultz residence, 3596 Oak St",Service call - diagnostic,2026-05-08,2026-05-08,440.00,2,completed
+SA-0355,"Nguyen residence, 7209 Wornall Rd",Capacitor and contactor replacement,2026-05-08,2026-05-08,800.00,2.5,completed
+SA-0356,"Haddad residence, 6226 Holmes Rd",Furnace repair - no heat,2026-05-08,2026-05-08,170.00,3,completed
+SA-0357,"Moreau residence, 4425 Ward Pkwy",AC repair - not cooling,2026-05-09,2026-05-09,540.00,2.5,completed
+SA-0358,"Haddad residence, 6151 Wornall Rd",Refrigerant leak repair,2026-05-09,2026-05-09,210.00,2,completed
+SA-0359,"Tran residence, 4040 Main St",Thermostat repair,2026-05-09,2026-05-09,550.00,3,completed
+SA-0360,"Lopez residence, 7152 Ward Pkwy",Service call - diagnostic,2026-05-11,2026-05-11,210.00,2,completed
+SA-0361,"Nguyen residence, 4387 State Line Rd",Furnace repair - no heat,2026-05-11,2026-05-11,240.00,2.5,completed
+SA-0362,"Haddad residence, 4887 Gillham Rd",AC repair - not cooling,2026-05-12,2026-05-12,590.00,2,completed
+SA-0363,"Kim residence, 3429 Brookside Blvd",Refrigerant leak repair,2026-05-12,2026-05-12,650.00,4,completed
+SA-0364,"Miller residence, 6369 Brookside Blvd",AC repair - not cooling,2026-05-13,2026-05-13,430.00,1.5,completed
+SA-0365,"Coleman residence, 4192 Holmes Rd",Furnace repair - no heat,2026-05-16,2026-05-16,880.00,3,completed
+SA-0366,"Coleman residence, 1333 Holmes Rd",AC repair - not cooling,2026-05-18,2026-05-18,530.00,2.5,completed
+SA-0367,"Mendez residence, 9569 Wornall Rd",Refrigerant leak repair,2026-05-18,2026-05-18,890.00,1.5,completed
+SA-0368,"Haddad residence, 8243 Gillham Rd",Refrigerant leak repair,2026-05-19,2026-05-19,870.00,3,completed
+SA-0369,"Moreau residence, 7002 Holmes Rd",Thermostat repair,2026-05-21,2026-05-21,220.00,2.5,completed
+SA-0370,"Ortiz residence, 3310 Holmes Rd",Refrigerant leak repair,2026-05-21,2026-05-21,360.00,2,completed
+SA-0371,"Novak residence, 8215 Holmes Rd",Service call - diagnostic,2026-05-22,2026-05-22,840.00,2.5,completed
+SA-0372,"Nguyen residence, 561 Main St",AC repair - not cooling,2026-05-22,2026-05-22,900.00,2,completed
+SA-0373,"Delgado residence, 724 Wornall Rd",Refrigerant leak repair,2026-05-22,2026-05-22,170.00,3,completed
+SA-0374,"Tran residence, 3342 Troost Ave",Service call - diagnostic,2026-05-23,2026-05-23,230.00,2,completed
+SA-0375,"Whitfield residence, 5023 Gillham Rd",AC repair - not cooling,2026-05-25,2026-05-25,690.00,3,completed
+SA-0376,"Nguyen residence, 663 Brookside Blvd",Furnace repair - no heat,2026-05-26,2026-05-26,280.00,2,completed
+SA-0377,"Mendez residence, 8912 Oak St",Service call - diagnostic,2026-05-26,2026-05-26,930.00,4,completed
+SA-0378,"Moreau residence, 2308 Oak St",AC repair - not cooling,2026-05-26,2026-05-26,180.00,2,completed
+SA-0379,"Quinn residence, 5237 Wornall Rd",Capacitor and contactor replacement,2026-05-27,2026-05-27,350.00,4,completed
+SA-0380,"Whitfield residence, 8357 Holmes Rd",Thermostat repair,2026-05-27,2026-05-27,460.00,2,completed
+SA-0381,"Coleman residence, 8905 Wornall Rd",Thermostat repair,2026-05-28,2026-05-28,540.00,2,completed
+SA-0382,"Novak residence, 8647 Main St",Service call - diagnostic,2026-05-28,2026-05-28,760.00,4,completed
+SA-0383,"Iverson residence, 8136 Gillham Rd",Thermostat repair,2026-05-28,2026-05-28,480.00,1.5,completed
+SA-0384,"Schultz residence, 3235 State Line Rd",Service call - diagnostic,2026-05-29,2026-05-29,880.00,2.5,completed
+SA-0385,"Delgado residence, 7341 Wornall Rd",Heat pump install,2026-05-29,2026-05-31,14000.00,14,completed
+SA-0386,"Moreau residence, 3358 Oak St",Furnace repair - no heat,2026-05-30,2026-05-30,950.00,2.5,completed
+SA-0387,"Russo residence, 2803 Oak St",Service call - diagnostic,2026-06-01,2026-06-01,700.00,4,completed
+SA-0388,"Moreau residence, 7964 Holmes Rd",Capacitor and contactor replacement,2026-06-01,2026-06-01,870.00,2,completed
+SA-0389,"Okafor residence, 2623 Broadway Blvd",AC and furnace changeout,2026-06-02,2026-06-04,8100.00,16,completed
+SA-0390,"Patel residence, 324 Holmes Rd",Thermostat repair,2026-06-03,2026-06-03,400.00,3,completed
+SA-0391,Westport Dental Group,Commercial RTU replacement,2026-06-04,2026-06-08,21300.00,60,completed
+SA-0392,"Delgado residence, 5938 Ward Pkwy",Refrigerant leak repair,2026-06-06,2026-06-06,570.00,2.5,completed
+SA-0393,"Sorensen residence, 2469 State Line Rd",AC repair - not cooling,2026-06-06,2026-06-06,920.00,2,completed
+SA-0394,"Schultz residence, 239 Holmes Rd",Thermostat repair,2026-06-06,2026-06-06,590.00,3,completed
+SA-0395,"Abernathy residence, 8300 Main St",AC system replacement,2026-06-06,2026-06-08,11100.00,12,completed
+SA-0396,"Abernathy residence, 8300 Main St",Warranty callback - install follow-up,2026-06-14,2026-06-14,0.00,2,completed
+SA-0397,"Moreau residence, 5876 Gillham Rd",AC repair - not cooling,2026-06-09,2026-06-09,310.00,3,completed
+SA-0398,"Tran residence, 5993 Gillham Rd",Furnace repair - no heat,2026-06-09,2026-06-09,860.00,4,completed
+SA-0399,"Kim residence, 1512 Holmes Rd",AC and furnace changeout,2026-06-09,2026-06-11,9200.00,12,completed
+SA-0400,"Ellison residence, 3186 Wornall Rd",AC repair - not cooling,2026-06-10,2026-06-10,660.00,2,completed
+SA-0401,"Tran residence, 4835 Ward Pkwy",Thermostat repair,2026-06-11,2026-06-11,310.00,2.5,completed
+SA-0402,"Lopez residence, 4892 Wornall Rd",Heat pump install,2026-06-12,2026-06-14,7100.00,10,completed
+SA-0403,"Miller residence, 5273 Ward Pkwy",AC repair - not cooling,2026-06-13,2026-06-13,420.00,1.5,completed
+SA-0404,"Sorensen residence, 6793 State Line Rd",Service call - diagnostic,2026-06-13,2026-06-13,240.00,4,completed
+SA-0405,"Abernathy residence, 5071 Brookside Blvd",AC repair - not cooling,2026-06-13,2026-06-13,370.00,2.5,completed
+SA-0406,"Lopez residence, 8868 Holmes Rd",Thermostat repair,2026-06-15,2026-06-15,530.00,4,completed
+SA-0407,"Novak residence, 9014 Brookside Blvd",Service call - diagnostic,2026-06-15,2026-06-15,600.00,4,completed
+SA-0408,"Abernathy residence, 5787 Oak St",Furnace repair - no heat,2026-06-15,2026-06-15,660.00,2.5,completed
+SA-0409,"Lindqvist residence, 4377 State Line Rd",Service call - diagnostic,2026-06-16,2026-06-16,360.00,1.5,completed
+SA-0410,"Brooks residence, 8104 Gillham Rd",Service call - diagnostic,2026-06-17,2026-06-17,840.00,2.5,completed
+SA-0411,"Bauer residence, 4531 Gillham Rd",Capacitor and contactor replacement,2026-06-17,2026-06-17,660.00,2,completed
+SA-0412,"Kowalski residence, 6978 Broadway Blvd",Furnace repair - no heat,2026-06-18,2026-06-18,280.00,2.5,completed
+SA-0413,"Ellison residence, 5101 Gillham Rd",Furnace repair - no heat,2026-06-18,2026-06-18,440.00,2,completed
+SA-0414,"Jensen residence, 3203 State Line Rd",Refrigerant leak repair,2026-06-18,2026-06-18,350.00,2.5,completed
+SA-0415,"Iverson residence, 855 Brookside Blvd",AC system replacement,2026-06-18,2026-06-20,12300.00,12,completed
+SA-0416,"Coleman residence, 6148 State Line Rd",Refrigerant leak repair,2026-06-19,2026-06-19,460.00,2.5,completed
+SA-0417,"Patel residence, 8626 Gillham Rd",Heat pump install,2026-06-19,2026-06-21,10100.00,16,completed
+SA-0418,"Patel residence, 8626 Gillham Rd",Warranty callback - install follow-up,2026-06-30,2026-06-30,0.00,3,completed
+SA-0419,"Price residence, 5339 Main St",Thermostat repair,2026-06-20,2026-06-20,730.00,3,completed
+SA-0420,"Jensen residence, 6393 State Line Rd",Refrigerant leak repair,2026-06-20,2026-06-20,390.00,1.5,completed
+SA-0421,"Kowalski residence, 1949 Broadway Blvd",Capacitor and contactor replacement,2026-06-22,2026-06-22,230.00,1.5,completed
+SA-0422,"Garza residence, 9748 Holmes Rd",Thermostat repair,2026-06-22,2026-06-22,310.00,1.5,completed
+SA-0423,"Delgado residence, 757 State Line Rd",AC repair - not cooling,2026-06-22,2026-06-22,770.00,3,completed
+SA-0424,"Delgado residence, 4165 Wornall Rd",Heat pump install,2026-06-23,2026-06-25,10100.00,14,completed
+SA-0425,"Delgado residence, 4165 Wornall Rd",Warranty callback - install follow-up,2026-07-05,2026-07-05,0.00,4,completed
+SA-0426,"Lopez residence, 7899 Ward Pkwy",Furnace repair - no heat,2026-06-24,2026-06-24,270.00,4,completed
+SA-0427,"Kim residence, 363 Gillham Rd",Service call - diagnostic,2026-06-24,2026-06-24,180.00,4,completed
+SA-0428,"Ortiz residence, 9299 State Line Rd",Furnace repair - no heat,2026-06-24,2026-06-24,570.00,3,completed
+SA-0429,"Quinn residence, 404 Main St",AC system replacement,2026-06-24,2026-06-26,8000.00,12,completed
+SA-0430,"Quinn residence, 404 Main St",Warranty callback - install follow-up,2026-07-12,2026-07-12,0.00,3,completed
+SA-0431,"Hughes residence, 6357 Gillham Rd",Thermostat repair,2026-06-25,2026-06-25,560.00,3,completed
+SA-0432,"Garza residence, 9501 Gillham Rd",AC repair - not cooling,2026-06-26,2026-06-26,320.00,3,completed
+SA-0433,"Hughes residence, 9881 Main St",Thermostat repair,2026-06-26,2026-06-26,450.00,2.5,completed
+SA-0434,"Nguyen residence, 6472 Brookside Blvd",Heat pump install,2026-06-26,2026-06-28,14400.00,14,completed
+SA-0435,"Iverson residence, 9172 Troost Ave",Furnace repair - no heat,2026-06-27,2026-06-27,540.00,3,completed
+SA-0436,"Bauer residence, 6863 Ward Pkwy",Heat pump install,2026-06-27,2026-06-29,8100.00,12,completed
+SA-0437,"Schultz residence, 7365 Oak St",Refrigerant leak repair,2026-06-29,2026-06-29,910.00,2.5,completed
+SA-0438,"Haddad residence, 4576 Main St",Furnace repair - no heat,2026-06-30,2026-06-30,270.00,1.5,completed
+SA-0439,"Okafor residence, 5132 Holmes Rd",AC repair - not cooling,2026-06-30,2026-06-30,550.00,2.5,completed
+SA-0440,"Hughes residence, 1425 Brookside Blvd",AC system replacement,2026-06-30,2026-07-02,6900.00,14,completed
+SA-0441,"Miller residence, 8514 Oak St",Capacitor and contactor replacement,2026-07-01,2026-07-01,270.00,3,completed
+SA-0442,"Lindqvist residence, 6636 Holmes Rd",AC repair - not cooling,2026-07-01,2026-07-01,930.00,2.5,completed
+SA-0443,"Moreau residence, 4572 Ward Pkwy",AC and furnace changeout,2026-07-01,2026-07-03,7300.00,16,completed
+SA-0444,"Tran residence, 3092 State Line Rd",Refrigerant leak repair,2026-07-02,2026-07-02,530.00,4,completed
+SA-0445,"Nguyen residence, 6053 State Line Rd",Thermostat repair,2026-07-04,2026-07-04,240.00,1.5,completed
+SA-0446,"Lopez residence, 3929 Holmes Rd",AC and furnace changeout,2026-07-04,2026-07-06,11500.00,16,completed
+SA-0447,River Market Deli,Commercial RTU replacement,2026-07-04,2026-07-08,21400.00,48,completed
+SA-0448,"Coleman residence, 2870 Ward Pkwy",Service call - diagnostic,2026-07-06,2026-07-06,280.00,2.5,completed
+SA-0449,"Iverson residence, 1345 Main St",Service call - diagnostic,2026-07-06,2026-07-06,520.00,1.5,completed
+SA-0450,"Novak residence, 5816 Wornall Rd",Heat pump install,2026-07-06,2026-07-08,6900.00,12,completed
+SA-0451,"Lindqvist residence, 3909 Main St",Furnace repair - no heat,2026-07-07,2026-07-07,750.00,4,completed
+SA-0452,"Kim residence, 4407 Ward Pkwy",AC repair - not cooling,2026-07-07,2026-07-07,530.00,1.5,completed
+SA-0453,Waldo Vet Clinic,Commercial RTU replacement,2026-07-07,2026-07-11,13700.00,60,completed
+SA-0454,"Kowalski residence, 8441 Gillham Rd",Furnace repair - no heat,2026-07-09,2026-07-09,740.00,3,completed
+SA-0455,"Coleman residence, 4638 Oak St",Heat pump install,2026-07-09,2026-07-11,7000.00,16,completed
+SA-0456,Crown Center Retail,Commercial RTU replacement,2026-07-09,2026-07-13,15600.00,48,completed
+SA-0457,"Price residence, 5550 Holmes Rd",Thermostat repair,2026-07-11,2026-07-11,260.00,3,completed
+SA-0458,"Kowalski residence, 3963 Brookside Blvd",AC repair - not cooling,2026-07-13,2026-07-13,310.00,1.5,completed
+SA-0459,"Haddad residence, 6521 Wornall Rd",AC repair - not cooling,2026-07-13,2026-07-13,940.00,2.5,completed
+SA-0460,"Delgado residence, 4765 Ward Pkwy",Refrigerant leak repair,2026-07-13,2026-07-13,190.00,3,completed
+SA-0461,"Schultz residence, 2272 State Line Rd",AC and furnace changeout,2026-07-13,2026-07-15,7300.00,12,completed
+SA-0462,"Ellison residence, 3921 Broadway Blvd",Refrigerant leak repair,2026-07-14,2026-07-14,740.00,2.5,completed
+SA-0463,"Ortiz residence, 7285 Troost Ave",Thermostat repair,2026-07-14,2026-07-14,460.00,4,completed
+SA-0464,"Okafor residence, 3521 State Line Rd",Thermostat repair,2026-07-14,2026-07-14,900.00,1.5,completed
+SA-0465,"Ellison residence, 8215 Oak St",Capacitor and contactor replacement,2026-07-15,2026-07-15,410.00,1.5,completed
+SA-0466,"Okafor residence, 5983 Brookside Blvd",Service call - diagnostic,2026-07-15,2026-07-15,730.00,2,completed
+SA-0467,"Quinn residence, 5509 Wornall Rd",Service call - diagnostic,2026-07-17,2026-07-17,370.00,1.5,completed
+SA-0468,"Kim residence, 9765 Holmes Rd",AC repair - not cooling,2026-07-17,2026-07-17,940.00,1.5,completed
+SA-0469,"Delgado residence, 2664 Oak St",Thermostat repair,2026-07-17,2026-07-17,780.00,2,completed
+SA-0470,"Garza residence, 1931 Main St",Thermostat repair,2026-07-18,2026-07-18,350.00,2,completed
+SA-0471,"Okafor residence, 7249 State Line Rd",Furnace repair - no heat,2026-07-18,2026-07-18,260.00,3,completed
+SA-0472,"Coleman residence, 1348 State Line Rd",Capacitor and contactor replacement,2026-07-20,2026-07-20,860.00,4,completed
+SA-0473,"Jensen residence, 7977 Wornall Rd",Furnace repair - no heat,2026-07-21,2026-07-21,840.00,1.5,completed
+SA-0474,"Mendez residence, 3969 Main St",AC system replacement,2026-07-21,2026-07-23,7700.00,10,completed
+SA-0475,"Lindqvist residence, 4119 Troost Ave",Ductwork replacement,2026-07-21,2026-07-23,5000.00,16,completed
+SA-0476,"Patel residence, 5707 Holmes Rd",Refrigerant leak repair,2026-07-22,2026-07-22,700.00,2,completed
+SA-0477,"Jensen residence, 1093 Broadway Blvd",Capacitor and contactor replacement,2026-07-23,2026-07-23,870.00,2.5,completed
+SA-0478,"Hughes residence, 8426 Troost Ave",Service call - diagnostic,2026-07-24,2026-07-24,340.00,1.5,completed
+SA-0479,"Lindqvist residence, 2049 Wornall Rd",Refrigerant leak repair,2026-07-24,2026-07-24,250.00,4,completed
+SA-0480,"Novak residence, 7665 Broadway Blvd",Service call - diagnostic,2026-07-24,2026-07-24,210.00,2,completed
+SA-0481,"Okafor residence, 670 Main St",Capacitor and contactor replacement,2026-07-25,2026-07-25,650.00,2,completed
+SA-0482,"Whitfield residence, 1169 Ward Pkwy",Service call - diagnostic,2026-07-25,2026-07-25,600.00,4,completed
+SA-0483,"Jensen residence, 607 Brookside Blvd",AC and furnace changeout,2026-07-25,2026-07-27,9500.00,10,completed
+SA-0484,"Hughes residence, 3877 State Line Rd",Refrigerant leak repair,2026-07-27,2026-07-27,850.00,2.5,completed
+SA-0485,"Coleman residence, 5181 Ward Pkwy",Capacitor and contactor replacement,2026-07-27,2026-07-27,390.00,2,completed
+SA-0486,"Russo residence, 5979 Gillham Rd",Thermostat repair,2026-07-28,2026-07-28,450.00,2,completed
+SA-0487,"Kowalski residence, 5752 Holmes Rd",Refrigerant leak repair,2026-07-28,2026-07-28,870.00,1.5,completed
+SA-0488,"Patel residence, 3468 Main St",AC repair - not cooling,2026-07-29,2026-07-29,290.00,3,completed
+SA-0489,"Ellison residence, 1777 Holmes Rd",Thermostat repair,2026-07-29,2026-07-29,610.00,4,completed
+SA-0490,"Russo residence, 333 State Line Rd",Refrigerant leak repair,2026-07-30,2026-07-30,660.00,1.5,completed
+SA-0491,"Abernathy residence, 9079 Holmes Rd",Refrigerant leak repair,2026-07-30,2026-07-30,660.00,2.5,completed
+SA-0492,"Abernathy residence, 2275 State Line Rd",AC repair - not cooling,2026-07-30,2026-07-30,280.00,3,completed
+SA-0493,"Sorensen residence, 6999 Holmes Rd",AC system replacement,2026-07-30,2026-08-01,12100.00,12,completed
+SA-0494,"Hughes residence, 644 State Line Rd",Service call - diagnostic,2026-07-31,2026-07-31,850.00,2.5,completed
+SA-0495,"Schultz residence, 3562 Brookside Blvd",Furnace repair - no heat,2026-07-31,2026-07-31,790.00,2.5,completed
+SA-0496,"Lindqvist residence, 1493 Broadway Blvd",AC repair - not cooling,2026-07-31,2026-07-31,370.00,1.5,completed
+SA-0497,"Sorensen residence, 1765 Wornall Rd",Capacitor and contactor replacement,2026-08-01,2026-08-01,370.00,2.5,completed
+SA-0498,"Schultz residence, 679 Brookside Blvd",AC repair - not cooling,2026-08-01,2026-08-01,630.00,1.5,completed
+SA-0499,"Miller residence, 5752 Brookside Blvd",Refrigerant leak repair,2026-08-01,2026-08-01,570.00,4,completed
+SA-0500,"Hughes residence, 3667 Wornall Rd",Thermostat repair,2026-08-03,2026-08-03,390.00,2.5,completed
+SA-0501,"Ellison residence, 9730 Broadway Blvd",Furnace repair - no heat,2026-08-04,2026-08-04,880.00,2,completed
+SA-0502,"Novak residence, 1237 Brookside Blvd",Capacitor and contactor replacement,2026-08-04,2026-08-04,910.00,2,completed
+SA-0503,"Ortiz residence, 9430 Gillham Rd",AC repair - not cooling,2026-08-04,2026-08-04,370.00,4,completed
+SA-0504,"Tran residence, 7505 Ward Pkwy",Heat pump install,2026-08-04,2026-08-06,8700.00,10,completed
+SA-0505,"Okafor residence, 7895 Brookside Blvd",AC repair - not cooling,2026-08-05,2026-08-05,820.00,2.5,completed
+SA-0506,"Novak residence, 1376 Ward Pkwy",Thermostat repair,2026-08-05,2026-08-05,790.00,3,completed
+SA-0507,"Delgado residence, 9360 Wornall Rd",Furnace repair - no heat,2026-08-05,2026-08-05,300.00,2.5,completed
+SA-0508,"Bauer residence, 1297 Oak St",Refrigerant leak repair,2026-08-06,2026-08-06,810.00,3,completed
+SA-0509,"Mendez residence, 996 Wornall Rd",Thermostat repair,2026-08-06,2026-08-06,510.00,4,completed
+SA-0510,"Abernathy residence, 5334 Ward Pkwy",Service call - diagnostic,2026-08-06,2026-08-06,920.00,3,completed
+SA-0511,"Kim residence, 1145 Holmes Rd",Service call - diagnostic,2026-08-08,2026-08-08,320.00,4,completed
+SA-0512,"Garza residence, 2129 Wornall Rd",Refrigerant leak repair,2026-08-10,2026-08-10,450.00,2,completed
+SA-0513,"Miller residence, 6393 Holmes Rd",Thermostat repair,2026-08-10,2026-08-10,320.00,3,completed
+SA-0514,"Abernathy residence, 2124 Gillham Rd",AC repair - not cooling,2026-08-10,2026-08-10,190.00,2,completed
+SA-0515,"Tran residence, 8748 Troost Ave",Capacitor and contactor replacement,2026-08-11,2026-08-11,750.00,1.5,completed
+SA-0516,"Garza residence, 8920 Ward Pkwy",AC and furnace changeout,2026-08-11,2026-08-13,7600.00,12,completed
+SA-0517,"Delgado residence, 7064 Broadway Blvd",Refrigerant leak repair,2026-08-12,2026-08-12,840.00,2.5,completed
+SA-0518,"Sorensen residence, 1165 Ward Pkwy",AC repair - not cooling,2026-08-12,2026-08-12,810.00,4,completed
+SA-0519,"Lopez residence, 5512 Main St",Service call - diagnostic,2026-08-13,2026-08-13,680.00,1.5,completed
+SA-0520,"Moreau residence, 1108 Wornall Rd",Capacitor and contactor replacement,2026-08-13,2026-08-13,520.00,2,completed
+SA-0521,"Schultz residence, 3077 Broadway Blvd",Refrigerant leak repair,2026-08-13,2026-08-13,370.00,4,completed
+SA-0522,"Miller residence, 3328 Troost Ave",Heat pump install,2026-08-13,2026-08-15,12600.00,12,completed
+SA-0523,"Jensen residence, 7121 Troost Ave",Furnace repair - no heat,2026-08-14,2026-08-14,810.00,2,completed
+SA-0524,"Nguyen residence, 8606 Oak St",Furnace repair - no heat,2026-08-14,2026-08-14,390.00,3,completed
+SA-0525,"Mendez residence, 1881 Troost Ave",Capacitor and contactor replacement,2026-08-14,2026-08-14,180.00,3,completed
+SA-0526,"Ortiz residence, 2023 Holmes Rd",Heat pump install,2026-08-14,2026-08-16,13200.00,16,completed
+SA-0527,"Lopez residence, 9261 State Line Rd",Capacitor and contactor replacement,2026-08-15,2026-08-15,190.00,2.5,completed
+SA-0528,"Tran residence, 362 Broadway Blvd",Capacitor and contactor replacement,2026-08-15,2026-08-15,750.00,1.5,completed
+SA-0529,"Mendez residence, 8713 Troost Ave",AC repair - not cooling,2026-08-17,2026-08-17,710.00,2,completed
+SA-0530,"Schultz residence, 4710 Brookside Blvd",Furnace repair - no heat,2026-08-17,2026-08-17,880.00,2.5,completed
+SA-0531,"Okafor residence, 1386 Ward Pkwy",Capacitor and contactor replacement,2026-08-17,2026-08-17,830.00,2,completed
+SA-0532,"Novak residence, 3113 Oak St",Capacitor and contactor replacement,2026-08-18,2026-08-18,420.00,3,completed
+SA-0533,"Sorensen residence, 2148 Main St",AC repair - not cooling,2026-08-18,2026-08-18,550.00,1.5,completed
+SA-0534,"Schultz residence, 472 Main St",AC and furnace changeout,2026-08-18,2026-08-20,6800.00,12,completed
+SA-0535,"Novak residence, 3628 Broadway Blvd",AC repair - not cooling,2026-08-19,2026-08-19,850.00,2,completed
+SA-0536,"Schultz residence, 9196 Troost Ave",Refrigerant leak repair,2026-08-20,2026-08-20,520.00,3,completed
+SA-0537,"Kowalski residence, 6163 Ward Pkwy",Refrigerant leak repair,2026-08-20,2026-08-20,500.00,2.5,completed
+SA-0538,"Ortiz residence, 6246 State Line Rd",Furnace repair - no heat,2026-08-20,2026-08-20,240.00,1.5,completed
+SA-0539,"Mendez residence, 1295 Wornall Rd",Furnace repair - no heat,2026-08-21,2026-08-21,550.00,4,completed
+SA-0540,"Price residence, 6451 Holmes Rd",Capacitor and contactor replacement,2026-08-22,2026-08-22,270.00,2.5,completed
+SA-0541,"Kowalski residence, 9590 Holmes Rd",AC repair - not cooling,2026-08-22,2026-08-22,280.00,2,completed
+SA-0542,"Sorensen residence, 3371 Troost Ave",Capacitor and contactor replacement,2026-08-24,2026-08-24,790.00,1.5,completed
+SA-0543,"Jensen residence, 8512 Broadway Blvd",Capacitor and contactor replacement,2026-08-24,2026-08-24,750.00,1.5,completed
+SA-0544,"Iverson residence, 3515 Gillham Rd",Thermostat repair,2026-08-25,2026-08-25,210.00,1.5,completed
+SA-0545,"Price residence, 506 Oak St",Furnace repair - no heat,2026-08-25,2026-08-25,730.00,2,completed
+SA-0546,"Coleman residence, 7058 State Line Rd",Refrigerant leak repair,2026-08-25,2026-08-25,410.00,4,completed
+SA-0547,"Russo residence, 1025 Ward Pkwy",Ductwork replacement,2026-08-25,2026-08-27,4100.00,24,completed
+SA-0548,"Kowalski residence, 6721 Wornall Rd",Furnace repair - no heat,2026-08-26,2026-08-26,260.00,4,completed
+SA-0549,"Ellison residence, 5026 Holmes Rd",Furnace repair - no heat,2026-08-26,2026-08-26,780.00,4,completed
+SA-0550,"Ortiz residence, 1836 Broadway Blvd",Thermostat repair,2026-08-26,2026-08-26,940.00,2,completed
+SA-0551,"Quinn residence, 533 Gillham Rd",Furnace repair - no heat,2026-08-27,2026-08-27,270.00,1.5,completed
+SA-0552,"Okafor residence, 9600 Troost Ave",Thermostat repair,2026-08-27,2026-08-27,860.00,4,completed
+SA-0553,Plaza Fitness,Commercial RTU replacement,2026-08-27,2026-08-31,16300.00,60,completed
+SA-0554,"Miller residence, 2180 Main St",Thermostat repair,2026-08-28,2026-08-28,690.00,3,completed
+SA-0555,"Abernathy residence, 8663 State Line Rd",Capacitor and contactor replacement,2026-08-28,2026-08-28,760.00,3,completed
+SA-0556,"Quinn residence, 7123 Oak St",Capacitor and contactor replacement,2026-08-28,2026-08-28,920.00,1.5,completed
+SA-0557,"Okafor residence, 4685 State Line Rd",AC repair - not cooling,2026-08-29,2026-08-29,680.00,3,completed
+SA-0558,"Ellison residence, 3066 Ward Pkwy",AC and furnace changeout,2026-08-29,2026-08-31,12700.00,10,completed
+SA-0559,"Coleman residence, 4103 Oak St",Service call - diagnostic,2026-08-31,2026-08-31,260.00,1.5,completed
+SA-0560,"Iverson residence, 2685 Holmes Rd",Heat pump install,2026-08-31,2026-09-02,7700.00,14,completed
+SA-0561,"Schultz residence, 3296 Troost Ave",Refrigerant leak repair,2026-09-01,2026-09-01,740.00,2.5,completed
+SA-0562,"Quinn residence, 3907 Brookside Blvd",AC repair - not cooling,2026-09-01,2026-09-01,940.00,1.5,completed
+SA-0563,"Quinn residence, 1148 State Line Rd",AC system replacement,2026-09-01,2026-09-03,11700.00,14,completed
+SA-0564,"Tran residence, 1298 Broadway Blvd",Refrigerant leak repair,2026-09-02,2026-09-02,480.00,2.5,completed
+SA-0565,"Jensen residence, 688 State Line Rd",Refrigerant leak repair,2026-09-02,2026-09-02,320.00,4,completed
+SA-0566,"Lopez residence, 6301 Broadway Blvd",Capacitor and contactor replacement,2026-09-02,2026-09-02,770.00,3,completed
+SA-0567,"Kowalski residence, 636 Gillham Rd",Capacitor and contactor replacement,2026-09-03,2026-09-03,880.00,1.5,completed
+SA-0568,"Mendez residence, 2011 Oak St",Service call - diagnostic,2026-09-03,2026-09-03,880.00,2,completed
+SA-0569,"Lopez residence, 8088 Ward Pkwy",AC repair - not cooling,2026-09-03,2026-09-03,690.00,2,completed
+SA-0570,"Novak residence, 650 Wornall Rd",Service call - diagnostic,2026-09-04,2026-09-04,740.00,4,completed
+SA-0571,"Garza residence, 340 Holmes Rd",Heat pump install,2026-09-04,2026-09-06,14300.00,14,completed
+SA-0572,"Lopez residence, 5486 Brookside Blvd",Furnace repair - no heat,2026-09-05,2026-09-05,340.00,2,completed
+SA-0573,"Tran residence, 6190 Brookside Blvd",AC repair - not cooling,2026-09-07,2026-09-07,630.00,2,completed
+SA-0574,"Jensen residence, 6511 Brookside Blvd",Heat pump install,2026-09-07,2026-09-09,12900.00,10,completed
+SA-0575,"Mendez residence, 5475 Gillham Rd",Ductwork replacement,2026-09-08,2026-09-10,4200.00,20,completed
+SA-0576,"Iverson residence, 8690 Troost Ave",Refrigerant leak repair,2026-09-09,2026-09-09,300.00,2,completed
+SA-0577,"Ortiz residence, 7552 Ward Pkwy",AC system replacement,2026-09-09,2026-09-11,10700.00,10,completed
+SA-0578,"Nguyen residence, 7398 State Line Rd",Refrigerant leak repair,2026-09-10,2026-09-10,650.00,3,completed
+SA-0579,"Novak residence, 1856 Holmes Rd",AC and furnace changeout,2026-09-10,2026-09-12,14400.00,14,completed
+SA-0580,Crown Center Retail,Commercial RTU replacement,2026-09-11,2026-09-15,16200.00,60,completed
+SA-0581,"Lopez residence, 3863 State Line Rd",Thermostat repair,2026-09-12,2026-09-12,260.00,2,completed
+SA-0582,"Quinn residence, 8163 Troost Ave",Service call - diagnostic,2026-09-12,2026-09-12,190.00,2.5,completed
+SA-0583,"Lindqvist residence, 5809 State Line Rd",AC repair - not cooling,2026-09-12,2026-09-12,450.00,2,completed
+SA-0584,"Brooks residence, 3878 Main St",Refrigerant leak repair,2026-09-14,2026-09-14,390.00,1.5,completed
+SA-0585,"Tran residence, 3769 Gillham Rd",Thermostat repair,2026-09-15,2026-09-15,600.00,4,completed
+SA-0586,Crown Center Retail,Commercial RTU replacement,2026-09-15,2026-09-19,12600.00,40,completed
+SA-0587,"Moreau residence, 4494 Troost Ave",Capacitor and contactor replacement,2026-09-16,2026-09-16,440.00,2,completed
+SA-0588,"Novak residence, 1716 Ward Pkwy",Thermostat repair,2026-09-17,2026-09-17,350.00,4,completed
+SA-0589,"Kim residence, 9569 Ward Pkwy",Furnace repair - no heat,2026-09-18,2026-09-18,570.00,1.5,completed
+SA-0590,"Nguyen residence, 5465 State Line Rd",Furnace repair - no heat,2026-09-18,2026-09-18,890.00,1.5,completed
+SA-0591,"Coleman residence, 2199 Broadway Blvd",Service call - diagnostic,2026-09-18,2026-09-18,760.00,3,completed
+SA-0592,"Haddad residence, 4381 Troost Ave",Service call - diagnostic,2026-09-19,2026-09-19,590.00,1.5,completed
+SA-0593,"Patel residence, 7489 Wornall Rd",Furnace repair - no heat,2026-09-19,2026-09-19,930.00,1.5,completed
+SA-0594,"Patel residence, 3367 Brookside Blvd",Thermostat repair,2026-09-19,2026-09-19,260.00,3,completed
+SA-0595,"Hughes residence, 1918 Main St",AC repair - not cooling,2026-09-21,2026-09-21,550.00,4,completed
+SA-0596,"Nguyen residence, 3412 Holmes Rd",Furnace repair - no heat,2026-09-22,2026-09-22,570.00,2.5,completed
+SA-0597,"Brooks residence, 2849 Main St",Refrigerant leak repair,2026-09-23,2026-09-23,570.00,2,completed
+SA-0598,"Moreau residence, 585 Troost Ave",Capacitor and contactor replacement,2026-09-24,2026-09-24,210.00,1.5,completed
+SA-0599,"Abernathy residence, 2658 Brookside Blvd",Thermostat repair,2026-09-24,2026-09-24,670.00,3,completed
+SA-0600,"Price residence, 3771 Brookside Blvd",Capacitor and contactor replacement,2026-09-25,2026-09-25,770.00,2,completed
+SA-0601,"Nguyen residence, 5980 Broadway Blvd",Capacitor and contactor replacement,2026-09-25,2026-09-25,310.00,1.5,completed
+SA-0602,"Russo residence, 9613 Holmes Rd",Service call - diagnostic,2026-09-25,2026-09-25,210.00,2,completed
+SA-0603,"Whitfield residence, 6600 Broadway Blvd",AC repair - not cooling,2026-09-26,2026-09-26,410.00,3,completed
+SA-0604,"Moreau residence, 1371 Broadway Blvd",Refrigerant leak repair,2026-09-28,2026-09-28,270.00,1.5,completed
+SA-0605,"Garza residence, 1443 State Line Rd",Refrigerant leak repair,2026-09-28,2026-09-28,780.00,1.5,completed
+SA-0606,"Bauer residence, 8673 Broadway Blvd",Refrigerant leak repair,2026-09-28,2026-09-28,390.00,2.5,completed
+SA-0607,"Sorensen residence, 9417 Broadway Blvd",Refrigerant leak repair,2026-09-29,2026-09-29,790.00,2.5,completed
+SA-0608,"Miller residence, 4439 Oak St",Refrigerant leak repair,2026-09-29,2026-09-29,840.00,2.5,completed
+SA-0609,"Whitfield residence, 8709 Oak St",Capacitor and contactor replacement,2026-09-30,2026-09-30,630.00,2.5,completed
+SA-0610,"Nguyen residence, 5334 Oak St",AC tune-up - maintenance plan,2026-05-08,2026-05-08,149.00,1.5,completed
+SA-0611,"Nguyen residence, 5334 Oak St",Furnace tune-up - maintenance plan,2025-11-24,2025-11-24,149.00,1.5,completed
+SA-0612,"Ellison residence, 1781 Holmes Rd",AC tune-up - maintenance plan,2026-05-21,2026-05-21,149.00,1.5,completed
+SA-0613,"Price residence, 9218 Troost Ave",AC tune-up - maintenance plan,2026-04-19,2026-04-19,149.00,1.5,completed
+SA-0614,"Price residence, 9218 Troost Ave",Furnace tune-up - maintenance plan,2025-11-06,2025-11-06,149.00,1.5,completed
+SA-0615,"Price residence, 9218 Troost Ave",Furnace tune-up - maintenance plan,2026-09-26,2026-09-26,149.00,1.5,completed
+SA-0616,"Mendez residence, 9480 Oak St",AC tune-up - maintenance plan,2026-04-10,2026-04-10,149.00,1.5,completed
+SA-0617,"Mendez residence, 9480 Oak St",Furnace tune-up - maintenance plan,2025-10-27,2025-10-27,149.00,1.5,completed
+SA-0618,"Novak residence, 8142 Broadway Blvd",AC tune-up - maintenance plan,2026-04-04,2026-04-04,149.00,1.5,completed
+SA-0619,"Novak residence, 8142 Broadway Blvd",Furnace tune-up - maintenance plan,2025-11-23,2025-11-23,149.00,1.5,completed
+SA-0620,"Novak residence, 8142 Broadway Blvd",Furnace tune-up - maintenance plan,2026-09-20,2026-09-20,149.00,1.5,completed
+SA-0621,"Sorensen residence, 4031 Ward Pkwy",AC tune-up - maintenance plan,2026-03-11,2026-03-11,149.00,1.5,completed
+SA-0622,"Sorensen residence, 4031 Ward Pkwy",Furnace tune-up - maintenance plan,2025-11-16,2025-11-16,149.00,1.5,completed
+SA-0623,"Garza residence, 1422 Main St",AC tune-up - maintenance plan,2026-03-18,2026-03-18,149.00,1.5,completed
+SA-0624,"Garza residence, 1422 Main St",Furnace tune-up - maintenance plan,2025-11-10,2025-11-10,149.00,1.5,completed
+SA-0625,"Garza residence, 1422 Main St",Furnace tune-up - maintenance plan,2026-09-13,2026-09-13,149.00,1.5,completed
+SA-0626,"Russo residence, 1706 Gillham Rd",AC tune-up - maintenance plan,2026-05-14,2026-05-14,149.00,1.5,completed
+SA-0627,"Russo residence, 1706 Gillham Rd",Furnace tune-up - maintenance plan,2025-10-22,2025-10-22,149.00,1.5,completed
+SA-0628,"Russo residence, 1706 Gillham Rd",Furnace tune-up - maintenance plan,2026-09-03,2026-09-03,149.00,1.5,completed
+SA-0629,"Miller residence, 8132 State Line Rd",AC tune-up - maintenance plan,2026-05-01,2026-05-01,149.00,1.5,completed
+SA-0630,"Delgado residence, 6608 Wornall Rd",AC tune-up - maintenance plan,2026-04-09,2026-04-09,149.00,1.5,completed
+SA-0631,"Delgado residence, 6608 Wornall Rd",Furnace tune-up - maintenance plan,2025-10-08,2025-10-08,149.00,1.5,completed
+SA-0632,"Delgado residence, 6608 Wornall Rd",Furnace tune-up - maintenance plan,2026-09-27,2026-09-27,149.00,1.5,completed
+SA-0633,"Tran residence, 5943 Troost Ave",AC tune-up - maintenance plan,2026-05-27,2026-05-27,149.00,1.5,completed
+SA-0634,"Tran residence, 5943 Troost Ave",Furnace tune-up - maintenance plan,2025-11-19,2025-11-19,149.00,1.5,completed
+SA-0635,"Tran residence, 5943 Troost Ave",Furnace tune-up - maintenance plan,2026-09-23,2026-09-23,149.00,1.5,completed
+SA-0636,"Kowalski residence, 8514 Main St",AC tune-up - maintenance plan,2026-03-04,2026-03-04,149.00,1.5,completed
+SA-0637,"Kowalski residence, 5677 Main St",AC tune-up - maintenance plan,2026-04-14,2026-04-14,149.00,1.5,completed
+SA-0638,"Kowalski residence, 5677 Main St",Furnace tune-up - maintenance plan,2025-10-13,2025-10-13,149.00,1.5,completed
+SA-0639,"Moreau residence, 8915 Wornall Rd",AC tune-up - maintenance plan,2026-04-12,2026-04-12,149.00,1.5,completed
+SA-0640,"Moreau residence, 8915 Wornall Rd",Furnace tune-up - maintenance plan,2025-11-09,2025-11-09,149.00,1.5,completed
+SA-0641,"Russo residence, 7594 Brookside Blvd",AC tune-up - maintenance plan,2026-05-25,2026-05-25,149.00,1.5,completed
+SA-0642,"Russo residence, 7594 Brookside Blvd",Furnace tune-up - maintenance plan,2025-10-04,2025-10-04,149.00,1.5,completed
+SA-0643,"Price residence, 9560 Wornall Rd",AC tune-up - maintenance plan,2026-05-07,2026-05-07,149.00,1.5,completed
+SA-0644,"Price residence, 9560 Wornall Rd",Furnace tune-up - maintenance plan,2025-11-06,2025-11-06,149.00,1.5,completed
+SA-0645,"Miller residence, 6143 State Line Rd",AC tune-up - maintenance plan,2026-03-11,2026-03-11,149.00,1.5,completed
+SA-0646,"Miller residence, 6143 State Line Rd",Furnace tune-up - maintenance plan,2025-11-20,2025-11-20,149.00,1.5,completed
+SA-0647,"Sorensen residence, 7017 Main St",AC tune-up - maintenance plan,2026-03-11,2026-03-11,149.00,1.5,completed
+SA-0648,"Sorensen residence, 7017 Main St",Furnace tune-up - maintenance plan,2025-10-04,2025-10-04,149.00,1.5,completed
+SA-0649,"Coleman residence, 9696 Oak St",AC tune-up - maintenance plan,2026-03-14,2026-03-14,149.00,1.5,completed
+SA-0650,"Coleman residence, 9696 Oak St",Furnace tune-up - maintenance plan,2025-11-03,2025-11-03,149.00,1.5,completed
+SA-0651,"Bauer residence, 2007 Troost Ave",AC tune-up - maintenance plan,2026-04-23,2026-04-23,149.00,1.5,completed
+SA-0652,"Bauer residence, 2007 Troost Ave",Furnace tune-up - maintenance plan,2025-10-08,2025-10-08,149.00,1.5,completed
+SA-0653,"Bauer residence, 2007 Troost Ave",Furnace tune-up - maintenance plan,2026-09-16,2026-09-16,149.00,1.5,completed
+SA-0654,"Ellison residence, 8145 Troost Ave",AC tune-up - maintenance plan,2026-04-18,2026-04-18,149.00,1.5,completed
+SA-0655,"Quinn residence, 8695 Wornall Rd",AC tune-up - maintenance plan,2026-04-13,2026-04-13,149.00,1.5,completed
+SA-0656,"Quinn residence, 8695 Wornall Rd",Furnace tune-up - maintenance plan,2025-10-24,2025-10-24,149.00,1.5,completed
+SA-0657,"Quinn residence, 8695 Wornall Rd",Furnace tune-up - maintenance plan,2026-09-20,2026-09-20,149.00,1.5,completed
+SA-0658,"Ortiz residence, 6980 Broadway Blvd",AC tune-up - maintenance plan,2026-05-21,2026-05-21,149.00,1.5,completed
+SA-0659,"Ortiz residence, 6980 Broadway Blvd",Furnace tune-up - maintenance plan,2025-10-01,2025-10-01,149.00,1.5,completed
+SA-0660,"Quinn residence, 7951 Oak St",AC tune-up - maintenance plan,2026-03-22,2026-03-22,149.00,1.5,completed
+SA-0661,"Quinn residence, 7951 Oak St",Furnace tune-up - maintenance plan,2025-10-08,2025-10-08,149.00,1.5,completed
+SA-0662,"Ellison residence, 515 Broadway Blvd",AC tune-up - maintenance plan,2026-04-17,2026-04-17,149.00,1.5,completed
+SA-0663,"Ellison residence, 515 Broadway Blvd",Furnace tune-up - maintenance plan,2025-11-02,2025-11-02,149.00,1.5,completed
+SA-0664,"Schultz residence, 2213 Ward Pkwy",AC tune-up - maintenance plan,2026-05-10,2026-05-10,149.00,1.5,completed
+SA-0665,"Schultz residence, 2213 Ward Pkwy",Furnace tune-up - maintenance plan,2025-10-24,2025-10-24,149.00,1.5,completed
+SA-0666,"Jensen residence, 8672 Main St",AC tune-up - maintenance plan,2026-05-03,2026-05-03,149.00,1.5,completed
+SA-0667,"Jensen residence, 8672 Main St",Furnace tune-up - maintenance plan,2025-11-16,2025-11-16,149.00,1.5,completed
+SA-0668,"Jensen residence, 7135 Gillham Rd",AC tune-up - maintenance plan,2026-03-06,2026-03-06,149.00,1.5,completed
+SA-0669,"Jensen residence, 7135 Gillham Rd",Furnace tune-up - maintenance plan,2025-10-05,2025-10-05,149.00,1.5,completed
+SA-0670,"Lindqvist residence, 7998 Holmes Rd",AC tune-up - maintenance plan,2026-05-23,2026-05-23,149.00,1.5,completed
+SA-0671,"Lindqvist residence, 7998 Holmes Rd",Furnace tune-up - maintenance plan,2026-09-21,2026-09-21,149.00,1.5,completed
+SA-0672,"Ortiz residence, 2099 Gillham Rd",AC tune-up - maintenance plan,2026-03-08,2026-03-08,149.00,1.5,completed
+SA-0673,"Ortiz residence, 2099 Gillham Rd",Furnace tune-up - maintenance plan,2025-11-27,2025-11-27,149.00,1.5,completed
+SA-0674,"Iverson residence, 7790 Oak St",AC tune-up - maintenance plan,2026-04-12,2026-04-12,149.00,1.5,completed
+SA-0675,"Iverson residence, 7790 Oak St",Furnace tune-up - maintenance plan,2025-10-18,2025-10-18,149.00,1.5,completed
+SA-0676,"Kim residence, 9271 Troost Ave",AC tune-up - maintenance plan,2026-05-01,2026-05-01,149.00,1.5,completed
+SA-0677,"Iverson residence, 5140 Oak St",AC tune-up - maintenance plan,2026-05-24,2026-05-24,149.00,1.5,completed
+SA-0678,"Iverson residence, 5140 Oak St",Furnace tune-up - maintenance plan,2026-09-02,2026-09-02,149.00,1.5,completed
+SA-0679,"Mendez residence, 8323 Gillham Rd",AC tune-up - maintenance plan,2026-04-19,2026-04-19,149.00,1.5,completed
+SA-0680,"Mendez residence, 8323 Gillham Rd",Furnace tune-up - maintenance plan,2025-11-26,2025-11-26,149.00,1.5,completed
+SA-0681,"Mendez residence, 6685 Troost Ave",AC tune-up - maintenance plan,2026-04-16,2026-04-16,149.00,1.5,completed
+SA-0682,"Mendez residence, 6685 Troost Ave",Furnace tune-up - maintenance plan,2025-11-09,2025-11-09,149.00,1.5,completed
+SA-0683,"Mendez residence, 6685 Troost Ave",Furnace tune-up - maintenance plan,2026-09-18,2026-09-18,149.00,1.5,completed
+SA-0684,"Delgado residence, 4923 Wornall Rd",AC tune-up - maintenance plan,2026-03-17,2026-03-17,149.00,1.5,completed
+SA-0685,"Delgado residence, 4923 Wornall Rd",Furnace tune-up - maintenance plan,2025-11-20,2025-11-20,149.00,1.5,completed
+SA-0686,"Delgado residence, 4923 Wornall Rd",Furnace tune-up - maintenance plan,2026-09-22,2026-09-22,149.00,1.5,completed
+SA-0687,"Miller residence, 642 Brookside Blvd",AC tune-up - maintenance plan,2026-04-06,2026-04-06,149.00,1.5,completed
+SA-0688,"Miller residence, 642 Brookside Blvd",Furnace tune-up - maintenance plan,2025-11-27,2025-11-27,149.00,1.5,completed
+SA-0689,"Hughes residence, 9885 Gillham Rd",AC tune-up - maintenance plan,2026-03-11,2026-03-11,149.00,1.5,completed
+SA-0690,"Hughes residence, 9885 Gillham Rd",Furnace tune-up - maintenance plan,2025-11-02,2025-11-02,149.00,1.5,completed
+SA-0691,"Mendez residence, 8667 Gillham Rd",AC tune-up - maintenance plan,2026-05-03,2026-05-03,149.00,1.5,completed
+SA-0692,"Mendez residence, 8667 Gillham Rd",Furnace tune-up - maintenance plan,2025-11-10,2025-11-10,149.00,1.5,completed
+SA-0693,"Mendez residence, 8667 Gillham Rd",Furnace tune-up - maintenance plan,2026-09-07,2026-09-07,149.00,1.5,completed
+SA-0694,"Tran residence, 3374 Wornall Rd",AC tune-up - maintenance plan,2026-05-22,2026-05-22,149.00,1.5,completed
+SA-0695,"Jensen residence, 8055 Gillham Rd",AC tune-up - maintenance plan,2026-03-08,2026-03-08,149.00,1.5,completed
+SA-0696,"Jensen residence, 8055 Gillham Rd",Furnace tune-up - maintenance plan,2026-09-05,2026-09-05,149.00,1.5,completed
+SA-0697,"Ellison residence, 8245 Troost Ave",AC tune-up - maintenance plan,2026-04-17,2026-04-17,149.00,1.5,completed
+SA-0698,"Moreau residence, 650 Wornall Rd",AC tune-up - maintenance plan,2026-04-13,2026-04-13,149.00,1.5,completed
+SA-0699,"Moreau residence, 650 Wornall Rd",Furnace tune-up - maintenance plan,2025-10-24,2025-10-24,149.00,1.5,completed
+SA-0700,"Whitfield residence, 7598 Main St",AC tune-up - maintenance plan,2026-04-08,2026-04-08,149.00,1.5,completed
+SA-0701,"Whitfield residence, 7598 Main St",Furnace tune-up - maintenance plan,2025-11-27,2025-11-27,149.00,1.5,completed
+SA-0702,"Sorensen residence, 8540 Wornall Rd",AC tune-up - maintenance plan,2026-03-09,2026-03-09,149.00,1.5,completed
+SA-0703,"Sorensen residence, 8540 Wornall Rd",Furnace tune-up - maintenance plan,2025-10-02,2025-10-02,149.00,1.5,completed
+SA-0704,"Sorensen residence, 3099 Troost Ave",AC tune-up - maintenance plan,2026-05-03,2026-05-03,149.00,1.5,completed
+SA-0705,"Sorensen residence, 3099 Troost Ave",Furnace tune-up - maintenance plan,2025-11-26,2025-11-26,149.00,1.5,completed
+SA-0706,"Novak residence, 7950 Main St",AC tune-up - maintenance plan,2026-05-20,2026-05-20,149.00,1.5,completed
+SA-0707,"Hughes residence, 4465 Gillham Rd",AC tune-up - maintenance plan,2026-03-13,2026-03-13,149.00,1.5,completed
+SA-0708,"Tran residence, 1683 Holmes Rd",AC tune-up - maintenance plan,2026-04-11,2026-04-11,149.00,1.5,completed
+SA-0709,"Tran residence, 1683 Holmes Rd",Furnace tune-up - maintenance plan,2025-10-13,2025-10-13,149.00,1.5,completed
+SA-0710,"Tran residence, 1683 Holmes Rd",Furnace tune-up - maintenance plan,2026-09-18,2026-09-18,149.00,1.5,completed
+SA-0711,"Kowalski residence, 6838 Brookside Blvd",AC tune-up - maintenance plan,2026-03-23,2026-03-23,149.00,1.5,completed
+SA-0712,"Kowalski residence, 6838 Brookside Blvd",Furnace tune-up - maintenance plan,2025-11-08,2025-11-08,149.00,1.5,completed
+SA-0713,"Kowalski residence, 6838 Brookside Blvd",Furnace tune-up - maintenance plan,2026-09-08,2026-09-08,149.00,1.5,completed
+SA-0714,"Sorensen residence, 329 Main St",AC tune-up - maintenance plan,2026-03-13,2026-03-13,149.00,1.5,completed
+SA-0715,"Sorensen residence, 329 Main St",Furnace tune-up - maintenance plan,2025-11-20,2025-11-20,149.00,1.5,completed
+SA-0716,"Miller residence, 7492 Broadway Blvd",AC tune-up - maintenance plan,2026-05-25,2026-05-25,149.00,1.5,completed
+SA-0717,"Miller residence, 7492 Broadway Blvd",Furnace tune-up - maintenance plan,2025-10-24,2025-10-24,149.00,1.5,completed
+SA-0718,"Moreau residence, 1460 Broadway Blvd",AC tune-up - maintenance plan,2026-03-07,2026-03-07,149.00,1.5,completed
+SA-0719,"Moreau residence, 1460 Broadway Blvd",Furnace tune-up - maintenance plan,2025-11-27,2025-11-27,149.00,1.5,completed
+SA-0720,"Mendez residence, 3357 Holmes Rd",AC tune-up - maintenance plan,2026-04-01,2026-04-01,149.00,1.5,completed
+SA-0721,"Mendez residence, 3357 Holmes Rd",Furnace tune-up - maintenance plan,2026-09-04,2026-09-04,149.00,1.5,completed
+SA-0722,"Nguyen residence, 831 Oak St",AC tune-up - maintenance plan,2026-05-02,2026-05-02,149.00,1.5,completed
+SA-0723,"Nguyen residence, 831 Oak St",Furnace tune-up - maintenance plan,2025-10-24,2025-10-24,149.00,1.5,completed
+SA-0724,"Kim residence, 5953 Brookside Blvd",AC tune-up - maintenance plan,2026-04-01,2026-04-01,149.00,1.5,completed
+SA-0725,"Kim residence, 5953 Brookside Blvd",Furnace tune-up - maintenance plan,2025-11-05,2025-11-05,149.00,1.5,completed
+SA-0726,"Miller residence, 5235 Broadway Blvd",AC tune-up - maintenance plan,2026-03-14,2026-03-14,149.00,1.5,completed
+SA-0727,"Miller residence, 5235 Broadway Blvd",Furnace tune-up - maintenance plan,2025-10-23,2025-10-23,149.00,1.5,completed
+SA-0728,"Miller residence, 5235 Broadway Blvd",Furnace tune-up - maintenance plan,2026-09-23,2026-09-23,149.00,1.5,completed
+SA-0729,"Abernathy residence, 8160 Brookside Blvd",AC tune-up - maintenance plan,2026-04-17,2026-04-17,149.00,1.5,completed
+SA-0730,"Abernathy residence, 8160 Brookside Blvd",Furnace tune-up - maintenance plan,2025-11-13,2025-11-13,149.00,1.5,completed
+SA-0731,"Abernathy residence, 8160 Brookside Blvd",Furnace tune-up - maintenance plan,2026-09-17,2026-09-17,149.00,1.5,completed
+SA-0732,"Moreau residence, 3752 Gillham Rd",AC tune-up - maintenance plan,2026-04-06,2026-04-06,149.00,1.5,completed
+SA-0733,"Moreau residence, 3752 Gillham Rd",Furnace tune-up - maintenance plan,2025-11-03,2025-11-03,149.00,1.5,completed
+SA-0734,"Moreau residence, 3752 Gillham Rd",Furnace tune-up - maintenance plan,2026-09-03,2026-09-03,149.00,1.5,completed
+SA-0735,"Abernathy residence, 2249 Broadway Blvd",AC tune-up - maintenance plan,2026-05-10,2026-05-10,149.00,1.5,completed
+SA-0736,"Abernathy residence, 2249 Broadway Blvd",Furnace tune-up - maintenance plan,2025-11-09,2025-11-09,149.00,1.5,completed
+SA-0737,"Abernathy residence, 2249 Broadway Blvd",Furnace tune-up - maintenance plan,2026-09-25,2026-09-25,149.00,1.5,completed
+SA-0738,"Price residence, 8369 Wornall Rd",AC tune-up - maintenance plan,2026-05-05,2026-05-05,149.00,1.5,completed
+SA-0739,"Price residence, 8369 Wornall Rd",Furnace tune-up - maintenance plan,2025-11-19,2025-11-19,149.00,1.5,completed
+SA-0740,"Patel residence, 6944 Brookside Blvd",AC tune-up - maintenance plan,2026-04-25,2026-04-25,149.00,1.5,completed
+SA-0741,"Patel residence, 6944 Brookside Blvd",Furnace tune-up - maintenance plan,2025-11-23,2025-11-23,149.00,1.5,completed
+SA-0742,"Quinn residence, 2317 Broadway Blvd",AC tune-up - maintenance plan,2026-03-12,2026-03-12,149.00,1.5,completed
+SA-0743,"Russo residence, 8418 Troost Ave",AC tune-up - maintenance plan,2026-04-24,2026-04-24,149.00,1.5,completed
+SA-0744,"Coleman residence, 2533 Oak St",AC tune-up - maintenance plan,2026-03-06,2026-03-06,149.00,1.5,completed
+SA-0745,"Coleman residence, 2533 Oak St",Furnace tune-up - maintenance plan,2025-11-06,2025-11-06,149.00,1.5,completed
+SA-0746,"Mendez residence, 3322 Troost Ave",AC tune-up - maintenance plan,2026-04-27,2026-04-27,149.00,1.5,completed
+SA-0747,"Mendez residence, 3322 Troost Ave",Furnace tune-up - maintenance plan,2025-11-18,2025-11-18,149.00,1.5,completed
+SA-0748,"Mendez residence, 3322 Troost Ave",Furnace tune-up - maintenance plan,2026-09-09,2026-09-09,149.00,1.5,completed
+SA-0749,"Miller residence, 1838 Troost Ave",AC tune-up - maintenance plan,2026-03-14,2026-03-14,149.00,1.5,completed
+SA-0750,"Miller residence, 1838 Troost Ave",Furnace tune-up - maintenance plan,2025-11-21,2025-11-21,149.00,1.5,completed
+SA-0751,"Price residence, 1303 Ward Pkwy",AC tune-up - maintenance plan,2026-04-18,2026-04-18,149.00,1.5,completed
+SA-0752,"Price residence, 1303 Ward Pkwy",Furnace tune-up - maintenance plan,2025-11-12,2025-11-12,149.00,1.5,completed
+SA-0753,"Novak residence, 5785 State Line Rd",AC tune-up - maintenance plan,2026-03-20,2026-03-20,149.00,1.5,completed
+SA-0754,"Novak residence, 5785 State Line Rd",Furnace tune-up - maintenance plan,2025-10-27,2025-10-27,149.00,1.5,completed
+SA-0755,"Quinn residence, 522 Ward Pkwy",AC tune-up - maintenance plan,2026-03-18,2026-03-18,149.00,1.5,completed
+SA-0756,"Ellison residence, 7899 State Line Rd",AC tune-up - maintenance plan,2026-03-20,2026-03-20,149.00,1.5,completed
+SA-0757,"Ellison residence, 7899 State Line Rd",Furnace tune-up - maintenance plan,2025-11-10,2025-11-10,149.00,1.5,completed
+SA-0758,"Ellison residence, 7899 State Line Rd",Furnace tune-up - maintenance plan,2026-09-04,2026-09-04,149.00,1.5,completed
+SA-0759,"Iverson residence, 5075 Gillham Rd",AC tune-up - maintenance plan,2026-04-27,2026-04-27,149.00,1.5,completed
+SA-0760,"Iverson residence, 5075 Gillham Rd",Furnace tune-up - maintenance plan,2025-10-07,2025-10-07,149.00,1.5,completed
+SA-0761,"Whitfield residence, 2088 Gillham Rd",AC tune-up - maintenance plan,2026-04-14,2026-04-14,149.00,1.5,completed
+SA-0762,"Whitfield residence, 2088 Gillham Rd",Furnace tune-up - maintenance plan,2025-11-04,2025-11-04,149.00,1.5,completed
+SA-0763,"Sorensen residence, 9465 Broadway Blvd",AC tune-up - maintenance plan,2026-03-16,2026-03-16,149.00,1.5,completed
+SA-0764,"Mendez residence, 2897 Brookside Blvd",AC tune-up - maintenance plan,2026-03-04,2026-03-04,149.00,1.5,completed
+SA-0765,"Abernathy residence, 8613 Holmes Rd",AC tune-up - maintenance plan,2026-04-22,2026-04-22,149.00,1.5,completed
+SA-0766,"Haddad residence, 5611 Gillham Rd",AC tune-up - maintenance plan,2026-05-10,2026-05-10,149.00,1.5,completed
+SA-0767,"Haddad residence, 5611 Gillham Rd",Furnace tune-up - maintenance plan,2025-10-23,2025-10-23,149.00,1.5,completed
+SA-0768,"Garza residence, 3922 Main St",AC tune-up - maintenance plan,2026-05-21,2026-05-21,149.00,1.5,completed
+SA-0769,"Garza residence, 3922 Main St",Furnace tune-up - maintenance plan,2025-10-21,2025-10-21,149.00,1.5,completed
+SA-0770,"Moreau residence, 6639 Ward Pkwy",AC tune-up - maintenance plan,2026-03-19,2026-03-19,149.00,1.5,completed
+SA-0771,"Moreau residence, 6639 Ward Pkwy",Furnace tune-up - maintenance plan,2025-11-01,2025-11-01,149.00,1.5,completed
+SA-0772,"Delgado residence, 2940 Ward Pkwy",AC tune-up - maintenance plan,2026-05-20,2026-05-20,149.00,1.5,completed
+SA-0773,"Delgado residence, 2940 Ward Pkwy",Furnace tune-up - maintenance plan,2025-10-25,2025-10-25,149.00,1.5,completed
+SA-0774,"Hughes residence, 9025 Ward Pkwy",AC tune-up - maintenance plan,2026-04-02,2026-04-02,149.00,1.5,completed
+SA-0775,"Hughes residence, 9025 Ward Pkwy",Furnace tune-up - maintenance plan,2025-10-26,2025-10-26,149.00,1.5,completed
+SA-0776,"Sorensen residence, 3188 Gillham Rd",AC tune-up - maintenance plan,2026-04-19,2026-04-19,149.00,1.5,completed
+SA-0777,"Sorensen residence, 3188 Gillham Rd",Furnace tune-up - maintenance plan,2025-11-26,2025-11-26,149.00,1.5,completed
+SA-0778,"Jensen residence, 435 Brookside Blvd",AC tune-up - maintenance plan,2026-04-17,2026-04-17,149.00,1.5,completed
+SA-0779,"Hughes residence, 8782 Holmes Rd",AC tune-up - maintenance plan,2026-03-10,2026-03-10,149.00,1.5,completed
+SA-0780,"Hughes residence, 8782 Holmes Rd",Furnace tune-up - maintenance plan,2025-10-10,2025-10-10,149.00,1.5,completed
+SA-0781,"Mendez residence, 8568 Brookside Blvd",AC tune-up - maintenance plan,2026-03-19,2026-03-19,149.00,1.5,completed
+SA-0782,"Mendez residence, 8568 Brookside Blvd",Furnace tune-up - maintenance plan,2025-11-13,2025-11-13,149.00,1.5,completed
+SA-0783,"Brooks residence, 3147 Troost Ave",AC tune-up - maintenance plan,2026-04-03,2026-04-03,149.00,1.5,completed
+SA-0784,"Brooks residence, 3147 Troost Ave",Furnace tune-up - maintenance plan,2025-10-12,2025-10-12,149.00,1.5,completed
+SA-0785,"Kim residence, 7069 Oak St",AC tune-up - maintenance plan,2026-03-22,2026-03-22,149.00,1.5,completed
+SA-0786,"Kim residence, 7069 Oak St",Furnace tune-up - maintenance plan,2025-10-15,2025-10-15,149.00,1.5,completed
+SA-0787,"Kim residence, 7069 Oak St",Furnace tune-up - maintenance plan,2026-09-01,2026-09-01,149.00,1.5,completed
+SA-0788,"Haddad residence, 1388 Troost Ave",AC tune-up - maintenance plan,2026-05-13,2026-05-13,149.00,1.5,completed
+SA-0789,"Russo residence, 3167 State Line Rd",AC tune-up - maintenance plan,2026-04-01,2026-04-01,149.00,1.5,completed
+SA-0790,"Russo residence, 3167 State Line Rd",Furnace tune-up - maintenance plan,2026-09-02,2026-09-02,149.00,1.5,completed
+SA-0791,"Brooks residence, 4416 Gillham Rd",AC tune-up - maintenance plan,2026-03-18,2026-03-18,149.00,1.5,completed
+SA-0792,"Brooks residence, 4416 Gillham Rd",Furnace tune-up - maintenance plan,2025-11-18,2025-11-18,149.00,1.5,completed
+SA-0793,"Bauer residence, 6911 Wornall Rd",AC tune-up - maintenance plan,2026-03-21,2026-03-21,149.00,1.5,completed
+SA-0794,"Bauer residence, 6911 Wornall Rd",Furnace tune-up - maintenance plan,2025-10-22,2025-10-22,149.00,1.5,completed
+SA-0795,"Sorensen residence, 2999 State Line Rd",AC tune-up - maintenance plan,2026-03-06,2026-03-06,149.00,1.5,completed
+SA-0796,"Sorensen residence, 2999 State Line Rd",Furnace tune-up - maintenance plan,2026-09-22,2026-09-22,149.00,1.5,completed
+SA-0797,"Ellison residence, 7997 Gillham Rd",AC tune-up - maintenance plan,2026-04-12,2026-04-12,149.00,1.5,completed
+SA-0798,"Ellison residence, 7997 Gillham Rd",Furnace tune-up - maintenance plan,2025-11-22,2025-11-22,149.00,1.5,completed
+SA-0799,"Nguyen residence, 8738 Oak St",AC tune-up - maintenance plan,2026-03-19,2026-03-19,149.00,1.5,completed
+SA-0800,"Nguyen residence, 8738 Oak St",Furnace tune-up - maintenance plan,2025-11-27,2025-11-27,149.00,1.5,completed
+SA-0801,"Nguyen residence, 8738 Oak St",Furnace tune-up - maintenance plan,2026-09-26,2026-09-26,149.00,1.5,completed
+SA-0802,"Mendez residence, 4586 Main St",AC tune-up - maintenance plan,2026-05-02,2026-05-02,149.00,1.5,completed
+SA-0803,"Mendez residence, 4586 Main St",Furnace tune-up - maintenance plan,2025-10-08,2025-10-08,149.00,1.5,completed
+SA-0804,"Ortiz residence, 3611 Holmes Rd",AC tune-up - maintenance plan,2026-05-21,2026-05-21,149.00,1.5,completed
+SA-0805,"Ortiz residence, 3611 Holmes Rd",Furnace tune-up - maintenance plan,2025-11-10,2025-11-10,149.00,1.5,completed
+SA-0806,"Ortiz residence, 3611 Holmes Rd",Furnace tune-up - maintenance plan,2026-09-15,2026-09-15,149.00,1.5,completed
+SA-0807,"Miller residence, 1625 Gillham Rd",AC tune-up - maintenance plan,2026-03-17,2026-03-17,149.00,1.5,completed
+SA-0808,"Miller residence, 1625 Gillham Rd",Furnace tune-up - maintenance plan,2025-11-10,2025-11-10,149.00,1.5,completed
+SA-0809,"Hughes residence, 5513 Troost Ave",AC tune-up - maintenance plan,2026-04-19,2026-04-19,149.00,1.5,completed
+SA-0810,"Hughes residence, 5513 Troost Ave",Furnace tune-up - maintenance plan,2025-11-08,2025-11-08,149.00,1.5,completed
+SA-0811,"Moreau residence, 3089 Ward Pkwy",AC tune-up - maintenance plan,2026-05-14,2026-05-14,149.00,1.5,completed
+SA-0812,"Moreau residence, 3089 Ward Pkwy",Furnace tune-up - maintenance plan,2025-10-01,2025-10-01,149.00,1.5,completed
+SA-0813,"Moreau residence, 3089 Ward Pkwy",Furnace tune-up - maintenance plan,2026-09-22,2026-09-22,149.00,1.5,completed
+SA-0814,"Tran residence, 2668 State Line Rd",AC tune-up - maintenance plan,2026-05-10,2026-05-10,149.00,1.5,completed
+SA-0815,"Tran residence, 2668 State Line Rd",Furnace tune-up - maintenance plan,2025-11-20,2025-11-20,149.00,1.5,completed
+SA-0816,"Moreau residence, 9477 Oak St",AC tune-up - maintenance plan,2026-05-22,2026-05-22,149.00,1.5,completed
+SA-0817,"Moreau residence, 9477 Oak St",Furnace tune-up - maintenance plan,2025-10-05,2025-10-05,149.00,1.5,completed
+SA-0818,"Moreau residence, 9477 Oak St",Furnace tune-up - maintenance plan,2026-09-25,2026-09-25,149.00,1.5,completed
+SA-0819,"Delgado residence, 1897 Broadway Blvd",AC tune-up - maintenance plan,2026-05-27,2026-05-27,149.00,1.5,completed
+SA-0820,"Delgado residence, 1897 Broadway Blvd",Furnace tune-up - maintenance plan,2025-10-23,2025-10-23,149.00,1.5,completed
+SA-0821,"Delgado residence, 1897 Broadway Blvd",Furnace tune-up - maintenance plan,2026-09-17,2026-09-17,149.00,1.5,completed
+SA-0822,"Jensen residence, 4695 Oak St",AC tune-up - maintenance plan,2026-03-03,2026-03-03,149.00,1.5,completed
+SA-0823,"Jensen residence, 4695 Oak St",Furnace tune-up - maintenance plan,2025-10-10,2025-10-10,149.00,1.5,completed
+SA-0824,"Lopez residence, 9406 Holmes Rd",AC tune-up - maintenance plan,2026-05-21,2026-05-21,149.00,1.5,completed
+SA-0825,"Abernathy residence, 4928 Broadway Blvd",AC tune-up - maintenance plan,2026-04-01,2026-04-01,149.00,1.5,completed
+SA-0826,"Abernathy residence, 4928 Broadway Blvd",Furnace tune-up - maintenance plan,2026-09-01,2026-09-01,149.00,1.5,completed
+SA-0827,"Kim residence, 9205 Brookside Blvd",AC tune-up - maintenance plan,2026-05-01,2026-05-01,149.00,1.5,completed
+SA-0828,"Kim residence, 9205 Brookside Blvd",Furnace tune-up - maintenance plan,2025-10-12,2025-10-12,149.00,1.5,completed
+SA-0829,"Kim residence, 9205 Brookside Blvd",Furnace tune-up - maintenance plan,2026-09-09,2026-09-09,149.00,1.5,completed
+SA-0830,"Nguyen residence, 4420 Main St",AC tune-up - maintenance plan,2026-04-05,2026-04-05,149.00,1.5,completed
+SA-0831,"Haddad residence, 2906 Main St",AC tune-up - maintenance plan,2026-04-14,2026-04-14,149.00,1.5,completed
+SA-0832,"Haddad residence, 2906 Main St",Furnace tune-up - maintenance plan,2025-11-22,2025-11-22,149.00,1.5,completed
+SA-0833,"Haddad residence, 2906 Main St",Furnace tune-up - maintenance plan,2026-09-16,2026-09-16,149.00,1.5,completed
+SA-0834,"Iverson residence, 1090 State Line Rd",AC tune-up - maintenance plan,2026-03-11,2026-03-11,149.00,1.5,completed
+SA-0835,"Iverson residence, 1090 State Line Rd",Furnace tune-up - maintenance plan,2026-09-09,2026-09-09,149.00,1.5,completed
+SA-0836,"Kowalski residence, 3139 Main St",AC tune-up - maintenance plan,2026-05-13,2026-05-13,149.00,1.5,completed
+SA-0837,"Kowalski residence, 3139 Main St",Furnace tune-up - maintenance plan,2025-10-19,2025-10-19,149.00,1.5,completed
+SA-0838,"Ellison residence, 5237 Wornall Rd",AC tune-up - maintenance plan,2026-03-27,2026-03-27,149.00,1.5,completed
+SA-0839,"Ellison residence, 5237 Wornall Rd",Furnace tune-up - maintenance plan,2025-10-08,2025-10-08,149.00,1.5,completed
+SA-0840,"Abernathy residence, 1147 Wornall Rd",AC tune-up - maintenance plan,2026-03-18,2026-03-18,149.00,1.5,completed
+SA-0841,"Abernathy residence, 1147 Wornall Rd",Furnace tune-up - maintenance plan,2025-11-12,2025-11-12,149.00,1.5,completed
+SA-0842,"Abernathy residence, 1147 Wornall Rd",Furnace tune-up - maintenance plan,2026-09-12,2026-09-12,149.00,1.5,completed
+SA-0843,"Quinn residence, 5254 Brookside Blvd",AC tune-up - maintenance plan,2026-04-27,2026-04-27,149.00,1.5,completed
+SA-0844,"Quinn residence, 5254 Brookside Blvd",Furnace tune-up - maintenance plan,2025-11-01,2025-11-01,149.00,1.5,completed
+SA-0845,"Kim residence, 4296 Main St",AC tune-up - maintenance plan,2026-05-13,2026-05-13,149.00,1.5,completed
+SA-0846,"Kim residence, 4296 Main St",Furnace tune-up - maintenance plan,2025-11-19,2025-11-19,149.00,1.5,completed
+SA-0847,"Miller residence, 6844 Wornall Rd",AC tune-up - maintenance plan,2026-04-27,2026-04-27,149.00,1.5,completed
+SA-0848,"Miller residence, 6844 Wornall Rd",Furnace tune-up - maintenance plan,2025-11-14,2025-11-14,149.00,1.5,completed
+SA-0849,"Haddad residence, 352 Ward Pkwy",AC tune-up - maintenance plan,2026-04-20,2026-04-20,149.00,1.5,completed
+SA-0850,"Haddad residence, 352 Ward Pkwy",Furnace tune-up - maintenance plan,2025-10-01,2025-10-01,149.00,1.5,completed
+SA-0851,"Haddad residence, 352 Ward Pkwy",Furnace tune-up - maintenance plan,2026-09-06,2026-09-06,149.00,1.5,completed
+SA-0852,"Nguyen residence, 3953 Ward Pkwy",AC tune-up - maintenance plan,2026-04-14,2026-04-14,149.00,1.5,completed
+SA-0853,"Russo residence, 2115 Main St",AC tune-up - maintenance plan,2026-03-22,2026-03-22,149.00,1.5,completed
+SA-0854,"Russo residence, 2115 Main St",Furnace tune-up - maintenance plan,2025-10-07,2025-10-07,149.00,1.5,completed
+SA-0855,"Iverson residence, 9294 Broadway Blvd",AC tune-up - maintenance plan,2026-05-17,2026-05-17,149.00,1.5,completed
+SA-0856,"Iverson residence, 9294 Broadway Blvd",Furnace tune-up - maintenance plan,2025-10-12,2025-10-12,149.00,1.5,completed
+SA-0857,"Quinn residence, 5839 State Line Rd",AC tune-up - maintenance plan,2026-04-13,2026-04-13,149.00,1.5,completed
+SA-0858,"Quinn residence, 5839 State Line Rd",Furnace tune-up - maintenance plan,2025-11-11,2025-11-11,149.00,1.5,completed
+SA-0859,"Lopez residence, 7571 Broadway Blvd",AC tune-up - maintenance plan,2026-04-10,2026-04-10,149.00,1.5,completed
+SA-0860,"Hughes residence, 722 Troost Ave",AC tune-up - maintenance plan,2026-04-17,2026-04-17,149.00,1.5,completed
+SA-0861,"Hughes residence, 722 Troost Ave",Furnace tune-up - maintenance plan,2025-11-08,2025-11-08,149.00,1.5,completed
+SA-0862,"Whitfield residence, 3632 Broadway Blvd",AC tune-up - maintenance plan,2026-05-24,2026-05-24,149.00,1.5,completed
+SA-0863,"Whitfield residence, 3632 Broadway Blvd",Furnace tune-up - maintenance plan,2025-11-18,2025-11-18,149.00,1.5,completed
+SA-0864,"Sorensen residence, 7081 Main St",AC tune-up - maintenance plan,2026-05-05,2026-05-05,149.00,1.5,completed
+SA-0865,"Sorensen residence, 7081 Main St",Furnace tune-up - maintenance plan,2026-09-21,2026-09-21,149.00,1.5,completed
+SA-0866,"Iverson residence, 6230 Oak St",AC tune-up - maintenance plan,2026-04-14,2026-04-14,149.00,1.5,completed
+SA-0867,"Iverson residence, 6230 Oak St",Furnace tune-up - maintenance plan,2025-11-25,2025-11-25,149.00,1.5,completed
+SA-0868,"Iverson residence, 6230 Oak St",Furnace tune-up - maintenance plan,2026-09-12,2026-09-12,149.00,1.5,completed
+SA-0869,"Iverson residence, 4221 Troost Ave",AC tune-up - maintenance plan,2026-05-25,2026-05-25,149.00,1.5,completed
+SA-0870,"Iverson residence, 4221 Troost Ave",Furnace tune-up - maintenance plan,2025-10-22,2025-10-22,149.00,1.5,completed
+SA-0871,"Russo residence, 5937 Ward Pkwy",AC tune-up - maintenance plan,2026-05-09,2026-05-09,149.00,1.5,completed
+SA-0872,"Kowalski residence, 7255 Ward Pkwy",AC tune-up - maintenance plan,2026-05-09,2026-05-09,149.00,1.5,completed
+SA-0873,"Kowalski residence, 7255 Ward Pkwy",Furnace tune-up - maintenance plan,2025-10-16,2025-10-16,149.00,1.5,completed
+SA-0874,"Russo residence, 5515 Wornall Rd",AC tune-up - maintenance plan,2026-05-11,2026-05-11,149.00,1.5,completed
+SA-0875,"Russo residence, 5515 Wornall Rd",Furnace tune-up - maintenance plan,2025-11-23,2025-11-23,149.00,1.5,completed
+SA-0876,"Kowalski residence, 2104 Wornall Rd",AC tune-up - maintenance plan,2026-03-06,2026-03-06,149.00,1.5,completed
+SA-0877,"Lopez residence, 6926 State Line Rd",AC tune-up - maintenance plan,2026-04-06,2026-04-06,149.00,1.5,completed
+SA-0878,"Lopez residence, 6926 State Line Rd",Furnace tune-up - maintenance plan,2025-10-17,2025-10-17,149.00,1.5,completed
+SA-0879,"Abernathy residence, 432 Oak St",AC tune-up - maintenance plan,2026-04-02,2026-04-02,149.00,1.5,completed
+SA-0880,"Abernathy residence, 432 Oak St",Furnace tune-up - maintenance plan,2025-11-21,2025-11-21,149.00,1.5,completed
+SA-0881,"Whitfield residence, 3334 Oak St",AC tune-up - maintenance plan,2026-05-10,2026-05-10,149.00,1.5,completed
+SA-0882,"Whitfield residence, 3334 Oak St",Furnace tune-up - maintenance plan,2025-11-24,2025-11-24,149.00,1.5,completed
+SA-0883,"Okafor residence, 1944 Brookside Blvd",AC tune-up - maintenance plan,2026-04-20,2026-04-20,149.00,1.5,completed
+SA-0884,"Okafor residence, 1944 Brookside Blvd",Furnace tune-up - maintenance plan,2025-11-03,2025-11-03,149.00,1.5,completed
+SA-0885,"Garza residence, 2110 Main St",AC tune-up - maintenance plan,2026-04-11,2026-04-11,149.00,1.5,completed
+SA-0886,"Garza residence, 2110 Main St",Furnace tune-up - maintenance plan,2025-10-27,2025-10-27,149.00,1.5,completed
+SA-0887,"Okafor residence, 2159 Oak St",AC tune-up - maintenance plan,2026-03-09,2026-03-09,149.00,1.5,completed
+SA-0888,"Okafor residence, 2159 Oak St",Furnace tune-up - maintenance plan,2025-10-09,2025-10-09,149.00,1.5,completed
+SA-0889,"Tran residence, 9880 Wornall Rd",AC tune-up - maintenance plan,2026-03-01,2026-03-01,149.00,1.5,completed
+SA-0890,"Tran residence, 9880 Wornall Rd",Furnace tune-up - maintenance plan,2025-11-26,2025-11-26,149.00,1.5,completed
+SA-0891,"Miller residence, 7059 Broadway Blvd",AC tune-up - maintenance plan,2026-05-27,2026-05-27,149.00,1.5,completed
+SA-0892,"Lindqvist residence, 5932 Troost Ave",AC tune-up - maintenance plan,2026-05-27,2026-05-27,149.00,1.5,completed
+SA-0893,"Lindqvist residence, 5932 Troost Ave",Furnace tune-up - maintenance plan,2025-11-02,2025-11-02,149.00,1.5,completed
+SA-0894,"Coleman residence, 6279 Holmes Rd",AC tune-up - maintenance plan,2026-03-26,2026-03-26,149.00,1.5,completed
+SA-0895,"Coleman residence, 6279 Holmes Rd",Furnace tune-up - maintenance plan,2025-10-06,2025-10-06,149.00,1.5,completed

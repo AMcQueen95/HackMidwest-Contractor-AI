@@ -57,11 +57,11 @@ class DatasetStore:
                 self._sessions.popitem(last=False)
             return token, dataset
 
-    def replace(self, books: Books, token: str | None) -> tuple[str, Dataset]:
+    def replace(self, books: Books, token: str | None, *, is_sample: bool = False) -> tuple[str, Dataset]:
         with self._lock:
             self._expire()
             token = token if token in self._sessions else secrets.token_urlsafe(24)
-            dataset = Dataset(books, False, secrets.token_hex(12))
+            dataset = Dataset(books, is_sample, secrets.token_hex(12))
             self._sessions[token] = (dataset, time.monotonic() + self.ttl_seconds)
             self._sessions.move_to_end(token)
             while len(self._sessions) > self.max_sessions:

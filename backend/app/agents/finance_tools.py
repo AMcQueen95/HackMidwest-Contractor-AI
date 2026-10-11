@@ -175,3 +175,29 @@ def affordability(amount: float, reserve_months: int = 1) -> dict:
         reserve_months: Months of expenses to keep as a cushion. Defaults to 1.
     """
     return _card("affordability", finance.affordability(get_books(), amount, reserve_months=reserve_months))
+
+
+# --- Trade analyst ----------------------------------------------------------------
+
+@tool
+def trade_section(section: str, month: str | None = None) -> dict:
+    """Get one of this business's trade-specific sections (the list of section keys is
+    in your instructions), covering up to 12 months ending at `month`.
+
+    Args:
+        section: Section key, e.g. "slow_season".
+        month: Last month to include, YYYY-MM. Defaults to the latest full month.
+    """
+    from backend.app import trades
+
+    trade = trades.current()
+    if trade is None:
+        return {"error": "No trade is set for this business."}
+    builders = {build.__name__: build for build in trade.SECTIONS}
+    if section not in builders:
+        return {"error": f"Unknown section '{section}'. Available: {', '.join(builders)}"}
+    books = get_books()
+    result = trade._plain(builders[section](books, month or latest_full_month(books)))
+    if result.get("status") == "ok":
+        emit({"type": "card", "card": {"type": f"trade:{section}", "data": result}})
+    return result

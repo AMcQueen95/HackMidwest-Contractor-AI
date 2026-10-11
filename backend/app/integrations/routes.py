@@ -21,6 +21,9 @@ from backend.app.integrations.ai import categorize
 from backend.app.integrations.csv_import import read_file
 from backend.app.integrations.records import BusinessFacts, assemble
 from backend.app.integrations.sessions import ImportState, ImportStore
+from backend.app import trades as trade_registry
+from backend.app.trades.routes import trade_payload
+from backend.app.trades.store import trades
 
 MAX_FILES = 20
 
@@ -36,6 +39,10 @@ def build_router(datasets, cookie_name: str, set_cookie: Callable) -> APIRouter:
     def session(request: Request) -> tuple[str, ImportState]:
         token, _ = datasets.ensure(request.cookies.get(cookie_name))
         return token, imports.get(token)
+
+    def trade_hint(token: str) -> str:
+        trade = trade_registry.get(trades.get(token))
+        return trade.CATEGORY_HINTS if trade else ""
 
     def require_ai():
         if not agent_status()["available"]:
@@ -54,7 +61,7 @@ def build_router(datasets, cookie_name: str, set_cookie: Callable) -> APIRouter:
         state.sources = sources
         token, dataset = datasets.replace(books, token)
         set_cookie(request, response, token)
-        return result | {"applied": True, "report": report | {
+        return result | {"applied": True, "report": report | trade_payload(books, report["month"], token) | {
             "is_sample": False, "dataset_revision": dataset.revision, "agent_status": agent_status()}}
 
     # --- Any CSVs -----------------------------------------------------------------
@@ -91,7 +98,7 @@ def build_router(datasets, cookie_name: str, set_cookie: Callable) -> APIRouter:
 
         read = await asyncio.gather(*(read_file(name, data) for name, data in contents.items()))
         new = {name: records for name, (_, records, _) in zip(contents, read)}
-        await categorize([t for r in new.values() for t in r.transactions])
+        await categorize([t for r in new.values() for t in r.transactions], trade_hint=trade_hint(token))
 
         sources = {} if replace else dict(state.sources)
         sources.update(new)
@@ -128,7 +135,7 @@ def build_router(datasets, cookie_name: str, set_cookie: Callable) -> APIRouter:
     async def connect(request, response, token, state, client, access_token, item_id) -> dict:
         transactions, accounts, complete = await client.sync(access_token)
         records = plaid.to_records(transactions, accounts, source=f"bank:{item_id}", complete=complete)
-        await categorize(records.transactions)
+        await categorize(records.transactions, trade_hint=trade_hint(token))
         state.plaid_items[item_id] = access_token
         sources = dict(state.sources) | {f"bank:{item_id}": records}
         result = await rebuild(request, response, token, state, sources)

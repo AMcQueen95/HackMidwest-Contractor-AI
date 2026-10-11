@@ -13,6 +13,7 @@ import PurchaseCheck from './components/PurchaseCheck'
 import Receivables from './components/Receivables'
 import RecurringCharges from './components/RecurringCharges'
 import Section from './components/Section'
+import TradeSections from './components/TradeSections'
 import UploadDialog from './components/UploadDialog'
 import { monthName, shortDate } from './lib/format'
 import { ThemeContext } from './lib/theme'
@@ -196,6 +197,8 @@ export default function App() {
           </Section>
         </div>
 
+        <TradeSections trade={report.trade} sections={report.trade_sections} />
+
         <p className="page-footer">
           Figures are calculated from your books. AI analysis is available when configured.
         </p>
@@ -210,6 +213,7 @@ export default function App() {
         narrativeDone={narrativeDone}
         narrativeError={narrativeError}
         month={report.month}
+        suggestions={report.suggested_questions?.length ? report.suggested_questions : undefined}
         datasetRevision={report.dataset_revision}
         available={aiAvailable}
         unavailableMessage={report.agent_status?.message}

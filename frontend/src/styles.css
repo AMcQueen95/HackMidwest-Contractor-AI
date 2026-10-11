@@ -1333,3 +1333,44 @@ td > .pill:first-child {
     bottom: 16px;
   }
 }
+
+/* Trade sections (HVAC first) */
+.trade-heading {
+  margin: 8px 0 -4px;
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--ink-2);
+}
+
+.trade-section {
+  display: grid;
+  gap: 12px;
+}
+
+.trade-tiles {
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+}
+
+.trade-tiles .tile-value {
+  font-size: 22px;
+}
+
+.trade-takeaway {
+  line-height: 1.5;
+}
+
+.trade-note {
+  font-size: 13px;
+  color: var(--ink-3);
+}
+
+.trade-details summary {
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--accent-ink);
+}
+
+.trade-details[open] summary {
+  margin-bottom: 8px;
+}

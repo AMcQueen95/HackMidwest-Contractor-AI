@@ -1,0 +1,2037 @@
+date,description,vendor,category,amount,job_id
+2025-10-01,Johnstone Supply for SA-0001,Johnstone Supply,materials,-67.74,SA-0001
+2025-10-01,Johnstone Supply for SA-0002,Johnstone Supply,materials,-62.10,SA-0002
+2025-10-01,Johnstone Supply for SA-0659,Johnstone Supply,materials,-22.17,SA-0659
+2025-10-01,Johnstone Supply for SA-0812,Johnstone Supply,materials,-16.45,SA-0812
+2025-10-01,Johnstone Supply for SA-0850,Johnstone Supply,materials,-16.57,SA-0850
+2025-10-01,Customer payments for September work,Stripe,income,3783.52,
+2025-10-01,Holmes Rd Properties,Holmes Rd Properties,rent,-3200.00,
+2025-10-01,Acuity Insurance,Acuity Insurance,insurance,-1450.00,
+2025-10-01,ServiceTitan,ServiceTitan,software,-398.00,
+2025-10-01,Payroll,Gusto,payroll,-19500.00,
+2025-10-02,Johnstone Supply for SA-0703,Johnstone Supply,materials,-13.92,SA-0703
+2025-10-02,Customer payments for September work,Stripe,income,3225.19,
+2025-10-03,Payment INV-0703,"Sorensen residence, 8540 Wornall Rd",income,149.00,SA-0703
+2025-10-03,Customer payments for September work,Stripe,income,3586.96,
+2025-10-03,Fleet fuel,WEX Fleet Fuel,fuel,-545.60,
+2025-10-04,Payment INV-0002,"Price residence, 4277 Brookside Blvd",income,600.00,SA-0002
+2025-10-04,Johnstone Supply for SA-0003,Johnstone Supply,materials,-129.64,SA-0003
+2025-10-04,Johnstone Supply for SA-0642,Johnstone Supply,materials,-26.45,SA-0642
+2025-10-04,Johnstone Supply for SA-0648,Johnstone Supply,materials,-27.06,SA-0648
+2025-10-04,Payment INV-0812,"Moreau residence, 3089 Ward Pkwy",income,149.00,SA-0812
+2025-10-05,Johnstone Supply for SA-0669,Johnstone Supply,materials,-12.75,SA-0669
+2025-10-05,Johnstone Supply for SA-0817,Johnstone Supply,materials,-16.32,SA-0817
+2025-10-05,Payment INV-0817,"Moreau residence, 9477 Oak St",income,149.00,SA-0817
+2025-10-05,Intuit QuickBooks,Intuit QuickBooks,software,-90.00,
+2025-10-06,Payment INV-0003,"Whitfield residence, 1021 Ward Pkwy",income,760.00,SA-0003
+2025-10-06,Johnstone Supply for SA-0004,Johnstone Supply,materials,-109.12,SA-0004
+2025-10-06,Johnstone Supply for SA-0005,Johnstone Supply,materials,-105.55,SA-0005
+2025-10-06,Johnstone Supply for SA-0006,Johnstone Supply,materials,-70.34,SA-0006
+2025-10-06,Johnstone Supply for SA-0895,Johnstone Supply,materials,-16.67,SA-0895
+2025-10-06,Payment INV-0895,"Coleman residence, 6279 Holmes Rd",income,149.00,SA-0895
+2025-10-06,Customer payments for September work,Stripe,income,2819.80,
+2025-10-07,Johnstone Supply for SA-0760,Johnstone Supply,materials,-13.44,SA-0760
+2025-10-07,Johnstone Supply for SA-0854,Johnstone Supply,materials,-27.22,SA-0854
+2025-10-07,Customer payments for September work,Stripe,income,3184.60,
+2025-10-08,Payment INV-0004,"Tran residence, 3909 Oak St",income,720.00,SA-0004
+2025-10-08,Johnstone Supply for SA-0007,Johnstone Supply,materials,-61.88,SA-0007
+2025-10-08,Johnstone Supply for SA-0008,Johnstone Supply,materials,-66.57,SA-0008
+2025-10-08,Johnstone Supply for SA-0631,Johnstone Supply,materials,-24.79,SA-0631
+2025-10-08,Johnstone Supply for SA-0652,Johnstone Supply,materials,-16.26,SA-0652
+2025-10-08,Payment INV-0652,"Bauer residence, 2007 Troost Ave",income,149.00,SA-0652
+2025-10-08,Payment INV-0659,"Ortiz residence, 6980 Broadway Blvd",income,149.00,SA-0659
+2025-10-08,Johnstone Supply for SA-0661,Johnstone Supply,materials,-21.71,SA-0661
+2025-10-08,Johnstone Supply for SA-0803,Johnstone Supply,materials,-20.18,SA-0803
+2025-10-08,Payment INV-0803,"Mendez residence, 4586 Main St",income,149.00,SA-0803
+2025-10-08,Johnstone Supply for SA-0839,Johnstone Supply,materials,-17.94,SA-0839
+2025-10-08,Customer payments for September work,Stripe,income,3573.23,
+2025-10-09,Payment INV-0005,"Hughes residence, 7596 Oak St",income,450.00,SA-0005
+2025-10-09,Johnstone Supply for SA-0009,Johnstone Supply,materials,-44.54,SA-0009
+2025-10-09,Johnstone Supply for SA-0010,Johnstone Supply,materials,-224.02,SA-0010
+2025-10-09,Payment INV-0661,"Quinn residence, 7951 Oak St",income,149.00,SA-0661
+2025-10-09,Payment INV-0760,"Iverson residence, 5075 Gillham Rd",income,149.00,SA-0760
+2025-10-09,Johnstone Supply for SA-0888,Johnstone Supply,materials,-23.44,SA-0888
+2025-10-09,Customer payments for September work,Stripe,income,3501.16,
+2025-10-10,Johnstone Supply for SA-0011,Johnstone Supply,materials,-88.85,SA-0011
+2025-10-10,Payment INV-0011,"Miller residence, 3042 State Line Rd",income,730.00,SA-0011
+2025-10-10,Johnstone Supply for SA-0012,Johnstone Supply,materials,-88.46,SA-0012
+2025-10-10,Johnstone Supply for SA-0013,Johnstone Supply,materials,-71.85,SA-0013
+2025-10-10,Ferguson HVAC for SA-0014,Ferguson HVAC,materials,-3411.44,SA-0014
+2025-10-10,KCMO Permits for SA-0014,KCMO Permits,permits,-185.00,SA-0014
+2025-10-10,Johnstone Supply for SA-0780,Johnstone Supply,materials,-22.62,SA-0780
+2025-10-10,Johnstone Supply for SA-0823,Johnstone Supply,materials,-27.51,SA-0823
+2025-10-10,Payment INV-0823,"Jensen residence, 4695 Oak St",income,149.00,SA-0823
+2025-10-10,Payment INV-0839,"Ellison residence, 5237 Wornall Rd",income,149.00,SA-0839
+2025-10-10,Customer payments for September work,Stripe,income,3006.90,
+2025-10-10,Fleet fuel,WEX Fleet Fuel,fuel,-545.60,
+2025-10-11,Johnstone Supply for SA-0015,Johnstone Supply,materials,-196.92,SA-0015
+2025-10-11,Johnstone Supply for SA-0016,Johnstone Supply,materials,-133.72,SA-0016
+2025-10-11,Payment INV-0888,"Okafor residence, 2159 Oak St",income,149.00,SA-0888
+2025-10-12,Payment INV-0012,"Price residence, 132 State Line Rd",income,570.00,SA-0012
+2025-10-12,Payment INV-0669,"Jensen residence, 7135 Gillham Rd",income,149.00,SA-0669
+2025-10-12,Johnstone Supply for SA-0784,Johnstone Supply,materials,-14.84,SA-0784
+2025-10-12,Johnstone Supply for SA-0828,Johnstone Supply,materials,-26.86,SA-0828
+2025-10-12,Johnstone Supply for SA-0856,Johnstone Supply,materials,-20.75,SA-0856
+2025-10-12,Payment INV-0856,"Iverson residence, 9294 Broadway Blvd",income,149.00,SA-0856
+2025-10-12,Google Ads,Google Ads,marketing,-2400.00,
+2025-10-13,Johnstone Supply for SA-0017,Johnstone Supply,materials,-64.15,SA-0017
+2025-10-13,Johnstone Supply for SA-0638,Johnstone Supply,materials,-13.53,SA-0638
+2025-10-13,Johnstone Supply for SA-0709,Johnstone Supply,materials,-22.61,SA-0709
+2025-10-13,Payment INV-0709,"Tran residence, 1683 Holmes Rd",income,149.00,SA-0709
+2025-10-13,Payment INV-0850,"Haddad residence, 352 Ward Pkwy",income,149.00,SA-0850
+2025-10-13,Customer payments for September work,Stripe,income,3044.88,
+2025-10-14,Payment INV-0010,"Hughes residence, 254 Broadway Blvd",income,930.00,SA-0010
+2025-10-14,Payment INV-0015,"Tran residence, 1452 Main St",income,890.00,SA-0015
+2025-10-14,Customer payments for September work,Stripe,income,2637.37,
+2025-10-15,Payment INV-0007,"Ortiz residence, 9641 Wornall Rd",income,580.00,SA-0007
+2025-10-15,Payment INV-0008,"Ellison residence, 2689 Oak St",income,590.00,SA-0008
+2025-10-15,Johnstone Supply for SA-0018,Johnstone Supply,materials,-76.34,SA-0018
+2025-10-15,Payment INV-0631,"Delgado residence, 6608 Wornall Rd",income,149.00,SA-0631
+2025-10-15,Payment INV-0780,"Hughes residence, 8782 Holmes Rd",income,149.00,SA-0780
+2025-10-15,Payment INV-0784,"Brooks residence, 3147 Troost Ave",income,149.00,SA-0784
+2025-10-15,Johnstone Supply for SA-0786,Johnstone Supply,materials,-22.50,SA-0786
+2025-10-15,Payroll,Gusto,payroll,-19500.00,
+2025-10-16,Payment INV-0009,"Russo residence, 4938 Oak St",income,290.00,SA-0009
+2025-10-16,Payment INV-0016,"Schultz residence, 2858 State Line Rd",income,760.00,SA-0016
+2025-10-16,Payment INV-0648,"Sorensen residence, 7017 Main St",income,149.00,SA-0648
+2025-10-16,Payment INV-0786,"Kim residence, 7069 Oak St",income,149.00,SA-0786
+2025-10-16,Johnstone Supply for SA-0873,Johnstone Supply,materials,-14.05,SA-0873
+2025-10-17,Johnstone Supply for SA-0878,Johnstone Supply,materials,-21.74,SA-0878
+2025-10-17,Fleet fuel,WEX Fleet Fuel,fuel,-545.60,
+2025-10-18,Payment INV-0017,"Mendez residence, 7685 Holmes Rd",income,300.00,SA-0017
+2025-10-18,Payment INV-0018,"Novak residence, 7381 Wornall Rd",income,420.00,SA-0018
+2025-10-18,Johnstone Supply for SA-0019,Johnstone Supply,materials,-144.03,SA-0019
+2025-10-18,Johnstone Supply for SA-0020,Johnstone Supply,materials,-163.62,SA-0020
+2025-10-18,Ferguson HVAC for SA-0021,Ferguson HVAC,materials,-5583.40,SA-0021
+2025-10-18,KCMO Permits for SA-0021,KCMO Permits,permits,-185.00,SA-0021
+2025-10-18,Johnstone Supply for SA-0675,Johnstone Supply,materials,-21.24,SA-0675
+2025-10-18,Evergy,Evergy,utilities,-435.00,
+2025-10-19,Payment INV-0001,"Lindqvist residence, 3105 Oak St",income,340.00,SA-0001
+2025-10-19,Johnstone Supply for SA-0837,Johnstone Supply,materials,-14.77,SA-0837
+2025-10-19,Payment INV-0837,"Kowalski residence, 3139 Main St",income,149.00,SA-0837
+2025-10-19,Payment INV-0854,"Russo residence, 2115 Main St",income,149.00,SA-0854
+2025-10-20,Payment INV-0021,"Lopez residence, 7897 Gillham Rd",income,11800.00,SA-0021
+2025-10-20,Verizon Business,Verizon Business,utilities,-260.00,
+2025-10-21,Payment INV-0020,"Kowalski residence, 2933 Ward Pkwy",income,890.00,SA-0020
+2025-10-21,Johnstone Supply for SA-0023,Johnstone Supply,materials,-74.02,SA-0023
+2025-10-21,Johnstone Supply for SA-0024,Johnstone Supply,materials,-61.10,SA-0024
+2025-10-21,Johnstone Supply for SA-0769,Johnstone Supply,materials,-21.23,SA-0769
+2025-10-21,Payment INV-0769,"Garza residence, 3922 Main St",income,149.00,SA-0769
+2025-10-22,Payment INV-0013,"Garza residence, 4165 Brookside Blvd",income,290.00,SA-0013
+2025-10-22,Johnstone Supply for SA-0025,Johnstone Supply,materials,-39.74,SA-0025
+2025-10-22,Johnstone Supply for SA-0627,Johnstone Supply,materials,-13.49,SA-0627
+2025-10-22,Payment INV-0642,"Russo residence, 7594 Brookside Blvd",income,149.00,SA-0642
+2025-10-22,Johnstone Supply for SA-0794,Johnstone Supply,materials,-20.91,SA-0794
+2025-10-22,Payment INV-0794,"Bauer residence, 6911 Wornall Rd",income,149.00,SA-0794
+2025-10-22,Johnstone Supply for SA-0870,Johnstone Supply,materials,-13.99,SA-0870
+2025-10-23,Payment INV-0019,"Ortiz residence, 9052 Oak St",income,880.00,SA-0019
+2025-10-23,Payment INV-0023,"Delgado residence, 8930 Ward Pkwy",income,600.00,SA-0023
+2025-10-23,Johnstone Supply for SA-0026,Johnstone Supply,materials,-141.12,SA-0026
+2025-10-23,Payment INV-0627,"Russo residence, 1706 Gillham Rd",income,149.00,SA-0627
+2025-10-23,Johnstone Supply for SA-0727,Johnstone Supply,materials,-13.72,SA-0727
+2025-10-23,Johnstone Supply for SA-0767,Johnstone Supply,materials,-20.68,SA-0767
+2025-10-23,Johnstone Supply for SA-0820,Johnstone Supply,materials,-19.81,SA-0820
+2025-10-23,Payment INV-0820,"Delgado residence, 1897 Broadway Blvd",income,149.00,SA-0820
+2025-10-24,Payment INV-0006,"Haddad residence, 2619 Gillham Rd",income,290.00,SA-0006
+2025-10-24,Payment INV-0014,"Russo residence, 2025 State Line Rd",income,7400.00,SA-0014
+2025-10-24,Johnstone Supply for SA-0027,Johnstone Supply,materials,-110.13,SA-0027
+2025-10-24,Johnstone Supply for SA-0656,Johnstone Supply,materials,-17.61,SA-0656
+2025-10-24,Payment INV-0656,"Quinn residence, 8695 Wornall Rd",income,149.00,SA-0656
+2025-10-24,Johnstone Supply for SA-0665,Johnstone Supply,materials,-24.26,SA-0665
+2025-10-24,Johnstone Supply for SA-0699,Johnstone Supply,materials,-26.01,SA-0699
+2025-10-24,Johnstone Supply for SA-0717,Johnstone Supply,materials,-13.40,SA-0717
+2025-10-24,Johnstone Supply for SA-0723,Johnstone Supply,materials,-21.57,SA-0723
+2025-10-24,Payment INV-0723,"Nguyen residence, 831 Oak St",income,149.00,SA-0723
+2025-10-24,Payment INV-0727,"Miller residence, 5235 Broadway Blvd",income,149.00,SA-0727
+2025-10-24,Payment INV-0767,"Haddad residence, 5611 Gillham Rd",income,149.00,SA-0767
+2025-10-24,Fleet fuel,WEX Fleet Fuel,fuel,-545.60,
+2025-10-25,Johnstone Supply for SA-0028,Johnstone Supply,materials,-122.58,SA-0028
+2025-10-25,Payment INV-0638,"Kowalski residence, 5677 Main St",income,149.00,SA-0638
+2025-10-25,Johnstone Supply for SA-0773,Johnstone Supply,materials,-12.41,SA-0773
+2025-10-25,Card processing fees,Stripe,bank_fees,-244.00,
+2025-10-26,Johnstone Supply for SA-0775,Johnstone Supply,materials,-22.22,SA-0775
+2025-10-26,Payment INV-0775,"Hughes residence, 9025 Ward Pkwy",income,149.00,SA-0775
+2025-10-27,Payment INV-0025,"Moreau residence, 8511 Holmes Rd",income,200.00,SA-0025
+2025-10-27,Johnstone Supply for SA-0029,Johnstone Supply,materials,-179.01,SA-0029
+2025-10-27,Johnstone Supply for SA-0030,Johnstone Supply,materials,-63.06,SA-0030
+2025-10-27,Johnstone Supply for SA-0617,Johnstone Supply,materials,-13.49,SA-0617
+2025-10-27,Johnstone Supply for SA-0754,Johnstone Supply,materials,-19.76,SA-0754
+2025-10-27,Payment INV-0754,"Novak residence, 5785 State Line Rd",income,149.00,SA-0754
+2025-10-27,Johnstone Supply for SA-0886,Johnstone Supply,materials,-12.90,SA-0886
+2025-10-28,Payment INV-0026,"Okafor residence, 8128 Brookside Blvd",income,820.00,SA-0026
+2025-10-28,Johnstone Supply for SA-0031,Johnstone Supply,materials,-125.93,SA-0031
+2025-10-28,Payment INV-0617,"Mendez residence, 9480 Oak St",income,149.00,SA-0617
+2025-10-28,Payment INV-0773,"Delgado residence, 2940 Ward Pkwy",income,149.00,SA-0773
+2025-10-28,Payment INV-0873,"Kowalski residence, 7255 Ward Pkwy",income,149.00,SA-0873
+2025-10-28,Payment INV-0886,"Garza residence, 2110 Main St",income,149.00,SA-0886
+2025-10-29,Payment INV-0029,"Ortiz residence, 8750 Oak St",income,920.00,SA-0029
+2025-10-29,Payment INV-0030,"Delgado residence, 7128 Oak St",income,530.00,SA-0030
+2025-10-29,Ferguson HVAC for SA-0032,Ferguson HVAC,materials,-5646.46,SA-0032
+2025-10-29,KCMO Permits for SA-0032,KCMO Permits,permits,-185.00,SA-0032
+2025-10-29,Payment INV-0665,"Schultz residence, 2213 Ward Pkwy",income,149.00,SA-0665
+2025-10-30,Payment INV-0028,"Ellison residence, 9862 State Line Rd",income,830.00,SA-0028
+2025-10-30,Payment INV-0675,"Iverson residence, 7790 Oak St",income,149.00,SA-0675
+2025-10-30,Payment INV-0828,"Kim residence, 9205 Brookside Blvd",income,149.00,SA-0828
+2025-10-31,Johnstone Supply for SA-0033,Johnstone Supply,materials,-89.20,SA-0033
+2025-10-31,Johnstone Supply for SA-0034,Johnstone Supply,materials,-29.24,SA-0034
+2025-10-31,Ferguson HVAC for SA-0035,Ferguson HVAC,materials,-3371.34,SA-0035
+2025-10-31,KCMO Permits for SA-0035,KCMO Permits,permits,-185.00,SA-0035
+2025-11-01,Johnstone Supply for SA-0022,Johnstone Supply,materials,-61.75,SA-0022
+2025-11-01,Payment INV-0032,"Ortiz residence, 665 Wornall Rd",income,11200.00,SA-0032
+2025-11-01,Johnstone Supply for SA-0036,Johnstone Supply,materials,-108.16,SA-0036
+2025-11-01,Johnstone Supply for SA-0037,Johnstone Supply,materials,-193.41,SA-0037
+2025-11-01,Johnstone Supply for SA-0771,Johnstone Supply,materials,-22.90,SA-0771
+2025-11-01,Johnstone Supply for SA-0844,Johnstone Supply,materials,-14.29,SA-0844
+2025-11-01,Holmes Rd Properties,Holmes Rd Properties,rent,-3200.00,
+2025-11-01,Acuity Insurance,Acuity Insurance,insurance,-1450.00,
+2025-11-01,ServiceTitan,ServiceTitan,software,-398.00,
+2025-11-01,Payroll,Gusto,payroll,-19500.00,
+2025-11-02,Payment INV-0036,"Brooks residence, 4050 Holmes Rd",income,820.00,SA-0036
+2025-11-02,Johnstone Supply for SA-0663,Johnstone Supply,materials,-13.95,SA-0663
+2025-11-02,Johnstone Supply for SA-0690,Johnstone Supply,materials,-18.13,SA-0690
+2025-11-02,Johnstone Supply for SA-0893,Johnstone Supply,materials,-26.42,SA-0893
+2025-11-03,Payment INV-0035,"Ortiz residence, 4314 State Line Rd",income,7200.00,SA-0035
+2025-11-03,Johnstone Supply for SA-0038,Johnstone Supply,materials,-130.13,SA-0038
+2025-11-03,Johnstone Supply for SA-0039,Johnstone Supply,materials,-31.37,SA-0039
+2025-11-03,Johnstone Supply for SA-0650,Johnstone Supply,materials,-25.44,SA-0650
+2025-11-03,Johnstone Supply for SA-0733,Johnstone Supply,materials,-17.56,SA-0733
+2025-11-03,Johnstone Supply for SA-0884,Johnstone Supply,materials,-25.17,SA-0884
+2025-11-03,Payment INV-0893,"Lindqvist residence, 5932 Troost Ave",income,149.00,SA-0893
+2025-11-03,Fleet fuel,WEX Fleet Fuel,fuel,-582.80,
+2025-11-04,Payment INV-0037,"Haddad residence, 7033 Gillham Rd",income,940.00,SA-0037
+2025-11-04,Payment INV-0038,"Delgado residence, 3302 Main St",income,850.00,SA-0038
+2025-11-04,Payment INV-0039,"Hughes residence, 7203 Holmes Rd",income,300.00,SA-0039
+2025-11-04,Johnstone Supply for SA-0040,Johnstone Supply,materials,-108.51,SA-0040
+2025-11-04,Payment INV-0650,"Coleman residence, 9696 Oak St",income,149.00,SA-0650
+2025-11-04,Payment INV-0663,"Ellison residence, 515 Broadway Blvd",income,149.00,SA-0663
+2025-11-04,Johnstone Supply for SA-0762,Johnstone Supply,materials,-22.23,SA-0762
+2025-11-04,Payment INV-0771,"Moreau residence, 6639 Ward Pkwy",income,149.00,SA-0771
+2025-11-04,Payment INV-0878,"Lopez residence, 6926 State Line Rd",income,149.00,SA-0878
+2025-11-05,Payment INV-0033,"Bauer residence, 9046 Ward Pkwy",income,670.00,SA-0033
+2025-11-05,Johnstone Supply for SA-0041,Johnstone Supply,materials,-77.45,SA-0041
+2025-11-05,Payment INV-0699,"Moreau residence, 650 Wornall Rd",income,149.00,SA-0699
+2025-11-05,Johnstone Supply for SA-0725,Johnstone Supply,materials,-21.07,SA-0725
+2025-11-05,Payment INV-0733,"Moreau residence, 3752 Gillham Rd",income,149.00,SA-0733
+2025-11-05,Payment INV-0884,"Okafor residence, 1944 Brookside Blvd",income,149.00,SA-0884
+2025-11-05,Intuit QuickBooks,Intuit QuickBooks,software,-90.00,
+2025-11-06,Johnstone Supply for SA-0042,Johnstone Supply,materials,-90.79,SA-0042
+2025-11-06,Payment INV-0042,"Nguyen residence, 4623 Wornall Rd",income,810.00,SA-0042
+2025-11-06,Johnstone Supply for SA-0043,Johnstone Supply,materials,-127.52,SA-0043
+2025-11-06,Johnstone Supply for SA-0614,Johnstone Supply,materials,-27.19,SA-0614
+2025-11-06,Johnstone Supply for SA-0644,Johnstone Supply,materials,-20.22,SA-0644
+2025-11-06,Payment INV-0644,"Price residence, 9560 Wornall Rd",income,149.00,SA-0644
+2025-11-06,Payment INV-0725,"Kim residence, 5953 Brookside Blvd",income,149.00,SA-0725
+2025-11-06,Johnstone Supply for SA-0745,Johnstone Supply,materials,-26.86,SA-0745
+2025-11-06,Payment INV-0844,"Quinn residence, 5254 Brookside Blvd",income,149.00,SA-0844
+2025-11-07,Johnstone Supply for SA-0044,Johnstone Supply,materials,-25.68,SA-0044
+2025-11-07,Payment INV-0044,"Patel residence, 2855 Oak St",income,250.00,SA-0044
+2025-11-07,Payment INV-0745,"Coleman residence, 2533 Oak St",income,149.00,SA-0745
+2025-11-07,Payment INV-0762,"Whitfield residence, 2088 Gillham Rd",income,149.00,SA-0762
+2025-11-08,Payment INV-0024,"Iverson residence, 2898 Wornall Rd",income,330.00,SA-0024
+2025-11-08,Payment INV-0041,"Garza residence, 9816 Ward Pkwy",income,520.00,SA-0041
+2025-11-08,Johnstone Supply for SA-0712,Johnstone Supply,materials,-25.47,SA-0712
+2025-11-08,Johnstone Supply for SA-0810,Johnstone Supply,materials,-18.66,SA-0810
+2025-11-08,Johnstone Supply for SA-0861,Johnstone Supply,materials,-14.00,SA-0861
+2025-11-09,Johnstone Supply for SA-0640,Johnstone Supply,materials,-13.75,SA-0640
+2025-11-09,Johnstone Supply for SA-0682,Johnstone Supply,materials,-27.88,SA-0682
+2025-11-09,Johnstone Supply for SA-0736,Johnstone Supply,materials,-23.34,SA-0736
+2025-11-09,Payment INV-0870,"Iverson residence, 4221 Troost Ave",income,149.00,SA-0870
+2025-11-10,Johnstone Supply for SA-0045,Johnstone Supply,materials,-47.52,SA-0045
+2025-11-10,Johnstone Supply for SA-0624,Johnstone Supply,materials,-13.11,SA-0624
+2025-11-10,Payment INV-0624,"Garza residence, 1422 Main St",income,149.00,SA-0624
+2025-11-10,Johnstone Supply for SA-0692,Johnstone Supply,materials,-17.36,SA-0692
+2025-11-10,Johnstone Supply for SA-0757,Johnstone Supply,materials,-26.49,SA-0757
+2025-11-10,Payment INV-0757,"Ellison residence, 7899 State Line Rd",income,149.00,SA-0757
+2025-11-10,Johnstone Supply for SA-0805,Johnstone Supply,materials,-13.99,SA-0805
+2025-11-10,Johnstone Supply for SA-0808,Johnstone Supply,materials,-20.53,SA-0808
+2025-11-10,Payment INV-0810,"Hughes residence, 5513 Troost Ave",income,149.00,SA-0810
+2025-11-10,Payment INV-0861,"Hughes residence, 722 Troost Ave",income,149.00,SA-0861
+2025-11-10,Fleet fuel,WEX Fleet Fuel,fuel,-582.80,
+2025-11-11,Payment INV-0027,"Delgado residence, 9631 Ward Pkwy",income,480.00,SA-0027
+2025-11-11,Johnstone Supply for SA-0046,Johnstone Supply,materials,-64.55,SA-0046
+2025-11-11,Payment INV-0717,"Miller residence, 7492 Broadway Blvd",income,149.00,SA-0717
+2025-11-11,Johnstone Supply for SA-0858,Johnstone Supply,materials,-16.23,SA-0858
+2025-11-11,Payment INV-0858,"Quinn residence, 5839 State Line Rd",income,149.00,SA-0858
+2025-11-12,Payment INV-0640,"Moreau residence, 8915 Wornall Rd",income,149.00,SA-0640
+2025-11-12,Johnstone Supply for SA-0752,Johnstone Supply,materials,-19.38,SA-0752
+2025-11-12,Johnstone Supply for SA-0841,Johnstone Supply,materials,-23.26,SA-0841
+2025-11-12,Payment INV-0841,"Abernathy residence, 1147 Wornall Rd",income,149.00,SA-0841
+2025-11-12,Google Ads,Google Ads,marketing,-2400.00,
+2025-11-13,Payment INV-0046,"Abernathy residence, 6352 Gillham Rd",income,630.00,SA-0046
+2025-11-13,Johnstone Supply for SA-0047,Johnstone Supply,materials,-73.36,SA-0047
+2025-11-13,Payment INV-0614,"Price residence, 9218 Troost Ave",income,149.00,SA-0614
+2025-11-13,Payment INV-0712,"Kowalski residence, 6838 Brookside Blvd",income,149.00,SA-0712
+2025-11-13,Johnstone Supply for SA-0730,Johnstone Supply,materials,-24.74,SA-0730
+2025-11-13,Payment INV-0752,"Price residence, 1303 Ward Pkwy",income,149.00,SA-0752
+2025-11-13,Johnstone Supply for SA-0782,Johnstone Supply,materials,-18.52,SA-0782
+2025-11-13,Payment INV-0782,"Mendez residence, 8568 Brookside Blvd",income,149.00,SA-0782
+2025-11-14,Johnstone Supply for SA-0048,Johnstone Supply,materials,-107.95,SA-0048
+2025-11-14,Payment INV-0048,"Mendez residence, 6914 Troost Ave",income,790.00,SA-0048
+2025-11-14,Payment INV-0690,"Hughes residence, 9885 Gillham Rd",income,149.00,SA-0690
+2025-11-14,Payment INV-0730,"Abernathy residence, 8160 Brookside Blvd",income,149.00,SA-0730
+2025-11-14,Payment INV-0736,"Abernathy residence, 2249 Broadway Blvd",income,149.00,SA-0736
+2025-11-14,Johnstone Supply for SA-0848,Johnstone Supply,materials,-19.97,SA-0848
+2025-11-15,Payment INV-0031,"Ortiz residence, 5437 State Line Rd",income,700.00,SA-0031
+2025-11-15,Payment INV-0045,"Jensen residence, 7778 Holmes Rd",income,350.00,SA-0045
+2025-11-15,Johnstone Supply for SA-0049,Johnstone Supply,materials,-43.42,SA-0049
+2025-11-15,Johnstone Supply for SA-0050,Johnstone Supply,materials,-168.05,SA-0050
+2025-11-15,Johnstone Supply for SA-0051,Johnstone Supply,materials,-85.17,SA-0051
+2025-11-15,Payment INV-0051,"Bauer residence, 870 Wornall Rd",income,680.00,SA-0051
+2025-11-15,Johnstone Supply for SA-0052,Johnstone Supply,materials,-1780.07,SA-0052
+2025-11-15,Payment INV-0692,"Mendez residence, 8667 Gillham Rd",income,149.00,SA-0692
+2025-11-15,Payroll,Gusto,payroll,-19500.00,
+2025-11-16,Payment INV-0040,"Bauer residence, 8636 Gillham Rd",income,480.00,SA-0040
+2025-11-16,Johnstone Supply for SA-0622,Johnstone Supply,materials,-20.61,SA-0622
+2025-11-16,Johnstone Supply for SA-0667,Johnstone Supply,materials,-21.26,SA-0667
+2025-11-17,Payment INV-0050,"Tran residence, 7750 Oak St",income,690.00,SA-0050
+2025-11-17,Johnstone Supply for SA-0053,Johnstone Supply,materials,-79.20,SA-0053
+2025-11-17,Johnstone Supply for SA-0054,Johnstone Supply,materials,-42.18,SA-0054
+2025-11-17,Payment INV-0667,"Jensen residence, 8672 Main St",income,149.00,SA-0667
+2025-11-17,Payment INV-0848,"Miller residence, 6844 Wornall Rd",income,149.00,SA-0848
+2025-11-17,Fleet fuel,WEX Fleet Fuel,fuel,-582.80,
+2025-11-18,Payment INV-0034,"Iverson residence, 6764 Brookside Blvd",income,240.00,SA-0034
+2025-11-18,Payment INV-0043,"Sorensen residence, 9346 Main St",income,580.00,SA-0043
+2025-11-18,Payment INV-0047,"Tran residence, 8619 Brookside Blvd",income,620.00,SA-0047
+2025-11-18,Johnstone Supply for SA-0055,Johnstone Supply,materials,-86.54,SA-0055
+2025-11-18,Johnstone Supply for SA-0056,Johnstone Supply,materials,-167.56,SA-0056
+2025-11-18,Johnstone Supply for SA-0747,Johnstone Supply,materials,-27.07,SA-0747
+2025-11-18,Johnstone Supply for SA-0792,Johnstone Supply,materials,-25.15,SA-0792
+2025-11-18,Johnstone Supply for SA-0863,Johnstone Supply,materials,-13.44,SA-0863
+2025-11-18,Evergy,Evergy,utilities,-449.00,
+2025-11-19,Johnstone Supply for SA-0057,Johnstone Supply,materials,-50.54,SA-0057
+2025-11-19,Johnstone Supply for SA-0634,Johnstone Supply,materials,-13.07,SA-0634
+2025-11-19,Johnstone Supply for SA-0739,Johnstone Supply,materials,-14.74,SA-0739
+2025-11-19,Johnstone Supply for SA-0846,Johnstone Supply,materials,-24.58,SA-0846
+2025-11-20,Johnstone Supply for SA-0058,Johnstone Supply,materials,-68.11,SA-0058
+2025-11-20,Johnstone Supply for SA-0059,Johnstone Supply,materials,-155.37,SA-0059
+2025-11-20,Payment INV-0059,"Miller residence, 567 State Line Rd",income,750.00,SA-0059
+2025-11-20,Payment INV-0634,"Tran residence, 5943 Troost Ave",income,149.00,SA-0634
+2025-11-20,Johnstone Supply for SA-0646,Johnstone Supply,materials,-15.09,SA-0646
+2025-11-20,Johnstone Supply for SA-0685,Johnstone Supply,materials,-12.58,SA-0685
+2025-11-20,Payment INV-0685,"Delgado residence, 4923 Wornall Rd",income,149.00,SA-0685
+2025-11-20,Johnstone Supply for SA-0715,Johnstone Supply,materials,-23.53,SA-0715
+2025-11-20,Johnstone Supply for SA-0815,Johnstone Supply,materials,-23.45,SA-0815
+2025-11-20,Verizon Business,Verizon Business,utilities,-260.00,
+2025-11-21,Payment INV-0058,"Nguyen residence, 6280 Holmes Rd",income,360.00,SA-0058
+2025-11-21,Johnstone Supply for SA-0060,Johnstone Supply,materials,-90.54,SA-0060
+2025-11-21,Johnstone Supply for SA-0061,Johnstone Supply,materials,-40.41,SA-0061
+2025-11-21,Payment INV-0622,"Sorensen residence, 4031 Ward Pkwy",income,149.00,SA-0622
+2025-11-21,Payment INV-0682,"Mendez residence, 6685 Troost Ave",income,149.00,SA-0682
+2025-11-21,Johnstone Supply for SA-0750,Johnstone Supply,materials,-23.96,SA-0750
+2025-11-21,Payment INV-0792,"Brooks residence, 4416 Gillham Rd",income,149.00,SA-0792
+2025-11-21,Johnstone Supply for SA-0880,Johnstone Supply,materials,-16.09,SA-0880
+2025-11-22,Payment INV-0061,"Kim residence, 432 Gillham Rd",income,280.00,SA-0061
+2025-11-22,Johnstone Supply for SA-0798,Johnstone Supply,materials,-19.85,SA-0798
+2025-11-22,Payment INV-0808,"Miller residence, 1625 Gillham Rd",income,149.00,SA-0808
+2025-11-22,Johnstone Supply for SA-0832,Johnstone Supply,materials,-19.26,SA-0832
+2025-11-23,Payment INV-0055,"Coleman residence, 4669 Brookside Blvd",income,760.00,SA-0055
+2025-11-23,Johnstone Supply for SA-0619,Johnstone Supply,materials,-26.96,SA-0619
+2025-11-23,Payment INV-0619,"Novak residence, 8142 Broadway Blvd",income,149.00,SA-0619
+2025-11-23,Johnstone Supply for SA-0741,Johnstone Supply,materials,-19.27,SA-0741
+2025-11-23,Payment INV-0750,"Miller residence, 1838 Troost Ave",income,149.00,SA-0750
+2025-11-23,Johnstone Supply for SA-0875,Johnstone Supply,materials,-22.48,SA-0875
+2025-11-23,Payment INV-0875,"Russo residence, 5515 Wornall Rd",income,149.00,SA-0875
+2025-11-24,Payment INV-0053,"Bauer residence, 972 Oak St",income,590.00,SA-0053
+2025-11-24,Payment INV-0057,"Miller residence, 6318 Main St",income,260.00,SA-0057
+2025-11-24,Johnstone Supply for SA-0062,Johnstone Supply,materials,-107.58,SA-0062
+2025-11-24,Johnstone Supply for SA-0063,Johnstone Supply,materials,-72.88,SA-0063
+2025-11-24,Johnstone Supply for SA-0064,Johnstone Supply,materials,-117.39,SA-0064
+2025-11-24,Payment INV-0064,"Russo residence, 6708 Holmes Rd",income,940.00,SA-0064
+2025-11-24,Johnstone Supply for SA-0611,Johnstone Supply,materials,-15.35,SA-0611
+2025-11-24,Payment INV-0832,"Haddad residence, 2906 Main St",income,149.00,SA-0832
+2025-11-24,Payment INV-0846,"Kim residence, 4296 Main St",income,149.00,SA-0846
+2025-11-24,Johnstone Supply for SA-0882,Johnstone Supply,materials,-23.50,SA-0882
+2025-11-24,Fleet fuel,WEX Fleet Fuel,fuel,-582.80,
+2025-11-25,Johnstone Supply for SA-0065,Johnstone Supply,materials,-132.63,SA-0065
+2025-11-25,Johnstone Supply for SA-0066,Johnstone Supply,materials,-80.54,SA-0066
+2025-11-25,Ferguson HVAC for SA-0067,Ferguson HVAC,materials,-5400.03,SA-0067
+2025-11-25,KCMO Permits for SA-0067,KCMO Permits,permits,-185.00,SA-0067
+2025-11-25,Payment INV-0611,"Nguyen residence, 5334 Oak St",income,149.00,SA-0611
+2025-11-25,Payment INV-0741,"Patel residence, 6944 Brookside Blvd",income,149.00,SA-0741
+2025-11-25,Payment INV-0798,"Ellison residence, 7997 Gillham Rd",income,149.00,SA-0798
+2025-11-25,Johnstone Supply for SA-0867,Johnstone Supply,materials,-25.68,SA-0867
+2025-11-25,Card processing fees,Stripe,bank_fees,-350.00,
+2025-11-26,Payment INV-0063,"Whitfield residence, 2855 Main St",income,400.00,SA-0063
+2025-11-26,Johnstone Supply for SA-0068,Johnstone Supply,materials,-206.95,SA-0068
+2025-11-26,Johnstone Supply for SA-0069,Johnstone Supply,materials,-83.66,SA-0069
+2025-11-26,Johnstone Supply for SA-0070,Johnstone Supply,materials,-88.21,SA-0070
+2025-11-26,Ferguson HVAC for SA-0071,Ferguson HVAC,materials,-7911.68,SA-0071
+2025-11-26,Midwest Crane & Rigging for SA-0071,Midwest Crane & Rigging,equipment,-1100.00,SA-0071
+2025-11-26,KCMO Permits for SA-0071,KCMO Permits,permits,-450.00,SA-0071
+2025-11-26,Johnstone Supply for SA-0680,Johnstone Supply,materials,-27.21,SA-0680
+2025-11-26,Johnstone Supply for SA-0705,Johnstone Supply,materials,-21.54,SA-0705
+2025-11-26,Johnstone Supply for SA-0777,Johnstone Supply,materials,-17.14,SA-0777
+2025-11-26,Payment INV-0777,"Sorensen residence, 3188 Gillham Rd",income,149.00,SA-0777
+2025-11-26,Payment INV-0880,"Abernathy residence, 432 Oak St",income,149.00,SA-0880
+2025-11-26,Payment INV-0882,"Whitfield residence, 3334 Oak St",income,149.00,SA-0882
+2025-11-26,Johnstone Supply for SA-0890,Johnstone Supply,materials,-23.18,SA-0890
+2025-11-27,Payment INV-0049,"Quinn residence, 695 Holmes Rd",income,370.00,SA-0049
+2025-11-27,Payment INV-0067,"Coleman residence, 8241 Ward Pkwy",income,12000.00,SA-0067
+2025-11-27,Johnstone Supply for SA-0072,Johnstone Supply,materials,-57.47,SA-0072
+2025-11-27,Payment INV-0072,"Delgado residence, 6227 Ward Pkwy",income,510.00,SA-0072
+2025-11-27,Johnstone Supply for SA-0073,Johnstone Supply,materials,-66.43,SA-0073
+2025-11-27,Payment INV-0073,"Nguyen residence, 7593 Broadway Blvd",income,340.00,SA-0073
+2025-11-27,Johnstone Supply for SA-0074,Johnstone Supply,materials,-74.99,SA-0074
+2025-11-27,Payment INV-0646,"Miller residence, 6143 State Line Rd",income,149.00,SA-0646
+2025-11-27,Johnstone Supply for SA-0673,Johnstone Supply,materials,-15.03,SA-0673
+2025-11-27,Johnstone Supply for SA-0688,Johnstone Supply,materials,-25.13,SA-0688
+2025-11-27,Johnstone Supply for SA-0701,Johnstone Supply,materials,-27.12,SA-0701
+2025-11-27,Johnstone Supply for SA-0719,Johnstone Supply,materials,-22.34,SA-0719
+2025-11-27,Payment INV-0719,"Moreau residence, 1460 Broadway Blvd",income,149.00,SA-0719
+2025-11-27,Johnstone Supply for SA-0800,Johnstone Supply,materials,-20.23,SA-0800
+2025-11-27,Payment INV-0800,"Nguyen residence, 8738 Oak St",income,149.00,SA-0800
+2025-11-27,Payment INV-0815,"Tran residence, 2668 State Line Rd",income,149.00,SA-0815
+2025-11-28,Payment INV-0066,"Ellison residence, 5048 Ward Pkwy",income,360.00,SA-0066
+2025-11-28,Payment INV-0074,"Russo residence, 156 Main St",income,350.00,SA-0074
+2025-11-28,Johnstone Supply for SA-0075,Johnstone Supply,materials,-108.09,SA-0075
+2025-11-28,Payment INV-0075,"Moreau residence, 8057 State Line Rd",income,850.00,SA-0075
+2025-11-28,Johnstone Supply for SA-0076,Johnstone Supply,materials,-76.77,SA-0076
+2025-11-28,Johnstone Supply for SA-0077,Johnstone Supply,materials,-39.90,SA-0077
+2025-11-28,Payment INV-0077,"Iverson residence, 7698 Troost Ave",income,240.00,SA-0077
+2025-11-28,Payment INV-0805,"Ortiz residence, 3611 Holmes Rd",income,149.00,SA-0805
+2025-11-29,Payment INV-0054,"Okafor residence, 347 Troost Ave",income,230.00,SA-0054
+2025-11-29,Ferguson HVAC for SA-0078,Ferguson HVAC,materials,-4255.70,SA-0078
+2025-11-29,KCMO Permits for SA-0078,KCMO Permits,permits,-185.00,SA-0078
+2025-11-29,Payment INV-0890,"Tran residence, 9880 Wornall Rd",income,149.00,SA-0890
+2025-11-30,Payment INV-0056,"Lindqvist residence, 9387 Oak St",income,750.00,SA-0056
+2025-11-30,Payment INV-0065,"Russo residence, 8995 Oak St",income,650.00,SA-0065
+2025-11-30,Payment INV-0747,"Mendez residence, 3322 Troost Ave",income,149.00,SA-0747
+2025-12-01,Payment INV-0062,"Sorensen residence, 4972 Wornall Rd",income,510.00,SA-0062
+2025-12-01,Payment INV-0070,"Price residence, 6067 Holmes Rd",income,470.00,SA-0070
+2025-12-01,Johnstone Supply for SA-0080,Johnstone Supply,materials,-132.54,SA-0080
+2025-12-01,Holmes Rd Properties,Holmes Rd Properties,rent,-3200.00,
+2025-12-01,Acuity Insurance,Acuity Insurance,insurance,-1450.00,
+2025-12-01,ServiceTitan,ServiceTitan,software,-398.00,
+2025-12-01,Payroll,Gusto,payroll,-19900.00,
+2025-12-02,Payment INV-0078,"Schultz residence, 7056 Main St",income,8800.00,SA-0078
+2025-12-02,Johnstone Supply for SA-0081,Johnstone Supply,materials,-111.75,SA-0081
+2025-12-02,Payment INV-0701,"Whitfield residence, 7598 Main St",income,149.00,SA-0701
+2025-12-02,Payment INV-0715,"Sorensen residence, 329 Main St",income,149.00,SA-0715
+2025-12-02,Payment INV-0867,"Iverson residence, 6230 Oak St",income,149.00,SA-0867
+2025-12-03,Johnstone Supply for SA-0082,Johnstone Supply,materials,-50.71,SA-0082
+2025-12-03,Johnstone Supply for SA-0083,Johnstone Supply,materials,-91.26,SA-0083
+2025-12-03,Johnstone Supply for SA-0084,Johnstone Supply,materials,-101.37,SA-0084
+2025-12-03,Fleet fuel,WEX Fleet Fuel,fuel,-638.60,
+2025-12-04,Payment INV-0080,"Tran residence, 1342 Troost Ave",income,710.00,SA-0080
+2025-12-04,Johnstone Supply for SA-0085,Johnstone Supply,materials,-119.02,SA-0085
+2025-12-04,Payment INV-0085,"Sorensen residence, 9674 State Line Rd",income,760.00,SA-0085
+2025-12-04,Johnstone Supply for SA-0086,Johnstone Supply,materials,-72.39,SA-0086
+2025-12-04,Johnstone Supply for SA-0087,Johnstone Supply,materials,-140.15,SA-0087
+2025-12-04,Payment INV-0087,"Ortiz residence, 4916 Oak St",income,640.00,SA-0087
+2025-12-05,Payment INV-0052,"Okafor residence, 7823 Wornall Rd",income,4800.00,SA-0052
+2025-12-05,Payment INV-0076,"Sorensen residence, 7739 Main St",income,350.00,SA-0076
+2025-12-05,Payment INV-0083,"Russo residence, 1907 Broadway Blvd",income,910.00,SA-0083
+2025-12-05,Johnstone Supply for SA-0088,Johnstone Supply,materials,-49.70,SA-0088
+2025-12-05,Payment INV-0088,"Delgado residence, 3676 Ward Pkwy",income,370.00,SA-0088
+2025-12-05,Johnstone Supply for SA-0089,Johnstone Supply,materials,-90.62,SA-0089
+2025-12-05,Johnstone Supply for SA-0090,Johnstone Supply,materials,-152.54,SA-0090
+2025-12-05,Ferguson HVAC for SA-0091,Ferguson HVAC,materials,-6948.84,SA-0091
+2025-12-05,KCMO Permits for SA-0091,KCMO Permits,permits,-185.00,SA-0091
+2025-12-05,Intuit QuickBooks,Intuit QuickBooks,software,-90.00,
+2025-12-06,Johnstone Supply for SA-0092,Johnstone Supply,materials,-117.41,SA-0092
+2025-12-06,Johnstone Supply for SA-0093,Johnstone Supply,materials,-44.68,SA-0093
+2025-12-06,Payment INV-0093,"Hughes residence, 8884 Brookside Blvd",income,280.00,SA-0093
+2025-12-06,Johnstone Supply for SA-0094,Johnstone Supply,materials,-101.58,SA-0094
+2025-12-06,Payment INV-0863,"Whitfield residence, 3632 Broadway Blvd",income,149.00,SA-0863
+2025-12-07,Payment INV-0090,"Okafor residence, 4836 Brookside Blvd",income,660.00,SA-0090
+2025-12-07,Payment INV-0094,"Abernathy residence, 6859 Gillham Rd",income,520.00,SA-0094
+2025-12-07,Payment INV-0739,"Price residence, 8369 Wornall Rd",income,149.00,SA-0739
+2025-12-08,Payment INV-0091,"Patel residence, 9754 Troost Ave",income,13800.00,SA-0091
+2025-12-08,Johnstone Supply for SA-0095,Johnstone Supply,materials,-39.24,SA-0095
+2025-12-08,Johnstone Supply for SA-0096,Johnstone Supply,materials,-98.04,SA-0096
+2025-12-08,Johnstone Supply for SA-0097,Johnstone Supply,materials,-90.23,SA-0097
+2025-12-08,Payment INV-0680,"Mendez residence, 8323 Gillham Rd",income,149.00,SA-0680
+2025-12-08,Payment INV-0705,"Sorensen residence, 3099 Troost Ave",income,149.00,SA-0705
+2025-12-09,Payment INV-0060,"Bauer residence, 1953 Main St",income,900.00,SA-0060
+2025-12-09,Johnstone Supply for SA-0098,Johnstone Supply,materials,-45.93,SA-0098
+2025-12-09,Ferguson HVAC for SA-0099,Ferguson HVAC,materials,-5490.61,SA-0099
+2025-12-09,KCMO Permits for SA-0099,KCMO Permits,permits,-185.00,SA-0099
+2025-12-09,Payment INV-0688,"Miller residence, 642 Brookside Blvd",income,149.00,SA-0688
+2025-12-10,Johnstone Supply for SA-0079,Johnstone Supply,materials,-149.15,SA-0079
+2025-12-10,Payment INV-0084,"Jensen residence, 5313 Main St",income,630.00,SA-0084
+2025-12-10,Payment INV-0098,"Moreau residence, 1298 Holmes Rd",income,250.00,SA-0098
+2025-12-10,Johnstone Supply for SA-0100,Johnstone Supply,materials,-156.47,SA-0100
+2025-12-10,Fleet fuel,WEX Fleet Fuel,fuel,-638.60,
+2025-12-11,Payment INV-0097,"Patel residence, 264 State Line Rd",income,450.00,SA-0097
+2025-12-11,Johnstone Supply for SA-0101,Johnstone Supply,materials,-205.40,SA-0101
+2025-12-11,Payment INV-0101,"Lindqvist residence, 4494 Gillham Rd",income,880.00,SA-0101
+2025-12-11,Johnstone Supply for SA-0102,Johnstone Supply,materials,-60.45,SA-0102
+2025-12-11,Ferguson HVAC for SA-0103,Ferguson HVAC,materials,-6439.69,SA-0103
+2025-12-11,KCMO Permits for SA-0103,KCMO Permits,permits,-185.00,SA-0103
+2025-12-12,Johnstone Supply for SA-0105,Johnstone Supply,materials,-108.92,SA-0105
+2025-12-12,Johnstone Supply for SA-0106,Johnstone Supply,materials,-120.16,SA-0106
+2025-12-12,Google Ads,Google Ads,marketing,-1500.00,
+2025-12-13,Payment INV-0092,"Tran residence, 9221 Gillham Rd",income,490.00,SA-0092
+2025-12-13,Payment INV-0095,"Kowalski residence, 7669 Oak St",income,320.00,SA-0095
+2025-12-13,Johnstone Supply for SA-0107,Johnstone Supply,materials,-72.60,SA-0107
+2025-12-13,Payment INV-0107,"Coleman residence, 8903 Main St",income,440.00,SA-0107
+2025-12-13,Johnstone Supply for SA-0108,Johnstone Supply,materials,-74.37,SA-0108
+2025-12-14,Payment INV-0068,"Hughes residence, 8863 Oak St",income,940.00,SA-0068
+2025-12-14,Payment INV-0069,"Tran residence, 6482 Oak St",income,820.00,SA-0069
+2025-12-14,Payment INV-0102,"Kim residence, 6889 Main St",income,410.00,SA-0102
+2025-12-15,Payment INV-0096,"Jensen residence, 4935 Ward Pkwy",income,760.00,SA-0096
+2025-12-15,Payment INV-0100,"Garza residence, 4801 Oak St",income,630.00,SA-0100
+2025-12-15,Johnstone Supply for SA-0109,Johnstone Supply,materials,-40.19,SA-0109
+2025-12-15,Payment INV-0673,"Ortiz residence, 2099 Gillham Rd",income,149.00,SA-0673
+2025-12-15,Payroll,Gusto,payroll,-19900.00,
+2025-12-16,Payment INV-0086,"Tran residence, 4213 Gillham Rd",income,470.00,SA-0086
+2025-12-16,Payment INV-0099,"Coleman residence, 4218 Broadway Blvd",income,11100.00,SA-0099
+2025-12-16,Johnstone Supply for SA-0110,Johnstone Supply,materials,-170.11,SA-0110
+2025-12-16,Johnstone Supply for SA-0111,Johnstone Supply,materials,-129.18,SA-0111
+2025-12-16,Johnstone Supply for SA-0112,Johnstone Supply,materials,-89.13,SA-0112
+2025-12-17,Payment INV-0105,"Iverson residence, 5577 Oak St",income,820.00,SA-0105
+2025-12-17,Payment INV-0106,"Bauer residence, 8105 Troost Ave",income,620.00,SA-0106
+2025-12-17,Johnstone Supply for SA-0113,Johnstone Supply,materials,-67.13,SA-0113
+2025-12-17,Johnstone Supply for SA-0114,Johnstone Supply,materials,-124.08,SA-0114
+2025-12-17,Johnstone Supply for SA-0115,Johnstone Supply,materials,-128.66,SA-0115
+2025-12-17,Fleet fuel,WEX Fleet Fuel,fuel,-638.60,
+2025-12-18,Payment INV-0108,"Bauer residence, 2487 Gillham Rd",income,630.00,SA-0108
+2025-12-18,Payment INV-0113,"Ortiz residence, 3287 Wornall Rd",income,600.00,SA-0113
+2025-12-18,Johnstone Supply for SA-0116,Johnstone Supply,materials,-102.43,SA-0116
+2025-12-18,Johnstone Supply for SA-0117,Johnstone Supply,materials,-159.47,SA-0117
+2025-12-18,Johnstone Supply for SA-0118,Johnstone Supply,materials,-87.53,SA-0118
+2025-12-18,Evergy,Evergy,utilities,-479.00,
+2025-12-19,Payment INV-0110,"Jensen residence, 5040 Brookside Blvd",income,800.00,SA-0110
+2025-12-19,Johnstone Supply for SA-0119,Johnstone Supply,materials,-35.12,SA-0119
+2025-12-19,Johnstone Supply for SA-0120,Johnstone Supply,materials,-187.25,SA-0120
+2025-12-19,Johnstone Supply for SA-0121,Johnstone Supply,materials,-42.95,SA-0121
+2025-12-19,Payment INV-0121,"Price residence, 360 Ward Pkwy",income,220.00,SA-0121
+2025-12-19,Ferguson HVAC for SA-0122,Ferguson HVAC,materials,-6190.85,SA-0122
+2025-12-19,KCMO Permits for SA-0122,KCMO Permits,permits,-185.00,SA-0122
+2025-12-20,Payment INV-0081,"Ellison residence, 3070 Oak St",income,810.00,SA-0081
+2025-12-20,Payment INV-0119,"Moreau residence, 2211 Wornall Rd",income,220.00,SA-0119
+2025-12-20,Johnstone Supply for SA-0123,Johnstone Supply,materials,-38.78,SA-0123
+2025-12-20,Payment INV-0123,"Ellison residence, 8350 Gillham Rd",income,190.00,SA-0123
+2025-12-20,Verizon Business,Verizon Business,utilities,-260.00,
+2025-12-21,Payment INV-0082,"Quinn residence, 9775 Gillham Rd",income,330.00,SA-0082
+2025-12-21,Payment INV-0111,"Moreau residence, 7186 Holmes Rd",income,810.00,SA-0111
+2025-12-21,Payment INV-0112,"Kowalski residence, 9877 Broadway Blvd",income,640.00,SA-0112
+2025-12-21,Payment INV-0116,"Whitfield residence, 6963 Main St",income,500.00,SA-0116
+2025-12-21,Payment INV-0118,"Iverson residence, 4526 Ward Pkwy",income,370.00,SA-0118
+2025-12-22,Payment INV-0122,"Nguyen residence, 7369 Ward Pkwy",income,12700.00,SA-0122
+2025-12-22,Ferguson HVAC for SA-0124,Ferguson HVAC,materials,-3841.53,SA-0124
+2025-12-22,KCMO Permits for SA-0124,KCMO Permits,permits,-185.00,SA-0124
+2025-12-22,Van service and tires,Firestone Complete Auto,vehicle,-1350.00,
+2025-12-23,Payment INV-0089,"Ortiz residence, 8942 Gillham Rd",income,450.00,SA-0089
+2025-12-23,Payment INV-0117,"Ellison residence, 2221 Holmes Rd",income,720.00,SA-0117
+2025-12-23,Ferguson HVAC for SA-0125,Ferguson HVAC,materials,-4335.08,SA-0125
+2025-12-23,KCMO Permits for SA-0125,KCMO Permits,permits,-185.00,SA-0125
+2025-12-24,Johnstone Supply for SA-0127,Johnstone Supply,materials,-106.04,SA-0127
+2025-12-24,Johnstone Supply for SA-0128,Johnstone Supply,materials,-33.78,SA-0128
+2025-12-24,Johnstone Supply for SA-0129,Johnstone Supply,materials,-109.43,SA-0129
+2025-12-24,Fleet fuel,WEX Fleet Fuel,fuel,-638.60,
+2025-12-25,Payment INV-0128,"Whitfield residence, 8273 Broadway Blvd",income,180.00,SA-0128
+2025-12-25,Payment INV-0129,"Ellison residence, 1206 Holmes Rd",income,630.00,SA-0129
+2025-12-25,Johnstone Supply for SA-0130,Johnstone Supply,materials,-113.92,SA-0130
+2025-12-25,Card processing fees,Stripe,bank_fees,-529.00,
+2025-12-26,Johnstone Supply for SA-0131,Johnstone Supply,materials,-65.31,SA-0131
+2025-12-27,Johnstone Supply for SA-0132,Johnstone Supply,materials,-36.23,SA-0132
+2025-12-27,Johnstone Supply for SA-0133,Johnstone Supply,materials,-37.54,SA-0133
+2025-12-27,Johnstone Supply for SA-0134,Johnstone Supply,materials,-176.59,SA-0134
+2025-12-27,Ferguson HVAC for SA-0135,Ferguson HVAC,materials,-5670.68,SA-0135
+2025-12-27,KCMO Permits for SA-0135,KCMO Permits,permits,-185.00,SA-0135
+2025-12-28,Johnstone Supply for SA-0104,Johnstone Supply,materials,-44.99,SA-0104
+2025-12-28,Payment INV-0130,"Nguyen residence, 2317 Broadway Blvd",income,600.00,SA-0130
+2025-12-28,Payment INV-0131,"Moreau residence, 5245 Ward Pkwy",income,410.00,SA-0131
+2025-12-28,Payment INV-0134,"Coleman residence, 2581 Oak St",income,950.00,SA-0134
+2025-12-29,Payment INV-0114,"Schultz residence, 5158 Broadway Blvd",income,730.00,SA-0114
+2025-12-29,Payment INV-0115,"Ortiz residence, 4854 Main St",income,910.00,SA-0115
+2025-12-29,Payment INV-0133,"Kim residence, 2044 Gillham Rd",income,240.00,SA-0133
+2025-12-29,Johnstone Supply for SA-0136,Johnstone Supply,materials,-122.71,SA-0136
+2025-12-29,Payment INV-0136,"Iverson residence, 9830 State Line Rd",income,780.00,SA-0136
+2025-12-29,Johnstone Supply for SA-0137,Johnstone Supply,materials,-136.11,SA-0137
+2025-12-29,Ferguson HVAC for SA-0138,Ferguson HVAC,materials,-6008.53,SA-0138
+2025-12-29,KCMO Permits for SA-0138,KCMO Permits,permits,-185.00,SA-0138
+2025-12-30,Payment INV-0135,"Hughes residence, 2635 Ward Pkwy",income,12200.00,SA-0135
+2025-12-30,Johnstone Supply for SA-0139,Johnstone Supply,materials,-108.25,SA-0139
+2025-12-30,Johnstone Supply for SA-0140,Johnstone Supply,materials,-30.29,SA-0140
+2025-12-30,Johnstone Supply for SA-0141,Johnstone Supply,materials,-94.74,SA-0141
+2025-12-30,Ferguson HVAC for SA-0142,Ferguson HVAC,materials,-7180.03,SA-0142
+2025-12-30,KCMO Permits for SA-0142,KCMO Permits,permits,-185.00,SA-0142
+2025-12-31,Payment INV-0103,"Haddad residence, 1575 Holmes Rd",income,13900.00,SA-0103
+2025-12-31,Payment INV-0141,"Coleman residence, 1097 Gillham Rd",income,920.00,SA-0141
+2025-12-31,Johnstone Supply for SA-0143,Johnstone Supply,materials,-39.82,SA-0143
+2025-12-31,Payment INV-0143,"Delgado residence, 6029 Main St",income,190.00,SA-0143
+2026-01-01,Payment INV-0140,"Ortiz residence, 9736 Troost Ave",income,240.00,SA-0140
+2026-01-01,Johnstone Supply for SA-0144,Johnstone Supply,materials,-91.51,SA-0144
+2026-01-01,Johnstone Supply for SA-0145,Johnstone Supply,materials,-64.08,SA-0145
+2026-01-01,Payment INV-0145,"Tran residence, 1291 Troost Ave",income,350.00,SA-0145
+2026-01-01,Johnstone Supply for SA-0146,Johnstone Supply,materials,-181.31,SA-0146
+2026-01-01,Ferguson HVAC for SA-0147,Ferguson HVAC,materials,-4344.76,SA-0147
+2026-01-01,KCMO Permits for SA-0147,KCMO Permits,permits,-185.00,SA-0147
+2026-01-01,Johnstone Supply for SA-0149,Johnstone Supply,materials,-2267.62,SA-0149
+2026-01-01,Holmes Rd Properties,Holmes Rd Properties,rent,-3200.00,
+2026-01-01,Acuity Insurance,Acuity Insurance,insurance,-1450.00,
+2026-01-01,ServiceTitan,ServiceTitan,software,-398.00,
+2026-01-01,Payroll,Gusto,payroll,-20100.00,
+2026-01-02,Payment INV-0109,"Delgado residence, 7639 Ward Pkwy",income,380.00,SA-0109
+2026-01-02,Johnstone Supply for SA-0150,Johnstone Supply,materials,-86.46,SA-0150
+2026-01-02,Johnstone Supply for SA-0151,Johnstone Supply,materials,-155.26,SA-0151
+2026-01-02,Johnstone Supply for SA-0152,Johnstone Supply,materials,-52.00,SA-0152
+2026-01-03,Payment INV-0137,"Abernathy residence, 9190 Gillham Rd",income,940.00,SA-0137
+2026-01-03,Payment INV-0142,"Coleman residence, 5578 Holmes Rd",income,14500.00,SA-0142
+2026-01-03,Payment INV-0151,"Patel residence, 3820 State Line Rd",income,740.00,SA-0151
+2026-01-03,Fleet fuel,WEX Fleet Fuel,fuel,-647.90,
+2026-01-04,Payment INV-0144,"Price residence, 7874 Main St",income,730.00,SA-0144
+2026-01-05,Payment INV-0127,"Okafor residence, 8475 Main St",income,490.00,SA-0127
+2026-01-05,Johnstone Supply for SA-0153,Johnstone Supply,materials,-64.18,SA-0153
+2026-01-05,Payment INV-0153,"Lindqvist residence, 4293 Brookside Blvd",income,390.00,SA-0153
+2026-01-05,Johnstone Supply for SA-0154,Johnstone Supply,materials,-151.05,SA-0154
+2026-01-05,Intuit QuickBooks,Intuit QuickBooks,software,-90.00,
+2026-01-06,Payment INV-0120,"Garza residence, 6166 Troost Ave",income,920.00,SA-0120
+2026-01-06,Payment INV-0125,"Lopez residence, 7359 Main St",income,9200.00,SA-0125
+2026-01-06,Payment INV-0146,"Hughes residence, 6758 Oak St",income,840.00,SA-0146
+2026-01-06,Payment INV-0149,"Nguyen residence, 1478 Wornall Rd",income,6100.00,SA-0149
+2026-01-06,Johnstone Supply for SA-0155,Johnstone Supply,materials,-45.83,SA-0155
+2026-01-06,Johnstone Supply for SA-0156,Johnstone Supply,materials,-72.39,SA-0156
+2026-01-06,Payment INV-0156,"Coleman residence, 6072 Gillham Rd",income,390.00,SA-0156
+2026-01-06,Johnstone Supply for SA-0157,Johnstone Supply,materials,-88.16,SA-0157
+2026-01-07,Payment INV-0138,"Kowalski residence, 2446 State Line Rd",income,13100.00,SA-0138
+2026-01-07,Payment INV-0157,"Jensen residence, 3705 Holmes Rd",income,500.00,SA-0157
+2026-01-08,Payment INV-0147,"Quinn residence, 510 Brookside Blvd",income,9800.00,SA-0147
+2026-01-08,Johnstone Supply for SA-0158,Johnstone Supply,materials,-50.71,SA-0158
+2026-01-10,Johnstone Supply for SA-0126,Johnstone Supply,materials,-186.56,SA-0126
+2026-01-10,Johnstone Supply for SA-0159,Johnstone Supply,materials,-117.05,SA-0159
+2026-01-10,Ferguson HVAC for SA-0160,Ferguson HVAC,materials,-3661.44,SA-0160
+2026-01-10,KCMO Permits for SA-0160,KCMO Permits,permits,-185.00,SA-0160
+2026-01-10,Fleet fuel,WEX Fleet Fuel,fuel,-647.90,
+2026-01-11,Payment INV-0124,"Miller residence, 3143 Ward Pkwy",income,8600.00,SA-0124
+2026-01-11,Johnstone Supply for SA-0148,Johnstone Supply,materials,-191.60,SA-0148
+2026-01-11,Payment INV-0155,"Garza residence, 3828 Troost Ave",income,230.00,SA-0155
+2026-01-12,Johnstone Supply for SA-0162,Johnstone Supply,materials,-99.48,SA-0162
+2026-01-12,Johnstone Supply for SA-0163,Johnstone Supply,materials,-86.30,SA-0163
+2026-01-12,Payment INV-0163,"Miller residence, 2984 Oak St",income,690.00,SA-0163
+2026-01-12,Johnstone Supply for SA-0164,Johnstone Supply,materials,-44.69,SA-0164
+2026-01-12,Google Ads,Google Ads,marketing,-1500.00,
+2026-01-13,Payment INV-0158,"Novak residence, 834 Holmes Rd",income,400.00,SA-0158
+2026-01-13,Payment INV-0160,"Schultz residence, 9482 Troost Ave",income,7100.00,SA-0160
+2026-01-14,Payment INV-0071,Crown Center Retail,income,14400.00,SA-0071
+2026-01-14,Payment INV-0132,"Price residence, 5286 Broadway Blvd",income,280.00,SA-0132
+2026-01-14,Johnstone Supply for SA-0165,Johnstone Supply,materials,-55.68,SA-0165
+2026-01-15,Johnstone Supply for SA-0166,Johnstone Supply,materials,-124.39,SA-0166
+2026-01-15,Payroll,Gusto,payroll,-20100.00,
+2026-01-16,Johnstone Supply for SA-0167,Johnstone Supply,materials,-100.08,SA-0167
+2026-01-16,Johnstone Supply for SA-0168,Johnstone Supply,materials,-76.83,SA-0168
+2026-01-16,Payment INV-0168,"Abernathy residence, 9528 Ward Pkwy",income,580.00,SA-0168
+2026-01-16,Johnstone Supply for SA-0169,Johnstone Supply,materials,-178.90,SA-0169
+2026-01-17,Payment INV-0139,"Novak residence, 2397 Gillham Rd",income,530.00,SA-0139
+2026-01-17,Payment INV-0154,"Garza residence, 8131 Wornall Rd",income,720.00,SA-0154
+2026-01-17,Payment INV-0167,"Mendez residence, 6557 Gillham Rd",income,510.00,SA-0167
+2026-01-17,Payment INV-0169,"Jensen residence, 6590 Oak St",income,740.00,SA-0169
+2026-01-17,Johnstone Supply for SA-0170,Johnstone Supply,materials,-194.59,SA-0170
+2026-01-17,Ferguson HVAC for SA-0171,Ferguson HVAC,materials,-6762.37,SA-0171
+2026-01-17,KCMO Permits for SA-0171,KCMO Permits,permits,-185.00,SA-0171
+2026-01-17,Fleet fuel,WEX Fleet Fuel,fuel,-647.90,
+2026-01-18,Evergy,Evergy,utilities,-449.00,
+2026-01-19,Payment INV-0171,"Hughes residence, 6227 Brookside Blvd",income,13700.00,SA-0171
+2026-01-19,Johnstone Supply for SA-0172,Johnstone Supply,materials,-74.24,SA-0172
+2026-01-19,Ferguson HVAC for SA-0173,Ferguson HVAC,materials,-6291.94,SA-0173
+2026-01-19,KCMO Permits for SA-0173,KCMO Permits,permits,-185.00,SA-0173
+2026-01-20,Payment INV-0150,"Abernathy residence, 388 Oak St",income,390.00,SA-0150
+2026-01-20,Payment INV-0152,"Delgado residence, 8654 Troost Ave",income,300.00,SA-0152
+2026-01-20,Payment INV-0166,"Sorensen residence, 9867 Brookside Blvd",income,870.00,SA-0166
+2026-01-20,Johnstone Supply for SA-0174,Johnstone Supply,materials,-105.45,SA-0174
+2026-01-20,Payment INV-0174,"Tran residence, 8835 Wornall Rd",income,500.00,SA-0174
+2026-01-20,Ferguson HVAC for SA-0175,Ferguson HVAC,materials,-5730.28,SA-0175
+2026-01-20,KCMO Permits for SA-0175,KCMO Permits,permits,-185.00,SA-0175
+2026-01-20,Verizon Business,Verizon Business,utilities,-260.00,
+2026-01-21,Payment INV-0165,"Ortiz residence, 7751 Gillham Rd",income,340.00,SA-0165
+2026-01-21,Payment INV-0173,"Kim residence, 5253 Ward Pkwy",income,12300.00,SA-0173
+2026-01-21,Johnstone Supply for SA-0177,Johnstone Supply,materials,-125.60,SA-0177
+2026-01-21,Payment INV-0177,"Novak residence, 3347 Gillham Rd",income,600.00,SA-0177
+2026-01-21,Johnstone Supply for SA-0178,Johnstone Supply,materials,-47.54,SA-0178
+2026-01-21,Payment INV-0178,"Hughes residence, 6996 Main St",income,430.00,SA-0178
+2026-01-21,Johnstone Supply for SA-0179,Johnstone Supply,materials,-105.33,SA-0179
+2026-01-21,Payment INV-0179,"Quinn residence, 5627 Wornall Rd",income,720.00,SA-0179
+2026-01-22,Payment INV-0175,"Price residence, 4757 Oak St",income,12300.00,SA-0175
+2026-01-22,Johnstone Supply for SA-0180,Johnstone Supply,materials,-72.10,SA-0180
+2026-01-23,Johnstone Supply for SA-0181,Johnstone Supply,materials,-176.17,SA-0181
+2026-01-23,Payment INV-0181,"Novak residence, 1185 Oak St",income,910.00,SA-0181
+2026-01-23,Johnstone Supply for SA-0182,Johnstone Supply,materials,-78.64,SA-0182
+2026-01-24,Payment INV-0162,"Nguyen residence, 209 Ward Pkwy",income,560.00,SA-0162
+2026-01-24,Payment INV-0172,"Bauer residence, 1697 Gillham Rd",income,560.00,SA-0172
+2026-01-24,Johnstone Supply for SA-0183,Johnstone Supply,materials,-90.87,SA-0183
+2026-01-24,Johnstone Supply for SA-0184,Johnstone Supply,materials,-57.00,SA-0184
+2026-01-24,Fleet fuel,WEX Fleet Fuel,fuel,-647.90,
+2026-01-25,Card processing fees,Stripe,bank_fees,-539.50,
+2026-01-26,Johnstone Supply for SA-0185,Johnstone Supply,materials,-105.57,SA-0185
+2026-01-27,Payment INV-0180,"Hughes residence, 2294 Main St",income,360.00,SA-0180
+2026-01-27,Payment INV-0183,"Ortiz residence, 1674 Troost Ave",income,610.00,SA-0183
+2026-01-27,Payment INV-0184,"Russo residence, 4450 Oak St",income,380.00,SA-0184
+2026-01-27,Johnstone Supply for SA-0186,Johnstone Supply,materials,-80.79,SA-0186
+2026-01-27,Johnstone Supply for SA-0187,Johnstone Supply,materials,-97.68,SA-0187
+2026-01-28,Payment INV-0159,"Coleman residence, 5898 Main St",income,560.00,SA-0159
+2026-01-28,Johnstone Supply for SA-0188,Johnstone Supply,materials,-73.44,SA-0188
+2026-01-29,Payment INV-0170,"Nguyen residence, 2916 Broadway Blvd",income,920.00,SA-0170
+2026-01-29,Payment INV-0185,"Quinn residence, 7265 Brookside Blvd",income,830.00,SA-0185
+2026-01-29,Johnstone Supply for SA-0189,Johnstone Supply,materials,-57.95,SA-0189
+2026-01-29,Johnstone Supply for SA-0190,Johnstone Supply,materials,-60.92,SA-0190
+2026-01-30,Payment INV-0164,"Patel residence, 7052 Broadway Blvd",income,180.00,SA-0164
+2026-01-31,Johnstone Supply for SA-0191,Johnstone Supply,materials,-154.97,SA-0191
+2026-01-31,Johnstone Supply for SA-0192,Johnstone Supply,materials,-104.34,SA-0192
+2026-01-31,Johnstone Supply for SA-0193,Johnstone Supply,materials,-40.25,SA-0193
+2026-02-01,Payment INV-0186,"Kim residence, 574 State Line Rd",income,720.00,SA-0186
+2026-02-01,Payment INV-0189,"Coleman residence, 9390 Main St",income,570.00,SA-0189
+2026-02-01,Holmes Rd Properties,Holmes Rd Properties,rent,-3200.00,
+2026-02-01,Acuity Insurance,Acuity Insurance,insurance,-1450.00,
+2026-02-01,ServiceTitan,ServiceTitan,software,-398.00,
+2026-02-01,Payroll,Gusto,payroll,-19500.00,
+2026-02-02,Johnstone Supply for SA-0194,Johnstone Supply,materials,-176.46,SA-0194
+2026-02-02,Johnstone Supply for SA-0195,Johnstone Supply,materials,-36.55,SA-0195
+2026-02-02,Johnstone Supply for SA-0196,Johnstone Supply,materials,-104.63,SA-0196
+2026-02-03,Johnstone Supply for SA-0161,Johnstone Supply,materials,-113.77,SA-0161
+2026-02-03,Johnstone Supply for SA-0176,Johnstone Supply,materials,-183.93,SA-0176
+2026-02-03,Payment INV-0187,"Miller residence, 6820 Broadway Blvd",income,790.00,SA-0187
+2026-02-03,Payment INV-0193,"Ortiz residence, 2502 Ward Pkwy",income,230.00,SA-0193
+2026-02-03,Johnstone Supply for SA-0197,Johnstone Supply,materials,-159.39,SA-0197
+2026-02-03,Johnstone Supply for SA-0198,Johnstone Supply,materials,-115.90,SA-0198
+2026-02-03,Fleet fuel,WEX Fleet Fuel,fuel,-620.00,
+2026-02-04,Payment INV-0182,"Whitfield residence, 4189 Main St",income,620.00,SA-0182
+2026-02-04,Payment INV-0198,"Ellison residence, 5652 Holmes Rd",income,730.00,SA-0198
+2026-02-05,Payment INV-0190,"Novak residence, 1206 Holmes Rd",income,570.00,SA-0190
+2026-02-05,Payment INV-0191,"Lopez residence, 1913 Oak St",income,740.00,SA-0191
+2026-02-05,Payment INV-0195,"Bauer residence, 6306 Oak St",income,210.00,SA-0195
+2026-02-05,Johnstone Supply for SA-0199,Johnstone Supply,materials,-37.00,SA-0199
+2026-02-05,Ferguson HVAC for SA-0200,Ferguson HVAC,materials,-5293.77,SA-0200
+2026-02-05,KCMO Permits for SA-0200,KCMO Permits,permits,-185.00,SA-0200
+2026-02-05,Intuit QuickBooks,Intuit QuickBooks,software,-90.00,
+2026-02-06,Johnstone Supply for SA-0201,Johnstone Supply,materials,-74.12,SA-0201
+2026-02-06,Johnstone Supply for SA-0202,Johnstone Supply,materials,-105.35,SA-0202
+2026-02-06,Payment INV-0202,"Brooks residence, 3603 Oak St",income,870.00,SA-0202
+2026-02-07,Payment INV-0192,"Nguyen residence, 8225 Brookside Blvd",income,510.00,SA-0192
+2026-02-07,Payment INV-0196,"Coleman residence, 2067 Gillham Rd",income,620.00,SA-0196
+2026-02-07,Johnstone Supply for SA-0203,Johnstone Supply,materials,-70.78,SA-0203
+2026-02-07,Johnstone Supply for SA-0204,Johnstone Supply,materials,-123.02,SA-0204
+2026-02-07,Johnstone Supply for SA-0205,Johnstone Supply,materials,-25.01,SA-0205
+2026-02-09,Payment INV-0188,"Sorensen residence, 1436 Wornall Rd",income,360.00,SA-0188
+2026-02-09,Johnstone Supply for SA-0206,Johnstone Supply,materials,-74.40,SA-0206
+2026-02-09,Payment INV-0206,"Schultz residence, 2944 Gillham Rd",income,540.00,SA-0206
+2026-02-09,Johnstone Supply for SA-0207,Johnstone Supply,materials,-42.82,SA-0207
+2026-02-09,Johnstone Supply for SA-0208,Johnstone Supply,materials,-206.49,SA-0208
+2026-02-10,Payment INV-0204,"Delgado residence, 6721 Troost Ave",income,570.00,SA-0204
+2026-02-10,Payment INV-0205,"Sorensen residence, 3301 Brookside Blvd",income,220.00,SA-0205
+2026-02-10,Payment INV-0207,"Okafor residence, 9461 Troost Ave",income,340.00,SA-0207
+2026-02-10,Johnstone Supply for SA-0209,Johnstone Supply,materials,-195.46,SA-0209
+2026-02-10,Johnstone Supply for SA-0210,Johnstone Supply,materials,-35.02,SA-0210
+2026-02-10,Johnstone Supply for SA-0211,Johnstone Supply,materials,-181.60,SA-0211
+2026-02-10,Fleet fuel,WEX Fleet Fuel,fuel,-620.00,
+2026-02-11,Payment INV-0208,"Price residence, 3464 Main St",income,920.00,SA-0208
+2026-02-11,Johnstone Supply for SA-0212,Johnstone Supply,materials,-72.28,SA-0212
+2026-02-11,Payment INV-0212,"Coleman residence, 5659 Oak St",income,470.00,SA-0212
+2026-02-11,Johnstone Supply for SA-0213,Johnstone Supply,materials,-97.67,SA-0213
+2026-02-12,Payment INV-0200,"Whitfield residence, 7576 State Line Rd",income,11600.00,SA-0200
+2026-02-12,Johnstone Supply for SA-0214,Johnstone Supply,materials,-95.46,SA-0214
+2026-02-12,Payment INV-0214,"Hughes residence, 8471 Holmes Rd",income,930.00,SA-0214
+2026-02-12,Google Ads,Google Ads,marketing,-1500.00,
+2026-02-13,Payment INV-0201,"Tran residence, 7882 Broadway Blvd",income,710.00,SA-0201
+2026-02-13,Payment INV-0209,"Nguyen residence, 4850 Broadway Blvd",income,890.00,SA-0209
+2026-02-13,Johnstone Supply for SA-0215,Johnstone Supply,materials,-92.68,SA-0215
+2026-02-13,Johnstone Supply for SA-0216,Johnstone Supply,materials,-41.53,SA-0216
+2026-02-13,Johnstone Supply for SA-0217,Johnstone Supply,materials,-106.39,SA-0217
+2026-02-14,Payment INV-0194,"Iverson residence, 6116 Gillham Rd",income,800.00,SA-0194
+2026-02-14,Johnstone Supply for SA-0218,Johnstone Supply,materials,-86.93,SA-0218
+2026-02-15,Payroll,Gusto,payroll,-19500.00,
+2026-02-16,Payment INV-0216,"Lopez residence, 2885 Brookside Blvd",income,200.00,SA-0216
+2026-02-16,Johnstone Supply for SA-0219,Johnstone Supply,materials,-157.36,SA-0219
+2026-02-16,Payment INV-0219,"Russo residence, 8262 Wornall Rd",income,790.00,SA-0219
+2026-02-16,Johnstone Supply for SA-0220,Johnstone Supply,materials,-179.60,SA-0220
+2026-02-17,Payment INV-0199,"Delgado residence, 2375 Ward Pkwy",income,200.00,SA-0199
+2026-02-17,Payment INV-0211,"Tran residence, 2552 Ward Pkwy",income,930.00,SA-0211
+2026-02-17,Payment INV-0220,"Abernathy residence, 5335 State Line Rd",income,920.00,SA-0220
+2026-02-17,Johnstone Supply for SA-0221,Johnstone Supply,materials,-53.27,SA-0221
+2026-02-17,Payment INV-0221,"Haddad residence, 1594 Holmes Rd",income,320.00,SA-0221
+2026-02-17,Fleet fuel,WEX Fleet Fuel,fuel,-620.00,
+2026-02-18,Payment INV-0213,"Patel residence, 894 State Line Rd",income,540.00,SA-0213
+2026-02-18,Johnstone Supply for SA-0222,Johnstone Supply,materials,-25.36,SA-0222
+2026-02-18,Payment INV-0222,"Bauer residence, 8648 Troost Ave",income,170.00,SA-0222
+2026-02-18,Johnstone Supply for SA-0223,Johnstone Supply,materials,-93.68,SA-0223
+2026-02-18,Johnstone Supply for SA-0224,Johnstone Supply,materials,-92.32,SA-0224
+2026-02-18,Evergy,Evergy,utilities,-458.00,
+2026-02-19,Payment INV-0203,"Whitfield residence, 2055 Main St",income,380.00,SA-0203
+2026-02-19,Ferguson HVAC for SA-0225,Ferguson HVAC,materials,-5634.42,SA-0225
+2026-02-19,KCMO Permits for SA-0225,KCMO Permits,permits,-185.00,SA-0225
+2026-02-20,Payment INV-0224,"Moreau residence, 3125 State Line Rd",income,620.00,SA-0224
+2026-02-20,Johnstone Supply for SA-0226,Johnstone Supply,materials,-58.96,SA-0226
+2026-02-20,Verizon Business,Verizon Business,utilities,-260.00,
+2026-02-21,Payment INV-0197,"Russo residence, 8770 Holmes Rd",income,920.00,SA-0197
+2026-02-22,Payment INV-0210,"Mendez residence, 5445 Oak St",income,220.00,SA-0210
+2026-02-23,Payment INV-0223,"Moreau residence, 3667 Gillham Rd",income,800.00,SA-0223
+2026-02-23,Payment INV-0226,"Moreau residence, 283 Wornall Rd",income,500.00,SA-0226
+2026-02-23,Johnstone Supply for SA-0227,Johnstone Supply,materials,-44.75,SA-0227
+2026-02-23,Johnstone Supply for SA-0228,Johnstone Supply,materials,-169.57,SA-0228
+2026-02-23,Payment INV-0228,"Lindqvist residence, 6766 Ward Pkwy",income,920.00,SA-0228
+2026-02-23,Johnstone Supply for SA-0229,Johnstone Supply,materials,-194.05,SA-0229
+2026-02-23,Ferguson HVAC for SA-0230,Ferguson HVAC,materials,-5636.43,SA-0230
+2026-02-23,KCMO Permits for SA-0230,KCMO Permits,permits,-185.00,SA-0230
+2026-02-24,Johnstone Supply for SA-0231,Johnstone Supply,materials,-49.13,SA-0231
+2026-02-24,Johnstone Supply for SA-0232,Johnstone Supply,materials,-155.65,SA-0232
+2026-02-24,Johnstone Supply for SA-0233,Johnstone Supply,materials,-142.24,SA-0233
+2026-02-24,Payment INV-0233,"Quinn residence, 2048 Gillham Rd",income,690.00,SA-0233
+2026-02-24,Ferguson HVAC for SA-0234,Ferguson HVAC,materials,-6192.01,SA-0234
+2026-02-24,KCMO Permits for SA-0234,KCMO Permits,permits,-185.00,SA-0234
+2026-02-24,Fleet fuel,WEX Fleet Fuel,fuel,-620.00,
+2026-02-25,Johnstone Supply for SA-0235,Johnstone Supply,materials,-130.41,SA-0235
+2026-02-25,Ferguson HVAC for SA-0236,Ferguson HVAC,materials,-5160.70,SA-0236
+2026-02-25,KCMO Permits for SA-0236,KCMO Permits,permits,-185.00,SA-0236
+2026-02-25,Card processing fees,Stripe,bank_fees,-486.00,
+2026-02-26,Payment INV-0218,"Miller residence, 7058 Main St",income,730.00,SA-0218
+2026-02-26,Payment INV-0234,"Whitfield residence, 9552 Troost Ave",income,13600.00,SA-0234
+2026-02-26,Johnstone Supply for SA-0238,Johnstone Supply,materials,-48.79,SA-0238
+2026-02-26,Payment INV-0238,"Bauer residence, 8875 Brookside Blvd",income,330.00,SA-0238
+2026-02-26,Johnstone Supply for SA-0239,Johnstone Supply,materials,-116.91,SA-0239
+2026-02-26,Johnstone Supply for SA-0240,Johnstone Supply,materials,-85.90,SA-0240
+2026-02-27,Payment INV-0230,"Sorensen residence, 7893 Ward Pkwy",income,11300.00,SA-0230
+2026-02-27,Payment INV-0231,"Coleman residence, 9858 Troost Ave",income,200.00,SA-0231
+2026-02-27,Payment INV-0235,"Kim residence, 1757 State Line Rd",income,750.00,SA-0235
+2026-02-27,Payment INV-0239,"Hughes residence, 5177 Broadway Blvd",income,750.00,SA-0239
+2026-02-27,Johnstone Supply for SA-0241,Johnstone Supply,materials,-26.10,SA-0241
+2026-02-27,Johnstone Supply for SA-0242,Johnstone Supply,materials,-104.18,SA-0242
+2026-02-27,Johnstone Supply for SA-0243,Johnstone Supply,materials,-183.74,SA-0243
+2026-02-27,Ferguson HVAC for SA-0244,Ferguson HVAC,materials,-5055.40,SA-0244
+2026-02-27,KCMO Permits for SA-0244,KCMO Permits,permits,-185.00,SA-0244
+2026-02-28,Payment INV-0225,"Sorensen residence, 7752 Holmes Rd",income,10900.00,SA-0225
+2026-02-28,Payment INV-0227,"Patel residence, 6589 State Line Rd",income,280.00,SA-0227
+2026-02-28,Payment INV-0241,"Schultz residence, 6977 Gillham Rd",income,230.00,SA-0241
+2026-02-28,Payment INV-0243,"Lindqvist residence, 6904 Ward Pkwy",income,760.00,SA-0243
+2026-02-28,Johnstone Supply for SA-0245,Johnstone Supply,materials,-149.59,SA-0245
+2026-02-28,Johnstone Supply for SA-0246,Johnstone Supply,materials,-150.34,SA-0246
+2026-03-01,Payment INV-0236,"Lopez residence, 3919 Troost Ave",income,10300.00,SA-0236
+2026-03-01,Payment INV-0240,"Ellison residence, 7985 Ward Pkwy",income,490.00,SA-0240
+2026-03-01,Johnstone Supply for SA-0889,Johnstone Supply,materials,-19.61,SA-0889
+2026-03-01,Holmes Rd Properties,Holmes Rd Properties,rent,-3200.00,
+2026-03-01,Acuity Insurance,Acuity Insurance,insurance,-1450.00,
+2026-03-01,ServiceTitan,ServiceTitan,software,-398.00,
+2026-03-01,Payroll,Gusto,payroll,-19500.00,
+2026-03-02,Payment INV-0246,"Abernathy residence, 8490 Wornall Rd",income,780.00,SA-0246
+2026-03-02,Johnstone Supply for SA-0247,Johnstone Supply,materials,-59.95,SA-0247
+2026-03-02,Payment INV-0247,"Coleman residence, 2734 Brookside Blvd",income,390.00,SA-0247
+2026-03-02,Johnstone Supply for SA-0248,Johnstone Supply,materials,-37.63,SA-0248
+2026-03-03,Payment INV-0215,"Brooks residence, 2877 Holmes Rd",income,520.00,SA-0215
+2026-03-03,Payment INV-0217,"Ellison residence, 9740 Oak St",income,800.00,SA-0217
+2026-03-03,Johnstone Supply for SA-0249,Johnstone Supply,materials,-40.87,SA-0249
+2026-03-03,Johnstone Supply for SA-0250,Johnstone Supply,materials,-49.63,SA-0250
+2026-03-03,Johnstone Supply for SA-0251,Johnstone Supply,materials,-179.34,SA-0251
+2026-03-03,Payment INV-0251,"Whitfield residence, 3630 State Line Rd",income,880.00,SA-0251
+2026-03-03,Johnstone Supply for SA-0822,Johnstone Supply,materials,-26.99,SA-0822
+2026-03-03,Payment INV-0889,"Tran residence, 9880 Wornall Rd",income,149.00,SA-0889
+2026-03-03,Fleet fuel,WEX Fleet Fuel,fuel,-545.60,
+2026-03-04,Payment INV-0249,"Garza residence, 8217 Wornall Rd",income,400.00,SA-0249
+2026-03-04,Johnstone Supply for SA-0252,Johnstone Supply,materials,-86.38,SA-0252
+2026-03-04,Johnstone Supply for SA-0636,Johnstone Supply,materials,-16.64,SA-0636
+2026-03-04,Johnstone Supply for SA-0764,Johnstone Supply,materials,-16.90,SA-0764
+2026-03-05,Payment INV-0250,"Abernathy residence, 7042 Ward Pkwy",income,300.00,SA-0250
+2026-03-05,Johnstone Supply for SA-0253,Johnstone Supply,materials,-117.18,SA-0253
+2026-03-05,Johnstone Supply for SA-0254,Johnstone Supply,materials,-28.64,SA-0254
+2026-03-05,Johnstone Supply for SA-0255,Johnstone Supply,materials,-82.21,SA-0255
+2026-03-05,Ferguson HVAC for SA-0256,Ferguson HVAC,materials,-7398.55,SA-0256
+2026-03-05,Midwest Crane & Rigging for SA-0256,Midwest Crane & Rigging,equipment,-1100.00,SA-0256
+2026-03-05,KCMO Permits for SA-0256,KCMO Permits,permits,-450.00,SA-0256
+2026-03-05,Payment INV-0636,"Kowalski residence, 8514 Main St",income,149.00,SA-0636
+2026-03-05,Intuit QuickBooks,Intuit QuickBooks,software,-90.00,
+2026-03-06,Payment INV-0255,"Lindqvist residence, 9060 Wornall Rd",income,690.00,SA-0255
+2026-03-06,Johnstone Supply for SA-0257,Johnstone Supply,materials,-84.31,SA-0257
+2026-03-06,Johnstone Supply for SA-0668,Johnstone Supply,materials,-13.82,SA-0668
+2026-03-06,Johnstone Supply for SA-0744,Johnstone Supply,materials,-25.25,SA-0744
+2026-03-06,Johnstone Supply for SA-0795,Johnstone Supply,materials,-17.14,SA-0795
+2026-03-06,Johnstone Supply for SA-0876,Johnstone Supply,materials,-18.67,SA-0876
+2026-03-06,Payment INV-0876,"Kowalski residence, 2104 Wornall Rd",income,149.00,SA-0876
+2026-03-07,Payment INV-0257,"Russo residence, 3502 Oak St",income,380.00,SA-0257
+2026-03-07,Johnstone Supply for SA-0258,Johnstone Supply,materials,-52.47,SA-0258
+2026-03-07,Payment INV-0258,"Quinn residence, 1746 Troost Ave",income,470.00,SA-0258
+2026-03-07,Johnstone Supply for SA-0259,Johnstone Supply,materials,-79.90,SA-0259
+2026-03-07,Ferguson HVAC for SA-0260,Ferguson HVAC,materials,-7018.30,SA-0260
+2026-03-07,Midwest Crane & Rigging for SA-0260,Midwest Crane & Rigging,equipment,-1100.00,SA-0260
+2026-03-07,KCMO Permits for SA-0260,KCMO Permits,permits,-450.00,SA-0260
+2026-03-07,Johnstone Supply for SA-0718,Johnstone Supply,materials,-17.76,SA-0718
+2026-03-08,Payment INV-0244,"Sorensen residence, 9880 Gillham Rd",income,9800.00,SA-0244
+2026-03-08,Payment INV-0254,"Moreau residence, 8378 Gillham Rd",income,190.00,SA-0254
+2026-03-08,Johnstone Supply for SA-0672,Johnstone Supply,materials,-25.90,SA-0672
+2026-03-08,Johnstone Supply for SA-0695,Johnstone Supply,materials,-25.19,SA-0695
+2026-03-08,Payment INV-0695,"Jensen residence, 8055 Gillham Rd",income,149.00,SA-0695
+2026-03-09,Johnstone Supply for SA-0261,Johnstone Supply,materials,-58.43,SA-0261
+2026-03-09,Payment INV-0261,"Ellison residence, 8825 Gillham Rd",income,520.00,SA-0261
+2026-03-09,Johnstone Supply for SA-0262,Johnstone Supply,materials,-58.65,SA-0262
+2026-03-09,Johnstone Supply for SA-0263,Johnstone Supply,materials,-56.11,SA-0263
+2026-03-09,Payment INV-0668,"Jensen residence, 7135 Gillham Rd",income,149.00,SA-0668
+2026-03-09,Johnstone Supply for SA-0702,Johnstone Supply,materials,-12.51,SA-0702
+2026-03-09,Payment INV-0702,"Sorensen residence, 8540 Wornall Rd",income,149.00,SA-0702
+2026-03-09,Payment INV-0744,"Coleman residence, 2533 Oak St",income,149.00,SA-0744
+2026-03-09,Johnstone Supply for SA-0887,Johnstone Supply,materials,-24.20,SA-0887
+2026-03-10,Johnstone Supply for SA-0264,Johnstone Supply,materials,-84.00,SA-0264
+2026-03-10,Johnstone Supply for SA-0265,Johnstone Supply,materials,-164.69,SA-0265
+2026-03-10,Johnstone Supply for SA-0266,Johnstone Supply,materials,-89.07,SA-0266
+2026-03-10,Payment INV-0266,"Delgado residence, 7366 Troost Ave",income,850.00,SA-0266
+2026-03-10,Johnstone Supply for SA-0779,Johnstone Supply,materials,-23.15,SA-0779
+2026-03-10,Fleet fuel,WEX Fleet Fuel,fuel,-545.60,
+2026-03-11,Payment INV-0242,"Tran residence, 5831 State Line Rd",income,700.00,SA-0242
+2026-03-11,Payment INV-0262,"Okafor residence, 2303 Holmes Rd",income,560.00,SA-0262
+2026-03-11,Payment INV-0263,"Mendez residence, 4486 Gillham Rd",income,500.00,SA-0263
+2026-03-11,Johnstone Supply for SA-0621,Johnstone Supply,materials,-24.38,SA-0621
+2026-03-11,Johnstone Supply for SA-0645,Johnstone Supply,materials,-20.43,SA-0645
+2026-03-11,Payment INV-0645,"Miller residence, 6143 State Line Rd",income,149.00,SA-0645
+2026-03-11,Johnstone Supply for SA-0647,Johnstone Supply,materials,-23.95,SA-0647
+2026-03-11,Payment INV-0647,"Sorensen residence, 7017 Main St",income,149.00,SA-0647
+2026-03-11,Johnstone Supply for SA-0689,Johnstone Supply,materials,-22.54,SA-0689
+2026-03-11,Johnstone Supply for SA-0834,Johnstone Supply,materials,-26.03,SA-0834
+2026-03-12,Payment INV-0264,"Hughes residence, 2920 Ward Pkwy",income,550.00,SA-0264
+2026-03-12,Johnstone Supply for SA-0267,Johnstone Supply,materials,-76.47,SA-0267
+2026-03-12,Johnstone Supply for SA-0268,Johnstone Supply,materials,-88.76,SA-0268
+2026-03-12,Johnstone Supply for SA-0269,Johnstone Supply,materials,-30.26,SA-0269
+2026-03-12,Payment INV-0269,"Price residence, 7070 State Line Rd",income,220.00,SA-0269
+2026-03-12,Johnstone Supply for SA-0742,Johnstone Supply,materials,-19.14,SA-0742
+2026-03-12,Payment INV-0779,"Hughes residence, 8782 Holmes Rd",income,149.00,SA-0779
+2026-03-12,Payment INV-0834,"Iverson residence, 1090 State Line Rd",income,149.00,SA-0834
+2026-03-12,Google Ads,Google Ads,marketing,-2400.00,
+2026-03-13,Payment INV-0229,"Kowalski residence, 5791 Oak St",income,900.00,SA-0229
+2026-03-13,Johnstone Supply for SA-0237,Johnstone Supply,materials,-111.00,SA-0237
+2026-03-13,Payment INV-0265,"Patel residence, 6671 Main St",income,900.00,SA-0265
+2026-03-13,Johnstone Supply for SA-0270,Johnstone Supply,materials,-58.87,SA-0270
+2026-03-13,Johnstone Supply for SA-0707,Johnstone Supply,materials,-15.38,SA-0707
+2026-03-13,Johnstone Supply for SA-0714,Johnstone Supply,materials,-13.46,SA-0714
+2026-03-14,Payment INV-0232,"Garza residence, 7523 Oak St",income,890.00,SA-0232
+2026-03-14,Johnstone Supply for SA-0271,Johnstone Supply,materials,-65.25,SA-0271
+2026-03-14,Ferguson HVAC for SA-0272,Ferguson HVAC,materials,-3754.64,SA-0272
+2026-03-14,KCMO Permits for SA-0272,KCMO Permits,permits,-185.00,SA-0272
+2026-03-14,Johnstone Supply for SA-0649,Johnstone Supply,materials,-13.62,SA-0649
+2026-03-14,Payment INV-0714,"Sorensen residence, 329 Main St",income,149.00,SA-0714
+2026-03-14,Johnstone Supply for SA-0726,Johnstone Supply,materials,-18.42,SA-0726
+2026-03-14,Johnstone Supply for SA-0749,Johnstone Supply,materials,-25.47,SA-0749
+2026-03-15,Payment INV-0672,"Ortiz residence, 2099 Gillham Rd",income,149.00,SA-0672
+2026-03-15,Payroll,Gusto,payroll,-19500.00,
+2026-03-16,Payment INV-0252,"Kowalski residence, 3949 Gillham Rd",income,810.00,SA-0252
+2026-03-16,Johnstone Supply for SA-0273,Johnstone Supply,materials,-91.90,SA-0273
+2026-03-16,Johnstone Supply for SA-0274,Johnstone Supply,materials,-185.80,SA-0274
+2026-03-16,Ferguson HVAC for SA-0275,Ferguson HVAC,materials,-6196.99,SA-0275
+2026-03-16,KCMO Permits for SA-0275,KCMO Permits,permits,-185.00,SA-0275
+2026-03-16,Payment INV-0707,"Hughes residence, 4465 Gillham Rd",income,149.00,SA-0707
+2026-03-16,Johnstone Supply for SA-0763,Johnstone Supply,materials,-14.86,SA-0763
+2026-03-16,Payment INV-0763,"Sorensen residence, 9465 Broadway Blvd",income,149.00,SA-0763
+2026-03-16,Payment INV-0764,"Mendez residence, 2897 Brookside Blvd",income,149.00,SA-0764
+2026-03-16,Payment INV-0887,"Okafor residence, 2159 Oak St",income,149.00,SA-0887
+2026-03-17,Payment INV-0253,"Jensen residence, 3054 Wornall Rd",income,920.00,SA-0253
+2026-03-17,Payment INV-0267,"Whitfield residence, 9349 Holmes Rd",income,420.00,SA-0267
+2026-03-17,Payment INV-0272,"Garza residence, 3137 Wornall Rd",income,8100.00,SA-0272
+2026-03-17,Johnstone Supply for SA-0684,Johnstone Supply,materials,-17.64,SA-0684
+2026-03-17,Payment INV-0726,"Miller residence, 5235 Broadway Blvd",income,149.00,SA-0726
+2026-03-17,Johnstone Supply for SA-0807,Johnstone Supply,materials,-13.67,SA-0807
+2026-03-17,Fleet fuel,WEX Fleet Fuel,fuel,-545.60,
+2026-03-18,Payment INV-0245,"Abernathy residence, 8020 Holmes Rd",income,910.00,SA-0245
+2026-03-18,Payment INV-0270,"Price residence, 2935 Ward Pkwy",income,470.00,SA-0270
+2026-03-18,Payment INV-0275,"Okafor residence, 5667 State Line Rd",income,13300.00,SA-0275
+2026-03-18,Johnstone Supply for SA-0276,Johnstone Supply,materials,-28.97,SA-0276
+2026-03-18,Payment INV-0621,"Sorensen residence, 4031 Ward Pkwy",income,149.00,SA-0621
+2026-03-18,Johnstone Supply for SA-0623,Johnstone Supply,materials,-27.74,SA-0623
+2026-03-18,Payment INV-0623,"Garza residence, 1422 Main St",income,149.00,SA-0623
+2026-03-18,Payment INV-0684,"Delgado residence, 4923 Wornall Rd",income,149.00,SA-0684
+2026-03-18,Payment INV-0689,"Hughes residence, 9885 Gillham Rd",income,149.00,SA-0689
+2026-03-18,Johnstone Supply for SA-0755,Johnstone Supply,materials,-16.07,SA-0755
+2026-03-18,Johnstone Supply for SA-0791,Johnstone Supply,materials,-20.26,SA-0791
+2026-03-18,Payment INV-0795,"Sorensen residence, 2999 State Line Rd",income,149.00,SA-0795
+2026-03-18,Johnstone Supply for SA-0840,Johnstone Supply,materials,-25.88,SA-0840
+2026-03-18,Payment INV-0840,"Abernathy residence, 1147 Wornall Rd",income,149.00,SA-0840
+2026-03-18,Evergy,Evergy,utilities,-442.00,
+2026-03-19,Payment INV-0271,"Coleman residence, 3182 Holmes Rd",income,540.00,SA-0271
+2026-03-19,Johnstone Supply for SA-0277,Johnstone Supply,materials,-37.07,SA-0277
+2026-03-19,Johnstone Supply for SA-0278,Johnstone Supply,materials,-98.71,SA-0278
+2026-03-19,Payment INV-0278,"Jensen residence, 4282 Main St",income,660.00,SA-0278
+2026-03-19,Payment INV-0718,"Moreau residence, 1460 Broadway Blvd",income,149.00,SA-0718
+2026-03-19,Payment INV-0742,"Quinn residence, 2317 Broadway Blvd",income,149.00,SA-0742
+2026-03-19,Payment INV-0755,"Quinn residence, 522 Ward Pkwy",income,149.00,SA-0755
+2026-03-19,Johnstone Supply for SA-0770,Johnstone Supply,materials,-12.98,SA-0770
+2026-03-19,Payment INV-0770,"Moreau residence, 6639 Ward Pkwy",income,149.00,SA-0770
+2026-03-19,Johnstone Supply for SA-0781,Johnstone Supply,materials,-22.54,SA-0781
+2026-03-19,Johnstone Supply for SA-0799,Johnstone Supply,materials,-16.54,SA-0799
+2026-03-20,Payment INV-0248,"Nguyen residence, 9130 Wornall Rd",income,360.00,SA-0248
+2026-03-20,Johnstone Supply for SA-0279,Johnstone Supply,materials,-109.70,SA-0279
+2026-03-20,Payment INV-0279,"Abernathy residence, 5045 Holmes Rd",income,750.00,SA-0279
+2026-03-20,Johnstone Supply for SA-0280,Johnstone Supply,materials,-96.90,SA-0280
+2026-03-20,Johnstone Supply for SA-0753,Johnstone Supply,materials,-14.43,SA-0753
+2026-03-20,Johnstone Supply for SA-0756,Johnstone Supply,materials,-26.43,SA-0756
+2026-03-20,Verizon Business,Verizon Business,utilities,-260.00,
+2026-03-21,Johnstone Supply for SA-0281,Johnstone Supply,materials,-99.56,SA-0281
+2026-03-21,Johnstone Supply for SA-0282,Johnstone Supply,materials,-48.28,SA-0282
+2026-03-21,Payment INV-0282,"Price residence, 3913 State Line Rd",income,440.00,SA-0282
+2026-03-21,Johnstone Supply for SA-0793,Johnstone Supply,materials,-14.82,SA-0793
+2026-03-21,Payment INV-0793,"Bauer residence, 6911 Wornall Rd",income,149.00,SA-0793
+2026-03-21,Payment INV-0822,"Jensen residence, 4695 Oak St",income,149.00,SA-0822
+2026-03-22,Johnstone Supply for SA-0660,Johnstone Supply,materials,-20.55,SA-0660
+2026-03-22,Payment INV-0756,"Ellison residence, 7899 State Line Rd",income,149.00,SA-0756
+2026-03-22,Johnstone Supply for SA-0785,Johnstone Supply,materials,-26.58,SA-0785
+2026-03-22,Johnstone Supply for SA-0853,Johnstone Supply,materials,-20.93,SA-0853
+2026-03-23,Payment INV-0274,"Mendez residence, 5545 Gillham Rd",income,870.00,SA-0274
+2026-03-23,Payment INV-0280,"Abernathy residence, 154 Gillham Rd",income,880.00,SA-0280
+2026-03-23,Johnstone Supply for SA-0711,Johnstone Supply,materials,-18.32,SA-0711
+2026-03-23,Payment INV-0785,"Kim residence, 7069 Oak St",income,149.00,SA-0785
+2026-03-24,Payment INV-0268,"Kowalski residence, 883 Main St",income,550.00,SA-0268
+2026-03-24,Payment INV-0277,"Quinn residence, 6556 Oak St",income,260.00,SA-0277
+2026-03-24,Payment INV-0711,"Kowalski residence, 6838 Brookside Blvd",income,149.00,SA-0711
+2026-03-24,Fleet fuel,WEX Fleet Fuel,fuel,-545.60,
+2026-03-25,Payment INV-0259,"Okafor residence, 3963 State Line Rd",income,560.00,SA-0259
+2026-03-25,Payment INV-0276,"Whitfield residence, 6807 Gillham Rd",income,250.00,SA-0276
+2026-03-25,Johnstone Supply for SA-0283,Johnstone Supply,materials,-46.57,SA-0283
+2026-03-25,Payment INV-0791,"Brooks residence, 4416 Gillham Rd",income,149.00,SA-0791
+2026-03-25,Card processing fees,Stripe,bank_fees,-289.00,
+2026-03-26,Johnstone Supply for SA-0284,Johnstone Supply,materials,-47.96,SA-0284
+2026-03-26,Johnstone Supply for SA-0285,Johnstone Supply,materials,-40.68,SA-0285
+2026-03-26,Payment INV-0649,"Coleman residence, 9696 Oak St",income,149.00,SA-0649
+2026-03-26,Payment INV-0781,"Mendez residence, 8568 Brookside Blvd",income,149.00,SA-0781
+2026-03-26,Payment INV-0799,"Nguyen residence, 8738 Oak St",income,149.00,SA-0799
+2026-03-26,Johnstone Supply for SA-0894,Johnstone Supply,materials,-24.86,SA-0894
+2026-03-27,Payment INV-0283,"Russo residence, 9603 Gillham Rd",income,450.00,SA-0283
+2026-03-27,Ferguson HVAC for SA-0286,Ferguson HVAC,materials,-3724.19,SA-0286
+2026-03-27,KCMO Permits for SA-0286,KCMO Permits,permits,-185.00,SA-0286
+2026-03-27,Johnstone Supply for SA-0838,Johnstone Supply,materials,-12.74,SA-0838
+2026-03-27,Payment INV-0838,"Ellison residence, 5237 Wornall Rd",income,149.00,SA-0838
+2026-03-28,Johnstone Supply for SA-0287,Johnstone Supply,materials,-39.38,SA-0287
+2026-03-28,Johnstone Supply for SA-0288,Johnstone Supply,materials,-98.66,SA-0288
+2026-03-28,Payment INV-0894,"Coleman residence, 6279 Holmes Rd",income,149.00,SA-0894
+2026-03-29,Payment INV-0286,"Lindqvist residence, 5057 State Line Rd",income,7800.00,SA-0286
+2026-03-29,Payment INV-0660,"Quinn residence, 7951 Oak St",income,149.00,SA-0660
+2026-03-30,Payment INV-0288,"Nguyen residence, 8660 Troost Ave",income,660.00,SA-0288
+2026-03-30,Johnstone Supply for SA-0289,Johnstone Supply,materials,-64.19,SA-0289
+2026-03-30,Johnstone Supply for SA-0290,Johnstone Supply,materials,-133.75,SA-0290
+2026-03-31,Payment INV-0284,"Nguyen residence, 1671 Ward Pkwy",income,210.00,SA-0284
+2026-03-31,Payment INV-0287,"Abernathy residence, 598 Ward Pkwy",income,240.00,SA-0287
+2026-04-01,Johnstone Supply for SA-0291,Johnstone Supply,materials,-203.13,SA-0291
+2026-04-01,Payment INV-0291,"Novak residence, 8036 State Line Rd",income,820.00,SA-0291
+2026-04-01,Johnstone Supply for SA-0292,Johnstone Supply,materials,-50.37,SA-0292
+2026-04-01,Johnstone Supply for SA-0293,Johnstone Supply,materials,-89.08,SA-0293
+2026-04-01,Johnstone Supply for SA-0720,Johnstone Supply,materials,-17.85,SA-0720
+2026-04-01,Johnstone Supply for SA-0724,Johnstone Supply,materials,-14.64,SA-0724
+2026-04-01,Payment INV-0749,"Miller residence, 1838 Troost Ave",income,149.00,SA-0749
+2026-04-01,Payment INV-0753,"Novak residence, 5785 State Line Rd",income,149.00,SA-0753
+2026-04-01,Johnstone Supply for SA-0789,Johnstone Supply,materials,-19.86,SA-0789
+2026-04-01,Johnstone Supply for SA-0825,Johnstone Supply,materials,-17.87,SA-0825
+2026-04-01,Holmes Rd Properties,Holmes Rd Properties,rent,-3200.00,
+2026-04-01,Acuity Insurance,Acuity Insurance,insurance,-1450.00,
+2026-04-01,ServiceTitan,ServiceTitan,software,-398.00,
+2026-04-01,Payroll,Gusto,payroll,-19500.00,
+2026-04-02,Johnstone Supply for SA-0294,Johnstone Supply,materials,-54.98,SA-0294
+2026-04-02,Payment INV-0720,"Mendez residence, 3357 Holmes Rd",income,149.00,SA-0720
+2026-04-02,Johnstone Supply for SA-0774,Johnstone Supply,materials,-17.34,SA-0774
+2026-04-02,Payment INV-0774,"Hughes residence, 9025 Ward Pkwy",income,149.00,SA-0774
+2026-04-02,Johnstone Supply for SA-0879,Johnstone Supply,materials,-24.78,SA-0879
+2026-04-03,Payment INV-0273,"Kowalski residence, 7833 Brookside Blvd",income,900.00,SA-0273
+2026-04-03,Johnstone Supply for SA-0295,Johnstone Supply,materials,-33.06,SA-0295
+2026-04-03,Johnstone Supply for SA-0296,Johnstone Supply,materials,-208.46,SA-0296
+2026-04-03,Johnstone Supply for SA-0297,Johnstone Supply,materials,-171.92,SA-0297
+2026-04-03,Johnstone Supply for SA-0783,Johnstone Supply,materials,-12.80,SA-0783
+2026-04-03,Payment INV-0853,"Russo residence, 2115 Main St",income,149.00,SA-0853
+2026-04-03,Fleet fuel,WEX Fleet Fuel,fuel,-536.30,
+2026-04-04,Payment INV-0292,"Novak residence, 9105 Holmes Rd",income,210.00,SA-0292
+2026-04-04,Payment INV-0294,"Mendez residence, 380 State Line Rd",income,380.00,SA-0294
+2026-04-04,Payment INV-0295,"Delgado residence, 4563 Ward Pkwy",income,220.00,SA-0295
+2026-04-04,Johnstone Supply for SA-0298,Johnstone Supply,materials,-119.49,SA-0298
+2026-04-04,Johnstone Supply for SA-0299,Johnstone Supply,materials,-78.38,SA-0299
+2026-04-04,Ferguson HVAC for SA-0300,Ferguson HVAC,materials,-3684.56,SA-0300
+2026-04-04,KCMO Permits for SA-0300,KCMO Permits,permits,-185.00,SA-0300
+2026-04-04,Johnstone Supply for SA-0618,Johnstone Supply,materials,-15.16,SA-0618
+2026-04-04,Payment INV-0807,"Miller residence, 1625 Gillham Rd",income,149.00,SA-0807
+2026-04-04,Payment INV-0825,"Abernathy residence, 4928 Broadway Blvd",income,149.00,SA-0825
+2026-04-05,Payment INV-0783,"Brooks residence, 3147 Troost Ave",income,149.00,SA-0783
+2026-04-05,Johnstone Supply for SA-0830,Johnstone Supply,materials,-25.41,SA-0830
+2026-04-05,Intuit QuickBooks,Intuit QuickBooks,software,-90.00,
+2026-04-06,Payment INV-0289,"Novak residence, 4457 Broadway Blvd",income,330.00,SA-0289
+2026-04-06,Payment INV-0297,"Ortiz residence, 1101 Holmes Rd",income,750.00,SA-0297
+2026-04-06,Johnstone Supply for SA-0301,Johnstone Supply,materials,-41.18,SA-0301
+2026-04-06,Johnstone Supply for SA-0302,Johnstone Supply,materials,-93.57,SA-0302
+2026-04-06,Johnstone Supply for SA-0687,Johnstone Supply,materials,-13.48,SA-0687
+2026-04-06,Johnstone Supply for SA-0732,Johnstone Supply,materials,-12.02,SA-0732
+2026-04-06,Johnstone Supply for SA-0877,Johnstone Supply,materials,-13.36,SA-0877
+2026-04-07,Payment INV-0285,"Miller residence, 298 Main St",income,200.00,SA-0285
+2026-04-07,Johnstone Supply for SA-0303,Johnstone Supply,materials,-109.46,SA-0303
+2026-04-07,Johnstone Supply for SA-0304,Johnstone Supply,materials,-106.27,SA-0304
+2026-04-08,Payment INV-0281,"Russo residence, 603 Wornall Rd",income,910.00,SA-0281
+2026-04-08,Payment INV-0300,"Patel residence, 7306 Ward Pkwy",income,7900.00,SA-0300
+2026-04-08,Payment INV-0303,"Ortiz residence, 705 Brookside Blvd",income,630.00,SA-0303
+2026-04-08,Johnstone Supply for SA-0305,Johnstone Supply,materials,-64.14,SA-0305
+2026-04-08,Johnstone Supply for SA-0306,Johnstone Supply,materials,-159.76,SA-0306
+2026-04-08,Johnstone Supply for SA-0307,Johnstone Supply,materials,-215.31,SA-0307
+2026-04-08,Ferguson HVAC for SA-0308,Ferguson HVAC,materials,-4633.78,SA-0308
+2026-04-08,KCMO Permits for SA-0308,KCMO Permits,permits,-185.00,SA-0308
+2026-04-08,Johnstone Supply for SA-0700,Johnstone Supply,materials,-17.50,SA-0700
+2026-04-08,Payment INV-0724,"Kim residence, 5953 Brookside Blvd",income,149.00,SA-0724
+2026-04-08,Payment INV-0877,"Lopez residence, 6926 State Line Rd",income,149.00,SA-0877
+2026-04-09,Payment INV-0298,"Whitfield residence, 7607 Brookside Blvd",income,910.00,SA-0298
+2026-04-09,Payment INV-0299,"Quinn residence, 1953 Troost Ave",income,500.00,SA-0299
+2026-04-09,Johnstone Supply for SA-0630,Johnstone Supply,materials,-19.00,SA-0630
+2026-04-09,Payment INV-0732,"Moreau residence, 3752 Gillham Rd",income,149.00,SA-0732
+2026-04-09,Payment INV-0879,"Abernathy residence, 432 Oak St",income,149.00,SA-0879
+2026-04-10,Payment INV-0296,"Moreau residence, 544 Oak St",income,860.00,SA-0296
+2026-04-10,Payment INV-0307,"Garza residence, 3312 Brookside Blvd",income,930.00,SA-0307
+2026-04-10,Johnstone Supply for SA-0309,Johnstone Supply,materials,-44.69,SA-0309
+2026-04-10,Johnstone Supply for SA-0616,Johnstone Supply,materials,-26.21,SA-0616
+2026-04-10,Johnstone Supply for SA-0859,Johnstone Supply,materials,-18.85,SA-0859
+2026-04-10,Fleet fuel,WEX Fleet Fuel,fuel,-536.30,
+2026-04-11,Payment INV-0290,"Bauer residence, 9498 Broadway Blvd",income,690.00,SA-0290
+2026-04-11,Payment INV-0302,"Moreau residence, 3624 Wornall Rd",income,420.00,SA-0302
+2026-04-11,Johnstone Supply for SA-0310,Johnstone Supply,materials,-51.13,SA-0310
+2026-04-11,Johnstone Supply for SA-0311,Johnstone Supply,materials,-95.63,SA-0311
+2026-04-11,Payment INV-0618,"Novak residence, 8142 Broadway Blvd",income,149.00,SA-0618
+2026-04-11,Johnstone Supply for SA-0708,Johnstone Supply,materials,-12.48,SA-0708
+2026-04-11,Johnstone Supply for SA-0885,Johnstone Supply,materials,-22.32,SA-0885
+2026-04-11,Payment INV-0885,"Garza residence, 2110 Main St",income,149.00,SA-0885
+2026-04-12,Johnstone Supply for SA-0639,Johnstone Supply,materials,-25.89,SA-0639
+2026-04-12,Johnstone Supply for SA-0674,Johnstone Supply,materials,-22.64,SA-0674
+2026-04-12,Johnstone Supply for SA-0797,Johnstone Supply,materials,-24.19,SA-0797
+2026-04-12,Google Ads,Google Ads,marketing,-2400.00,
+2026-04-13,Payment INV-0293,"Schultz residence, 5503 Brookside Blvd",income,380.00,SA-0293
+2026-04-13,Payment INV-0301,"Coleman residence, 5200 Oak St",income,320.00,SA-0301
+2026-04-13,Payment INV-0305,"Nguyen residence, 9059 Oak St",income,370.00,SA-0305
+2026-04-13,Payment INV-0306,"Mendez residence, 2343 Oak St",income,670.00,SA-0306
+2026-04-13,Johnstone Supply for SA-0312,Johnstone Supply,materials,-98.99,SA-0312
+2026-04-13,Johnstone Supply for SA-0655,Johnstone Supply,materials,-16.98,SA-0655
+2026-04-13,Payment INV-0655,"Quinn residence, 8695 Wornall Rd",income,149.00,SA-0655
+2026-04-13,Johnstone Supply for SA-0698,Johnstone Supply,materials,-23.80,SA-0698
+2026-04-13,Johnstone Supply for SA-0857,Johnstone Supply,materials,-24.54,SA-0857
+2026-04-13,Payment INV-0859,"Lopez residence, 7571 Broadway Blvd",income,149.00,SA-0859
+2026-04-14,Johnstone Supply for SA-0313,Johnstone Supply,materials,-82.41,SA-0313
+2026-04-14,Johnstone Supply for SA-0637,Johnstone Supply,materials,-14.52,SA-0637
+2026-04-14,Payment INV-0639,"Moreau residence, 8915 Wornall Rd",income,149.00,SA-0639
+2026-04-14,Payment INV-0674,"Iverson residence, 7790 Oak St",income,149.00,SA-0674
+2026-04-14,Payment INV-0698,"Moreau residence, 650 Wornall Rd",income,149.00,SA-0698
+2026-04-14,Johnstone Supply for SA-0761,Johnstone Supply,materials,-25.96,SA-0761
+2026-04-14,Johnstone Supply for SA-0831,Johnstone Supply,materials,-21.49,SA-0831
+2026-04-14,Johnstone Supply for SA-0852,Johnstone Supply,materials,-22.03,SA-0852
+2026-04-14,Payment INV-0852,"Nguyen residence, 3953 Ward Pkwy",income,149.00,SA-0852
+2026-04-14,Johnstone Supply for SA-0866,Johnstone Supply,materials,-20.48,SA-0866
+2026-04-15,Payment INV-0309,"Kim residence, 3681 Broadway Blvd",income,240.00,SA-0309
+2026-04-15,Johnstone Supply for SA-0314,Johnstone Supply,materials,-77.73,SA-0314
+2026-04-15,Ferguson HVAC for SA-0315,Ferguson HVAC,materials,-5386.41,SA-0315
+2026-04-15,KCMO Permits for SA-0315,KCMO Permits,permits,-185.00,SA-0315
+2026-04-15,Payment INV-0616,"Mendez residence, 9480 Oak St",income,149.00,SA-0616
+2026-04-15,Payroll,Gusto,payroll,-19500.00,
+2026-04-16,Payment INV-0310,"Okafor residence, 5997 State Line Rd",income,280.00,SA-0310
+2026-04-16,Johnstone Supply for SA-0316,Johnstone Supply,materials,-19.77,SA-0316
+2026-04-16,Johnstone Supply for SA-0317,Johnstone Supply,materials,-80.29,SA-0317
+2026-04-16,Johnstone Supply for SA-0681,Johnstone Supply,materials,-17.52,SA-0681
+2026-04-17,Payment INV-0317,"Kim residence, 2644 Broadway Blvd",income,770.00,SA-0317
+2026-04-17,Johnstone Supply for SA-0318,Johnstone Supply,materials,-86.89,SA-0318
+2026-04-17,Johnstone Supply for SA-0662,Johnstone Supply,materials,-18.18,SA-0662
+2026-04-17,Payment INV-0662,"Ellison residence, 515 Broadway Blvd",income,149.00,SA-0662
+2026-04-17,Johnstone Supply for SA-0697,Johnstone Supply,materials,-23.14,SA-0697
+2026-04-17,Johnstone Supply for SA-0729,Johnstone Supply,materials,-17.29,SA-0729
+2026-04-17,Johnstone Supply for SA-0778,Johnstone Supply,materials,-15.20,SA-0778
+2026-04-17,Payment INV-0778,"Jensen residence, 435 Brookside Blvd",income,149.00,SA-0778
+2026-04-17,Payment INV-0797,"Ellison residence, 7997 Gillham Rd",income,149.00,SA-0797
+2026-04-17,Payment INV-0830,"Nguyen residence, 4420 Main St",income,149.00,SA-0830
+2026-04-17,Payment INV-0831,"Haddad residence, 2906 Main St",income,149.00,SA-0831
+2026-04-17,Johnstone Supply for SA-0860,Johnstone Supply,materials,-24.17,SA-0860
+2026-04-17,Fleet fuel,WEX Fleet Fuel,fuel,-536.30,
+2026-04-18,Johnstone Supply for SA-0319,Johnstone Supply,materials,-187.79,SA-0319
+2026-04-18,Johnstone Supply for SA-0654,Johnstone Supply,materials,-15.92,SA-0654
+2026-04-18,Johnstone Supply for SA-0751,Johnstone Supply,materials,-17.52,SA-0751
+2026-04-18,Payment INV-0857,"Quinn residence, 5839 State Line Rd",income,149.00,SA-0857
+2026-04-18,Evergy,Evergy,utilities,-444.00,
+2026-04-19,Johnstone Supply for SA-0613,Johnstone Supply,materials,-27.39,SA-0613
+2026-04-19,Payment INV-0613,"Price residence, 9218 Troost Ave",income,149.00,SA-0613
+2026-04-19,Payment INV-0637,"Kowalski residence, 5677 Main St",income,149.00,SA-0637
+2026-04-19,Payment INV-0654,"Ellison residence, 8145 Troost Ave",income,149.00,SA-0654
+2026-04-19,Johnstone Supply for SA-0679,Johnstone Supply,materials,-17.71,SA-0679
+2026-04-19,Johnstone Supply for SA-0776,Johnstone Supply,materials,-16.93,SA-0776
+2026-04-19,Payment INV-0789,"Russo residence, 3167 State Line Rd",income,149.00,SA-0789
+2026-04-19,Johnstone Supply for SA-0809,Johnstone Supply,materials,-21.38,SA-0809
+2026-04-20,Payment INV-0314,"Hughes residence, 5865 Broadway Blvd",income,530.00,SA-0314
+2026-04-20,Johnstone Supply for SA-0320,Johnstone Supply,materials,-100.96,SA-0320
+2026-04-20,Ferguson HVAC for SA-0321,Ferguson HVAC,materials,-5204.37,SA-0321
+2026-04-20,KCMO Permits for SA-0321,KCMO Permits,permits,-185.00,SA-0321
+2026-04-20,Ferguson HVAC for SA-0322,Ferguson HVAC,materials,-7311.26,SA-0322
+2026-04-20,Midwest Crane & Rigging for SA-0322,Midwest Crane & Rigging,equipment,-1100.00,SA-0322
+2026-04-20,KCMO Permits for SA-0322,KCMO Permits,permits,-450.00,SA-0322
+2026-04-20,Payment INV-0697,"Ellison residence, 8245 Troost Ave",income,149.00,SA-0697
+2026-04-20,Payment INV-0809,"Hughes residence, 5513 Troost Ave",income,149.00,SA-0809
+2026-04-20,Johnstone Supply for SA-0849,Johnstone Supply,materials,-25.14,SA-0849
+2026-04-20,Payment INV-0849,"Haddad residence, 352 Ward Pkwy",income,149.00,SA-0849
+2026-04-20,Johnstone Supply for SA-0883,Johnstone Supply,materials,-27.89,SA-0883
+2026-04-20,Verizon Business,Verizon Business,utilities,-260.00,
+2026-04-21,Payment INV-0320,"Lindqvist residence, 5676 Wornall Rd",income,900.00,SA-0320
+2026-04-21,Johnstone Supply for SA-0323,Johnstone Supply,materials,-20.91,SA-0323
+2026-04-21,Johnstone Supply for SA-0324,Johnstone Supply,materials,-163.10,SA-0324
+2026-04-21,Johnstone Supply for SA-0325,Johnstone Supply,materials,-63.75,SA-0325
+2026-04-21,Payment INV-0866,"Iverson residence, 6230 Oak St",income,149.00,SA-0866
+2026-04-22,Payment INV-0308,"Sorensen residence, 9640 Ward Pkwy",income,9400.00,SA-0308
+2026-04-22,Johnstone Supply for SA-0326,Johnstone Supply,materials,-123.43,SA-0326
+2026-04-22,Johnstone Supply for SA-0765,Johnstone Supply,materials,-17.10,SA-0765
+2026-04-23,Payment INV-0256,Crown Center Retail,income,14600.00,SA-0256
+2026-04-23,Payment INV-0319,"Ellison residence, 3805 Main St",income,810.00,SA-0319
+2026-04-23,Johnstone Supply for SA-0327,Johnstone Supply,materials,-35.74,SA-0327
+2026-04-23,Johnstone Supply for SA-0651,Johnstone Supply,materials,-20.01,SA-0651
+2026-04-23,Payment INV-0681,"Mendez residence, 6685 Troost Ave",income,149.00,SA-0681
+2026-04-23,Payment INV-0708,"Tran residence, 1683 Holmes Rd",income,149.00,SA-0708
+2026-04-23,Payment INV-0751,"Price residence, 1303 Ward Pkwy",income,149.00,SA-0751
+2026-04-24,Payment INV-0315,"Moreau residence, 1467 Brookside Blvd",income,10900.00,SA-0315
+2026-04-24,Payment INV-0324,"Moreau residence, 7690 Broadway Blvd",income,930.00,SA-0324
+2026-04-24,Johnstone Supply for SA-0328,Johnstone Supply,materials,-92.15,SA-0328
+2026-04-24,Payment INV-0687,"Miller residence, 642 Brookside Blvd",income,149.00,SA-0687
+2026-04-24,Johnstone Supply for SA-0743,Johnstone Supply,materials,-20.23,SA-0743
+2026-04-24,Fleet fuel,WEX Fleet Fuel,fuel,-536.30,
+2026-04-25,Payment INV-0260,Waldo Vet Clinic,income,12400.00,SA-0260
+2026-04-25,Payment INV-0304,"Garza residence, 6391 Main St",income,920.00,SA-0304
+2026-04-25,Payment INV-0312,"Coleman residence, 5012 Broadway Blvd",income,460.00,SA-0312
+2026-04-25,Johnstone Supply for SA-0329,Johnstone Supply,materials,-141.40,SA-0329
+2026-04-25,Johnstone Supply for SA-0330,Johnstone Supply,materials,-67.54,SA-0330
+2026-04-25,Payment INV-0330,"Garza residence, 8909 Troost Ave",income,480.00,SA-0330
+2026-04-25,Johnstone Supply for SA-0331,Johnstone Supply,materials,-215.20,SA-0331
+2026-04-25,Johnstone Supply for SA-0740,Johnstone Supply,materials,-16.98,SA-0740
+2026-04-25,Card processing fees,Stripe,bank_fees,-262.50,
+2026-04-26,Payment INV-0313,"Schultz residence, 6459 Oak St",income,610.00,SA-0313
+2026-04-26,Payment INV-0323,"Kowalski residence, 2093 Brookside Blvd",income,180.00,SA-0323
+2026-04-26,Payment INV-0331,"Quinn residence, 8484 Troost Ave",income,870.00,SA-0331
+2026-04-26,Payment INV-0700,"Whitfield residence, 7598 Main St",income,149.00,SA-0700
+2026-04-27,Payment INV-0321,"Miller residence, 6151 State Line Rd",income,10400.00,SA-0321
+2026-04-27,Payment INV-0328,"Patel residence, 9343 State Line Rd",income,710.00,SA-0328
+2026-04-27,Johnstone Supply for SA-0332,Johnstone Supply,materials,-50.12,SA-0332
+2026-04-27,Johnstone Supply for SA-0333,Johnstone Supply,materials,-94.34,SA-0333
+2026-04-27,Payment INV-0630,"Delgado residence, 6608 Wornall Rd",income,149.00,SA-0630
+2026-04-27,Payment INV-0740,"Patel residence, 6944 Brookside Blvd",income,149.00,SA-0740
+2026-04-27,Payment INV-0743,"Russo residence, 8418 Troost Ave",income,149.00,SA-0743
+2026-04-27,Johnstone Supply for SA-0746,Johnstone Supply,materials,-20.14,SA-0746
+2026-04-27,Johnstone Supply for SA-0759,Johnstone Supply,materials,-18.84,SA-0759
+2026-04-27,Payment INV-0765,"Abernathy residence, 8613 Holmes Rd",income,149.00,SA-0765
+2026-04-27,Johnstone Supply for SA-0843,Johnstone Supply,materials,-21.06,SA-0843
+2026-04-27,Johnstone Supply for SA-0847,Johnstone Supply,materials,-21.82,SA-0847
+2026-04-28,Payment INV-0316,"Whitfield residence, 2526 Wornall Rd",income,190.00,SA-0316
+2026-04-28,Payment INV-0325,"Coleman residence, 7872 Main St",income,300.00,SA-0325
+2026-04-28,Payment INV-0329,"Novak residence, 2829 Broadway Blvd",income,600.00,SA-0329
+2026-04-28,Ferguson HVAC for SA-0334,Ferguson HVAC,materials,-6406.37,SA-0334
+2026-04-28,KCMO Permits for SA-0334,KCMO Permits,permits,-185.00,SA-0334
+2026-04-28,Payment INV-0651,"Bauer residence, 2007 Troost Ave",income,149.00,SA-0651
+2026-04-29,Payment INV-0311,"Hughes residence, 2458 Brookside Blvd",income,490.00,SA-0311
+2026-04-29,Payment INV-0318,"Russo residence, 4937 Wornall Rd",income,550.00,SA-0318
+2026-04-29,Payment INV-0333,"Ellison residence, 3833 Wornall Rd",income,490.00,SA-0333
+2026-04-29,Johnstone Supply for SA-0335,Johnstone Supply,materials,-108.51,SA-0335
+2026-04-29,Payment INV-0335,"Okafor residence, 6102 Gillham Rd",income,730.00,SA-0335
+2026-04-29,Payment INV-0729,"Abernathy residence, 8160 Brookside Blvd",income,149.00,SA-0729
+2026-04-29,Payment INV-0860,"Hughes residence, 722 Troost Ave",income,149.00,SA-0860
+2026-04-30,Johnstone Supply for SA-0336,Johnstone Supply,materials,-74.03,SA-0336
+2026-04-30,Payment INV-0336,"Garza residence, 2957 Broadway Blvd",income,550.00,SA-0336
+2026-04-30,Johnstone Supply for SA-0337,Johnstone Supply,materials,-34.32,SA-0337
+2026-04-30,Johnstone Supply for SA-0338,Johnstone Supply,materials,-135.48,SA-0338
+2026-04-30,Payment INV-0746,"Mendez residence, 3322 Troost Ave",income,149.00,SA-0746
+2026-04-30,Payment INV-0843,"Quinn residence, 5254 Brookside Blvd",income,149.00,SA-0843
+2026-05-01,Johnstone Supply for SA-0339,Johnstone Supply,materials,-39.39,SA-0339
+2026-05-01,Payment INV-0339,"Quinn residence, 3541 Wornall Rd",income,170.00,SA-0339
+2026-05-01,Johnstone Supply for SA-0340,Johnstone Supply,materials,-30.18,SA-0340
+2026-05-01,Johnstone Supply for SA-0629,Johnstone Supply,materials,-18.69,SA-0629
+2026-05-01,Payment INV-0629,"Miller residence, 8132 State Line Rd",income,149.00,SA-0629
+2026-05-01,Johnstone Supply for SA-0676,Johnstone Supply,materials,-18.09,SA-0676
+2026-05-01,Payment INV-0679,"Mendez residence, 8323 Gillham Rd",income,149.00,SA-0679
+2026-05-01,Payment INV-0776,"Sorensen residence, 3188 Gillham Rd",income,149.00,SA-0776
+2026-05-01,Johnstone Supply for SA-0827,Johnstone Supply,materials,-13.37,SA-0827
+2026-05-01,Holmes Rd Properties,Holmes Rd Properties,rent,-3200.00,
+2026-05-01,Acuity Insurance,Acuity Insurance,insurance,-1450.00,
+2026-05-01,ServiceTitan,ServiceTitan,software,-398.00,
+2026-05-01,Payroll,Gusto,payroll,-19500.00,
+2026-05-02,Johnstone Supply for SA-0341,Johnstone Supply,materials,-43.22,SA-0341
+2026-05-02,Ferguson HVAC for SA-0342,Ferguson HVAC,materials,-3594.56,SA-0342
+2026-05-02,KCMO Permits for SA-0342,KCMO Permits,permits,-185.00,SA-0342
+2026-05-02,Payment INV-0676,"Kim residence, 9271 Troost Ave",income,149.00,SA-0676
+2026-05-02,Johnstone Supply for SA-0722,Johnstone Supply,materials,-26.43,SA-0722
+2026-05-02,Payment INV-0722,"Nguyen residence, 831 Oak St",income,149.00,SA-0722
+2026-05-02,Payment INV-0761,"Whitfield residence, 2088 Gillham Rd",income,149.00,SA-0761
+2026-05-02,Johnstone Supply for SA-0802,Johnstone Supply,materials,-18.39,SA-0802
+2026-05-02,Payment INV-0827,"Kim residence, 9205 Brookside Blvd",income,149.00,SA-0827
+2026-05-02,Payment INV-0883,"Okafor residence, 1944 Brookside Blvd",income,149.00,SA-0883
+2026-05-03,Payment INV-0340,"Whitfield residence, 5056 Main St",income,180.00,SA-0340
+2026-05-03,Johnstone Supply for SA-0666,Johnstone Supply,materials,-13.98,SA-0666
+2026-05-03,Payment INV-0666,"Jensen residence, 8672 Main St",income,149.00,SA-0666
+2026-05-03,Johnstone Supply for SA-0691,Johnstone Supply,materials,-17.87,SA-0691
+2026-05-03,Johnstone Supply for SA-0704,Johnstone Supply,materials,-14.30,SA-0704
+2026-05-03,Fleet fuel,WEX Fleet Fuel,fuel,-592.10,
+2026-05-04,Payment INV-0326,"Tran residence, 7135 Broadway Blvd",income,920.00,SA-0326
+2026-05-04,Johnstone Supply for SA-0344,Johnstone Supply,materials,-47.16,SA-0344
+2026-05-04,Payment INV-0344,"Coleman residence, 2978 Main St",income,340.00,SA-0344
+2026-05-04,Johnstone Supply for SA-0345,Johnstone Supply,materials,-83.10,SA-0345
+2026-05-04,Ferguson HVAC for SA-0346,Ferguson HVAC,materials,-6836.77,SA-0346
+2026-05-04,KCMO Permits for SA-0346,KCMO Permits,permits,-185.00,SA-0346
+2026-05-04,Payment INV-0759,"Iverson residence, 5075 Gillham Rd",income,149.00,SA-0759
+2026-05-04,Payment INV-0847,"Miller residence, 6844 Wornall Rd",income,149.00,SA-0847
+2026-05-05,Payment INV-0337,"Patel residence, 8290 Ward Pkwy",income,320.00,SA-0337
+2026-05-05,Johnstone Supply for SA-0347,Johnstone Supply,materials,-84.48,SA-0347
+2026-05-05,Ferguson HVAC for SA-0348,Ferguson HVAC,materials,-4706.59,SA-0348
+2026-05-05,KCMO Permits for SA-0348,KCMO Permits,permits,-185.00,SA-0348
+2026-05-05,Johnstone Supply for SA-0738,Johnstone Supply,materials,-16.48,SA-0738
+2026-05-05,Payment INV-0738,"Price residence, 8369 Wornall Rd",income,149.00,SA-0738
+2026-05-05,Johnstone Supply for SA-0864,Johnstone Supply,materials,-18.09,SA-0864
+2026-05-05,Intuit QuickBooks,Intuit QuickBooks,software,-90.00,
+2026-05-06,Payment INV-0347,"Russo residence, 2535 State Line Rd",income,740.00,SA-0347
+2026-05-06,Johnstone Supply for SA-0349,Johnstone Supply,materials,-41.91,SA-0349
+2026-05-06,Johnstone Supply for SA-0350,Johnstone Supply,materials,-131.98,SA-0350
+2026-05-06,Johnstone Supply for SA-0351,Johnstone Supply,materials,-24.39,SA-0351
+2026-05-06,Payment INV-0691,"Mendez residence, 8667 Gillham Rd",income,149.00,SA-0691
+2026-05-07,Payment INV-0338,"Kim residence, 8047 Main St",income,830.00,SA-0338
+2026-05-07,Payment INV-0349,"Hughes residence, 3177 Oak St",income,320.00,SA-0349
+2026-05-07,Payment INV-0351,"Patel residence, 2963 Brookside Blvd",income,200.00,SA-0351
+2026-05-07,Johnstone Supply for SA-0352,Johnstone Supply,materials,-44.24,SA-0352
+2026-05-07,Payment INV-0352,"Kim residence, 7230 State Line Rd",income,330.00,SA-0352
+2026-05-07,Ferguson HVAC for SA-0353,Ferguson HVAC,materials,-9078.54,SA-0353
+2026-05-07,Midwest Crane & Rigging for SA-0353,Midwest Crane & Rigging,equipment,-1100.00,SA-0353
+2026-05-07,KCMO Permits for SA-0353,KCMO Permits,permits,-450.00,SA-0353
+2026-05-07,Johnstone Supply for SA-0643,Johnstone Supply,materials,-13.39,SA-0643
+2026-05-08,Payment INV-0348,"Lindqvist residence, 9695 Wornall Rd",income,9100.00,SA-0348
+2026-05-08,Johnstone Supply for SA-0354,Johnstone Supply,materials,-83.68,SA-0354
+2026-05-08,Payment INV-0354,"Schultz residence, 3596 Oak St",income,440.00,SA-0354
+2026-05-08,Johnstone Supply for SA-0355,Johnstone Supply,materials,-88.44,SA-0355
+2026-05-08,Johnstone Supply for SA-0356,Johnstone Supply,materials,-23.56,SA-0356
+2026-05-08,Payment INV-0356,"Haddad residence, 6226 Holmes Rd",income,170.00,SA-0356
+2026-05-08,Johnstone Supply for SA-0610,Johnstone Supply,materials,-25.52,SA-0610
+2026-05-08,Payment INV-0643,"Price residence, 9560 Wornall Rd",income,149.00,SA-0643
+2026-05-08,Payment INV-0704,"Sorensen residence, 3099 Troost Ave",income,149.00,SA-0704
+2026-05-09,Payment INV-0332,"Mendez residence, 8656 Broadway Blvd",income,380.00,SA-0332
+2026-05-09,Payment INV-0341,"Patel residence, 2504 Gillham Rd",income,230.00,SA-0341
+2026-05-09,Payment INV-0342,"Jensen residence, 4621 Wornall Rd",income,7500.00,SA-0342
+2026-05-09,Payment INV-0346,"Mendez residence, 2747 Holmes Rd",income,13700.00,SA-0346
+2026-05-09,Johnstone Supply for SA-0357,Johnstone Supply,materials,-126.63,SA-0357
+2026-05-09,Johnstone Supply for SA-0358,Johnstone Supply,materials,-34.13,SA-0358
+2026-05-09,Payment INV-0358,"Haddad residence, 6151 Wornall Rd",income,210.00,SA-0358
+2026-05-09,Johnstone Supply for SA-0359,Johnstone Supply,materials,-116.92,SA-0359
+2026-05-09,Johnstone Supply for SA-0871,Johnstone Supply,materials,-25.84,SA-0871
+2026-05-09,Johnstone Supply for SA-0872,Johnstone Supply,materials,-22.14,SA-0872
+2026-05-10,Payment INV-0355,"Nguyen residence, 7209 Wornall Rd",income,800.00,SA-0355
+2026-05-10,Johnstone Supply for SA-0664,Johnstone Supply,materials,-21.07,SA-0664
+2026-05-10,Johnstone Supply for SA-0735,Johnstone Supply,materials,-24.05,SA-0735
+2026-05-10,Johnstone Supply for SA-0766,Johnstone Supply,materials,-27.17,SA-0766
+2026-05-10,Johnstone Supply for SA-0814,Johnstone Supply,materials,-15.95,SA-0814
+2026-05-10,Johnstone Supply for SA-0881,Johnstone Supply,materials,-23.87,SA-0881
+2026-05-10,Fleet fuel,WEX Fleet Fuel,fuel,-592.10,
+2026-05-11,Payment INV-0327,"Miller residence, 5944 Wornall Rd",income,240.00,SA-0327
+2026-05-11,Johnstone Supply for SA-0360,Johnstone Supply,materials,-23.70,SA-0360
+2026-05-11,Johnstone Supply for SA-0361,Johnstone Supply,materials,-46.40,SA-0361
+2026-05-11,Johnstone Supply for SA-0874,Johnstone Supply,materials,-25.28,SA-0874
+2026-05-11,Payment INV-0874,"Russo residence, 5515 Wornall Rd",income,149.00,SA-0874
+2026-05-11,Payment INV-0881,"Whitfield residence, 3334 Oak St",income,149.00,SA-0881
+2026-05-12,Payment INV-0357,"Moreau residence, 4425 Ward Pkwy",income,540.00,SA-0357
+2026-05-12,Johnstone Supply for SA-0362,Johnstone Supply,materials,-78.54,SA-0362
+2026-05-12,Johnstone Supply for SA-0363,Johnstone Supply,materials,-133.37,SA-0363
+2026-05-12,Payment INV-0664,"Schultz residence, 2213 Ward Pkwy",income,149.00,SA-0664
+2026-05-12,Payment INV-0864,"Sorensen residence, 7081 Main St",income,149.00,SA-0864
+2026-05-12,Payment INV-0872,"Kowalski residence, 7255 Ward Pkwy",income,149.00,SA-0872
+2026-05-12,Google Ads,Google Ads,marketing,-2400.00,
+2026-05-13,Payment INV-0360,"Lopez residence, 7152 Ward Pkwy",income,210.00,SA-0360
+2026-05-13,Johnstone Supply for SA-0364,Johnstone Supply,materials,-106.92,SA-0364
+2026-05-13,Payment INV-0610,"Nguyen residence, 5334 Oak St",income,149.00,SA-0610
+2026-05-13,Johnstone Supply for SA-0788,Johnstone Supply,materials,-26.26,SA-0788
+2026-05-13,Johnstone Supply for SA-0836,Johnstone Supply,materials,-20.16,SA-0836
+2026-05-13,Payment INV-0836,"Kowalski residence, 3139 Main St",income,149.00,SA-0836
+2026-05-13,Johnstone Supply for SA-0845,Johnstone Supply,materials,-24.68,SA-0845
+2026-05-14,Johnstone Supply for SA-0343,Johnstone Supply,materials,-68.39,SA-0343
+2026-05-14,Payment INV-0361,"Nguyen residence, 4387 State Line Rd",income,240.00,SA-0361
+2026-05-14,Johnstone Supply for SA-0626,Johnstone Supply,materials,-19.10,SA-0626
+2026-05-14,Payment INV-0802,"Mendez residence, 4586 Main St",income,149.00,SA-0802
+2026-05-14,Johnstone Supply for SA-0811,Johnstone Supply,materials,-20.24,SA-0811
+2026-05-14,Payment INV-0871,"Russo residence, 5937 Ward Pkwy",income,149.00,SA-0871
+2026-05-15,Payment INV-0363,"Kim residence, 3429 Brookside Blvd",income,650.00,SA-0363
+2026-05-15,Payment INV-0364,"Miller residence, 6369 Brookside Blvd",income,430.00,SA-0364
+2026-05-15,Payment INV-0735,"Abernathy residence, 2249 Broadway Blvd",income,149.00,SA-0735
+2026-05-15,Payment INV-0845,"Kim residence, 4296 Main St",income,149.00,SA-0845
+2026-05-15,Payroll,Gusto,payroll,-19500.00,
+2026-05-16,Johnstone Supply for SA-0365,Johnstone Supply,materials,-161.56,SA-0365
+2026-05-17,Johnstone Supply for SA-0855,Johnstone Supply,materials,-21.65,SA-0855
+2026-05-17,Fleet fuel,WEX Fleet Fuel,fuel,-592.10,
+2026-05-18,Payment INV-0334,"Schultz residence, 2894 Broadway Blvd",income,13900.00,SA-0334
+2026-05-18,Johnstone Supply for SA-0366,Johnstone Supply,materials,-65.64,SA-0366
+2026-05-18,Johnstone Supply for SA-0367,Johnstone Supply,materials,-177.91,SA-0367
+2026-05-18,Payment INV-0788,"Haddad residence, 1388 Troost Ave",income,149.00,SA-0788
+2026-05-18,Evergy,Evergy,utilities,-435.00,
+2026-05-19,Johnstone Supply for SA-0368,Johnstone Supply,materials,-187.25,SA-0368
+2026-05-20,Johnstone Supply for SA-0706,Johnstone Supply,materials,-17.87,SA-0706
+2026-05-20,Johnstone Supply for SA-0772,Johnstone Supply,materials,-13.30,SA-0772
+2026-05-20,Verizon Business,Verizon Business,utilities,-260.00,
+2026-05-21,Payment INV-0359,"Tran residence, 4040 Main St",income,550.00,SA-0359
+2026-05-21,Johnstone Supply for SA-0369,Johnstone Supply,materials,-51.26,SA-0369
+2026-05-21,Johnstone Supply for SA-0370,Johnstone Supply,materials,-67.24,SA-0370
+2026-05-21,Johnstone Supply for SA-0612,Johnstone Supply,materials,-21.73,SA-0612
+2026-05-21,Payment INV-0626,"Russo residence, 1706 Gillham Rd",income,149.00,SA-0626
+2026-05-21,Johnstone Supply for SA-0658,Johnstone Supply,materials,-26.03,SA-0658
+2026-05-21,Johnstone Supply for SA-0768,Johnstone Supply,materials,-25.47,SA-0768
+2026-05-21,Johnstone Supply for SA-0804,Johnstone Supply,materials,-22.12,SA-0804
+2026-05-21,Johnstone Supply for SA-0824,Johnstone Supply,materials,-12.37,SA-0824
+2026-05-22,Payment INV-0345,"Whitfield residence, 4346 Oak St",income,800.00,SA-0345
+2026-05-22,Payment INV-0368,"Haddad residence, 8243 Gillham Rd",income,870.00,SA-0368
+2026-05-22,Johnstone Supply for SA-0371,Johnstone Supply,materials,-200.80,SA-0371
+2026-05-22,Johnstone Supply for SA-0372,Johnstone Supply,materials,-142.38,SA-0372
+2026-05-22,Johnstone Supply for SA-0373,Johnstone Supply,materials,-36.43,SA-0373
+2026-05-22,Payment INV-0373,"Delgado residence, 724 Wornall Rd",income,170.00,SA-0373
+2026-05-22,Johnstone Supply for SA-0694,Johnstone Supply,materials,-23.43,SA-0694
+2026-05-22,Payment INV-0694,"Tran residence, 3374 Wornall Rd",income,149.00,SA-0694
+2026-05-22,Payment INV-0766,"Haddad residence, 5611 Gillham Rd",income,149.00,SA-0766
+2026-05-22,Johnstone Supply for SA-0816,Johnstone Supply,materials,-15.20,SA-0816
+2026-05-22,Van service and tires,Firestone Complete Auto,vehicle,-1350.00,
+2026-05-23,Payment INV-0367,"Mendez residence, 9569 Wornall Rd",income,890.00,SA-0367
+2026-05-23,Payment INV-0370,"Ortiz residence, 3310 Holmes Rd",income,360.00,SA-0370
+2026-05-23,Payment INV-0371,"Novak residence, 8215 Holmes Rd",income,840.00,SA-0371
+2026-05-23,Payment INV-0372,"Nguyen residence, 561 Main St",income,900.00,SA-0372
+2026-05-23,Johnstone Supply for SA-0374,Johnstone Supply,materials,-34.61,SA-0374
+2026-05-23,Johnstone Supply for SA-0670,Johnstone Supply,materials,-19.93,SA-0670
+2026-05-23,Payment INV-0804,"Ortiz residence, 3611 Holmes Rd",income,149.00,SA-0804
+2026-05-24,Payment INV-0350,"Quinn residence, 3692 Gillham Rd",income,910.00,SA-0350
+2026-05-24,Payment INV-0369,"Moreau residence, 7002 Holmes Rd",income,220.00,SA-0369
+2026-05-24,Payment INV-0374,"Tran residence, 3342 Troost Ave",income,230.00,SA-0374
+2026-05-24,Payment INV-0670,"Lindqvist residence, 7998 Holmes Rd",income,149.00,SA-0670
+2026-05-24,Johnstone Supply for SA-0677,Johnstone Supply,materials,-24.43,SA-0677
+2026-05-24,Johnstone Supply for SA-0862,Johnstone Supply,materials,-16.44,SA-0862
+2026-05-24,Payment INV-0862,"Whitfield residence, 3632 Broadway Blvd",income,149.00,SA-0862
+2026-05-24,Fleet fuel,WEX Fleet Fuel,fuel,-592.10,
+2026-05-25,Johnstone Supply for SA-0375,Johnstone Supply,materials,-144.45,SA-0375
+2026-05-25,Johnstone Supply for SA-0641,Johnstone Supply,materials,-23.28,SA-0641
+2026-05-25,Payment INV-0641,"Russo residence, 7594 Brookside Blvd",income,149.00,SA-0641
+2026-05-25,Payment INV-0706,"Novak residence, 7950 Main St",income,149.00,SA-0706
+2026-05-25,Johnstone Supply for SA-0716,Johnstone Supply,materials,-25.02,SA-0716
+2026-05-25,Johnstone Supply for SA-0869,Johnstone Supply,materials,-22.55,SA-0869
+2026-05-25,Card processing fees,Stripe,bank_fees,-346.50,
+2026-05-26,Payment INV-0375,"Whitfield residence, 5023 Gillham Rd",income,690.00,SA-0375
+2026-05-26,Johnstone Supply for SA-0376,Johnstone Supply,materials,-60.31,SA-0376
+2026-05-26,Johnstone Supply for SA-0377,Johnstone Supply,materials,-173.55,SA-0377
+2026-05-26,Johnstone Supply for SA-0378,Johnstone Supply,materials,-22.04,SA-0378
+2026-05-26,Payment INV-0612,"Ellison residence, 1781 Holmes Rd",income,149.00,SA-0612
+2026-05-26,Payment INV-0768,"Garza residence, 3922 Main St",income,149.00,SA-0768
+2026-05-27,Johnstone Supply for SA-0379,Johnstone Supply,materials,-41.03,SA-0379
+2026-05-27,Johnstone Supply for SA-0380,Johnstone Supply,materials,-63.34,SA-0380
+2026-05-27,Johnstone Supply for SA-0633,Johnstone Supply,materials,-26.08,SA-0633
+2026-05-27,Payment INV-0633,"Tran residence, 5943 Troost Ave",income,149.00,SA-0633
+2026-05-27,Payment INV-0772,"Delgado residence, 2940 Ward Pkwy",income,149.00,SA-0772
+2026-05-27,Johnstone Supply for SA-0819,Johnstone Supply,materials,-22.57,SA-0819
+2026-05-27,Payment INV-0819,"Delgado residence, 1897 Broadway Blvd",income,149.00,SA-0819
+2026-05-27,Johnstone Supply for SA-0891,Johnstone Supply,materials,-12.31,SA-0891
+2026-05-27,Payment INV-0891,"Miller residence, 7059 Broadway Blvd",income,149.00,SA-0891
+2026-05-27,Johnstone Supply for SA-0892,Johnstone Supply,materials,-13.87,SA-0892
+2026-05-27,Payment INV-0892,"Lindqvist residence, 5932 Troost Ave",income,149.00,SA-0892
+2026-05-28,Payment INV-0365,"Coleman residence, 4192 Holmes Rd",income,880.00,SA-0365
+2026-05-28,Johnstone Supply for SA-0381,Johnstone Supply,materials,-76.67,SA-0381
+2026-05-28,Payment INV-0381,"Coleman residence, 8905 Wornall Rd",income,540.00,SA-0381
+2026-05-28,Johnstone Supply for SA-0382,Johnstone Supply,materials,-83.45,SA-0382
+2026-05-28,Payment INV-0382,"Novak residence, 8647 Main St",income,760.00,SA-0382
+2026-05-28,Johnstone Supply for SA-0383,Johnstone Supply,materials,-54.57,SA-0383
+2026-05-28,Payment INV-0658,"Ortiz residence, 6980 Broadway Blvd",income,149.00,SA-0658
+2026-05-28,Payment INV-0814,"Tran residence, 2668 State Line Rd",income,149.00,SA-0814
+2026-05-28,Payment INV-0824,"Lopez residence, 9406 Holmes Rd",income,149.00,SA-0824
+2026-05-29,Payment INV-0380,"Whitfield residence, 8357 Holmes Rd",income,460.00,SA-0380
+2026-05-29,Payment INV-0383,"Iverson residence, 8136 Gillham Rd",income,480.00,SA-0383
+2026-05-29,Johnstone Supply for SA-0384,Johnstone Supply,materials,-133.73,SA-0384
+2026-05-29,Ferguson HVAC for SA-0385,Ferguson HVAC,materials,-7107.95,SA-0385
+2026-05-29,KCMO Permits for SA-0385,KCMO Permits,permits,-185.00,SA-0385
+2026-05-30,Payment INV-0362,"Haddad residence, 4887 Gillham Rd",income,590.00,SA-0362
+2026-05-30,Payment INV-0366,"Coleman residence, 1333 Holmes Rd",income,530.00,SA-0366
+2026-05-30,Johnstone Supply for SA-0386,Johnstone Supply,materials,-111.48,SA-0386
+2026-05-30,Payment INV-0869,"Iverson residence, 4221 Troost Ave",income,149.00,SA-0869
+2026-05-31,Payment INV-0353,Plaza Fitness,income,17400.00,SA-0353
+2026-05-31,Payment INV-0377,"Mendez residence, 8912 Oak St",income,930.00,SA-0377
+2026-05-31,Payment INV-0378,"Moreau residence, 2308 Oak St",income,180.00,SA-0378
+2026-06-01,Payment INV-0385,"Delgado residence, 7341 Wornall Rd",income,14000.00,SA-0385
+2026-06-01,Johnstone Supply for SA-0387,Johnstone Supply,materials,-168.00,SA-0387
+2026-06-01,Johnstone Supply for SA-0388,Johnstone Supply,materials,-159.89,SA-0388
+2026-06-01,Payment INV-0811,"Moreau residence, 3089 Ward Pkwy",income,149.00,SA-0811
+2026-06-01,Holmes Rd Properties,Holmes Rd Properties,rent,-3200.00,
+2026-06-01,Acuity Insurance,Acuity Insurance,insurance,-1450.00,
+2026-06-01,ServiceTitan,ServiceTitan,software,-398.00,
+2026-06-01,Payroll,Gusto,payroll,-20500.00,
+2026-06-02,Payment INV-0387,"Russo residence, 2803 Oak St",income,700.00,SA-0387
+2026-06-02,Ferguson HVAC for SA-0389,Ferguson HVAC,materials,-4035.94,SA-0389
+2026-06-02,KCMO Permits for SA-0389,KCMO Permits,permits,-185.00,SA-0389
+2026-06-03,Payment INV-0379,"Quinn residence, 5237 Wornall Rd",income,350.00,SA-0379
+2026-06-03,Johnstone Supply for SA-0390,Johnstone Supply,materials,-67.87,SA-0390
+2026-06-03,Payment INV-0816,"Moreau residence, 9477 Oak St",income,149.00,SA-0816
+2026-06-03,Fleet fuel,WEX Fleet Fuel,fuel,-666.50,
+2026-06-04,Payment INV-0386,"Moreau residence, 3358 Oak St",income,950.00,SA-0386
+2026-06-04,Ferguson HVAC for SA-0391,Ferguson HVAC,materials,-10837.86,SA-0391
+2026-06-04,Midwest Crane & Rigging for SA-0391,Midwest Crane & Rigging,equipment,-1100.00,SA-0391
+2026-06-04,KCMO Permits for SA-0391,KCMO Permits,permits,-450.00,SA-0391
+2026-06-04,Payment INV-0855,"Iverson residence, 9294 Broadway Blvd",income,149.00,SA-0855
+2026-06-05,Payment INV-0384,"Schultz residence, 3235 State Line Rd",income,880.00,SA-0384
+2026-06-05,Intuit QuickBooks,Intuit QuickBooks,software,-90.00,
+2026-06-06,Johnstone Supply for SA-0392,Johnstone Supply,materials,-58.07,SA-0392
+2026-06-06,Johnstone Supply for SA-0393,Johnstone Supply,materials,-127.71,SA-0393
+2026-06-06,Johnstone Supply for SA-0394,Johnstone Supply,materials,-85.00,SA-0394
+2026-06-06,Ferguson HVAC for SA-0395,Ferguson HVAC,materials,-4895.11,SA-0395
+2026-06-06,KCMO Permits for SA-0395,KCMO Permits,permits,-185.00,SA-0395
+2026-06-08,Payment INV-0322,Westport Dental Group,income,13700.00,SA-0322
+2026-06-08,Payment INV-0388,"Moreau residence, 7964 Holmes Rd",income,870.00,SA-0388
+2026-06-08,Payment INV-0390,"Patel residence, 324 Holmes Rd",income,400.00,SA-0390
+2026-06-09,Johnstone Supply for SA-0397,Johnstone Supply,materials,-68.81,SA-0397
+2026-06-09,Johnstone Supply for SA-0398,Johnstone Supply,materials,-196.03,SA-0398
+2026-06-09,Ferguson HVAC for SA-0399,Ferguson HVAC,materials,-4514.13,SA-0399
+2026-06-09,KCMO Permits for SA-0399,KCMO Permits,permits,-185.00,SA-0399
+2026-06-10,Johnstone Supply for SA-0400,Johnstone Supply,materials,-96.49,SA-0400
+2026-06-10,Fleet fuel,WEX Fleet Fuel,fuel,-666.50,
+2026-06-11,Payment INV-0395,"Abernathy residence, 8300 Main St",income,11100.00,SA-0395
+2026-06-11,Payment INV-0397,"Moreau residence, 5876 Gillham Rd",income,310.00,SA-0397
+2026-06-11,Johnstone Supply for SA-0401,Johnstone Supply,materials,-41.79,SA-0401
+2026-06-11,Payment INV-0677,"Iverson residence, 5140 Oak St",income,149.00,SA-0677
+2026-06-12,Ferguson HVAC for SA-0402,Ferguson HVAC,materials,-3465.37,SA-0402
+2026-06-12,KCMO Permits for SA-0402,KCMO Permits,permits,-185.00,SA-0402
+2026-06-12,Payment INV-0716,"Miller residence, 7492 Broadway Blvd",income,149.00,SA-0716
+2026-06-12,Google Ads,Google Ads,marketing,-1500.00,
+2026-06-13,Payment INV-0376,"Nguyen residence, 663 Brookside Blvd",income,280.00,SA-0376
+2026-06-13,Payment INV-0392,"Delgado residence, 5938 Ward Pkwy",income,570.00,SA-0392
+2026-06-13,Payment INV-0393,"Sorensen residence, 2469 State Line Rd",income,920.00,SA-0393
+2026-06-13,Payment INV-0401,"Tran residence, 4835 Ward Pkwy",income,310.00,SA-0401
+2026-06-13,Johnstone Supply for SA-0403,Johnstone Supply,materials,-73.44,SA-0403
+2026-06-13,Payment INV-0403,"Miller residence, 5273 Ward Pkwy",income,420.00,SA-0403
+2026-06-13,Johnstone Supply for SA-0404,Johnstone Supply,materials,-52.60,SA-0404
+2026-06-13,Payment INV-0404,"Sorensen residence, 6793 State Line Rd",income,240.00,SA-0404
+2026-06-13,Johnstone Supply for SA-0405,Johnstone Supply,materials,-56.82,SA-0405
+2026-06-14,Johnstone Supply for SA-0396,Johnstone Supply,materials,-197.35,SA-0396
+2026-06-14,Payment INV-0399,"Kim residence, 1512 Holmes Rd",income,9200.00,SA-0399
+2026-06-15,Payment INV-0400,"Ellison residence, 3186 Wornall Rd",income,660.00,SA-0400
+2026-06-15,Johnstone Supply for SA-0406,Johnstone Supply,materials,-113.11,SA-0406
+2026-06-15,Johnstone Supply for SA-0407,Johnstone Supply,materials,-88.98,SA-0407
+2026-06-15,Johnstone Supply for SA-0408,Johnstone Supply,materials,-148.80,SA-0408
+2026-06-15,Payroll,Gusto,payroll,-20500.00,
+2026-06-16,Johnstone Supply for SA-0409,Johnstone Supply,materials,-56.02,SA-0409
+2026-06-17,Johnstone Supply for SA-0410,Johnstone Supply,materials,-99.23,SA-0410
+2026-06-17,Payment INV-0410,"Brooks residence, 8104 Gillham Rd",income,840.00,SA-0410
+2026-06-17,Johnstone Supply for SA-0411,Johnstone Supply,materials,-112.71,SA-0411
+2026-06-17,Fleet fuel,WEX Fleet Fuel,fuel,-666.50,
+2026-06-18,Johnstone Supply for SA-0412,Johnstone Supply,materials,-32.92,SA-0412
+2026-06-18,Johnstone Supply for SA-0413,Johnstone Supply,materials,-104.66,SA-0413
+2026-06-18,Johnstone Supply for SA-0414,Johnstone Supply,materials,-81.46,SA-0414
+2026-06-18,Ferguson HVAC for SA-0415,Ferguson HVAC,materials,-5763.13,SA-0415
+2026-06-18,KCMO Permits for SA-0415,KCMO Permits,permits,-185.00,SA-0415
+2026-06-18,Evergy,Evergy,utilities,-396.00,
+2026-06-19,Johnstone Supply for SA-0416,Johnstone Supply,materials,-77.60,SA-0416
+2026-06-19,Ferguson HVAC for SA-0417,Ferguson HVAC,materials,-4816.37,SA-0417
+2026-06-19,KCMO Permits for SA-0417,KCMO Permits,permits,-185.00,SA-0417
+2026-06-20,Payment INV-0405,"Abernathy residence, 5071 Brookside Blvd",income,370.00,SA-0405
+2026-06-20,Payment INV-0416,"Coleman residence, 6148 State Line Rd",income,460.00,SA-0416
+2026-06-20,Johnstone Supply for SA-0419,Johnstone Supply,materials,-125.72,SA-0419
+2026-06-20,Johnstone Supply for SA-0420,Johnstone Supply,materials,-41.96,SA-0420
+2026-06-20,Verizon Business,Verizon Business,utilities,-260.00,
+2026-06-21,Payment INV-0398,"Tran residence, 5993 Gillham Rd",income,860.00,SA-0398
+2026-06-21,Payment INV-0414,"Jensen residence, 3203 State Line Rd",income,350.00,SA-0414
+2026-06-21,Payment INV-0415,"Iverson residence, 855 Brookside Blvd",income,12300.00,SA-0415
+2026-06-21,Payment INV-0417,"Patel residence, 8626 Gillham Rd",income,10100.00,SA-0417
+2026-06-22,Payment INV-0389,"Okafor residence, 2623 Broadway Blvd",income,8100.00,SA-0389
+2026-06-22,Payment INV-0406,"Lopez residence, 8868 Holmes Rd",income,530.00,SA-0406
+2026-06-22,Johnstone Supply for SA-0421,Johnstone Supply,materials,-44.77,SA-0421
+2026-06-22,Payment INV-0421,"Kowalski residence, 1949 Broadway Blvd",income,230.00,SA-0421
+2026-06-22,Johnstone Supply for SA-0422,Johnstone Supply,materials,-60.22,SA-0422
+2026-06-22,Johnstone Supply for SA-0423,Johnstone Supply,materials,-89.58,SA-0423
+2026-06-23,Ferguson HVAC for SA-0424,Ferguson HVAC,materials,-5182.86,SA-0424
+2026-06-23,KCMO Permits for SA-0424,KCMO Permits,permits,-185.00,SA-0424
+2026-06-24,Payment INV-0394,"Schultz residence, 239 Holmes Rd",income,590.00,SA-0394
+2026-06-24,Payment INV-0422,"Garza residence, 9748 Holmes Rd",income,310.00,SA-0422
+2026-06-24,Johnstone Supply for SA-0426,Johnstone Supply,materials,-61.64,SA-0426
+2026-06-24,Johnstone Supply for SA-0427,Johnstone Supply,materials,-37.23,SA-0427
+2026-06-24,Johnstone Supply for SA-0428,Johnstone Supply,materials,-69.21,SA-0428
+2026-06-24,Ferguson HVAC for SA-0429,Ferguson HVAC,materials,-3900.90,SA-0429
+2026-06-24,KCMO Permits for SA-0429,KCMO Permits,permits,-185.00,SA-0429
+2026-06-24,Fleet fuel,WEX Fleet Fuel,fuel,-666.50,
+2026-06-25,Johnstone Supply for SA-0431,Johnstone Supply,materials,-99.20,SA-0431
+2026-06-25,Card processing fees,Stripe,bank_fees,-573.50,
+2026-06-26,Payment INV-0402,"Lopez residence, 4892 Wornall Rd",income,7100.00,SA-0402
+2026-06-26,Johnstone Supply for SA-0432,Johnstone Supply,materials,-68.23,SA-0432
+2026-06-26,Johnstone Supply for SA-0433,Johnstone Supply,materials,-51.45,SA-0433
+2026-06-26,Ferguson HVAC for SA-0434,Ferguson HVAC,materials,-6846.13,SA-0434
+2026-06-26,KCMO Permits for SA-0434,KCMO Permits,permits,-185.00,SA-0434
+2026-06-27,Payment INV-0407,"Novak residence, 9014 Brookside Blvd",income,600.00,SA-0407
+2026-06-27,Payment INV-0408,"Abernathy residence, 5787 Oak St",income,660.00,SA-0408
+2026-06-27,Payment INV-0432,"Garza residence, 9501 Gillham Rd",income,320.00,SA-0432
+2026-06-27,Johnstone Supply for SA-0435,Johnstone Supply,materials,-68.08,SA-0435
+2026-06-27,Ferguson HVAC for SA-0436,Ferguson HVAC,materials,-3605.32,SA-0436
+2026-06-27,KCMO Permits for SA-0436,KCMO Permits,permits,-185.00,SA-0436
+2026-06-28,Payment INV-0409,"Lindqvist residence, 4377 State Line Rd",income,360.00,SA-0409
+2026-06-28,Payment INV-0435,"Iverson residence, 9172 Troost Ave",income,540.00,SA-0435
+2026-06-29,Payment INV-0429,"Quinn residence, 404 Main St",income,8000.00,SA-0429
+2026-06-29,Johnstone Supply for SA-0437,Johnstone Supply,materials,-120.43,SA-0437
+2026-06-30,Johnstone Supply for SA-0418,Johnstone Supply,materials,-181.33,SA-0418
+2026-06-30,Payment INV-0424,"Delgado residence, 4165 Wornall Rd",income,10100.00,SA-0424
+2026-06-30,Payment INV-0431,"Hughes residence, 6357 Gillham Rd",income,560.00,SA-0431
+2026-06-30,Payment INV-0434,"Nguyen residence, 6472 Brookside Blvd",income,14400.00,SA-0434
+2026-06-30,Johnstone Supply for SA-0438,Johnstone Supply,materials,-34.90,SA-0438
+2026-06-30,Johnstone Supply for SA-0439,Johnstone Supply,materials,-84.24,SA-0439
+2026-06-30,Ferguson HVAC for SA-0440,Ferguson HVAC,materials,-3043.28,SA-0440
+2026-06-30,KCMO Permits for SA-0440,KCMO Permits,permits,-185.00,SA-0440
+2026-07-01,Payment INV-0433,"Hughes residence, 9881 Main St",income,450.00,SA-0433
+2026-07-01,Johnstone Supply for SA-0441,Johnstone Supply,materials,-38.97,SA-0441
+2026-07-01,Payment INV-0441,"Miller residence, 8514 Oak St",income,270.00,SA-0441
+2026-07-01,Johnstone Supply for SA-0442,Johnstone Supply,materials,-208.30,SA-0442
+2026-07-01,Ferguson HVAC for SA-0443,Ferguson HVAC,materials,-3553.75,SA-0443
+2026-07-01,KCMO Permits for SA-0443,KCMO Permits,permits,-185.00,SA-0443
+2026-07-01,Holmes Rd Properties,Holmes Rd Properties,rent,-3200.00,
+2026-07-01,Acuity Insurance,Acuity Insurance,insurance,-1720.00,
+2026-07-01,ServiceTitan,ServiceTitan,software,-398.00,
+2026-07-01,Payroll,Gusto,payroll,-21300.00,
+2026-07-02,Payment INV-0437,"Schultz residence, 7365 Oak St",income,910.00,SA-0437
+2026-07-02,Payment INV-0440,"Hughes residence, 1425 Brookside Blvd",income,6900.00,SA-0440
+2026-07-02,Johnstone Supply for SA-0444,Johnstone Supply,materials,-55.91,SA-0444
+2026-07-02,Payment INV-0444,"Tran residence, 3092 State Line Rd",income,530.00,SA-0444
+2026-07-03,Payment INV-0442,"Lindqvist residence, 6636 Holmes Rd",income,930.00,SA-0442
+2026-07-03,Fleet fuel,WEX Fleet Fuel,fuel,-703.70,
+2026-07-04,Johnstone Supply for SA-0445,Johnstone Supply,materials,-29.34,SA-0445
+2026-07-04,Ferguson HVAC for SA-0446,Ferguson HVAC,materials,-5434.74,SA-0446
+2026-07-04,KCMO Permits for SA-0446,KCMO Permits,permits,-185.00,SA-0446
+2026-07-04,Ferguson HVAC for SA-0447,Ferguson HVAC,materials,-11959.27,SA-0447
+2026-07-04,Midwest Crane & Rigging for SA-0447,Midwest Crane & Rigging,equipment,-1100.00,SA-0447
+2026-07-04,KCMO Permits for SA-0447,KCMO Permits,permits,-450.00,SA-0447
+2026-07-05,Payment INV-0411,"Bauer residence, 4531 Gillham Rd",income,660.00,SA-0411
+2026-07-05,Johnstone Supply for SA-0425,Johnstone Supply,materials,-121.47,SA-0425
+2026-07-05,Payment INV-0438,"Haddad residence, 4576 Main St",income,270.00,SA-0438
+2026-07-05,Payment INV-0443,"Moreau residence, 4572 Ward Pkwy",income,7300.00,SA-0443
+2026-07-05,Intuit QuickBooks,Intuit QuickBooks,software,-90.00,
+2026-07-06,Payment INV-0412,"Kowalski residence, 6978 Broadway Blvd",income,280.00,SA-0412
+2026-07-06,Payment INV-0413,"Ellison residence, 5101 Gillham Rd",income,440.00,SA-0413
+2026-07-06,Payment INV-0426,"Lopez residence, 7899 Ward Pkwy",income,270.00,SA-0426
+2026-07-06,Payment INV-0427,"Kim residence, 363 Gillham Rd",income,180.00,SA-0427
+2026-07-06,Payment INV-0428,"Ortiz residence, 9299 State Line Rd",income,570.00,SA-0428
+2026-07-06,Johnstone Supply for SA-0448,Johnstone Supply,materials,-38.38,SA-0448
+2026-07-06,Johnstone Supply for SA-0449,Johnstone Supply,materials,-65.30,SA-0449
+2026-07-06,Ferguson HVAC for SA-0450,Ferguson HVAC,materials,-3417.37,SA-0450
+2026-07-06,KCMO Permits for SA-0450,KCMO Permits,permits,-185.00,SA-0450
+2026-07-07,Johnstone Supply for SA-0451,Johnstone Supply,materials,-161.39,SA-0451
+2026-07-07,Johnstone Supply for SA-0452,Johnstone Supply,materials,-95.97,SA-0452
+2026-07-07,Ferguson HVAC for SA-0453,Ferguson HVAC,materials,-7718.67,SA-0453
+2026-07-07,Midwest Crane & Rigging for SA-0453,Midwest Crane & Rigging,equipment,-1100.00,SA-0453
+2026-07-07,KCMO Permits for SA-0453,KCMO Permits,permits,-450.00,SA-0453
+2026-07-08,Payment INV-0419,"Price residence, 5339 Main St",income,730.00,SA-0419
+2026-07-08,Payment INV-0420,"Jensen residence, 6393 State Line Rd",income,390.00,SA-0420
+2026-07-08,Payment INV-0450,"Novak residence, 5816 Wornall Rd",income,6900.00,SA-0450
+2026-07-09,Johnstone Supply for SA-0454,Johnstone Supply,materials,-124.93,SA-0454
+2026-07-09,Ferguson HVAC for SA-0455,Ferguson HVAC,materials,-3500.60,SA-0455
+2026-07-09,KCMO Permits for SA-0455,KCMO Permits,permits,-185.00,SA-0455
+2026-07-09,Ferguson HVAC for SA-0456,Ferguson HVAC,materials,-8339.12,SA-0456
+2026-07-09,Midwest Crane & Rigging for SA-0456,Midwest Crane & Rigging,equipment,-1100.00,SA-0456
+2026-07-09,KCMO Permits for SA-0456,KCMO Permits,permits,-450.00,SA-0456
+2026-07-10,Payment INV-0423,"Delgado residence, 757 State Line Rd",income,770.00,SA-0423
+2026-07-10,Fleet fuel,WEX Fleet Fuel,fuel,-703.70,
+2026-07-11,Payment INV-0436,"Bauer residence, 6863 Ward Pkwy",income,8100.00,SA-0436
+2026-07-11,Payment INV-0445,"Nguyen residence, 6053 State Line Rd",income,240.00,SA-0445
+2026-07-11,Payment INV-0446,"Lopez residence, 3929 Holmes Rd",income,11500.00,SA-0446
+2026-07-11,Payment INV-0448,"Coleman residence, 2870 Ward Pkwy",income,280.00,SA-0448
+2026-07-11,Payment INV-0454,"Kowalski residence, 8441 Gillham Rd",income,740.00,SA-0454
+2026-07-11,Johnstone Supply for SA-0457,Johnstone Supply,materials,-36.22,SA-0457
+2026-07-12,Johnstone Supply for SA-0430,Johnstone Supply,materials,-113.08,SA-0430
+2026-07-12,Payment INV-0455,"Coleman residence, 4638 Oak St",income,7000.00,SA-0455
+2026-07-12,Google Ads,Google Ads,marketing,-1500.00,
+2026-07-13,Johnstone Supply for SA-0458,Johnstone Supply,materials,-73.51,SA-0458
+2026-07-13,Payment INV-0458,"Kowalski residence, 3963 Brookside Blvd",income,310.00,SA-0458
+2026-07-13,Johnstone Supply for SA-0459,Johnstone Supply,materials,-159.03,SA-0459
+2026-07-13,Johnstone Supply for SA-0460,Johnstone Supply,materials,-19.47,SA-0460
+2026-07-13,Payment INV-0460,"Delgado residence, 4765 Ward Pkwy",income,190.00,SA-0460
+2026-07-13,Ferguson HVAC for SA-0461,Ferguson HVAC,materials,-3577.57,SA-0461
+2026-07-13,KCMO Permits for SA-0461,KCMO Permits,permits,-185.00,SA-0461
+2026-07-14,Johnstone Supply for SA-0462,Johnstone Supply,materials,-89.82,SA-0462
+2026-07-14,Johnstone Supply for SA-0463,Johnstone Supply,materials,-71.59,SA-0463
+2026-07-14,Johnstone Supply for SA-0464,Johnstone Supply,materials,-205.81,SA-0464
+2026-07-14,Payment INV-0464,"Okafor residence, 3521 State Line Rd",income,900.00,SA-0464
+2026-07-15,Johnstone Supply for SA-0465,Johnstone Supply,materials,-47.34,SA-0465
+2026-07-15,Johnstone Supply for SA-0466,Johnstone Supply,materials,-112.42,SA-0466
+2026-07-15,Payroll,Gusto,payroll,-21300.00,
+2026-07-16,Payment INV-0463,"Ortiz residence, 7285 Troost Ave",income,460.00,SA-0463
+2026-07-17,Johnstone Supply for SA-0467,Johnstone Supply,materials,-53.62,SA-0467
+2026-07-17,Johnstone Supply for SA-0468,Johnstone Supply,materials,-128.97,SA-0468
+2026-07-17,Payment INV-0468,"Kim residence, 9765 Holmes Rd",income,940.00,SA-0468
+2026-07-17,Johnstone Supply for SA-0469,Johnstone Supply,materials,-98.64,SA-0469
+2026-07-17,Fleet fuel,WEX Fleet Fuel,fuel,-703.70,
+2026-07-18,Payment INV-0439,"Okafor residence, 5132 Holmes Rd",income,550.00,SA-0439
+2026-07-18,Payment INV-0449,"Iverson residence, 1345 Main St",income,520.00,SA-0449
+2026-07-18,Johnstone Supply for SA-0470,Johnstone Supply,materials,-46.20,SA-0470
+2026-07-18,Johnstone Supply for SA-0471,Johnstone Supply,materials,-50.77,SA-0471
+2026-07-18,Evergy,Evergy,utilities,-468.00,
+2026-07-19,Payment INV-0451,"Lindqvist residence, 3909 Main St",income,750.00,SA-0451
+2026-07-19,Payment INV-0462,"Ellison residence, 3921 Broadway Blvd",income,740.00,SA-0462
+2026-07-20,Payment INV-0459,"Haddad residence, 6521 Wornall Rd",income,940.00,SA-0459
+2026-07-20,Johnstone Supply for SA-0472,Johnstone Supply,materials,-166.00,SA-0472
+2026-07-20,Verizon Business,Verizon Business,utilities,-260.00,
+2026-07-21,Payment INV-0471,"Okafor residence, 7249 State Line Rd",income,260.00,SA-0471
+2026-07-21,Johnstone Supply for SA-0473,Johnstone Supply,materials,-143.09,SA-0473
+2026-07-21,Ferguson HVAC for SA-0474,Ferguson HVAC,materials,-3423.64,SA-0474
+2026-07-21,KCMO Permits for SA-0474,KCMO Permits,permits,-185.00,SA-0474
+2026-07-21,Johnstone Supply for SA-0475,Johnstone Supply,materials,-1759.13,SA-0475
+2026-07-22,Payment INV-0467,"Quinn residence, 5509 Wornall Rd",income,370.00,SA-0467
+2026-07-22,Payment INV-0472,"Coleman residence, 1348 State Line Rd",income,860.00,SA-0472
+2026-07-22,Johnstone Supply for SA-0476,Johnstone Supply,materials,-94.67,SA-0476
+2026-07-23,Payment INV-0391,Westport Dental Group,income,21300.00,SA-0391
+2026-07-23,Payment INV-0470,"Garza residence, 1931 Main St",income,350.00,SA-0470
+2026-07-23,Payment INV-0476,"Patel residence, 5707 Holmes Rd",income,700.00,SA-0476
+2026-07-23,Johnstone Supply for SA-0477,Johnstone Supply,materials,-139.32,SA-0477
+2026-07-24,Payment INV-0469,"Delgado residence, 2664 Oak St",income,780.00,SA-0469
+2026-07-24,Payment INV-0477,"Jensen residence, 1093 Broadway Blvd",income,870.00,SA-0477
+2026-07-24,Johnstone Supply for SA-0478,Johnstone Supply,materials,-52.81,SA-0478
+2026-07-24,Johnstone Supply for SA-0479,Johnstone Supply,materials,-40.85,SA-0479
+2026-07-24,Johnstone Supply for SA-0480,Johnstone Supply,materials,-24.18,SA-0480
+2026-07-24,Payment INV-0480,"Novak residence, 7665 Broadway Blvd",income,210.00,SA-0480
+2026-07-24,Fleet fuel,WEX Fleet Fuel,fuel,-703.70,
+2026-07-25,Payment INV-0452,"Kim residence, 4407 Ward Pkwy",income,530.00,SA-0452
+2026-07-25,Johnstone Supply for SA-0481,Johnstone Supply,materials,-98.05,SA-0481
+2026-07-25,Johnstone Supply for SA-0482,Johnstone Supply,materials,-133.23,SA-0482
+2026-07-25,Ferguson HVAC for SA-0483,Ferguson HVAC,materials,-4556.06,SA-0483
+2026-07-25,KCMO Permits for SA-0483,KCMO Permits,permits,-185.00,SA-0483
+2026-07-25,Card processing fees,Stripe,bank_fees,-664.50,
+2026-07-26,Payment INV-0474,"Mendez residence, 3969 Main St",income,7700.00,SA-0474
+2026-07-27,Payment INV-0461,"Schultz residence, 2272 State Line Rd",income,7300.00,SA-0461
+2026-07-27,Payment INV-0466,"Okafor residence, 5983 Brookside Blvd",income,730.00,SA-0466
+2026-07-27,Payment INV-0481,"Okafor residence, 670 Main St",income,650.00,SA-0481
+2026-07-27,Payment INV-0483,"Jensen residence, 607 Brookside Blvd",income,9500.00,SA-0483
+2026-07-27,Johnstone Supply for SA-0484,Johnstone Supply,materials,-132.15,SA-0484
+2026-07-27,Johnstone Supply for SA-0485,Johnstone Supply,materials,-86.50,SA-0485
+2026-07-28,Johnstone Supply for SA-0486,Johnstone Supply,materials,-56.10,SA-0486
+2026-07-28,Johnstone Supply for SA-0487,Johnstone Supply,materials,-116.51,SA-0487
+2026-07-29,Payment INV-0457,"Price residence, 5550 Holmes Rd",income,260.00,SA-0457
+2026-07-29,Payment INV-0479,"Lindqvist residence, 2049 Wornall Rd",income,250.00,SA-0479
+2026-07-29,Johnstone Supply for SA-0488,Johnstone Supply,materials,-34.28,SA-0488
+2026-07-29,Johnstone Supply for SA-0489,Johnstone Supply,materials,-98.63,SA-0489
+2026-07-30,Payment INV-0475,"Lindqvist residence, 4119 Troost Ave",income,5000.00,SA-0475
+2026-07-30,Johnstone Supply for SA-0490,Johnstone Supply,materials,-74.40,SA-0490
+2026-07-30,Payment INV-0490,"Russo residence, 333 State Line Rd",income,660.00,SA-0490
+2026-07-30,Johnstone Supply for SA-0491,Johnstone Supply,materials,-93.33,SA-0491
+2026-07-30,Johnstone Supply for SA-0492,Johnstone Supply,materials,-62.23,SA-0492
+2026-07-30,Ferguson HVAC for SA-0493,Ferguson HVAC,materials,-5632.81,SA-0493
+2026-07-30,KCMO Permits for SA-0493,KCMO Permits,permits,-185.00,SA-0493
+2026-07-31,Payment INV-0453,Waldo Vet Clinic,income,13700.00,SA-0453
+2026-07-31,Payment INV-0486,"Russo residence, 5979 Gillham Rd",income,450.00,SA-0486
+2026-07-31,Johnstone Supply for SA-0494,Johnstone Supply,materials,-126.49,SA-0494
+2026-07-31,Johnstone Supply for SA-0495,Johnstone Supply,materials,-125.31,SA-0495
+2026-07-31,Payment INV-0495,"Schultz residence, 3562 Brookside Blvd",income,790.00,SA-0495
+2026-07-31,Johnstone Supply for SA-0496,Johnstone Supply,materials,-56.53,SA-0496
+2026-08-01,Payment INV-0482,"Whitfield residence, 1169 Ward Pkwy",income,600.00,SA-0482
+2026-08-01,Payment INV-0484,"Hughes residence, 3877 State Line Rd",income,850.00,SA-0484
+2026-08-01,Payment INV-0485,"Coleman residence, 5181 Ward Pkwy",income,390.00,SA-0485
+2026-08-01,Payment INV-0489,"Ellison residence, 1777 Holmes Rd",income,610.00,SA-0489
+2026-08-01,Payment INV-0496,"Lindqvist residence, 1493 Broadway Blvd",income,370.00,SA-0496
+2026-08-01,Johnstone Supply for SA-0497,Johnstone Supply,materials,-63.83,SA-0497
+2026-08-01,Johnstone Supply for SA-0498,Johnstone Supply,materials,-103.44,SA-0498
+2026-08-01,Johnstone Supply for SA-0499,Johnstone Supply,materials,-61.52,SA-0499
+2026-08-01,Holmes Rd Properties,Holmes Rd Properties,rent,-3200.00,
+2026-08-01,Acuity Insurance,Acuity Insurance,insurance,-1720.00,
+2026-08-01,ServiceTitan,ServiceTitan,software,-398.00,
+2026-08-01,Payroll,Gusto,payroll,-20700.00,
+2026-08-02,Payment INV-0465,"Ellison residence, 8215 Oak St",income,410.00,SA-0465
+2026-08-02,Payment INV-0498,"Schultz residence, 679 Brookside Blvd",income,630.00,SA-0498
+2026-08-02,Payment INV-0499,"Miller residence, 5752 Brookside Blvd",income,570.00,SA-0499
+2026-08-03,Payment INV-0494,"Hughes residence, 644 State Line Rd",income,850.00,SA-0494
+2026-08-03,Johnstone Supply for SA-0500,Johnstone Supply,materials,-55.02,SA-0500
+2026-08-03,Fleet fuel,WEX Fleet Fuel,fuel,-675.80,
+2026-08-04,Payment INV-0491,"Abernathy residence, 9079 Holmes Rd",income,660.00,SA-0491
+2026-08-04,Payment INV-0492,"Abernathy residence, 2275 State Line Rd",income,280.00,SA-0492
+2026-08-04,Johnstone Supply for SA-0501,Johnstone Supply,materials,-153.33,SA-0501
+2026-08-04,Johnstone Supply for SA-0502,Johnstone Supply,materials,-112.59,SA-0502
+2026-08-04,Payment INV-0502,"Novak residence, 1237 Brookside Blvd",income,910.00,SA-0502
+2026-08-04,Johnstone Supply for SA-0503,Johnstone Supply,materials,-69.33,SA-0503
+2026-08-04,Ferguson HVAC for SA-0504,Ferguson HVAC,materials,-4859.73,SA-0504
+2026-08-04,KCMO Permits for SA-0504,KCMO Permits,permits,-185.00,SA-0504
+2026-08-05,Payment INV-0447,River Market Deli,income,21400.00,SA-0447
+2026-08-05,Payment INV-0488,"Patel residence, 3468 Main St",income,290.00,SA-0488
+2026-08-05,Johnstone Supply for SA-0505,Johnstone Supply,materials,-185.72,SA-0505
+2026-08-05,Payment INV-0505,"Okafor residence, 7895 Brookside Blvd",income,820.00,SA-0505
+2026-08-05,Johnstone Supply for SA-0506,Johnstone Supply,materials,-107.08,SA-0506
+2026-08-05,Johnstone Supply for SA-0507,Johnstone Supply,materials,-71.73,SA-0507
+2026-08-05,Intuit QuickBooks,Intuit QuickBooks,software,-90.00,
+2026-08-06,Payment INV-0493,"Sorensen residence, 6999 Holmes Rd",income,12100.00,SA-0493
+2026-08-06,Payment INV-0507,"Delgado residence, 9360 Wornall Rd",income,300.00,SA-0507
+2026-08-06,Johnstone Supply for SA-0508,Johnstone Supply,materials,-159.75,SA-0508
+2026-08-06,Payment INV-0508,"Bauer residence, 1297 Oak St",income,810.00,SA-0508
+2026-08-06,Johnstone Supply for SA-0509,Johnstone Supply,materials,-98.83,SA-0509
+2026-08-06,Johnstone Supply for SA-0510,Johnstone Supply,materials,-218.42,SA-0510
+2026-08-06,Payment INV-0510,"Abernathy residence, 5334 Ward Pkwy",income,920.00,SA-0510
+2026-08-08,Payment INV-0473,"Jensen residence, 7977 Wornall Rd",income,840.00,SA-0473
+2026-08-08,Payment INV-0497,"Sorensen residence, 1765 Wornall Rd",income,370.00,SA-0497
+2026-08-08,Payment INV-0504,"Tran residence, 7505 Ward Pkwy",income,8700.00,SA-0504
+2026-08-08,Johnstone Supply for SA-0511,Johnstone Supply,materials,-63.77,SA-0511
+2026-08-10,Johnstone Supply for SA-0512,Johnstone Supply,materials,-64.31,SA-0512
+2026-08-10,Payment INV-0512,"Garza residence, 2129 Wornall Rd",income,450.00,SA-0512
+2026-08-10,Johnstone Supply for SA-0513,Johnstone Supply,materials,-39.53,SA-0513
+2026-08-10,Johnstone Supply for SA-0514,Johnstone Supply,materials,-35.78,SA-0514
+2026-08-10,Payment INV-0514,"Abernathy residence, 2124 Gillham Rd",income,190.00,SA-0514
+2026-08-10,Fleet fuel,WEX Fleet Fuel,fuel,-675.80,
+2026-08-11,Payment INV-0478,"Hughes residence, 8426 Troost Ave",income,340.00,SA-0478
+2026-08-11,Johnstone Supply for SA-0515,Johnstone Supply,materials,-183.81,SA-0515
+2026-08-11,Payment INV-0515,"Tran residence, 8748 Troost Ave",income,750.00,SA-0515
+2026-08-11,Ferguson HVAC for SA-0516,Ferguson HVAC,materials,-4135.70,SA-0516
+2026-08-11,KCMO Permits for SA-0516,KCMO Permits,permits,-185.00,SA-0516
+2026-08-12,Johnstone Supply for SA-0517,Johnstone Supply,materials,-171.50,SA-0517
+2026-08-12,Payment INV-0517,"Delgado residence, 7064 Broadway Blvd",income,840.00,SA-0517
+2026-08-12,Johnstone Supply for SA-0518,Johnstone Supply,materials,-163.37,SA-0518
+2026-08-12,Google Ads,Google Ads,marketing,-1500.00,
+2026-08-13,Payment INV-0518,"Sorensen residence, 1165 Ward Pkwy",income,810.00,SA-0518
+2026-08-13,Johnstone Supply for SA-0519,Johnstone Supply,materials,-165.87,SA-0519
+2026-08-13,Johnstone Supply for SA-0520,Johnstone Supply,materials,-68.56,SA-0520
+2026-08-13,Johnstone Supply for SA-0521,Johnstone Supply,materials,-85.57,SA-0521
+2026-08-13,Ferguson HVAC for SA-0522,Ferguson HVAC,materials,-6944.57,SA-0522
+2026-08-13,KCMO Permits for SA-0522,KCMO Permits,permits,-185.00,SA-0522
+2026-08-14,Johnstone Supply for SA-0523,Johnstone Supply,materials,-182.99,SA-0523
+2026-08-14,Johnstone Supply for SA-0524,Johnstone Supply,materials,-67.89,SA-0524
+2026-08-14,Payment INV-0524,"Nguyen residence, 8606 Oak St",income,390.00,SA-0524
+2026-08-14,Johnstone Supply for SA-0525,Johnstone Supply,materials,-39.25,SA-0525
+2026-08-14,Ferguson HVAC for SA-0526,Ferguson HVAC,materials,-6520.55,SA-0526
+2026-08-14,KCMO Permits for SA-0526,KCMO Permits,permits,-185.00,SA-0526
+2026-08-15,Payment INV-0487,"Kowalski residence, 5752 Holmes Rd",income,870.00,SA-0487
+2026-08-15,Payment INV-0500,"Hughes residence, 3667 Wornall Rd",income,390.00,SA-0500
+2026-08-15,Payment INV-0511,"Kim residence, 1145 Holmes Rd",income,320.00,SA-0511
+2026-08-15,Payment INV-0525,"Mendez residence, 1881 Troost Ave",income,180.00,SA-0525
+2026-08-15,Johnstone Supply for SA-0527,Johnstone Supply,materials,-43.79,SA-0527
+2026-08-15,Johnstone Supply for SA-0528,Johnstone Supply,materials,-107.00,SA-0528
+2026-08-15,Payroll,Gusto,payroll,-20700.00,
+2026-08-17,Payment INV-0506,"Novak residence, 1376 Ward Pkwy",income,790.00,SA-0506
+2026-08-17,Johnstone Supply for SA-0529,Johnstone Supply,materials,-161.97,SA-0529
+2026-08-17,Payment INV-0529,"Mendez residence, 8713 Troost Ave",income,710.00,SA-0529
+2026-08-17,Johnstone Supply for SA-0530,Johnstone Supply,materials,-107.36,SA-0530
+2026-08-17,Johnstone Supply for SA-0531,Johnstone Supply,materials,-193.24,SA-0531
+2026-08-17,Fleet fuel,WEX Fleet Fuel,fuel,-675.80,
+2026-08-18,Payment INV-0509,"Mendez residence, 996 Wornall Rd",income,510.00,SA-0509
+2026-08-18,Payment INV-0516,"Garza residence, 8920 Ward Pkwy",income,7600.00,SA-0516
+2026-08-18,Payment INV-0519,"Lopez residence, 5512 Main St",income,680.00,SA-0519
+2026-08-18,Payment INV-0527,"Lopez residence, 9261 State Line Rd",income,190.00,SA-0527
+2026-08-18,Payment INV-0528,"Tran residence, 362 Broadway Blvd",income,750.00,SA-0528
+2026-08-18,Johnstone Supply for SA-0532,Johnstone Supply,materials,-99.64,SA-0532
+2026-08-18,Johnstone Supply for SA-0533,Johnstone Supply,materials,-55.33,SA-0533
+2026-08-18,Ferguson HVAC for SA-0534,Ferguson HVAC,materials,-3840.78,SA-0534
+2026-08-18,KCMO Permits for SA-0534,KCMO Permits,permits,-185.00,SA-0534
+2026-08-18,Evergy,Evergy,utilities,-471.00,
+2026-08-19,Johnstone Supply for SA-0535,Johnstone Supply,materials,-199.84,SA-0535
+2026-08-20,Payment INV-0534,"Schultz residence, 472 Main St",income,6800.00,SA-0534
+2026-08-20,Johnstone Supply for SA-0536,Johnstone Supply,materials,-60.77,SA-0536
+2026-08-20,Johnstone Supply for SA-0537,Johnstone Supply,materials,-90.98,SA-0537
+2026-08-20,Johnstone Supply for SA-0538,Johnstone Supply,materials,-56.33,SA-0538
+2026-08-20,Payment INV-0538,"Ortiz residence, 6246 State Line Rd",income,240.00,SA-0538
+2026-08-20,Verizon Business,Verizon Business,utilities,-260.00,
+2026-08-21,Payment INV-0523,"Jensen residence, 7121 Troost Ave",income,810.00,SA-0523
+2026-08-21,Payment INV-0535,"Novak residence, 3628 Broadway Blvd",income,850.00,SA-0535
+2026-08-21,Johnstone Supply for SA-0539,Johnstone Supply,materials,-123.83,SA-0539
+2026-08-22,Payment INV-0501,"Ellison residence, 9730 Broadway Blvd",income,880.00,SA-0501
+2026-08-22,Payment INV-0503,"Ortiz residence, 9430 Gillham Rd",income,370.00,SA-0503
+2026-08-22,Payment INV-0513,"Miller residence, 6393 Holmes Rd",income,320.00,SA-0513
+2026-08-22,Johnstone Supply for SA-0540,Johnstone Supply,materials,-30.14,SA-0540
+2026-08-22,Johnstone Supply for SA-0541,Johnstone Supply,materials,-64.61,SA-0541
+2026-08-23,Payment INV-0533,"Sorensen residence, 2148 Main St",income,550.00,SA-0533
+2026-08-23,Payment INV-0541,"Kowalski residence, 9590 Holmes Rd",income,280.00,SA-0541
+2026-08-24,Payment INV-0530,"Schultz residence, 4710 Brookside Blvd",income,880.00,SA-0530
+2026-08-24,Johnstone Supply for SA-0542,Johnstone Supply,materials,-197.36,SA-0542
+2026-08-24,Johnstone Supply for SA-0543,Johnstone Supply,materials,-124.62,SA-0543
+2026-08-24,Fleet fuel,WEX Fleet Fuel,fuel,-675.80,
+2026-08-25,Payment INV-0520,"Moreau residence, 1108 Wornall Rd",income,520.00,SA-0520
+2026-08-25,Payment INV-0537,"Kowalski residence, 6163 Ward Pkwy",income,500.00,SA-0537
+2026-08-25,Johnstone Supply for SA-0544,Johnstone Supply,materials,-23.02,SA-0544
+2026-08-25,Payment INV-0544,"Iverson residence, 3515 Gillham Rd",income,210.00,SA-0544
+2026-08-25,Johnstone Supply for SA-0545,Johnstone Supply,materials,-88.66,SA-0545
+2026-08-25,Johnstone Supply for SA-0546,Johnstone Supply,materials,-92.42,SA-0546
+2026-08-25,Johnstone Supply for SA-0547,Johnstone Supply,materials,-1384.30,SA-0547
+2026-08-25,Card processing fees,Stripe,bank_fees,-562.00,
+2026-08-26,Payment INV-0539,"Mendez residence, 1295 Wornall Rd",income,550.00,SA-0539
+2026-08-26,Johnstone Supply for SA-0548,Johnstone Supply,materials,-44.07,SA-0548
+2026-08-26,Payment INV-0548,"Kowalski residence, 6721 Wornall Rd",income,260.00,SA-0548
+2026-08-26,Johnstone Supply for SA-0549,Johnstone Supply,materials,-118.37,SA-0549
+2026-08-26,Johnstone Supply for SA-0550,Johnstone Supply,materials,-199.48,SA-0550
+2026-08-27,Payment INV-0456,Crown Center Retail,income,15600.00,SA-0456
+2026-08-27,Payment INV-0522,"Miller residence, 3328 Troost Ave",income,12600.00,SA-0522
+2026-08-27,Payment INV-0543,"Jensen residence, 8512 Broadway Blvd",income,750.00,SA-0543
+2026-08-27,Payment INV-0549,"Ellison residence, 5026 Holmes Rd",income,780.00,SA-0549
+2026-08-27,Payment INV-0550,"Ortiz residence, 1836 Broadway Blvd",income,940.00,SA-0550
+2026-08-27,Johnstone Supply for SA-0551,Johnstone Supply,materials,-44.88,SA-0551
+2026-08-27,Johnstone Supply for SA-0552,Johnstone Supply,materials,-115.24,SA-0552
+2026-08-27,Ferguson HVAC for SA-0553,Ferguson HVAC,materials,-10246.25,SA-0553
+2026-08-27,Midwest Crane & Rigging for SA-0553,Midwest Crane & Rigging,equipment,-1100.00,SA-0553
+2026-08-27,KCMO Permits for SA-0553,KCMO Permits,permits,-450.00,SA-0553
+2026-08-28,Payment INV-0526,"Ortiz residence, 2023 Holmes Rd",income,13200.00,SA-0526
+2026-08-28,Johnstone Supply for SA-0554,Johnstone Supply,materials,-117.41,SA-0554
+2026-08-28,Payment INV-0554,"Miller residence, 2180 Main St",income,690.00,SA-0554
+2026-08-28,Johnstone Supply for SA-0555,Johnstone Supply,materials,-116.06,SA-0555
+2026-08-28,Johnstone Supply for SA-0556,Johnstone Supply,materials,-212.54,SA-0556
+2026-08-29,Payment INV-0531,"Okafor residence, 1386 Ward Pkwy",income,830.00,SA-0531
+2026-08-29,Payment INV-0540,"Price residence, 6451 Holmes Rd",income,270.00,SA-0540
+2026-08-29,Payment INV-0542,"Sorensen residence, 3371 Troost Ave",income,790.00,SA-0542
+2026-08-29,Payment INV-0547,"Russo residence, 1025 Ward Pkwy",income,4100.00,SA-0547
+2026-08-29,Johnstone Supply for SA-0557,Johnstone Supply,materials,-100.21,SA-0557
+2026-08-29,Ferguson HVAC for SA-0558,Ferguson HVAC,materials,-6393.74,SA-0558
+2026-08-29,KCMO Permits for SA-0558,KCMO Permits,permits,-185.00,SA-0558
+2026-08-30,Payment INV-0532,"Novak residence, 3113 Oak St",income,420.00,SA-0532
+2026-08-30,Payment INV-0545,"Price residence, 506 Oak St",income,730.00,SA-0545
+2026-08-31,Payment INV-0521,"Schultz residence, 3077 Broadway Blvd",income,370.00,SA-0521
+2026-08-31,Payment INV-0555,"Abernathy residence, 8663 State Line Rd",income,760.00,SA-0555
+2026-08-31,Johnstone Supply for SA-0559,Johnstone Supply,materials,-62.27,SA-0559
+2026-08-31,Payment INV-0559,"Coleman residence, 4103 Oak St",income,260.00,SA-0559
+2026-08-31,Ferguson HVAC for SA-0560,Ferguson HVAC,materials,-4015.64,SA-0560
+2026-08-31,KCMO Permits for SA-0560,KCMO Permits,permits,-185.00,SA-0560
+2026-09-01,Payment INV-0558,"Ellison residence, 3066 Ward Pkwy",income,12700.00,SA-0558
+2026-09-01,Johnstone Supply for SA-0561,Johnstone Supply,materials,-155.17,SA-0561
+2026-09-01,Johnstone Supply for SA-0562,Johnstone Supply,materials,-156.77,SA-0562
+2026-09-01,Ferguson HVAC for SA-0563,Ferguson HVAC,materials,-5821.30,SA-0563
+2026-09-01,KCMO Permits for SA-0563,KCMO Permits,permits,-185.00,SA-0563
+2026-09-01,Johnstone Supply for SA-0787,Johnstone Supply,materials,-18.94,SA-0787
+2026-09-01,Johnstone Supply for SA-0826,Johnstone Supply,materials,-14.49,SA-0826
+2026-09-01,Holmes Rd Properties,Holmes Rd Properties,rent,-3200.00,
+2026-09-01,Acuity Insurance,Acuity Insurance,insurance,-1720.00,
+2026-09-01,ServiceTitan,ServiceTitan,software,-398.00,
+2026-09-01,Payroll,Gusto,payroll,-19500.00,
+2026-09-02,Payment INV-0556,"Quinn residence, 7123 Oak St",income,920.00,SA-0556
+2026-09-02,Payment INV-0560,"Iverson residence, 2685 Holmes Rd",income,7700.00,SA-0560
+2026-09-02,Johnstone Supply for SA-0564,Johnstone Supply,materials,-60.94,SA-0564
+2026-09-02,Johnstone Supply for SA-0565,Johnstone Supply,materials,-57.99,SA-0565
+2026-09-02,Johnstone Supply for SA-0566,Johnstone Supply,materials,-125.16,SA-0566
+2026-09-02,Johnstone Supply for SA-0678,Johnstone Supply,materials,-20.96,SA-0678
+2026-09-02,Payment INV-0678,"Iverson residence, 5140 Oak St",income,149.00,SA-0678
+2026-09-02,Payment INV-0787,"Kim residence, 7069 Oak St",income,149.00,SA-0787
+2026-09-02,Johnstone Supply for SA-0790,Johnstone Supply,materials,-24.57,SA-0790
+2026-09-02,Payment INV-0826,"Abernathy residence, 4928 Broadway Blvd",income,149.00,SA-0826
+2026-09-03,Payment INV-0551,"Quinn residence, 533 Gillham Rd",income,270.00,SA-0551
+2026-09-03,Payment INV-0565,"Jensen residence, 688 State Line Rd",income,320.00,SA-0565
+2026-09-03,Johnstone Supply for SA-0567,Johnstone Supply,materials,-127.79,SA-0567
+2026-09-03,Johnstone Supply for SA-0568,Johnstone Supply,materials,-136.49,SA-0568
+2026-09-03,Johnstone Supply for SA-0569,Johnstone Supply,materials,-111.88,SA-0569
+2026-09-03,Johnstone Supply for SA-0628,Johnstone Supply,materials,-21.09,SA-0628
+2026-09-03,Johnstone Supply for SA-0734,Johnstone Supply,materials,-16.66,SA-0734
+2026-09-03,Fleet fuel,WEX Fleet Fuel,fuel,-592.10,
+2026-09-04,Payment INV-0562,"Quinn residence, 3907 Brookside Blvd",income,940.00,SA-0562
+2026-09-04,Payment INV-0564,"Tran residence, 1298 Broadway Blvd",income,480.00,SA-0564
+2026-09-04,Payment INV-0566,"Lopez residence, 6301 Broadway Blvd",income,770.00,SA-0566
+2026-09-04,Johnstone Supply for SA-0570,Johnstone Supply,materials,-112.27,SA-0570
+2026-09-04,Ferguson HVAC for SA-0571,Ferguson HVAC,materials,-7299.96,SA-0571
+2026-09-04,KCMO Permits for SA-0571,KCMO Permits,permits,-185.00,SA-0571
+2026-09-04,Payment INV-0628,"Russo residence, 1706 Gillham Rd",income,149.00,SA-0628
+2026-09-04,Johnstone Supply for SA-0721,Johnstone Supply,materials,-19.57,SA-0721
+2026-09-04,Johnstone Supply for SA-0758,Johnstone Supply,materials,-25.14,SA-0758
+2026-09-05,Payment INV-0557,"Okafor residence, 4685 State Line Rd",income,680.00,SA-0557
+2026-09-05,Johnstone Supply for SA-0572,Johnstone Supply,materials,-55.56,SA-0572
+2026-09-05,Johnstone Supply for SA-0696,Johnstone Supply,materials,-16.89,SA-0696
+2026-09-05,Payment INV-0790,"Russo residence, 3167 State Line Rd",income,149.00,SA-0790
+2026-09-05,Intuit QuickBooks,Intuit QuickBooks,software,-90.00,
+2026-09-06,Payment INV-0546,"Coleman residence, 7058 State Line Rd",income,410.00,SA-0546
+2026-09-06,Payment INV-0758,"Ellison residence, 7899 State Line Rd",income,149.00,SA-0758
+2026-09-06,Johnstone Supply for SA-0851,Johnstone Supply,materials,-23.00,SA-0851
+2026-09-07,Payment INV-0536,"Schultz residence, 9196 Troost Ave",income,520.00,SA-0536
+2026-09-07,Payment INV-0571,"Garza residence, 340 Holmes Rd",income,14300.00,SA-0571
+2026-09-07,Johnstone Supply for SA-0573,Johnstone Supply,materials,-155.13,SA-0573
+2026-09-07,Ferguson HVAC for SA-0574,Ferguson HVAC,materials,-6590.67,SA-0574
+2026-09-07,KCMO Permits for SA-0574,KCMO Permits,permits,-185.00,SA-0574
+2026-09-07,Johnstone Supply for SA-0693,Johnstone Supply,materials,-16.15,SA-0693
+2026-09-07,Payment INV-0721,"Mendez residence, 3357 Holmes Rd",income,149.00,SA-0721
+2026-09-08,Payment INV-0561,"Schultz residence, 3296 Troost Ave",income,740.00,SA-0561
+2026-09-08,Payment INV-0573,"Tran residence, 6190 Brookside Blvd",income,630.00,SA-0573
+2026-09-08,Johnstone Supply for SA-0575,Johnstone Supply,materials,-1535.67,SA-0575
+2026-09-08,Payment INV-0696,"Jensen residence, 8055 Gillham Rd",income,149.00,SA-0696
+2026-09-08,Johnstone Supply for SA-0713,Johnstone Supply,materials,-17.69,SA-0713
+2026-09-09,Payment INV-0570,"Novak residence, 650 Wornall Rd",income,740.00,SA-0570
+2026-09-09,Johnstone Supply for SA-0576,Johnstone Supply,materials,-68.21,SA-0576
+2026-09-09,Payment INV-0576,"Iverson residence, 8690 Troost Ave",income,300.00,SA-0576
+2026-09-09,Ferguson HVAC for SA-0577,Ferguson HVAC,materials,-5743.91,SA-0577
+2026-09-09,KCMO Permits for SA-0577,KCMO Permits,permits,-185.00,SA-0577
+2026-09-09,Payment INV-0713,"Kowalski residence, 6838 Brookside Blvd",income,149.00,SA-0713
+2026-09-09,Johnstone Supply for SA-0748,Johnstone Supply,materials,-22.09,SA-0748
+2026-09-09,Johnstone Supply for SA-0829,Johnstone Supply,materials,-12.04,SA-0829
+2026-09-09,Johnstone Supply for SA-0835,Johnstone Supply,materials,-12.44,SA-0835
+2026-09-10,Payment INV-0563,"Quinn residence, 1148 State Line Rd",income,11700.00,SA-0563
+2026-09-10,Payment INV-0575,"Mendez residence, 5475 Gillham Rd",income,4200.00,SA-0575
+2026-09-10,Johnstone Supply for SA-0578,Johnstone Supply,materials,-79.92,SA-0578
+2026-09-10,Ferguson HVAC for SA-0579,Ferguson HVAC,materials,-6995.16,SA-0579
+2026-09-10,KCMO Permits for SA-0579,KCMO Permits,permits,-185.00,SA-0579
+2026-09-10,Fleet fuel,WEX Fleet Fuel,fuel,-592.10,
+2026-09-11,Ferguson HVAC for SA-0580,Ferguson HVAC,materials,-9531.36,SA-0580
+2026-09-11,Midwest Crane & Rigging for SA-0580,Midwest Crane & Rigging,equipment,-1100.00,SA-0580
+2026-09-11,KCMO Permits for SA-0580,KCMO Permits,permits,-450.00,SA-0580
+2026-09-11,Payment INV-0748,"Mendez residence, 3322 Troost Ave",income,149.00,SA-0748
+2026-09-12,Johnstone Supply for SA-0581,Johnstone Supply,materials,-54.84,SA-0581
+2026-09-12,Johnstone Supply for SA-0582,Johnstone Supply,materials,-32.65,SA-0582
+2026-09-12,Johnstone Supply for SA-0583,Johnstone Supply,materials,-62.68,SA-0583
+2026-09-12,Johnstone Supply for SA-0842,Johnstone Supply,materials,-23.31,SA-0842
+2026-09-12,Payment INV-0842,"Abernathy residence, 1147 Wornall Rd",income,149.00,SA-0842
+2026-09-12,Johnstone Supply for SA-0868,Johnstone Supply,materials,-19.47,SA-0868
+2026-09-12,Google Ads,Google Ads,marketing,-2400.00,
+2026-09-13,Payment INV-0579,"Novak residence, 1856 Holmes Rd",income,14400.00,SA-0579
+2026-09-13,Payment INV-0581,"Lopez residence, 3863 State Line Rd",income,260.00,SA-0581
+2026-09-13,Johnstone Supply for SA-0625,Johnstone Supply,materials,-16.16,SA-0625
+2026-09-14,Payment INV-0552,"Okafor residence, 9600 Troost Ave",income,860.00,SA-0552
+2026-09-14,Payment INV-0582,"Quinn residence, 8163 Troost Ave",income,190.00,SA-0582
+2026-09-14,Johnstone Supply for SA-0584,Johnstone Supply,materials,-73.56,SA-0584
+2026-09-14,Payment INV-0625,"Garza residence, 1422 Main St",income,149.00,SA-0625
+2026-09-14,Payment INV-0868,"Iverson residence, 6230 Oak St",income,149.00,SA-0868
+2026-09-15,Payment INV-0567,"Kowalski residence, 636 Gillham Rd",income,880.00,SA-0567
+2026-09-15,Payment INV-0569,"Lopez residence, 8088 Ward Pkwy",income,690.00,SA-0569
+2026-09-15,Payment INV-0578,"Nguyen residence, 7398 State Line Rd",income,650.00,SA-0578
+2026-09-15,Johnstone Supply for SA-0585,Johnstone Supply,materials,-135.24,SA-0585
+2026-09-15,Payment INV-0585,"Tran residence, 3769 Gillham Rd",income,600.00,SA-0585
+2026-09-15,Ferguson HVAC for SA-0586,Ferguson HVAC,materials,-7269.50,SA-0586
+2026-09-15,Midwest Crane & Rigging for SA-0586,Midwest Crane & Rigging,equipment,-1100.00,SA-0586
+2026-09-15,KCMO Permits for SA-0586,KCMO Permits,permits,-450.00,SA-0586
+2026-09-15,Johnstone Supply for SA-0806,Johnstone Supply,materials,-22.64,SA-0806
+2026-09-15,Payroll,Gusto,payroll,-19500.00,
+2026-09-16,Johnstone Supply for SA-0587,Johnstone Supply,materials,-101.30,SA-0587
+2026-09-16,Johnstone Supply for SA-0653,Johnstone Supply,materials,-18.89,SA-0653
+2026-09-16,Johnstone Supply for SA-0833,Johnstone Supply,materials,-24.80,SA-0833
+2026-09-17,Johnstone Supply for SA-0588,Johnstone Supply,materials,-72.41,SA-0588
+2026-09-17,Johnstone Supply for SA-0731,Johnstone Supply,materials,-14.67,SA-0731
+2026-09-17,Payment INV-0731,"Abernathy residence, 8160 Brookside Blvd",income,149.00,SA-0731
+2026-09-17,Johnstone Supply for SA-0821,Johnstone Supply,materials,-26.61,SA-0821
+2026-09-17,Fleet fuel,WEX Fleet Fuel,fuel,-592.10,
+2026-09-18,Payment INV-0587,"Moreau residence, 4494 Troost Ave",income,440.00,SA-0587
+2026-09-18,Johnstone Supply for SA-0589,Johnstone Supply,materials,-111.79,SA-0589
+2026-09-18,Johnstone Supply for SA-0590,Johnstone Supply,materials,-89.11,SA-0590
+2026-09-18,Johnstone Supply for SA-0591,Johnstone Supply,materials,-182.12,SA-0591
+2026-09-18,Johnstone Supply for SA-0683,Johnstone Supply,materials,-21.61,SA-0683
+2026-09-18,Payment INV-0683,"Mendez residence, 6685 Troost Ave",income,149.00,SA-0683
+2026-09-18,Johnstone Supply for SA-0710,Johnstone Supply,materials,-19.35,SA-0710
+2026-09-18,Payment INV-0833,"Haddad residence, 2906 Main St",income,149.00,SA-0833
+2026-09-18,Payment INV-0851,"Haddad residence, 352 Ward Pkwy",income,149.00,SA-0851
+2026-09-18,Evergy,Evergy,utilities,-406.00,
+2026-09-19,Johnstone Supply for SA-0592,Johnstone Supply,materials,-122.23,SA-0592
+2026-09-19,Johnstone Supply for SA-0593,Johnstone Supply,materials,-102.20,SA-0593
+2026-09-19,Johnstone Supply for SA-0594,Johnstone Supply,materials,-31.75,SA-0594
+2026-09-19,Payment INV-0693,"Mendez residence, 8667 Gillham Rd",income,149.00,SA-0693
+2026-09-19,Payment INV-0710,"Tran residence, 1683 Holmes Rd",income,149.00,SA-0710
+2026-09-20,Payment INV-0588,"Novak residence, 1716 Ward Pkwy",income,350.00,SA-0588
+2026-09-20,Johnstone Supply for SA-0620,Johnstone Supply,materials,-13.70,SA-0620
+2026-09-20,Johnstone Supply for SA-0657,Johnstone Supply,materials,-19.38,SA-0657
+2026-09-20,Verizon Business,Verizon Business,utilities,-260.00,
+2026-09-21,Payment INV-0568,"Mendez residence, 2011 Oak St",income,880.00,SA-0568
+2026-09-21,Payment INV-0592,"Haddad residence, 4381 Troost Ave",income,590.00,SA-0592
+2026-09-21,Johnstone Supply for SA-0595,Johnstone Supply,materials,-92.87,SA-0595
+2026-09-21,Payment INV-0620,"Novak residence, 8142 Broadway Blvd",income,149.00,SA-0620
+2026-09-21,Johnstone Supply for SA-0671,Johnstone Supply,materials,-21.33,SA-0671
+2026-09-21,Payment INV-0671,"Lindqvist residence, 7998 Holmes Rd",income,149.00,SA-0671
+2026-09-21,Payment INV-0734,"Moreau residence, 3752 Gillham Rd",income,149.00,SA-0734
+2026-09-21,Payment INV-0829,"Kim residence, 9205 Brookside Blvd",income,149.00,SA-0829
+2026-09-21,Johnstone Supply for SA-0865,Johnstone Supply,materials,-21.14,SA-0865
+2026-09-22,Johnstone Supply for SA-0596,Johnstone Supply,materials,-136.95,SA-0596
+2026-09-22,Johnstone Supply for SA-0686,Johnstone Supply,materials,-23.65,SA-0686
+2026-09-22,Johnstone Supply for SA-0796,Johnstone Supply,materials,-20.31,SA-0796
+2026-09-22,Payment INV-0796,"Sorensen residence, 2999 State Line Rd",income,149.00,SA-0796
+2026-09-22,Payment INV-0806,"Ortiz residence, 3611 Holmes Rd",income,149.00,SA-0806
+2026-09-22,Johnstone Supply for SA-0813,Johnstone Supply,materials,-22.01,SA-0813
+2026-09-23,Payment INV-0572,"Lopez residence, 5486 Brookside Blvd",income,340.00,SA-0572
+2026-09-23,Payment INV-0577,"Ortiz residence, 7552 Ward Pkwy",income,10700.00,SA-0577
+2026-09-23,Payment INV-0591,"Coleman residence, 2199 Broadway Blvd",income,760.00,SA-0591
+2026-09-23,Johnstone Supply for SA-0597,Johnstone Supply,materials,-116.39,SA-0597
+2026-09-23,Johnstone Supply for SA-0635,Johnstone Supply,materials,-14.58,SA-0635
+2026-09-23,Payment INV-0653,"Bauer residence, 2007 Troost Ave",income,149.00,SA-0653
+2026-09-23,Johnstone Supply for SA-0728,Johnstone Supply,materials,-25.96,SA-0728
+2026-09-24,Payment INV-0595,"Hughes residence, 1918 Main St",income,550.00,SA-0595
+2026-09-24,Johnstone Supply for SA-0598,Johnstone Supply,materials,-35.65,SA-0598
+2026-09-24,Johnstone Supply for SA-0599,Johnstone Supply,materials,-90.86,SA-0599
+2026-09-24,Payment INV-0865,"Sorensen residence, 7081 Main St",income,149.00,SA-0865
+2026-09-24,Fleet fuel,WEX Fleet Fuel,fuel,-592.10,
+2026-09-25,Payment INV-0589,"Kim residence, 9569 Ward Pkwy",income,570.00,SA-0589
+2026-09-25,Payment INV-0597,"Brooks residence, 2849 Main St",income,570.00,SA-0597
+2026-09-25,Johnstone Supply for SA-0600,Johnstone Supply,materials,-177.33,SA-0600
+2026-09-25,Johnstone Supply for SA-0601,Johnstone Supply,materials,-53.49,SA-0601
+2026-09-25,Johnstone Supply for SA-0602,Johnstone Supply,materials,-27.84,SA-0602
+2026-09-25,Payment INV-0635,"Tran residence, 5943 Troost Ave",income,149.00,SA-0635
+2026-09-25,Johnstone Supply for SA-0737,Johnstone Supply,materials,-19.63,SA-0737
+2026-09-25,Johnstone Supply for SA-0818,Johnstone Supply,materials,-17.01,SA-0818
+2026-09-25,Payment INV-0818,"Moreau residence, 9477 Oak St",income,149.00,SA-0818
+2026-09-25,Card processing fees,Stripe,bank_fees,-413.50,
+2026-09-26,Payment INV-0584,"Brooks residence, 3878 Main St",income,390.00,SA-0584
+2026-09-26,Payment INV-0598,"Moreau residence, 585 Troost Ave",income,210.00,SA-0598
+2026-09-26,Payment INV-0601,"Nguyen residence, 5980 Broadway Blvd",income,310.00,SA-0601
+2026-09-26,Johnstone Supply for SA-0603,Johnstone Supply,materials,-71.38,SA-0603
+2026-09-26,Johnstone Supply for SA-0615,Johnstone Supply,materials,-26.28,SA-0615
+2026-09-26,Payment INV-0728,"Miller residence, 5235 Broadway Blvd",income,149.00,SA-0728
+2026-09-26,Payment INV-0737,"Abernathy residence, 2249 Broadway Blvd",income,149.00,SA-0737
+2026-09-26,Johnstone Supply for SA-0801,Johnstone Supply,materials,-18.10,SA-0801
+2026-09-27,Payment INV-0574,"Jensen residence, 6511 Brookside Blvd",income,12900.00,SA-0574
+2026-09-27,Payment INV-0596,"Nguyen residence, 3412 Holmes Rd",income,570.00,SA-0596
+2026-09-27,Payment INV-0600,"Price residence, 3771 Brookside Blvd",income,770.00,SA-0600
+2026-09-27,Payment INV-0615,"Price residence, 9218 Troost Ave",income,149.00,SA-0615
+2026-09-27,Johnstone Supply for SA-0632,Johnstone Supply,materials,-22.77,SA-0632
+2026-09-27,Payment INV-0801,"Nguyen residence, 8738 Oak St",income,149.00,SA-0801
+2026-09-27,Payment INV-0835,"Iverson residence, 1090 State Line Rd",income,149.00,SA-0835
+2026-09-28,Johnstone Supply for SA-0604,Johnstone Supply,materials,-51.25,SA-0604
+2026-09-28,Johnstone Supply for SA-0605,Johnstone Supply,materials,-83.29,SA-0605
+2026-09-28,Johnstone Supply for SA-0606,Johnstone Supply,materials,-41.18,SA-0606
+2026-09-28,Payment INV-0606,"Bauer residence, 8673 Broadway Blvd",income,390.00,SA-0606
+2026-09-29,Payment INV-0603,"Whitfield residence, 6600 Broadway Blvd",income,410.00,SA-0603
+2026-09-29,Johnstone Supply for SA-0607,Johnstone Supply,materials,-116.30,SA-0607
+2026-09-29,Payment INV-0607,"Sorensen residence, 9417 Broadway Blvd",income,790.00,SA-0607
+2026-09-29,Johnstone Supply for SA-0608,Johnstone Supply,materials,-179.82,SA-0608
+2026-09-29,Payment INV-0686,"Delgado residence, 4923 Wornall Rd",income,149.00,SA-0686
+2026-09-30,Payment INV-0583,"Lindqvist residence, 5809 State Line Rd",income,450.00,SA-0583
+2026-09-30,Payment INV-0590,"Nguyen residence, 5465 State Line Rd",income,890.00,SA-0590
+2026-09-30,Johnstone Supply for SA-0609,Johnstone Supply,materials,-96.00,SA-0609
+2026-09-30,Payment INV-0632,"Delgado residence, 6608 Wornall Rd",income,149.00,SA-0632

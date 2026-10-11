@@ -113,7 +113,7 @@ def client(monkeypatch):
     async def fake_identify(filename, lines):
         return PLANS[filename]
 
-    async def fake_categorize(transactions):
+    async def fake_categorize(transactions, **kwargs):
         for t in transactions:
             t.category, t.vendor = ("income" if t.amount > 0 else "materials"), t.description.title()
 

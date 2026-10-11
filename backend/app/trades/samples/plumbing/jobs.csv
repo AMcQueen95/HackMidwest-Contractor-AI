@@ -1,0 +1,1293 @@
+job_id,customer,job_type,start_date,end_date,quoted_price,labor_hours,status
+RP-0001,"Lindqvist residence, 808 Brookside Blvd",Leak repair - kitchen sink,2025-10-01,2025-10-01,510.00,1,completed
+RP-0002,"Delgado residence, 9817 Main St",Shutoff valve replacement,2025-10-02,2025-10-02,400.00,1,completed
+RP-0003,"Whitfield residence, 6521 State Line Rd",Faucet replacement,2025-10-02,2025-10-02,240.00,1.5,completed
+RP-0004,"Okafor residence, 3047 State Line Rd",Drain cleaning - main line clog,2025-10-02,2025-10-02,200.00,1.5,completed
+RP-0005,"Delgado residence, 7184 State Line Rd",After-hours drain backup,2025-10-02,2025-10-02,640.00,2,completed
+RP-0006,"Iverson residence, 5283 Holmes Rd",Garbage disposal repair,2025-10-03,2025-10-03,340.00,1,completed
+RP-0007,"Reyes residence, 9042 Wornall Rd",Toilet repair,2025-10-03,2025-10-03,410.00,1,completed
+RP-0008,"Nguyen residence, 6640 Wornall Rd",Drain cleaning - main line clog,2025-10-03,2025-10-03,370.00,2,completed
+RP-0009,"Whitfield residence, 7385 Troost Ave",Drain cleaning with camera inspection,2025-10-03,2025-10-03,450.00,1.5,completed
+RP-0010,"Whitfield residence, 7385 Troost Ave",Sewer line replacement,2025-10-15,2025-10-17,14200.00,32,completed
+RP-0011,"Bauer residence, 9777 Ward Pkwy",Faucet replacement,2025-10-04,2025-10-04,610.00,1,completed
+RP-0012,"Kim residence, 8124 Gillham Rd",Service call - running toilet,2025-10-04,2025-10-04,510.00,2,completed
+RP-0013,"Okafor residence, 2265 Main St",Drain cleaning with camera inspection,2025-10-04,2025-10-04,450.00,2.5,completed
+RP-0014,"Brooks residence, 9184 Gillham Rd",Service call - running toilet,2025-10-06,2025-10-06,290.00,3,completed
+RP-0015,"Russo residence, 7749 State Line Rd",Sump pump repair,2025-10-06,2025-10-06,440.00,1.5,completed
+RP-0016,"Delgado residence, 4895 Troost Ave",Service call - running toilet,2025-10-06,2025-10-06,310.00,1.5,completed
+RP-0017,"Lindqvist residence, 4122 Troost Ave",Sump pump repair,2025-10-06,2025-10-06,350.00,2,completed
+RP-0018,"Lopez residence, 719 Ward Pkwy",Drain cleaning with camera inspection,2025-10-06,2025-10-06,610.00,2,completed
+RP-0019,"Lopez residence, 719 Ward Pkwy",Whole-house repipe,2025-10-23,2025-10-25,10000.00,32,completed
+RP-0020,"Tran residence, 1940 Holmes Rd",Tankless water heater install,2025-10-06,2025-10-06,1980.00,4,completed
+RP-0021,"Iverson residence, 4644 Brookside Blvd",Shutoff valve replacement,2025-10-07,2025-10-07,360.00,3,completed
+RP-0022,"Bauer residence, 191 Ward Pkwy",Toilet repair,2025-10-07,2025-10-07,290.00,2,completed
+RP-0023,"Schultz residence, 9592 Wornall Rd",Faucet replacement,2025-10-07,2025-10-07,570.00,3,completed
+RP-0024,"Jensen residence, 9506 Holmes Rd",Emergency - burst pipe,2025-10-07,2025-10-07,580.00,2,completed
+RP-0025,"Novak residence, 6451 Troost Ave",Service call - running toilet,2025-10-08,2025-10-08,270.00,1.5,completed
+RP-0026,"Ortiz residence, 9448 Holmes Rd",Service call - running toilet,2025-10-08,2025-10-08,340.00,1.5,completed
+RP-0027,"Novak residence, 9100 Ward Pkwy",Drain cleaning with camera inspection,2025-10-08,2025-10-08,670.00,2,completed
+RP-0028,"Price residence, 7316 Oak St",Shutoff valve replacement,2025-10-09,2025-10-09,260.00,1.5,completed
+RP-0029,"Kim residence, 7965 Gillham Rd",Service call - running toilet,2025-10-09,2025-10-09,370.00,1,completed
+RP-0030,"Patel residence, 7722 State Line Rd",Toilet repair,2025-10-09,2025-10-09,230.00,1,completed
+RP-0031,"Haddad residence, 3688 Ward Pkwy",Drain cleaning with camera inspection,2025-10-09,2025-10-09,510.00,2.5,completed
+RP-0032,"Haddad residence, 3688 Ward Pkwy",Trenchless sewer repair,2025-11-09,2025-11-11,10100.00,24,completed
+RP-0033,"Moreau residence, 4320 Main St",Drain cleaning - main line clog,2025-10-09,2025-10-09,300.00,2,completed
+RP-0034,"Whitfield residence, 6999 State Line Rd",Toilet repair,2025-10-10,2025-10-10,280.00,2,completed
+RP-0035,"Iverson residence, 3804 Wornall Rd",Faucet replacement,2025-10-10,2025-10-10,180.00,1.5,completed
+RP-0036,"Sorensen residence, 7179 Holmes Rd",Drain cleaning with camera inspection,2025-10-10,2025-10-10,580.00,1.5,completed
+RP-0037,"Kim residence, 5367 State Line Rd",Shutoff valve replacement,2025-10-11,2025-10-11,220.00,2,completed
+RP-0038,"Price residence, 3839 Oak St",Leak repair - kitchen sink,2025-10-11,2025-10-11,470.00,1.5,completed
+RP-0039,"Hughes residence, 7331 Oak St",Faucet replacement,2025-10-11,2025-10-11,520.00,2,completed
+RP-0040,"Kowalski residence, 2441 Gillham Rd",Drain cleaning - main line clog,2025-10-11,2025-10-11,230.00,2.5,completed
+RP-0041,"Quinn residence, 9676 State Line Rd",Garbage disposal repair,2025-10-13,2025-10-13,210.00,3,completed
+RP-0042,"Jensen residence, 3177 Brookside Blvd",Drain cleaning with camera inspection,2025-10-13,2025-10-13,530.00,2,completed
+RP-0043,"Jensen residence, 3177 Brookside Blvd",Whole-house repipe,2025-10-24,2025-10-26,12400.00,32,completed
+RP-0044,"Hughes residence, 4840 Brookside Blvd",Drain cleaning - main line clog,2025-10-13,2025-10-13,420.00,1.5,completed
+RP-0045,"Ellison residence, 951 Wornall Rd",Shutoff valve replacement,2025-10-14,2025-10-14,350.00,3,completed
+RP-0046,"Patel residence, 8990 Brookside Blvd",Emergency - no water,2025-10-14,2025-10-14,380.00,3,completed
+RP-0047,"Mendez residence, 5982 Oak St",Garbage disposal repair,2025-10-15,2025-10-15,370.00,3,completed
+RP-0048,"Iverson residence, 9268 Holmes Rd",Faucet replacement,2025-10-15,2025-10-15,480.00,1.5,completed
+RP-0049,"Iverson residence, 1823 Wornall Rd",Sump pump repair,2025-10-15,2025-10-15,470.00,1.5,completed
+RP-0050,"Sorensen residence, 6091 Holmes Rd",Shutoff valve replacement,2025-10-15,2025-10-15,230.00,2,completed
+RP-0051,"Coleman residence, 3381 Troost Ave",Drain cleaning - main line clog,2025-10-15,2025-10-15,370.00,2,completed
+RP-0052,"Ellison residence, 9822 Gillham Rd",Drain cleaning with camera inspection,2025-10-15,2025-10-15,540.00,2,completed
+RP-0053,"Ellison residence, 930 Troost Ave",Warranty callback - leak at fitting,2025-10-15,2025-10-15,0.00,2,completed
+RP-0054,"Brooks residence, 7397 Broadway Blvd",Leak repair - kitchen sink,2025-10-16,2025-10-16,360.00,1.5,completed
+RP-0055,"Jensen residence, 8879 Wornall Rd",Toilet repair,2025-10-16,2025-10-16,210.00,2,completed
+RP-0056,"Quinn residence, 6591 Troost Ave",Drain cleaning - main line clog,2025-10-16,2025-10-16,210.00,1.5,completed
+RP-0057,"Mendez residence, 5057 Brookside Blvd",Weekend emergency leak,2025-10-16,2025-10-16,280.00,2,completed
+RP-0058,"Garza residence, 1232 Main St",Leak repair - kitchen sink,2025-10-17,2025-10-17,220.00,1.5,completed
+RP-0059,"Kim residence, 1768 Ward Pkwy",Garbage disposal repair,2025-10-17,2025-10-17,360.00,3,completed
+RP-0060,"Delgado residence, 2614 Wornall Rd",Leak repair - kitchen sink,2025-10-17,2025-10-17,170.00,1,completed
+RP-0061,"Ortiz residence, 2297 State Line Rd",Leak repair - kitchen sink,2025-10-17,2025-10-17,180.00,3,completed
+RP-0062,"Haddad residence, 8943 Gillham Rd",Service call - running toilet,2025-10-18,2025-10-18,230.00,1.5,completed
+RP-0063,"Ortiz residence, 484 Ward Pkwy",Garbage disposal repair,2025-10-18,2025-10-18,400.00,2,completed
+RP-0064,"Lindqvist residence, 1026 Gillham Rd",Toilet repair,2025-10-18,2025-10-18,440.00,1.5,completed
+RP-0065,"Iverson residence, 9695 State Line Rd",Sump pump repair,2025-10-18,2025-10-18,400.00,1,completed
+RP-0066,"Hughes residence, 6572 Oak St",Drain cleaning - main line clog,2025-10-18,2025-10-18,360.00,2,completed
+RP-0067,"Nguyen residence, 8270 Brookside Blvd",After-hours drain backup,2025-10-18,2025-10-18,440.00,4,completed
+RP-0068,"Miller residence, 4354 Wornall Rd",Sump pump repair,2025-10-20,2025-10-20,580.00,3,completed
+RP-0069,"Quinn residence, 5300 Holmes Rd",Sump pump repair,2025-10-20,2025-10-20,320.00,1,completed
+RP-0070,"Kowalski residence, 4263 Oak St",Garbage disposal repair,2025-10-20,2025-10-20,300.00,1.5,completed
+RP-0071,"Okafor residence, 8642 Wornall Rd",Drain cleaning - main line clog,2025-10-20,2025-10-20,410.00,2,completed
+RP-0072,"Garza residence, 9774 Ward Pkwy",Weekend emergency leak,2025-10-20,2025-10-20,600.00,4,completed
+RP-0073,"Russo residence, 5444 State Line Rd",Garbage disposal repair,2025-10-21,2025-10-21,540.00,3,completed
+RP-0074,"Miller residence, 1488 Broadway Blvd",Leak repair - kitchen sink,2025-10-21,2025-10-21,480.00,2,completed
+RP-0075,"Lopez residence, 3012 Main St",Drain cleaning - main line clog,2025-10-21,2025-10-21,350.00,2.5,completed
+RP-0076,"Haddad residence, 9445 Oak St",Emergency - burst pipe,2025-10-21,2025-10-21,250.00,4,completed
+RP-0077,"Reyes residence, 5977 Troost Ave",Sump pump repair,2025-10-22,2025-10-22,260.00,1,completed
+RP-0078,"Price residence, 5468 Broadway Blvd",Drain cleaning - main line clog,2025-10-22,2025-10-22,380.00,2.5,completed
+RP-0079,"Lopez residence, 2535 Broadway Blvd",Drain cleaning - main line clog,2025-10-22,2025-10-22,320.00,2,completed
+RP-0080,"Lopez residence, 2827 Oak St",Toilet repair,2025-10-23,2025-10-23,360.00,2,completed
+RP-0081,"Kowalski residence, 7679 Oak St",Shutoff valve replacement,2025-10-23,2025-10-23,540.00,2,completed
+RP-0082,"Ellison residence, 6821 Main St",Service call - running toilet,2025-10-23,2025-10-23,490.00,1.5,completed
+RP-0083,"Bauer residence, 169 Ward Pkwy",Sump pump repair,2025-10-23,2025-10-23,520.00,2,completed
+RP-0084,"Miller residence, 6336 Gillham Rd",After-hours drain backup,2025-10-23,2025-10-23,280.00,2,completed
+RP-0085,"Tran residence, 8830 Gillham Rd",Shutoff valve replacement,2025-10-24,2025-10-24,300.00,1.5,completed
+RP-0086,"Garza residence, 4756 Wornall Rd",Service call - running toilet,2025-10-24,2025-10-24,540.00,2,completed
+RP-0087,"Patel residence, 3144 Holmes Rd",Faucet replacement,2025-10-24,2025-10-24,280.00,2,completed
+RP-0088,"Sorensen residence, 1024 Main St",Service call - running toilet,2025-10-24,2025-10-24,600.00,1.5,completed
+RP-0089,"Jensen residence, 6459 Troost Ave",Drain cleaning - main line clog,2025-10-24,2025-10-24,430.00,1.5,completed
+RP-0090,"Tran residence, 2375 Brookside Blvd",Drain cleaning - main line clog,2025-10-24,2025-10-24,340.00,2.5,completed
+RP-0091,"Coleman residence, 4506 Oak St",Shutoff valve replacement,2025-10-25,2025-10-25,600.00,1,completed
+RP-0092,"Iverson residence, 1317 State Line Rd",Leak repair - kitchen sink,2025-10-25,2025-10-25,380.00,2,completed
+RP-0093,"Ortiz residence, 9761 Broadway Blvd",Shutoff valve replacement,2025-10-27,2025-10-27,150.00,2,completed
+RP-0094,"Moreau residence, 8632 State Line Rd",Sump pump repair,2025-10-27,2025-10-27,170.00,1.5,completed
+RP-0095,"Sorensen residence, 4097 Gillham Rd",Shutoff valve replacement,2025-10-27,2025-10-27,610.00,1.5,completed
+RP-0096,"Ortiz residence, 8816 Holmes Rd",Leak repair - kitchen sink,2025-10-27,2025-10-27,200.00,1.5,completed
+RP-0097,"Russo residence, 9597 Oak St",Drain cleaning with camera inspection,2025-10-27,2025-10-27,450.00,2.5,completed
+RP-0098,"Russo residence, 9597 Oak St",Whole-house repipe,2025-11-14,2025-11-16,7000.00,40,completed
+RP-0099,"Bauer residence, 6303 State Line Rd",Drain cleaning - main line clog,2025-10-27,2025-10-27,340.00,2,completed
+RP-0100,"Price residence, 869 Troost Ave",After-hours drain backup,2025-10-27,2025-10-27,490.00,3,completed
+RP-0101,"Quinn residence, 3980 Brookside Blvd",Tankless water heater install,2025-10-27,2025-10-27,2930.00,5,completed
+RP-0102,"Patel residence, 8908 Main St",Sump pump repair,2025-10-28,2025-10-28,440.00,2,completed
+RP-0103,"Kowalski residence, 558 Oak St",Toilet repair,2025-10-28,2025-10-28,430.00,1.5,completed
+RP-0104,"Jensen residence, 2359 Oak St",Service call - running toilet,2025-10-28,2025-10-28,420.00,3,completed
+RP-0105,"Miller residence, 7635 Oak St",Drain cleaning - main line clog,2025-10-28,2025-10-28,440.00,2,completed
+RP-0106,"Miller residence, 3124 Broadway Blvd",Water heater replacement - 40 gal,2025-10-28,2025-10-28,2930.00,5,completed
+RP-0107,"Russo residence, 6242 Brookside Blvd",Service call - running toilet,2025-10-29,2025-10-29,310.00,2,completed
+RP-0108,"Iverson residence, 115 Broadway Blvd",Garbage disposal repair,2025-10-29,2025-10-29,150.00,2,completed
+RP-0109,"Lopez residence, 6320 Main St",Shutoff valve replacement,2025-10-29,2025-10-29,490.00,1.5,completed
+RP-0110,"Iverson residence, 6470 State Line Rd",Toilet repair,2025-10-29,2025-10-29,410.00,1,completed
+RP-0111,"Sorensen residence, 4506 State Line Rd",Drain cleaning with camera inspection,2025-10-29,2025-10-29,620.00,1.5,completed
+RP-0112,"Sorensen residence, 4506 State Line Rd",Sewer line replacement,2025-11-20,2025-11-22,10000.00,40,completed
+RP-0113,"Iverson residence, 1342 Main St",Sump pump repair,2025-10-30,2025-10-30,410.00,1.5,completed
+RP-0114,"Novak residence, 8186 Ward Pkwy",Service call - running toilet,2025-10-30,2025-10-30,310.00,1.5,completed
+RP-0115,"Kowalski residence, 8030 Main St",Leak repair - kitchen sink,2025-10-30,2025-10-30,350.00,1,completed
+RP-0116,"Price residence, 149 Brookside Blvd",Shutoff valve replacement,2025-10-30,2025-10-30,220.00,1.5,completed
+RP-0117,"Ellison residence, 7128 Brookside Blvd",Drain cleaning with camera inspection,2025-10-30,2025-10-30,640.00,2,completed
+RP-0118,"Ellison residence, 7128 Brookside Blvd",Sewer line replacement,2025-12-03,2025-12-05,13800.00,24,completed
+RP-0119,"Iverson residence, 6210 Holmes Rd",Leak repair - kitchen sink,2025-10-31,2025-10-31,260.00,1.5,completed
+RP-0120,"Bauer residence, 7139 State Line Rd",Sump pump repair,2025-10-31,2025-10-31,270.00,2,completed
+RP-0121,"Patel residence, 2331 Ward Pkwy",Drain cleaning - main line clog,2025-10-31,2025-10-31,380.00,2,completed
+RP-0122,"Mendez residence, 4032 Brookside Blvd",Drain cleaning - main line clog,2025-10-31,2025-10-31,260.00,2,completed
+RP-0123,"Sorensen residence, 1108 Troost Ave",Warranty callback - leak at fitting,2025-10-31,2025-10-31,0.00,1,completed
+RP-0124,"Kowalski residence, 8452 Brookside Blvd",Garbage disposal repair,2025-11-01,2025-11-01,220.00,1.5,completed
+RP-0125,"Reyes residence, 9630 Holmes Rd",Leak repair - kitchen sink,2025-11-01,2025-11-01,280.00,2,completed
+RP-0126,"Patel residence, 2373 Brookside Blvd",Shutoff valve replacement,2025-11-01,2025-11-01,540.00,3,completed
+RP-0127,"Delgado residence, 5899 Ward Pkwy",Service call - running toilet,2025-11-01,2025-11-01,210.00,1,completed
+RP-0128,"Russo residence, 9477 Holmes Rd",Drain cleaning with camera inspection,2025-11-01,2025-11-01,580.00,2.5,completed
+RP-0129,"Iverson residence, 1039 Brookside Blvd",Weekend emergency leak,2025-11-01,2025-11-01,600.00,4,completed
+RP-0130,"Kowalski residence, 3189 Troost Ave",Weekend emergency leak,2025-11-02,2025-11-02,460.00,3,completed
+RP-0131,"Lopez residence, 7019 Brookside Blvd",Sump pump repair,2025-11-03,2025-11-03,370.00,1.5,completed
+RP-0132,"Haddad residence, 5098 Main St",Drain cleaning - main line clog,2025-11-03,2025-11-03,250.00,2.5,completed
+RP-0133,"Mendez residence, 9044 Main St",Drain cleaning - main line clog,2025-11-03,2025-11-03,450.00,2.5,completed
+RP-0134,"Quinn residence, 6473 State Line Rd",Tankless water heater install,2025-11-03,2025-11-03,2050.00,5,completed
+RP-0135,"Patel residence, 2038 Gillham Rd",Garbage disposal repair,2025-11-04,2025-11-04,320.00,1.5,completed
+RP-0136,"Delgado residence, 7098 Main St",Faucet replacement,2025-11-04,2025-11-04,410.00,3,completed
+RP-0137,"Sorensen residence, 7796 Troost Ave",Drain cleaning - main line clog,2025-11-04,2025-11-04,190.00,2,completed
+RP-0138,"Ellison residence, 8008 Brookside Blvd",Tankless water heater install,2025-11-04,2025-11-04,1830.00,4,completed
+RP-0139,"Iverson residence, 3337 Oak St",Service call - running toilet,2025-11-05,2025-11-05,150.00,1.5,completed
+RP-0140,"Okafor residence, 1308 State Line Rd",Leak repair - kitchen sink,2025-11-05,2025-11-05,160.00,1.5,completed
+RP-0141,"Garza residence, 605 State Line Rd",Shutoff valve replacement,2025-11-05,2025-11-05,350.00,2,completed
+RP-0142,"Nguyen residence, 3390 Brookside Blvd",Faucet replacement,2025-11-05,2025-11-05,310.00,1,completed
+RP-0143,"Whitfield residence, 3982 Troost Ave",Drain cleaning - main line clog,2025-11-05,2025-11-05,290.00,1.5,completed
+RP-0144,"Haddad residence, 3999 Oak St",Shutoff valve replacement,2025-11-06,2025-11-06,540.00,1,completed
+RP-0145,"Coleman residence, 2637 State Line Rd",Service call - running toilet,2025-11-06,2025-11-06,550.00,2,completed
+RP-0146,"Price residence, 852 Wornall Rd",Garbage disposal repair,2025-11-06,2025-11-06,150.00,2,completed
+RP-0147,"Patel residence, 3871 Troost Ave",Garbage disposal repair,2025-11-06,2025-11-06,610.00,3,completed
+RP-0148,"Delgado residence, 5865 Gillham Rd",Shutoff valve replacement,2025-11-07,2025-11-07,240.00,1,completed
+RP-0149,"Miller residence, 9538 Main St",Service call - running toilet,2025-11-07,2025-11-07,510.00,1.5,completed
+RP-0150,"Moreau residence, 3248 Wornall Rd",Toilet repair,2025-11-07,2025-11-07,460.00,2,completed
+RP-0151,"Price residence, 6300 Gillham Rd",Sump pump repair,2025-11-08,2025-11-08,180.00,1,completed
+RP-0152,"Novak residence, 9894 Gillham Rd",Toilet repair,2025-11-08,2025-11-08,490.00,3,completed
+RP-0153,"Whitfield residence, 9868 Troost Ave",Faucet replacement,2025-11-08,2025-11-08,190.00,3,completed
+RP-0154,"Patel residence, 4777 Troost Ave",Drain cleaning - main line clog,2025-11-08,2025-11-08,330.00,2,completed
+RP-0155,"Lopez residence, 7916 State Line Rd",After-hours drain backup,2025-11-08,2025-11-08,380.00,4,completed
+RP-0156,"Ellison residence, 685 Holmes Rd",Toilet repair,2025-11-10,2025-11-10,170.00,1,completed
+RP-0157,"Schultz residence, 5042 Brookside Blvd",Drain cleaning - main line clog,2025-11-10,2025-11-10,230.00,1.5,completed
+RP-0158,"Price residence, 5488 State Line Rd",Tankless water heater install,2025-11-10,2025-11-10,2280.00,6,completed
+RP-0159,"Lopez residence, 4227 State Line Rd",Shutoff valve replacement,2025-11-11,2025-11-11,380.00,2,completed
+RP-0160,"Schultz residence, 9342 Gillham Rd",Toilet repair,2025-11-11,2025-11-11,190.00,2,completed
+RP-0161,"Schultz residence, 1625 Oak St",Shutoff valve replacement,2025-11-12,2025-11-12,410.00,3,completed
+RP-0162,"Kim residence, 807 Broadway Blvd",Garbage disposal repair,2025-11-12,2025-11-12,550.00,1.5,completed
+RP-0163,"Bauer residence, 7071 Brookside Blvd",Service call - running toilet,2025-11-12,2025-11-12,600.00,3,completed
+RP-0164,"Reyes residence, 7152 Holmes Rd",Shutoff valve replacement,2025-11-12,2025-11-12,400.00,1.5,completed
+RP-0165,"Mendez residence, 239 Main St",Drain cleaning - main line clog,2025-11-12,2025-11-12,330.00,2.5,completed
+RP-0166,"Price residence, 1577 Gillham Rd",Drain cleaning - main line clog,2025-11-12,2025-11-12,220.00,2,completed
+RP-0167,"Haddad residence, 4419 Brookside Blvd",Toilet repair,2025-11-13,2025-11-13,410.00,2,completed
+RP-0168,"Tran residence, 428 Brookside Blvd",Faucet replacement,2025-11-13,2025-11-13,270.00,3,completed
+RP-0169,"Garza residence, 8969 Main St",Sump pump repair,2025-11-13,2025-11-13,170.00,1,completed
+RP-0170,"Lindqvist residence, 7832 State Line Rd",Drain cleaning - main line clog,2025-11-13,2025-11-13,390.00,1.5,completed
+RP-0171,"Novak residence, 5914 Holmes Rd",Shutoff valve replacement,2025-11-14,2025-11-14,510.00,3,completed
+RP-0172,"Novak residence, 1586 Wornall Rd",Faucet replacement,2025-11-14,2025-11-14,590.00,1,completed
+RP-0173,"Lopez residence, 3534 Oak St",Drain cleaning - main line clog,2025-11-14,2025-11-14,400.00,2,completed
+RP-0174,"Nguyen residence, 2777 Holmes Rd",Faucet replacement,2025-11-15,2025-11-15,590.00,3,completed
+RP-0175,"Reyes residence, 9031 Ward Pkwy",Emergency - no water,2025-11-15,2025-11-15,410.00,4,completed
+RP-0176,"Quinn residence, 4898 Holmes Rd",Sump pump repair,2025-11-17,2025-11-17,570.00,1,completed
+RP-0177,"Iverson residence, 8222 Oak St",Faucet replacement,2025-11-17,2025-11-17,170.00,2,completed
+RP-0178,"Lindqvist residence, 506 Broadway Blvd",Leak repair - kitchen sink,2025-11-17,2025-11-17,270.00,2,completed
+RP-0179,"Garza residence, 8453 Troost Ave",Garbage disposal repair,2025-11-17,2025-11-17,200.00,3,completed
+RP-0180,"Tran residence, 2716 Oak St",Drain cleaning with camera inspection,2025-11-17,2025-11-17,410.00,2,completed
+RP-0181,"Ellison residence, 8170 Wornall Rd",Sump pump repair,2025-11-18,2025-11-18,430.00,3,completed
+RP-0182,"Lindqvist residence, 570 Wornall Rd",Toilet repair,2025-11-18,2025-11-18,530.00,2,completed
+RP-0183,"Tran residence, 1764 Broadway Blvd",Shutoff valve replacement,2025-11-18,2025-11-18,610.00,1,completed
+RP-0184,"Lindqvist residence, 3017 Main St",Drain cleaning with camera inspection,2025-11-18,2025-11-18,450.00,2.5,completed
+RP-0185,"Patel residence, 5831 Troost Ave",Warranty callback - leak at fitting,2025-11-18,2025-11-18,0.00,1,completed
+RP-0186,"Garza residence, 2699 Holmes Rd",Shutoff valve replacement,2025-11-19,2025-11-19,170.00,2,completed
+RP-0187,"Jensen residence, 9443 Oak St",Toilet repair,2025-11-19,2025-11-19,620.00,3,completed
+RP-0188,"Nguyen residence, 5386 Broadway Blvd",Shutoff valve replacement,2025-11-19,2025-11-19,360.00,1.5,completed
+RP-0189,"Bauer residence, 3731 Troost Ave",Leak repair - kitchen sink,2025-11-19,2025-11-19,400.00,1,completed
+RP-0190,"Quinn residence, 2205 Main St",Garbage disposal repair,2025-11-20,2025-11-20,590.00,1.5,completed
+RP-0191,"Nguyen residence, 3327 Ward Pkwy",Toilet repair,2025-11-20,2025-11-20,210.00,1.5,completed
+RP-0192,"Hughes residence, 6615 Wornall Rd",Leak repair - kitchen sink,2025-11-20,2025-11-20,530.00,1.5,completed
+RP-0193,"Bauer residence, 335 Gillham Rd",Water heater replacement - 40 gal,2025-11-20,2025-11-20,3030.00,4,completed
+RP-0194,"Lopez residence, 4927 Troost Ave",Shutoff valve replacement,2025-11-21,2025-11-21,610.00,1.5,completed
+RP-0195,"Whitfield residence, 4555 Main St",Leak repair - kitchen sink,2025-11-21,2025-11-21,390.00,2,completed
+RP-0196,"Coleman residence, 5321 Broadway Blvd",Service call - running toilet,2025-11-21,2025-11-21,610.00,1,completed
+RP-0197,"Lindqvist residence, 5589 State Line Rd",Drain cleaning with camera inspection,2025-11-21,2025-11-21,510.00,1.5,completed
+RP-0198,"Russo residence, 4999 Broadway Blvd",Faucet replacement,2025-11-22,2025-11-22,350.00,3,completed
+RP-0199,"Whitfield residence, 8355 State Line Rd",Shutoff valve replacement,2025-11-22,2025-11-22,230.00,3,completed
+RP-0200,"Lindqvist residence, 7415 Main St",Shutoff valve replacement,2025-11-24,2025-11-24,220.00,1.5,completed
+RP-0201,"Lopez residence, 1429 Wornall Rd",Faucet replacement,2025-11-24,2025-11-24,350.00,1,completed
+RP-0202,"Novak residence, 807 Brookside Blvd",Drain cleaning - main line clog,2025-11-24,2025-11-24,320.00,2,completed
+RP-0203,"Kowalski residence, 6999 Main St",Drain cleaning with camera inspection,2025-11-24,2025-11-24,560.00,1.5,completed
+RP-0204,"Reyes residence, 8335 Oak St",Toilet repair,2025-11-25,2025-11-25,210.00,2,completed
+RP-0205,"Lindqvist residence, 2407 Brookside Blvd",Sump pump repair,2025-11-25,2025-11-25,270.00,1.5,completed
+RP-0206,"Patel residence, 6243 Brookside Blvd",Leak repair - kitchen sink,2025-11-25,2025-11-25,430.00,1.5,completed
+RP-0207,"Quinn residence, 8452 Wornall Rd",Shutoff valve replacement,2025-11-25,2025-11-25,400.00,3,completed
+RP-0208,"Moreau residence, 5141 State Line Rd",Drain cleaning with camera inspection,2025-11-25,2025-11-25,560.00,2,completed
+RP-0209,"Quinn residence, 2583 Wornall Rd",Service call - running toilet,2025-11-26,2025-11-26,150.00,1.5,completed
+RP-0210,"Brooks residence, 8352 Gillham Rd",Service call - running toilet,2025-11-26,2025-11-26,410.00,1.5,completed
+RP-0211,"Kim residence, 7532 Holmes Rd",Toilet repair,2025-11-26,2025-11-26,350.00,1.5,completed
+RP-0212,"Okafor residence, 4267 Wornall Rd",Drain cleaning - main line clog,2025-11-26,2025-11-26,280.00,2,completed
+RP-0213,"Mendez residence, 7060 State Line Rd",Drain cleaning - main line clog,2025-11-26,2025-11-26,230.00,2.5,completed
+RP-0214,"Miller residence, 1907 Troost Ave",Faucet replacement,2025-11-27,2025-11-27,350.00,2,completed
+RP-0215,"Moreau residence, 316 Main St",Service call - running toilet,2025-11-27,2025-11-27,360.00,1.5,completed
+RP-0216,"Coleman residence, 9216 Gillham Rd",Drain cleaning - main line clog,2025-11-27,2025-11-27,210.00,2,completed
+RP-0217,"Sorensen residence, 7532 Brookside Blvd",Toilet repair,2025-11-28,2025-11-28,340.00,2,completed
+RP-0218,"Tran residence, 9051 Wornall Rd",Drain cleaning - main line clog,2025-11-28,2025-11-28,270.00,2,completed
+RP-0219,"Moreau residence, 2012 Main St",Leak repair - kitchen sink,2025-11-29,2025-11-29,510.00,2,completed
+RP-0220,"Delgado residence, 7429 Wornall Rd",Sump pump repair,2025-11-29,2025-11-29,420.00,1.5,completed
+RP-0221,"Tran residence, 4326 Oak St",Service call - running toilet,2025-11-29,2025-11-29,380.00,2,completed
+RP-0222,"Quinn residence, 4738 Holmes Rd",Toilet repair,2025-11-29,2025-11-29,370.00,2,completed
+RP-0223,"Jensen residence, 5276 Troost Ave",Drain cleaning with camera inspection,2025-11-29,2025-11-29,560.00,1.5,completed
+RP-0224,"Iverson residence, 3510 Wornall Rd",Emergency - burst pipe,2025-11-30,2025-11-30,270.00,3,completed
+RP-0225,"Kowalski residence, 1257 Ward Pkwy",Garbage disposal repair,2025-12-01,2025-12-01,310.00,1,completed
+RP-0226,"Price residence, 1123 Broadway Blvd",Faucet replacement,2025-12-01,2025-12-01,450.00,2,completed
+RP-0227,"Russo residence, 1562 Broadway Blvd",Sump pump repair,2025-12-01,2025-12-01,210.00,2,completed
+RP-0228,"Lopez residence, 1311 Broadway Blvd",Drain cleaning with camera inspection,2025-12-01,2025-12-01,670.00,2.5,completed
+RP-0229,"Haddad residence, 8560 State Line Rd",Weekend emergency leak,2025-12-01,2025-12-01,660.00,4,completed
+RP-0230,"Jensen residence, 7319 Oak St",Tankless water heater install,2025-12-01,2025-12-01,2130.00,6,completed
+RP-0231,"Schultz residence, 285 Oak St",Garbage disposal repair,2025-12-02,2025-12-02,420.00,2,completed
+RP-0232,"Miller residence, 3086 Broadway Blvd",Drain cleaning - main line clog,2025-12-02,2025-12-02,300.00,1.5,completed
+RP-0233,"Schultz residence, 8127 State Line Rd",Service call - running toilet,2025-12-03,2025-12-03,300.00,1.5,completed
+RP-0234,"Garza residence, 1470 Brookside Blvd",Leak repair - kitchen sink,2025-12-03,2025-12-03,330.00,1,completed
+RP-0235,"Haddad residence, 7381 Main St",Toilet repair,2025-12-03,2025-12-03,210.00,1,completed
+RP-0236,"Schultz residence, 4780 Wornall Rd",Drain cleaning - main line clog,2025-12-03,2025-12-03,230.00,2.5,completed
+RP-0237,"Ellison residence, 6961 Main St",Emergency - no water,2025-12-03,2025-12-03,690.00,2,completed
+RP-0238,"Moreau residence, 6416 Main St",Leak repair - kitchen sink,2025-12-04,2025-12-04,240.00,2,completed
+RP-0239,"Delgado residence, 7312 State Line Rd",Emergency - no water,2025-12-04,2025-12-04,730.00,4,completed
+RP-0240,"Coleman residence, 9893 Oak St",Water heater replacement - 40 gal,2025-12-04,2025-12-04,1990.00,6,completed
+RP-0241,"Garza residence, 6961 Oak St",Sump pump repair,2025-12-05,2025-12-05,470.00,1.5,completed
+RP-0242,"Mendez residence, 2161 Wornall Rd",Sump pump repair,2025-12-05,2025-12-05,290.00,1,completed
+RP-0243,"Schultz residence, 175 Main St",Toilet repair,2025-12-05,2025-12-05,430.00,1,completed
+RP-0244,"Whitfield residence, 4733 Broadway Blvd",Weekend emergency leak,2025-12-05,2025-12-05,430.00,3,completed
+RP-0245,"Quinn residence, 3750 Ward Pkwy",Sump pump repair,2025-12-06,2025-12-06,390.00,1.5,completed
+RP-0246,"Quinn residence, 3477 Troost Ave",Shutoff valve replacement,2025-12-06,2025-12-06,210.00,1,completed
+RP-0247,"Patel residence, 6161 Broadway Blvd",Shutoff valve replacement,2025-12-06,2025-12-06,300.00,2,completed
+RP-0248,"Okafor residence, 9436 Gillham Rd",Service call - running toilet,2025-12-06,2025-12-06,280.00,1,completed
+RP-0249,"Novak residence, 8696 Oak St",Emergency - burst pipe,2025-12-07,2025-12-07,410.00,2,completed
+RP-0250,"Price residence, 8041 Broadway Blvd",Leak repair - kitchen sink,2025-12-08,2025-12-08,230.00,1.5,completed
+RP-0251,"Russo residence, 7683 Gillham Rd",Service call - running toilet,2025-12-08,2025-12-08,410.00,1,completed
+RP-0252,"Brooks residence, 9296 Broadway Blvd",Toilet repair,2025-12-08,2025-12-08,610.00,2,completed
+RP-0253,"Ortiz residence, 9846 Wornall Rd",Service call - running toilet,2025-12-08,2025-12-08,280.00,1,completed
+RP-0254,"Sorensen residence, 6303 Gillham Rd",Drain cleaning - main line clog,2025-12-08,2025-12-08,200.00,1.5,completed
+RP-0255,"Okafor residence, 3352 State Line Rd",Emergency - burst pipe,2025-12-08,2025-12-08,680.00,2,completed
+RP-0256,"Schultz residence, 5322 Gillham Rd",Leak repair - kitchen sink,2025-12-09,2025-12-09,230.00,3,completed
+RP-0257,"Brooks residence, 7345 Oak St",Service call - running toilet,2025-12-09,2025-12-09,610.00,1,completed
+RP-0258,"Delgado residence, 4718 Ward Pkwy",Garbage disposal repair,2025-12-09,2025-12-09,510.00,1,completed
+RP-0259,"Kim residence, 4766 Brookside Blvd",Faucet replacement,2025-12-09,2025-12-09,230.00,1,completed
+RP-0260,"Kim residence, 4325 Brookside Blvd",Drain cleaning - main line clog,2025-12-09,2025-12-09,440.00,2,completed
+RP-0261,"Kowalski residence, 5989 Main St",Weekend emergency leak,2025-12-09,2025-12-09,510.00,2,completed
+RP-0262,"Ellison residence, 2309 Ward Pkwy",Shutoff valve replacement,2025-12-10,2025-12-10,580.00,3,completed
+RP-0263,"Tran residence, 9643 Broadway Blvd",Garbage disposal repair,2025-12-10,2025-12-10,280.00,1.5,completed
+RP-0264,"Mendez residence, 5345 Troost Ave",Drain cleaning with camera inspection,2025-12-10,2025-12-10,450.00,1.5,completed
+RP-0265,"Mendez residence, 5345 Troost Ave",Sewer line replacement,2026-01-11,2026-01-13,8900.00,24,completed
+RP-0266,"Coleman residence, 1529 Oak St",Drain cleaning - main line clog,2025-12-10,2025-12-10,290.00,2.5,completed
+RP-0267,"Quinn residence, 6254 Wornall Rd",Sump pump repair,2025-12-11,2025-12-11,220.00,1.5,completed
+RP-0268,"Whitfield residence, 8822 Troost Ave",Shutoff valve replacement,2025-12-11,2025-12-11,200.00,2,completed
+RP-0269,"Russo residence, 246 Main St",Drain cleaning - main line clog,2025-12-11,2025-12-11,390.00,1.5,completed
+RP-0270,"Schultz residence, 141 Gillham Rd",Emergency - no water,2025-12-11,2025-12-11,610.00,2,completed
+RP-0271,"Sorensen residence, 9748 Main St",Service call - running toilet,2025-12-12,2025-12-12,180.00,3,completed
+RP-0272,"Novak residence, 1051 Gillham Rd",Sump pump repair,2025-12-12,2025-12-12,580.00,2,completed
+RP-0273,"Ortiz residence, 1998 State Line Rd",Service call - running toilet,2025-12-12,2025-12-12,450.00,1.5,completed
+RP-0274,"Kim residence, 161 Oak St",Toilet repair,2025-12-13,2025-12-13,460.00,3,completed
+RP-0275,"Nguyen residence, 3613 Oak St",Leak repair - kitchen sink,2025-12-13,2025-12-13,570.00,1.5,completed
+RP-0276,"Kim residence, 5753 Gillham Rd",Leak repair - kitchen sink,2025-12-13,2025-12-13,240.00,3,completed
+RP-0277,"Kim residence, 573 State Line Rd",Drain cleaning - main line clog,2025-12-13,2025-12-13,330.00,1.5,completed
+RP-0278,"Quinn residence, 573 Troost Ave",Emergency - burst pipe,2025-12-13,2025-12-13,320.00,3,completed
+RP-0279,"Iverson residence, 9418 Gillham Rd",Faucet replacement,2025-12-15,2025-12-15,230.00,1,completed
+RP-0280,"Whitfield residence, 7546 Gillham Rd",Emergency - burst pipe,2025-12-15,2025-12-15,440.00,3,completed
+RP-0281,"Schultz residence, 1865 Brookside Blvd",Shutoff valve replacement,2025-12-16,2025-12-16,220.00,2,completed
+RP-0282,"Sorensen residence, 4640 State Line Rd",Service call - running toilet,2025-12-16,2025-12-16,590.00,1,completed
+RP-0283,"Tran residence, 8216 Broadway Blvd",Sump pump repair,2025-12-16,2025-12-16,440.00,3,completed
+RP-0284,"Delgado residence, 3392 State Line Rd",Drain cleaning with camera inspection,2025-12-16,2025-12-16,620.00,1.5,completed
+RP-0285,"Quinn residence, 8726 Gillham Rd",Leak repair - kitchen sink,2025-12-17,2025-12-17,390.00,1.5,completed
+RP-0286,"Miller residence, 7583 Broadway Blvd",Drain cleaning with camera inspection,2025-12-17,2025-12-17,630.00,2.5,completed
+RP-0287,"Coleman residence, 9483 State Line Rd",Warranty callback - leak at fitting,2025-12-17,2025-12-17,0.00,1,completed
+RP-0288,"Patel residence, 3162 Main St",Sump pump repair,2025-12-18,2025-12-18,500.00,1.5,completed
+RP-0289,"Tran residence, 8729 Ward Pkwy",Leak repair - kitchen sink,2025-12-18,2025-12-18,360.00,1.5,completed
+RP-0290,"Jensen residence, 9479 State Line Rd",Shutoff valve replacement,2025-12-19,2025-12-19,480.00,3,completed
+RP-0291,"Lopez residence, 7999 Broadway Blvd",Garbage disposal repair,2025-12-19,2025-12-19,360.00,1,completed
+RP-0292,"Iverson residence, 3370 Gillham Rd",Shutoff valve replacement,2025-12-19,2025-12-19,180.00,1.5,completed
+RP-0293,"Reyes residence, 9747 Brookside Blvd",Garbage disposal repair,2025-12-19,2025-12-19,600.00,2,completed
+RP-0294,"Price residence, 2771 Ward Pkwy",Drain cleaning with camera inspection,2025-12-19,2025-12-19,620.00,2.5,completed
+RP-0295,"Price residence, 2771 Ward Pkwy",Trenchless sewer repair,2026-01-17,2026-01-19,9800.00,24,completed
+RP-0296,"Moreau residence, 6667 Broadway Blvd",After-hours drain backup,2025-12-19,2025-12-19,560.00,2,completed
+RP-0297,"Brooks residence, 4823 Troost Ave",Toilet repair,2025-12-20,2025-12-20,410.00,1,completed
+RP-0298,"Hughes residence, 8693 Main St",Service call - running toilet,2025-12-20,2025-12-20,290.00,1.5,completed
+RP-0299,"Nguyen residence, 3599 State Line Rd",Drain cleaning with camera inspection,2025-12-20,2025-12-20,630.00,2.5,completed
+RP-0300,"Nguyen residence, 3599 State Line Rd",Trenchless sewer repair,2025-12-30,2026-01-01,11600.00,40,completed
+RP-0301,"Iverson residence, 9403 Ward Pkwy",Emergency - no water,2025-12-21,2025-12-21,440.00,3,completed
+RP-0302,"Coleman residence, 7395 Gillham Rd",Toilet repair,2025-12-22,2025-12-22,240.00,1.5,completed
+RP-0303,"Patel residence, 976 Broadway Blvd",Leak repair - kitchen sink,2025-12-22,2025-12-22,430.00,1.5,completed
+RP-0304,"Nguyen residence, 338 Broadway Blvd",Garbage disposal repair,2025-12-22,2025-12-22,220.00,1,completed
+RP-0305,"Whitfield residence, 6191 Broadway Blvd",Shutoff valve replacement,2025-12-22,2025-12-22,340.00,1.5,completed
+RP-0306,"Sorensen residence, 6464 Ward Pkwy",Garbage disposal repair,2025-12-23,2025-12-23,500.00,2,completed
+RP-0307,"Mendez residence, 3273 Ward Pkwy",Leak repair - kitchen sink,2025-12-23,2025-12-23,180.00,1,completed
+RP-0308,"Ellison residence, 5691 State Line Rd",Drain cleaning - main line clog,2025-12-23,2025-12-23,360.00,2,completed
+RP-0309,"Moreau residence, 3738 Wornall Rd",Shutoff valve replacement,2025-12-24,2025-12-24,240.00,2,completed
+RP-0310,"Haddad residence, 8726 Holmes Rd",Sump pump repair,2025-12-24,2025-12-24,620.00,3,completed
+RP-0311,"Iverson residence, 9525 Holmes Rd",Drain cleaning with camera inspection,2025-12-24,2025-12-24,500.00,2.5,completed
+RP-0312,"Novak residence, 4396 Troost Ave",Weekend emergency leak,2025-12-24,2025-12-24,420.00,2,completed
+RP-0313,"Brooks residence, 9426 Brookside Blvd",Garbage disposal repair,2025-12-25,2025-12-25,490.00,1.5,completed
+RP-0314,"Ortiz residence, 9450 Oak St",Faucet replacement,2025-12-25,2025-12-25,330.00,1.5,completed
+RP-0315,"Iverson residence, 7203 Gillham Rd",Service call - running toilet,2025-12-25,2025-12-25,430.00,1,completed
+RP-0316,"Moreau residence, 8642 Brookside Blvd",Drain cleaning with camera inspection,2025-12-25,2025-12-25,620.00,2,completed
+RP-0317,"Moreau residence, 8642 Brookside Blvd",Sewer line replacement,2026-01-21,2026-01-23,9100.00,24,completed
+RP-0318,"Schultz residence, 317 Broadway Blvd",Faucet replacement,2025-12-26,2025-12-26,450.00,1,completed
+RP-0319,"Okafor residence, 6360 Holmes Rd",Shutoff valve replacement,2025-12-26,2025-12-26,340.00,1,completed
+RP-0320,"Price residence, 4279 Broadway Blvd",Faucet replacement,2025-12-26,2025-12-26,160.00,1,completed
+RP-0321,"Haddad residence, 959 Oak St",Drain cleaning with camera inspection,2025-12-26,2025-12-26,420.00,2.5,completed
+RP-0322,"Haddad residence, 959 Oak St",Trenchless sewer repair,2026-01-17,2026-01-19,8000.00,40,completed
+RP-0323,"Ortiz residence, 3879 Ward Pkwy",Emergency - no water,2025-12-26,2025-12-26,640.00,4,completed
+RP-0324,"Coleman residence, 7991 Brookside Blvd",Warranty callback - leak at fitting,2025-12-26,2025-12-26,0.00,1,completed
+RP-0325,"Hughes residence, 5306 State Line Rd",Garbage disposal repair,2025-12-27,2025-12-27,180.00,2,completed
+RP-0326,"Russo residence, 678 Wornall Rd",Shutoff valve replacement,2025-12-27,2025-12-27,380.00,1.5,completed
+RP-0327,"Hughes residence, 6761 Wornall Rd",Drain cleaning - main line clog,2025-12-27,2025-12-27,310.00,2.5,completed
+RP-0328,"Ellison residence, 3800 Troost Ave",Drain cleaning - main line clog,2025-12-27,2025-12-27,270.00,1.5,completed
+RP-0329,"Ellison residence, 4566 Gillham Rd",Weekend emergency leak,2025-12-28,2025-12-28,410.00,4,completed
+RP-0330,"Iverson residence, 169 Gillham Rd",Toilet repair,2025-12-29,2025-12-29,600.00,2,completed
+RP-0331,"Russo residence, 5042 Gillham Rd",Shutoff valve replacement,2025-12-29,2025-12-29,460.00,1.5,completed
+RP-0332,"Novak residence, 1591 Gillham Rd",After-hours drain backup,2025-12-29,2025-12-29,410.00,2,completed
+RP-0333,"Delgado residence, 7359 Oak St",Water heater replacement - 50 gal,2025-12-29,2025-12-29,2080.00,4,completed
+RP-0334,"Tran residence, 9024 Troost Ave",Shutoff valve replacement,2025-12-30,2025-12-30,420.00,1.5,completed
+RP-0335,"Bauer residence, 3219 Troost Ave",Leak repair - kitchen sink,2025-12-30,2025-12-30,450.00,2,completed
+RP-0336,"Patel residence, 7493 Main St",Shutoff valve replacement,2025-12-30,2025-12-30,260.00,3,completed
+RP-0337,"Iverson residence, 7472 Wornall Rd",Drain cleaning - main line clog,2025-12-30,2025-12-30,220.00,2,completed
+RP-0338,"Sorensen residence, 7256 Ward Pkwy",After-hours drain backup,2025-12-30,2025-12-30,260.00,2,completed
+RP-0339,"Price residence, 7173 Brookside Blvd",Water heater replacement - 40 gal,2025-12-30,2025-12-30,1690.00,6,completed
+RP-0340,"Ellison residence, 5682 State Line Rd",Shutoff valve replacement,2025-12-31,2025-12-31,330.00,3,completed
+RP-0341,"Nguyen residence, 3899 Gillham Rd",Service call - running toilet,2025-12-31,2025-12-31,440.00,3,completed
+RP-0342,"Bauer residence, 6103 Wornall Rd",Drain cleaning - main line clog,2025-12-31,2025-12-31,410.00,1.5,completed
+RP-0343,"Bauer residence, 6932 Broadway Blvd",Drain cleaning with camera inspection,2025-12-31,2025-12-31,630.00,2.5,completed
+RP-0344,"Jensen residence, 6721 Gillham Rd",After-hours drain backup,2025-12-31,2025-12-31,240.00,2,completed
+RP-0345,"Lopez residence, 919 Brookside Blvd",Leak repair - kitchen sink,2026-01-01,2026-01-01,300.00,3,completed
+RP-0346,"Lopez residence, 251 Ward Pkwy",Sump pump repair,2026-01-01,2026-01-01,420.00,3,completed
+RP-0347,"Garza residence, 1562 Main St",Drain cleaning with camera inspection,2026-01-01,2026-01-01,490.00,1.5,completed
+RP-0348,"Schultz residence, 7709 Troost Ave",Drain cleaning - main line clog,2026-01-01,2026-01-01,330.00,2,completed
+RP-0349,"Lopez residence, 6005 Main St",Garbage disposal repair,2026-01-02,2026-01-02,580.00,3,completed
+RP-0350,"Schultz residence, 3296 Oak St",Shutoff valve replacement,2026-01-03,2026-01-03,240.00,1.5,completed
+RP-0351,"Reyes residence, 5782 Holmes Rd",Garbage disposal repair,2026-01-03,2026-01-03,350.00,1,completed
+RP-0352,"Hughes residence, 4388 Broadway Blvd",Drain cleaning with camera inspection,2026-01-03,2026-01-03,520.00,2.5,completed
+RP-0353,"Miller residence, 583 State Line Rd",After-hours drain backup,2026-01-03,2026-01-03,410.00,4,completed
+RP-0354,"Jensen residence, 6418 Holmes Rd",Emergency - no water,2026-01-04,2026-01-04,470.00,4,completed
+RP-0355,"Reyes residence, 2385 State Line Rd",Sump pump repair,2026-01-05,2026-01-05,440.00,3,completed
+RP-0356,"Delgado residence, 2154 Broadway Blvd",Service call - running toilet,2026-01-05,2026-01-05,530.00,1,completed
+RP-0357,"Delgado residence, 3786 Troost Ave",Leak repair - kitchen sink,2026-01-05,2026-01-05,610.00,1,completed
+RP-0358,"Nguyen residence, 4490 Gillham Rd",Drain cleaning with camera inspection,2026-01-05,2026-01-05,550.00,2.5,completed
+RP-0359,"Sorensen residence, 6877 Main St",Weekend emergency leak,2026-01-05,2026-01-05,550.00,2,completed
+RP-0360,"Novak residence, 4953 Holmes Rd",Service call - running toilet,2026-01-06,2026-01-06,150.00,1,completed
+RP-0361,"Haddad residence, 2264 Wornall Rd",Weekend emergency leak,2026-01-06,2026-01-06,530.00,2,completed
+RP-0362,"Mendez residence, 9729 State Line Rd",Shutoff valve replacement,2026-01-07,2026-01-07,490.00,3,completed
+RP-0363,"Bauer residence, 3732 Ward Pkwy",Service call - running toilet,2026-01-07,2026-01-07,300.00,1,completed
+RP-0364,"Coleman residence, 8086 Gillham Rd",Drain cleaning - main line clog,2026-01-07,2026-01-07,390.00,2,completed
+RP-0365,"Coleman residence, 6666 Gillham Rd",Drain cleaning - main line clog,2026-01-07,2026-01-07,300.00,2.5,completed
+RP-0366,"Iverson residence, 3576 Wornall Rd",Faucet replacement,2026-01-08,2026-01-08,410.00,1.5,completed
+RP-0367,"Novak residence, 1236 Oak St",Sump pump repair,2026-01-08,2026-01-08,530.00,2,completed
+RP-0368,"Ortiz residence, 6952 Wornall Rd",Drain cleaning - main line clog,2026-01-08,2026-01-08,280.00,2,completed
+RP-0369,"Reyes residence, 506 Wornall Rd",After-hours drain backup,2026-01-08,2026-01-08,240.00,4,completed
+RP-0370,"Kowalski residence, 876 Ward Pkwy",Service call - running toilet,2026-01-09,2026-01-09,570.00,2,completed
+RP-0371,"Iverson residence, 3972 Ward Pkwy",Garbage disposal repair,2026-01-09,2026-01-09,330.00,2,completed
+RP-0372,"Garza residence, 1427 Broadway Blvd",After-hours drain backup,2026-01-09,2026-01-09,660.00,2,completed
+RP-0373,"Ellison residence, 6127 Gillham Rd",Service call - running toilet,2026-01-10,2026-01-10,600.00,3,completed
+RP-0374,"Lindqvist residence, 4989 Oak St",Shutoff valve replacement,2026-01-10,2026-01-10,580.00,3,completed
+RP-0375,"Hughes residence, 2071 Wornall Rd",Drain cleaning with camera inspection,2026-01-10,2026-01-10,610.00,2,completed
+RP-0376,"Ellison residence, 5192 State Line Rd",Emergency - no water,2026-01-10,2026-01-10,210.00,4,completed
+RP-0377,"Novak residence, 5844 Broadway Blvd",Sump pump repair,2026-01-12,2026-01-12,240.00,1,completed
+RP-0378,"Lindqvist residence, 7594 Oak St",Sump pump repair,2026-01-12,2026-01-12,190.00,3,completed
+RP-0379,"Tran residence, 297 Gillham Rd",Drain cleaning - main line clog,2026-01-12,2026-01-12,340.00,1.5,completed
+RP-0380,"Russo residence, 2512 Gillham Rd",Drain cleaning - main line clog,2026-01-12,2026-01-12,400.00,2,completed
+RP-0381,"Iverson residence, 214 State Line Rd",Emergency - no water,2026-01-12,2026-01-12,430.00,3,completed
+RP-0382,"Ellison residence, 4907 Oak St",Faucet replacement,2026-01-13,2026-01-13,230.00,2,completed
+RP-0383,"Reyes residence, 8838 Oak St",Drain cleaning - main line clog,2026-01-13,2026-01-13,320.00,2,completed
+RP-0384,"Moreau residence, 5542 Ward Pkwy",Emergency - no water,2026-01-13,2026-01-13,500.00,2,completed
+RP-0385,"Nguyen residence, 2174 Main St",Sump pump repair,2026-01-14,2026-01-14,270.00,1.5,completed
+RP-0386,"Russo residence, 1214 Ward Pkwy",Shutoff valve replacement,2026-01-14,2026-01-14,410.00,2,completed
+RP-0387,"Coleman residence, 1611 Brookside Blvd",Leak repair - kitchen sink,2026-01-14,2026-01-14,310.00,2,completed
+RP-0388,"Lindqvist residence, 6302 Ward Pkwy",Drain cleaning with camera inspection,2026-01-14,2026-01-14,640.00,1.5,completed
+RP-0389,"Nguyen residence, 4396 Ward Pkwy",Weekend emergency leak,2026-01-14,2026-01-14,640.00,4,completed
+RP-0390,"Garza residence, 9296 Broadway Blvd",Garbage disposal repair,2026-01-15,2026-01-15,550.00,1.5,completed
+RP-0391,"Ortiz residence, 3503 Ward Pkwy",After-hours drain backup,2026-01-15,2026-01-15,380.00,4,completed
+RP-0392,"Sorensen residence, 7503 Wornall Rd",Tankless water heater install,2026-01-15,2026-01-15,2770.00,4,completed
+RP-0393,"Ortiz residence, 1428 Wornall Rd",Service call - running toilet,2026-01-16,2026-01-16,190.00,1,completed
+RP-0394,"Haddad residence, 7119 Wornall Rd",Garbage disposal repair,2026-01-16,2026-01-16,300.00,3,completed
+RP-0395,"Whitfield residence, 8797 State Line Rd",Drain cleaning - main line clog,2026-01-16,2026-01-16,380.00,2,completed
+RP-0396,"Patel residence, 4883 Holmes Rd",Drain cleaning - main line clog,2026-01-16,2026-01-16,430.00,2,completed
+RP-0397,"Lopez residence, 2770 Broadway Blvd",Garbage disposal repair,2026-01-17,2026-01-17,270.00,1,completed
+RP-0398,"Haddad residence, 7632 Ward Pkwy",Sump pump repair,2026-01-17,2026-01-17,220.00,1.5,completed
+RP-0399,"Lindqvist residence, 8745 Holmes Rd",Drain cleaning - main line clog,2026-01-17,2026-01-17,260.00,2,completed
+RP-0400,"Whitfield residence, 7773 Broadway Blvd",Emergency - burst pipe,2026-01-17,2026-01-17,420.00,3,completed
+RP-0401,"Whitfield residence, 184 Oak St",Weekend emergency leak,2026-01-18,2026-01-18,630.00,4,completed
+RP-0402,"Bauer residence, 7828 Main St",Shutoff valve replacement,2026-01-19,2026-01-19,580.00,1.5,completed
+RP-0403,"Bauer residence, 700 Brookside Blvd",Toilet repair,2026-01-19,2026-01-19,560.00,3,completed
+RP-0404,"Moreau residence, 3207 Holmes Rd",Drain cleaning with camera inspection,2026-01-19,2026-01-19,580.00,1.5,completed
+RP-0405,"Moreau residence, 3207 Holmes Rd",Trenchless sewer repair,2026-02-18,2026-02-20,10000.00,24,completed
+RP-0406,"Bauer residence, 2587 Holmes Rd",Weekend emergency leak,2026-01-19,2026-01-19,630.00,2,completed
+RP-0407,"Reyes residence, 7007 Main St",Warranty callback - leak at fitting,2026-01-19,2026-01-19,0.00,1,completed
+RP-0408,"Haddad residence, 2043 Gillham Rd",Sump pump repair,2026-01-20,2026-01-20,420.00,2,completed
+RP-0409,"Kim residence, 8056 Wornall Rd",Emergency - no water,2026-01-20,2026-01-20,530.00,4,completed
+RP-0410,"Novak residence, 7869 Oak St",Water heater replacement - 50 gal,2026-01-20,2026-01-20,3160.00,4,completed
+RP-0411,"Mendez residence, 2973 Broadway Blvd",Leak repair - kitchen sink,2026-01-21,2026-01-21,160.00,1,completed
+RP-0412,"Kim residence, 3203 Oak St",Leak repair - kitchen sink,2026-01-21,2026-01-21,410.00,2,completed
+RP-0413,"Kowalski residence, 3126 State Line Rd",Shutoff valve replacement,2026-01-21,2026-01-21,420.00,2,completed
+RP-0414,"Brooks residence, 8774 State Line Rd",Garbage disposal repair,2026-01-21,2026-01-21,520.00,1,completed
+RP-0415,"Hughes residence, 5218 Gillham Rd",Drain cleaning - main line clog,2026-01-21,2026-01-21,290.00,2,completed
+RP-0416,"Ellison residence, 4544 Broadway Blvd",Drain cleaning - main line clog,2026-01-21,2026-01-21,410.00,2,completed
+RP-0417,"Delgado residence, 8110 Troost Ave",Emergency - burst pipe,2026-01-21,2026-01-21,740.00,2,completed
+RP-0418,"Iverson residence, 7906 Wornall Rd",Garbage disposal repair,2026-01-22,2026-01-22,420.00,1,completed
+RP-0419,"Lindqvist residence, 3919 Wornall Rd",Faucet replacement,2026-01-22,2026-01-22,420.00,3,completed
+RP-0420,"Russo residence, 1593 State Line Rd",Toilet repair,2026-01-22,2026-01-22,580.00,2,completed
+RP-0421,"Lindqvist residence, 8189 Oak St",Drain cleaning - main line clog,2026-01-22,2026-01-22,280.00,2,completed
+RP-0422,"Lopez residence, 3199 Broadway Blvd",Drain cleaning - main line clog,2026-01-22,2026-01-22,420.00,1.5,completed
+RP-0423,"Iverson residence, 1452 Holmes Rd",Leak repair - kitchen sink,2026-01-23,2026-01-23,520.00,3,completed
+RP-0424,"Okafor residence, 2706 Wornall Rd",Drain cleaning with camera inspection,2026-01-23,2026-01-23,660.00,2.5,completed
+RP-0425,"Okafor residence, 2706 Wornall Rd",Trenchless sewer repair,2026-02-18,2026-02-20,14300.00,24,completed
+RP-0426,"Nguyen residence, 6626 Brookside Blvd",Emergency - no water,2026-01-23,2026-01-23,380.00,4,completed
+RP-0427,"Kim residence, 921 Broadway Blvd",Toilet repair,2026-01-24,2026-01-24,600.00,1,completed
+RP-0428,"Iverson residence, 5246 State Line Rd",Sump pump repair,2026-01-24,2026-01-24,450.00,3,completed
+RP-0429,"Moreau residence, 3628 Troost Ave",Drain cleaning - main line clog,2026-01-24,2026-01-24,300.00,1.5,completed
+RP-0430,"Garza residence, 2727 State Line Rd",Weekend emergency leak,2026-01-24,2026-01-24,670.00,3,completed
+RP-0431,"Whitfield residence, 9338 Wornall Rd",Emergency - burst pipe,2026-01-25,2026-01-25,570.00,3,completed
+RP-0432,"Mendez residence, 1537 Troost Ave",Sump pump repair,2026-01-26,2026-01-26,180.00,2,completed
+RP-0433,"Sorensen residence, 7955 Broadway Blvd",Garbage disposal repair,2026-01-26,2026-01-26,480.00,1,completed
+RP-0434,"Lindqvist residence, 4243 Broadway Blvd",Shutoff valve replacement,2026-01-26,2026-01-26,190.00,1.5,completed
+RP-0435,"Lindqvist residence, 1932 State Line Rd",Faucet replacement,2026-01-26,2026-01-26,260.00,1,completed
+RP-0436,"Sorensen residence, 2893 Holmes Rd",Drain cleaning - main line clog,2026-01-26,2026-01-26,330.00,1.5,completed
+RP-0437,"Okafor residence, 3111 Troost Ave",Drain cleaning - main line clog,2026-01-26,2026-01-26,230.00,2,completed
+RP-0438,"Lopez residence, 5309 Brookside Blvd",Emergency - no water,2026-01-26,2026-01-26,270.00,2,completed
+RP-0439,"Okafor residence, 6367 Gillham Rd",Service call - running toilet,2026-01-27,2026-01-27,330.00,3,completed
+RP-0440,"Novak residence, 4977 State Line Rd",Leak repair - kitchen sink,2026-01-27,2026-01-27,480.00,1,completed
+RP-0441,"Patel residence, 9388 Brookside Blvd",Emergency - burst pipe,2026-01-27,2026-01-27,540.00,3,completed
+RP-0442,"Quinn residence, 6517 Wornall Rd",Garbage disposal repair,2026-01-28,2026-01-28,410.00,2,completed
+RP-0443,"Jensen residence, 4107 Wornall Rd",Service call - running toilet,2026-01-28,2026-01-28,570.00,1,completed
+RP-0444,"Nguyen residence, 8801 Gillham Rd",Leak repair - kitchen sink,2026-01-28,2026-01-28,580.00,2,completed
+RP-0445,"Hughes residence, 9278 Broadway Blvd",Leak repair - kitchen sink,2026-01-28,2026-01-28,290.00,1,completed
+RP-0446,"Russo residence, 5832 Brookside Blvd",Drain cleaning with camera inspection,2026-01-28,2026-01-28,610.00,2.5,completed
+RP-0447,"Price residence, 3635 Wornall Rd",Drain cleaning - main line clog,2026-01-28,2026-01-28,230.00,2,completed
+RP-0448,"Hughes residence, 9820 Broadway Blvd",Emergency - burst pipe,2026-01-28,2026-01-28,480.00,2,completed
+RP-0449,"Nguyen residence, 165 Troost Ave",Garbage disposal repair,2026-01-29,2026-01-29,540.00,1.5,completed
+RP-0450,"Garza residence, 3295 Wornall Rd",Garbage disposal repair,2026-01-29,2026-01-29,320.00,1.5,completed
+RP-0451,"Jensen residence, 3661 Main St",Garbage disposal repair,2026-01-30,2026-01-30,340.00,2,completed
+RP-0452,"Delgado residence, 5038 Brookside Blvd",Service call - running toilet,2026-01-30,2026-01-30,210.00,2,completed
+RP-0453,"Lindqvist residence, 6181 Broadway Blvd",Sump pump repair,2026-01-30,2026-01-30,440.00,1.5,completed
+RP-0454,"Moreau residence, 9271 Holmes Rd",Sump pump repair,2026-01-30,2026-01-30,380.00,1.5,completed
+RP-0455,"Nguyen residence, 5318 Troost Ave",After-hours drain backup,2026-01-30,2026-01-30,600.00,4,completed
+RP-0456,"Schultz residence, 4468 State Line Rd",Leak repair - kitchen sink,2026-01-31,2026-01-31,310.00,2,completed
+RP-0457,"Sorensen residence, 5172 Wornall Rd",Garbage disposal repair,2026-01-31,2026-01-31,550.00,2,completed
+RP-0458,"Miller residence, 2773 Oak St",Garbage disposal repair,2026-01-31,2026-01-31,470.00,1,completed
+RP-0459,"Moreau residence, 8161 Broadway Blvd",Leak repair - kitchen sink,2026-01-31,2026-01-31,340.00,1,completed
+RP-0460,"Okafor residence, 6665 Broadway Blvd",Emergency - burst pipe,2026-01-31,2026-01-31,300.00,2,completed
+RP-0461,"Okafor residence, 7450 State Line Rd",Emergency - burst pipe,2026-02-01,2026-02-01,500.00,3,completed
+RP-0462,"Schultz residence, 7887 Troost Ave",Sump pump repair,2026-02-02,2026-02-02,520.00,2,completed
+RP-0463,"Kim residence, 8412 Brookside Blvd",Garbage disposal repair,2026-02-02,2026-02-02,340.00,1.5,completed
+RP-0464,"Delgado residence, 4023 Wornall Rd",Shutoff valve replacement,2026-02-02,2026-02-02,300.00,2,completed
+RP-0465,"Bauer residence, 8159 Gillham Rd",Service call - running toilet,2026-02-03,2026-02-03,580.00,3,completed
+RP-0466,"Kim residence, 5157 Holmes Rd",Weekend emergency leak,2026-02-03,2026-02-03,690.00,4,completed
+RP-0467,"Mendez residence, 3328 State Line Rd",Sump pump repair,2026-02-04,2026-02-04,400.00,1,completed
+RP-0468,"Novak residence, 6118 Brookside Blvd",Faucet replacement,2026-02-04,2026-02-04,440.00,1,completed
+RP-0469,"Kowalski residence, 8205 Brookside Blvd",Garbage disposal repair,2026-02-04,2026-02-04,510.00,1.5,completed
+RP-0470,"Whitfield residence, 3777 State Line Rd",Water heater replacement - 50 gal,2026-02-04,2026-02-04,2020.00,4,completed
+RP-0471,"Coleman residence, 8666 Brookside Blvd",Toilet repair,2026-02-05,2026-02-05,170.00,1.5,completed
+RP-0472,"Jensen residence, 7033 Broadway Blvd",Water heater replacement - 50 gal,2026-02-05,2026-02-05,2830.00,5,completed
+RP-0473,"Ortiz residence, 255 State Line Rd",Faucet replacement,2026-02-06,2026-02-06,590.00,3,completed
+RP-0474,"Iverson residence, 4396 Brookside Blvd",After-hours drain backup,2026-02-06,2026-02-06,700.00,3,completed
+RP-0475,"Reyes residence, 9469 Oak St",Faucet replacement,2026-02-07,2026-02-07,530.00,1.5,completed
+RP-0476,"Quinn residence, 1491 Brookside Blvd",Shutoff valve replacement,2026-02-07,2026-02-07,560.00,1,completed
+RP-0477,"Jensen residence, 7551 Wornall Rd",Drain cleaning with camera inspection,2026-02-07,2026-02-07,530.00,1.5,completed
+RP-0478,"Mendez residence, 7990 Gillham Rd",Drain cleaning with camera inspection,2026-02-07,2026-02-07,610.00,2.5,completed
+RP-0479,"Reyes residence, 1037 Wornall Rd",Weekend emergency leak,2026-02-07,2026-02-07,680.00,2,completed
+RP-0480,"Mendez residence, 1943 Brookside Blvd",Faucet replacement,2026-02-09,2026-02-09,360.00,1.5,completed
+RP-0481,"Iverson residence, 7666 Main St",Garbage disposal repair,2026-02-09,2026-02-09,460.00,3,completed
+RP-0482,"Nguyen residence, 8361 Ward Pkwy",Drain cleaning - main line clog,2026-02-09,2026-02-09,230.00,2.5,completed
+RP-0483,"Delgado residence, 2481 Gillham Rd",Toilet repair,2026-02-10,2026-02-10,570.00,1.5,completed
+RP-0484,"Kim residence, 5109 Wornall Rd",Shutoff valve replacement,2026-02-10,2026-02-10,440.00,2,completed
+RP-0485,"Ellison residence, 4251 Gillham Rd",Drain cleaning - main line clog,2026-02-10,2026-02-10,320.00,2,completed
+RP-0486,"Sorensen residence, 8101 Gillham Rd",Drain cleaning with camera inspection,2026-02-10,2026-02-10,530.00,1.5,completed
+RP-0487,"Sorensen residence, 8101 Gillham Rd",Trenchless sewer repair,2026-03-04,2026-03-06,14200.00,32,completed
+RP-0488,"Quinn residence, 9284 Holmes Rd",Faucet replacement,2026-02-11,2026-02-11,280.00,1.5,completed
+RP-0489,"Kowalski residence, 4492 State Line Rd",Faucet replacement,2026-02-11,2026-02-11,180.00,3,completed
+RP-0490,"Kim residence, 7401 Brookside Blvd",Faucet replacement,2026-02-11,2026-02-11,170.00,3,completed
+RP-0491,"Haddad residence, 2875 Oak St",Drain cleaning - main line clog,2026-02-11,2026-02-11,280.00,1.5,completed
+RP-0492,"Tran residence, 2794 Wornall Rd",Emergency - no water,2026-02-11,2026-02-11,440.00,2,completed
+RP-0493,"Iverson residence, 268 Wornall Rd",Service call - running toilet,2026-02-12,2026-02-12,240.00,1.5,completed
+RP-0494,"Whitfield residence, 3599 Gillham Rd",Shutoff valve replacement,2026-02-12,2026-02-12,340.00,1,completed
+RP-0495,"Price residence, 8710 Brookside Blvd",Garbage disposal repair,2026-02-12,2026-02-12,390.00,1,completed
+RP-0496,"Kim residence, 544 Holmes Rd",Drain cleaning with camera inspection,2026-02-12,2026-02-12,550.00,1.5,completed
+RP-0497,"Kim residence, 544 Holmes Rd",Sewer line replacement,2026-03-06,2026-03-08,7300.00,32,completed
+RP-0498,"Moreau residence, 7401 Wornall Rd",After-hours drain backup,2026-02-12,2026-02-12,430.00,3,completed
+RP-0499,"Sorensen residence, 8969 Troost Ave",Service call - running toilet,2026-02-13,2026-02-13,380.00,1.5,completed
+RP-0500,"Kowalski residence, 233 Gillham Rd",Toilet repair,2026-02-13,2026-02-13,310.00,1,completed
+RP-0501,"Tran residence, 6504 Brookside Blvd",Drain cleaning with camera inspection,2026-02-13,2026-02-13,630.00,1.5,completed
+RP-0502,"Tran residence, 6504 Brookside Blvd",Whole-house repipe,2026-03-14,2026-03-16,12900.00,24,completed
+RP-0503,"Ellison residence, 6237 Oak St",Drain cleaning with camera inspection,2026-02-13,2026-02-13,450.00,2.5,completed
+RP-0504,"Ellison residence, 6237 Oak St",Trenchless sewer repair,2026-03-14,2026-03-16,8800.00,24,completed
+RP-0505,"Okafor residence, 7674 Broadway Blvd",Service call - running toilet,2026-02-14,2026-02-14,190.00,1.5,completed
+RP-0506,"Patel residence, 9278 Gillham Rd",Shutoff valve replacement,2026-02-14,2026-02-14,190.00,1.5,completed
+RP-0507,"Price residence, 912 Troost Ave",Sump pump repair,2026-02-14,2026-02-14,180.00,2,completed
+RP-0508,"Sorensen residence, 1349 Oak St",Emergency - no water,2026-02-14,2026-02-14,360.00,3,completed
+RP-0509,"Garza residence, 8678 Main St",Emergency - no water,2026-02-15,2026-02-15,670.00,2,completed
+RP-0510,"Lopez residence, 7733 Oak St",Shutoff valve replacement,2026-02-16,2026-02-16,340.00,1.5,completed
+RP-0511,"Lopez residence, 1864 State Line Rd",Toilet repair,2026-02-16,2026-02-16,200.00,1,completed
+RP-0512,"Jensen residence, 7790 Troost Ave",Service call - running toilet,2026-02-16,2026-02-16,410.00,2,completed
+RP-0513,"Delgado residence, 2190 Troost Ave",Service call - running toilet,2026-02-16,2026-02-16,290.00,2,completed
+RP-0514,"Moreau residence, 1895 Troost Ave",Drain cleaning - main line clog,2026-02-16,2026-02-16,320.00,2,completed
+RP-0515,"Price residence, 7031 Troost Ave",Faucet replacement,2026-02-17,2026-02-17,600.00,1,completed
+RP-0516,"Kim residence, 7456 Broadway Blvd",Toilet repair,2026-02-17,2026-02-17,610.00,3,completed
+RP-0517,"Novak residence, 7571 State Line Rd",Drain cleaning - main line clog,2026-02-17,2026-02-17,420.00,2,completed
+RP-0518,"Ortiz residence, 9580 Wornall Rd",Leak repair - kitchen sink,2026-02-18,2026-02-18,240.00,2,completed
+RP-0519,"Miller residence, 8191 Oak St",Service call - running toilet,2026-02-18,2026-02-18,550.00,3,completed
+RP-0520,"Jensen residence, 4182 Troost Ave",Faucet replacement,2026-02-18,2026-02-18,540.00,1,completed
+RP-0521,"Moreau residence, 1993 Main St",Drain cleaning - main line clog,2026-02-18,2026-02-18,230.00,2.5,completed
+RP-0522,"Quinn residence, 3935 Gillham Rd",Drain cleaning with camera inspection,2026-02-18,2026-02-18,640.00,1.5,completed
+RP-0523,"Quinn residence, 3935 Gillham Rd",Whole-house repipe,2026-03-15,2026-03-17,12700.00,32,completed
+RP-0524,"Okafor residence, 3496 Broadway Blvd",Leak repair - kitchen sink,2026-02-19,2026-02-19,530.00,2,completed
+RP-0525,"Kim residence, 222 State Line Rd",Leak repair - kitchen sink,2026-02-19,2026-02-19,380.00,2,completed
+RP-0526,"Reyes residence, 8083 Wornall Rd",Garbage disposal repair,2026-02-19,2026-02-19,530.00,3,completed
+RP-0527,"Schultz residence, 6226 Brookside Blvd",Drain cleaning - main line clog,2026-02-19,2026-02-19,380.00,2,completed
+RP-0528,"Ortiz residence, 1330 Brookside Blvd",Service call - running toilet,2026-02-20,2026-02-20,270.00,3,completed
+RP-0529,"Moreau residence, 252 Wornall Rd",Sump pump repair,2026-02-20,2026-02-20,320.00,1.5,completed
+RP-0530,"Reyes residence, 3836 Ward Pkwy",Toilet repair,2026-02-20,2026-02-20,210.00,3,completed
+RP-0531,"Iverson residence, 3624 Ward Pkwy",Garbage disposal repair,2026-02-20,2026-02-20,220.00,1.5,completed
+RP-0532,"Garza residence, 2256 Wornall Rd",Drain cleaning with camera inspection,2026-02-20,2026-02-20,490.00,2,completed
+RP-0533,"Garza residence, 2256 Wornall Rd",Trenchless sewer repair,2026-03-09,2026-03-11,10000.00,24,completed
+RP-0534,"Kim residence, 9029 Gillham Rd",Faucet replacement,2026-02-21,2026-02-21,330.00,1.5,completed
+RP-0535,"Schultz residence, 1021 Holmes Rd",Leak repair - kitchen sink,2026-02-21,2026-02-21,580.00,1,completed
+RP-0536,"Schultz residence, 9283 Wornall Rd",Faucet replacement,2026-02-21,2026-02-21,310.00,1.5,completed
+RP-0537,"Haddad residence, 6580 Main St",After-hours drain backup,2026-02-21,2026-02-21,270.00,2,completed
+RP-0538,"Patel residence, 1242 Troost Ave",Service call - running toilet,2026-02-23,2026-02-23,230.00,1.5,completed
+RP-0539,"Russo residence, 7830 Ward Pkwy",After-hours drain backup,2026-02-23,2026-02-23,370.00,4,completed
+RP-0540,"Jensen residence, 3004 Brookside Blvd",Shutoff valve replacement,2026-02-24,2026-02-24,250.00,1,completed
+RP-0541,"Bauer residence, 4470 Broadway Blvd",Shutoff valve replacement,2026-02-24,2026-02-24,600.00,1,completed
+RP-0542,"Jensen residence, 6080 Main St",Service call - running toilet,2026-02-24,2026-02-24,450.00,3,completed
+RP-0543,"Jensen residence, 3236 Gillham Rd",Garbage disposal repair,2026-02-24,2026-02-24,400.00,2,completed
+RP-0544,"Patel residence, 6666 Ward Pkwy",Drain cleaning - main line clog,2026-02-24,2026-02-24,260.00,2.5,completed
+RP-0545,"Bauer residence, 2759 Ward Pkwy",Weekend emergency leak,2026-02-24,2026-02-24,320.00,4,completed
+RP-0546,"Lopez residence, 3638 Gillham Rd",Service call - running toilet,2026-02-25,2026-02-25,170.00,3,completed
+RP-0547,"Kim residence, 2924 Troost Ave",Garbage disposal repair,2026-02-25,2026-02-25,210.00,1,completed
+RP-0548,"Coleman residence, 2150 Brookside Blvd",Drain cleaning - main line clog,2026-02-25,2026-02-25,340.00,1.5,completed
+RP-0549,"Quinn residence, 5598 Troost Ave",Weekend emergency leak,2026-02-25,2026-02-25,300.00,2,completed
+RP-0550,"Lindqvist residence, 1805 Brookside Blvd",Sump pump repair,2026-02-26,2026-02-26,280.00,1,completed
+RP-0551,"Quinn residence, 3771 Troost Ave",Sump pump repair,2026-02-27,2026-02-27,350.00,3,completed
+RP-0552,"Bauer residence, 6507 Ward Pkwy",Service call - running toilet,2026-02-27,2026-02-27,510.00,3,completed
+RP-0553,"Ortiz residence, 2491 Main St",Emergency - burst pipe,2026-02-27,2026-02-27,410.00,4,completed
+RP-0554,"Moreau residence, 869 Wornall Rd",Tankless water heater install,2026-02-27,2026-02-27,1860.00,5,completed
+RP-0555,"Bauer residence, 9179 Oak St",Service call - running toilet,2026-02-28,2026-02-28,400.00,2,completed
+RP-0556,"Schultz residence, 9816 Brookside Blvd",Garbage disposal repair,2026-02-28,2026-02-28,570.00,2,completed
+RP-0557,"Brooks residence, 942 Ward Pkwy",Drain cleaning with camera inspection,2026-02-28,2026-02-28,520.00,2.5,completed
+RP-0558,"Schultz residence, 6375 Gillham Rd",Drain cleaning - main line clog,2026-02-28,2026-02-28,200.00,1.5,completed
+RP-0559,"Kim residence, 2432 State Line Rd",Emergency - burst pipe,2026-03-01,2026-03-01,440.00,4,completed
+RP-0560,"Okafor residence, 5041 Main St",Garbage disposal repair,2026-03-02,2026-03-02,470.00,1,completed
+RP-0561,"Bauer residence, 3260 Gillham Rd",Toilet repair,2026-03-02,2026-03-02,310.00,1,completed
+RP-0562,"Haddad residence, 7953 Brookside Blvd",Drain cleaning - main line clog,2026-03-02,2026-03-02,210.00,1.5,completed
+RP-0563,"Haddad residence, 2415 State Line Rd",Drain cleaning - main line clog,2026-03-02,2026-03-02,440.00,2.5,completed
+RP-0564,"Miller residence, 4554 Troost Ave",Water heater replacement - 50 gal,2026-03-02,2026-03-02,3110.00,4,completed
+RP-0565,"Sorensen residence, 2418 Broadway Blvd",Service call - running toilet,2026-03-03,2026-03-03,610.00,2,completed
+RP-0566,"Nguyen residence, 7863 Main St",Leak repair - kitchen sink,2026-03-03,2026-03-03,320.00,1,completed
+RP-0567,"Kim residence, 1080 Wornall Rd",Faucet replacement,2026-03-03,2026-03-03,520.00,3,completed
+RP-0568,"Haddad residence, 503 State Line Rd",Leak repair - kitchen sink,2026-03-03,2026-03-03,610.00,1,completed
+RP-0569,"Brooks residence, 9821 Ward Pkwy",Drain cleaning - main line clog,2026-03-03,2026-03-03,310.00,1.5,completed
+RP-0570,"Tran residence, 9294 Ward Pkwy",Weekend emergency leak,2026-03-03,2026-03-03,420.00,4,completed
+RP-0571,"Quinn residence, 9897 Brookside Blvd",Service call - running toilet,2026-03-04,2026-03-04,590.00,1,completed
+RP-0572,"Miller residence, 9606 Oak St",Service call - running toilet,2026-03-04,2026-03-04,220.00,1.5,completed
+RP-0573,"Nguyen residence, 6695 Oak St",Tankless water heater install,2026-03-04,2026-03-04,2660.00,5,completed
+RP-0574,"Schultz residence, 8427 Ward Pkwy",Faucet replacement,2026-03-05,2026-03-05,230.00,3,completed
+RP-0575,"Jensen residence, 6403 Troost Ave",Shutoff valve replacement,2026-03-05,2026-03-05,230.00,2,completed
+RP-0576,"Quinn residence, 9853 State Line Rd",Garbage disposal repair,2026-03-05,2026-03-05,270.00,3,completed
+RP-0577,"Russo residence, 1865 Main St",Drain cleaning - main line clog,2026-03-05,2026-03-05,430.00,2,completed
+RP-0578,"Tran residence, 396 Troost Ave",Drain cleaning - main line clog,2026-03-05,2026-03-05,280.00,2,completed
+RP-0579,"Price residence, 9046 Main St",Emergency - burst pipe,2026-03-05,2026-03-05,430.00,2,completed
+RP-0580,"Price residence, 4132 Troost Ave",Leak repair - kitchen sink,2026-03-06,2026-03-06,500.00,1,completed
+RP-0581,"Price residence, 3204 Broadway Blvd",Leak repair - kitchen sink,2026-03-06,2026-03-06,390.00,2,completed
+RP-0582,"Jensen residence, 7065 Troost Ave",Drain cleaning - main line clog,2026-03-06,2026-03-06,270.00,1.5,completed
+RP-0583,"Okafor residence, 7721 Brookside Blvd",Weekend emergency leak,2026-03-06,2026-03-06,660.00,3,completed
+RP-0584,"Whitfield residence, 8751 Ward Pkwy",Water heater replacement - 50 gal,2026-03-06,2026-03-06,2160.00,5,completed
+RP-0585,"Kim residence, 5556 Broadway Blvd",Sump pump repair,2026-03-07,2026-03-07,550.00,1.5,completed
+RP-0586,"Iverson residence, 3850 Brookside Blvd",Sump pump repair,2026-03-07,2026-03-07,170.00,1.5,completed
+RP-0587,"Schultz residence, 5914 State Line Rd",Sump pump repair,2026-03-07,2026-03-07,230.00,1.5,completed
+RP-0588,"Garza residence, 4116 Broadway Blvd",Service call - running toilet,2026-03-07,2026-03-07,330.00,2,completed
+RP-0589,"Reyes residence, 6938 Holmes Rd",Drain cleaning - main line clog,2026-03-07,2026-03-07,200.00,2,completed
+RP-0590,"Price residence, 7322 Brookside Blvd",Drain cleaning - main line clog,2026-03-07,2026-03-07,400.00,2,completed
+RP-0591,"Okafor residence, 2761 Wornall Rd",Garbage disposal repair,2026-03-09,2026-03-09,310.00,3,completed
+RP-0592,"Whitfield residence, 3157 Gillham Rd",Shutoff valve replacement,2026-03-09,2026-03-09,350.00,1,completed
+RP-0593,"Ellison residence, 9340 Brookside Blvd",Toilet repair,2026-03-09,2026-03-09,400.00,1,completed
+RP-0594,"Ellison residence, 2018 Broadway Blvd",Drain cleaning - main line clog,2026-03-09,2026-03-09,260.00,2.5,completed
+RP-0595,"Brooks residence, 5517 State Line Rd",Drain cleaning with camera inspection,2026-03-09,2026-03-09,400.00,2,completed
+RP-0596,"Kim residence, 6820 Broadway Blvd",After-hours drain backup,2026-03-09,2026-03-09,570.00,3,completed
+RP-0597,"Coleman residence, 6077 Wornall Rd",Garbage disposal repair,2026-03-10,2026-03-10,180.00,2,completed
+RP-0598,"Whitfield residence, 9499 Troost Ave",Drain cleaning - main line clog,2026-03-10,2026-03-10,410.00,2.5,completed
+RP-0599,"Russo residence, 8704 Broadway Blvd",Drain cleaning - main line clog,2026-03-10,2026-03-10,370.00,2.5,completed
+RP-0600,"Reyes residence, 917 Brookside Blvd",Water heater replacement - 40 gal,2026-03-10,2026-03-10,3050.00,6,completed
+RP-0601,"Novak residence, 1004 Gillham Rd",Toilet repair,2026-03-11,2026-03-11,440.00,1,completed
+RP-0602,"Lopez residence, 2314 Broadway Blvd",Shutoff valve replacement,2026-03-11,2026-03-11,610.00,3,completed
+RP-0603,"Miller residence, 3541 Main St",Garbage disposal repair,2026-03-11,2026-03-11,540.00,1,completed
+RP-0604,"Sorensen residence, 9730 Oak St",Weekend emergency leak,2026-03-11,2026-03-11,510.00,4,completed
+RP-0605,"Whitfield residence, 3728 State Line Rd",Toilet repair,2026-03-12,2026-03-12,460.00,3,completed
+RP-0606,"Lindqvist residence, 3274 Brookside Blvd",Sump pump repair,2026-03-12,2026-03-12,500.00,1,completed
+RP-0607,"Price residence, 6198 Oak St",Faucet replacement,2026-03-12,2026-03-12,160.00,1.5,completed
+RP-0608,"Iverson residence, 5930 Holmes Rd",Drain cleaning with camera inspection,2026-03-12,2026-03-12,640.00,2,completed
+RP-0609,"Iverson residence, 5930 Holmes Rd",Sewer line replacement,2026-04-07,2026-04-09,7300.00,32,completed
+RP-0610,"Bauer residence, 1600 Holmes Rd",Weekend emergency leak,2026-03-12,2026-03-12,630.00,2,completed
+RP-0611,"Reyes residence, 7251 Ward Pkwy",Water heater replacement - 50 gal,2026-03-12,2026-03-12,3070.00,4,completed
+RP-0612,"Bauer residence, 9884 State Line Rd",Shutoff valve replacement,2026-03-13,2026-03-13,350.00,2,completed
+RP-0613,"Miller residence, 1320 Wornall Rd",Toilet repair,2026-03-13,2026-03-13,220.00,3,completed
+RP-0614,"Okafor residence, 2750 Main St",Drain cleaning - main line clog,2026-03-13,2026-03-13,230.00,1.5,completed
+RP-0615,"Sorensen residence, 1447 State Line Rd",Drain cleaning with camera inspection,2026-03-13,2026-03-13,640.00,2.5,completed
+RP-0616,"Coleman residence, 5409 Holmes Rd",Faucet replacement,2026-03-14,2026-03-14,380.00,1.5,completed
+RP-0617,"Moreau residence, 5914 Brookside Blvd",Garbage disposal repair,2026-03-14,2026-03-14,340.00,1.5,completed
+RP-0618,"Garza residence, 8368 Brookside Blvd",Faucet replacement,2026-03-14,2026-03-14,560.00,1.5,completed
+RP-0619,"Nguyen residence, 6072 Troost Ave",Drain cleaning with camera inspection,2026-03-14,2026-03-14,590.00,2,completed
+RP-0620,"Ellison residence, 1816 Oak St",Drain cleaning with camera inspection,2026-03-14,2026-03-14,570.00,2.5,completed
+RP-0621,"Haddad residence, 5671 Troost Ave",Weekend emergency leak,2026-03-14,2026-03-14,370.00,4,completed
+RP-0622,"Iverson residence, 9456 Main St",Weekend emergency leak,2026-03-15,2026-03-15,350.00,4,completed
+RP-0623,"Tran residence, 4191 Oak St",Leak repair - kitchen sink,2026-03-16,2026-03-16,430.00,1,completed
+RP-0624,"Jensen residence, 7208 Troost Ave",Service call - running toilet,2026-03-16,2026-03-16,480.00,2,completed
+RP-0625,"Novak residence, 9735 Brookside Blvd",Drain cleaning - main line clog,2026-03-16,2026-03-16,240.00,2.5,completed
+RP-0626,"Kowalski residence, 8828 Brookside Blvd",Weekend emergency leak,2026-03-16,2026-03-16,620.00,2,completed
+RP-0627,"Mendez residence, 330 Broadway Blvd",Sump pump repair,2026-03-17,2026-03-17,310.00,1,completed
+RP-0628,"Moreau residence, 1035 Ward Pkwy",Faucet replacement,2026-03-17,2026-03-17,540.00,1.5,completed
+RP-0629,"Miller residence, 1097 Holmes Rd",Faucet replacement,2026-03-17,2026-03-17,330.00,3,completed
+RP-0630,"Kim residence, 8076 Main St",Drain cleaning with camera inspection,2026-03-17,2026-03-17,540.00,2.5,completed
+RP-0631,"Kowalski residence, 3370 Holmes Rd",Drain cleaning with camera inspection,2026-03-17,2026-03-17,480.00,2,completed
+RP-0632,"Kowalski residence, 3370 Holmes Rd",Whole-house repipe,2026-03-31,2026-04-02,13500.00,32,completed
+RP-0633,"Lindqvist residence, 4300 Brookside Blvd",Faucet replacement,2026-03-18,2026-03-18,170.00,1.5,completed
+RP-0634,"Mendez residence, 8432 State Line Rd",Drain cleaning with camera inspection,2026-03-18,2026-03-18,400.00,1.5,completed
+RP-0635,"Mendez residence, 8432 State Line Rd",Sewer line replacement,2026-04-05,2026-04-07,10200.00,32,completed
+RP-0636,"Lopez residence, 4454 Brookside Blvd",Toilet repair,2026-03-19,2026-03-19,200.00,3,completed
+RP-0637,"Jensen residence, 8130 Ward Pkwy",Faucet replacement,2026-03-19,2026-03-19,320.00,1,completed
+RP-0638,"Jensen residence, 3543 Main St",Sump pump repair,2026-03-19,2026-03-19,560.00,3,completed
+RP-0639,"Sorensen residence, 5015 Troost Ave",Drain cleaning with camera inspection,2026-03-19,2026-03-19,530.00,1.5,completed
+RP-0640,"Patel residence, 538 Brookside Blvd",Leak repair - kitchen sink,2026-03-20,2026-03-20,220.00,1.5,completed
+RP-0641,"Patel residence, 493 State Line Rd",Shutoff valve replacement,2026-03-20,2026-03-20,290.00,1,completed
+RP-0642,"Schultz residence, 5093 Oak St",Leak repair - kitchen sink,2026-03-20,2026-03-20,270.00,1,completed
+RP-0643,"Ellison residence, 2100 Oak St",Service call - running toilet,2026-03-20,2026-03-20,230.00,3,completed
+RP-0644,"Brooks residence, 3821 State Line Rd",Drain cleaning - main line clog,2026-03-20,2026-03-20,410.00,1.5,completed
+RP-0645,"Haddad residence, 4834 Gillham Rd",Garbage disposal repair,2026-03-21,2026-03-21,430.00,2,completed
+RP-0646,"Nguyen residence, 8213 Main St",Toilet repair,2026-03-21,2026-03-21,550.00,1.5,completed
+RP-0647,"Bauer residence, 3164 Holmes Rd",Service call - running toilet,2026-03-21,2026-03-21,540.00,3,completed
+RP-0648,"Kim residence, 7696 Ward Pkwy",Drain cleaning - main line clog,2026-03-21,2026-03-21,200.00,2.5,completed
+RP-0649,"Haddad residence, 7984 Ward Pkwy",Weekend emergency leak,2026-03-22,2026-03-22,540.00,2,completed
+RP-0650,"Tran residence, 7596 Main St",Sump pump repair,2026-03-23,2026-03-23,420.00,2,completed
+RP-0651,"Mendez residence, 6835 Gillham Rd",Drain cleaning - main line clog,2026-03-23,2026-03-23,180.00,2.5,completed
+RP-0652,"Garza residence, 8431 Oak St",Garbage disposal repair,2026-03-24,2026-03-24,270.00,2,completed
+RP-0653,"Novak residence, 4558 Ward Pkwy",Shutoff valve replacement,2026-03-24,2026-03-24,300.00,3,completed
+RP-0654,"Garza residence, 8297 Main St",Garbage disposal repair,2026-03-24,2026-03-24,220.00,2,completed
+RP-0655,"Haddad residence, 9294 Main St",Faucet replacement,2026-03-24,2026-03-24,200.00,1.5,completed
+RP-0656,"Russo residence, 4009 Oak St",Emergency - burst pipe,2026-03-24,2026-03-24,270.00,2,completed
+RP-0657,"Kim residence, 3996 Ward Pkwy",Water heater replacement - 40 gal,2026-03-24,2026-03-24,2340.00,6,completed
+RP-0658,"Price residence, 1678 Brookside Blvd",Toilet repair,2026-03-25,2026-03-25,190.00,2,completed
+RP-0659,"Jensen residence, 8189 Main St",Weekend emergency leak,2026-03-25,2026-03-25,360.00,2,completed
+RP-0660,"Novak residence, 959 Brookside Blvd",Leak repair - kitchen sink,2026-03-26,2026-03-26,590.00,1,completed
+RP-0661,"Ortiz residence, 5379 Main St",Sump pump repair,2026-03-26,2026-03-26,190.00,2,completed
+RP-0662,"Garza residence, 2444 Broadway Blvd",Service call - running toilet,2026-03-26,2026-03-26,400.00,3,completed
+RP-0663,"Kowalski residence, 7938 Gillham Rd",Drain cleaning with camera inspection,2026-03-26,2026-03-26,530.00,1.5,completed
+RP-0664,"Brooks residence, 7334 Gillham Rd",Drain cleaning - main line clog,2026-03-26,2026-03-26,410.00,1.5,completed
+RP-0665,"Whitfield residence, 7080 Main St",Leak repair - kitchen sink,2026-03-27,2026-03-27,400.00,3,completed
+RP-0666,"Jensen residence, 8950 Troost Ave",Toilet repair,2026-03-27,2026-03-27,410.00,1.5,completed
+RP-0667,"Reyes residence, 4790 Brookside Blvd",Garbage disposal repair,2026-03-27,2026-03-27,160.00,3,completed
+RP-0668,"Lindqvist residence, 9362 Main St",Drain cleaning with camera inspection,2026-03-27,2026-03-27,460.00,2.5,completed
+RP-0669,"Novak residence, 158 State Line Rd",Drain cleaning - main line clog,2026-03-27,2026-03-27,290.00,2,completed
+RP-0670,"Price residence, 8365 Brookside Blvd",Leak repair - kitchen sink,2026-03-28,2026-03-28,420.00,3,completed
+RP-0671,"Reyes residence, 5071 Holmes Rd",Faucet replacement,2026-03-28,2026-03-28,550.00,2,completed
+RP-0672,"Moreau residence, 5840 Troost Ave",Drain cleaning - main line clog,2026-03-28,2026-03-28,420.00,2,completed
+RP-0673,"Quinn residence, 7689 Gillham Rd",Faucet replacement,2026-03-30,2026-03-30,240.00,3,completed
+RP-0674,"Coleman residence, 3412 Brookside Blvd",Leak repair - kitchen sink,2026-03-30,2026-03-30,450.00,1,completed
+RP-0675,"Bauer residence, 6929 State Line Rd",Drain cleaning with camera inspection,2026-03-30,2026-03-30,560.00,2,completed
+RP-0676,"Bauer residence, 6929 State Line Rd",Whole-house repipe,2026-04-11,2026-04-13,12300.00,40,completed
+RP-0677,"Lindqvist residence, 2973 Oak St",Drain cleaning - main line clog,2026-03-30,2026-03-30,340.00,2,completed
+RP-0678,"Mendez residence, 8508 Oak St",Sump pump repair,2026-03-31,2026-03-31,470.00,2,completed
+RP-0679,"Moreau residence, 1833 Holmes Rd",Service call - running toilet,2026-03-31,2026-03-31,210.00,3,completed
+RP-0680,"Bauer residence, 3789 Main St",Drain cleaning with camera inspection,2026-03-31,2026-03-31,450.00,2.5,completed
+RP-0681,"Bauer residence, 3789 Main St",Sewer line replacement,2026-04-05,2026-04-07,11400.00,40,completed
+RP-0682,"Mendez residence, 8947 Holmes Rd",Drain cleaning - main line clog,2026-03-31,2026-03-31,220.00,1.5,completed
+RP-0683,"Sorensen residence, 1085 Holmes Rd",Toilet repair,2026-04-01,2026-04-01,570.00,2,completed
+RP-0684,"Ellison residence, 2082 Ward Pkwy",Toilet repair,2026-04-01,2026-04-01,480.00,1.5,completed
+RP-0685,"Kim residence, 7187 Oak St",Shutoff valve replacement,2026-04-01,2026-04-01,220.00,3,completed
+RP-0686,"Hughes residence, 1516 Oak St",Drain cleaning - main line clog,2026-04-01,2026-04-01,310.00,1.5,completed
+RP-0687,"Moreau residence, 9729 Troost Ave",Drain cleaning - main line clog,2026-04-01,2026-04-01,360.00,2,completed
+RP-0688,"Kim residence, 8156 Ward Pkwy",Faucet replacement,2026-04-02,2026-04-02,260.00,1,completed
+RP-0689,"Garza residence, 3307 Brookside Blvd",Faucet replacement,2026-04-02,2026-04-02,530.00,3,completed
+RP-0690,"Garza residence, 1932 Holmes Rd",Faucet replacement,2026-04-02,2026-04-02,280.00,1.5,completed
+RP-0691,"Whitfield residence, 6571 State Line Rd",Faucet replacement,2026-04-03,2026-04-03,340.00,2,completed
+RP-0692,"Whitfield residence, 7370 Brookside Blvd",Faucet replacement,2026-04-03,2026-04-03,250.00,2,completed
+RP-0693,"Coleman residence, 4550 Troost Ave",Emergency - burst pipe,2026-04-03,2026-04-03,230.00,2,completed
+RP-0694,"Okafor residence, 9091 Ward Pkwy",Service call - running toilet,2026-04-04,2026-04-04,380.00,3,completed
+RP-0695,"Lindqvist residence, 831 Holmes Rd",Leak repair - kitchen sink,2026-04-04,2026-04-04,160.00,1.5,completed
+RP-0696,"Quinn residence, 4357 Main St",Emergency - burst pipe,2026-04-05,2026-04-05,520.00,2,completed
+RP-0697,"Coleman residence, 2652 State Line Rd",Sump pump repair,2026-04-06,2026-04-06,610.00,1.5,completed
+RP-0698,"Patel residence, 2442 State Line Rd",Garbage disposal repair,2026-04-06,2026-04-06,260.00,3,completed
+RP-0699,"Ortiz residence, 7129 Broadway Blvd",Toilet repair,2026-04-07,2026-04-07,480.00,1,completed
+RP-0700,"Whitfield residence, 4153 Gillham Rd",Toilet repair,2026-04-07,2026-04-07,410.00,2,completed
+RP-0701,"Okafor residence, 3780 Holmes Rd",After-hours drain backup,2026-04-07,2026-04-07,390.00,2,completed
+RP-0702,"Brooks residence, 3210 Broadway Blvd",Service call - running toilet,2026-04-08,2026-04-08,200.00,1.5,completed
+RP-0703,"Moreau residence, 7596 Ward Pkwy",Toilet repair,2026-04-08,2026-04-08,330.00,1.5,completed
+RP-0704,"Miller residence, 8582 Gillham Rd",Drain cleaning - main line clog,2026-04-08,2026-04-08,390.00,2.5,completed
+RP-0705,"Mendez residence, 7630 Main St",Drain cleaning - main line clog,2026-04-08,2026-04-08,410.00,2,completed
+RP-0706,"Iverson residence, 8750 Wornall Rd",Weekend emergency leak,2026-04-08,2026-04-08,580.00,3,completed
+RP-0707,"Garza residence, 9704 Broadway Blvd",Water heater replacement - 40 gal,2026-04-08,2026-04-08,2570.00,5,completed
+RP-0708,"Coleman residence, 9502 Oak St",Shutoff valve replacement,2026-04-09,2026-04-09,160.00,2,completed
+RP-0709,"Kim residence, 3855 Broadway Blvd",Toilet repair,2026-04-09,2026-04-09,330.00,1.5,completed
+RP-0710,"Bauer residence, 9143 Troost Ave",Water heater replacement - 40 gal,2026-04-09,2026-04-09,2430.00,4,completed
+RP-0711,"Schultz residence, 9802 Wornall Rd",Garbage disposal repair,2026-04-10,2026-04-10,600.00,3,completed
+RP-0712,"Whitfield residence, 7277 Troost Ave",Garbage disposal repair,2026-04-10,2026-04-10,470.00,2,completed
+RP-0713,"Okafor residence, 1135 Brookside Blvd",Faucet replacement,2026-04-10,2026-04-10,280.00,3,completed
+RP-0714,"Novak residence, 5870 Broadway Blvd",Service call - running toilet,2026-04-10,2026-04-10,200.00,3,completed
+RP-0715,"Reyes residence, 1066 Gillham Rd",Garbage disposal repair,2026-04-11,2026-04-11,530.00,2,completed
+RP-0716,"Mendez residence, 6984 Gillham Rd",Faucet replacement,2026-04-11,2026-04-11,360.00,3,completed
+RP-0717,"Coleman residence, 2437 Ward Pkwy",Toilet repair,2026-04-11,2026-04-11,230.00,1.5,completed
+RP-0718,"Tran residence, 3470 Holmes Rd",Emergency - burst pipe,2026-04-12,2026-04-12,490.00,3,completed
+RP-0719,"Ortiz residence, 3599 Oak St",Garbage disposal repair,2026-04-13,2026-04-13,590.00,1.5,completed
+RP-0720,"Nguyen residence, 4330 Ward Pkwy",Drain cleaning - main line clog,2026-04-13,2026-04-13,290.00,2,completed
+RP-0721,"Ellison residence, 1975 Holmes Rd",Emergency - no water,2026-04-13,2026-04-13,360.00,4,completed
+RP-0722,"Coleman residence, 6012 Oak St",Toilet repair,2026-04-14,2026-04-14,300.00,1,completed
+RP-0723,"Lindqvist residence, 6621 Wornall Rd",Sump pump repair,2026-04-14,2026-04-14,460.00,1,completed
+RP-0724,"Kowalski residence, 7604 State Line Rd",Drain cleaning - main line clog,2026-04-14,2026-04-14,210.00,1.5,completed
+RP-0725,"Bauer residence, 2348 Troost Ave",Service call - running toilet,2026-04-15,2026-04-15,280.00,1.5,completed
+RP-0726,"Whitfield residence, 8755 Wornall Rd",Leak repair - kitchen sink,2026-04-15,2026-04-15,460.00,1.5,completed
+RP-0727,"Delgado residence, 1436 Ward Pkwy",Shutoff valve replacement,2026-04-15,2026-04-15,320.00,1.5,completed
+RP-0728,"Russo residence, 3142 Main St",Drain cleaning with camera inspection,2026-04-15,2026-04-15,560.00,1.5,completed
+RP-0729,"Tran residence, 1829 Broadway Blvd",Toilet repair,2026-04-16,2026-04-16,190.00,2,completed
+RP-0730,"Nguyen residence, 2018 Main St",Garbage disposal repair,2026-04-16,2026-04-16,460.00,3,completed
+RP-0731,"Iverson residence, 4224 Gillham Rd",Sump pump repair,2026-04-16,2026-04-16,310.00,1.5,completed
+RP-0732,"Garza residence, 4583 Broadway Blvd",Drain cleaning with camera inspection,2026-04-16,2026-04-16,590.00,1.5,completed
+RP-0733,"Novak residence, 6344 Wornall Rd",Drain cleaning with camera inspection,2026-04-16,2026-04-16,460.00,1.5,completed
+RP-0734,"Lopez residence, 7475 Oak St",Service call - running toilet,2026-04-17,2026-04-17,300.00,1,completed
+RP-0735,"Reyes residence, 8260 Troost Ave",Garbage disposal repair,2026-04-17,2026-04-17,460.00,3,completed
+RP-0736,"Okafor residence, 374 State Line Rd",Sump pump repair,2026-04-17,2026-04-17,510.00,2,completed
+RP-0737,"Ellison residence, 4233 Holmes Rd",Sump pump repair,2026-04-17,2026-04-17,270.00,2,completed
+RP-0738,"Lindqvist residence, 9419 Holmes Rd",Drain cleaning - main line clog,2026-04-17,2026-04-17,270.00,2,completed
+RP-0739,"Brooks residence, 7495 Wornall Rd",Shutoff valve replacement,2026-04-18,2026-04-18,270.00,3,completed
+RP-0740,"Sorensen residence, 2811 Troost Ave",Garbage disposal repair,2026-04-18,2026-04-18,510.00,1.5,completed
+RP-0741,"Quinn residence, 2620 Holmes Rd",Service call - running toilet,2026-04-18,2026-04-18,410.00,1.5,completed
+RP-0742,"Sorensen residence, 3955 Brookside Blvd",Drain cleaning - main line clog,2026-04-18,2026-04-18,310.00,1.5,completed
+RP-0743,"Novak residence, 1770 Holmes Rd",Drain cleaning - main line clog,2026-04-18,2026-04-18,240.00,2.5,completed
+RP-0744,"Coleman residence, 3321 Wornall Rd",Emergency - burst pipe,2026-04-19,2026-04-19,590.00,4,completed
+RP-0745,"Garza residence, 1216 State Line Rd",Faucet replacement,2026-04-20,2026-04-20,470.00,3,completed
+RP-0746,"Delgado residence, 2058 Brookside Blvd",Leak repair - kitchen sink,2026-04-20,2026-04-20,410.00,1,completed
+RP-0747,"Patel residence, 7406 State Line Rd",Drain cleaning - main line clog,2026-04-20,2026-04-20,300.00,2.5,completed
+RP-0748,"Schultz residence, 9550 Gillham Rd",Drain cleaning - main line clog,2026-04-20,2026-04-20,410.00,2.5,completed
+RP-0749,"Delgado residence, 1681 Gillham Rd",Faucet replacement,2026-04-21,2026-04-21,430.00,2,completed
+RP-0750,"Schultz residence, 7678 Wornall Rd",Toilet repair,2026-04-21,2026-04-21,380.00,3,completed
+RP-0751,"Price residence, 4554 Ward Pkwy",Faucet replacement,2026-04-21,2026-04-21,600.00,1,completed
+RP-0752,"Kim residence, 5818 Wornall Rd",Leak repair - kitchen sink,2026-04-22,2026-04-22,370.00,1,completed
+RP-0753,"Hughes residence, 2362 Gillham Rd",Garbage disposal repair,2026-04-22,2026-04-22,440.00,3,completed
+RP-0754,"Sorensen residence, 3598 State Line Rd",After-hours drain backup,2026-04-22,2026-04-22,360.00,3,completed
+RP-0755,"Jensen residence, 2396 Gillham Rd",Water heater replacement - 40 gal,2026-04-22,2026-04-22,2470.00,4,completed
+RP-0756,"Russo residence, 7034 Troost Ave",Warranty callback - leak at fitting,2026-04-22,2026-04-22,0.00,2,completed
+RP-0757,"Bauer residence, 7241 Holmes Rd",Leak repair - kitchen sink,2026-04-23,2026-04-23,440.00,1,completed
+RP-0758,"Novak residence, 4737 Main St",Shutoff valve replacement,2026-04-23,2026-04-23,560.00,2,completed
+RP-0759,"Delgado residence, 1998 Oak St",Drain cleaning with camera inspection,2026-04-23,2026-04-23,590.00,2,completed
+RP-0760,"Delgado residence, 1998 Oak St",Whole-house repipe,2026-05-19,2026-05-21,10800.00,32,completed
+RP-0761,"Miller residence, 7303 Main St",Drain cleaning - main line clog,2026-04-23,2026-04-23,200.00,2.5,completed
+RP-0762,"Quinn residence, 3635 State Line Rd",Weekend emergency leak,2026-04-23,2026-04-23,460.00,2,completed
+RP-0763,"Bauer residence, 1897 Brookside Blvd",Toilet repair,2026-04-24,2026-04-24,430.00,1.5,completed
+RP-0764,"Kim residence, 1064 Wornall Rd",Toilet repair,2026-04-24,2026-04-24,280.00,2,completed
+RP-0765,"Iverson residence, 4514 Main St",Weekend emergency leak,2026-04-24,2026-04-24,490.00,4,completed
+RP-0766,"Lindqvist residence, 6758 State Line Rd",Toilet repair,2026-04-25,2026-04-25,470.00,3,completed
+RP-0767,"Lopez residence, 3706 Gillham Rd",Faucet replacement,2026-04-27,2026-04-27,590.00,1,completed
+RP-0768,"Ortiz residence, 1494 Troost Ave",Sump pump repair,2026-04-27,2026-04-27,580.00,1,completed
+RP-0769,"Ellison residence, 5639 Ward Pkwy",Shutoff valve replacement,2026-04-27,2026-04-27,480.00,1,completed
+RP-0770,"Nguyen residence, 3798 Ward Pkwy",Drain cleaning with camera inspection,2026-04-27,2026-04-27,440.00,2.5,completed
+RP-0771,"Mendez residence, 3038 Holmes Rd",Sump pump repair,2026-04-28,2026-04-28,240.00,3,completed
+RP-0772,"Ellison residence, 2054 Main St",Faucet replacement,2026-04-28,2026-04-28,170.00,1.5,completed
+RP-0773,"Nguyen residence, 5155 Main St",Faucet replacement,2026-04-28,2026-04-28,290.00,3,completed
+RP-0774,"Garza residence, 5319 Ward Pkwy",Drain cleaning with camera inspection,2026-04-28,2026-04-28,490.00,2,completed
+RP-0775,"Garza residence, 5319 Ward Pkwy",Trenchless sewer repair,2026-05-16,2026-05-18,8000.00,32,completed
+RP-0776,"Kowalski residence, 2768 Broadway Blvd",Warranty callback - leak at fitting,2026-04-28,2026-04-28,0.00,2,completed
+RP-0777,"Russo residence, 2716 Main St",Faucet replacement,2026-04-29,2026-04-29,300.00,3,completed
+RP-0778,"Lopez residence, 8726 Broadway Blvd",Toilet repair,2026-04-29,2026-04-29,310.00,1,completed
+RP-0779,"Garza residence, 2954 Broadway Blvd",Garbage disposal repair,2026-04-29,2026-04-29,430.00,3,completed
+RP-0780,"Sorensen residence, 7889 Oak St",Toilet repair,2026-04-29,2026-04-29,190.00,3,completed
+RP-0781,"Okafor residence, 8290 Main St",Toilet repair,2026-04-30,2026-04-30,440.00,1.5,completed
+RP-0782,"Coleman residence, 4096 Gillham Rd",Sump pump repair,2026-04-30,2026-04-30,360.00,3,completed
+RP-0783,"Brooks residence, 3385 State Line Rd",Drain cleaning - main line clog,2026-04-30,2026-04-30,390.00,2,completed
+RP-0784,"Kim residence, 1304 Holmes Rd",Tankless water heater install,2026-04-30,2026-04-30,1770.00,5,completed
+RP-0785,"Haddad residence, 4790 Troost Ave",Shutoff valve replacement,2026-05-01,2026-05-01,400.00,2,completed
+RP-0786,"Mendez residence, 7286 Ward Pkwy",Service call - running toilet,2026-05-01,2026-05-01,170.00,1.5,completed
+RP-0787,"Iverson residence, 6918 Wornall Rd",Garbage disposal repair,2026-05-01,2026-05-01,250.00,1,completed
+RP-0788,"Miller residence, 8802 State Line Rd",Drain cleaning - main line clog,2026-05-01,2026-05-01,290.00,1.5,completed
+RP-0789,"Moreau residence, 7819 Ward Pkwy",Emergency - no water,2026-05-01,2026-05-01,380.00,3,completed
+RP-0790,"Sorensen residence, 5547 Troost Ave",Water heater replacement - 50 gal,2026-05-01,2026-05-01,2180.00,4,completed
+RP-0791,"Brooks residence, 6454 Oak St",Leak repair - kitchen sink,2026-05-02,2026-05-02,210.00,2,completed
+RP-0792,"Novak residence, 8922 Main St",Faucet replacement,2026-05-02,2026-05-02,390.00,1,completed
+RP-0793,"Russo residence, 7455 Oak St",Faucet replacement,2026-05-02,2026-05-02,240.00,1.5,completed
+RP-0794,"Moreau residence, 9182 Troost Ave",Faucet replacement,2026-05-02,2026-05-02,270.00,1.5,completed
+RP-0795,"Lindqvist residence, 523 Broadway Blvd",Emergency - no water,2026-05-02,2026-05-02,630.00,2,completed
+RP-0796,"Nguyen residence, 105 Gillham Rd",Emergency - no water,2026-05-03,2026-05-03,590.00,4,completed
+RP-0797,"Garza residence, 3371 Troost Ave",Sump pump repair,2026-05-04,2026-05-04,310.00,1,completed
+RP-0798,"Coleman residence, 6987 Oak St",Leak repair - kitchen sink,2026-05-04,2026-05-04,480.00,3,completed
+RP-0799,"Tran residence, 1690 Gillham Rd",Leak repair - kitchen sink,2026-05-04,2026-05-04,250.00,2,completed
+RP-0800,"Delgado residence, 5105 Holmes Rd",Drain cleaning with camera inspection,2026-05-04,2026-05-04,590.00,2.5,completed
+RP-0801,"Coleman residence, 6082 Gillham Rd",Emergency - burst pipe,2026-05-04,2026-05-04,430.00,3,completed
+RP-0802,"Lopez residence, 1873 Main St",Garbage disposal repair,2026-05-05,2026-05-05,500.00,3,completed
+RP-0803,"Price residence, 301 Troost Ave",Faucet replacement,2026-05-05,2026-05-05,450.00,3,completed
+RP-0804,"Moreau residence, 6065 Main St",Drain cleaning with camera inspection,2026-05-05,2026-05-05,470.00,2,completed
+RP-0805,"Russo residence, 1467 Ward Pkwy",Emergency - burst pipe,2026-05-05,2026-05-05,410.00,2,completed
+RP-0806,"Brooks residence, 5565 Broadway Blvd",Toilet repair,2026-05-06,2026-05-06,330.00,1,completed
+RP-0807,"Mendez residence, 9782 Broadway Blvd",Drain cleaning with camera inspection,2026-05-06,2026-05-06,650.00,2.5,completed
+RP-0808,"Mendez residence, 9782 Broadway Blvd",Whole-house repipe,2026-06-01,2026-06-03,9300.00,24,completed
+RP-0809,"Okafor residence, 4301 Main St",Emergency - burst pipe,2026-05-06,2026-05-06,690.00,2,completed
+RP-0810,"Kowalski residence, 5154 Broadway Blvd",Sump pump repair,2026-05-07,2026-05-07,400.00,3,completed
+RP-0811,"Kowalski residence, 5510 Troost Ave",Shutoff valve replacement,2026-05-07,2026-05-07,190.00,2,completed
+RP-0812,"Delgado residence, 3157 Ward Pkwy",Shutoff valve replacement,2026-05-07,2026-05-07,250.00,1.5,completed
+RP-0813,"Ellison residence, 2565 Wornall Rd",Drain cleaning - main line clog,2026-05-07,2026-05-07,410.00,2,completed
+RP-0814,"Miller residence, 9470 Oak St",Weekend emergency leak,2026-05-07,2026-05-07,540.00,3,completed
+RP-0815,"Russo residence, 1414 Wornall Rd",Toilet repair,2026-05-08,2026-05-08,340.00,1.5,completed
+RP-0816,"Reyes residence, 3662 Troost Ave",Leak repair - kitchen sink,2026-05-08,2026-05-08,300.00,3,completed
+RP-0817,"Kim residence, 123 Troost Ave",Faucet replacement,2026-05-08,2026-05-08,160.00,2,completed
+RP-0818,"Brooks residence, 691 Broadway Blvd",Shutoff valve replacement,2026-05-08,2026-05-08,490.00,1.5,completed
+RP-0819,"Kowalski residence, 9226 Oak St",Drain cleaning - main line clog,2026-05-08,2026-05-08,390.00,2,completed
+RP-0820,"Kim residence, 9439 Gillham Rd",Garbage disposal repair,2026-05-09,2026-05-09,400.00,2,completed
+RP-0821,"Kowalski residence, 5386 State Line Rd",Toilet repair,2026-05-09,2026-05-09,290.00,3,completed
+RP-0822,"Price residence, 4131 Gillham Rd",Sump pump repair,2026-05-09,2026-05-09,170.00,1.5,completed
+RP-0823,"Brooks residence, 8587 Main St",Drain cleaning with camera inspection,2026-05-09,2026-05-09,650.00,2,completed
+RP-0824,"Patel residence, 5062 State Line Rd",Emergency - burst pipe,2026-05-09,2026-05-09,450.00,4,completed
+RP-0825,"Hughes residence, 2091 Wornall Rd",Emergency - no water,2026-05-10,2026-05-10,380.00,4,completed
+RP-0826,"Hughes residence, 1602 Broadway Blvd",Garbage disposal repair,2026-05-11,2026-05-11,580.00,1.5,completed
+RP-0827,"Nguyen residence, 7953 Broadway Blvd",Drain cleaning - main line clog,2026-05-11,2026-05-11,350.00,2,completed
+RP-0828,"Kowalski residence, 9744 Oak St",Emergency - no water,2026-05-11,2026-05-11,580.00,2,completed
+RP-0829,"Iverson residence, 2473 Oak St",Leak repair - kitchen sink,2026-05-12,2026-05-12,330.00,1.5,completed
+RP-0830,"Price residence, 2577 Ward Pkwy",Toilet repair,2026-05-12,2026-05-12,440.00,1.5,completed
+RP-0831,"Schultz residence, 6487 Ward Pkwy",Shutoff valve replacement,2026-05-12,2026-05-12,220.00,3,completed
+RP-0832,"Schultz residence, 6779 Wornall Rd",Service call - running toilet,2026-05-13,2026-05-13,550.00,1,completed
+RP-0833,"Haddad residence, 8909 Troost Ave",Garbage disposal repair,2026-05-13,2026-05-13,500.00,2,completed
+RP-0834,"Novak residence, 4326 State Line Rd",Service call - running toilet,2026-05-13,2026-05-13,580.00,1,completed
+RP-0835,"Haddad residence, 720 Holmes Rd",Toilet repair,2026-05-14,2026-05-14,260.00,1.5,completed
+RP-0836,"Reyes residence, 9788 State Line Rd",Drain cleaning - main line clog,2026-05-14,2026-05-14,290.00,2.5,completed
+RP-0837,"Price residence, 8327 Wornall Rd",Emergency - no water,2026-05-14,2026-05-14,510.00,3,completed
+RP-0838,"Iverson residence, 3302 Main St",Faucet replacement,2026-05-15,2026-05-15,250.00,3,completed
+RP-0839,"Lindqvist residence, 8767 State Line Rd",Shutoff valve replacement,2026-05-15,2026-05-15,510.00,2,completed
+RP-0840,"Ortiz residence, 2307 Ward Pkwy",Service call - running toilet,2026-05-15,2026-05-15,560.00,1.5,completed
+RP-0841,"Reyes residence, 5502 Troost Ave",Drain cleaning - main line clog,2026-05-15,2026-05-15,340.00,2,completed
+RP-0842,"Hughes residence, 1648 Brookside Blvd",After-hours drain backup,2026-05-15,2026-05-15,450.00,2,completed
+RP-0843,"Garza residence, 9542 State Line Rd",Warranty callback - leak at fitting,2026-05-15,2026-05-15,0.00,2,completed
+RP-0844,"Brooks residence, 1920 Troost Ave",Garbage disposal repair,2026-05-16,2026-05-16,540.00,1.5,completed
+RP-0845,"Patel residence, 815 Wornall Rd",Sump pump repair,2026-05-18,2026-05-18,590.00,1.5,completed
+RP-0846,"Brooks residence, 4772 Broadway Blvd",Faucet replacement,2026-05-18,2026-05-18,250.00,3,completed
+RP-0847,"Brooks residence, 5011 Oak St",Shutoff valve replacement,2026-05-18,2026-05-18,250.00,3,completed
+RP-0848,"Moreau residence, 5900 Troost Ave",Drain cleaning - main line clog,2026-05-18,2026-05-18,190.00,1.5,completed
+RP-0849,"Patel residence, 141 State Line Rd",Emergency - burst pipe,2026-05-18,2026-05-18,490.00,4,completed
+RP-0850,"Russo residence, 4187 Oak St",Faucet replacement,2026-05-19,2026-05-19,380.00,3,completed
+RP-0851,"Iverson residence, 560 Brookside Blvd",Garbage disposal repair,2026-05-19,2026-05-19,300.00,1,completed
+RP-0852,"Ellison residence, 5997 Main St",Faucet replacement,2026-05-19,2026-05-19,300.00,2,completed
+RP-0853,"Hughes residence, 9779 Ward Pkwy",Faucet replacement,2026-05-20,2026-05-20,290.00,2,completed
+RP-0854,"Moreau residence, 3051 Gillham Rd",Faucet replacement,2026-05-20,2026-05-20,400.00,2,completed
+RP-0855,"Iverson residence, 8371 Main St",Drain cleaning with camera inspection,2026-05-20,2026-05-20,450.00,2.5,completed
+RP-0856,"Nguyen residence, 3544 Oak St",Water heater replacement - 40 gal,2026-05-20,2026-05-20,2770.00,5,completed
+RP-0857,"Bauer residence, 6752 Gillham Rd",Sump pump repair,2026-05-21,2026-05-21,570.00,2,completed
+RP-0858,"Moreau residence, 1710 Troost Ave",Toilet repair,2026-05-22,2026-05-22,190.00,1.5,completed
+RP-0859,"Novak residence, 7897 Broadway Blvd",Toilet repair,2026-05-22,2026-05-22,200.00,2,completed
+RP-0860,"Price residence, 1305 Holmes Rd",Sump pump repair,2026-05-22,2026-05-22,570.00,1,completed
+RP-0861,"Jensen residence, 6722 Wornall Rd",Shutoff valve replacement,2026-05-23,2026-05-23,190.00,2,completed
+RP-0862,"Sorensen residence, 349 State Line Rd",Faucet replacement,2026-05-23,2026-05-23,430.00,2,completed
+RP-0863,"Ellison residence, 9168 State Line Rd",Faucet replacement,2026-05-25,2026-05-25,470.00,1,completed
+RP-0864,"Hughes residence, 1873 Holmes Rd",Faucet replacement,2026-05-25,2026-05-25,460.00,2,completed
+RP-0865,"Sorensen residence, 1784 Brookside Blvd",Leak repair - kitchen sink,2026-05-25,2026-05-25,600.00,1.5,completed
+RP-0866,"Iverson residence, 8788 Gillham Rd",Garbage disposal repair,2026-05-25,2026-05-25,510.00,1,completed
+RP-0867,"Iverson residence, 3214 State Line Rd",Faucet replacement,2026-05-26,2026-05-26,300.00,1.5,completed
+RP-0868,"Lindqvist residence, 2178 Brookside Blvd",Drain cleaning with camera inspection,2026-05-26,2026-05-26,560.00,2,completed
+RP-0869,"Lindqvist residence, 2178 Brookside Blvd",Whole-house repipe,2026-06-01,2026-06-03,11100.00,32,completed
+RP-0870,"Lindqvist residence, 5992 Gillham Rd",Sump pump repair,2026-05-27,2026-05-27,500.00,3,completed
+RP-0871,"Schultz residence, 6033 Gillham Rd",Shutoff valve replacement,2026-05-27,2026-05-27,470.00,1,completed
+RP-0872,"Lopez residence, 5095 Brookside Blvd",Weekend emergency leak,2026-05-27,2026-05-27,380.00,2,completed
+RP-0873,"Mendez residence, 1164 Ward Pkwy",Leak repair - kitchen sink,2026-05-28,2026-05-28,570.00,1,completed
+RP-0874,"Kowalski residence, 3157 Ward Pkwy",Toilet repair,2026-05-28,2026-05-28,590.00,1.5,completed
+RP-0875,"Iverson residence, 2468 Holmes Rd",Drain cleaning with camera inspection,2026-05-28,2026-05-28,430.00,2,completed
+RP-0876,"Coleman residence, 9188 Brookside Blvd",Weekend emergency leak,2026-05-28,2026-05-28,480.00,3,completed
+RP-0877,"Coleman residence, 528 State Line Rd",Toilet repair,2026-05-29,2026-05-29,290.00,2,completed
+RP-0878,"Whitfield residence, 9649 Brookside Blvd",Shutoff valve replacement,2026-05-29,2026-05-29,550.00,2,completed
+RP-0879,"Lopez residence, 4740 Oak St",Toilet repair,2026-05-29,2026-05-29,490.00,3,completed
+RP-0880,"Novak residence, 3987 Brookside Blvd",Shutoff valve replacement,2026-05-29,2026-05-29,230.00,3,completed
+RP-0881,"Whitfield residence, 804 Wornall Rd",Drain cleaning with camera inspection,2026-05-29,2026-05-29,530.00,2,completed
+RP-0882,"Whitfield residence, 804 Wornall Rd",Whole-house repipe,2026-06-14,2026-06-16,11700.00,32,completed
+RP-0883,"Tran residence, 8317 State Line Rd",Drain cleaning with camera inspection,2026-05-29,2026-05-29,430.00,1.5,completed
+RP-0884,"Tran residence, 8317 State Line Rd",Sewer line replacement,2026-07-08,2026-07-10,8500.00,24,completed
+RP-0885,"Bauer residence, 267 Brookside Blvd",After-hours drain backup,2026-05-29,2026-05-29,460.00,2,completed
+RP-0886,"Brooks residence, 5167 Main St",Water heater replacement - 40 gal,2026-05-29,2026-05-29,2290.00,6,completed
+RP-0887,"Schultz residence, 2232 Broadway Blvd",Sump pump repair,2026-05-30,2026-05-30,490.00,1,completed
+RP-0888,"Iverson residence, 2221 Gillham Rd",Faucet replacement,2026-05-30,2026-05-30,330.00,3,completed
+RP-0889,"Iverson residence, 6642 Broadway Blvd",Leak repair - kitchen sink,2026-05-30,2026-05-30,180.00,1,completed
+RP-0890,"Garza residence, 2606 Ward Pkwy",Weekend emergency leak,2026-05-31,2026-05-31,260.00,4,completed
+RP-0891,"Hughes residence, 239 Main St",Service call - running toilet,2026-06-01,2026-06-01,300.00,1,completed
+RP-0892,"Nguyen residence, 5837 Broadway Blvd",Sump pump repair,2026-06-02,2026-06-02,240.00,1,completed
+RP-0893,"Price residence, 3158 Gillham Rd",Faucet replacement,2026-06-02,2026-06-02,560.00,1,completed
+RP-0894,"Schultz residence, 1534 Gillham Rd",Drain cleaning - main line clog,2026-06-02,2026-06-02,190.00,2,completed
+RP-0895,"Iverson residence, 3499 State Line Rd",Drain cleaning with camera inspection,2026-06-02,2026-06-02,520.00,1.5,completed
+RP-0896,"Jensen residence, 7021 Wornall Rd",Weekend emergency leak,2026-06-02,2026-06-02,630.00,3,completed
+RP-0897,"Haddad residence, 2887 Troost Ave",Water heater replacement - 40 gal,2026-06-02,2026-06-02,2370.00,4,completed
+RP-0898,"Patel residence, 1742 Brookside Blvd",Toilet repair,2026-06-03,2026-06-03,540.00,1,completed
+RP-0899,"Kowalski residence, 9801 Main St",Drain cleaning - main line clog,2026-06-03,2026-06-03,450.00,2,completed
+RP-0900,"Haddad residence, 3782 Holmes Rd",Emergency - burst pipe,2026-06-03,2026-06-03,570.00,3,completed
+RP-0901,"Lindqvist residence, 6903 Gillham Rd",Sump pump repair,2026-06-04,2026-06-04,570.00,2,completed
+RP-0902,"Kim residence, 3681 Oak St",Drain cleaning - main line clog,2026-06-04,2026-06-04,370.00,2,completed
+RP-0903,"Ortiz residence, 6637 Holmes Rd",Drain cleaning with camera inspection,2026-06-04,2026-06-04,660.00,2,completed
+RP-0904,"Schultz residence, 1198 Gillham Rd",Sump pump repair,2026-06-05,2026-06-05,610.00,1.5,completed
+RP-0905,"Novak residence, 6613 Wornall Rd",Shutoff valve replacement,2026-06-05,2026-06-05,580.00,2,completed
+RP-0906,"Okafor residence, 9844 Gillham Rd",Sump pump repair,2026-06-05,2026-06-05,320.00,1,completed
+RP-0907,"Miller residence, 9166 State Line Rd",Service call - running toilet,2026-06-05,2026-06-05,350.00,3,completed
+RP-0908,"Kim residence, 6054 Main St",Drain cleaning with camera inspection,2026-06-05,2026-06-05,540.00,2.5,completed
+RP-0909,"Novak residence, 4494 Wornall Rd",After-hours drain backup,2026-06-05,2026-06-05,430.00,4,completed
+RP-0910,"Novak residence, 9386 Brookside Blvd",Warranty callback - leak at fitting,2026-06-05,2026-06-05,0.00,2,completed
+RP-0911,"Quinn residence, 3768 Oak St",Service call - running toilet,2026-06-06,2026-06-06,200.00,1,completed
+RP-0912,"Lopez residence, 3650 Troost Ave",Shutoff valve replacement,2026-06-06,2026-06-06,220.00,3,completed
+RP-0913,"Ellison residence, 4221 Broadway Blvd",Drain cleaning with camera inspection,2026-06-06,2026-06-06,530.00,2,completed
+RP-0914,"Ellison residence, 4221 Broadway Blvd",Trenchless sewer repair,2026-07-08,2026-07-10,10400.00,24,completed
+RP-0915,"Garza residence, 2733 State Line Rd",After-hours drain backup,2026-06-07,2026-06-07,330.00,4,completed
+RP-0916,"Moreau residence, 5792 Broadway Blvd",Service call - running toilet,2026-06-08,2026-06-08,190.00,3,completed
+RP-0917,"Sorensen residence, 1010 Wornall Rd",Service call - running toilet,2026-06-08,2026-06-08,490.00,1.5,completed
+RP-0918,"Sorensen residence, 1777 Broadway Blvd",Service call - running toilet,2026-06-08,2026-06-08,160.00,3,completed
+RP-0919,"Whitfield residence, 1176 Ward Pkwy",Shutoff valve replacement,2026-06-08,2026-06-08,560.00,2,completed
+RP-0920,"Haddad residence, 8304 Ward Pkwy",Toilet repair,2026-06-09,2026-06-09,170.00,2,completed
+RP-0921,"Garza residence, 2542 Troost Ave",Shutoff valve replacement,2026-06-09,2026-06-09,360.00,2,completed
+RP-0922,"Russo residence, 8726 Holmes Rd",Drain cleaning - main line clog,2026-06-09,2026-06-09,220.00,2.5,completed
+RP-0923,"Bauer residence, 1208 Oak St",Emergency - no water,2026-06-09,2026-06-09,640.00,4,completed
+RP-0924,"Reyes residence, 8609 Gillham Rd",Garbage disposal repair,2026-06-10,2026-06-10,300.00,1,completed
+RP-0925,"Haddad residence, 6634 Main St",Shutoff valve replacement,2026-06-11,2026-06-11,330.00,3,completed
+RP-0926,"Jensen residence, 148 Wornall Rd",Drain cleaning - main line clog,2026-06-11,2026-06-11,390.00,2,completed
+RP-0927,"Jensen residence, 1428 Gillham Rd",Drain cleaning with camera inspection,2026-06-11,2026-06-11,500.00,2,completed
+RP-0928,"Delgado residence, 5598 Ward Pkwy",After-hours drain backup,2026-06-11,2026-06-11,680.00,4,completed
+RP-0929,"Bauer residence, 8441 Gillham Rd",Water heater replacement - 40 gal,2026-06-11,2026-06-11,2970.00,4,completed
+RP-0930,"Haddad residence, 5677 Holmes Rd",Warranty callback - leak at fitting,2026-06-11,2026-06-11,0.00,2,completed
+RP-0931,"Quinn residence, 7269 Oak St",Faucet replacement,2026-06-12,2026-06-12,350.00,2,completed
+RP-0932,"Mendez residence, 8791 Troost Ave",Faucet replacement,2026-06-12,2026-06-12,390.00,1.5,completed
+RP-0933,"Tran residence, 231 Holmes Rd",Drain cleaning - main line clog,2026-06-12,2026-06-12,290.00,1.5,completed
+RP-0934,"Garza residence, 242 Gillham Rd",Drain cleaning with camera inspection,2026-06-12,2026-06-12,420.00,2.5,completed
+RP-0935,"Garza residence, 242 Gillham Rd",Sewer line replacement,2026-06-30,2026-07-02,9300.00,40,completed
+RP-0936,"Moreau residence, 9823 Holmes Rd",Weekend emergency leak,2026-06-12,2026-06-12,380.00,2,completed
+RP-0937,"Reyes residence, 9741 Holmes Rd",Warranty callback - leak at fitting,2026-06-12,2026-06-12,0.00,2,completed
+RP-0938,"Ellison residence, 4421 Troost Ave",Leak repair - kitchen sink,2026-06-13,2026-06-13,290.00,1.5,completed
+RP-0939,"Schultz residence, 8067 Main St",Faucet replacement,2026-06-13,2026-06-13,200.00,1,completed
+RP-0940,"Hughes residence, 3485 Broadway Blvd",Weekend emergency leak,2026-06-13,2026-06-13,580.00,2,completed
+RP-0941,"Price residence, 9128 Brookside Blvd",Shutoff valve replacement,2026-06-15,2026-06-15,240.00,3,completed
+RP-0942,"Ellison residence, 7716 Gillham Rd",Shutoff valve replacement,2026-06-15,2026-06-15,540.00,3,completed
+RP-0943,"Kowalski residence, 4509 Ward Pkwy",Service call - running toilet,2026-06-15,2026-06-15,170.00,1.5,completed
+RP-0944,"Miller residence, 7015 Brookside Blvd",Garbage disposal repair,2026-06-16,2026-06-16,230.00,2,completed
+RP-0945,"Russo residence, 1667 Broadway Blvd",Drain cleaning - main line clog,2026-06-16,2026-06-16,340.00,1.5,completed
+RP-0946,"Reyes residence, 4403 State Line Rd",Garbage disposal repair,2026-06-17,2026-06-17,490.00,2,completed
+RP-0947,"Ortiz residence, 1871 Broadway Blvd",Faucet replacement,2026-06-17,2026-06-17,350.00,2,completed
+RP-0948,"Kowalski residence, 6332 Oak St",Faucet replacement,2026-06-17,2026-06-17,450.00,1.5,completed
+RP-0949,"Kim residence, 4489 Ward Pkwy",Emergency - burst pipe,2026-06-17,2026-06-17,710.00,2,completed
+RP-0950,"Mendez residence, 7575 Troost Ave",Sump pump repair,2026-06-18,2026-06-18,230.00,1,completed
+RP-0951,"Delgado residence, 7415 Ward Pkwy",Sump pump repair,2026-06-18,2026-06-18,360.00,2,completed
+RP-0952,"Delgado residence, 469 Holmes Rd",Leak repair - kitchen sink,2026-06-18,2026-06-18,170.00,1,completed
+RP-0953,"Whitfield residence, 7130 Ward Pkwy",Drain cleaning with camera inspection,2026-06-18,2026-06-18,420.00,1.5,completed
+RP-0954,"Patel residence, 9828 Broadway Blvd",Drain cleaning - main line clog,2026-06-18,2026-06-18,380.00,2.5,completed
+RP-0955,"Coleman residence, 3692 Main St",Sump pump repair,2026-06-19,2026-06-19,470.00,3,completed
+RP-0956,"Ortiz residence, 7855 State Line Rd",Toilet repair,2026-06-19,2026-06-19,570.00,1.5,completed
+RP-0957,"Schultz residence, 9678 Oak St",Sump pump repair,2026-06-19,2026-06-19,240.00,3,completed
+RP-0958,"Moreau residence, 6456 Main St",Weekend emergency leak,2026-06-19,2026-06-19,300.00,2,completed
+RP-0959,"Nguyen residence, 5086 Main St",Sump pump repair,2026-06-20,2026-06-20,330.00,1.5,completed
+RP-0960,"Haddad residence, 1442 Oak St",Shutoff valve replacement,2026-06-20,2026-06-20,190.00,2,completed
+RP-0961,"Reyes residence, 7846 Oak St",Drain cleaning - main line clog,2026-06-20,2026-06-20,310.00,2.5,completed
+RP-0962,"Quinn residence, 1853 State Line Rd",Emergency - no water,2026-06-20,2026-06-20,330.00,3,completed
+RP-0963,"Jensen residence, 6163 Gillham Rd",Emergency - no water,2026-06-21,2026-06-21,470.00,4,completed
+RP-0964,"Kowalski residence, 4994 Main St",Sump pump repair,2026-06-22,2026-06-22,390.00,2,completed
+RP-0965,"Brooks residence, 726 Oak St",Shutoff valve replacement,2026-06-22,2026-06-22,340.00,2,completed
+RP-0966,"Lopez residence, 5678 Gillham Rd",Sump pump repair,2026-06-22,2026-06-22,500.00,1.5,completed
+RP-0967,"Nguyen residence, 2258 Holmes Rd",Drain cleaning - main line clog,2026-06-22,2026-06-22,260.00,2.5,completed
+RP-0968,"Sorensen residence, 299 Oak St",Shutoff valve replacement,2026-06-23,2026-06-23,510.00,3,completed
+RP-0969,"Hughes residence, 506 Brookside Blvd",Shutoff valve replacement,2026-06-23,2026-06-23,400.00,2,completed
+RP-0970,"Whitfield residence, 586 Ward Pkwy",Leak repair - kitchen sink,2026-06-23,2026-06-23,460.00,3,completed
+RP-0971,"Schultz residence, 1197 Gillham Rd",Faucet replacement,2026-06-23,2026-06-23,490.00,2,completed
+RP-0972,"Whitfield residence, 3867 Gillham Rd",After-hours drain backup,2026-06-23,2026-06-23,560.00,2,completed
+RP-0973,"Novak residence, 3086 Broadway Blvd",Faucet replacement,2026-06-24,2026-06-24,320.00,2,completed
+RP-0974,"Ortiz residence, 5965 Ward Pkwy",Faucet replacement,2026-06-24,2026-06-24,380.00,1,completed
+RP-0975,"Reyes residence, 6872 Wornall Rd",Emergency - burst pipe,2026-06-24,2026-06-24,270.00,2,completed
+RP-0976,"Patel residence, 7988 Brookside Blvd",Toilet repair,2026-06-25,2026-06-25,250.00,1.5,completed
+RP-0977,"Jensen residence, 9093 State Line Rd",Sump pump repair,2026-06-25,2026-06-25,420.00,2,completed
+RP-0978,"Miller residence, 6064 Brookside Blvd",Sump pump repair,2026-06-25,2026-06-25,500.00,1.5,completed
+RP-0979,"Reyes residence, 3225 Oak St",Drain cleaning with camera inspection,2026-06-25,2026-06-25,540.00,2,completed
+RP-0980,"Kim residence, 9200 Wornall Rd",Shutoff valve replacement,2026-06-26,2026-06-26,570.00,3,completed
+RP-0981,"Russo residence, 4632 State Line Rd",Service call - running toilet,2026-06-26,2026-06-26,260.00,2,completed
+RP-0982,"Lindqvist residence, 7942 Main St",Drain cleaning with camera inspection,2026-06-26,2026-06-26,650.00,2,completed
+RP-0983,"Lindqvist residence, 7942 Main St",Sewer line replacement,2026-07-31,2026-08-02,13500.00,24,completed
+RP-0984,"Tran residence, 9023 Wornall Rd",Emergency - no water,2026-06-26,2026-06-26,240.00,3,completed
+RP-0985,"Jensen residence, 7980 Oak St",Water heater replacement - 50 gal,2026-06-26,2026-06-26,1930.00,5,completed
+RP-0986,"Sorensen residence, 4898 Holmes Rd",Faucet replacement,2026-06-27,2026-06-27,600.00,1,completed
+RP-0987,"Tran residence, 6000 Holmes Rd",Shutoff valve replacement,2026-06-27,2026-06-27,420.00,1,completed
+RP-0988,"Okafor residence, 405 Troost Ave",Drain cleaning - main line clog,2026-06-27,2026-06-27,210.00,1.5,completed
+RP-0989,"Novak residence, 4369 Gillham Rd",Toilet repair,2026-06-29,2026-06-29,280.00,1,completed
+RP-0990,"Lopez residence, 3477 Holmes Rd",Leak repair - kitchen sink,2026-06-29,2026-06-29,270.00,1,completed
+RP-0991,"Nguyen residence, 7552 Oak St",Drain cleaning with camera inspection,2026-06-29,2026-06-29,540.00,1.5,completed
+RP-0992,"Nguyen residence, 7552 Oak St",Sewer line replacement,2026-07-31,2026-08-02,12100.00,24,completed
+RP-0993,"Schultz residence, 769 Gillham Rd",Weekend emergency leak,2026-06-29,2026-06-29,460.00,2,completed
+RP-0994,"Nguyen residence, 1637 Troost Ave",Leak repair - kitchen sink,2026-06-30,2026-06-30,520.00,3,completed
+RP-0995,"Reyes residence, 1814 Brookside Blvd",Sump pump repair,2026-06-30,2026-06-30,550.00,3,completed
+RP-0996,"Hughes residence, 3865 Broadway Blvd",Garbage disposal repair,2026-07-01,2026-07-01,390.00,3,completed
+RP-0997,"Sorensen residence, 3022 Gillham Rd",Garbage disposal repair,2026-07-01,2026-07-01,400.00,1,completed
+RP-0998,"Nguyen residence, 4387 Main St",Drain cleaning with camera inspection,2026-07-01,2026-07-01,410.00,1.5,completed
+RP-0999,"Nguyen residence, 4387 Main St",Whole-house repipe,2026-07-16,2026-07-18,6600.00,32,completed
+RP-1000,"Iverson residence, 7827 Main St",Leak repair - kitchen sink,2026-07-02,2026-07-02,240.00,1.5,completed
+RP-1001,"Moreau residence, 5815 State Line Rd",Service call - running toilet,2026-07-02,2026-07-02,570.00,1.5,completed
+RP-1002,"Kowalski residence, 4672 Wornall Rd",Drain cleaning with camera inspection,2026-07-02,2026-07-02,560.00,2,completed
+RP-1003,"Kowalski residence, 4672 Wornall Rd",Whole-house repipe,2026-07-13,2026-07-15,10800.00,24,completed
+RP-1004,"Kowalski residence, 4955 Brookside Blvd",Leak repair - kitchen sink,2026-07-03,2026-07-03,220.00,3,completed
+RP-1005,"Jensen residence, 4965 Broadway Blvd",Leak repair - kitchen sink,2026-07-03,2026-07-03,420.00,3,completed
+RP-1006,"Okafor residence, 6449 Holmes Rd",Faucet replacement,2026-07-03,2026-07-03,240.00,1,completed
+RP-1007,"Delgado residence, 2020 Ward Pkwy",Toilet repair,2026-07-03,2026-07-03,380.00,1.5,completed
+RP-1008,"Lindqvist residence, 3574 Troost Ave",Drain cleaning - main line clog,2026-07-03,2026-07-03,250.00,2,completed
+RP-1009,"Okafor residence, 4829 Oak St",Drain cleaning with camera inspection,2026-07-03,2026-07-03,410.00,2,completed
+RP-1010,"Jensen residence, 4582 Holmes Rd",Water heater replacement - 40 gal,2026-07-03,2026-07-03,2050.00,4,completed
+RP-1011,"Iverson residence, 100 Gillham Rd",Faucet replacement,2026-07-04,2026-07-04,390.00,2,completed
+RP-1012,"Miller residence, 6806 Gillham Rd",Service call - running toilet,2026-07-04,2026-07-04,240.00,3,completed
+RP-1013,"Patel residence, 5899 Main St",Drain cleaning with camera inspection,2026-07-04,2026-07-04,450.00,2.5,completed
+RP-1014,"Brooks residence, 238 Brookside Blvd",Sump pump repair,2026-07-06,2026-07-06,380.00,1,completed
+RP-1015,"Ortiz residence, 4647 Broadway Blvd",Sump pump repair,2026-07-06,2026-07-06,360.00,1,completed
+RP-1016,"Coleman residence, 722 Wornall Rd",Service call - running toilet,2026-07-06,2026-07-06,520.00,1,completed
+RP-1017,"Kim residence, 4733 Holmes Rd",Drain cleaning - main line clog,2026-07-06,2026-07-06,440.00,2.5,completed
+RP-1018,"Moreau residence, 2165 Broadway Blvd",Weekend emergency leak,2026-07-06,2026-07-06,740.00,4,completed
+RP-1019,"Iverson residence, 6316 Gillham Rd",Service call - running toilet,2026-07-07,2026-07-07,590.00,1.5,completed
+RP-1020,"Sorensen residence, 4106 Oak St",Faucet replacement,2026-07-07,2026-07-07,480.00,1,completed
+RP-1021,"Tran residence, 5514 Oak St",Toilet repair,2026-07-07,2026-07-07,490.00,2,completed
+RP-1022,"Sorensen residence, 4479 Brookside Blvd",Sump pump repair,2026-07-07,2026-07-07,200.00,1,completed
+RP-1023,"Miller residence, 7050 Brookside Blvd",Drain cleaning - main line clog,2026-07-07,2026-07-07,370.00,2.5,completed
+RP-1024,"Quinn residence, 8465 Wornall Rd",Emergency - no water,2026-07-07,2026-07-07,560.00,4,completed
+RP-1025,"Coleman residence, 6662 Gillham Rd",Faucet replacement,2026-07-08,2026-07-08,180.00,1,completed
+RP-1026,"Quinn residence, 2784 Oak St",Sump pump repair,2026-07-08,2026-07-08,570.00,3,completed
+RP-1027,"Garza residence, 7258 Ward Pkwy",Drain cleaning with camera inspection,2026-07-08,2026-07-08,610.00,2.5,completed
+RP-1028,"Garza residence, 7258 Ward Pkwy",Whole-house repipe,2026-07-15,2026-07-17,10700.00,24,completed
+RP-1029,"Ortiz residence, 2529 Holmes Rd",Shutoff valve replacement,2026-07-09,2026-07-09,240.00,1,completed
+RP-1030,"Delgado residence, 1280 Main St",Shutoff valve replacement,2026-07-09,2026-07-09,430.00,1,completed
+RP-1031,"Jensen residence, 1678 Wornall Rd",Drain cleaning - main line clog,2026-07-09,2026-07-09,430.00,2.5,completed
+RP-1032,"Delgado residence, 8692 Troost Ave",After-hours drain backup,2026-07-09,2026-07-09,460.00,2,completed
+RP-1033,"Quinn residence, 1951 Ward Pkwy",Garbage disposal repair,2026-07-10,2026-07-10,330.00,2,completed
+RP-1034,"Novak residence, 335 Oak St",Drain cleaning with camera inspection,2026-07-10,2026-07-10,490.00,2.5,completed
+RP-1035,"Novak residence, 335 Oak St",Trenchless sewer repair,2026-07-25,2026-07-27,14000.00,24,completed
+RP-1036,"Price residence, 6671 Wornall Rd",Toilet repair,2026-07-11,2026-07-11,520.00,2,completed
+RP-1037,"Mendez residence, 998 Ward Pkwy",Sump pump repair,2026-07-11,2026-07-11,360.00,3,completed
+RP-1038,"Russo residence, 376 Brookside Blvd",Service call - running toilet,2026-07-11,2026-07-11,310.00,1.5,completed
+RP-1039,"Iverson residence, 5893 State Line Rd",Toilet repair,2026-07-11,2026-07-11,390.00,3,completed
+RP-1040,"Novak residence, 5244 Wornall Rd",Emergency - burst pipe,2026-07-11,2026-07-11,540.00,2,completed
+RP-1041,"Lindqvist residence, 7858 Troost Ave",Faucet replacement,2026-07-13,2026-07-13,250.00,2,completed
+RP-1042,"Coleman residence, 7135 Holmes Rd",Shutoff valve replacement,2026-07-13,2026-07-13,150.00,1,completed
+RP-1043,"Delgado residence, 7475 Broadway Blvd",Shutoff valve replacement,2026-07-14,2026-07-14,440.00,1,completed
+RP-1044,"Hughes residence, 2927 Broadway Blvd",Sump pump repair,2026-07-14,2026-07-14,390.00,2,completed
+RP-1045,"Ellison residence, 8957 Troost Ave",Toilet repair,2026-07-14,2026-07-14,480.00,1,completed
+RP-1046,"Brooks residence, 406 Gillham Rd",Service call - running toilet,2026-07-15,2026-07-15,280.00,1.5,completed
+RP-1047,"Jensen residence, 9063 State Line Rd",Emergency - burst pipe,2026-07-15,2026-07-15,370.00,2,completed
+RP-1048,"Novak residence, 7809 Main St",Garbage disposal repair,2026-07-16,2026-07-16,540.00,1.5,completed
+RP-1049,"Quinn residence, 5402 Broadway Blvd",Leak repair - kitchen sink,2026-07-16,2026-07-16,370.00,3,completed
+RP-1050,"Tran residence, 8139 Brookside Blvd",Leak repair - kitchen sink,2026-07-17,2026-07-17,320.00,3,completed
+RP-1051,"Brooks residence, 9595 Wornall Rd",Toilet repair,2026-07-17,2026-07-17,190.00,1.5,completed
+RP-1052,"Ellison residence, 5489 Troost Ave",Toilet repair,2026-07-17,2026-07-17,280.00,2,completed
+RP-1053,"Miller residence, 819 Oak St",Faucet replacement,2026-07-17,2026-07-17,360.00,2,completed
+RP-1054,"Patel residence, 320 Oak St",Tankless water heater install,2026-07-17,2026-07-17,2630.00,5,completed
+RP-1055,"Okafor residence, 727 Broadway Blvd",Sump pump repair,2026-07-18,2026-07-18,520.00,1,completed
+RP-1056,"Moreau residence, 3432 Broadway Blvd",Sump pump repair,2026-07-18,2026-07-18,600.00,1,completed
+RP-1057,"Mendez residence, 3887 Main St",Drain cleaning - main line clog,2026-07-18,2026-07-18,450.00,1.5,completed
+RP-1058,"Whitfield residence, 1091 Holmes Rd",Drain cleaning - main line clog,2026-07-18,2026-07-18,280.00,2,completed
+RP-1059,"Nguyen residence, 3338 State Line Rd",Weekend emergency leak,2026-07-18,2026-07-18,230.00,4,completed
+RP-1060,"Brooks residence, 4631 Brookside Blvd",Garbage disposal repair,2026-07-20,2026-07-20,300.00,3,completed
+RP-1061,"Okafor residence, 3260 Oak St",Shutoff valve replacement,2026-07-20,2026-07-20,490.00,3,completed
+RP-1062,"Iverson residence, 2177 Ward Pkwy",Sump pump repair,2026-07-20,2026-07-20,290.00,1.5,completed
+RP-1063,"Jensen residence, 4761 Broadway Blvd",Drain cleaning with camera inspection,2026-07-20,2026-07-20,670.00,1.5,completed
+RP-1064,"Hughes residence, 6176 Troost Ave",Drain cleaning - main line clog,2026-07-20,2026-07-20,300.00,2.5,completed
+RP-1065,"Lindqvist residence, 1376 Broadway Blvd",Toilet repair,2026-07-21,2026-07-21,420.00,3,completed
+RP-1066,"Schultz residence, 9670 Troost Ave",Shutoff valve replacement,2026-07-21,2026-07-21,370.00,1.5,completed
+RP-1067,"Novak residence, 4532 Holmes Rd",Service call - running toilet,2026-07-21,2026-07-21,520.00,3,completed
+RP-1068,"Ellison residence, 198 Ward Pkwy",Service call - running toilet,2026-07-21,2026-07-21,470.00,3,completed
+RP-1069,"Coleman residence, 5351 Main St",Toilet repair,2026-07-22,2026-07-22,330.00,2,completed
+RP-1070,"Russo residence, 2034 Troost Ave",Toilet repair,2026-07-22,2026-07-22,430.00,1.5,completed
+RP-1071,"Mendez residence, 5566 Troost Ave",Service call - running toilet,2026-07-22,2026-07-22,430.00,2,completed
+RP-1072,"Iverson residence, 5733 Brookside Blvd",Shutoff valve replacement,2026-07-22,2026-07-22,360.00,1,completed
+RP-1073,"Jensen residence, 6360 Broadway Blvd",Drain cleaning - main line clog,2026-07-22,2026-07-22,340.00,2,completed
+RP-1074,"Kowalski residence, 9472 State Line Rd",Garbage disposal repair,2026-07-23,2026-07-23,270.00,1.5,completed
+RP-1075,"Garza residence, 5576 Main St",Leak repair - kitchen sink,2026-07-24,2026-07-24,540.00,3,completed
+RP-1076,"Delgado residence, 635 Main St",Sump pump repair,2026-07-24,2026-07-24,220.00,1.5,completed
+RP-1077,"Novak residence, 8417 State Line Rd",Faucet replacement,2026-07-24,2026-07-24,490.00,1.5,completed
+RP-1078,"Mendez residence, 8230 State Line Rd",Leak repair - kitchen sink,2026-07-25,2026-07-25,560.00,3,completed
+RP-1079,"Bauer residence, 1611 Holmes Rd",Toilet repair,2026-07-27,2026-07-27,560.00,1,completed
+RP-1080,"Jensen residence, 813 Holmes Rd",Leak repair - kitchen sink,2026-07-27,2026-07-27,610.00,3,completed
+RP-1081,"Whitfield residence, 150 Holmes Rd",Garbage disposal repair,2026-07-27,2026-07-27,260.00,3,completed
+RP-1082,"Sorensen residence, 8943 Troost Ave",Drain cleaning - main line clog,2026-07-27,2026-07-27,360.00,2,completed
+RP-1083,"Haddad residence, 2034 Main St",Warranty callback - leak at fitting,2026-07-27,2026-07-27,0.00,2,completed
+RP-1084,"Bauer residence, 6742 Broadway Blvd",Garbage disposal repair,2026-07-28,2026-07-28,240.00,1.5,completed
+RP-1085,"Mendez residence, 1204 State Line Rd",Leak repair - kitchen sink,2026-07-28,2026-07-28,170.00,2,completed
+RP-1086,"Tran residence, 3657 Troost Ave",Emergency - no water,2026-07-28,2026-07-28,480.00,4,completed
+RP-1087,"Coleman residence, 6345 State Line Rd",Leak repair - kitchen sink,2026-07-29,2026-07-29,600.00,1.5,completed
+RP-1088,"Garza residence, 4615 State Line Rd",Faucet replacement,2026-07-29,2026-07-29,380.00,1.5,completed
+RP-1089,"Okafor residence, 8359 Troost Ave",Service call - running toilet,2026-07-29,2026-07-29,290.00,1,completed
+RP-1090,"Brooks residence, 760 Holmes Rd",Garbage disposal repair,2026-07-29,2026-07-29,190.00,3,completed
+RP-1091,"Mendez residence, 528 Main St",Drain cleaning with camera inspection,2026-07-29,2026-07-29,420.00,2,completed
+RP-1092,"Tran residence, 2686 Gillham Rd",Faucet replacement,2026-07-30,2026-07-30,430.00,2,completed
+RP-1093,"Coleman residence, 4998 Oak St",Toilet repair,2026-07-30,2026-07-30,470.00,1,completed
+RP-1094,"Mendez residence, 3831 Ward Pkwy",Drain cleaning - main line clog,2026-07-30,2026-07-30,440.00,2,completed
+RP-1095,"Ellison residence, 5300 Troost Ave",Sump pump repair,2026-07-31,2026-07-31,170.00,1.5,completed
+RP-1096,"Whitfield residence, 9540 Main St",Toilet repair,2026-07-31,2026-07-31,400.00,3,completed
+RP-1097,"Okafor residence, 6163 State Line Rd",Shutoff valve replacement,2026-07-31,2026-07-31,230.00,3,completed
+RP-1098,"Quinn residence, 9446 Broadway Blvd",Toilet repair,2026-08-01,2026-08-01,150.00,1,completed
+RP-1099,"Coleman residence, 2504 Main St",Leak repair - kitchen sink,2026-08-01,2026-08-01,440.00,1,completed
+RP-1100,"Whitfield residence, 6990 State Line Rd",Leak repair - kitchen sink,2026-08-01,2026-08-01,550.00,2,completed
+RP-1101,"Delgado residence, 1495 Gillham Rd",Drain cleaning - main line clog,2026-08-01,2026-08-01,370.00,2,completed
+RP-1102,"Ortiz residence, 3270 Gillham Rd",Drain cleaning - main line clog,2026-08-01,2026-08-01,230.00,2.5,completed
+RP-1103,"Haddad residence, 1390 Brookside Blvd",Garbage disposal repair,2026-08-03,2026-08-03,290.00,1.5,completed
+RP-1104,"Brooks residence, 4828 Broadway Blvd",Sump pump repair,2026-08-03,2026-08-03,500.00,1,completed
+RP-1105,"Haddad residence, 5802 Brookside Blvd",Toilet repair,2026-08-03,2026-08-03,320.00,2,completed
+RP-1106,"Tran residence, 5457 Brookside Blvd",Service call - running toilet,2026-08-04,2026-08-04,160.00,2,completed
+RP-1107,"Coleman residence, 2402 Brookside Blvd",Sump pump repair,2026-08-04,2026-08-04,610.00,1,completed
+RP-1108,"Tran residence, 9762 Gillham Rd",Leak repair - kitchen sink,2026-08-04,2026-08-04,260.00,1.5,completed
+RP-1109,"Whitfield residence, 2029 State Line Rd",Sump pump repair,2026-08-05,2026-08-05,580.00,2,completed
+RP-1110,"Lopez residence, 7851 Ward Pkwy",Sump pump repair,2026-08-05,2026-08-05,320.00,1.5,completed
+RP-1111,"Quinn residence, 4017 Gillham Rd",Weekend emergency leak,2026-08-05,2026-08-05,680.00,3,completed
+RP-1112,"Delgado residence, 9584 Brookside Blvd",Garbage disposal repair,2026-08-06,2026-08-06,170.00,2,completed
+RP-1113,"Lindqvist residence, 5134 Oak St",Service call - running toilet,2026-08-06,2026-08-06,210.00,1,completed
+RP-1114,"Ellison residence, 6492 Gillham Rd",Drain cleaning with camera inspection,2026-08-06,2026-08-06,460.00,1.5,completed
+RP-1115,"Ellison residence, 6492 Gillham Rd",Whole-house repipe,2026-08-30,2026-09-01,12900.00,32,completed
+RP-1116,"Coleman residence, 1950 Gillham Rd",Leak repair - kitchen sink,2026-08-07,2026-08-07,460.00,2,completed
+RP-1117,"Quinn residence, 9858 Gillham Rd",Toilet repair,2026-08-07,2026-08-07,590.00,1,completed
+RP-1118,"Patel residence, 471 Ward Pkwy",Water heater replacement - 40 gal,2026-08-07,2026-08-07,2990.00,6,completed
+RP-1119,"Kim residence, 802 Broadway Blvd",Garbage disposal repair,2026-08-08,2026-08-08,150.00,3,completed
+RP-1120,"Delgado residence, 2487 Ward Pkwy",Service call - running toilet,2026-08-08,2026-08-08,580.00,3,completed
+RP-1121,"Ortiz residence, 7807 Wornall Rd",Faucet replacement,2026-08-08,2026-08-08,290.00,1.5,completed
+RP-1122,"Tran residence, 5949 Main St",Drain cleaning - main line clog,2026-08-08,2026-08-08,400.00,2,completed
+RP-1123,"Miller residence, 3221 Oak St",Weekend emergency leak,2026-08-08,2026-08-08,410.00,4,completed
+RP-1124,"Mendez residence, 1310 Brookside Blvd",Toilet repair,2026-08-10,2026-08-10,380.00,1,completed
+RP-1125,"Moreau residence, 3328 Wornall Rd",Faucet replacement,2026-08-10,2026-08-10,240.00,3,completed
+RP-1126,"Kowalski residence, 8145 Gillham Rd",Service call - running toilet,2026-08-10,2026-08-10,190.00,3,completed
+RP-1127,"Sorensen residence, 4921 Main St",Service call - running toilet,2026-08-10,2026-08-10,150.00,1.5,completed
+RP-1128,"Tran residence, 8302 Gillham Rd",Garbage disposal repair,2026-08-11,2026-08-11,240.00,1.5,completed
+RP-1129,"Jensen residence, 5164 Gillham Rd",Shutoff valve replacement,2026-08-11,2026-08-11,450.00,1,completed
+RP-1130,"Reyes residence, 6120 Main St",Drain cleaning - main line clog,2026-08-11,2026-08-11,190.00,2.5,completed
+RP-1131,"Delgado residence, 1492 Wornall Rd",Drain cleaning with camera inspection,2026-08-11,2026-08-11,580.00,2.5,completed
+RP-1132,"Delgado residence, 1492 Wornall Rd",Sewer line replacement,2026-08-21,2026-08-23,10700.00,40,completed
+RP-1133,"Delgado residence, 2133 State Line Rd",Shutoff valve replacement,2026-08-12,2026-08-12,330.00,3,completed
+RP-1134,"Moreau residence, 785 Broadway Blvd",Leak repair - kitchen sink,2026-08-12,2026-08-12,340.00,3,completed
+RP-1135,"Coleman residence, 3172 Wornall Rd",Drain cleaning - main line clog,2026-08-12,2026-08-12,300.00,2.5,completed
+RP-1136,"Haddad residence, 5643 State Line Rd",Water heater replacement - 40 gal,2026-08-12,2026-08-12,2690.00,5,completed
+RP-1137,"Kowalski residence, 4957 State Line Rd",Faucet replacement,2026-08-13,2026-08-13,240.00,1,completed
+RP-1138,"Ellison residence, 8972 Wornall Rd",Garbage disposal repair,2026-08-13,2026-08-13,520.00,3,completed
+RP-1139,"Miller residence, 6548 Main St",Shutoff valve replacement,2026-08-14,2026-08-14,500.00,2,completed
+RP-1140,"Sorensen residence, 5426 Ward Pkwy",Sump pump repair,2026-08-14,2026-08-14,380.00,3,completed
+RP-1141,"Patel residence, 1685 Broadway Blvd",Shutoff valve replacement,2026-08-15,2026-08-15,400.00,3,completed
+RP-1142,"Delgado residence, 6240 Wornall Rd",Garbage disposal repair,2026-08-15,2026-08-15,330.00,1,completed
+RP-1143,"Ortiz residence, 8915 Oak St",Service call - running toilet,2026-08-15,2026-08-15,150.00,1,completed
+RP-1144,"Hughes residence, 8919 Ward Pkwy",Sump pump repair,2026-08-15,2026-08-15,600.00,2,completed
+RP-1145,"Russo residence, 4840 Holmes Rd",Emergency - burst pipe,2026-08-15,2026-08-15,250.00,3,completed
+RP-1146,"Nguyen residence, 113 Holmes Rd",After-hours drain backup,2026-08-16,2026-08-16,340.00,4,completed
+RP-1147,"Lindqvist residence, 3941 State Line Rd",Shutoff valve replacement,2026-08-17,2026-08-17,390.00,1,completed
+RP-1148,"Brooks residence, 4065 Brookside Blvd",Garbage disposal repair,2026-08-17,2026-08-17,480.00,1,completed
+RP-1149,"Lindqvist residence, 9699 Main St",Drain cleaning - main line clog,2026-08-17,2026-08-17,350.00,2,completed
+RP-1150,"Mendez residence, 9274 Wornall Rd",Drain cleaning - main line clog,2026-08-17,2026-08-17,350.00,2,completed
+RP-1151,"Price residence, 918 Gillham Rd",Faucet replacement,2026-08-18,2026-08-18,460.00,1.5,completed
+RP-1152,"Hughes residence, 9103 Broadway Blvd",Leak repair - kitchen sink,2026-08-18,2026-08-18,490.00,3,completed
+RP-1153,"Tran residence, 2817 Wornall Rd",Weekend emergency leak,2026-08-18,2026-08-18,660.00,3,completed
+RP-1154,"Lopez residence, 937 Gillham Rd",Tankless water heater install,2026-08-18,2026-08-18,2880.00,4,completed
+RP-1155,"Brooks residence, 682 Gillham Rd",Faucet replacement,2026-08-19,2026-08-19,200.00,1,completed
+RP-1156,"Price residence, 5621 Oak St",Garbage disposal repair,2026-08-19,2026-08-19,300.00,1.5,completed
+RP-1157,"Okafor residence, 2508 Holmes Rd",Sump pump repair,2026-08-19,2026-08-19,440.00,3,completed
+RP-1158,"Patel residence, 7437 Ward Pkwy",Toilet repair,2026-08-20,2026-08-20,390.00,2,completed
+RP-1159,"Schultz residence, 2600 Ward Pkwy",Drain cleaning - main line clog,2026-08-20,2026-08-20,450.00,2.5,completed
+RP-1160,"Okafor residence, 173 Main St",Emergency - no water,2026-08-20,2026-08-20,450.00,2,completed
+RP-1161,"Novak residence, 2789 Holmes Rd",Tankless water heater install,2026-08-20,2026-08-20,3130.00,4,completed
+RP-1162,"Ellison residence, 568 Ward Pkwy",Leak repair - kitchen sink,2026-08-21,2026-08-21,370.00,3,completed
+RP-1163,"Miller residence, 1994 Brookside Blvd",Faucet replacement,2026-08-21,2026-08-21,270.00,1,completed
+RP-1164,"Patel residence, 6041 Ward Pkwy",Toilet repair,2026-08-21,2026-08-21,400.00,3,completed
+RP-1165,"Patel residence, 3436 State Line Rd",Drain cleaning with camera inspection,2026-08-21,2026-08-21,610.00,2,completed
+RP-1166,"Miller residence, 4906 Main St",Drain cleaning - main line clog,2026-08-21,2026-08-21,320.00,2,completed
+RP-1167,"Bauer residence, 8793 Ward Pkwy",Emergency - burst pipe,2026-08-21,2026-08-21,310.00,3,completed
+RP-1168,"Tran residence, 6839 Wornall Rd",Sump pump repair,2026-08-22,2026-08-22,160.00,2,completed
+RP-1169,"Russo residence, 2868 Oak St",Faucet replacement,2026-08-22,2026-08-22,290.00,3,completed
+RP-1170,"Sorensen residence, 1122 State Line Rd",Sump pump repair,2026-08-24,2026-08-24,600.00,1.5,completed
+RP-1171,"Iverson residence, 1094 Gillham Rd",Drain cleaning - main line clog,2026-08-24,2026-08-24,260.00,2,completed
+RP-1172,"Hughes residence, 7071 Gillham Rd",Service call - running toilet,2026-08-25,2026-08-25,440.00,3,completed
+RP-1173,"Miller residence, 5463 Oak St",Faucet replacement,2026-08-25,2026-08-25,360.00,1,completed
+RP-1174,"Patel residence, 4809 Holmes Rd",Service call - running toilet,2026-08-25,2026-08-25,570.00,1,completed
+RP-1175,"Novak residence, 1476 Holmes Rd",Drain cleaning - main line clog,2026-08-25,2026-08-25,350.00,2.5,completed
+RP-1176,"Haddad residence, 1264 Oak St",Service call - running toilet,2026-08-26,2026-08-26,280.00,3,completed
+RP-1177,"Novak residence, 5818 State Line Rd",Shutoff valve replacement,2026-08-26,2026-08-26,580.00,1.5,completed
+RP-1178,"Patel residence, 418 Wornall Rd",Faucet replacement,2026-08-26,2026-08-26,520.00,3,completed
+RP-1179,"Jensen residence, 2363 State Line Rd",Drain cleaning - main line clog,2026-08-26,2026-08-26,190.00,2,completed
+RP-1180,"Lindqvist residence, 4912 Broadway Blvd",Sump pump repair,2026-08-27,2026-08-27,340.00,2,completed
+RP-1181,"Whitfield residence, 1486 Ward Pkwy",Toilet repair,2026-08-27,2026-08-27,350.00,1.5,completed
+RP-1182,"Haddad residence, 1180 Oak St",Garbage disposal repair,2026-08-27,2026-08-27,480.00,2,completed
+RP-1183,"Brooks residence, 1561 Main St",Toilet repair,2026-08-27,2026-08-27,340.00,1,completed
+RP-1184,"Nguyen residence, 9291 Main St",Drain cleaning with camera inspection,2026-08-27,2026-08-27,430.00,1.5,completed
+RP-1185,"Nguyen residence, 9607 Gillham Rd",Drain cleaning with camera inspection,2026-08-27,2026-08-27,430.00,2.5,completed
+RP-1186,"Russo residence, 7185 Broadway Blvd",Faucet replacement,2026-08-28,2026-08-28,290.00,1,completed
+RP-1187,"Patel residence, 6906 State Line Rd",Toilet repair,2026-08-28,2026-08-28,470.00,2,completed
+RP-1188,"Lopez residence, 5616 Ward Pkwy",Faucet replacement,2026-08-28,2026-08-28,370.00,1.5,completed
+RP-1189,"Schultz residence, 5206 Brookside Blvd",Drain cleaning with camera inspection,2026-08-28,2026-08-28,550.00,2,completed
+RP-1190,"Ellison residence, 5557 Holmes Rd",Faucet replacement,2026-08-29,2026-08-29,370.00,1.5,completed
+RP-1191,"Jensen residence, 1296 State Line Rd",Shutoff valve replacement,2026-08-29,2026-08-29,170.00,1,completed
+RP-1192,"Kowalski residence, 1924 Holmes Rd",Garbage disposal repair,2026-08-29,2026-08-29,510.00,3,completed
+RP-1193,"Patel residence, 759 Oak St",Drain cleaning - main line clog,2026-08-29,2026-08-29,400.00,2.5,completed
+RP-1194,"Kowalski residence, 8139 Troost Ave",Weekend emergency leak,2026-08-29,2026-08-29,610.00,3,completed
+RP-1195,"Kowalski residence, 5201 Holmes Rd",After-hours drain backup,2026-08-30,2026-08-30,330.00,3,completed
+RP-1196,"Lindqvist residence, 2995 Broadway Blvd",Garbage disposal repair,2026-08-31,2026-08-31,600.00,1.5,completed
+RP-1197,"Novak residence, 9584 Holmes Rd",Service call - running toilet,2026-08-31,2026-08-31,500.00,1,completed
+RP-1198,"Delgado residence, 7747 State Line Rd",Shutoff valve replacement,2026-08-31,2026-08-31,300.00,2,completed
+RP-1199,"Russo residence, 7494 Broadway Blvd",Drain cleaning - main line clog,2026-08-31,2026-08-31,320.00,1.5,completed
+RP-1200,"Delgado residence, 9548 Broadway Blvd",Garbage disposal repair,2026-09-01,2026-09-01,340.00,1.5,completed
+RP-1201,"Reyes residence, 8420 Gillham Rd",Sump pump repair,2026-09-01,2026-09-01,490.00,3,completed
+RP-1202,"Iverson residence, 4218 Gillham Rd",Shutoff valve replacement,2026-09-01,2026-09-01,530.00,1.5,completed
+RP-1203,"Coleman residence, 4529 Brookside Blvd",Shutoff valve replacement,2026-09-02,2026-09-02,150.00,3,completed
+RP-1204,"Coleman residence, 6456 Main St",Service call - running toilet,2026-09-02,2026-09-02,570.00,2,completed
+RP-1205,"Tran residence, 3898 Troost Ave",Service call - running toilet,2026-09-02,2026-09-02,310.00,1,completed
+RP-1206,"Ortiz residence, 4861 Troost Ave",Drain cleaning - main line clog,2026-09-02,2026-09-02,200.00,2.5,completed
+RP-1207,"Lopez residence, 8486 Broadway Blvd",Toilet repair,2026-09-03,2026-09-03,370.00,3,completed
+RP-1208,"Okafor residence, 7326 Brookside Blvd",Faucet replacement,2026-09-03,2026-09-03,220.00,1,completed
+RP-1209,"Coleman residence, 7279 Wornall Rd",Leak repair - kitchen sink,2026-09-03,2026-09-03,420.00,1.5,completed
+RP-1210,"Schultz residence, 2263 Main St",Leak repair - kitchen sink,2026-09-03,2026-09-03,320.00,1,completed
+RP-1211,"Patel residence, 5706 State Line Rd",After-hours drain backup,2026-09-03,2026-09-03,590.00,3,completed
+RP-1212,"Schultz residence, 5777 State Line Rd",Service call - running toilet,2026-09-04,2026-09-04,490.00,1,completed
+RP-1213,"Ortiz residence, 9853 Gillham Rd",Garbage disposal repair,2026-09-04,2026-09-04,480.00,3,completed
+RP-1214,"Mendez residence, 4276 Gillham Rd",Toilet repair,2026-09-05,2026-09-05,230.00,1,completed
+RP-1215,"Reyes residence, 8698 Wornall Rd",Faucet replacement,2026-09-05,2026-09-05,440.00,1.5,completed
+RP-1216,"Kowalski residence, 4776 Ward Pkwy",Drain cleaning - main line clog,2026-09-05,2026-09-05,320.00,2,completed
+RP-1217,"Bauer residence, 6908 Wornall Rd",Emergency - no water,2026-09-05,2026-09-05,340.00,3,completed
+RP-1218,"Garza residence, 3857 Broadway Blvd",Faucet replacement,2026-09-07,2026-09-07,570.00,2,completed
+RP-1219,"Price residence, 2079 Broadway Blvd",Service call - running toilet,2026-09-07,2026-09-07,300.00,3,completed
+RP-1220,"Ellison residence, 5411 Ward Pkwy",Shutoff valve replacement,2026-09-08,2026-09-08,350.00,1,completed
+RP-1221,"Kim residence, 6302 Oak St",Water heater replacement - 50 gal,2026-09-08,2026-09-08,2920.00,4,completed
+RP-1222,"Whitfield residence, 5776 Gillham Rd",Leak repair - kitchen sink,2026-09-09,2026-09-09,200.00,2,completed
+RP-1223,"Mendez residence, 2632 Brookside Blvd",Garbage disposal repair,2026-09-09,2026-09-09,460.00,1.5,completed
+RP-1224,"Schultz residence, 3132 Broadway Blvd",Faucet replacement,2026-09-09,2026-09-09,400.00,2,completed
+RP-1225,"Russo residence, 7615 Holmes Rd",Drain cleaning with camera inspection,2026-09-09,2026-09-09,590.00,2,completed
+RP-1226,"Ellison residence, 6656 State Line Rd",Sump pump repair,2026-09-10,2026-09-10,360.00,1,completed
+RP-1227,"Reyes residence, 3636 Wornall Rd",Service call - running toilet,2026-09-10,2026-09-10,300.00,1,completed
+RP-1228,"Mendez residence, 6903 Troost Ave",Faucet replacement,2026-09-10,2026-09-10,560.00,1,completed
+RP-1229,"Sorensen residence, 3329 Brookside Blvd",Toilet repair,2026-09-11,2026-09-11,530.00,1,completed
+RP-1230,"Kowalski residence, 8299 State Line Rd",Garbage disposal repair,2026-09-11,2026-09-11,320.00,1.5,completed
+RP-1231,"Ellison residence, 7191 Troost Ave",Drain cleaning with camera inspection,2026-09-11,2026-09-11,630.00,2,completed
+RP-1232,"Quinn residence, 2164 Wornall Rd",Emergency - no water,2026-09-11,2026-09-11,310.00,2,completed
+RP-1233,"Delgado residence, 7301 Holmes Rd",Toilet repair,2026-09-12,2026-09-12,520.00,1,completed
+RP-1234,"Quinn residence, 843 Gillham Rd",Garbage disposal repair,2026-09-12,2026-09-12,230.00,2,completed
+RP-1235,"Coleman residence, 6513 Broadway Blvd",Sump pump repair,2026-09-12,2026-09-12,480.00,3,completed
+RP-1236,"Moreau residence, 5533 Wornall Rd",Emergency - no water,2026-09-13,2026-09-13,350.00,2,completed
+RP-1237,"Hughes residence, 1792 Ward Pkwy",Shutoff valve replacement,2026-09-14,2026-09-14,280.00,1,completed
+RP-1238,"Ortiz residence, 7490 Gillham Rd",Toilet repair,2026-09-14,2026-09-14,330.00,2,completed
+RP-1239,"Bauer residence, 9061 Wornall Rd",Shutoff valve replacement,2026-09-14,2026-09-14,250.00,1,completed
+RP-1240,"Tran residence, 593 Troost Ave",Drain cleaning with camera inspection,2026-09-14,2026-09-14,600.00,2,completed
+RP-1241,"Hughes residence, 1927 Broadway Blvd",Faucet replacement,2026-09-15,2026-09-15,330.00,1,completed
+RP-1242,"Sorensen residence, 6569 Holmes Rd",Drain cleaning with camera inspection,2026-09-15,2026-09-15,560.00,1.5,completed
+RP-1243,"Sorensen residence, 2879 Main St",After-hours drain backup,2026-09-15,2026-09-15,270.00,4,completed
+RP-1244,"Okafor residence, 8687 State Line Rd",Garbage disposal repair,2026-09-16,2026-09-16,590.00,1.5,completed
+RP-1245,"Reyes residence, 9640 Broadway Blvd",Drain cleaning with camera inspection,2026-09-16,2026-09-16,610.00,2.5,completed
+RP-1246,"Miller residence, 6064 Brookside Blvd",Garbage disposal repair,2026-09-17,2026-09-17,540.00,1,completed
+RP-1247,"Kowalski residence, 8869 Broadway Blvd",Faucet replacement,2026-09-17,2026-09-17,580.00,3,completed
+RP-1248,"Price residence, 8059 Troost Ave",Faucet replacement,2026-09-17,2026-09-17,450.00,1,completed
+RP-1249,"Whitfield residence, 1919 Troost Ave",Warranty callback - leak at fitting,2026-09-17,2026-09-17,0.00,1,completed
+RP-1250,"Nguyen residence, 928 Oak St",Faucet replacement,2026-09-18,2026-09-18,260.00,1,completed
+RP-1251,"Quinn residence, 3174 Gillham Rd",Service call - running toilet,2026-09-18,2026-09-18,580.00,1,completed
+RP-1252,"Ellison residence, 9125 Oak St",Drain cleaning with camera inspection,2026-09-18,2026-09-18,620.00,2,completed
+RP-1253,"Iverson residence, 9878 Troost Ave",Toilet repair,2026-09-19,2026-09-19,420.00,1,completed
+RP-1254,"Whitfield residence, 1000 Brookside Blvd",Leak repair - kitchen sink,2026-09-19,2026-09-19,560.00,2,completed
+RP-1255,"Reyes residence, 8427 Ward Pkwy",Drain cleaning - main line clog,2026-09-19,2026-09-19,280.00,2.5,completed
+RP-1256,"Mendez residence, 8803 Gillham Rd",Weekend emergency leak,2026-09-19,2026-09-19,360.00,4,completed
+RP-1257,"Reyes residence, 9218 Brookside Blvd",Service call - running toilet,2026-09-21,2026-09-21,550.00,1.5,completed
+RP-1258,"Kowalski residence, 8930 State Line Rd",Drain cleaning - main line clog,2026-09-21,2026-09-21,190.00,2.5,completed
+RP-1259,"Schultz residence, 8561 Troost Ave",Weekend emergency leak,2026-09-21,2026-09-21,590.00,4,completed
+RP-1260,"Mendez residence, 7163 Troost Ave",Service call - running toilet,2026-09-22,2026-09-22,580.00,3,completed
+RP-1261,"Nguyen residence, 5120 Brookside Blvd",Leak repair - kitchen sink,2026-09-22,2026-09-22,490.00,3,completed
+RP-1262,"Price residence, 2260 Gillham Rd",Weekend emergency leak,2026-09-22,2026-09-22,400.00,4,completed
+RP-1263,"Iverson residence, 2741 Ward Pkwy",Garbage disposal repair,2026-09-23,2026-09-23,460.00,1,completed
+RP-1264,"Jensen residence, 8875 Troost Ave",Shutoff valve replacement,2026-09-23,2026-09-23,200.00,3,completed
+RP-1265,"Novak residence, 8784 State Line Rd",Drain cleaning with camera inspection,2026-09-23,2026-09-23,560.00,1.5,completed
+RP-1266,"Patel residence, 5511 Ward Pkwy",Drain cleaning with camera inspection,2026-09-23,2026-09-23,440.00,1.5,completed
+RP-1267,"Haddad residence, 6842 State Line Rd",Toilet repair,2026-09-24,2026-09-24,200.00,2,completed
+RP-1268,"Sorensen residence, 4025 Wornall Rd",Sump pump repair,2026-09-24,2026-09-24,240.00,2,completed
+RP-1269,"Ortiz residence, 3801 Gillham Rd",Service call - running toilet,2026-09-24,2026-09-24,280.00,1.5,completed
+RP-1270,"Delgado residence, 1519 Gillham Rd",Garbage disposal repair,2026-09-24,2026-09-24,560.00,1,completed
+RP-1271,"Tran residence, 3005 Broadway Blvd",Drain cleaning - main line clog,2026-09-24,2026-09-24,340.00,2,completed
+RP-1272,"Whitfield residence, 7488 Wornall Rd",After-hours drain backup,2026-09-24,2026-09-24,440.00,3,completed
+RP-1273,"Kim residence, 9674 State Line Rd",Faucet replacement,2026-09-25,2026-09-25,230.00,1.5,completed
+RP-1274,"Brooks residence, 7355 State Line Rd",Emergency - burst pipe,2026-09-25,2026-09-25,710.00,2,completed
+RP-1275,"Haddad residence, 2795 Troost Ave",Faucet replacement,2026-09-26,2026-09-26,460.00,1.5,completed
+RP-1276,"Tran residence, 6593 Oak St",Sump pump repair,2026-09-26,2026-09-26,310.00,1.5,completed
+RP-1277,"Whitfield residence, 514 Broadway Blvd",Drain cleaning with camera inspection,2026-09-26,2026-09-26,510.00,2.5,completed
+RP-1278,"Lopez residence, 1927 Main St",Drain cleaning with camera inspection,2026-09-26,2026-09-26,640.00,2.5,completed
+RP-1279,"Garza residence, 2303 State Line Rd",Weekend emergency leak,2026-09-26,2026-09-26,310.00,4,completed
+RP-1280,"Ellison residence, 6039 Broadway Blvd",After-hours drain backup,2026-09-27,2026-09-27,310.00,3,completed
+RP-1281,"Kowalski residence, 1822 Gillham Rd",Toilet repair,2026-09-28,2026-09-28,270.00,3,completed
+RP-1282,"Jensen residence, 9128 Wornall Rd",Drain cleaning with camera inspection,2026-09-28,2026-09-28,450.00,1.5,completed
+RP-1283,"Tran residence, 2933 Holmes Rd",Toilet repair,2026-09-29,2026-09-29,380.00,2,completed
+RP-1284,"Sorensen residence, 1564 Troost Ave",Faucet replacement,2026-09-29,2026-09-29,540.00,1,completed
+RP-1285,"Kowalski residence, 7975 Brookside Blvd",Drain cleaning with camera inspection,2026-09-29,2026-09-29,550.00,2,completed
+RP-1286,"Brooks residence, 4602 Gillham Rd",Drain cleaning with camera inspection,2026-09-29,2026-09-29,430.00,1.5,completed
+RP-1287,"Lopez residence, 7187 Oak St",Shutoff valve replacement,2026-09-30,2026-09-30,450.00,3,completed
+RP-1288,"Schultz residence, 8303 Wornall Rd",Toilet repair,2026-09-30,2026-09-30,610.00,1.5,completed
+RP-1289,"Patel residence, 9069 Broadway Blvd",Toilet repair,2026-09-30,2026-09-30,410.00,1.5,completed
+RP-1290,"Garza residence, 5552 Troost Ave",Shutoff valve replacement,2026-09-30,2026-09-30,160.00,3,completed
+RP-1291,"Kowalski residence, 9382 Troost Ave",Emergency - no water,2026-09-30,2026-09-30,550.00,3,completed
+RP-1292,"Haddad residence, 8654 Brookside Blvd",Water heater replacement - 50 gal,2026-09-30,2026-09-30,1710.00,6,completed

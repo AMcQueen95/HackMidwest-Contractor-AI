@@ -1,0 +1,10 @@
+{
+  "name": "Summit Air & Heat",
+  "currency": "USD",
+  "accounting_basis": "cash",
+  "opening_balance": 92000,
+  "opening_balance_date": "2025-10-01",
+  "as_of_date": "2026-09-30",
+  "labor_rate": 55,
+  "tax_reserve_rate": 0.25
+}

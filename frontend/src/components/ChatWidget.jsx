@@ -100,7 +100,7 @@ function Message({ message }) {
 }
 
 export default function ChatWidget({ open, onOpen, onClose, narrative, narrativeDone, narrativeError,
-  month, datasetRevision, available = true, unavailableMessage }) {
+  month, datasetRevision, available = true, unavailableMessage, suggestions = SUGGESTED_QUESTIONS }) {
   const [messages, setMessages] = useState([])
   const [sessionId, setSessionId] = useState(null)
   const [input, setInput] = useState('')
@@ -193,7 +193,7 @@ export default function ChatWidget({ open, onOpen, onClose, narrative, narrative
 
       <footer className="chat-footer">
         <div className="chips">
-          {SUGGESTED_QUESTIONS.map((question) => (
+          {suggestions.slice(0, 4).map((question) => (
             <button
               key={question}
               type="button"

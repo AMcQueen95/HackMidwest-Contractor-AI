@@ -49,7 +49,7 @@ def _month_name(month: str) -> str:
 
 def _narrative_prompt(month: str) -> str:
     return f"""\
-Write the {_month_name(month)} report for the owner. Consult all three analysts first.
+Write the {_month_name(month)} report for the owner. Consult every analyst first.
 
 Then write plain text only: no markdown, no bold, no headings with #, no tables.
 Use exactly this layout:

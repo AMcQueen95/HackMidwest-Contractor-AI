@@ -18,6 +18,9 @@ from .agent_context import use_dataset
 from .agents import streaming
 from .config import agent_status
 from .integrations.routes import build_router
+from .trades import use_trade
+from .trades import routes as trade_routes
+from .trades.store import trades
 
 COOKIE_NAME = "toolbelt_session"
 FRONTEND_DIST = Path(__file__).resolve().parents[2] / "frontend" / "dist"
@@ -86,12 +89,15 @@ def create_app(
     def report(request: Request, response: Response, month: str | None = None):
         token, dataset = store.ensure(request.cookies.get(COOKIE_NAME))
         _set_cookie(request, response, token)
-        return build_report(
+        report = build_report(
             dataset.books,
             month,
             is_sample=dataset.is_sample,
             dataset_revision=dataset.revision,
-        ) | {"agent_status": agent_status()}
+        )
+        return report | trade_routes.trade_payload(dataset.books, report["month"], token) | {
+            "agent_status": agent_status()
+        }
 
     @app.get("/api/report/narrative")
     def narrative(request: Request, month: str | None = None):
@@ -99,7 +105,7 @@ def create_app(
         selected = build_report(dataset.books, month)["month"]
 
         async def events():
-            with use_dataset(dataset.books, dataset.agent_state):
+            with use_dataset(dataset.books, dataset.agent_state), use_trade(trades.get(token)):
                 try:
                     async for chunk in streaming.stream_narrative(selected):
                         yield {"reset": True} if chunk is None else {"text": chunk}
@@ -119,7 +125,7 @@ def create_app(
         selected = build_report(dataset.books, body.month)["month"]
 
         async def events():
-            with use_dataset(dataset.books, dataset.agent_state):
+            with use_dataset(dataset.books, dataset.agent_state), use_trade(trades.get(token)):
                 try:
                     async for event in streaming.ask_stream(
                         body.question.strip(), body.session_id, selected
@@ -167,7 +173,9 @@ def create_app(
                 samesite="lax",
                 secure=request.url.scheme == "https",
             )
-            return candidate_report | {
+            return candidate_report | trade_routes.trade_payload(
+                books, candidate_report["month"], token
+            ) | {
                 "is_sample": False,
                 "dataset_revision": dataset.revision,
                 "agent_status": agent_status(),
@@ -185,6 +193,7 @@ def create_app(
         ) | {"agent_status": agent_status()}
 
     app.include_router(build_router(store, COOKIE_NAME, _set_cookie))
+    app.include_router(trade_routes.build_router(store, COOKIE_NAME, _set_cookie))
 
     directory = frontend_directory if frontend_directory is not None else FRONTEND_DIST
     if directory.is_dir():

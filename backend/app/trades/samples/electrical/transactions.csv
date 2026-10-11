@@ -1,0 +1,1498 @@
+date,description,vendor,category,amount,job_id
+2025-10-01,Crescent Electric Supply for BE-0001,Crescent Electric Supply,materials,-51.48,BE-0001
+2025-10-01,Payment INV-BE0001,"Garza residence, 5727 Wornall Rd",income,350.00,BE-0001
+2025-10-01,Crescent Electric Supply for BE-0002,Crescent Electric Supply,materials,-1397.77,BE-0002
+2025-10-01,KCMO Permits for BE-0002,KCMO Permits,permits,-240.00,BE-0002
+2025-10-01,Crescent Electric Supply for BE-0003,Crescent Electric Supply,materials,-59.05,BE-0003
+2025-10-01,Holmes Rd Properties,Holmes Rd Properties,rent,-2900.00,
+2025-10-01,Acuity Insurance,Acuity Insurance,insurance,-1600.00,
+2025-10-01,ServiceTitan,ServiceTitan,software,-398.00,
+2025-10-01,Gusto,Gusto,payroll,-14500.00,
+2025-10-01,Customer payments for September work,Stripe,income,1844.86,
+2025-10-02,Crescent Electric Supply for BE-0004,Crescent Electric Supply,materials,-49.17,BE-0004
+2025-10-02,Crescent Electric Supply for BE-0005,Crescent Electric Supply,materials,-44.18,BE-0005
+2025-10-02,Payment INV-BE0006,"Kim residence, 1690 Holmes Rd",income,350.00,BE-0005
+2025-10-02,Customer payments for September work,Stripe,income,2536.04,
+2025-10-03,Crescent Electric Supply for BE-0006,Crescent Electric Supply,materials,-77.46,BE-0006
+2025-10-03,Crescent Electric Supply for BE-0007,Crescent Electric Supply,materials,-1558.63,BE-0007
+2025-10-03,KCMO Permits for BE-0007,KCMO Permits,permits,-185.00,BE-0007
+2025-10-03,Crescent Electric Supply for BE-0008,Crescent Electric Supply,materials,-282.17,BE-0008
+2025-10-03,KCMO Permits for BE-0008,KCMO Permits,permits,-95.00,BE-0008
+2025-10-03,WEX Fleet Fuel,WEX Fleet Fuel,fuel,-850.00,
+2025-10-03,Customer payments for September work,Stripe,income,2572.80,
+2025-10-05,Intuit QuickBooks,Intuit QuickBooks,software,-90.00,
+2025-10-06,Crescent Electric Supply for BE-0009,Crescent Electric Supply,materials,-49.89,BE-0009
+2025-10-06,Crescent Electric Supply for BE-0010,Crescent Electric Supply,materials,-58.94,BE-0010
+2025-10-06,Crescent Electric Supply for BE-0011,Crescent Electric Supply,materials,-1478.21,BE-0011
+2025-10-06,KCMO Permits for BE-0011,KCMO Permits,permits,-185.00,BE-0011
+2025-10-06,Customer payments for September work,Stripe,income,2164.15,
+2025-10-07,Crescent Electric Supply for BE-0002,Crescent Electric Supply,materials,-1397.77,BE-0002
+2025-10-07,Payment INV-BE0011,"Price residence, 3114 Brookside Blvd",income,280.00,BE-0010
+2025-10-07,Payment INV-BE0012,"Tran residence, 8740 Troost Ave",income,4600.00,BE-0011
+2025-10-07,Crescent Electric Supply for BE-0012,Crescent Electric Supply,materials,-57.00,BE-0012
+2025-10-07,Payment INV-BE0013,"Bauer residence, 3395 Gillham Rd",income,340.00,BE-0012
+2025-10-07,Crescent Electric Supply for BE-0013,Crescent Electric Supply,materials,-353.03,BE-0013
+2025-10-07,KCMO Permits for BE-0013,KCMO Permits,permits,-95.00,BE-0013
+2025-10-07,Crescent Electric Supply for BE-0014,Crescent Electric Supply,materials,-198.70,BE-0014
+2025-10-07,Customer payments for September work,Stripe,income,2842.81,
+2025-10-08,Payment INV-BE0010,"Iverson residence, 8569 Gillham Rd",income,250.00,BE-0009
+2025-10-08,Crescent Electric Supply for BE-0015,Crescent Electric Supply,materials,-38.59,BE-0015
+2025-10-08,Sunbelt Rentals,Sunbelt Rentals,equipment,-650.00,
+2025-10-08,Customer payments for September work,Stripe,income,2113.42,
+2025-10-09,Crescent Electric Supply for BE-0016,Crescent Electric Supply,materials,-74.71,BE-0016
+2025-10-09,Customer payments for September work,Stripe,income,2937.90,
+2025-10-10,Payment INV-BE0005,"Lopez residence, 678 Brookside Blvd",income,440.00,BE-0004
+2025-10-10,Crescent Electric Supply for BE-0017,Crescent Electric Supply,materials,-39.61,BE-0017
+2025-10-10,Payment INV-BE0017,"Nguyen residence, 4116 State Line Rd",income,330.00,BE-0017
+2025-10-10,Customer payments for September work,Stripe,income,2404.34,
+2025-10-11,Payment INV-BE0002,"Miller residence, 5270 Broadway Blvd",income,4680.00,BE-0002
+2025-10-11,Payment INV-BE0007,"Tran residence, 8827 Broadway Blvd",income,490.00,BE-0006
+2025-10-12,Google Ads,Google Ads,marketing,-1400.00,
+2025-10-13,Crescent Electric Supply for BE-0018,Crescent Electric Supply,materials,-94.38,BE-0018
+2025-10-13,Crescent Electric Supply for BE-0019,Crescent Electric Supply,materials,-47.69,BE-0019
+2025-10-13,Customer payments for September work,Stripe,income,2705.83,
+2025-10-14,Crescent Electric Supply for BE-0002,Crescent Electric Supply,materials,-1397.77,BE-0002
+2025-10-14,Customer payments for September work,Stripe,income,2100.16,
+2025-10-15,Payment INV-BE0014,"Iverson residence, 864 Broadway Blvd",income,1150.00,BE-0013
+2025-10-15,Crescent Electric Supply for BE-0020,Crescent Electric Supply,materials,-63.89,BE-0020
+2025-10-15,Payment INV-BE0020,"Patel residence, 7081 State Line Rd",income,450.00,BE-0020
+2025-10-15,Gusto,Gusto,payroll,-14500.00,
+2025-10-16,Payment INV-BE0016,"Bauer residence, 5715 Oak St",income,180.00,BE-0015
+2025-10-16,Crescent Electric Supply for BE-0021,Crescent Electric Supply,materials,-36.78,BE-0021
+2025-10-16,Crescent Electric Supply for BE-0022,Crescent Electric Supply,materials,-27.79,BE-0022
+2025-10-17,Crescent Electric Supply for BE-0023,Crescent Electric Supply,materials,-75.68,BE-0023
+2025-10-17,Crescent Electric Supply for BE-0024,Crescent Electric Supply,materials,-67.30,BE-0024
+2025-10-17,Crescent Electric Supply for BE-0025,Crescent Electric Supply,materials,-34.80,BE-0025
+2025-10-17,Payment INV-BE0025,"Reyes residence, 3073 Broadway Blvd",income,220.00,BE-0025
+2025-10-17,Crescent Electric Supply for BE-0026,Crescent Electric Supply,materials,-1114.33,BE-0026
+2025-10-17,KCMO Permits for BE-0026,KCMO Permits,permits,-185.00,BE-0026
+2025-10-17,WEX Fleet Fuel,WEX Fleet Fuel,fuel,-850.00,
+2025-10-18,Payment INV-BE0019,"Lopez residence, 1886 Oak St",income,290.00,BE-0019
+2025-10-18,Evergy,Evergy,utilities,-360.00,
+2025-10-19,Payment INV-BE0022,"Price residence, 7594 Oak St",income,160.00,BE-0022
+2025-10-20,Crescent Electric Supply for BE-0027,Crescent Electric Supply,materials,-60.67,BE-0027
+2025-10-20,Crescent Electric Supply for BE-0028,Crescent Electric Supply,materials,-53.77,BE-0028
+2025-10-20,Verizon Business,Verizon Business,utilities,-240.00,
+2025-10-21,Crescent Electric Supply for BE-0002,Crescent Electric Supply,materials,-1397.77,BE-0002
+2025-10-21,Payment INV-BE0027,"Patel residence, 6986 Troost Ave",income,300.00,BE-0027
+2025-10-21,Crescent Electric Supply for BE-0029,Crescent Electric Supply,materials,-52.63,BE-0029
+2025-10-21,Payment INV-BE0029,"Iverson residence, 1817 Wornall Rd",income,270.00,BE-0029
+2025-10-21,Crescent Electric Supply for BE-0030,Crescent Electric Supply,materials,-82.57,BE-0030
+2025-10-22,Crescent Electric Supply for BE-0031,Crescent Electric Supply,materials,-45.05,BE-0031
+2025-10-22,Payment INV-BE0031,"Brooks residence, 8099 Holmes Rd",income,260.00,BE-0031
+2025-10-22,Crescent Electric Supply for BE-0032,Crescent Electric Supply,materials,-92.19,BE-0032
+2025-10-22,Payment INV-BE0032,"Hughes residence, 3954 Oak St",income,470.00,BE-0032
+2025-10-22,Crescent Electric Supply for BE-0033,Crescent Electric Supply,materials,-18.63,BE-0033
+2025-10-22,Crescent Electric Supply for BE-0034,Crescent Electric Supply,materials,-960.21,BE-0034
+2025-10-22,KCMO Permits for BE-0034,KCMO Permits,permits,-185.00,BE-0034
+2025-10-23,Payment INV-BE0009,"Moreau residence, 1456 Main St",income,970.00,BE-0008
+2025-10-23,Payment INV-BE0030,"Coleman residence, 1432 Broadway Blvd",income,510.00,BE-0030
+2025-10-23,Crescent Electric Supply for BE-0035,Crescent Electric Supply,materials,-618.27,BE-0035
+2025-10-23,KCMO Permits for BE-0035,KCMO Permits,permits,-95.00,BE-0035
+2025-10-24,Payment INV-BE0008,"Hughes residence, 1966 Holmes Rd",income,4600.00,BE-0007
+2025-10-24,Crescent Electric Supply for BE-0036,Crescent Electric Supply,materials,-63.69,BE-0036
+2025-10-24,Payment INV-BE0036,"Iverson residence, 7294 Troost Ave",income,340.00,BE-0036
+2025-10-24,Crescent Electric Supply for BE-0037,Crescent Electric Supply,materials,-98.33,BE-0037
+2025-10-24,Payment INV-BE0037,"Okafor residence, 7120 Main St",income,510.00,BE-0037
+2025-10-24,Crescent Electric Supply for BE-0038,Crescent Electric Supply,materials,-96.45,BE-0038
+2025-10-25,Payment INV-BE0023,"Kim residence, 5228 Oak St",income,360.00,BE-0023
+2025-10-25,Payment INV-BE0024,"Hughes residence, 7666 Broadway Blvd",income,370.00,BE-0024
+2025-10-25,Payment INV-BE0028,"Sorensen residence, 9870 Main St",income,330.00,BE-0028
+2025-10-25,Stripe,Stripe,bank_fees,-420.00,
+2025-10-27,Payment INV-BE0015,"Quinn residence, 9076 Wornall Rd",income,550.00,BE-0014
+2025-10-27,Crescent Electric Supply for BE-0039,Crescent Electric Supply,materials,-68.80,BE-0039
+2025-10-27,Crescent Electric Supply for BE-0040,Crescent Electric Supply,materials,-22.23,BE-0040
+2025-10-27,Crescent Electric Supply for BE-0041,Crescent Electric Supply,materials,-49.62,BE-0041
+2025-10-27,Payment INV-BE0041,"Quinn residence, 6173 Brookside Blvd",income,230.00,BE-0041
+2025-10-28,Payment INV-BE0021,"Mendez residence, 7316 State Line Rd",income,310.00,BE-0021
+2025-10-28,Crescent Electric Supply for BE-0042,Crescent Electric Supply,materials,-35.72,BE-0042
+2025-10-28,Crescent Electric Supply for BE-0043,Crescent Electric Supply,materials,-829.16,BE-0043
+2025-10-28,KCMO Permits for BE-0043,KCMO Permits,permits,-185.00,BE-0043
+2025-10-29,Payment INV-BE0040,"Ortiz residence, 4993 Ward Pkwy",income,170.00,BE-0040
+2025-10-29,Crescent Electric Supply for BE-0044,Crescent Electric Supply,materials,-101.50,BE-0044
+2025-10-29,Crescent Electric Supply for BE-0045,Crescent Electric Supply,materials,-1418.20,BE-0045
+2025-10-29,KCMO Permits for BE-0045,KCMO Permits,permits,-185.00,BE-0045
+2025-10-30,Payment INV-BE0039,"Moreau residence, 8186 State Line Rd",income,380.00,BE-0039
+2025-10-30,Crescent Electric Supply for BE-0046,Crescent Electric Supply,materials,-54.60,BE-0046
+2025-10-30,Crescent Electric Supply for BE-0047,Crescent Electric Supply,materials,-1387.60,BE-0047
+2025-10-30,KCMO Permits for BE-0047,KCMO Permits,permits,-240.00,BE-0047
+2025-10-30,Crescent Electric Supply for BE-0048,Crescent Electric Supply,materials,-23.64,BE-0048
+2025-10-31,Payment INV-BE0034,"Lindqvist residence, 9751 Troost Ave",income,3100.00,BE-0034
+2025-10-31,Payment INV-BE0035,"Whitfield residence, 1589 State Line Rd",income,2040.00,BE-0035
+2025-10-31,Crescent Electric Supply for BE-0049,Crescent Electric Supply,materials,-60.71,BE-0049
+2025-10-31,Crescent Electric Supply for BE-0050,Crescent Electric Supply,materials,-67.74,BE-0050
+2025-10-31,Payment INV-BE0051,"Kowalski residence, 6283 Troost Ave",income,500.00,BE-0050
+2025-10-31,Crescent Electric Supply for BE-0051,Crescent Electric Supply,materials,-56.28,BE-0051
+2025-11-01,Payment INV-BE0038,"Haddad residence, 1066 State Line Rd",income,460.00,BE-0038
+2025-11-01,Payment INV-BE0044,"Delgado residence, 3826 Troost Ave",income,520.00,BE-0044
+2025-11-01,Payment INV-BE0045,"Kim residence, 8839 Holmes Rd",income,4300.00,BE-0045
+2025-11-01,Payment INV-BE0046,"Miller residence, 1890 Ward Pkwy",income,280.00,BE-0046
+2025-11-01,Holmes Rd Properties,Holmes Rd Properties,rent,-2900.00,
+2025-11-01,Acuity Insurance,Acuity Insurance,insurance,-1600.00,
+2025-11-01,ServiceTitan,ServiceTitan,software,-398.00,
+2025-11-01,Gusto,Gusto,payroll,-14500.00,
+2025-11-02,Payment INV-BE0018,"Moreau residence, 3201 Wornall Rd",income,490.00,BE-0018
+2025-11-03,Payment INV-BE0043,"Mendez residence, 6937 State Line Rd",income,2700.00,BE-0043
+2025-11-03,Crescent Electric Supply for BE-0052,Crescent Electric Supply,materials,-51.23,BE-0052
+2025-11-03,Crescent Electric Supply for BE-0053,Crescent Electric Supply,materials,-60.02,BE-0053
+2025-11-03,WEX Fleet Fuel,WEX Fleet Fuel,fuel,-850.00,
+2025-11-04,Crescent Electric Supply for BE-0047,Crescent Electric Supply,materials,-1387.60,BE-0047
+2025-11-04,Payment INV-BE0054,"Patel residence, 387 Brookside Blvd",income,370.00,BE-0053
+2025-11-04,Crescent Electric Supply for BE-0054,Crescent Electric Supply,materials,-80.41,BE-0054
+2025-11-04,Payment INV-BE0055,"Garza residence, 484 Brookside Blvd",income,380.00,BE-0054
+2025-11-04,Crescent Electric Supply for BE-0055,Crescent Electric Supply,materials,-95.47,BE-0055
+2025-11-05,Payment INV-BE0042,"Bauer residence, 4307 Ward Pkwy",income,280.00,BE-0042
+2025-11-05,Payment INV-BE0053,"Moreau residence, 7637 Wornall Rd",income,470.00,BE-0052
+2025-11-05,Crescent Electric Supply for BE-0056,Crescent Electric Supply,materials,-64.67,BE-0056
+2025-11-05,Crescent Electric Supply for BE-0057,Crescent Electric Supply,materials,-53.82,BE-0057
+2025-11-05,Crescent Electric Supply for BE-0058,Crescent Electric Supply,materials,-1912.65,BE-0058
+2025-11-05,KCMO Permits for BE-0058,KCMO Permits,permits,-185.00,BE-0058
+2025-11-05,Intuit QuickBooks,Intuit QuickBooks,software,-90.00,
+2025-11-06,Crescent Electric Supply for BE-0059,Crescent Electric Supply,materials,-58.03,BE-0059
+2025-11-07,Payment INV-BE0026,"Coleman residence, 173 Broadway Blvd",income,3100.00,BE-0026
+2025-11-07,Payment INV-BE0056,"Russo residence, 8035 Gillham Rd",income,480.00,BE-0055
+2025-11-07,Crescent Electric Supply for BE-0060,Crescent Electric Supply,materials,-103.33,BE-0060
+2025-11-08,Payment INV-BE0050,"Lopez residence, 5549 Main St",income,300.00,BE-0049
+2025-11-08,Payment INV-BE0052,"Garza residence, 3235 Brookside Blvd",income,510.00,BE-0051
+2025-11-08,Payment INV-BE0057,"Haddad residence, 5727 State Line Rd",income,330.00,BE-0056
+2025-11-08,Sunbelt Rentals,Sunbelt Rentals,equipment,-650.00,
+2025-11-09,Payment INV-BE0047,"Quinn residence, 7702 Holmes Rd",income,3990.00,BE-0047
+2025-11-09,Payment INV-BE0060,"Haddad residence, 7979 State Line Rd",income,440.00,BE-0059
+2025-11-10,Crescent Electric Supply for BE-0047,Crescent Electric Supply,materials,-1387.60,BE-0047
+2025-11-10,Crescent Electric Supply for BE-0061,Crescent Electric Supply,materials,-98.35,BE-0061
+2025-11-10,Crescent Electric Supply for BE-0062,Crescent Electric Supply,materials,-101.32,BE-0062
+2025-11-10,Crescent Electric Supply for BE-0063,Crescent Electric Supply,materials,-319.55,BE-0063
+2025-11-11,Payment INV-BE0033,"Garza residence, 1834 Holmes Rd",income,170.00,BE-0033
+2025-11-11,Payment INV-BE0059,"Nguyen residence, 9812 Ward Pkwy",income,5100.00,BE-0058
+2025-11-11,Crescent Electric Supply for BE-0064,Crescent Electric Supply,materials,-42.31,BE-0064
+2025-11-11,Crescent Electric Supply for BE-0065,Crescent Electric Supply,materials,-58.93,BE-0065
+2025-11-11,Crescent Electric Supply for BE-0066,Crescent Electric Supply,materials,-54.73,BE-0066
+2025-11-11,Crescent Electric Supply for BE-0067,Crescent Electric Supply,materials,-355.95,BE-0067
+2025-11-11,KCMO Permits for BE-0067,KCMO Permits,permits,-95.00,BE-0067
+2025-11-11,Payment INV-BE0068,"Hughes residence, 3656 Holmes Rd",income,1230.00,BE-0067
+2025-11-11,Crescent Electric Supply for BE-0068,Crescent Electric Supply,materials,-1357.38,BE-0068
+2025-11-11,KCMO Permits for BE-0068,KCMO Permits,permits,-240.00,BE-0068
+2025-11-12,Payment INV-BE0004,"Miller residence, 5270 Broadway Blvd",income,4680.00,BE-0002
+2025-11-12,Payment INV-BE0063,"Brooks residence, 8131 Broadway Blvd",income,480.00,BE-0062
+2025-11-12,Crescent Electric Supply for BE-0069,Crescent Electric Supply,materials,-37.70,BE-0069
+2025-11-12,Payment INV-BE0072,"Haddad residence, 5163 State Line Rd",income,180.00,BE-0069
+2025-11-12,Crescent Electric Supply for BE-0070,Crescent Electric Supply,materials,-51.62,BE-0070
+2025-11-12,Google Ads,Google Ads,marketing,-1400.00,
+2025-11-13,Payment INV-BE0058,"Coleman residence, 682 Broadway Blvd",income,460.00,BE-0057
+2025-11-13,Payment INV-BE0066,"Russo residence, 4211 Broadway Blvd",income,350.00,BE-0065
+2025-11-13,Payment INV-BE0069,"Quinn residence, 6970 Wornall Rd",income,3990.00,BE-0068
+2025-11-13,Crescent Electric Supply for BE-0071,Crescent Electric Supply,materials,-69.01,BE-0071
+2025-11-13,Crescent Electric Supply for BE-0072,Crescent Electric Supply,materials,-57.15,BE-0072
+2025-11-13,Crescent Electric Supply for BE-0073,Crescent Electric Supply,materials,-525.62,BE-0073
+2025-11-13,KCMO Permits for BE-0073,KCMO Permits,permits,-95.00,BE-0073
+2025-11-14,Payment INV-BE0067,"Reyes residence, 5428 Main St",income,320.00,BE-0066
+2025-11-14,Crescent Electric Supply for BE-0068,Crescent Electric Supply,materials,-1357.38,BE-0068
+2025-11-14,Crescent Electric Supply for BE-0074,Crescent Electric Supply,materials,-98.63,BE-0074
+2025-11-14,Crescent Electric Supply for BE-0075,Crescent Electric Supply,materials,-32.32,BE-0075
+2025-11-15,Crescent Electric Supply for BE-0047,Crescent Electric Supply,materials,-1387.60,BE-0047
+2025-11-15,Payment INV-BE0062,"Whitfield residence, 8977 Holmes Rd",income,460.00,BE-0061
+2025-11-15,Gusto,Gusto,payroll,-14500.00,
+2025-11-16,Payment INV-BE0065,"Price residence, 1918 Wornall Rd",income,370.00,BE-0064
+2025-11-17,Crescent Electric Supply for BE-0068,Crescent Electric Supply,materials,-1357.38,BE-0068
+2025-11-17,Crescent Electric Supply for BE-0076,Crescent Electric Supply,materials,-35.28,BE-0076
+2025-11-17,Crescent Electric Supply for BE-0077,Crescent Electric Supply,materials,-40.84,BE-0077
+2025-11-17,Crescent Electric Supply for BE-0078,Crescent Electric Supply,materials,-1452.38,BE-0078
+2025-11-17,KCMO Permits for BE-0078,KCMO Permits,permits,-185.00,BE-0078
+2025-11-17,WEX Fleet Fuel,WEX Fleet Fuel,fuel,-850.00,
+2025-11-18,Payment INV-BE0075,"Whitfield residence, 7250 Oak St",income,330.00,BE-0072
+2025-11-18,Crescent Electric Supply for BE-0079,Crescent Electric Supply,materials,-54.49,BE-0079
+2025-11-18,Crescent Electric Supply for BE-0080,Crescent Electric Supply,materials,-70.35,BE-0080
+2025-11-18,Evergy,Evergy,utilities,-360.00,
+2025-11-19,Payment INV-BE0003,"Miller residence, 5270 Broadway Blvd",income,6240.00,BE-0002
+2025-11-19,Payment INV-BE0077,"Garza residence, 9262 State Line Rd",income,520.00,BE-0074
+2025-11-19,Crescent Electric Supply for BE-0081,Crescent Electric Supply,materials,-62.07,BE-0081
+2025-11-19,Crescent Electric Supply for BE-0082,Crescent Electric Supply,materials,-36.82,BE-0082
+2025-11-19,Crescent Electric Supply for BE-0083,Crescent Electric Supply,materials,-78.71,BE-0083
+2025-11-19,Crescent Electric Supply for BE-0084,Crescent Electric Supply,materials,-237.35,BE-0084
+2025-11-20,Crescent Electric Supply for BE-0068,Crescent Electric Supply,materials,-1357.38,BE-0068
+2025-11-20,Payment INV-BE0080,"Brooks residence, 4065 Brookside Blvd",income,320.00,BE-0077
+2025-11-20,Payment INV-BE0087,"Kim residence, 6012 Brookside Blvd",income,750.00,BE-0084
+2025-11-20,Crescent Electric Supply for BE-0085,Crescent Electric Supply,materials,-65.82,BE-0085
+2025-11-20,Crescent Electric Supply for BE-0086,Crescent Electric Supply,materials,-1364.69,BE-0086
+2025-11-20,KCMO Permits for BE-0086,KCMO Permits,permits,-185.00,BE-0086
+2025-11-20,Verizon Business,Verizon Business,utilities,-240.00,
+2025-11-21,Payment INV-BE0085,"Schultz residence, 4265 Holmes Rd",income,190.00,BE-0082
+2025-11-21,Payment INV-BE0086,"Reyes residence, 7438 Main St",income,420.00,BE-0083
+2025-11-21,Crescent Electric Supply for BE-0087,Crescent Electric Supply,materials,-52.48,BE-0087
+2025-11-21,Payment INV-BE0090,"Lopez residence, 7544 Ward Pkwy",income,250.00,BE-0087
+2025-11-21,Crescent Electric Supply for BE-0088,Crescent Electric Supply,materials,-89.46,BE-0088
+2025-11-22,Payment INV-BE0089,"Russo residence, 3300 Broadway Blvd",income,3900.00,BE-0086
+2025-11-24,Payment INV-BE0073,"Delgado residence, 2024 Main St",income,270.00,BE-0070
+2025-11-24,Payment INV-BE0084,"Delgado residence, 9230 Gillham Rd",income,400.00,BE-0081
+2025-11-24,Crescent Electric Supply for BE-0089,Crescent Electric Supply,materials,-66.10,BE-0089
+2025-11-24,Crescent Electric Supply for BE-0090,Crescent Electric Supply,materials,-38.07,BE-0090
+2025-11-24,Crescent Electric Supply for BE-0091,Crescent Electric Supply,materials,-50.70,BE-0091
+2025-11-25,Payment INV-BE0079,"Kowalski residence, 3655 Troost Ave",income,270.00,BE-0076
+2025-11-25,Payment INV-BE0088,"Iverson residence, 9201 Broadway Blvd",income,490.00,BE-0085
+2025-11-25,Stripe,Stripe,bank_fees,-420.00,
+2025-11-26,Payment INV-BE0078,"Jensen residence, 8184 Main St",income,220.00,BE-0075
+2025-11-26,Payment INV-BE0082,"Lopez residence, 6692 Gillham Rd",income,420.00,BE-0079
+2025-11-26,Crescent Electric Supply for BE-0092,Crescent Electric Supply,materials,-44.42,BE-0092
+2025-11-26,Crescent Electric Supply for BE-0093,Crescent Electric Supply,materials,-492.51,BE-0093
+2025-11-27,Payment INV-BE0061,"Jensen residence, 4125 Gillham Rd",income,490.00,BE-0060
+2025-11-27,Payment INV-BE0091,"Delgado residence, 5263 Broadway Blvd",income,370.00,BE-0089
+2025-11-27,Payment INV-BE0092,"Schultz residence, 812 Oak St",income,180.00,BE-0090
+2025-11-27,Payment INV-BE0093,"Sorensen residence, 3034 Brookside Blvd",income,260.00,BE-0091
+2025-11-27,Crescent Electric Supply for BE-0094,Crescent Electric Supply,materials,-41.58,BE-0094
+2025-11-27,Crescent Electric Supply for BE-0095,Crescent Electric Supply,materials,-49.81,BE-0095
+2025-11-27,Payment INV-BE0097,"Kim residence, 4697 Broadway Blvd",income,400.00,BE-0095
+2025-11-27,Crescent Electric Supply for BE-0096,Crescent Electric Supply,materials,-40.31,BE-0096
+2025-11-28,Crescent Electric Supply for BE-0097,Crescent Electric Supply,materials,-59.71,BE-0097
+2025-11-28,Crescent Electric Supply for BE-0098,Crescent Electric Supply,materials,-307.69,BE-0098
+2025-11-30,Payment INV-BE0064,"Patel residence, 4341 Main St",income,830.00,BE-0063
+2025-11-30,Payment INV-BE0083,"Ellison residence, 1733 Oak St",income,320.00,BE-0080
+2025-11-30,Payment INV-BE0098,"Jensen residence, 1891 Oak St",income,330.00,BE-0096
+2025-11-30,Payment INV-BE0099,"Russo residence, 4382 Brookside Blvd",income,330.00,BE-0097
+2025-12-01,Payment INV-BE0094,"Sorensen residence, 8943 Brookside Blvd",income,300.00,BE-0092
+2025-12-01,Payment INV-BE0095,"Schultz residence, 157 Wornall Rd",income,1290.00,BE-0093
+2025-12-01,Crescent Electric Supply for BE-0099,Crescent Electric Supply,materials,-56.92,BE-0099
+2025-12-01,Payment INV-BE0101,"Kim residence, 299 State Line Rd",income,260.00,BE-0099
+2025-12-01,Crescent Electric Supply for BE-0100,Crescent Electric Supply,materials,-1243.23,BE-0100
+2025-12-01,KCMO Permits for BE-0100,KCMO Permits,permits,-185.00,BE-0100
+2025-12-01,Holmes Rd Properties,Holmes Rd Properties,rent,-2900.00,
+2025-12-01,Acuity Insurance,Acuity Insurance,insurance,-1600.00,
+2025-12-01,ServiceTitan,ServiceTitan,software,-398.00,
+2025-12-01,Gusto,Gusto,payroll,-14500.00,
+2025-12-02,Payment INV-BE0096,"Patel residence, 929 Holmes Rd",income,240.00,BE-0094
+2025-12-02,Crescent Electric Supply for BE-0101,Crescent Electric Supply,materials,-56.01,BE-0101
+2025-12-02,Crescent Electric Supply for BE-0102,Crescent Electric Supply,materials,-37.35,BE-0102
+2025-12-02,Crescent Electric Supply for BE-0103,Crescent Electric Supply,materials,-1261.74,BE-0103
+2025-12-02,KCMO Permits for BE-0103,KCMO Permits,permits,-185.00,BE-0103
+2025-12-03,Payment INV-BE0074,"Okafor residence, 1343 Wornall Rd",income,430.00,BE-0071
+2025-12-03,Payment INV-BE0076,"Delgado residence, 4020 Ward Pkwy",income,1720.00,BE-0073
+2025-12-03,Payment INV-BE0102,"Moreau residence, 3896 Broadway Blvd",income,3500.00,BE-0100
+2025-12-03,Payment INV-BE0105,"Haddad residence, 397 Troost Ave",income,3700.00,BE-0103
+2025-12-03,Crescent Electric Supply for BE-0104,Crescent Electric Supply,materials,-87.48,BE-0104
+2025-12-03,Payment INV-BE0106,"Bauer residence, 5248 Wornall Rd",income,500.00,BE-0104
+2025-12-03,Crescent Electric Supply for BE-0105,Crescent Electric Supply,materials,-1561.21,BE-0105
+2025-12-03,KCMO Permits for BE-0105,KCMO Permits,permits,-185.00,BE-0105
+2025-12-03,WEX Fleet Fuel,WEX Fleet Fuel,fuel,-850.00,
+2025-12-04,Payment INV-BE0070,"Quinn residence, 6970 Wornall Rd",income,5320.00,BE-0068
+2025-12-04,Payment INV-BE0104,"Tran residence, 3405 Troost Ave",income,240.00,BE-0102
+2025-12-04,Crescent Electric Supply for BE-0106,Crescent Electric Supply,materials,-99.61,BE-0106
+2025-12-04,Payment INV-BE0108,"Price residence, 6421 Wornall Rd",income,460.00,BE-0106
+2025-12-04,Crescent Electric Supply for BE-0107,Crescent Electric Supply,materials,-35.05,BE-0107
+2025-12-04,Crescent Electric Supply for BE-0108,Crescent Electric Supply,materials,-1558.12,BE-0108
+2025-12-04,KCMO Permits for BE-0108,KCMO Permits,permits,-185.00,BE-0108
+2025-12-04,Crescent Electric Supply for BE-0109,Crescent Electric Supply,materials,-547.16,BE-0109
+2025-12-05,Crescent Electric Supply for BE-0110,Crescent Electric Supply,materials,-61.31,BE-0110
+2025-12-05,Payment INV-BE0112,"Ellison residence, 4403 Main St",income,320.00,BE-0110
+2025-12-05,Intuit QuickBooks,Intuit QuickBooks,software,-90.00,
+2025-12-07,Payment INV-BE0103,"Lopez residence, 2847 Ward Pkwy",income,440.00,BE-0101
+2025-12-08,Payment INV-BE0081,"Miller residence, 5925 Ward Pkwy",income,4500.00,BE-0078
+2025-12-08,Crescent Electric Supply for BE-0111,Crescent Electric Supply,materials,-58.45,BE-0111
+2025-12-08,Sunbelt Rentals,Sunbelt Rentals,equipment,-650.00,
+2025-12-09,Payment INV-BE0109,"Kim residence, 4336 Brookside Blvd",income,170.00,BE-0107
+2025-12-09,Crescent Electric Supply for BE-0112,Crescent Electric Supply,materials,-51.29,BE-0112
+2025-12-09,Crescent Electric Supply for BE-0113,Crescent Electric Supply,materials,-66.08,BE-0113
+2025-12-09,Crescent Electric Supply for BE-0114,Crescent Electric Supply,materials,-344.40,BE-0114
+2025-12-09,KCMO Permits for BE-0114,KCMO Permits,permits,-95.00,BE-0114
+2025-12-10,Payment INV-BE0110,"Novak residence, 2283 Holmes Rd",income,4200.00,BE-0108
+2025-12-10,Payment INV-BE0113,"Delgado residence, 422 Main St",income,400.00,BE-0111
+2025-12-10,Crescent Electric Supply for BE-0115,Crescent Electric Supply,materials,-47.32,BE-0115
+2025-12-10,Payment INV-BE0117,"Haddad residence, 451 Brookside Blvd",income,320.00,BE-0115
+2025-12-10,Crescent Electric Supply for BE-0116,Crescent Electric Supply,materials,-20.84,BE-0116
+2025-12-10,Crescent Electric Supply for BE-0117,Crescent Electric Supply,materials,-83.77,BE-0117
+2025-12-11,Payment INV-BE0116,"Novak residence, 5548 Ward Pkwy",income,1180.00,BE-0114
+2025-12-11,Crescent Electric Supply for BE-0118,Crescent Electric Supply,materials,-57.44,BE-0118
+2025-12-11,Crescent Electric Supply for BE-0119,Crescent Electric Supply,materials,-21.29,BE-0119
+2025-12-11,Crescent Electric Supply for BE-0120,Crescent Electric Supply,materials,-551.16,BE-0120
+2025-12-12,Payment INV-BE0107,"Sorensen residence, 8265 Troost Ave",income,4700.00,BE-0105
+2025-12-12,Payment INV-BE0121,"Delgado residence, 6173 Holmes Rd",income,1480.00,BE-0120
+2025-12-12,Google Ads,Google Ads,marketing,-1400.00,
+2025-12-15,Crescent Electric Supply for BE-0121,Crescent Electric Supply,materials,-21.39,BE-0121
+2025-12-15,Crescent Electric Supply for BE-0122,Crescent Electric Supply,materials,-102.19,BE-0122
+2025-12-15,Gusto,Gusto,payroll,-14500.00,
+2025-12-16,Payment INV-BE0049,"Quinn residence, 7702 Holmes Rd",income,3990.00,BE-0047
+2025-12-16,Payment INV-BE0122,"Lopez residence, 8393 Wornall Rd",income,160.00,BE-0121
+2025-12-16,Crescent Electric Supply for BE-0123,Crescent Electric Supply,materials,-1448.82,BE-0123
+2025-12-16,KCMO Permits for BE-0123,KCMO Permits,permits,-185.00,BE-0123
+2025-12-17,Payment INV-BE0115,"Kowalski residence, 3938 Oak St",income,410.00,BE-0113
+2025-12-17,Payment INV-BE0124,"Reyes residence, 1165 Main St",income,4700.00,BE-0123
+2025-12-17,Crescent Electric Supply for BE-0124,Crescent Electric Supply,materials,-3409.29,BE-0124
+2025-12-17,KCMO Permits for BE-0124,KCMO Permits,permits,-450.00,BE-0124
+2025-12-17,WEX Fleet Fuel,WEX Fleet Fuel,fuel,-850.00,
+2025-12-18,Payment INV-BE0100,"Ortiz residence, 7720 Wornall Rd",income,780.00,BE-0098
+2025-12-18,Evergy,Evergy,utilities,-360.00,
+2025-12-19,Payment INV-BE0125,River Market Lofts LLC,income,11430.00,BE-0124
+2025-12-19,Crescent Electric Supply for BE-0125,Crescent Electric Supply,materials,-56.64,BE-0125
+2025-12-20,Verizon Business,Verizon Business,utilities,-240.00,
+2025-12-21,Payment INV-BE0114,"Schultz residence, 7989 Gillham Rd",income,480.00,BE-0112
+2025-12-22,Crescent Electric Supply for BE-0126,Crescent Electric Supply,materials,-86.47,BE-0126
+2025-12-23,Payment INV-BE0119,"Miller residence, 4662 Broadway Blvd",income,280.00,BE-0118
+2025-12-23,Payment INV-BE0120,"Reyes residence, 4338 State Line Rd",income,200.00,BE-0119
+2025-12-23,Payment INV-BE0123,"Novak residence, 8813 State Line Rd",income,490.00,BE-0122
+2025-12-23,Payment INV-BE0128,"Quinn residence, 871 State Line Rd",income,490.00,BE-0126
+2025-12-23,Crescent Electric Supply for BE-0127,Crescent Electric Supply,materials,-91.10,BE-0127
+2025-12-23,Crescent Electric Supply for BE-0128,Crescent Electric Supply,materials,-32.97,BE-0128
+2025-12-24,Payment INV-BE0111,"Mendez residence, 4533 Oak St",income,1510.00,BE-0109
+2025-12-24,Payment INV-BE0130,"Whitfield residence, 3519 Wornall Rd",income,180.00,BE-0128
+2025-12-24,Crescent Electric Supply for BE-0129,Crescent Electric Supply,materials,-29.71,BE-0129
+2025-12-24,Crescent Electric Supply for BE-0130,Crescent Electric Supply,materials,-656.18,BE-0130
+2025-12-24,KCMO Permits for BE-0130,KCMO Permits,permits,-95.00,BE-0130
+2025-12-25,Payment INV-BE0132,"Nguyen residence, 4585 Holmes Rd",income,2300.00,BE-0130
+2025-12-25,Crescent Electric Supply for BE-0131,Crescent Electric Supply,materials,-19.03,BE-0131
+2025-12-25,Payment INV-BE0133,"Kim residence, 6232 State Line Rd",income,160.00,BE-0131
+2025-12-25,Crescent Electric Supply for BE-0132,Crescent Electric Supply,materials,-420.85,BE-0132
+2025-12-25,KCMO Permits for BE-0132,KCMO Permits,permits,-95.00,BE-0132
+2025-12-25,Crescent Electric Supply for BE-0133,Crescent Electric Supply,materials,-296.74,BE-0133
+2025-12-25,Stripe,Stripe,bank_fees,-420.00,
+2025-12-26,Crescent Electric Supply for BE-0124,Crescent Electric Supply,materials,-3409.29,BE-0124
+2025-12-26,Crescent Electric Supply for BE-0134,Crescent Electric Supply,materials,-79.30,BE-0134
+2025-12-26,Crescent Electric Supply for BE-0135,Crescent Electric Supply,materials,-1360.78,BE-0135
+2025-12-26,KCMO Permits for BE-0135,KCMO Permits,permits,-185.00,BE-0135
+2025-12-27,Payment INV-BE0048,"Quinn residence, 7702 Holmes Rd",income,5320.00,BE-0047
+2025-12-28,Payment INV-BE0134,"Jensen residence, 5682 Broadway Blvd",income,1600.00,BE-0132
+2025-12-28,Payment INV-BE0135,"Kim residence, 4182 Holmes Rd",income,940.00,BE-0133
+2025-12-28,Payment INV-BE0137,"Schultz residence, 8788 Brookside Blvd",income,3800.00,BE-0135
+2025-12-29,Payment INV-BE0131,"Brooks residence, 9508 Troost Ave",income,240.00,BE-0129
+2025-12-29,Crescent Electric Supply for BE-0136,Crescent Electric Supply,materials,-59.70,BE-0136
+2025-12-29,Crescent Electric Supply for BE-0137,Crescent Electric Supply,materials,-36.32,BE-0137
+2025-12-29,Crescent Electric Supply for BE-0138,Crescent Electric Supply,materials,-1877.16,BE-0138
+2025-12-29,KCMO Permits for BE-0138,KCMO Permits,permits,-185.00,BE-0138
+2025-12-30,Payment INV-BE0118,"Hughes residence, 1768 Holmes Rd",income,170.00,BE-0116
+2025-12-30,Crescent Electric Supply for BE-0139,Crescent Electric Supply,materials,-1277.73,BE-0139
+2025-12-30,KCMO Permits for BE-0139,KCMO Permits,permits,-185.00,BE-0139
+2025-12-31,Payment INV-BE0129,"Haddad residence, 7967 Ward Pkwy",income,440.00,BE-0127
+2025-12-31,Payment INV-BE0136,"Kowalski residence, 4563 Broadway Blvd",income,490.00,BE-0134
+2025-12-31,Crescent Electric Supply for BE-0140,Crescent Electric Supply,materials,-297.56,BE-0140
+2025-12-31,KCMO Permits for BE-0140,KCMO Permits,permits,-95.00,BE-0140
+2026-01-01,Payment INV-BE0138,"Kim residence, 2997 Oak St",income,340.00,BE-0136
+2026-01-01,Payment INV-BE0139,"Haddad residence, 9535 Broadway Blvd",income,260.00,BE-0137
+2026-01-01,Crescent Electric Supply for BE-0141,Crescent Electric Supply,materials,-45.82,BE-0141
+2026-01-01,Crescent Electric Supply for BE-0142,Crescent Electric Supply,materials,-56.84,BE-0142
+2026-01-01,Payment INV-BE0144,"Reyes residence, 9861 Oak St",income,280.00,BE-0142
+2026-01-01,Holmes Rd Properties,Holmes Rd Properties,rent,-2900.00,
+2026-01-01,Acuity Insurance,Acuity Insurance,insurance,-1600.00,
+2026-01-01,ServiceTitan,ServiceTitan,software,-398.00,
+2026-01-01,Gusto,Gusto,payroll,-14500.00,
+2026-01-02,Payment INV-BE0141,"Price residence, 2624 Brookside Blvd",income,3800.00,BE-0139
+2026-01-02,Payment INV-BE0143,"Price residence, 6592 Troost Ave",income,440.00,BE-0141
+2026-01-02,Crescent Electric Supply for BE-0143,Crescent Electric Supply,materials,-277.49,BE-0143
+2026-01-02,KCMO Permits for BE-0143,KCMO Permits,permits,-95.00,BE-0143
+2026-01-03,Payment INV-BE0071,"Quinn residence, 6970 Wornall Rd",income,3990.00,BE-0068
+2026-01-03,Payment INV-BE0145,"Miller residence, 5727 Wornall Rd",income,980.00,BE-0143
+2026-01-03,WEX Fleet Fuel,WEX Fleet Fuel,fuel,-850.00,
+2026-01-05,Crescent Electric Supply for BE-0124,Crescent Electric Supply,materials,-3409.29,BE-0124
+2026-01-05,Payment INV-BE0142,"Coleman residence, 307 Brookside Blvd",income,980.00,BE-0140
+2026-01-05,Crescent Electric Supply for BE-0144,Crescent Electric Supply,materials,-74.75,BE-0144
+2026-01-05,Crescent Electric Supply for BE-0145,Crescent Electric Supply,materials,-39.53,BE-0145
+2026-01-05,Crescent Electric Supply for BE-0146,Crescent Electric Supply,materials,-1713.19,BE-0146
+2026-01-05,KCMO Permits for BE-0146,KCMO Permits,permits,-185.00,BE-0146
+2026-01-05,Intuit QuickBooks,Intuit QuickBooks,software,-90.00,
+2026-01-06,Payment INV-BE0146,"Haddad residence, 315 Brookside Blvd",income,470.00,BE-0144
+2026-01-06,Payment INV-BE0147,"Miller residence, 9635 Gillham Rd",income,290.00,BE-0145
+2026-01-06,Crescent Electric Supply for BE-0147,Crescent Electric Supply,materials,-61.69,BE-0147
+2026-01-06,Payment INV-BE0149,"Brooks residence, 3796 Wornall Rd",income,310.00,BE-0147
+2026-01-07,Crescent Electric Supply for BE-0148,Crescent Electric Supply,materials,-28.83,BE-0148
+2026-01-08,Payment INV-BE0150,"Price residence, 265 State Line Rd",income,230.00,BE-0148
+2026-01-08,Crescent Electric Supply for BE-0149,Crescent Electric Supply,materials,-60.16,BE-0149
+2026-01-08,Crescent Electric Supply for BE-0150,Crescent Electric Supply,materials,-29.13,BE-0150
+2026-01-08,Crescent Electric Supply for BE-0151,Crescent Electric Supply,materials,-1593.16,BE-0151
+2026-01-08,KCMO Permits for BE-0151,KCMO Permits,permits,-185.00,BE-0151
+2026-01-08,Sunbelt Rentals,Sunbelt Rentals,equipment,-650.00,
+2026-01-09,Payment INV-BE0153,"Moreau residence, 3856 Gillham Rd",income,4400.00,BE-0151
+2026-01-09,Crescent Electric Supply for BE-0152,Crescent Electric Supply,materials,-52.72,BE-0152
+2026-01-09,Crescent Electric Supply for BE-0153,Crescent Electric Supply,materials,-22.46,BE-0153
+2026-01-09,Payment INV-BE0155,"Lopez residence, 9709 Oak St",income,220.00,BE-0153
+2026-01-11,Payment INV-BE0148,"Jensen residence, 6905 Brookside Blvd",income,4600.00,BE-0146
+2026-01-12,Crescent Electric Supply for BE-0154,Crescent Electric Supply,materials,-17.21,BE-0154
+2026-01-12,Crescent Electric Supply for BE-0155,Crescent Electric Supply,materials,-3085.45,BE-0155
+2026-01-12,KCMO Permits for BE-0155,KCMO Permits,permits,-450.00,BE-0155
+2026-01-12,Google Ads,Google Ads,marketing,-1400.00,
+2026-01-13,Crescent Electric Supply for BE-0156,Crescent Electric Supply,materials,-50.90,BE-0156
+2026-01-13,Payment INV-BE0160,"Hughes residence, 8925 Brookside Blvd",income,380.00,BE-0156
+2026-01-13,Crescent Electric Supply for BE-0157,Crescent Electric Supply,materials,-67.92,BE-0157
+2026-01-14,Crescent Electric Supply for BE-0124,Crescent Electric Supply,materials,-3409.29,BE-0124
+2026-01-14,Payment INV-BE0154,"Jensen residence, 6279 Broadway Blvd",income,330.00,BE-0152
+2026-01-14,Crescent Electric Supply for BE-0158,Crescent Electric Supply,materials,-58.19,BE-0158
+2026-01-14,Crescent Electric Supply for BE-0159,Crescent Electric Supply,materials,-88.99,BE-0159
+2026-01-14,Crescent Electric Supply for BE-0160,Crescent Electric Supply,materials,-210.76,BE-0160
+2026-01-15,Payment INV-BE0156,"Hughes residence, 3125 Main St",income,160.00,BE-0154
+2026-01-15,Crescent Electric Supply for BE-0161,Crescent Electric Supply,materials,-54.69,BE-0161
+2026-01-15,Payment INV-BE0165,"Brooks residence, 1240 Gillham Rd",income,440.00,BE-0161
+2026-01-15,Crescent Electric Supply for BE-0162,Crescent Electric Supply,materials,-488.19,BE-0162
+2026-01-15,Payment INV-BE0166,"Moreau residence, 1139 Gillham Rd",income,1520.00,BE-0162
+2026-01-15,Gusto,Gusto,payroll,-14500.00,
+2026-01-16,Payment INV-BE0152,"Mendez residence, 695 Troost Ave",income,210.00,BE-0150
+2026-01-16,Crescent Electric Supply for BE-0163,Crescent Electric Supply,materials,-71.22,BE-0163
+2026-01-16,Crescent Electric Supply for BE-0164,Crescent Electric Supply,materials,-1634.38,BE-0164
+2026-01-16,KCMO Permits for BE-0164,KCMO Permits,permits,-185.00,BE-0164
+2026-01-17,Payment INV-BE0157,Plaza Dental Suite,income,10260.00,BE-0155
+2026-01-17,Payment INV-BE0164,"Kim residence, 5276 Troost Ave",income,530.00,BE-0160
+2026-01-17,WEX Fleet Fuel,WEX Fleet Fuel,fuel,-850.00,
+2026-01-18,Evergy,Evergy,utilities,-360.00,
+2026-01-19,Payment INV-BE0140,"Coleman residence, 6193 Holmes Rd",income,5200.00,BE-0138
+2026-01-19,Crescent Electric Supply for BE-0165,Crescent Electric Supply,materials,-35.60,BE-0165
+2026-01-19,Payment INV-BE0169,"Novak residence, 2943 Broadway Blvd",income,260.00,BE-0165
+2026-01-20,Payment INV-BE0151,"Haddad residence, 5447 State Line Rd",income,380.00,BE-0149
+2026-01-20,Crescent Electric Supply for BE-0166,Crescent Electric Supply,materials,-42.52,BE-0166
+2026-01-20,Crescent Electric Supply for BE-0167,Crescent Electric Supply,materials,-61.08,BE-0167
+2026-01-20,Verizon Business,Verizon Business,utilities,-240.00,
+2026-01-21,Crescent Electric Supply for BE-0168,Crescent Electric Supply,materials,-63.56,BE-0168
+2026-01-21,Crescent Electric Supply for BE-0169,Crescent Electric Supply,materials,-895.22,BE-0169
+2026-01-21,KCMO Permits for BE-0169,KCMO Permits,permits,-185.00,BE-0169
+2026-01-22,Crescent Electric Supply for BE-0170,Crescent Electric Supply,materials,-54.06,BE-0170
+2026-01-22,Crescent Electric Supply for BE-0171,Crescent Electric Supply,materials,-34.68,BE-0171
+2026-01-22,Crescent Electric Supply for BE-0172,Crescent Electric Supply,materials,-1234.56,BE-0172
+2026-01-22,KCMO Permits for BE-0172,KCMO Permits,permits,-185.00,BE-0172
+2026-01-22,Crescent Electric Supply for BE-0173,Crescent Electric Supply,materials,-483.50,BE-0173
+2026-01-22,KCMO Permits for BE-0173,KCMO Permits,permits,-95.00,BE-0173
+2026-01-22,Crescent Electric Supply for BE-0174,Crescent Electric Supply,materials,-359.36,BE-0174
+2026-01-23,Payment INV-BE0172,"Nguyen residence, 5340 Oak St",income,450.00,BE-0168
+2026-01-23,Payment INV-BE0176,"Garza residence, 6375 Main St",income,3700.00,BE-0172
+2026-01-23,Crescent Electric Supply for BE-0175,Crescent Electric Supply,materials,-24.23,BE-0175
+2026-01-23,Crescent Electric Supply for BE-0176,Crescent Electric Supply,materials,-1691.99,BE-0176
+2026-01-23,KCMO Permits for BE-0176,KCMO Permits,permits,-185.00,BE-0176
+2026-01-24,Payment INV-BE0177,"Nguyen residence, 736 Holmes Rd",income,1470.00,BE-0173
+2026-01-25,Payment INV-BE0161,"Tran residence, 9043 Broadway Blvd",income,310.00,BE-0157
+2026-01-25,Payment INV-BE0173,"Bauer residence, 8436 Gillham Rd",income,2600.00,BE-0169
+2026-01-25,Payment INV-BE0175,"Price residence, 3165 Brookside Blvd",income,220.00,BE-0171
+2026-01-25,Stripe,Stripe,bank_fees,-420.00,
+2026-01-26,Payment INV-BE0162,"Coleman residence, 2704 Holmes Rd",income,390.00,BE-0158
+2026-01-26,Crescent Electric Supply for BE-0177,Crescent Electric Supply,materials,-23.48,BE-0177
+2026-01-26,Crescent Electric Supply for BE-0178,Crescent Electric Supply,materials,-1297.88,BE-0178
+2026-01-26,KCMO Permits for BE-0178,KCMO Permits,permits,-185.00,BE-0178
+2026-01-27,Payment INV-BE0174,"Kim residence, 8051 Wornall Rd",income,290.00,BE-0170
+2026-01-27,Crescent Electric Supply for BE-0179,Crescent Electric Supply,materials,-45.02,BE-0179
+2026-01-27,Crescent Electric Supply for BE-0180,Crescent Electric Supply,materials,-82.04,BE-0180
+2026-01-28,Payment INV-BE0170,"Miller residence, 8490 Brookside Blvd",income,230.00,BE-0166
+2026-01-28,Payment INV-BE0171,"Mendez residence, 8721 Ward Pkwy",income,340.00,BE-0167
+2026-01-28,Payment INV-BE0184,"Novak residence, 782 Brookside Blvd",income,410.00,BE-0180
+2026-01-28,Crescent Electric Supply for BE-0181,Crescent Electric Supply,materials,-32.60,BE-0181
+2026-01-28,Payment INV-BE0185,"Price residence, 477 Oak St",income,320.00,BE-0181
+2026-01-28,Crescent Electric Supply for BE-0182,Crescent Electric Supply,materials,-19.33,BE-0182
+2026-01-29,Payment INV-BE0168,"Okafor residence, 5678 Main St",income,4800.00,BE-0164
+2026-01-29,Payment INV-BE0183,"Reyes residence, 1933 Main St",income,310.00,BE-0179
+2026-01-29,Payment INV-BE0186,"Nguyen residence, 9042 Main St",income,190.00,BE-0182
+2026-01-29,Crescent Electric Supply for BE-0183,Crescent Electric Supply,materials,-31.55,BE-0183
+2026-01-30,Crescent Electric Supply for BE-0155,Crescent Electric Supply,materials,-3085.45,BE-0155
+2026-01-30,Crescent Electric Supply for BE-0184,Crescent Electric Supply,materials,-325.73,BE-0184
+2026-02-01,Payment INV-BE0126,River Market Lofts LLC,income,15240.00,BE-0124
+2026-02-01,Holmes Rd Properties,Holmes Rd Properties,rent,-2900.00,
+2026-02-01,Acuity Insurance,Acuity Insurance,insurance,-1600.00,
+2026-02-01,ServiceTitan,ServiceTitan,software,-398.00,
+2026-02-01,Gusto,Gusto,payroll,-14500.00,
+2026-02-02,Crescent Electric Supply for BE-0185,Crescent Electric Supply,materials,-40.66,BE-0185
+2026-02-02,Crescent Electric Supply for BE-0186,Crescent Electric Supply,materials,-97.63,BE-0186
+2026-02-02,Payment INV-BE0190,"Ellison residence, 5216 Troost Ave",income,450.00,BE-0186
+2026-02-02,Crescent Electric Supply for BE-0187,Crescent Electric Supply,materials,-1198.60,BE-0187
+2026-02-02,KCMO Permits for BE-0187,KCMO Permits,permits,-185.00,BE-0187
+2026-02-02,Crescent Electric Supply for BE-0188,Crescent Electric Supply,materials,-3459.64,BE-0188
+2026-02-02,KCMO Permits for BE-0188,KCMO Permits,permits,-450.00,BE-0188
+2026-02-03,Payment INV-BE0163,"Bauer residence, 1679 Oak St",income,480.00,BE-0159
+2026-02-03,Payment INV-BE0178,"Price residence, 3356 Holmes Rd",income,940.00,BE-0174
+2026-02-03,Payment INV-BE0187,"Price residence, 7873 Brookside Blvd",income,250.00,BE-0183
+2026-02-03,Crescent Electric Supply for BE-0189,Crescent Electric Supply,materials,-29.52,BE-0189
+2026-02-03,Crescent Electric Supply for BE-0190,Crescent Electric Supply,materials,-545.94,BE-0190
+2026-02-03,KCMO Permits for BE-0190,KCMO Permits,permits,-95.00,BE-0190
+2026-02-03,Payment INV-BE0196,"Okafor residence, 9763 Broadway Blvd",income,2000.00,BE-0190
+2026-02-03,WEX Fleet Fuel,WEX Fleet Fuel,fuel,-850.00,
+2026-02-04,Payment INV-BE0188,"Mendez residence, 2020 Broadway Blvd",income,980.00,BE-0184
+2026-02-04,Crescent Electric Supply for BE-0191,Crescent Electric Supply,materials,-36.57,BE-0191
+2026-02-04,Crescent Electric Supply for BE-0192,Crescent Electric Supply,materials,-456.13,BE-0192
+2026-02-05,Payment INV-BE0167,"Lopez residence, 3627 Troost Ave",income,480.00,BE-0163
+2026-02-05,Payment INV-BE0198,"Garza residence, 7314 Oak St",income,1210.00,BE-0192
+2026-02-05,Crescent Electric Supply for BE-0193,Crescent Electric Supply,materials,-57.46,BE-0193
+2026-02-05,Crescent Electric Supply for BE-0194,Crescent Electric Supply,materials,-49.66,BE-0194
+2026-02-05,Intuit QuickBooks,Intuit QuickBooks,software,-90.00,
+2026-02-06,Payment INV-BE0199,"Coleman residence, 6197 Troost Ave",income,390.00,BE-0193
+2026-02-06,Crescent Electric Supply for BE-0195,Crescent Electric Supply,materials,-67.86,BE-0195
+2026-02-06,Crescent Electric Supply for BE-0196,Crescent Electric Supply,materials,-31.10,BE-0196
+2026-02-06,Crescent Electric Supply for BE-0197,Crescent Electric Supply,materials,-528.67,BE-0197
+2026-02-06,KCMO Permits for BE-0197,KCMO Permits,permits,-95.00,BE-0197
+2026-02-08,Sunbelt Rentals,Sunbelt Rentals,equipment,-650.00,
+2026-02-09,Crescent Electric Supply for BE-0198,Crescent Electric Supply,materials,-29.72,BE-0198
+2026-02-09,Payment INV-BE0204,"Kowalski residence, 549 Wornall Rd",income,210.00,BE-0198
+2026-02-10,Payment INV-BE0200,"Tran residence, 8964 Broadway Blvd",income,330.00,BE-0194
+2026-02-10,Crescent Electric Supply for BE-0199,Crescent Electric Supply,materials,-61.23,BE-0199
+2026-02-11,Payment INV-BE0195,"Bauer residence, 7166 Holmes Rd",income,260.00,BE-0189
+2026-02-11,Payment INV-BE0203,"Kim residence, 6151 Troost Ave",income,2080.00,BE-0197
+2026-02-11,Crescent Electric Supply for BE-0200,Crescent Electric Supply,materials,-35.09,BE-0200
+2026-02-11,Payment INV-BE0206,"Coleman residence, 6321 Main St",income,350.00,BE-0200
+2026-02-11,Crescent Electric Supply for BE-0201,Crescent Electric Supply,materials,-861.64,BE-0201
+2026-02-11,KCMO Permits for BE-0201,KCMO Permits,permits,-185.00,BE-0201
+2026-02-12,Payment INV-BE0179,"Quinn residence, 7187 Broadway Blvd",income,180.00,BE-0175
+2026-02-12,Payment INV-BE0192,River Market Lofts LLC,income,10410.00,BE-0188
+2026-02-12,Payment INV-BE0205,"Haddad residence, 8070 Oak St",income,430.00,BE-0199
+2026-02-12,Payment INV-BE0207,"Sorensen residence, 5551 Gillham Rd",income,2700.00,BE-0201
+2026-02-12,Crescent Electric Supply for BE-0202,Crescent Electric Supply,materials,-55.93,BE-0202
+2026-02-12,Google Ads,Google Ads,marketing,-1400.00,
+2026-02-13,Payment INV-BE0180,"Ellison residence, 6172 Wornall Rd",income,4500.00,BE-0176
+2026-02-13,Crescent Electric Supply for BE-0203,Crescent Electric Supply,materials,-289.30,BE-0203
+2026-02-13,KCMO Permits for BE-0203,KCMO Permits,permits,-95.00,BE-0203
+2026-02-14,Payment INV-BE0189,"Jensen residence, 8015 Broadway Blvd",income,300.00,BE-0185
+2026-02-14,Payment INV-BE0201,"Moreau residence, 7321 State Line Rd",income,510.00,BE-0195
+2026-02-14,Payment INV-BE0209,"Nguyen residence, 1004 Ward Pkwy",income,1060.00,BE-0203
+2026-02-15,Payment INV-BE0181,"Ellison residence, 7337 Broadway Blvd",income,210.00,BE-0177
+2026-02-15,Payment INV-BE0191,"Tran residence, 3738 Main St",income,3300.00,BE-0187
+2026-02-15,Payment INV-BE0208,"Tran residence, 5855 Holmes Rd",income,270.00,BE-0202
+2026-02-15,Gusto,Gusto,payroll,-14500.00,
+2026-02-16,Payment INV-BE0182,"Russo residence, 6777 Gillham Rd",income,3900.00,BE-0178
+2026-02-16,Crescent Electric Supply for BE-0204,Crescent Electric Supply,materials,-30.51,BE-0204
+2026-02-16,Crescent Electric Supply for BE-0205,Crescent Electric Supply,materials,-33.16,BE-0205
+2026-02-16,Crescent Electric Supply for BE-0206,Crescent Electric Supply,materials,-426.97,BE-0206
+2026-02-16,KCMO Permits for BE-0206,KCMO Permits,permits,-95.00,BE-0206
+2026-02-17,Crescent Electric Supply for BE-0155,Crescent Electric Supply,materials,-3085.45,BE-0155
+2026-02-17,Crescent Electric Supply for BE-0207,Crescent Electric Supply,materials,-30.41,BE-0207
+2026-02-17,Crescent Electric Supply for BE-0208,Crescent Electric Supply,materials,-40.51,BE-0208
+2026-02-17,Crescent Electric Supply for BE-0209,Crescent Electric Supply,materials,-298.28,BE-0209
+2026-02-17,Payment INV-BE0215,"Sorensen residence, 8281 Ward Pkwy",income,780.00,BE-0209
+2026-02-17,WEX Fleet Fuel,WEX Fleet Fuel,fuel,-850.00,
+2026-02-18,Payment INV-BE0127,River Market Lofts LLC,income,11430.00,BE-0124
+2026-02-18,Crescent Electric Supply for BE-0188,Crescent Electric Supply,materials,-3459.64,BE-0188
+2026-02-18,Crescent Electric Supply for BE-0210,Crescent Electric Supply,materials,-41.20,BE-0210
+2026-02-18,Evergy,Evergy,utilities,-360.00,
+2026-02-19,Payment INV-BE0210,"Bauer residence, 5258 Troost Ave",income,240.00,BE-0204
+2026-02-19,Crescent Electric Supply for BE-0211,Crescent Electric Supply,materials,-551.78,BE-0211
+2026-02-19,KCMO Permits for BE-0211,KCMO Permits,permits,-95.00,BE-0211
+2026-02-20,Crescent Electric Supply for BE-0212,Crescent Electric Supply,materials,-45.92,BE-0212
+2026-02-20,Crescent Electric Supply for BE-0213,Crescent Electric Supply,materials,-1235.59,BE-0213
+2026-02-20,KCMO Permits for BE-0213,KCMO Permits,permits,-185.00,BE-0213
+2026-02-20,Verizon Business,Verizon Business,utilities,-240.00,
+2026-02-23,Payment INV-BE0219,"Ellison residence, 5281 Oak St",income,4000.00,BE-0213
+2026-02-23,Crescent Electric Supply for BE-0214,Crescent Electric Supply,materials,-50.43,BE-0214
+2026-02-24,Payment INV-BE0197,"Haddad residence, 2986 Main St",income,250.00,BE-0191
+2026-02-24,Payment INV-BE0211,"Jensen residence, 1251 Holmes Rd",income,210.00,BE-0205
+2026-02-24,Crescent Electric Supply for BE-0215,Crescent Electric Supply,materials,-34.13,BE-0215
+2026-02-24,Crescent Electric Supply for BE-0216,Crescent Electric Supply,materials,-600.41,BE-0216
+2026-02-24,KCMO Permits for BE-0216,KCMO Permits,permits,-95.00,BE-0216
+2026-02-24,Payment INV-BE0222,"Reyes residence, 6131 Gillham Rd",income,1930.00,BE-0216
+2026-02-25,Payment INV-BE0213,"Novak residence, 5229 Main St",income,160.00,BE-0207
+2026-02-25,Payment INV-BE0218,"Quinn residence, 6913 Gillham Rd",income,400.00,BE-0212
+2026-02-25,Crescent Electric Supply for BE-0217,Crescent Electric Supply,materials,-43.71,BE-0217
+2026-02-25,Payment INV-BE0223,"Okafor residence, 8687 Oak St",income,390.00,BE-0217
+2026-02-25,Crescent Electric Supply for BE-0218,Crescent Electric Supply,materials,-34.74,BE-0218
+2026-02-25,Payment INV-BE0224,"Bauer residence, 6140 Brookside Blvd",income,270.00,BE-0218
+2026-02-25,Crescent Electric Supply for BE-0219,Crescent Electric Supply,materials,-1745.05,BE-0219
+2026-02-25,KCMO Permits for BE-0219,KCMO Permits,permits,-185.00,BE-0219
+2026-02-25,Stripe,Stripe,bank_fees,-420.00,
+2026-02-26,Payment INV-BE0202,"Schultz residence, 6164 Ward Pkwy",income,230.00,BE-0196
+2026-02-26,Crescent Electric Supply for BE-0220,Crescent Electric Supply,materials,-39.13,BE-0220
+2026-02-27,Payment INV-BE0226,"Iverson residence, 2968 Gillham Rd",income,200.00,BE-0220
+2026-03-01,Holmes Rd Properties,Holmes Rd Properties,rent,-2900.00,
+2026-03-01,Acuity Insurance,Acuity Insurance,insurance,-1600.00,
+2026-03-01,ServiceTitan,ServiceTitan,software,-398.00,
+2026-03-01,Gusto,Gusto,payroll,-14500.00,
+2026-03-02,Payment INV-BE0216,"Russo residence, 7607 State Line Rd",income,210.00,BE-0210
+2026-03-02,Crescent Electric Supply for BE-0221,Crescent Electric Supply,materials,-42.43,BE-0221
+2026-03-02,Payment INV-BE0227,"Novak residence, 3539 Main St",income,300.00,BE-0221
+2026-03-02,Crescent Electric Supply for BE-0222,Crescent Electric Supply,materials,-621.17,BE-0222
+2026-03-02,KCMO Permits for BE-0222,KCMO Permits,permits,-95.00,BE-0222
+2026-03-03,Payment INV-BE0217,"Jensen residence, 8324 Main St",income,1850.00,BE-0211
+2026-03-03,Crescent Electric Supply for BE-0223,Crescent Electric Supply,materials,-1142.35,BE-0223
+2026-03-03,KCMO Permits for BE-0223,KCMO Permits,permits,-185.00,BE-0223
+2026-03-03,Crescent Electric Supply for BE-0224,Crescent Electric Supply,materials,-309.03,BE-0224
+2026-03-03,Payment INV-BE0230,"Brooks residence, 5689 Wornall Rd",income,850.00,BE-0224
+2026-03-03,Crescent Electric Supply for BE-0225,Crescent Electric Supply,materials,-58.18,BE-0225
+2026-03-03,WEX Fleet Fuel,WEX Fleet Fuel,fuel,-850.00,
+2026-03-04,Crescent Electric Supply for BE-0226,Crescent Electric Supply,materials,-81.91,BE-0226
+2026-03-04,Crescent Electric Supply for BE-0227,Crescent Electric Supply,materials,-1617.92,BE-0227
+2026-03-04,KCMO Permits for BE-0227,KCMO Permits,permits,-185.00,BE-0227
+2026-03-04,Crescent Electric Supply for BE-0228,Crescent Electric Supply,materials,-455.27,BE-0228
+2026-03-04,KCMO Permits for BE-0228,KCMO Permits,permits,-95.00,BE-0228
+2026-03-04,Crescent Electric Supply for BE-0229,Crescent Electric Supply,materials,-272.60,BE-0229
+2026-03-05,Payment INV-BE0232,"Moreau residence, 1558 Oak St",income,5300.00,BE-0227
+2026-03-05,Crescent Electric Supply for BE-0230,Crescent Electric Supply,materials,-22.74,BE-0230
+2026-03-05,Intuit QuickBooks,Intuit QuickBooks,software,-90.00,
+2026-03-06,Crescent Electric Supply for BE-0188,Crescent Electric Supply,materials,-3459.64,BE-0188
+2026-03-06,Payment INV-BE0225,"Lindqvist residence, 2262 Holmes Rd",income,5300.00,BE-0219
+2026-03-06,Payment INV-BE0231,"Price residence, 5482 Brookside Blvd",income,420.00,BE-0226
+2026-03-06,Crescent Electric Supply for BE-0231,Crescent Electric Supply,materials,-35.56,BE-0231
+2026-03-06,Crescent Electric Supply for BE-0232,Crescent Electric Supply,materials,-1876.86,BE-0232
+2026-03-06,KCMO Permits for BE-0232,KCMO Permits,permits,-185.00,BE-0232
+2026-03-07,Crescent Electric Supply for BE-0155,Crescent Electric Supply,materials,-3085.45,BE-0155
+2026-03-07,Payment INV-BE0220,"Mendez residence, 8223 Gillham Rd",income,250.00,BE-0214
+2026-03-07,Payment INV-BE0228,"Nguyen residence, 5145 Oak St",income,2120.00,BE-0222
+2026-03-07,Payment INV-BE0233,"Coleman residence, 9196 Brookside Blvd",income,1640.00,BE-0228
+2026-03-07,Payment INV-BE0234,"Lindqvist residence, 515 Broadway Blvd",income,830.00,BE-0229
+2026-03-08,Payment INV-BE0212,"Coleman residence, 6299 Wornall Rd",income,1300.00,BE-0206
+2026-03-08,Payment INV-BE0221,"Miller residence, 4935 Brookside Blvd",income,170.00,BE-0215
+2026-03-08,Sunbelt Rentals,Sunbelt Rentals,equipment,-650.00,
+2026-03-09,Payment INV-BE0214,"Lindqvist residence, 7345 Holmes Rd",income,210.00,BE-0208
+2026-03-09,Crescent Electric Supply for BE-0233,Crescent Electric Supply,materials,-45.95,BE-0233
+2026-03-09,Payment INV-BE0238,"Tran residence, 978 State Line Rd",income,430.00,BE-0233
+2026-03-09,Crescent Electric Supply for BE-0234,Crescent Electric Supply,materials,-1198.17,BE-0234
+2026-03-09,KCMO Permits for BE-0234,KCMO Permits,permits,-185.00,BE-0234
+2026-03-10,Crescent Electric Supply for BE-0235,Crescent Electric Supply,materials,-42.89,BE-0235
+2026-03-11,Crescent Electric Supply for BE-0236,Crescent Electric Supply,materials,-94.41,BE-0236
+2026-03-12,Payment INV-BE0237,"Novak residence, 7240 Brookside Blvd",income,5100.00,BE-0232
+2026-03-12,Payment INV-BE0239,"Kim residence, 1813 Ward Pkwy",income,3500.00,BE-0234
+2026-03-12,Crescent Electric Supply for BE-0237,Crescent Electric Supply,materials,-43.02,BE-0237
+2026-03-12,Crescent Electric Supply for BE-0238,Crescent Electric Supply,materials,-45.10,BE-0238
+2026-03-12,Google Ads,Google Ads,marketing,-1400.00,
+2026-03-13,Payment INV-BE0241,"Sorensen residence, 1462 Ward Pkwy",income,440.00,BE-0236
+2026-03-13,Crescent Electric Supply for BE-0239,Crescent Electric Supply,materials,-89.96,BE-0239
+2026-03-13,Payment INV-BE0243,"Miller residence, 4300 Ward Pkwy",income,520.00,BE-0239
+2026-03-13,Crescent Electric Supply for BE-0240,Crescent Electric Supply,materials,-445.24,BE-0240
+2026-03-13,KCMO Permits for BE-0240,KCMO Permits,permits,-95.00,BE-0240
+2026-03-15,Gusto,Gusto,payroll,-14500.00,
+2026-03-16,Crescent Electric Supply for BE-0241,Crescent Electric Supply,materials,-91.57,BE-0241
+2026-03-16,Crescent Electric Supply for BE-0242,Crescent Electric Supply,materials,-37.97,BE-0242
+2026-03-16,Crescent Electric Supply for BE-0243,Crescent Electric Supply,materials,-70.64,BE-0243
+2026-03-17,Payment INV-BE0235,"Garza residence, 8941 Main St",income,200.00,BE-0230
+2026-03-17,Crescent Electric Supply for BE-0244,Crescent Electric Supply,materials,-58.09,BE-0244
+2026-03-17,Crescent Electric Supply for BE-0245,Crescent Electric Supply,materials,-1626.67,BE-0245
+2026-03-17,KCMO Permits for BE-0245,KCMO Permits,permits,-185.00,BE-0245
+2026-03-17,Crescent Electric Supply for BE-0246,Crescent Electric Supply,materials,-485.75,BE-0246
+2026-03-17,Crescent Electric Supply for BE-0247,Crescent Electric Supply,materials,-2636.45,BE-0247
+2026-03-17,KCMO Permits for BE-0247,KCMO Permits,permits,-450.00,BE-0247
+2026-03-17,WEX Fleet Fuel,WEX Fleet Fuel,fuel,-850.00,
+2026-03-18,Payment INV-BE0236,"Brooks residence, 316 Main St",income,170.00,BE-0231
+2026-03-18,Crescent Electric Supply for BE-0248,Crescent Electric Supply,materials,-49.81,BE-0248
+2026-03-18,Crescent Electric Supply for BE-0249,Crescent Electric Supply,materials,-63.17,BE-0249
+2026-03-18,Crescent Electric Supply for BE-0250,Crescent Electric Supply,materials,-50.22,BE-0250
+2026-03-18,Crescent Electric Supply for BE-0251,Crescent Electric Supply,materials,-308.51,BE-0251
+2026-03-18,Evergy,Evergy,utilities,-360.00,
+2026-03-19,Payment INV-BE0249,"Tran residence, 921 Wornall Rd",income,4400.00,BE-0245
+2026-03-19,Crescent Electric Supply for BE-0252,Crescent Electric Supply,materials,-47.01,BE-0252
+2026-03-19,Crescent Electric Supply for BE-0253,Crescent Electric Supply,materials,-1560.02,BE-0253
+2026-03-19,KCMO Permits for BE-0253,KCMO Permits,permits,-185.00,BE-0253
+2026-03-20,Payment INV-BE0242,"Price residence, 2784 Wornall Rd",income,390.00,BE-0237
+2026-03-20,Payment INV-BE0250,"Schultz residence, 8805 Troost Ave",income,1290.00,BE-0246
+2026-03-20,Crescent Electric Supply for BE-0254,Crescent Electric Supply,materials,-1050.37,BE-0254
+2026-03-20,KCMO Permits for BE-0254,KCMO Permits,permits,-185.00,BE-0254
+2026-03-20,Verizon Business,Verizon Business,utilities,-240.00,
+2026-03-21,Payment INV-BE0255,"Whitfield residence, 5799 Oak St",income,400.00,BE-0249
+2026-03-21,Payment INV-BE0260,"Lopez residence, 9563 Wornall Rd",income,2800.00,BE-0254
+2026-03-22,Crescent Electric Supply for BE-0188,Crescent Electric Supply,materials,-3459.64,BE-0188
+2026-03-22,Payment INV-BE0193,River Market Lofts LLC,income,13880.00,BE-0188
+2026-03-22,Payment INV-BE0251,River Market Lofts LLC,income,8610.00,BE-0247
+2026-03-23,Crescent Electric Supply for BE-0255,Crescent Electric Supply,materials,-93.09,BE-0255
+2026-03-23,Crescent Electric Supply for BE-0256,Crescent Electric Supply,materials,-24.14,BE-0256
+2026-03-23,Crescent Electric Supply for BE-0257,Crescent Electric Supply,materials,-32.84,BE-0257
+2026-03-23,Payment INV-BE0263,"Kim residence, 9138 Broadway Blvd",income,240.00,BE-0257
+2026-03-24,Payment INV-BE0229,"Kim residence, 1612 State Line Rd",income,3400.00,BE-0223
+2026-03-24,Payment INV-BE0258,"Lindqvist residence, 4438 Wornall Rd",income,310.00,BE-0252
+2026-03-24,Payment INV-BE0261,"Mendez residence, 1802 Main St",income,430.00,BE-0255
+2026-03-24,Crescent Electric Supply for BE-0258,Crescent Electric Supply,materials,-66.59,BE-0258
+2026-03-25,Crescent Electric Supply for BE-0259,Crescent Electric Supply,materials,-74.82,BE-0259
+2026-03-25,Stripe,Stripe,bank_fees,-420.00,
+2026-03-26,Crescent Electric Supply for BE-0247,Crescent Electric Supply,materials,-2636.45,BE-0247
+2026-03-26,Payment INV-BE0254,"Whitfield residence, 2682 Broadway Blvd",income,240.00,BE-0248
+2026-03-26,Crescent Electric Supply for BE-0260,Crescent Electric Supply,materials,-300.61,BE-0260
+2026-03-26,KCMO Permits for BE-0260,KCMO Permits,permits,-95.00,BE-0260
+2026-03-26,Payment INV-BE0266,"Lopez residence, 1033 Wornall Rd",income,1180.00,BE-0260
+2026-03-27,Crescent Electric Supply for BE-0261,Crescent Electric Supply,materials,-40.11,BE-0261
+2026-03-27,Payment INV-BE0267,"Brooks residence, 2753 Gillham Rd",income,210.00,BE-0261
+2026-03-27,Crescent Electric Supply for BE-0262,Crescent Electric Supply,materials,-60.40,BE-0262
+2026-03-28,Payment INV-BE0245,"Kowalski residence, 6032 Gillham Rd",income,430.00,BE-0241
+2026-03-28,Payment INV-BE0265,"Patel residence, 4104 Wornall Rd",income,520.00,BE-0259
+2026-03-29,Payment INV-BE0248,"Moreau residence, 9024 Broadway Blvd",income,500.00,BE-0244
+2026-03-30,Payment INV-BE0240,"Garza residence, 3014 Wornall Rd",income,260.00,BE-0235
+2026-03-30,Crescent Electric Supply for BE-0263,Crescent Electric Supply,materials,-77.28,BE-0263
+2026-03-31,Crescent Electric Supply for BE-0264,Crescent Electric Supply,materials,-31.04,BE-0264
+2026-04-01,Payment INV-BE0158,Plaza Dental Suite,income,13680.00,BE-0155
+2026-04-01,Crescent Electric Supply for BE-0265,Crescent Electric Supply,materials,-111.23,BE-0265
+2026-04-01,Crescent Electric Supply for BE-0266,Crescent Electric Supply,materials,-19.15,BE-0266
+2026-04-01,Crescent Electric Supply for BE-0267,Crescent Electric Supply,materials,-1313.98,BE-0267
+2026-04-01,KCMO Permits for BE-0267,KCMO Permits,permits,-185.00,BE-0267
+2026-04-01,Crescent Electric Supply for BE-0268,Crescent Electric Supply,materials,-348.47,BE-0268
+2026-04-01,KCMO Permits for BE-0268,KCMO Permits,permits,-95.00,BE-0268
+2026-04-01,Holmes Rd Properties,Holmes Rd Properties,rent,-2900.00,
+2026-04-01,Acuity Insurance,Acuity Insurance,insurance,-1600.00,
+2026-04-01,ServiceTitan,ServiceTitan,software,-398.00,
+2026-04-01,Gusto,Gusto,payroll,-14500.00,
+2026-04-02,Payment INV-BE0244,"Haddad residence, 6576 Troost Ave",income,1360.00,BE-0240
+2026-04-02,Payment INV-BE0274,"Brooks residence, 8574 Holmes Rd",income,1200.00,BE-0268
+2026-04-02,Crescent Electric Supply for BE-0269,Crescent Electric Supply,materials,-48.54,BE-0269
+2026-04-02,Crescent Electric Supply for BE-0270,Crescent Electric Supply,materials,-268.65,BE-0270
+2026-04-03,Crescent Electric Supply for BE-0271,Crescent Electric Supply,materials,-78.27,BE-0271
+2026-04-03,Crescent Electric Supply for BE-0272,Crescent Electric Supply,materials,-35.91,BE-0272
+2026-04-03,Crescent Electric Supply for BE-0273,Crescent Electric Supply,materials,-469.08,BE-0273
+2026-04-03,KCMO Permits for BE-0273,KCMO Permits,permits,-95.00,BE-0273
+2026-04-03,Crescent Electric Supply for BE-0274,Crescent Electric Supply,materials,-88.64,BE-0274
+2026-04-03,WEX Fleet Fuel,WEX Fleet Fuel,fuel,-850.00,
+2026-04-04,Crescent Electric Supply for BE-0247,Crescent Electric Supply,materials,-2636.45,BE-0247
+2026-04-04,Payment INV-BE0262,"Jensen residence, 9672 Oak St",income,220.00,BE-0256
+2026-04-04,Payment INV-BE0268,"Price residence, 6414 Ward Pkwy",income,280.00,BE-0262
+2026-04-04,Payment INV-BE0276,"Patel residence, 7548 State Line Rd",income,780.00,BE-0270
+2026-04-05,Payment INV-BE0246,"Delgado residence, 5362 Ward Pkwy",income,360.00,BE-0242
+2026-04-05,Payment INV-BE0247,"Nguyen residence, 9826 Troost Ave",income,450.00,BE-0243
+2026-04-05,Payment INV-BE0273,"Delgado residence, 7790 Brookside Blvd",income,3500.00,BE-0267
+2026-04-05,Payment INV-BE0277,"Brooks residence, 8458 Wornall Rd",income,450.00,BE-0271
+2026-04-05,Intuit QuickBooks,Intuit QuickBooks,software,-90.00,
+2026-04-06,Payment INV-BE0279,"Patel residence, 7482 State Line Rd",income,1530.00,BE-0273
+2026-04-06,Crescent Electric Supply for BE-0275,Crescent Electric Supply,materials,-33.05,BE-0275
+2026-04-06,Payment INV-BE0280,"Lindqvist residence, 7798 Main St",income,170.00,BE-0275
+2026-04-06,Crescent Electric Supply for BE-0276,Crescent Electric Supply,materials,-1241.51,BE-0276
+2026-04-06,KCMO Permits for BE-0276,KCMO Permits,permits,-185.00,BE-0276
+2026-04-07,Payment INV-BE0256,"Sorensen residence, 2754 Holmes Rd",income,470.00,BE-0250
+2026-04-07,Payment INV-BE0257,"Garza residence, 6674 Brookside Blvd",income,810.00,BE-0251
+2026-04-07,Payment INV-BE0275,"Kim residence, 2270 Brookside Blvd",income,230.00,BE-0269
+2026-04-07,Payment INV-BE0281,"Haddad residence, 8697 Broadway Blvd",income,3400.00,BE-0276
+2026-04-07,Crescent Electric Supply for BE-0277,Crescent Electric Supply,materials,-71.56,BE-0277
+2026-04-07,Crescent Electric Supply for BE-0278,Crescent Electric Supply,materials,-1545.31,BE-0278
+2026-04-07,KCMO Permits for BE-0278,KCMO Permits,permits,-185.00,BE-0278
+2026-04-07,Crescent Electric Supply for BE-0279,Crescent Electric Supply,materials,-331.66,BE-0279
+2026-04-08,Crescent Electric Supply for BE-0280,Crescent Electric Supply,materials,-51.80,BE-0280
+2026-04-08,Crescent Electric Supply for BE-0281,Crescent Electric Supply,materials,-61.05,BE-0281
+2026-04-08,Crescent Electric Supply for BE-0282,Crescent Electric Supply,materials,-924.82,BE-0282
+2026-04-08,KCMO Permits for BE-0282,KCMO Permits,permits,-185.00,BE-0282
+2026-04-08,Sunbelt Rentals,Sunbelt Rentals,equipment,-650.00,
+2026-04-09,Payment INV-BE0259,"Schultz residence, 2159 Brookside Blvd",income,4900.00,BE-0253
+2026-04-09,Payment INV-BE0272,"Kowalski residence, 2677 Holmes Rd",income,160.00,BE-0266
+2026-04-09,Payment INV-BE0282,"Quinn residence, 6010 Gillham Rd",income,460.00,BE-0277
+2026-04-09,Payment INV-BE0283,"Haddad residence, 7115 Holmes Rd",income,4100.00,BE-0278
+2026-04-09,Payment INV-BE0287,"Bauer residence, 9029 Oak St",income,2600.00,BE-0282
+2026-04-09,Crescent Electric Supply for BE-0283,Crescent Electric Supply,materials,-32.15,BE-0283
+2026-04-10,Payment INV-BE0159,Plaza Dental Suite,income,10260.00,BE-0155
+2026-04-10,Payment INV-BE0284,"Jensen residence, 8601 Wornall Rd",income,980.00,BE-0279
+2026-04-10,Crescent Electric Supply for BE-0284,Crescent Electric Supply,materials,-49.85,BE-0284
+2026-04-10,Crescent Electric Supply for BE-0285,Crescent Electric Supply,materials,-287.84,BE-0285
+2026-04-10,Crescent Electric Supply for BE-0286,Crescent Electric Supply,materials,-793.54,BE-0286
+2026-04-10,KCMO Permits for BE-0286,KCMO Permits,permits,-240.00,BE-0286
+2026-04-11,Payment INV-BE0269,"Reyes residence, 5253 Wornall Rd",income,380.00,BE-0263
+2026-04-11,Payment INV-BE0278,"Reyes residence, 9858 Main St",income,260.00,BE-0272
+2026-04-12,Payment INV-BE0270,"Price residence, 653 Troost Ave",income,310.00,BE-0264
+2026-04-12,Google Ads,Google Ads,marketing,-1400.00,
+2026-04-13,Crescent Electric Supply for BE-0247,Crescent Electric Supply,materials,-2636.45,BE-0247
+2026-04-13,Payment INV-BE0264,"Nguyen residence, 1454 Main St",income,470.00,BE-0258
+2026-04-13,Crescent Electric Supply for BE-0287,Crescent Electric Supply,materials,-25.64,BE-0287
+2026-04-13,Payment INV-BE0294,"Mendez residence, 6087 Gillham Rd",income,240.00,BE-0287
+2026-04-13,Crescent Electric Supply for BE-0288,Crescent Electric Supply,materials,-1376.67,BE-0288
+2026-04-13,KCMO Permits for BE-0288,KCMO Permits,permits,-240.00,BE-0288
+2026-04-14,Crescent Electric Supply for BE-0289,Crescent Electric Supply,materials,-1759.20,BE-0289
+2026-04-14,KCMO Permits for BE-0289,KCMO Permits,permits,-185.00,BE-0289
+2026-04-15,Crescent Electric Supply for BE-0286,Crescent Electric Supply,materials,-793.54,BE-0286
+2026-04-15,Payment INV-BE0295,"Schultz residence, 533 Troost Ave",income,4620.00,BE-0288
+2026-04-15,Crescent Electric Supply for BE-0290,Crescent Electric Supply,materials,-70.55,BE-0290
+2026-04-15,Gusto,Gusto,payroll,-14500.00,
+2026-04-16,Crescent Electric Supply for BE-0288,Crescent Electric Supply,materials,-1376.67,BE-0288
+2026-04-16,Payment INV-BE0298,"Novak residence, 4844 Wornall Rd",income,5100.00,BE-0289
+2026-04-16,Crescent Electric Supply for BE-0291,Crescent Electric Supply,materials,-63.93,BE-0291
+2026-04-16,Crescent Electric Supply for BE-0292,Crescent Electric Supply,materials,-42.13,BE-0292
+2026-04-17,Payment INV-BE0288,"Ellison residence, 5486 Oak St",income,230.00,BE-0283
+2026-04-17,Crescent Electric Supply for BE-0293,Crescent Electric Supply,materials,-36.87,BE-0293
+2026-04-17,Crescent Electric Supply for BE-0294,Crescent Electric Supply,materials,-2498.49,BE-0294
+2026-04-17,KCMO Permits for BE-0294,KCMO Permits,permits,-450.00,BE-0294
+2026-04-17,WEX Fleet Fuel,WEX Fleet Fuel,fuel,-850.00,
+2026-04-18,Payment INV-BE0299,"Reyes residence, 9222 Gillham Rd",income,500.00,BE-0290
+2026-04-18,Evergy,Evergy,utilities,-360.00,
+2026-04-19,Crescent Electric Supply for BE-0288,Crescent Electric Supply,materials,-1376.67,BE-0288
+2026-04-19,Payment INV-BE0301,"Garza residence, 322 Troost Ave",income,390.00,BE-0292
+2026-04-20,Payment INV-BE0286,"Kim residence, 4821 Holmes Rd",income,360.00,BE-0281
+2026-04-20,Payment INV-BE0291,"Novak residence, 6153 State Line Rd",income,2640.00,BE-0286
+2026-04-20,Crescent Electric Supply for BE-0295,Crescent Electric Supply,materials,-30.89,BE-0295
+2026-04-20,Payment INV-BE0306,"Delgado residence, 8738 Holmes Rd",income,250.00,BE-0295
+2026-04-20,Verizon Business,Verizon Business,utilities,-240.00,
+2026-04-21,Payment INV-BE0271,"Lopez residence, 1093 Gillham Rd",income,510.00,BE-0265
+2026-04-21,Crescent Electric Supply for BE-0286,Crescent Electric Supply,materials,-793.54,BE-0286
+2026-04-21,Payment INV-BE0300,"Jensen residence, 9585 Wornall Rd",income,410.00,BE-0291
+2026-04-21,Crescent Electric Supply for BE-0296,Crescent Electric Supply,materials,-40.32,BE-0296
+2026-04-21,Crescent Electric Supply for BE-0297,Crescent Electric Supply,materials,-2061.97,BE-0297
+2026-04-21,KCMO Permits for BE-0297,KCMO Permits,permits,-450.00,BE-0297
+2026-04-22,Crescent Electric Supply for BE-0288,Crescent Electric Supply,materials,-1376.67,BE-0288
+2026-04-22,Payment INV-BE0302,"Lopez residence, 1745 Main St",income,260.00,BE-0293
+2026-04-23,Payment INV-BE0307,"Bauer residence, 8729 Ward Pkwy",income,250.00,BE-0296
+2026-04-23,Crescent Electric Supply for BE-0298,Crescent Electric Supply,materials,-43.64,BE-0298
+2026-04-23,Crescent Electric Supply for BE-0299,Crescent Electric Supply,materials,-16.45,BE-0299
+2026-04-24,Crescent Electric Supply for BE-0300,Crescent Electric Supply,materials,-26.18,BE-0300
+2026-04-25,Stripe,Stripe,bank_fees,-420.00,
+2026-04-26,Crescent Electric Supply for BE-0286,Crescent Electric Supply,materials,-793.54,BE-0286
+2026-04-26,Payment INV-BE0308,Plaza Dental Suite,income,6990.00,BE-0297
+2026-04-26,Payment INV-BE0311,"Haddad residence, 7432 Main St",income,250.00,BE-0298
+2026-04-26,Payment INV-BE0312,"Quinn residence, 5571 Brookside Blvd",income,150.00,BE-0299
+2026-04-27,Payment INV-BE0303,Waldo Office Partners,income,7320.00,BE-0294
+2026-04-27,Crescent Electric Supply for BE-0301,Crescent Electric Supply,materials,-45.69,BE-0301
+2026-04-28,Payment INV-BE0285,"Delgado residence, 5645 Holmes Rd",income,490.00,BE-0280
+2026-04-28,Crescent Electric Supply for BE-0302,Crescent Electric Supply,materials,-35.32,BE-0302
+2026-04-28,Crescent Electric Supply for BE-0303,Crescent Electric Supply,materials,-56.58,BE-0303
+2026-04-28,Payment INV-BE0316,"Moreau residence, 6066 Gillham Rd",income,520.00,BE-0303
+2026-04-29,Payment INV-BE0313,"Ortiz residence, 4642 Ward Pkwy",income,180.00,BE-0300
+2026-04-29,Payment INV-BE0314,"Mendez residence, 4909 Broadway Blvd",income,280.00,BE-0301
+2026-04-29,Crescent Electric Supply for BE-0304,Crescent Electric Supply,materials,-44.91,BE-0304
+2026-04-29,Crescent Electric Supply for BE-0305,Crescent Electric Supply,materials,-24.28,BE-0305
+2026-04-29,Crescent Electric Supply for BE-0306,Crescent Electric Supply,materials,-32.09,BE-0306
+2026-04-30,Payment INV-BE0289,"Mendez residence, 1382 Gillham Rd",income,340.00,BE-0284
+2026-04-30,Payment INV-BE0290,"Delgado residence, 6932 State Line Rd",income,940.00,BE-0285
+2026-04-30,Crescent Electric Supply for BE-0307,Crescent Electric Supply,materials,-65.07,BE-0307
+2026-04-30,Payment INV-BE0320,"Coleman residence, 8335 Brookside Blvd",income,380.00,BE-0307
+2026-04-30,Crescent Electric Supply for BE-0308,Crescent Electric Supply,materials,-34.61,BE-0308
+2026-05-01,Crescent Electric Supply for BE-0294,Crescent Electric Supply,materials,-2498.49,BE-0294
+2026-05-01,Payment INV-BE0315,"Kim residence, 5024 Holmes Rd",income,170.00,BE-0302
+2026-05-01,Payment INV-BE0317,"Russo residence, 8284 Troost Ave",income,380.00,BE-0304
+2026-05-01,Crescent Electric Supply for BE-0309,Crescent Electric Supply,materials,-47.49,BE-0309
+2026-05-01,Crescent Electric Supply for BE-0310,Crescent Electric Supply,materials,-321.45,BE-0310
+2026-05-01,Holmes Rd Properties,Holmes Rd Properties,rent,-2900.00,
+2026-05-01,Acuity Insurance,Acuity Insurance,insurance,-1600.00,
+2026-05-01,ServiceTitan,ServiceTitan,software,-398.00,
+2026-05-01,Gusto,Gusto,payroll,-14500.00,
+2026-05-02,Payment INV-BE0194,River Market Lofts LLC,income,10410.00,BE-0188
+2026-05-03,WEX Fleet Fuel,WEX Fleet Fuel,fuel,-850.00,
+2026-05-04,Payment INV-BE0318,"Schultz residence, 9462 Broadway Blvd",income,190.00,BE-0305
+2026-05-04,Payment INV-BE0322,"Ellison residence, 6361 Troost Ave",income,450.00,BE-0309
+2026-05-04,Crescent Electric Supply for BE-0311,Crescent Electric Supply,materials,-35.09,BE-0311
+2026-05-04,Payment INV-BE0324,"Lopez residence, 5069 Holmes Rd",income,310.00,BE-0311
+2026-05-04,Crescent Electric Supply for BE-0312,Crescent Electric Supply,materials,-48.25,BE-0312
+2026-05-04,Crescent Electric Supply for BE-0313,Crescent Electric Supply,materials,-666.22,BE-0313
+2026-05-04,KCMO Permits for BE-0313,KCMO Permits,permits,-95.00,BE-0313
+2026-05-04,Crescent Electric Supply for BE-0314,Crescent Electric Supply,materials,-250.09,BE-0314
+2026-05-05,Payment INV-BE0252,River Market Lofts LLC,income,11480.00,BE-0247
+2026-05-05,Payment INV-BE0321,"Nguyen residence, 8827 Main St",income,220.00,BE-0308
+2026-05-05,Payment INV-BE0327,"Reyes residence, 2310 Wornall Rd",income,660.00,BE-0314
+2026-05-05,Crescent Electric Supply for BE-0315,Crescent Electric Supply,materials,-28.83,BE-0315
+2026-05-05,Crescent Electric Supply for BE-0316,Crescent Electric Supply,materials,-597.23,BE-0316
+2026-05-05,KCMO Permits for BE-0316,KCMO Permits,permits,-95.00,BE-0316
+2026-05-05,Intuit QuickBooks,Intuit QuickBooks,software,-90.00,
+2026-05-06,Payment INV-BE0329,"Lopez residence, 4148 Gillham Rd",income,2290.00,BE-0316
+2026-05-06,Crescent Electric Supply for BE-0317,Crescent Electric Supply,materials,-34.76,BE-0317
+2026-05-06,Crescent Electric Supply for BE-0318,Crescent Electric Supply,materials,-24.76,BE-0318
+2026-05-07,Payment INV-BE0253,River Market Lofts LLC,income,8610.00,BE-0247
+2026-05-07,Crescent Electric Supply for BE-0319,Crescent Electric Supply,materials,-30.34,BE-0319
+2026-05-07,Crescent Electric Supply for BE-0320,Crescent Electric Supply,materials,-377.37,BE-0320
+2026-05-08,Crescent Electric Supply for BE-0297,Crescent Electric Supply,materials,-2061.97,BE-0297
+2026-05-08,Crescent Electric Supply for BE-0321,Crescent Electric Supply,materials,-49.15,BE-0321
+2026-05-08,Crescent Electric Supply for BE-0322,Crescent Electric Supply,materials,-52.97,BE-0322
+2026-05-08,Sunbelt Rentals,Sunbelt Rentals,equipment,-650.00,
+2026-05-10,Payment INV-BE0328,"Quinn residence, 6465 Brookside Blvd",income,210.00,BE-0315
+2026-05-10,Payment INV-BE0334,"Quinn residence, 9677 State Line Rd",income,270.00,BE-0321
+2026-05-11,Payment INV-BE0297,"Schultz residence, 533 Troost Ave",income,4620.00,BE-0288
+2026-05-11,Payment INV-BE0319,"Kowalski residence, 7108 State Line Rd",income,200.00,BE-0306
+2026-05-11,Payment INV-BE0335,"Reyes residence, 1620 Ward Pkwy",income,510.00,BE-0322
+2026-05-11,Crescent Electric Supply for BE-0323,Crescent Electric Supply,materials,-71.74,BE-0323
+2026-05-11,Crescent Electric Supply for BE-0324,Crescent Electric Supply,materials,-35.97,BE-0324
+2026-05-11,Crescent Electric Supply for BE-0325,Crescent Electric Supply,materials,-32.13,BE-0325
+2026-05-12,Payment INV-BE0337,"Lopez residence, 5652 State Line Rd",income,270.00,BE-0324
+2026-05-12,Crescent Electric Supply for BE-0326,Crescent Electric Supply,materials,-33.28,BE-0326
+2026-05-12,Payment INV-BE0338,"Ortiz residence, 9409 Oak St",income,170.00,BE-0326
+2026-05-12,Crescent Electric Supply for BE-0327,Crescent Electric Supply,materials,-1339.83,BE-0327
+2026-05-12,KCMO Permits for BE-0327,KCMO Permits,permits,-185.00,BE-0327
+2026-05-12,Crescent Electric Supply for BE-0328,Crescent Electric Supply,materials,-192.16,BE-0328
+2026-05-12,Google Ads,Google Ads,marketing,-1400.00,
+2026-05-13,Payment INV-BE0323,"Miller residence, 3471 Broadway Blvd",income,900.00,BE-0310
+2026-05-13,Crescent Electric Supply for BE-0329,Crescent Electric Supply,materials,-49.91,BE-0329
+2026-05-13,Crescent Electric Supply for BE-0330,Crescent Electric Supply,materials,-974.26,BE-0330
+2026-05-13,KCMO Permits for BE-0330,KCMO Permits,permits,-185.00,BE-0330
+2026-05-14,Crescent Electric Supply for BE-0331,Crescent Electric Supply,materials,-38.50,BE-0331
+2026-05-14,Crescent Electric Supply for BE-0332,Crescent Electric Supply,materials,-77.80,BE-0332
+2026-05-14,Crescent Electric Supply for BE-0333,Crescent Electric Supply,materials,-1443.62,BE-0333
+2026-05-14,KCMO Permits for BE-0333,KCMO Permits,permits,-185.00,BE-0333
+2026-05-15,Payment INV-BE0344,"Brooks residence, 2759 Gillham Rd",income,380.00,BE-0332
+2026-05-15,Payment INV-BE0345,"Schultz residence, 8439 Main St",income,3800.00,BE-0333
+2026-05-15,Crescent Electric Supply for BE-0334,Crescent Electric Supply,materials,-72.06,BE-0334
+2026-05-15,Crescent Electric Supply for BE-0335,Crescent Electric Supply,materials,-1473.36,BE-0335
+2026-05-15,KCMO Permits for BE-0335,KCMO Permits,permits,-240.00,BE-0335
+2026-05-15,Gusto,Gusto,payroll,-14500.00,
+2026-05-16,Crescent Electric Supply for BE-0294,Crescent Electric Supply,materials,-2498.49,BE-0294
+2026-05-16,Payment INV-BE0325,"Delgado residence, 336 State Line Rd",income,360.00,BE-0312
+2026-05-16,Payment INV-BE0326,"Garza residence, 7233 Brookside Blvd",income,2030.00,BE-0313
+2026-05-16,Payment INV-BE0339,"Miller residence, 7344 Holmes Rd",income,3900.00,BE-0327
+2026-05-17,Payment INV-BE0293,"Novak residence, 6153 State Line Rd",income,2640.00,BE-0286
+2026-05-17,Payment INV-BE0342,"Lopez residence, 7790 Broadway Blvd",income,2700.00,BE-0330
+2026-05-17,WEX Fleet Fuel,WEX Fleet Fuel,fuel,-850.00,
+2026-05-18,Crescent Electric Supply for BE-0336,Crescent Electric Supply,materials,-21.35,BE-0336
+2026-05-18,Crescent Electric Supply for BE-0337,Crescent Electric Supply,materials,-50.57,BE-0337
+2026-05-18,Evergy,Evergy,utilities,-360.00,
+2026-05-19,Payment INV-BE0333,"Price residence, 9098 Holmes Rd",income,1190.00,BE-0320
+2026-05-19,Payment INV-BE0336,"Whitfield residence, 2457 State Line Rd",income,370.00,BE-0323
+2026-05-19,Crescent Electric Supply for BE-0335,Crescent Electric Supply,materials,-1473.36,BE-0335
+2026-05-19,Payment INV-BE0351,"Quinn residence, 9134 Brookside Blvd",income,230.00,BE-0337
+2026-05-19,Crescent Electric Supply for BE-0338,Crescent Electric Supply,materials,-34.27,BE-0338
+2026-05-19,Crescent Electric Supply for BE-0339,Crescent Electric Supply,materials,-92.78,BE-0339
+2026-05-19,Crescent Electric Supply for BE-0340,Crescent Electric Supply,materials,-157.86,BE-0340
+2026-05-19,Payment INV-BE0354,"Sorensen residence, 1196 Ward Pkwy",income,480.00,BE-0340
+2026-05-20,Payment INV-BE0346,"Hughes residence, 742 Ward Pkwy",income,440.00,BE-0334
+2026-05-20,Crescent Electric Supply for BE-0341,Crescent Electric Supply,materials,-1271.60,BE-0341
+2026-05-20,KCMO Permits for BE-0341,KCMO Permits,permits,-185.00,BE-0341
+2026-05-20,Crescent Electric Supply for BE-0342,Crescent Electric Supply,materials,-218.64,BE-0342
+2026-05-20,Verizon Business,Verizon Business,utilities,-240.00,
+2026-05-21,Payment INV-BE0352,"Ellison residence, 6187 Ward Pkwy",income,190.00,BE-0338
+2026-05-21,Payment INV-BE0353,"Garza residence, 7967 Gillham Rd",income,470.00,BE-0339
+2026-05-21,Crescent Electric Supply for BE-0343,Crescent Electric Supply,materials,-57.28,BE-0343
+2026-05-21,Crescent Electric Supply for BE-0344,Crescent Electric Supply,materials,-41.30,BE-0344
+2026-05-21,Crescent Electric Supply for BE-0345,Crescent Electric Supply,materials,-336.57,BE-0345
+2026-05-21,KCMO Permits for BE-0345,KCMO Permits,permits,-95.00,BE-0345
+2026-05-22,Payment INV-BE0343,"Garza residence, 6720 Holmes Rd",income,220.00,BE-0331
+2026-05-22,Payment INV-BE0359,"Ellison residence, 2588 Main St",income,1190.00,BE-0345
+2026-05-22,Crescent Electric Supply for BE-0346,Crescent Electric Supply,materials,-74.91,BE-0346
+2026-05-22,Payment INV-BE0360,"Patel residence, 4227 Oak St",income,350.00,BE-0346
+2026-05-23,Payment INV-BE0350,"Tran residence, 469 State Line Rd",income,160.00,BE-0336
+2026-05-23,Payment INV-BE0356,"Hughes residence, 4556 Wornall Rd",income,690.00,BE-0342
+2026-05-23,Payment INV-BE0357,"Whitfield residence, 1050 State Line Rd",income,320.00,BE-0343
+2026-05-24,Payment INV-BE0292,"Novak residence, 6153 State Line Rd",income,3520.00,BE-0286
+2026-05-24,Crescent Electric Supply for BE-0335,Crescent Electric Supply,materials,-1473.36,BE-0335
+2026-05-24,Payment INV-BE0355,"Novak residence, 6089 Broadway Blvd",income,4100.00,BE-0341
+2026-05-25,Crescent Electric Supply for BE-0297,Crescent Electric Supply,materials,-2061.97,BE-0297
+2026-05-25,Payment INV-BE0341,"Garza residence, 3770 Troost Ave",income,390.00,BE-0329
+2026-05-25,Payment INV-BE0347,"Lindqvist residence, 4793 Troost Ave",income,4830.00,BE-0335
+2026-05-25,Crescent Electric Supply for BE-0347,Crescent Electric Supply,materials,-47.80,BE-0347
+2026-05-25,Crescent Electric Supply for BE-0348,Crescent Electric Supply,materials,-81.68,BE-0348
+2026-05-25,Stripe,Stripe,bank_fees,-420.00,
+2026-05-26,Payment INV-BE0330,"Lopez residence, 6727 State Line Rd",income,290.00,BE-0317
+2026-05-26,Payment INV-BE0331,"Novak residence, 705 Troost Ave",income,200.00,BE-0318
+2026-05-26,Payment INV-BE0358,"Mendez residence, 709 Broadway Blvd",income,260.00,BE-0344
+2026-05-27,Payment INV-BE0332,"Garza residence, 9525 State Line Rd",income,220.00,BE-0319
+2026-05-27,Crescent Electric Supply for BE-0349,Crescent Electric Supply,materials,-45.01,BE-0349
+2026-05-27,Payment INV-BE0363,"Tran residence, 150 Troost Ave",income,290.00,BE-0349
+2026-05-27,Crescent Electric Supply for BE-0350,Crescent Electric Supply,materials,-85.77,BE-0350
+2026-05-27,Payment INV-BE0364,"Mendez residence, 3394 Wornall Rd",income,420.00,BE-0350
+2026-05-28,Crescent Electric Supply for BE-0335,Crescent Electric Supply,materials,-1473.36,BE-0335
+2026-05-28,Crescent Electric Supply for BE-0351,Crescent Electric Supply,materials,-21.60,BE-0351
+2026-05-28,Crescent Electric Supply for BE-0352,Crescent Electric Supply,materials,-581.03,BE-0352
+2026-05-29,Crescent Electric Supply for BE-0353,Crescent Electric Supply,materials,-24.90,BE-0353
+2026-05-29,Crescent Electric Supply for BE-0354,Crescent Electric Supply,materials,-28.87,BE-0354
+2026-05-29,Crescent Electric Supply for BE-0355,Crescent Electric Supply,materials,-39.84,BE-0355
+2026-05-29,Crescent Electric Supply for BE-0356,Crescent Electric Supply,materials,-1695.63,BE-0356
+2026-05-29,KCMO Permits for BE-0356,KCMO Permits,permits,-185.00,BE-0356
+2026-05-30,Payment INV-BE0296,"Schultz residence, 533 Troost Ave",income,6160.00,BE-0288
+2026-05-30,Payment INV-BE0365,"Miller residence, 734 Troost Ave",income,210.00,BE-0351
+2026-05-31,Crescent Electric Supply for BE-0294,Crescent Electric Supply,materials,-2498.49,BE-0294
+2026-05-31,Payment INV-BE0370,"Okafor residence, 7932 Gillham Rd",income,4800.00,BE-0356
+2026-06-01,Payment INV-BE0340,"Schultz residence, 4277 Brookside Blvd",income,530.00,BE-0328
+2026-06-01,Payment INV-BE0368,"Patel residence, 9548 Troost Ave",income,240.00,BE-0354
+2026-06-01,Crescent Electric Supply for BE-0357,Crescent Electric Supply,materials,-35.52,BE-0357
+2026-06-01,Crescent Electric Supply for BE-0358,Crescent Electric Supply,materials,-1764.71,BE-0358
+2026-06-01,KCMO Permits for BE-0358,KCMO Permits,permits,-185.00,BE-0358
+2026-06-01,Holmes Rd Properties,Holmes Rd Properties,rent,-2900.00,
+2026-06-01,Acuity Insurance,Acuity Insurance,insurance,-1600.00,
+2026-06-01,ServiceTitan,ServiceTitan,software,-398.00,
+2026-06-01,Gusto,Gusto,payroll,-14500.00,
+2026-06-02,Payment INV-BE0362,"Hughes residence, 5562 Broadway Blvd",income,380.00,BE-0348
+2026-06-02,Payment INV-BE0371,"Iverson residence, 8637 Brookside Blvd",income,160.00,BE-0357
+2026-06-02,Crescent Electric Supply for BE-0359,Crescent Electric Supply,materials,-44.48,BE-0359
+2026-06-02,Crescent Electric Supply for BE-0360,Crescent Electric Supply,materials,-2188.68,BE-0360
+2026-06-02,KCMO Permits for BE-0360,KCMO Permits,permits,-185.00,BE-0360
+2026-06-02,Crescent Electric Supply for BE-0361,Crescent Electric Supply,materials,-37.28,BE-0361
+2026-06-03,Crescent Electric Supply for BE-0362,Crescent Electric Supply,materials,-38.93,BE-0362
+2026-06-03,WEX Fleet Fuel,WEX Fleet Fuel,fuel,-850.00,
+2026-06-04,Payment INV-BE0372,"Hughes residence, 2390 Broadway Blvd",income,4600.00,BE-0358
+2026-06-04,Crescent Electric Supply for BE-0363,Crescent Electric Supply,materials,-35.81,BE-0363
+2026-06-04,Crescent Electric Supply for BE-0364,Crescent Electric Supply,materials,-101.44,BE-0364
+2026-06-04,Crescent Electric Supply for BE-0365,Crescent Electric Supply,materials,-76.55,BE-0365
+2026-06-04,Crescent Electric Supply for BE-0366,Crescent Electric Supply,materials,-1951.45,BE-0366
+2026-06-04,KCMO Permits for BE-0366,KCMO Permits,permits,-185.00,BE-0366
+2026-06-05,Payment INV-BE0375,"Garza residence, 5411 Oak St",income,170.00,BE-0362
+2026-06-05,Payment INV-BE0378,"Reyes residence, 3397 Brookside Blvd",income,350.00,BE-0365
+2026-06-05,Payment INV-BE0379,"Coleman residence, 5671 Holmes Rd",income,5100.00,BE-0366
+2026-06-05,Crescent Electric Supply for BE-0367,Crescent Electric Supply,materials,-63.18,BE-0367
+2026-06-05,Payment INV-BE0380,"Okafor residence, 1418 Holmes Rd",income,440.00,BE-0367
+2026-06-05,Crescent Electric Supply for BE-0368,Crescent Electric Supply,materials,-610.42,BE-0368
+2026-06-05,KCMO Permits for BE-0368,KCMO Permits,permits,-95.00,BE-0368
+2026-06-05,Intuit QuickBooks,Intuit QuickBooks,software,-90.00,
+2026-06-06,Payment INV-BE0369,"Bauer residence, 892 Broadway Blvd",income,220.00,BE-0355
+2026-06-07,Payment INV-BE0376,"Okafor residence, 2600 Gillham Rd",income,270.00,BE-0363
+2026-06-07,Payment INV-BE0377,"Brooks residence, 806 Oak St",income,510.00,BE-0364
+2026-06-08,Crescent Electric Supply for BE-0369,Crescent Electric Supply,materials,-30.70,BE-0369
+2026-06-08,Payment INV-BE0382,"Patel residence, 3202 Main St",income,230.00,BE-0369
+2026-06-08,Crescent Electric Supply for BE-0370,Crescent Electric Supply,materials,-2041.02,BE-0370
+2026-06-08,KCMO Permits for BE-0370,KCMO Permits,permits,-185.00,BE-0370
+2026-06-08,Sunbelt Rentals,Sunbelt Rentals,equipment,-650.00,
+2026-06-09,Crescent Electric Supply for BE-0371,Crescent Electric Supply,materials,-102.72,BE-0371
+2026-06-10,Payment INV-BE0367,"Ellison residence, 9830 Broadway Blvd",income,220.00,BE-0353
+2026-06-10,Crescent Electric Supply for BE-0372,Crescent Electric Supply,materials,-1288.92,BE-0372
+2026-06-10,KCMO Permits for BE-0372,KCMO Permits,permits,-185.00,BE-0372
+2026-06-11,Crescent Electric Supply for BE-0297,Crescent Electric Supply,materials,-2061.97,BE-0297
+2026-06-11,Crescent Electric Supply for BE-0373,Crescent Electric Supply,materials,-47.64,BE-0373
+2026-06-12,Payment INV-BE0304,Waldo Office Partners,income,9760.00,BE-0294
+2026-06-12,Payment INV-BE0383,"Sorensen residence, 8142 Troost Ave",income,5100.00,BE-0370
+2026-06-12,Payment INV-BE0386,"Okafor residence, 9290 Main St",income,260.00,BE-0373
+2026-06-12,Crescent Electric Supply for BE-0374,Crescent Electric Supply,materials,-113.09,BE-0374
+2026-06-12,Crescent Electric Supply for BE-0375,Crescent Electric Supply,materials,-53.97,BE-0375
+2026-06-12,Crescent Electric Supply for BE-0376,Crescent Electric Supply,materials,-80.17,BE-0376
+2026-06-12,Payment INV-BE0389,"Nguyen residence, 8727 Brookside Blvd",income,480.00,BE-0376
+2026-06-12,Crescent Electric Supply for BE-0377,Crescent Electric Supply,materials,-1945.36,BE-0377
+2026-06-12,KCMO Permits for BE-0377,KCMO Permits,permits,-185.00,BE-0377
+2026-06-12,Google Ads,Google Ads,marketing,-1400.00,
+2026-06-13,Payment INV-BE0381,"Reyes residence, 4351 Ward Pkwy",income,1940.00,BE-0368
+2026-06-13,Payment INV-BE0388,"Reyes residence, 6776 Troost Ave",income,310.00,BE-0375
+2026-06-14,Payment INV-BE0361,"Brooks residence, 2818 Wornall Rd",income,390.00,BE-0347
+2026-06-14,Payment INV-BE0384,"Lindqvist residence, 9492 Wornall Rd",income,490.00,BE-0371
+2026-06-15,Crescent Electric Supply for BE-0378,Crescent Electric Supply,materials,-43.46,BE-0378
+2026-06-15,Crescent Electric Supply for BE-0379,Crescent Electric Supply,materials,-28.17,BE-0379
+2026-06-15,Gusto,Gusto,payroll,-14500.00,
+2026-06-16,Payment INV-BE0390,"Sorensen residence, 1608 Gillham Rd",income,4900.00,BE-0377
+2026-06-16,Crescent Electric Supply for BE-0380,Crescent Electric Supply,materials,-36.04,BE-0380
+2026-06-16,Crescent Electric Supply for BE-0381,Crescent Electric Supply,materials,-56.42,BE-0381
+2026-06-16,Payment INV-BE0394,"Lopez residence, 7956 Wornall Rd",income,400.00,BE-0381
+2026-06-16,Crescent Electric Supply for BE-0382,Crescent Electric Supply,materials,-398.28,BE-0382
+2026-06-16,KCMO Permits for BE-0382,KCMO Permits,permits,-95.00,BE-0382
+2026-06-16,Payment INV-BE0395,"Haddad residence, 5421 Wornall Rd",income,1310.00,BE-0382
+2026-06-16,Crescent Electric Supply for BE-0383,Crescent Electric Supply,materials,-450.48,BE-0383
+2026-06-17,Payment INV-BE0366,"Bauer residence, 9735 Troost Ave",income,1520.00,BE-0352
+2026-06-17,Payment INV-BE0387,"Sorensen residence, 6810 Holmes Rd",income,480.00,BE-0374
+2026-06-17,Crescent Electric Supply for BE-0384,Crescent Electric Supply,materials,-90.32,BE-0384
+2026-06-17,Crescent Electric Supply for BE-0385,Crescent Electric Supply,materials,-1782.61,BE-0385
+2026-06-17,KCMO Permits for BE-0385,KCMO Permits,permits,-185.00,BE-0385
+2026-06-17,WEX Fleet Fuel,WEX Fleet Fuel,fuel,-850.00,
+2026-06-18,Payment INV-BE0393,"Bauer residence, 2970 Oak St",income,320.00,BE-0380
+2026-06-18,Crescent Electric Supply for BE-0386,Crescent Electric Supply,materials,-76.19,BE-0386
+2026-06-18,Crescent Electric Supply for BE-0387,Crescent Electric Supply,materials,-53.82,BE-0387
+2026-06-18,Crescent Electric Supply for BE-0388,Crescent Electric Supply,materials,-80.69,BE-0388
+2026-06-18,Crescent Electric Supply for BE-0389,Crescent Electric Supply,materials,-510.58,BE-0389
+2026-06-18,KCMO Permits for BE-0389,KCMO Permits,permits,-95.00,BE-0389
+2026-06-18,Payment INV-BE0402,"Miller residence, 6619 Ward Pkwy",income,1490.00,BE-0389
+2026-06-18,Evergy,Evergy,utilities,-360.00,
+2026-06-19,Payment INV-BE0385,"Mendez residence, 4207 Holmes Rd",income,3200.00,BE-0372
+2026-06-19,Payment INV-BE0396,"Mendez residence, 5983 State Line Rd",income,1430.00,BE-0383
+2026-06-19,Payment INV-BE0398,"Sorensen residence, 3146 State Line Rd",income,4600.00,BE-0385
+2026-06-19,Crescent Electric Supply for BE-0390,Crescent Electric Supply,materials,-54.86,BE-0390
+2026-06-19,Payment INV-BE0403,"Ortiz residence, 3151 Troost Ave",income,360.00,BE-0390
+2026-06-19,Crescent Electric Supply for BE-0391,Crescent Electric Supply,materials,-261.24,BE-0391
+2026-06-19,Payment INV-BE0404,"Kowalski residence, 5095 Ward Pkwy",income,820.00,BE-0391
+2026-06-20,Payment INV-BE0399,"Ellison residence, 7027 Ward Pkwy",income,310.00,BE-0386
+2026-06-20,Payment INV-BE0400,"Delgado residence, 1234 Broadway Blvd",income,340.00,BE-0387
+2026-06-20,Verizon Business,Verizon Business,utilities,-240.00,
+2026-06-21,Payment INV-BE0309,Plaza Dental Suite,income,9320.00,BE-0297
+2026-06-22,Payment INV-BE0373,"Garza residence, 8294 Oak St",income,260.00,BE-0359
+2026-06-22,Crescent Electric Supply for BE-0392,Crescent Electric Supply,materials,-79.87,BE-0392
+2026-06-22,Payment INV-BE0405,"Coleman residence, 2111 Holmes Rd",income,430.00,BE-0392
+2026-06-22,Crescent Electric Supply for BE-0393,Crescent Electric Supply,materials,-1961.24,BE-0393
+2026-06-22,KCMO Permits for BE-0393,KCMO Permits,permits,-185.00,BE-0393
+2026-06-23,Payment INV-BE0374,"Schultz residence, 4472 Gillham Rd",income,5300.00,BE-0360
+2026-06-23,Payment INV-BE0401,"Price residence, 1818 Main St",income,360.00,BE-0388
+2026-06-23,Crescent Electric Supply for BE-0394,Crescent Electric Supply,materials,-92.99,BE-0394
+2026-06-23,Crescent Electric Supply for BE-0395,Crescent Electric Supply,materials,-37.75,BE-0395
+2026-06-23,Crescent Electric Supply for BE-0396,Crescent Electric Supply,materials,-74.23,BE-0396
+2026-06-23,Payment INV-BE0409,"Mendez residence, 4543 Holmes Rd",income,400.00,BE-0396
+2026-06-24,Crescent Electric Supply for BE-0397,Crescent Electric Supply,materials,-38.05,BE-0397
+2026-06-24,Crescent Electric Supply for BE-0398,Crescent Electric Supply,materials,-50.88,BE-0398
+2026-06-24,Payment INV-BE0411,"Hughes residence, 7689 Brookside Blvd",income,280.00,BE-0398
+2026-06-25,Payment INV-BE0397,"Bauer residence, 7789 Holmes Rd",income,380.00,BE-0384
+2026-06-25,Crescent Electric Supply for BE-0399,Crescent Electric Supply,materials,-622.17,BE-0399
+2026-06-25,KCMO Permits for BE-0399,KCMO Permits,permits,-95.00,BE-0399
+2026-06-25,Stripe,Stripe,bank_fees,-420.00,
+2026-06-26,Payment INV-BE0410,"Ortiz residence, 1726 Troost Ave",income,260.00,BE-0397
+2026-06-26,Crescent Electric Supply for BE-0400,Crescent Electric Supply,materials,-1745.57,BE-0400
+2026-06-26,KCMO Permits for BE-0400,KCMO Permits,permits,-185.00,BE-0400
+2026-06-27,Payment INV-BE0413,"Lindqvist residence, 1340 Oak St",income,5000.00,BE-0400
+2026-06-28,Payment INV-BE0406,"Hughes residence, 2962 Ward Pkwy",income,5200.00,BE-0393
+2026-06-28,Payment INV-BE0412,"Russo residence, 3157 Broadway Blvd",income,1940.00,BE-0399
+2026-06-29,Crescent Electric Supply for BE-0401,Crescent Electric Supply,materials,-41.08,BE-0401
+2026-06-29,Payment INV-BE0414,"Lindqvist residence, 8811 Gillham Rd",income,340.00,BE-0401
+2026-06-29,Crescent Electric Supply for BE-0402,Crescent Electric Supply,materials,-54.19,BE-0402
+2026-06-29,Crescent Electric Supply for BE-0403,Crescent Electric Supply,materials,-43.26,BE-0403
+2026-06-29,Crescent Electric Supply for BE-0404,Crescent Electric Supply,materials,-1297.49,BE-0404
+2026-06-29,KCMO Permits for BE-0404,KCMO Permits,permits,-185.00,BE-0404
+2026-06-29,Crescent Electric Supply for BE-0405,Crescent Electric Supply,materials,-391.90,BE-0405
+2026-06-30,Payment INV-BE0305,Waldo Office Partners,income,7320.00,BE-0294
+2026-06-30,Payment INV-BE0418,"Quinn residence, 6427 Troost Ave",income,1210.00,BE-0405
+2026-06-30,Crescent Electric Supply for BE-0406,Crescent Electric Supply,materials,-81.58,BE-0406
+2026-06-30,Crescent Electric Supply for BE-0407,Crescent Electric Supply,materials,-58.90,BE-0407
+2026-07-01,Payment INV-BE0407,"Okafor residence, 5814 Holmes Rd",income,390.00,BE-0394
+2026-07-01,Crescent Electric Supply for BE-0408,Crescent Electric Supply,materials,-59.64,BE-0408
+2026-07-01,Payment INV-BE0421,"Sorensen residence, 4454 Wornall Rd",income,500.00,BE-0408
+2026-07-01,Holmes Rd Properties,Holmes Rd Properties,rent,-2900.00,
+2026-07-01,Acuity Insurance,Acuity Insurance,insurance,-1600.00,
+2026-07-01,ServiceTitan,ServiceTitan,software,-398.00,
+2026-07-01,Gusto,Gusto,payroll,-14500.00,
+2026-07-02,Payment INV-BE0348,"Lindqvist residence, 4793 Troost Ave",income,6440.00,BE-0335
+2026-07-02,Crescent Electric Supply for BE-0409,Crescent Electric Supply,materials,-43.76,BE-0409
+2026-07-02,Payment INV-BE0422,"Brooks residence, 4921 Oak St",income,220.00,BE-0409
+2026-07-02,Crescent Electric Supply for BE-0410,Crescent Electric Supply,materials,-58.59,BE-0410
+2026-07-02,Payment INV-BE0423,"Mendez residence, 1024 Holmes Rd",income,240.00,BE-0410
+2026-07-03,Crescent Electric Supply for BE-0411,Crescent Electric Supply,materials,-59.23,BE-0411
+2026-07-03,Payment INV-BE0424,"Lindqvist residence, 990 State Line Rd",income,370.00,BE-0411
+2026-07-03,WEX Fleet Fuel,WEX Fleet Fuel,fuel,-850.00,
+2026-07-05,Payment INV-BE0391,"Whitfield residence, 807 Main St",income,380.00,BE-0378
+2026-07-05,Payment INV-BE0392,"Tran residence, 3515 Wornall Rd",income,250.00,BE-0379
+2026-07-05,Payment INV-BE0408,"Jensen residence, 3432 Gillham Rd",income,160.00,BE-0395
+2026-07-05,Payment INV-BE0420,"Lindqvist residence, 7643 Oak St",income,260.00,BE-0407
+2026-07-05,Intuit QuickBooks,Intuit QuickBooks,software,-90.00,
+2026-07-06,Crescent Electric Supply for BE-0412,Crescent Electric Supply,materials,-60.37,BE-0412
+2026-07-07,Payment INV-BE0416,"Reyes residence, 714 Troost Ave",income,190.00,BE-0403
+2026-07-07,Crescent Electric Supply for BE-0413,Crescent Electric Supply,materials,-544.93,BE-0413
+2026-07-07,KCMO Permits for BE-0413,KCMO Permits,permits,-95.00,BE-0413
+2026-07-08,Payment INV-BE0417,"Hughes residence, 1996 Holmes Rd",income,3400.00,BE-0404
+2026-07-08,Payment INV-BE0419,"Lindqvist residence, 6354 Broadway Blvd",income,490.00,BE-0406
+2026-07-08,Payment INV-BE0425,"Reyes residence, 2744 Main St",income,500.00,BE-0412
+2026-07-08,Crescent Electric Supply for BE-0414,Crescent Electric Supply,materials,-23.83,BE-0414
+2026-07-08,Payment INV-BE0427,"Russo residence, 5635 Gillham Rd",income,160.00,BE-0414
+2026-07-08,Crescent Electric Supply for BE-0415,Crescent Electric Supply,materials,-41.94,BE-0415
+2026-07-08,Sunbelt Rentals,Sunbelt Rentals,equipment,-650.00,
+2026-07-09,Crescent Electric Supply for BE-0416,Crescent Electric Supply,materials,-38.99,BE-0416
+2026-07-09,Crescent Electric Supply for BE-0417,Crescent Electric Supply,materials,-1579.99,BE-0417
+2026-07-09,KCMO Permits for BE-0417,KCMO Permits,permits,-185.00,BE-0417
+2026-07-10,Payment INV-BE0428,"Miller residence, 1357 Ward Pkwy",income,230.00,BE-0415
+2026-07-10,Crescent Electric Supply for BE-0418,Crescent Electric Supply,materials,-28.31,BE-0418
+2026-07-10,Crescent Electric Supply for BE-0419,Crescent Electric Supply,materials,-91.13,BE-0419
+2026-07-10,Crescent Electric Supply for BE-0420,Crescent Electric Supply,materials,-629.79,BE-0420
+2026-07-10,KCMO Permits for BE-0420,KCMO Permits,permits,-95.00,BE-0420
+2026-07-10,Payment INV-BE0433,"Reyes residence, 8149 Broadway Blvd",income,2070.00,BE-0420
+2026-07-12,Payment INV-BE0349,"Lindqvist residence, 4793 Troost Ave",income,4830.00,BE-0335
+2026-07-12,Payment INV-BE0429,"Bauer residence, 3782 Main St",income,200.00,BE-0416
+2026-07-12,Payment INV-BE0430,"Patel residence, 4900 Wornall Rd",income,4700.00,BE-0417
+2026-07-12,Google Ads,Google Ads,marketing,-1400.00,
+2026-07-13,Crescent Electric Supply for BE-0421,Crescent Electric Supply,materials,-68.94,BE-0421
+2026-07-13,Payment INV-BE0434,"Mendez residence, 9418 Brookside Blvd",income,300.00,BE-0421
+2026-07-13,Crescent Electric Supply for BE-0422,Crescent Electric Supply,materials,-42.79,BE-0422
+2026-07-14,Crescent Electric Supply for BE-0423,Crescent Electric Supply,materials,-29.63,BE-0423
+2026-07-14,Crescent Electric Supply for BE-0424,Crescent Electric Supply,materials,-1745.29,BE-0424
+2026-07-14,KCMO Permits for BE-0424,KCMO Permits,permits,-185.00,BE-0424
+2026-07-14,Crescent Electric Supply for BE-0425,Crescent Electric Supply,materials,-595.80,BE-0425
+2026-07-14,KCMO Permits for BE-0425,KCMO Permits,permits,-95.00,BE-0425
+2026-07-14,Crescent Electric Supply for BE-0426,Crescent Electric Supply,materials,-237.01,BE-0426
+2026-07-15,Payment INV-BE0426,"Delgado residence, 441 Main St",income,1530.00,BE-0413
+2026-07-15,Payment INV-BE0431,"Delgado residence, 1386 Oak St",income,250.00,BE-0418
+2026-07-15,Payment INV-BE0435,"Miller residence, 8035 State Line Rd",income,260.00,BE-0422
+2026-07-15,Payment INV-BE0436,"Kim residence, 6197 Wornall Rd",income,160.00,BE-0423
+2026-07-15,Payment INV-BE0438,"Tran residence, 3147 Broadway Blvd",income,1750.00,BE-0425
+2026-07-15,Payment INV-BE0439,"Schultz residence, 3576 State Line Rd",income,680.00,BE-0426
+2026-07-15,Crescent Electric Supply for BE-0427,Crescent Electric Supply,materials,-1705.28,BE-0427
+2026-07-15,KCMO Permits for BE-0427,KCMO Permits,permits,-185.00,BE-0427
+2026-07-15,Gusto,Gusto,payroll,-14500.00,
+2026-07-16,Payment INV-BE0440,"Reyes residence, 8740 Troost Ave",income,4100.00,BE-0427
+2026-07-16,Crescent Electric Supply for BE-0428,Crescent Electric Supply,materials,-24.25,BE-0428
+2026-07-16,Payment INV-BE0441,"Nguyen residence, 7120 Oak St",income,200.00,BE-0428
+2026-07-16,Crescent Electric Supply for BE-0429,Crescent Electric Supply,materials,-84.06,BE-0429
+2026-07-16,Crescent Electric Supply for BE-0430,Crescent Electric Supply,materials,-1011.70,BE-0430
+2026-07-16,KCMO Permits for BE-0430,KCMO Permits,permits,-185.00,BE-0430
+2026-07-16,Crescent Electric Supply for BE-0431,Crescent Electric Supply,materials,-563.48,BE-0431
+2026-07-16,KCMO Permits for BE-0431,KCMO Permits,permits,-95.00,BE-0431
+2026-07-17,Payment INV-BE0437,"Nguyen residence, 7708 Broadway Blvd",income,4600.00,BE-0424
+2026-07-17,Payment INV-BE0442,"Haddad residence, 2057 Wornall Rd",income,470.00,BE-0429
+2026-07-17,Crescent Electric Supply for BE-0433,Crescent Electric Supply,materials,-1735.95,BE-0433
+2026-07-17,KCMO Permits for BE-0433,KCMO Permits,permits,-185.00,BE-0433
+2026-07-17,Crescent Electric Supply for BE-0434,Crescent Electric Supply,materials,-399.30,BE-0434
+2026-07-17,WEX Fleet Fuel,WEX Fleet Fuel,fuel,-850.00,
+2026-07-18,Payment INV-BE0432,"Tran residence, 9777 Oak St",income,420.00,BE-0419
+2026-07-18,Evergy,Evergy,utilities,-360.00,
+2026-07-19,Payment INV-BE0415,"Russo residence, 9444 Ward Pkwy",income,380.00,BE-0402
+2026-07-20,Payment INV-BE0443,"Tran residence, 8416 Ward Pkwy",income,2700.00,BE-0430
+2026-07-20,Crescent Electric Supply for BE-0435,Crescent Electric Supply,materials,-35.21,BE-0435
+2026-07-20,Payment INV-BE0447,"Tran residence, 1971 Broadway Blvd",income,190.00,BE-0435
+2026-07-20,Crescent Electric Supply for BE-0436,Crescent Electric Supply,materials,-34.69,BE-0436
+2026-07-20,Verizon Business,Verizon Business,utilities,-240.00,
+2026-07-21,Crescent Electric Supply for BE-0437,Crescent Electric Supply,materials,-78.88,BE-0437
+2026-07-22,Crescent Electric Supply for BE-0438,Crescent Electric Supply,materials,-29.93,BE-0438
+2026-07-22,Crescent Electric Supply for BE-0439,Crescent Electric Supply,materials,-98.46,BE-0439
+2026-07-22,Crescent Electric Supply for BE-0440,Crescent Electric Supply,materials,-456.80,BE-0440
+2026-07-22,KCMO Permits for BE-0440,KCMO Permits,permits,-95.00,BE-0440
+2026-07-22,Crescent Electric Supply for BE-0441,Crescent Electric Supply,materials,-1194.61,BE-0441
+2026-07-22,KCMO Permits for BE-0441,KCMO Permits,permits,-240.00,BE-0441
+2026-07-22,Crescent Electric Supply for BE-0442,Crescent Electric Supply,materials,-74.11,BE-0442
+2026-07-23,Crescent Electric Supply for BE-0443,Crescent Electric Supply,materials,-118.30,BE-0443
+2026-07-23,Crescent Electric Supply for BE-0444,Crescent Electric Supply,materials,-63.38,BE-0444
+2026-07-23,Crescent Electric Supply for BE-0445,Crescent Electric Supply,materials,-2063.47,BE-0445
+2026-07-23,KCMO Permits for BE-0445,KCMO Permits,permits,-185.00,BE-0445
+2026-07-24,Payment INV-BE0310,Plaza Dental Suite,income,6990.00,BE-0297
+2026-07-24,Payment INV-BE0444,"Price residence, 8324 Holmes Rd",income,1820.00,BE-0431
+2026-07-24,Payment INV-BE0457,"Miller residence, 9502 Ward Pkwy",income,4900.00,BE-0445
+2026-07-24,Crescent Electric Supply for BE-0446,Crescent Electric Supply,materials,-85.94,BE-0446
+2026-07-24,Payment INV-BE0458,"Haddad residence, 2127 Brookside Blvd",income,360.00,BE-0446
+2026-07-24,Crescent Electric Supply for BE-0447,Crescent Electric Supply,materials,-81.49,BE-0447
+2026-07-24,Crescent Electric Supply for BE-0448,Crescent Electric Supply,materials,-1695.97,BE-0448
+2026-07-24,KCMO Permits for BE-0448,KCMO Permits,permits,-185.00,BE-0448
+2026-07-25,Payment INV-BE0446,"Hughes residence, 2114 Wornall Rd",income,1160.00,BE-0434
+2026-07-25,Payment INV-BE0460,"Russo residence, 7637 Brookside Blvd",income,4100.00,BE-0448
+2026-07-25,Stripe,Stripe,bank_fees,-420.00,
+2026-07-26,Payment INV-BE0445,"Jensen residence, 281 State Line Rd",income,4700.00,BE-0433
+2026-07-27,Payment INV-BE0452,"Quinn residence, 6254 Broadway Blvd",income,3060.00,BE-0441
+2026-07-27,Crescent Electric Supply for BE-0449,Crescent Electric Supply,materials,-49.36,BE-0449
+2026-07-27,Crescent Electric Supply for BE-0450,Crescent Electric Supply,materials,-26.64,BE-0450
+2026-07-28,Crescent Electric Supply for BE-0452,Crescent Electric Supply,materials,-78.44,BE-0452
+2026-07-28,Crescent Electric Supply for BE-0453,Crescent Electric Supply,materials,-1227.15,BE-0453
+2026-07-28,KCMO Permits for BE-0453,KCMO Permits,permits,-185.00,BE-0453
+2026-07-28,Crescent Electric Supply for BE-0454,Crescent Electric Supply,materials,-316.62,BE-0454
+2026-07-29,Payment INV-BE0448,"Ortiz residence, 1927 Gillham Rd",income,380.00,BE-0437
+2026-07-29,Crescent Electric Supply for BE-0441,Crescent Electric Supply,materials,-1194.61,BE-0441
+2026-07-29,Crescent Electric Supply for BE-0455,Crescent Electric Supply,materials,-32.37,BE-0455
+2026-07-29,Crescent Electric Supply for BE-0456,Crescent Electric Supply,materials,-89.20,BE-0456
+2026-07-29,Payment INV-BE0467,"Brooks residence, 5681 State Line Rd",income,500.00,BE-0456
+2026-07-30,Payment INV-BE0449,"Tran residence, 6148 Holmes Rd",income,210.00,BE-0438
+2026-07-30,Payment INV-BE0451,"Hughes residence, 2653 Oak St",income,1400.00,BE-0440
+2026-07-30,Crescent Electric Supply for BE-0457,Crescent Electric Supply,materials,-79.23,BE-0457
+2026-07-30,Crescent Electric Supply for BE-0458,Crescent Electric Supply,materials,-1363.99,BE-0458
+2026-07-30,KCMO Permits for BE-0458,KCMO Permits,permits,-185.00,BE-0458
+2026-07-31,Payment INV-BE0463,"Sorensen residence, 4618 Broadway Blvd",income,320.00,BE-0452
+2026-07-31,Crescent Electric Supply for BE-0459,Crescent Electric Supply,materials,-89.27,BE-0459
+2026-07-31,Crescent Electric Supply for BE-0460,Crescent Electric Supply,materials,-87.47,BE-0460
+2026-07-31,Payment INV-BE0471,"Brooks residence, 2257 Brookside Blvd",income,520.00,BE-0460
+2026-08-01,Payment INV-BE0459,"Okafor residence, 4393 Main St",income,400.00,BE-0447
+2026-08-01,Payment INV-BE0462,"Delgado residence, 5563 Wornall Rd",income,160.00,BE-0450
+2026-08-01,Payment INV-BE0469,"Russo residence, 1964 Gillham Rd",income,3900.00,BE-0458
+2026-08-01,Payment INV-BE0470,"Lindqvist residence, 8897 Troost Ave",income,470.00,BE-0459
+2026-08-01,Holmes Rd Properties,Holmes Rd Properties,rent,-2900.00,
+2026-08-01,Acuity Insurance,Acuity Insurance,insurance,-1600.00,
+2026-08-01,ServiceTitan,ServiceTitan,software,-398.00,
+2026-08-01,Gusto,Gusto,payroll,-14500.00,
+2026-08-02,Payment INV-BE0468,"Russo residence, 9010 Brookside Blvd",income,330.00,BE-0457
+2026-08-03,Payment INV-BE0450,"Mendez residence, 9228 Main St",income,460.00,BE-0439
+2026-08-03,Crescent Electric Supply for BE-0461,Crescent Electric Supply,materials,-85.48,BE-0461
+2026-08-03,Crescent Electric Supply for BE-0462,Crescent Electric Supply,materials,-88.61,BE-0462
+2026-08-03,Crescent Electric Supply for BE-0463,Crescent Electric Supply,materials,-1116.55,BE-0463
+2026-08-03,KCMO Permits for BE-0463,KCMO Permits,permits,-185.00,BE-0463
+2026-08-03,WEX Fleet Fuel,WEX Fleet Fuel,fuel,-850.00,
+2026-08-04,Crescent Electric Supply for BE-0465,Crescent Electric Supply,materials,-46.57,BE-0465
+2026-08-04,Crescent Electric Supply for BE-0466,Crescent Electric Supply,materials,-33.16,BE-0466
+2026-08-04,Crescent Electric Supply for BE-0467,Crescent Electric Supply,materials,-52.03,BE-0467
+2026-08-04,Crescent Electric Supply for BE-0468,Crescent Electric Supply,materials,-1125.57,BE-0468
+2026-08-04,KCMO Permits for BE-0468,KCMO Permits,permits,-185.00,BE-0468
+2026-08-04,Crescent Electric Supply for BE-0469,Crescent Electric Supply,materials,-1998.29,BE-0469
+2026-08-04,KCMO Permits for BE-0469,KCMO Permits,permits,-240.00,BE-0469
+2026-08-05,Crescent Electric Supply for BE-0441,Crescent Electric Supply,materials,-1194.61,BE-0441
+2026-08-05,Payment INV-BE0465,"Miller residence, 8349 Oak St",income,920.00,BE-0454
+2026-08-05,Crescent Electric Supply for BE-0470,Crescent Electric Supply,materials,-53.14,BE-0470
+2026-08-05,Crescent Electric Supply for BE-0471,Crescent Electric Supply,materials,-189.84,BE-0471
+2026-08-05,Intuit QuickBooks,Intuit QuickBooks,software,-90.00,
+2026-08-06,Payment INV-BE0479,"Nguyen residence, 1448 Brookside Blvd",income,5220.00,BE-0469
+2026-08-06,Crescent Electric Supply for BE-0472,Crescent Electric Supply,materials,-40.58,BE-0472
+2026-08-07,Payment INV-BE0476,"Garza residence, 1400 Ward Pkwy",income,240.00,BE-0466
+2026-08-07,Crescent Electric Supply for BE-0469,Crescent Electric Supply,materials,-1998.29,BE-0469
+2026-08-07,Payment INV-BE0484,"Moreau residence, 4633 Holmes Rd",income,220.00,BE-0472
+2026-08-07,Crescent Electric Supply for BE-0473,Crescent Electric Supply,materials,-23.41,BE-0473
+2026-08-07,Payment INV-BE0485,"Delgado residence, 854 Holmes Rd",income,160.00,BE-0473
+2026-08-07,Crescent Electric Supply for BE-0474,Crescent Electric Supply,materials,-93.68,BE-0474
+2026-08-07,Payment INV-BE0486,"Okafor residence, 9751 Main St",income,520.00,BE-0474
+2026-08-07,Crescent Electric Supply for BE-0475,Crescent Electric Supply,materials,-214.40,BE-0475
+2026-08-08,Payment INV-BE0478,"Bauer residence, 2030 Main St",income,3100.00,BE-0468
+2026-08-08,Sunbelt Rentals,Sunbelt Rentals,equipment,-650.00,
+2026-08-09,Payment INV-BE0474,"Lopez residence, 9872 Broadway Blvd",income,3200.00,BE-0463
+2026-08-10,Payment INV-BE0466,"Jensen residence, 153 Oak St",income,250.00,BE-0455
+2026-08-10,Payment INV-BE0483,"Lopez residence, 4649 Ward Pkwy",income,480.00,BE-0471
+2026-08-10,Crescent Electric Supply for BE-0476,Crescent Electric Supply,materials,-99.72,BE-0476
+2026-08-10,Crescent Electric Supply for BE-0477,Crescent Electric Supply,materials,-85.92,BE-0477
+2026-08-10,Crescent Electric Supply for BE-0478,Crescent Electric Supply,materials,-39.98,BE-0478
+2026-08-10,Crescent Electric Supply for BE-0479,Crescent Electric Supply,materials,-477.91,BE-0479
+2026-08-10,KCMO Permits for BE-0479,KCMO Permits,permits,-95.00,BE-0479
+2026-08-11,Crescent Electric Supply for BE-0469,Crescent Electric Supply,materials,-1998.29,BE-0469
+2026-08-11,Crescent Electric Supply for BE-0480,Crescent Electric Supply,materials,-37.35,BE-0480
+2026-08-11,Payment INV-BE0492,"Russo residence, 5241 Troost Ave",income,270.00,BE-0480
+2026-08-11,Crescent Electric Supply for BE-0481,Crescent Electric Supply,materials,-2378.08,BE-0481
+2026-08-11,KCMO Permits for BE-0481,KCMO Permits,permits,-450.00,BE-0481
+2026-08-12,Crescent Electric Supply for BE-0441,Crescent Electric Supply,materials,-1194.61,BE-0441
+2026-08-12,Payment INV-BE0455,"Jensen residence, 9619 Oak St",income,490.00,BE-0443
+2026-08-12,Payment INV-BE0456,"Whitfield residence, 7948 Main St",income,350.00,BE-0444
+2026-08-12,Payment INV-BE0475,"Patel residence, 9755 Holmes Rd",income,220.00,BE-0465
+2026-08-12,Payment INV-BE0490,"Hughes residence, 4522 Gillham Rd",income,330.00,BE-0478
+2026-08-12,Payment INV-BE0491,"Iverson residence, 833 Wornall Rd",income,1700.00,BE-0479
+2026-08-12,Crescent Electric Supply for BE-0482,Crescent Electric Supply,materials,-57.87,BE-0482
+2026-08-12,Crescent Electric Supply for BE-0483,Crescent Electric Supply,materials,-47.42,BE-0483
+2026-08-12,Crescent Electric Supply for BE-0484,Crescent Electric Supply,materials,-775.98,BE-0484
+2026-08-12,KCMO Permits for BE-0484,KCMO Permits,permits,-95.00,BE-0484
+2026-08-12,Google Ads,Google Ads,marketing,-1400.00,
+2026-08-13,Payment INV-BE0482,"Bauer residence, 4554 Gillham Rd",income,350.00,BE-0470
+2026-08-13,Crescent Electric Supply for BE-0485,Crescent Electric Supply,materials,-94.42,BE-0485
+2026-08-13,Crescent Electric Supply for BE-0486,Crescent Electric Supply,materials,-1526.94,BE-0486
+2026-08-13,KCMO Permits for BE-0486,KCMO Permits,permits,-185.00,BE-0486
+2026-08-13,Crescent Electric Supply for BE-0487,Crescent Electric Supply,materials,-55.29,BE-0487
+2026-08-14,Crescent Electric Supply for BE-0469,Crescent Electric Supply,materials,-1998.29,BE-0469
+2026-08-14,Crescent Electric Supply for BE-0488,Crescent Electric Supply,materials,-31.40,BE-0488
+2026-08-14,Crescent Electric Supply for BE-0489,Crescent Electric Supply,materials,-193.98,BE-0489
+2026-08-14,Payment INV-BE0502,"Kowalski residence, 7014 Broadway Blvd",income,640.00,BE-0489
+2026-08-15,Payment INV-BE0472,"Sorensen residence, 8952 Main St",income,370.00,BE-0461
+2026-08-15,Payment INV-BE0487,"Delgado residence, 6568 Troost Ave",income,710.00,BE-0475
+2026-08-15,Payment INV-BE0498,"Okafor residence, 7399 Ward Pkwy",income,2270.00,BE-0484
+2026-08-15,Payment INV-BE0499,"Ellison residence, 891 Gillham Rd",income,490.00,BE-0485
+2026-08-15,Gusto,Gusto,payroll,-14500.00,
+2026-08-16,Payment INV-BE0461,"Brooks residence, 411 Gillham Rd",income,380.00,BE-0449
+2026-08-16,Payment INV-BE0477,"Coleman residence, 8849 Troost Ave",income,390.00,BE-0467
+2026-08-17,Payment INV-BE0497,"Haddad residence, 6287 Ward Pkwy",income,290.00,BE-0483
+2026-08-17,Payment INV-BE0501,"Kowalski residence, 3821 Holmes Rd",income,190.00,BE-0488
+2026-08-17,Crescent Electric Supply for BE-0490,Crescent Electric Supply,materials,-112.05,BE-0490
+2026-08-17,Payment INV-BE0503,"Schultz residence, 262 Brookside Blvd",income,480.00,BE-0490
+2026-08-17,Crescent Electric Supply for BE-0491,Crescent Electric Supply,materials,-43.88,BE-0491
+2026-08-17,Crescent Electric Supply for BE-0492,Crescent Electric Supply,materials,-42.84,BE-0492
+2026-08-17,Crescent Electric Supply for BE-0493,Crescent Electric Supply,materials,-742.02,BE-0493
+2026-08-17,KCMO Permits for BE-0493,KCMO Permits,permits,-95.00,BE-0493
+2026-08-17,WEX Fleet Fuel,WEX Fleet Fuel,fuel,-850.00,
+2026-08-18,Payment INV-BE0464,"Schultz residence, 2645 Oak St",income,3200.00,BE-0453
+2026-08-18,Payment INV-BE0488,"Nguyen residence, 101 Broadway Blvd",income,520.00,BE-0476
+2026-08-18,Payment INV-BE0489,"Iverson residence, 6708 Wornall Rd",income,430.00,BE-0477
+2026-08-18,Crescent Electric Supply for BE-0481,Crescent Electric Supply,materials,-2378.08,BE-0481
+2026-08-18,Payment INV-BE0506,"Okafor residence, 8304 Holmes Rd",income,2120.00,BE-0493
+2026-08-18,Crescent Electric Supply for BE-0495,Crescent Electric Supply,materials,-86.80,BE-0495
+2026-08-18,Crescent Electric Supply for BE-0496,Crescent Electric Supply,materials,-42.82,BE-0496
+2026-08-18,Crescent Electric Supply for BE-0497,Crescent Electric Supply,materials,-1812.07,BE-0497
+2026-08-18,KCMO Permits for BE-0497,KCMO Permits,permits,-185.00,BE-0497
+2026-08-18,Crescent Electric Supply for BE-0498,Crescent Electric Supply,materials,-2855.83,BE-0498
+2026-08-18,KCMO Permits for BE-0498,KCMO Permits,permits,-450.00,BE-0498
+2026-08-18,Evergy,Evergy,utilities,-360.00,
+2026-08-19,Payment INV-BE0508,"Tran residence, 2603 Brookside Blvd",income,280.00,BE-0496
+2026-08-19,Crescent Electric Supply for BE-0499,Crescent Electric Supply,materials,-117.52,BE-0499
+2026-08-19,Crescent Electric Supply for BE-0500,Crescent Electric Supply,materials,-101.02,BE-0500
+2026-08-20,Crescent Electric Supply for BE-0501,Crescent Electric Supply,materials,-65.84,BE-0501
+2026-08-20,Crescent Electric Supply for BE-0502,Crescent Electric Supply,materials,-1123.32,BE-0502
+2026-08-20,KCMO Permits for BE-0502,KCMO Permits,permits,-240.00,BE-0502
+2026-08-20,Verizon Business,Verizon Business,utilities,-240.00,
+2026-08-21,Payment INV-BE0493,Northland Retail Center,income,7050.00,BE-0481
+2026-08-21,Crescent Electric Supply for BE-0503,Crescent Electric Supply,materials,-42.89,BE-0503
+2026-08-21,Payment INV-BE0519,"Mendez residence, 8531 Troost Ave",income,360.00,BE-0503
+2026-08-21,Crescent Electric Supply for BE-0504,Crescent Electric Supply,materials,-38.67,BE-0504
+2026-08-21,Crescent Electric Supply for BE-0505,Crescent Electric Supply,materials,-1048.56,BE-0505
+2026-08-21,KCMO Permits for BE-0505,KCMO Permits,permits,-185.00,BE-0505
+2026-08-21,Crescent Electric Supply for BE-0506,Crescent Electric Supply,materials,-533.39,BE-0506
+2026-08-22,Payment INV-BE0500,"Okafor residence, 6446 Oak St",income,3800.00,BE-0486
+2026-08-23,Payment INV-BE0473,"Patel residence, 1598 Broadway Blvd",income,440.00,BE-0462
+2026-08-23,Payment INV-BE0507,"Novak residence, 2649 State Line Rd",income,480.00,BE-0495
+2026-08-23,Payment INV-BE0522,"Whitfield residence, 5638 Ward Pkwy",income,1460.00,BE-0506
+2026-08-24,Payment INV-BE0513,"Whitfield residence, 8230 Wornall Rd",income,510.00,BE-0499
+2026-08-24,Crescent Electric Supply for BE-0502,Crescent Electric Supply,materials,-1123.32,BE-0502
+2026-08-24,Payment INV-BE0521,"Patel residence, 5193 Oak St",income,2800.00,BE-0505
+2026-08-24,Crescent Electric Supply for BE-0507,Crescent Electric Supply,materials,-66.48,BE-0507
+2026-08-24,Crescent Electric Supply for BE-0508,Crescent Electric Supply,materials,-1308.77,BE-0508
+2026-08-24,KCMO Permits for BE-0508,KCMO Permits,permits,-185.00,BE-0508
+2026-08-25,Payment INV-BE0505,"Delgado residence, 9375 Oak St",income,180.00,BE-0492
+2026-08-25,Crescent Electric Supply for BE-0509,Crescent Electric Supply,materials,-1307.87,BE-0509
+2026-08-25,KCMO Permits for BE-0509,KCMO Permits,permits,-185.00,BE-0509
+2026-08-25,Stripe,Stripe,bank_fees,-420.00,
+2026-08-26,Crescent Electric Supply for BE-0481,Crescent Electric Supply,materials,-2378.08,BE-0481
+2026-08-26,Crescent Electric Supply for BE-0510,Crescent Electric Supply,materials,-103.04,BE-0510
+2026-08-26,Payment INV-BE0526,"Ellison residence, 4723 Oak St",income,420.00,BE-0510
+2026-08-26,Crescent Electric Supply for BE-0511,Crescent Electric Supply,materials,-54.04,BE-0511
+2026-08-26,Crescent Electric Supply for BE-0512,Crescent Electric Supply,materials,-55.76,BE-0512
+2026-08-26,Payment INV-BE0528,"Garza residence, 4654 Gillham Rd",income,240.00,BE-0512
+2026-08-26,Crescent Electric Supply for BE-0513,Crescent Electric Supply,materials,-576.39,BE-0513
+2026-08-26,KCMO Permits for BE-0513,KCMO Permits,permits,-95.00,BE-0513
+2026-08-26,Payment INV-BE0529,"Delgado residence, 7907 Broadway Blvd",income,1860.00,BE-0513
+2026-08-27,Crescent Electric Supply for BE-0514,Crescent Electric Supply,materials,-47.33,BE-0514
+2026-08-27,Payment INV-BE0530,"Lopez residence, 1806 Gillham Rd",income,230.00,BE-0514
+2026-08-27,Crescent Electric Supply for BE-0515,Crescent Electric Supply,materials,-105.20,BE-0515
+2026-08-28,Crescent Electric Supply for BE-0498,Crescent Electric Supply,materials,-2855.83,BE-0498
+2026-08-28,Payment INV-BE0510,Northland Retail Center,income,8610.00,BE-0498
+2026-08-28,Payment INV-BE0515,"Coleman residence, 3266 Oak St",income,320.00,BE-0501
+2026-08-28,Crescent Electric Supply for BE-0502,Crescent Electric Supply,materials,-1123.32,BE-0502
+2026-08-28,Crescent Electric Supply for BE-0516,Crescent Electric Supply,materials,-22.75,BE-0516
+2026-08-28,Crescent Electric Supply for BE-0517,Crescent Electric Supply,materials,-24.94,BE-0517
+2026-08-28,Crescent Electric Supply for BE-0518,Crescent Electric Supply,materials,-991.74,BE-0518
+2026-08-28,KCMO Permits for BE-0518,KCMO Permits,permits,-185.00,BE-0518
+2026-08-29,Payment INV-BE0504,"Hughes residence, 2986 Holmes Rd",income,280.00,BE-0491
+2026-08-29,Payment INV-BE0527,"Quinn residence, 6198 Oak St",income,240.00,BE-0511
+2026-08-29,Payment INV-BE0534,"Novak residence, 4784 Gillham Rd",income,2700.00,BE-0518
+2026-08-30,Payment INV-BE0453,"Quinn residence, 6254 Broadway Blvd",income,4080.00,BE-0441
+2026-08-30,Payment INV-BE0516,"Nguyen residence, 5419 Holmes Rd",income,3300.00,BE-0502
+2026-08-30,Payment INV-BE0524,"Sorensen residence, 6748 Oak St",income,3400.00,BE-0508
+2026-08-31,Payment INV-BE0509,"Ortiz residence, 9507 Gillham Rd",income,5100.00,BE-0497
+2026-08-31,Payment INV-BE0532,"Lopez residence, 2175 Brookside Blvd",income,150.00,BE-0516
+2026-08-31,Crescent Electric Supply for BE-0519,Crescent Electric Supply,materials,-48.79,BE-0519
+2026-08-31,Crescent Electric Supply for BE-0520,Crescent Electric Supply,materials,-46.71,BE-0520
+2026-09-01,Payment INV-BE0496,"Garza residence, 6448 Oak St",income,300.00,BE-0482
+2026-09-01,Crescent Electric Supply for BE-0502,Crescent Electric Supply,materials,-1123.32,BE-0502
+2026-09-01,Crescent Electric Supply for BE-0521,Crescent Electric Supply,materials,-84.83,BE-0521
+2026-09-01,Crescent Electric Supply for BE-0522,Crescent Electric Supply,materials,-32.78,BE-0522
+2026-09-01,Holmes Rd Properties,Holmes Rd Properties,rent,-2900.00,
+2026-09-01,Acuity Insurance,Acuity Insurance,insurance,-1600.00,
+2026-09-01,ServiceTitan,ServiceTitan,software,-398.00,
+2026-09-01,Gusto,Gusto,payroll,-14500.00,
+2026-09-02,Payment INV-BE0536,"Brooks residence, 4207 Broadway Blvd",income,210.00,BE-0520
+2026-09-02,Crescent Electric Supply for BE-0523,Crescent Electric Supply,materials,-33.65,BE-0523
+2026-09-03,Payment INV-BE0454,"Quinn residence, 6254 Broadway Blvd",income,3060.00,BE-0441
+2026-09-03,Crescent Electric Supply for BE-0481,Crescent Electric Supply,materials,-2378.08,BE-0481
+2026-09-03,Payment INV-BE0538,"Brooks residence, 7652 Holmes Rd",income,210.00,BE-0522
+2026-09-03,Crescent Electric Supply for BE-0524,Crescent Electric Supply,materials,-35.78,BE-0524
+2026-09-03,Payment INV-BE0540,"Haddad residence, 9678 Holmes Rd",income,160.00,BE-0524
+2026-09-03,Crescent Electric Supply for BE-0525,Crescent Electric Supply,materials,-29.63,BE-0525
+2026-09-03,WEX Fleet Fuel,WEX Fleet Fuel,fuel,-850.00,
+2026-09-04,Payment INV-BE0531,"Kim residence, 303 Troost Ave",income,440.00,BE-0515
+2026-09-04,Crescent Electric Supply for BE-0526,Crescent Electric Supply,materials,-66.14,BE-0526
+2026-09-04,Crescent Electric Supply for BE-0527,Crescent Electric Supply,materials,-397.98,BE-0527
+2026-09-04,KCMO Permits for BE-0527,KCMO Permits,permits,-95.00,BE-0527
+2026-09-04,Crescent Electric Supply for BE-0528,Crescent Electric Supply,materials,-227.81,BE-0528
+2026-09-05,Intuit QuickBooks,Intuit QuickBooks,software,-90.00,
+2026-09-07,Crescent Electric Supply for BE-0498,Crescent Electric Supply,materials,-2855.83,BE-0498
+2026-09-07,Payment INV-BE0542,"Tran residence, 5313 Wornall Rd",income,370.00,BE-0526
+2026-09-07,Payment INV-BE0544,"Okafor residence, 1035 Brookside Blvd",income,600.00,BE-0528
+2026-09-07,Crescent Electric Supply for BE-0529,Crescent Electric Supply,materials,-83.70,BE-0529
+2026-09-07,Crescent Electric Supply for BE-0530,Crescent Electric Supply,materials,-74.56,BE-0530
+2026-09-07,Crescent Electric Supply for BE-0531,Crescent Electric Supply,materials,-1191.63,BE-0531
+2026-09-07,KCMO Permits for BE-0531,KCMO Permits,permits,-185.00,BE-0531
+2026-09-08,Payment INV-BE0514,"Iverson residence, 2384 Wornall Rd",income,470.00,BE-0500
+2026-09-08,Payment INV-BE0545,"Ellison residence, 4421 Brookside Blvd",income,380.00,BE-0529
+2026-09-08,Crescent Electric Supply for BE-0533,Crescent Electric Supply,materials,-92.58,BE-0533
+2026-09-08,Crescent Electric Supply for BE-0534,Crescent Electric Supply,materials,-120.35,BE-0534
+2026-09-08,Payment INV-BE0549,"Quinn residence, 8497 Gillham Rd",income,500.00,BE-0534
+2026-09-08,Crescent Electric Supply for BE-0535,Crescent Electric Supply,materials,-1828.74,BE-0535
+2026-09-08,KCMO Permits for BE-0535,KCMO Permits,permits,-185.00,BE-0535
+2026-09-08,Crescent Electric Supply for BE-0536,Crescent Electric Supply,materials,-2640.97,BE-0536
+2026-09-08,KCMO Permits for BE-0536,KCMO Permits,permits,-450.00,BE-0536
+2026-09-08,Sunbelt Rentals,Sunbelt Rentals,equipment,-650.00,
+2026-09-09,Payment INV-BE0543,"Novak residence, 5790 Wornall Rd",income,1350.00,BE-0527
+2026-09-09,Crescent Electric Supply for BE-0537,Crescent Electric Supply,materials,-85.77,BE-0537
+2026-09-10,Payment INV-BE0520,"Kowalski residence, 9078 Wornall Rd",income,270.00,BE-0504
+2026-09-10,Payment INV-BE0547,"Jensen residence, 328 Holmes Rd",income,3100.00,BE-0531
+2026-09-10,Payment INV-BE0551,Plaza Dental Suite,income,8250.00,BE-0536
+2026-09-10,Crescent Electric Supply for BE-0538,Crescent Electric Supply,materials,-102.14,BE-0538
+2026-09-10,Crescent Electric Supply for BE-0539,Crescent Electric Supply,materials,-71.38,BE-0539
+2026-09-10,Payment INV-BE0554,"Whitfield residence, 2207 Troost Ave",income,430.00,BE-0539
+2026-09-10,Crescent Electric Supply for BE-0540,Crescent Electric Supply,materials,-1567.56,BE-0540
+2026-09-10,KCMO Permits for BE-0540,KCMO Permits,permits,-185.00,BE-0540
+2026-09-11,Payment INV-BE0541,"Garza residence, 5537 Broadway Blvd",income,230.00,BE-0525
+2026-09-11,Payment INV-BE0548,"Whitfield residence, 9554 Ward Pkwy",income,420.00,BE-0533
+2026-09-11,Payment INV-BE0553,"Ortiz residence, 7282 Main St",income,500.00,BE-0538
+2026-09-11,Crescent Electric Supply for BE-0542,Crescent Electric Supply,materials,-72.94,BE-0542
+2026-09-12,Payment INV-BE0481,"Nguyen residence, 1448 Brookside Blvd",income,5220.00,BE-0469
+2026-09-12,Payment INV-BE0546,"Iverson residence, 6917 Main St",income,340.00,BE-0530
+2026-09-12,Payment INV-BE0550,"Patel residence, 6741 Broadway Blvd",income,4500.00,BE-0535
+2026-09-12,Google Ads,Google Ads,marketing,-1400.00,
+2026-09-13,Payment INV-BE0523,"Ellison residence, 2016 Gillham Rd",income,420.00,BE-0507
+2026-09-14,Payment INV-BE0552,"Okafor residence, 223 Gillham Rd",income,480.00,BE-0537
+2026-09-14,Crescent Electric Supply for BE-0543,Crescent Electric Supply,materials,-66.38,BE-0543
+2026-09-14,Crescent Electric Supply for BE-0544,Crescent Electric Supply,materials,-1351.36,BE-0544
+2026-09-14,KCMO Permits for BE-0544,KCMO Permits,permits,-185.00,BE-0544
+2026-09-15,Payment INV-BE0525,"Tran residence, 7211 Broadway Blvd",income,3600.00,BE-0509
+2026-09-15,Gusto,Gusto,payroll,-14500.00,
+2026-09-16,Payment INV-BE0480,"Nguyen residence, 1448 Brookside Blvd",income,6960.00,BE-0469
+2026-09-16,Crescent Electric Supply for BE-0545,Crescent Electric Supply,materials,-30.01,BE-0545
+2026-09-16,Payment INV-BE0559,"Ortiz residence, 2526 Main St",income,180.00,BE-0545
+2026-09-16,Crescent Electric Supply for BE-0546,Crescent Electric Supply,materials,-50.29,BE-0546
+2026-09-17,Crescent Electric Supply for BE-0498,Crescent Electric Supply,materials,-2855.83,BE-0498
+2026-09-17,Payment INV-BE0533,"Price residence, 2116 Oak St",income,170.00,BE-0517
+2026-09-17,Payment INV-BE0560,"Reyes residence, 5757 State Line Rd",income,390.00,BE-0546
+2026-09-17,Crescent Electric Supply for BE-0547,Crescent Electric Supply,materials,-66.28,BE-0547
+2026-09-17,Crescent Electric Supply for BE-0548,Crescent Electric Supply,materials,-1001.80,BE-0548
+2026-09-17,KCMO Permits for BE-0548,KCMO Permits,permits,-185.00,BE-0548
+2026-09-17,WEX Fleet Fuel,WEX Fleet Fuel,fuel,-850.00,
+2026-09-18,Payment INV-BE0561,"Okafor residence, 1252 Ward Pkwy",income,340.00,BE-0547
+2026-09-18,Payment INV-BE0562,"Patel residence, 3624 Brookside Blvd",income,2700.00,BE-0548
+2026-09-18,Crescent Electric Supply for BE-0549,Crescent Electric Supply,materials,-103.13,BE-0549
+2026-09-18,Crescent Electric Supply for BE-0550,Crescent Electric Supply,materials,-441.78,BE-0550
+2026-09-18,KCMO Permits for BE-0550,KCMO Permits,permits,-95.00,BE-0550
+2026-09-18,Crescent Electric Supply for BE-0551,Crescent Electric Supply,materials,-358.27,BE-0551
+2026-09-18,Evergy,Evergy,utilities,-360.00,
+2026-09-19,Payment INV-BE0494,Northland Retail Center,income,9400.00,BE-0481
+2026-09-19,Payment INV-BE0556,"Bauer residence, 5575 Broadway Blvd",income,360.00,BE-0542
+2026-09-20,Payment INV-BE0535,"Okafor residence, 1827 Main St",income,280.00,BE-0519
+2026-09-20,Payment INV-BE0565,"Kowalski residence, 2466 Holmes Rd",income,1020.00,BE-0551
+2026-09-20,Verizon Business,Verizon Business,utilities,-240.00,
+2026-09-21,Payment INV-BE0518,"Nguyen residence, 5419 Holmes Rd",income,3300.00,BE-0502
+2026-09-21,Payment INV-BE0537,"Ortiz residence, 7436 Gillham Rd",income,440.00,BE-0521
+2026-09-21,Crescent Electric Supply for BE-0552,Crescent Electric Supply,materials,-65.36,BE-0552
+2026-09-21,Crescent Electric Supply for BE-0553,Crescent Electric Supply,materials,-61.35,BE-0553
+2026-09-21,Crescent Electric Supply for BE-0554,Crescent Electric Supply,materials,-1164.44,BE-0554
+2026-09-21,KCMO Permits for BE-0554,KCMO Permits,permits,-185.00,BE-0554
+2026-09-22,Payment INV-BE0539,"Nguyen residence, 9267 Oak St",income,210.00,BE-0523
+2026-09-22,Payment INV-BE0557,"Novak residence, 9127 Oak St",income,340.00,BE-0543
+2026-09-22,Payment INV-BE0568,"Ortiz residence, 1303 State Line Rd",income,3000.00,BE-0554
+2026-09-22,Crescent Electric Supply for BE-0555,Crescent Electric Supply,materials,-54.09,BE-0555
+2026-09-22,Crescent Electric Supply for BE-0556,Crescent Electric Supply,materials,-1597.03,BE-0556
+2026-09-22,KCMO Permits for BE-0556,KCMO Permits,permits,-185.00,BE-0556
+2026-09-22,Crescent Electric Supply for BE-0557,Crescent Electric Supply,materials,-373.80,BE-0557
+2026-09-22,Crescent Electric Supply for BE-0558,Crescent Electric Supply,materials,-1880.64,BE-0558
+2026-09-22,KCMO Permits for BE-0558,KCMO Permits,permits,-240.00,BE-0558
+2026-09-22,Crescent Electric Supply for BE-0559,Crescent Electric Supply,materials,-22.02,BE-0559
+2026-09-23,Payment INV-BE0563,"Ellison residence, 4856 Holmes Rd",income,480.00,BE-0549
+2026-09-23,Crescent Electric Supply for BE-0560,Crescent Electric Supply,materials,-72.86,BE-0560
+2026-09-23,Crescent Electric Supply for BE-0561,Crescent Electric Supply,materials,-2136.64,BE-0561
+2026-09-23,KCMO Permits for BE-0561,KCMO Permits,permits,-185.00,BE-0561
+2026-09-24,Payment INV-BE0511,Northland Retail Center,income,11480.00,BE-0498
+2026-09-24,Crescent Electric Supply for BE-0562,Crescent Electric Supply,materials,-36.33,BE-0562
+2026-09-24,Crescent Electric Supply for BE-0563,Crescent Electric Supply,materials,-679.78,BE-0563
+2026-09-24,KCMO Permits for BE-0563,KCMO Permits,permits,-95.00,BE-0563
+2026-09-24,Crescent Electric Supply for BE-0564,Crescent Electric Supply,materials,-53.31,BE-0564
+2026-09-25,Crescent Electric Supply for BE-0536,Crescent Electric Supply,materials,-2640.97,BE-0536
+2026-09-25,Payment INV-BE0569,"Delgado residence, 8366 Wornall Rd",income,460.00,BE-0555
+2026-09-25,Crescent Electric Supply for BE-0565,Crescent Electric Supply,materials,-60.00,BE-0565
+2026-09-25,Crescent Electric Supply for BE-0566,Crescent Electric Supply,materials,-417.05,BE-0566
+2026-09-25,Payment INV-BE0578,"Coleman residence, 2171 Oak St",income,1120.00,BE-0566
+2026-09-25,Stripe,Stripe,bank_fees,-420.00,
+2026-09-26,Payment INV-BE0567,"Coleman residence, 6499 Ward Pkwy",income,440.00,BE-0553
+2026-09-26,Payment INV-BE0574,"Novak residence, 3959 State Line Rd",income,5200.00,BE-0561
+2026-09-27,Payment INV-BE0572,"Moreau residence, 8095 Brookside Blvd",income,5370.00,BE-0558
+2026-09-28,Payment INV-BE0570,"Sorensen residence, 8133 Broadway Blvd",income,4700.00,BE-0556
+2026-09-28,Crescent Electric Supply for BE-0558,Crescent Electric Supply,materials,-1880.64,BE-0558
+2026-09-28,Crescent Electric Supply for BE-0567,Crescent Electric Supply,materials,-93.77,BE-0567
+2026-09-28,Crescent Electric Supply for BE-0568,Crescent Electric Supply,materials,-1745.83,BE-0568
+2026-09-28,KCMO Permits for BE-0568,KCMO Permits,permits,-185.00,BE-0568
+2026-09-29,Payment INV-BE0579,"Mendez residence, 952 Holmes Rd",income,470.00,BE-0567
+2026-09-29,Crescent Electric Supply for BE-0570,Crescent Electric Supply,materials,-47.23,BE-0570
+2026-09-29,Crescent Electric Supply for BE-0571,Crescent Electric Supply,materials,-721.53,BE-0571
+2026-09-29,KCMO Permits for BE-0571,KCMO Permits,permits,-95.00,BE-0571
+2026-09-30,Payment INV-BE0564,"Price residence, 7804 Troost Ave",income,1270.00,BE-0550
+2026-09-30,Payment INV-BE0582,"Coleman residence, 401 Brookside Blvd",income,2060.00,BE-0571
+2026-09-30,Crescent Electric Supply for BE-0572,Crescent Electric Supply,materials,-32.72,BE-0572
+2026-09-30,Payment INV-BE0583,"Whitfield residence, 1229 State Line Rd",income,160.00,BE-0572

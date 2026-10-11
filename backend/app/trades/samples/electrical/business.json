@@ -1,0 +1,10 @@
+{
+  "name": "Brightline Electric",
+  "currency": "USD",
+  "accounting_basis": "cash",
+  "opening_balance": 88000,
+  "opening_balance_date": "2025-10-01",
+  "as_of_date": "2026-09-30",
+  "labor_rate": 62,
+  "tax_reserve_rate": 0.25
+}

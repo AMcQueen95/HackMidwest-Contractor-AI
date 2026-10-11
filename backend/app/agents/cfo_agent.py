@@ -11,6 +11,7 @@ from backend.app.agents.cash_flow_agent import build_cash_flow_agent
 from backend.app.agents.events import emit
 from backend.app.agents.expense_agent import build_expense_agent
 from backend.app.agents.job_profitability_agent import build_job_profitability_agent
+from backend.app.agents.trade_agent import build_trade_agent
 from backend.app.agents.prompts import NUMBERS_RULES
 from backend.app.agents.schemas import AskResponse, FinancialHealthReport, ReportNarrative
 from backend.app.config import build_model
@@ -28,7 +29,7 @@ async def _consult(name: str, build, question: str) -> str:
 
 
 _ANALYSTS = {"Expense Agent": "expense analyst", "Job Profitability Agent": "job costing analyst",
-             "Cash Flow Agent": "cash flow analyst"}
+             "Cash Flow Agent": "cash flow analyst", "Trade Agent": "trade analyst"}
 
 
 @tool
@@ -63,6 +64,25 @@ async def cash_flow_agent(question: str) -> str:
     return await _consult("Cash Flow Agent", build_cash_flow_agent, question)
 
 
+@tool
+async def trade_agent(question: str) -> str:
+    """Ask the trade analyst (the HVAC, plumbing or electrical analyst) about this
+    trade's own measures. What it covers is listed in your instructions.
+
+    Args:
+        question: A specific question, including the month if known.
+    """
+    from backend.app import trades
+
+    trade = trades.current()
+    if trade is None:
+        return "No trade is set for this business."
+    log.info("CFO -> %s Analyst: %s", trade.NAME, question)
+    answer = str(await build_trade_agent(trade).invoke_async(question))
+    emit({"type": "status", "text": f"Consulted the {trade.NAME} analyst"})
+    return answer
+
+
 # --- The CFO ---------------------------------------------------------------------
 
 SYSTEM_PROMPT = f"""\
@@ -93,15 +113,26 @@ announce what you're about to look up; call the tools, then answer.
 
 def build_cfo_agent(stream: bool = False, messages: list | None = None) -> Agent:
     """stream=True prints the answer to stdout as it's generated (for the CLI).
-    messages seeds the conversation history, e.g. with the month's report."""
+    messages seeds the conversation history, e.g. with the month's report.
+    When the owner picked a trade, the CFO gets that trade's advice and analyst."""
+    from backend.app import trades
+
     kwargs = {} if stream else {"callback_handler": None}
+    trade = trades.current()
+    tools = [ft.business_profile, ft.monthly_summary, expense_agent, job_profitability_agent, cash_flow_agent]
+    prompt = SYSTEM_PROMPT
+    if trade is not None:
+        tools.append(trade_agent)
+        covers = "\n".join(f"- {build.__doc__}" for build in trade.SECTIONS)
+        prompt += (f"\n\n{trade.ADVICE}\n\nYou also have a {trade.NAME} analyst (trade_agent). It has numbers "
+                   f"the other analysts don't:\n{covers}\nAsk it whenever a question touches any of these, "
+                   f"alongside the other analysts as needed.")
     return Agent(
         name="CFO Advisor",
         model=build_model("cfo"),
         messages=messages,
-        system_prompt=SYSTEM_PROMPT,
-        tools=[ft.business_profile, ft.monthly_summary,
-               expense_agent, job_profitability_agent, cash_flow_agent],
+        system_prompt=prompt,
+        tools=tools,
         **kwargs,
     )
 
