@@ -1,8 +1,11 @@
 import { test, expect } from '@playwright/test'
 import fs from 'node:fs'
 import { fileURLToPath } from 'node:url'
+import { prepareCompany, openCompany, companyReport } from './helpers'
 
 const sample = fileURLToPath(new URL('../../../backend/app/data/sample/', import.meta.url))
+
+test.beforeEach(async ({ page }) => { await prepareCompany(page) })
 
 async function selectBooks(page, { invalid = false } = {}) {
   await page.getByRole('button', { name: 'Use your own books' }).click()
@@ -18,7 +21,7 @@ async function selectBooks(page, { invalid = false } = {}) {
 test('dashboard, month selection, and purchase checks use the live API', async ({ page }) => {
   const errors = []
   page.on('pageerror', (error) => errors.push(error.message))
-  await page.goto('/')
+  await openCompany(page)
   await expect(page.locator('.tile-value').nth(1)).toHaveText('$52,900')
   await expect(page.locator('.tile-value').nth(2)).toContainText('7,830')
   await expect(page.locator('.affordability .verdict')).toContainText('$16,447')
@@ -36,7 +39,7 @@ test('dashboard, month selection, and purchase checks use the live API', async (
 })
 
 test('upload updates real calculations, isolates browsers, preserves books on failure, and resets', async ({ page, browser }) => {
-  await page.goto('/')
+  await openCompany(page)
   await expect(page.locator('.tile-value').nth(1)).toHaveText('$52,900')
   await selectBooks(page)
   await expect(page.getByRole('dialog')).not.toBeVisible()
@@ -49,6 +52,7 @@ test('upload updates real calculations, isolates browsers, preserves books on fa
   try {
     const otherPage = await other.newPage()
     await otherPage.goto(page.url())
+    await otherPage.getByRole('button', { name: 'Try the demo' }).click()
     await expect(otherPage.locator('.tile-value').nth(1)).toHaveText('$52,900')
   } finally {
     await other.close()
@@ -56,19 +60,18 @@ test('upload updates real calculations, isolates browsers, preserves books on fa
 
   await selectBooks(page, { invalid: true })
   await expect(page.getByRole('alert')).toContainText('invoices.csv: missing columns')
-  const response = await page.request.get('/api/report')
+  const response = await companyReport(page)
   expect((await response.json()).monthly_summary.expenses).toBe(53140)
   await page.getByRole('button', { name: 'Cancel', exact: true }).click()
   await page.getByRole('button', { name: 'Use your own books' }).click()
-  await page.getByRole('button', { name: 'Use sample books', exact: true }).click()
+  await page.getByRole('button', { name: 'Clear company books', exact: true }).click()
   await expect(page.getByRole('dialog')).not.toBeVisible()
-  await expect(page.locator('.tile-value').nth(1)).toHaveText('$52,900')
-  await expect(page.locator('.dataset-tag')).toHaveText('Sample data')
+  await expect(page.getByText('This company has no books yet.', { exact: false })).toBeVisible()
 })
 
 test('a failed report request shows an error and can be retried', async ({ page }) => {
   await page.route('**/api/report', (route) => route.fulfill({ status: 503, json: { detail: 'API temporarily unavailable' } }))
-  await page.goto('/')
+  await openCompany(page)
   await expect(page.getByRole('alert')).toHaveText('API temporarily unavailable')
   await page.unroute('**/api/report')
   await page.getByRole('button', { name: 'Try again' }).click()
@@ -93,7 +96,7 @@ test('AI narrative and chat retain live books and reset after upload', async ({ 
   page.on('pageerror', (error) => errors.push(error.message))
   await enableAi(page)
   await page.route('**/api/report/narrative?*', async (route) => {
-    const report = await (await page.request.get('/api/report')).json()
+    const report = await (await companyReport(page)).json()
     await route.fulfill({ contentType: 'text/event-stream', body: events([
       { text: 'A preamble.' }, { reset: true },
       { text: `Expenses are $${report.monthly_summary.expenses.toLocaleString('en-US')}.\n\nIssues\n- Review insurance.\n\nRecommendations\n- Check your policy.` },
@@ -104,7 +107,7 @@ test('AI narrative and chat retain live books and reset after upload', async ({ 
   await page.route('**/api/ask', async (route) => {
     const request = route.request().postDataJSON()
     requests.push(request)
-    const report = await (await page.request.get('/api/report')).json()
+    const report = await (await companyReport(page)).json()
     await route.fulfill({ contentType: 'text/event-stream', body: events([
       { type: 'session', session_id: request.session_id || `chat-${requests.length}` },
       { type: 'text', text: 'Let me look.' }, { type: 'text_reset' },
@@ -114,7 +117,7 @@ test('AI narrative and chat retain live books and reset after upload', async ({ 
       { type: 'done' },
     ]) })
   })
-  await page.goto('/')
+  await openCompany(page)
   await expect(page.locator('.caption-body')).toContainText('Expenses are $52,900.')
   await expect(page.locator('.caption-body')).not.toContainText('A preamble')
   await page.getByRole('button', { name: 'Ask your CFO', exact: true }).click()
@@ -149,7 +152,7 @@ test('model errors finish loading and keep the finance report usable', async ({ 
   await page.route('**/api/ask', (route) => route.fulfill({ contentType: 'text/event-stream', body: events([
     { type: 'error', message: 'Model unavailable' }, { type: 'done' },
   ]) }))
-  await page.goto('/')
+  await openCompany(page)
   await expect(page.locator('.caption-body')).toContainText('The written report could not load: Model unavailable')
   await expect(page.locator('.tile-value').nth(1)).toHaveText('$52,900')
   await page.getByRole('button', { name: 'Ask your CFO', exact: true }).click()

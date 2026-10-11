@@ -67,7 +67,7 @@ def build_router(datasets, cookie_name: str, set_cookie: Callable) -> APIRouter:
         replace: bool = Form(False), dry_run: bool = Form(False),
     ):
         """Upload any number of CSV exports. Each is identified, converted and combined
-        with what this browser imported before (replace=true starts over)."""
+        with what this company imported before (replace=true starts over)."""
         require_ai()
         if not files or len(files) > MAX_FILES:
             raise HTTPException(422, f"Upload between 1 and {MAX_FILES} files.")
@@ -116,7 +116,7 @@ def build_router(datasets, cookie_name: str, set_cookie: Callable) -> APIRouter:
 
     @router.post("/import/clear")
     def import_clear(request: Request, response: Response):
-        """Forget every import and bank connection for this browser and go back to the sample."""
+        """Clear this company's stored books, imports, and saved bank connections."""
         token = request.cookies.get(cookie_name)
         imports.clear(token)
         datasets.reset(token)
@@ -129,6 +129,7 @@ def build_router(datasets, cookie_name: str, set_cookie: Callable) -> APIRouter:
         transactions, accounts, complete = await client.sync(access_token)
         records = plaid.to_records(transactions, accounts, source=f"bank:{item_id}", complete=complete)
         await categorize(records.transactions)
+        # Request-local state is persisted only after the complete operation succeeds.
         state.plaid_items[item_id] = access_token
         sources = dict(state.sources) | {f"bank:{item_id}": records}
         result = await rebuild(request, response, token, state, sources)
@@ -163,7 +164,8 @@ def build_router(datasets, cookie_name: str, set_cookie: Callable) -> APIRouter:
         """Start Plaid Link in the browser with this token."""
         token, _ = session(request)
         set_cookie(request, response, token)
-        return {"link_token": await plaid_call(lambda c: c.link_token(token[:32]))}
+        owner = f"{request.state.user['id']}:{request.state.company['id']}"
+        return {"link_token": await plaid_call(lambda c: c.link_token(owner))}
 
     @router.post("/plaid/exchange")
     async def plaid_exchange(request: Request, response: Response, body: ExchangeRequest):

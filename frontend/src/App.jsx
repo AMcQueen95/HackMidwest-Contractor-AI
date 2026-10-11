@@ -28,7 +28,7 @@ function savedTheme() {
   }
 }
 
-export default function App() {
+export default function App({ demo = false }) {
   const [theme, setTheme] = useState(savedTheme)
   const [month, setMonth] = useState(null)
   const [report, setReport] = useState(null)
@@ -67,7 +67,7 @@ export default function App() {
     return () => controller.abort()
   }, [month, refresh])
 
-  const aiAvailable = report?.agent_status?.available ?? false
+  const aiAvailable = !demo && report?.has_books !== false && (report?.agent_status?.available ?? false)
   useEffect(() => {
     const controller = new AbortController()
     setNarrativeText('')
@@ -109,6 +109,12 @@ export default function App() {
       </main>
     )
   }
+  if (report.has_books === false) return <main className="page">
+    <h1>{report.company.name}<span>Start with your financial records</span></h1>
+    <p>This company has no books yet. Upload your records to calculate its finances.</p>
+    <button className="button button-primary" onClick={() => setUploadOpen(true)}>Upload financial records</button>
+    {uploadOpen && <UploadDialog isSample={false} onUploaded={uploaded} onClose={() => setUploadOpen(false)} />}
+  </main>
   const name = monthName(report.month)
 
   return (
@@ -119,7 +125,7 @@ export default function App() {
         onMonth={setMonth}
         theme={theme}
         onTheme={setTheme}
-        onUpload={() => setUploadOpen(true)}
+        onUpload={demo ? undefined : () => setUploadOpen(true)}
       />
 
       <main className="page">

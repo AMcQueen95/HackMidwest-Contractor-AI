@@ -48,10 +48,10 @@ export default function Header({ report, month, onMonth, theme, onTheme, onUploa
               ))}
             </div>
           )}
-          <button type="button" className="button" onClick={onUpload}>
+          {onUpload && <button type="button" className="button" onClick={onUpload}>
             <UploadIcon />
             <span className="button-label">Use your own books</span>
-          </button>
+          </button>}
           <div className="menu" ref={menuRef}>
             <button
               type="button"
