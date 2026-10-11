@@ -1,0 +1,29 @@
+# Optional Render Blueprint. Values with sync:false are entered securely in
+# Render's setup UI. Never replace them here with real secrets.
+services:
+  - type: web
+    name: toolbelt-cfo
+    runtime: docker
+    plan: free
+    branch: render-deployment
+    dockerfilePath: ./Dockerfile
+    dockerContext: .
+    healthCheckPath: /api/health
+    autoDeploy: false
+    envVars:
+      - key: COOKIE_SECURE
+        value: "true"
+      - key: MODEL_PROVIDER
+        value: anthropic
+      - key: PLAID_ENV
+        value: sandbox
+      - key: PUBLIC_APP_URL
+        sync: false
+      - key: SUPABASE_URL
+        sync: false
+      - key: SUPABASE_PUBLISHABLE_KEY
+        sync: false
+      - key: APP_DATA_KEY
+        sync: false
+      - key: ANTHROPIC_API_KEY
+        sync: false

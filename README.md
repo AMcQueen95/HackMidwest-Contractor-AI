@@ -100,6 +100,10 @@ see [live dashboard setup and testing](docs/live-dashboard.md).
 
 Set up Supabase and the server encryption key using [the account setup guide](docs/accounts.md) before testing private companies or Plaid. Account and company storage are available on `main`. The public demo and offline tests work without a Supabase connection.
 
+For a hosted site, follow [the Render deployment guide](docs/render-deployment.md).
+The Dockerfile serves the React build and Python API together; enter server keys
+in Render's environment settings and reuse the existing database encryption key.
+
 ## Frontend development
 
 The report, purchase calculator, and upload dialog use live Python results.

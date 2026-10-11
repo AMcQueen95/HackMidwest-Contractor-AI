@@ -1,0 +1,17 @@
+.git
+.venv
+.agents
+.codex
+.aws
+**/.env
+**/.env.*
+**/node_modules
+**/__pycache__
+**/*.pyc
+**/.DS_Store
+frontend/dist
+frontend/test-results
+frontend/playwright-report
+test-data
+docs
+scripts
