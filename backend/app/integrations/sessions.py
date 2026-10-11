@@ -6,6 +6,7 @@ from dataclasses import dataclass, field
 from threading import Lock
 
 from backend.app.integrations.records import BusinessFacts, Records
+from backend.app.accounts.context import active_workspace
 
 
 @dataclass
@@ -27,6 +28,8 @@ class ImportStore:
         self._lock, self.max_sessions, self.ttl = Lock(), max_sessions, ttl_seconds
 
     def get(self, token: str) -> ImportState:
+        if workspace := active_workspace.get():
+            return workspace.imports
         with self._lock:
             now = time.monotonic()
             for key, (_, expires) in list(self._states.items()):
@@ -40,5 +43,8 @@ class ImportStore:
             return state
 
     def clear(self, token: str) -> None:
+        if workspace := active_workspace.get():
+            workspace.imports = ImportState()
+            return
         with self._lock:
             self._states.pop(token, None)

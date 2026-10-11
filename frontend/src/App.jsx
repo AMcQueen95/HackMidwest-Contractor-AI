@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useState } from 'react'
-import { getReport, streamNarrative } from './api'
+import { getReport, resetBooks, streamNarrative } from './api'
 import { parseNarrative } from './api/mock/narrative'
+import AddRecords from './components/AddRecords'
 import AiCaption from './components/AiCaption'
 import ChatWidget from './components/ChatWidget'
 import ExpenseChanges from './components/ExpenseChanges'
@@ -14,22 +15,10 @@ import Receivables from './components/Receivables'
 import RecurringCharges from './components/RecurringCharges'
 import Section from './components/Section'
 import TradeSections from './components/TradeSections'
-import UploadDialog from './components/UploadDialog'
 import { monthName, shortDate } from './lib/format'
-import { ThemeContext } from './lib/theme'
+import { ThemeContext, applyTheme, savedTheme } from './lib/theme'
 
-const THEME_KEY = 'toolbelt-theme'
-
-// Always light on a first visit; only an explicit choice in the gear menu sticks.
-function savedTheme() {
-  try {
-    return localStorage.getItem(THEME_KEY) === 'dark' ? 'dark' : 'light'
-  } catch {
-    return 'light'
-  }
-}
-
-export default function App() {
+export default function App({ demo = false, company, email, busy, accountError, onLeave, onSignOut }) {
   const [theme, setTheme] = useState(savedTheme)
   const [month, setMonth] = useState(null)
   const [report, setReport] = useState(null)
@@ -40,16 +29,9 @@ export default function App() {
   const [narrativeDone, setNarrativeDone] = useState(false)
   const [narrativeError, setNarrativeError] = useState('')
   const [chatOpen, setChatOpen] = useState(false)
-  const [uploadOpen, setUploadOpen] = useState(false)
+  const [adding, setAdding] = useState(false)
 
-  useEffect(() => {
-    document.documentElement.dataset.theme = theme
-    try {
-      localStorage.setItem(THEME_KEY, theme)
-    } catch {
-      // Private windows can block storage; the theme still applies for this visit.
-    }
-  }, [theme])
+  useEffect(() => applyTheme(theme), [theme])
 
   useEffect(() => {
     const controller = new AbortController()
@@ -68,7 +50,7 @@ export default function App() {
     return () => controller.abort()
   }, [month, refresh])
 
-  const aiAvailable = report?.agent_status?.available ?? false
+  const aiAvailable = !demo && report?.has_books !== false && (report?.agent_status?.available ?? false)
   useEffect(() => {
     const controller = new AbortController()
     setNarrativeText('')
@@ -90,49 +72,96 @@ export default function App() {
 
   const narrative = useMemo(() => parseNarrative(narrativeText), [narrativeText])
 
-  const uploaded = () => {
-    setUploadOpen(false)
+  const reload = () => {
+    setAdding(false)
     setReport(null)
     setMonth(null)
     setRefresh((value) => value + 1)
   }
 
+  const clearBooks = async () => {
+    setError('')
+    try {
+      await resetBooks()
+      reload()
+    } catch (failure) {
+      setError(failure.message)
+    }
+  }
+
+  const accountBar = (
+    <nav className="account-bar" aria-label="Account">
+      <span>{demo ? 'Read-only demo' : `${email} · ${company.name}`}</span>
+      <button type="button" className="button button-quiet" onClick={onLeave}>{demo ? 'Back to welcome' : 'Switch company'}</button>
+      {!demo && <button type="button" className="button button-quiet" onClick={onSignOut} disabled={busy}>Sign out</button>}
+      {accountError && <p role="alert">{accountError}</p>}
+    </nav>
+  )
+
   if (error || !report || loading) {
     return (
-      <main className="page">
-        <h1>Toolbelt CFO</h1>
-        {error ? (
-          <>
-            <p role="alert" className="is-bad">{error}</p>
-            <button className="button" onClick={() => setRefresh((value) => value + 1)}>Try again</button>
-          </>
-        ) : <p role="status">Loading your books…</p>}
-      </main>
+      <>
+        {accountBar}
+        <main className="page">
+          <h1>Toolbelt CFO</h1>
+          {error ? (
+            <>
+              <p role="alert" className="is-bad">{error}</p>
+              <div><button type="button" className="button" onClick={() => setRefresh((value) => value + 1)}>Try again</button></div>
+            </>
+          ) : <p role="status">Loading your books…</p>}
+        </main>
+      </>
+    )
+  }
+  if (report.has_books === false || adding) {
+    const hasBooks = report.has_books !== false
+    return (
+      <AddRecords
+        company={hasBooks ? { name: report.business.name } : report.company}
+        aiStatus={report.agent_status}
+        hasBooks={hasBooks}
+        account={(
+          <div className="onboarding-account">
+            <span>{email}</span>
+            <button type="button" className="button button-quiet" onClick={onSignOut} disabled={busy}>Sign out</button>
+          </div>
+        )}
+        onBack={hasBooks ? () => setAdding(false) : onLeave}
+        backLabel={hasBooks ? 'Back to dashboard' : 'Switch company'}
+        onDone={reload}
+      />
     )
   }
   const name = monthName(report.month)
 
   return (
     <ThemeContext.Provider value={theme}>
+      {accountBar}
       <Header
         report={report}
         month={report.month}
         onMonth={setMonth}
         theme={theme}
         onTheme={setTheme}
-        onUpload={() => setUploadOpen(true)}
+        onAddRecords={demo ? undefined : () => setAdding(true)}
+        onClearBooks={demo ? undefined : clearBooks}
       />
 
       <main className="page">
-        <h1>
-          {name} {report.month.slice(0, 4)}
-          <span>How {report.business.name} did</span>
-        </h1>
+        <div className="page-heading">
+          <h1>
+            {report.business.name}
+            <span>{name} {report.month.slice(0, 4)}</span>
+          </h1>
+          <p className="page-heading-note">
+            {report.monthly_summary.period_complete
+              ? `Books through ${shortDate(report.monthly_summary.period_end)}`
+              : `Partial month: recorded through ${shortDate(report.monthly_summary.period_end)}`}
+          </p>
+        </div>
 
         <HeadlineTiles report={report} />
-        {!report.monthly_summary.period_complete && (
-          <p className="footnote">Partial reporting month: recorded transactions through {shortDate(report.monthly_summary.period_end)}.</p>
-        )}
         <AiCaption available={aiAvailable} narrative={narrative} done={narrativeDone}
           error={narrativeError} message={report.agent_status?.message} onOpenChat={() => setChatOpen(true)} />
 
@@ -218,7 +247,6 @@ export default function App() {
         available={aiAvailable}
         unavailableMessage={report.agent_status?.message}
       />
-      {uploadOpen && <UploadDialog isSample={report.is_sample} onUploaded={uploaded} onClose={() => setUploadOpen(false)} />}
     </ThemeContext.Provider>
   )
 }

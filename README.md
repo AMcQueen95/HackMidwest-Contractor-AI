@@ -2,7 +2,7 @@
 
 An AI CFO for small home-service businesses: contractors, landscapers, HVAC, plumbers and electricians.
 
-Owners upload their books (or use sample data) and ask plain questions. A team of AI agents answers with real numbers:
+Owners sign in, select or create a company, upload their books and ask plain questions. Visitors can explore a read-only demo. A team of AI agents answers with real numbers:
 
 - Why did profit drop this month?
 - Which jobs are losing money?
@@ -76,7 +76,7 @@ All arithmetic will happen in plain Python in `backend/app/finance/`. The agents
 | Agents | [Strands Agents SDK](https://github.com/strands-agents/sdk-python) (Python) | Required for the AWS challenge. Its agents-as-tools pattern fits a CFO orchestrator with specialists. |
 | Models | Claude Sonnet 5.5 (CFO) and Haiku 5.5 (specialists) via the Anthropic API; configurable Bedrock option | See `backend/.env.example` for provider and model settings. |
 | Backend | FastAPI | Few files, async, and serves the frontend too. |
-| Data | pandas + CSV files | No database to set up. Uploading new CSVs replaces the in-memory dataset. |
+| Accounts and data | Supabase Auth + PostgreSQL, encrypted company snapshots, pandas | Owner-only database access; books and bank connections persist across sessions. |
 | Frontend | React + JavaScript + Vite, Recharts for charts | Shared components render both the report and the chat's data cards. FastAPI serves the built files from one process. |
 
 ## Backend finance development
@@ -95,6 +95,10 @@ See the [finance function contract and accounting assumptions](docs/finance-cont
 for agent/API integration. The finance functions run independently without model
 credentials or an API server. The live interface is connected through FastAPI;
 see [live dashboard setup and testing](docs/live-dashboard.md).
+
+## Accounts and database
+
+Set up Supabase and the server encryption key using [the account setup guide](docs/accounts.md) before testing private companies or Plaid. Account and company storage are available on `main`. The public demo and offline tests work without a Supabase connection.
 
 ## Frontend development
 
@@ -118,9 +122,10 @@ Open the address printed by Vite in your local browser. `npm run build` writes
 forwards `/api` requests to FastAPI on port 8000 during development.
 
 Chat and AI explanations use Aidan's Strands agents when model access is configured.
-Without an API key, the finance dashboard, uploads, and purchase checks still work.
-Uploads validate all four files before replacing the current browser session's
-books. See [the live dashboard guide](docs/live-dashboard.md) for Windows commands,
+Without an API key, the finance dashboard and purchase checks still work, but adding
+records in the browser (CSV exports or a bank connection) needs it. The four-file
+`POST /api/upload` endpoint still validates all four files before replacing the selected
+company’s saved books. See [the live dashboard guide](docs/live-dashboard.md) for Windows commands,
 API contracts, upload behavior, and browser integration tests.
 
 ## Agents
@@ -132,9 +137,10 @@ use the finance functions. If `backend/.env` does not exist, copy
 The provider and model IDs are configurable; verify your account has access.
 Restart the backend after changing its environment configuration.
 
-The API binds each agent stream to the same browser dataset as the dashboard.
-Uploads and resets replace that dataset's chat history and written-report cache.
-Other browsers keep their own books and conversations, including on sample data.
+The API binds each agent stream to the selected authenticated company’s books.
+Uploads and resets replace that dataset’s chat history and written-report cache.
+Other accounts cannot read these books; another browser signed into the same
+account can reopen its saved companies. AI chat history is a temporary server cache.
 CLI entry points remain available:
 
 ```bash

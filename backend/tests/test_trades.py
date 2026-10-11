@@ -3,14 +3,14 @@
 import json
 
 import pytest
-from fastapi.testclient import TestClient
 
 from backend.app import trades
 from backend.app.agents import finance_tools as ft
 from backend.app.agents.cfo_agent import build_cfo_agent
 from backend.app.agents.trade_agent import system_prompt
 from backend.app.data import load_books
-from backend.app.main import create_app
+from backend.tests.account_helpers import AuthTestClient as TestClient
+from backend.tests.account_helpers import create_app
 from backend.app.trades import hvac
 
 SAMPLE = load_books(trades.SAMPLES["hvac"])

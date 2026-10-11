@@ -11,9 +11,8 @@ from pathlib import Path
 
 import pytest
 from dotenv import dotenv_values
-from fastapi.testclient import TestClient
+from backend.tests.account_helpers import AuthTestClient as TestClient, create_app
 
-from backend.app.main import create_app
 
 ENV = dotenv_values(Path(__file__).resolve().parents[1] / ".env")
 SAMPLES = Path(__file__).resolve().parents[2] / "test-data" / "imports"

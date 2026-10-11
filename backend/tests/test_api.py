@@ -1,7 +1,7 @@
 import pytest
-from fastapi.testclient import TestClient
+from backend.tests.account_helpers import AuthTestClient as TestClient, create_app
 
-from backend.app.main import COOKIE_NAME, create_app
+from backend.app.main import COOKIE_NAME
 
 
 @pytest.fixture
@@ -35,7 +35,7 @@ def test_live_report_purchase_and_health(client):
     assert response.status_code == 200
     report = response.json()
     assert report["monthly_summary"]["profit"] == -7830
-    assert report["is_sample"] is True and report["dataset_revision"] == "sample"
+    assert report["is_sample"] is False and report["dataset_revision"] == "sample"
     assert (
         client.get("/api/report", params={"month": "2026-08"}).json()[
             "monthly_summary"
@@ -97,9 +97,9 @@ def test_browser_sessions_are_isolated_and_can_reset(app, sample_files):
         assert first.get("/api/report").json()["monthly_summary"]["expenses"] == 53140
         assert second.get("/api/report").json()["monthly_summary"]["expenses"] == 52900
         reset = first.post("/api/reset")
-        assert reset.status_code == 200 and reset.json()["is_sample"] is True
+        assert reset.status_code == 200 and reset.json()["has_books"] is False
         assert COOKIE_NAME not in first.cookies
-        assert first.get("/api/report").json()["monthly_summary"]["expenses"] == 52900
+        assert first.get("/api/report").json()["has_books"] is False
 
 
 def test_duplicate_missing_and_unexpected_files_are_rejected(client, sample_files):
@@ -111,7 +111,7 @@ def test_duplicate_missing_and_unexpected_files_are_rejected(client, sample_file
     ]:
         response = client.post("/api/upload", files=files)
         assert response.status_code == 422
-        assert client.get("/api/report").json()["is_sample"] is True
+        assert client.get("/api/report").json()["dataset_revision"] == "sample"
 
 
 def test_upload_size_limits_preserve_books(client, sample_files, monkeypatch):
@@ -121,7 +121,7 @@ def test_upload_size_limits_preserve_books(client, sample_files, monkeypatch):
     assert too_big.status_code == 413
     monkeypatch.setattr("backend.app.main.MAX_FILE_BYTES", 20)
     assert client.post("/api/upload", files=multipart(sample_files)).status_code == 413
-    assert client.get("/api/report").json()["is_sample"] is True
+    assert client.get("/api/report").json()["dataset_revision"] == "sample"
 
 
 def test_built_frontend_served_without_masking_api_errors(books, tmp_path):
