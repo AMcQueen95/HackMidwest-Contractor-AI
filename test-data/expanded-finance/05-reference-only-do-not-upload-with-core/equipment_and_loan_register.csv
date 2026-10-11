@@ -1,0 +1,3 @@
+Record Type,Asset or Loan,Original Amount,Opening Principal,Principal Repaid,Remaining Principal,Notes
+Asset,Used commercial mower,4800.00,,,,Cash purchase included in May checking; depreciation not modeled
+Loan,Cedar equipment loan,18000.00,0.00,2700.00,15300.00,Principal excluded from profit; interest separately posted

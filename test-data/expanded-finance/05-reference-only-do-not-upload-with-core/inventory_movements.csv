@@ -1,0 +1,3 @@
+Date,SKU,Item,Quantity Change,Unit Cost,Reason
+2026-07-10,TEST-MULCH,Bagged mulch,50,6.20,Purchased; paid amount already included in materials
+2026-07-16,TEST-MULCH,Bagged mulch,-18,6.20,"Used on job; noncash movement, do not count a second expense"

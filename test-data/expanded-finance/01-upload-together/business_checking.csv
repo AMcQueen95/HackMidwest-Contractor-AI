@@ -1,0 +1,109 @@
+Posted Date,Description,Payee,Category,Withdrawal,Deposit,Running Balance,Account
+07/31/2026,Monthly bank maintenance fee,Fictional Cedar Bank,bank_fees,$12.00,,82160.00,Fictional checking 5501
+07/29/2026,Owner cash distribution,Business owner,owner,"$1,800.00",,82172.00,Fictional checking 5501
+07/28/2026,Service call receipt gross,Walk-in service customers,income,,$600.00,83972.00,Fictional checking 5501
+07/28/2026,Merchant processing fee,Checkout Grove,bank_fees,$18.00,,83372.00,Fictional checking 5501
+07/27/2026,Disputed customer card payment chargeback,Checkout Grove,income,$160.00,,83390.00,Fictional checking 5501
+07/25/2026,Equipment loan principal only,Cedar Equipment Finance,loan,$900.00,,83550.00,Fictional checking 5501
+07/25/2026,Loan interest only,Cedar Equipment Finance,bank_fees,$130.00,,84450.00,Fictional checking 5501
+07/24/2026,State business tax payment,State Revenue Office,taxes,$280.00,,84580.00,Fictional checking 5501
+07/23/2026,Employer retirement plan match,Crew Retirement Plan,payroll,$160.00,,84860.00,Fictional checking 5501
+07/23/2026,Employer payroll taxes two,Payroll Tax Clearing,payroll,$480.00,,85020.00,Fictional checking 5501
+07/23/2026,Payroll withholding tax remittance two,Payroll Tax Clearing,payroll,"$1,050.00",,85500.00,Fictional checking 5501
+07/22/2026,Net crew wages period two,Cedar Stone Payroll,payroll,"$3,900.00",,86550.00,Fictional checking 5501
+07/20/2026,Bookkeeping and legal consultation,Clear Oak Advisors,overhead,$320.00,,90450.00,Fictional checking 5501
+07/19/2026,Employer crew health coverage contribution,Crew Health Mutual,insurance,$310.00,,90770.00,Fictional checking 5501
+07/18/2026,Card autopay business card 7710,Internal card payment,transfer,"$2,400.00",,91080.00,Fictional checking 5501
+07/17/2026,Customer refund service adjustment,Willow Market,income,$300.00,,93480.00,Fictional checking 5501
+07/16/2026,City work permit,Cedar City Permit Office,permits,$125.00,,93780.00,Fictional checking 5501
+07/15/2026,Monthly local search advertising,LocalRoot Ads,marketing,$275.00,,93905.00,Fictional checking 5501
+07/13/2026,Employer payroll taxes,Payroll Tax Clearing,payroll,$480.00,,94180.00,Fictional checking 5501
+07/13/2026,Payroll withholding tax remittance,Payroll Tax Clearing,payroll,"$1,050.00",,94660.00,Fictional checking 5501
+07/12/2026,Net crew wages period one,Cedar Stone Payroll,payroll,"$3,900.00",,95710.00,Fictional checking 5501
+07/12/2026,Customer payment INV-CS-0705,Meadow Works,income,,"$3,200.00",99610.00,Fictional checking 5501
+07/10/2026,Plants gravel and landscape supplies,Green Canopy Supply,materials,"$2,050.00",,96410.00,Fictional checking 5501
+07/10/2026,Customer payment INV-CS-0703,Ashford Library,income,,"$7,500.00",98460.00,Fictional checking 5501
+07/09/2026,Drainage subcontractor invoice,Stonepath Drainage,subcontractors,"$2,900.00",,90960.00,Fictional checking 5501
+07/09/2026,Customer payment INV-CS-0702,Willow Market,income,,"$4,800.00",93860.00,Fictional checking 5501
+07/08/2026,Customer payment INV-CS-0701,Cypress Court HOA,income,,"$6,500.00",89060.00,Fictional checking 5501
+07/06/2026,Transfer to petty cash box,Internal transfer,transfer,$250.00,,82560.00,Fictional checking 5501
+07/05/2026,Transfer to business savings 8822,Internal transfer,transfer,"$2,500.00",,82810.00,Fictional checking 5501
+07/04/2026,Accounting subscription,LedgerSprout,software,$42.00,,85310.00,Fictional checking 5501
+07/04/2026,Second scheduling subscription,CrewCalendar,software,$59.00,,85352.00,Fictional checking 5501
+07/04/2026,Dispatch scheduling subscription,RouteNest,software,$89.00,,85411.00,Fictional checking 5501
+07/03/2026,Business mobile and internet,Field Signal Telecom,utilities,$185.00,,85500.00,Fictional checking 5501
+07/03/2026,Electric and water service,Cedar Utility District,utilities,$285.00,,85685.00,Fictional checking 5501
+07/02/2026,Workers compensation premium,Crew Cover Mutual,insurance,$390.00,,85970.00,Fictional checking 5501
+07/02/2026,Commercial liability policy,Pine Shield Insurance,insurance,$640.00,,86360.00,Fictional checking 5501
+07/01/2026,Yard and office lease,Juniper Industrial Park,rent,"$1,650.00",,87000.00,Fictional checking 5501
+06/30/2026,Monthly bank maintenance fee,Fictional Cedar Bank,bank_fees,$12.00,,88650.00,Fictional checking 5501
+06/28/2026,Service call receipt gross,Walk-in service customers,income,,$600.00,88662.00,Fictional checking 5501
+06/28/2026,Merchant processing fee,Checkout Grove,bank_fees,$18.00,,88062.00,Fictional checking 5501
+06/26/2026,Outgoing wire transfer service fee,Fictional Cedar Bank,bank_fees,$30.00,,88080.00,Fictional checking 5501
+06/25/2026,Equipment loan principal only,Cedar Equipment Finance,loan,$900.00,,88110.00,Fictional checking 5501
+06/25/2026,Loan interest only,Cedar Equipment Finance,bank_fees,$140.00,,89010.00,Fictional checking 5501
+06/24/2026,State business tax payment,State Revenue Office,taxes,$280.00,,89150.00,Fictional checking 5501
+06/23/2026,Employer payroll taxes two,Payroll Tax Clearing,payroll,$480.00,,89430.00,Fictional checking 5501
+06/23/2026,Payroll withholding tax remittance two,Payroll Tax Clearing,payroll,"$1,050.00",,89910.00,Fictional checking 5501
+06/22/2026,Net crew wages period two,Cedar Stone Payroll,payroll,"$3,700.00",,90960.00,Fictional checking 5501
+06/21/2026,Truck registration renewal,State Vehicle Office,vehicle,$135.00,,94660.00,Fictional checking 5501
+06/20/2026,Bookkeeping and legal consultation,Clear Oak Advisors,overhead,$320.00,,94795.00,Fictional checking 5501
+06/18/2026,Card autopay business card 7710,Internal card payment,transfer,"$2,400.00",,95115.00,Fictional checking 5501
+06/17/2026,Supplier refund returned irrigation parts,Green Canopy Supply,materials,,$230.00,97515.00,Fictional checking 5501
+06/16/2026,City work permit,Cedar City Permit Office,permits,$125.00,,97285.00,Fictional checking 5501
+06/15/2026,Monthly local search advertising,LocalRoot Ads,marketing,$275.00,,97410.00,Fictional checking 5501
+06/13/2026,Employer payroll taxes,Payroll Tax Clearing,payroll,$480.00,,97685.00,Fictional checking 5501
+06/13/2026,Payroll withholding tax remittance,Payroll Tax Clearing,payroll,"$1,050.00",,98165.00,Fictional checking 5501
+06/12/2026,Net crew wages period one,Cedar Stone Payroll,payroll,"$3,700.00",,99215.00,Fictional checking 5501
+06/12/2026,Customer payment INV-CS-0605,Meadow Works,income,,"$2,800.00",102915.00,Fictional checking 5501
+06/10/2026,Plants gravel and landscape supplies,Green Canopy Supply,materials,"$1,900.00",,100115.00,Fictional checking 5501
+06/10/2026,Customer payment INV-CS-0603,Ashford Library,income,,"$7,000.00",102015.00,Fictional checking 5501
+06/09/2026,Drainage subcontractor invoice,Stonepath Drainage,subcontractors,"$2,550.00",,95015.00,Fictional checking 5501
+06/09/2026,Customer payment INV-CS-0602,Willow Market,income,,"$6,000.00",97565.00,Fictional checking 5501
+06/08/2026,Customer payment INV-CS-0601,Cypress Court HOA,income,,"$8,500.00",91565.00,Fictional checking 5501
+06/06/2026,Transfer to petty cash box,Internal transfer,transfer,$250.00,,83065.00,Fictional checking 5501
+06/05/2026,Transfer to business savings 8822,Internal transfer,transfer,"$2,500.00",,83315.00,Fictional checking 5501
+06/04/2026,Accounting subscription,LedgerSprout,software,$42.00,,85815.00,Fictional checking 5501
+06/04/2026,Second scheduling subscription,CrewCalendar,software,$59.00,,85857.00,Fictional checking 5501
+06/04/2026,Dispatch scheduling subscription,RouteNest,software,$89.00,,85916.00,Fictional checking 5501
+06/03/2026,Business mobile and internet,Field Signal Telecom,utilities,$185.00,,86005.00,Fictional checking 5501
+06/03/2026,Electric and water service,Cedar Utility District,utilities,$265.00,,86190.00,Fictional checking 5501
+06/02/2026,Workers compensation premium,Crew Cover Mutual,insurance,$390.00,,86455.00,Fictional checking 5501
+06/02/2026,Commercial liability policy,Pine Shield Insurance,insurance,$640.00,,86845.00,Fictional checking 5501
+06/01/2026,Yard and office lease,Juniper Industrial Park,rent,"$1,650.00",,87485.00,Fictional checking 5501
+05/31/2026,Monthly bank maintenance fee,Fictional Cedar Bank,bank_fees,$12.00,,89135.00,Fictional checking 5501
+05/28/2026,Service call receipt gross,Walk-in service customers,income,,$600.00,89147.00,Fictional checking 5501
+05/28/2026,Merchant processing fee,Checkout Grove,bank_fees,$18.00,,88547.00,Fictional checking 5501
+05/25/2026,Equipment loan principal only,Cedar Equipment Finance,loan,$900.00,,88565.00,Fictional checking 5501
+05/25/2026,Loan interest only,Cedar Equipment Finance,bank_fees,$150.00,,89465.00,Fictional checking 5501
+05/24/2026,State business tax payment,State Revenue Office,taxes,$280.00,,89615.00,Fictional checking 5501
+05/23/2026,Employer payroll taxes two,Payroll Tax Clearing,payroll,$480.00,,89895.00,Fictional checking 5501
+05/23/2026,Payroll withholding tax remittance two,Payroll Tax Clearing,payroll,"$1,050.00",,90375.00,Fictional checking 5501
+05/22/2026,Net crew wages period two,Cedar Stone Payroll,payroll,"$3,500.00",,91425.00,Fictional checking 5501
+05/21/2026,Annual contractor license renewal,Cedar City License Office,permits,$225.00,,94925.00,Fictional checking 5501
+05/20/2026,Bookkeeping and legal consultation,Clear Oak Advisors,overhead,$320.00,,95150.00,Fictional checking 5501
+05/19/2026,Used commercial mower purchase,Moss Ridge Equipment,equipment,"$4,800.00",,95470.00,Fictional checking 5501
+05/18/2026,Card autopay business card 7710,Internal card payment,transfer,"$2,400.00",,100270.00,Fictional checking 5501
+05/16/2026,City work permit,Cedar City Permit Office,permits,$125.00,,102670.00,Fictional checking 5501
+05/15/2026,Monthly local search advertising,LocalRoot Ads,marketing,$275.00,,102795.00,Fictional checking 5501
+05/13/2026,Employer payroll taxes,Payroll Tax Clearing,payroll,$480.00,,103070.00,Fictional checking 5501
+05/13/2026,Payroll withholding tax remittance,Payroll Tax Clearing,payroll,"$1,050.00",,103550.00,Fictional checking 5501
+05/12/2026,Net crew wages period one,Cedar Stone Payroll,payroll,"$3,500.00",,104600.00,Fictional checking 5501
+05/12/2026,Customer payment INV-CS-0505,Meadow Works,income,,"$2,400.00",108100.00,Fictional checking 5501
+05/10/2026,Plants gravel and landscape supplies,Green Canopy Supply,materials,"$1,750.00",,105700.00,Fictional checking 5501
+05/10/2026,Customer payment INV-CS-0503,Ashford Library,income,,"$6,000.00",107450.00,Fictional checking 5501
+05/09/2026,Drainage subcontractor invoice,Stonepath Drainage,subcontractors,"$2,200.00",,101450.00,Fictional checking 5501
+05/09/2026,Customer payment INV-CS-0502,Willow Market,income,,"$5,200.00",103650.00,Fictional checking 5501
+05/08/2026,Customer payment INV-CS-0501,Cypress Court HOA,income,,"$7,500.00",98450.00,Fictional checking 5501
+05/06/2026,Transfer to petty cash box,Internal transfer,transfer,$250.00,,90950.00,Fictional checking 5501
+05/05/2026,Transfer to business savings 8822,Internal transfer,transfer,"$2,500.00",,91200.00,Fictional checking 5501
+05/04/2026,Accounting subscription,LedgerSprout,software,$42.00,,93700.00,Fictional checking 5501
+05/04/2026,Second scheduling subscription,CrewCalendar,software,$59.00,,93742.00,Fictional checking 5501
+05/04/2026,Dispatch scheduling subscription,RouteNest,software,$89.00,,93801.00,Fictional checking 5501
+05/03/2026,Business mobile and internet,Field Signal Telecom,utilities,$185.00,,93890.00,Fictional checking 5501
+05/03/2026,Electric and water service,Cedar Utility District,utilities,$245.00,,94075.00,Fictional checking 5501
+05/02/2026,Equipment loan proceeds,Cedar Equipment Finance,loan,,"$18,000.00",94320.00,Fictional checking 5501
+05/02/2026,Workers compensation premium,Crew Cover Mutual,insurance,$390.00,,76320.00,Fictional checking 5501
+05/02/2026,Commercial liability policy,Pine Shield Insurance,insurance,$640.00,,76710.00,Fictional checking 5501
+05/01/2026,Owner startup cash contribution,Business owner,owner,,"$4,000.00",77350.00,Fictional checking 5501
+05/01/2026,Yard and office lease,Juniper Industrial Park,rent,"$1,650.00",,73350.00,Fictional checking 5501

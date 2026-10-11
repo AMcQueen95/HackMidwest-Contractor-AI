@@ -1,0 +1,6 @@
+Date,Description,Merchant,Category,Amount
+2026-06-10,Test service payment,Test customer,income,500.00
+2026-06-11,Test fuel purchase,Test fuel stop,fuel,-85.25
+not-a-date,Unreadable date,Test vendor,fuel,-40.00
+2026-06-12,Unreadable amount,Test vendor,materials,unknown
+2026-06-13,Zero dollar row,Test vendor,bank_fees,0.00

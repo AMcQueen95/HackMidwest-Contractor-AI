@@ -1,0 +1,505 @@
+{
+  "company": "Cedar & Stone Property Services",
+  "validation": "Real CSV converter, books loader and finance functions; explicit mappings and supplied category hints; no AI, Plaid or authenticated browser calls.",
+  "labor_rate": 52,
+  "tax_reserve_rate": 0.25,
+  "categories_covered": [
+    "bank_fees",
+    "equipment",
+    "fuel",
+    "income",
+    "insurance",
+    "loan",
+    "marketing",
+    "materials",
+    "overhead",
+    "owner",
+    "payroll",
+    "permits",
+    "rent",
+    "software",
+    "subcontractors",
+    "taxes",
+    "transfer",
+    "utilities",
+    "vehicle"
+  ],
+  "baseline": {
+    "summary": {
+      "transactions": 142,
+      "invoices": 15,
+      "jobs": 18,
+      "excluded_transactions": 25,
+      "payment_dates_matched": 2,
+      "date_range": [
+        "2026-05-01",
+        "2026-07-31"
+      ],
+      "opening_balance": 106031.45,
+      "bank_balance_now": 102603.15,
+      "totals_by_category": {
+        "bank_fees": -607.0,
+        "income": 68870.0,
+        "taxes": -840.0,
+        "payroll": -31540.0,
+        "overhead": -1696.45,
+        "insurance": -3400.0,
+        "permits": -675.0,
+        "marketing": -897.0,
+        "materials": -8638.0,
+        "subcontractors": -7650.0,
+        "software": -570.0,
+        "utilities": -1350.0,
+        "rent": -4950.0,
+        "vehicle": -1485.5,
+        "equipment": -7373.4,
+        "fuel": -625.95
+      }
+    },
+    "monthly": [
+      {
+        "month": "2026-05",
+        "basis": "cash",
+        "currency": "USD",
+        "period_start": "2026-05-01",
+        "period_end": "2026-05-31",
+        "period_complete": true,
+        "revenue": 21714.0,
+        "expenses": 26242.6,
+        "profit": -4528.6,
+        "transaction_count": 44,
+        "expenses_by_category": {
+          "bank_fees": 195.0,
+          "equipment": 5657.8,
+          "fuel": 208.65,
+          "insurance": 1030.0,
+          "marketing": 299.0,
+          "materials": 2710.0,
+          "overhead": 517.15,
+          "payroll": 10060.0,
+          "permits": 375.0,
+          "rent": 1650.0,
+          "software": 190.0,
+          "subcontractors": 2200.0,
+          "taxes": 280.0,
+          "utilities": 430.0,
+          "vehicle": 440.0
+        }
+      },
+      {
+        "month": "2026-06",
+        "basis": "cash",
+        "currency": "USD",
+        "period_start": "2026-06-01",
+        "period_end": "2026-06-30",
+        "period_complete": true,
+        "revenue": 25230.0,
+        "expenses": 22557.6,
+        "profit": 2672.4,
+        "transaction_count": 47,
+        "expenses_by_category": {
+          "bank_fees": 215.0,
+          "equipment": 857.8,
+          "fuel": 208.65,
+          "insurance": 1030.0,
+          "marketing": 299.0,
+          "materials": 2980.0,
+          "overhead": 662.15,
+          "payroll": 10460.0,
+          "permits": 150.0,
+          "rent": 1650.0,
+          "software": 190.0,
+          "subcontractors": 2550.0,
+          "taxes": 280.0,
+          "utilities": 450.0,
+          "vehicle": 575.0
+        }
+      },
+      {
+        "month": "2026-07",
+        "basis": "cash",
+        "currency": "USD",
+        "period_start": "2026-07-01",
+        "period_end": "2026-07-31",
+        "period_complete": true,
+        "revenue": 22736.0,
+        "expenses": 24308.1,
+        "profit": -1572.1,
+        "transaction_count": 51,
+        "expenses_by_category": {
+          "bank_fees": 197.0,
+          "equipment": 857.8,
+          "fuel": 208.65,
+          "income": 460.0,
+          "insurance": 1340.0,
+          "marketing": 299.0,
+          "materials": 3298.0,
+          "overhead": 517.15,
+          "payroll": 11020.0,
+          "permits": 150.0,
+          "rent": 1650.0,
+          "software": 190.0,
+          "subcontractors": 2900.0,
+          "taxes": 280.0,
+          "utilities": 470.0,
+          "vehicle": 470.5
+        }
+      }
+    ],
+    "cash_balance": {
+      "as_of_date": "2026-07-31",
+      "opening_balance_date": "2026-05-01",
+      "currency": "USD",
+      "opening_balance": 106031.45,
+      "cash_in": 69680.0,
+      "cash_out": 73108.3,
+      "balance": 102603.15,
+      "tax_reserve": 0.0,
+      "available_cash": 102603.15
+    },
+    "receivables": {
+      "as_of_date": "2026-07-31",
+      "currency": "USD",
+      "total_outstanding": 34000.0,
+      "overdue_total": 34000.0,
+      "aging": {
+        "current": 0.0,
+        "1_30": 13000.0,
+        "31_60": 11500.0,
+        "61_90": 9500.0,
+        "90_plus": 0.0
+      },
+      "customers": [
+        {
+          "customer": "Ashford Library",
+          "outstanding": 20500.0
+        },
+        {
+          "customer": "Brookhaven Cafe",
+          "outstanding": 13500.0
+        }
+      ],
+      "invoices": [
+        {
+          "invoice_id": "INV-CS-0503",
+          "job_id": "CS-0503",
+          "customer": "Ashford Library",
+          "due": "2026-05-19",
+          "outstanding": 6000.0,
+          "days_overdue": 73,
+          "aging_bucket": "61_90"
+        },
+        {
+          "invoice_id": "INV-CS-0504",
+          "job_id": "CS-0504",
+          "customer": "Brookhaven Cafe",
+          "due": "2026-05-20",
+          "outstanding": 3500.0,
+          "days_overdue": 72,
+          "aging_bucket": "61_90"
+        },
+        {
+          "invoice_id": "INV-CS-0603",
+          "job_id": "CS-0603",
+          "customer": "Ashford Library",
+          "due": "2026-06-19",
+          "outstanding": 7000.0,
+          "days_overdue": 42,
+          "aging_bucket": "31_60"
+        },
+        {
+          "invoice_id": "INV-CS-0604",
+          "job_id": "CS-0604",
+          "customer": "Brookhaven Cafe",
+          "due": "2026-06-20",
+          "outstanding": 4500.0,
+          "days_overdue": 41,
+          "aging_bucket": "31_60"
+        },
+        {
+          "invoice_id": "INV-CS-0703",
+          "job_id": "CS-0703",
+          "customer": "Ashford Library",
+          "due": "2026-07-19",
+          "outstanding": 7500.0,
+          "days_overdue": 12,
+          "aging_bucket": "1_30"
+        },
+        {
+          "invoice_id": "INV-CS-0704",
+          "job_id": "CS-0704",
+          "customer": "Brookhaven Cafe",
+          "due": "2026-07-20",
+          "outstanding": 5500.0,
+          "days_overdue": 11,
+          "aging_bucket": "1_30"
+        }
+      ]
+    },
+    "job_status_counts": {
+      "completed": 15,
+      "quoted": 1,
+      "in_progress": 1,
+      "cancelled": 1
+    },
+    "warnings": [
+      "Left out 18 transfer transactions ($30,900.00) because they aren't business income or spending: money moved between the business's own accounts, including credit card payments.",
+      "Left out 3 owner transactions ($5,895.00) because they aren't business income or spending: owner draws, owner contributions, personal spending.",
+      "Left out 4 loan transactions ($20,700.00) because they aren't business income or spending: loan proceeds or loan principal payments."
+    ]
+  },
+  "higher_cost": {
+    "summary": {
+      "transactions": 143,
+      "invoices": 15,
+      "jobs": 18,
+      "excluded_transactions": 25,
+      "payment_dates_matched": 2,
+      "date_range": [
+        "2026-05-01",
+        "2026-07-31"
+      ],
+      "opening_balance": 107481.45,
+      "bank_balance_now": 100903.15,
+      "totals_by_category": {
+        "bank_fees": -607.0,
+        "income": 68870.0,
+        "taxes": -840.0,
+        "payroll": -32840.0,
+        "overhead": -1696.45,
+        "insurance": -3800.0,
+        "permits": -675.0,
+        "marketing": -897.0,
+        "materials": -8638.0,
+        "subcontractors": -7650.0,
+        "software": -570.0,
+        "utilities": -1350.0,
+        "rent": -4950.0,
+        "vehicle": -2935.5,
+        "equipment": -7373.4,
+        "fuel": -625.95
+      }
+    },
+    "monthly": [
+      {
+        "month": "2026-05",
+        "basis": "cash",
+        "currency": "USD",
+        "period_start": "2026-05-01",
+        "period_end": "2026-05-31",
+        "period_complete": true,
+        "revenue": 21714.0,
+        "expenses": 26242.6,
+        "profit": -4528.6,
+        "transaction_count": 44,
+        "expenses_by_category": {
+          "bank_fees": 195.0,
+          "equipment": 5657.8,
+          "fuel": 208.65,
+          "insurance": 1030.0,
+          "marketing": 299.0,
+          "materials": 2710.0,
+          "overhead": 517.15,
+          "payroll": 10060.0,
+          "permits": 375.0,
+          "rent": 1650.0,
+          "software": 190.0,
+          "subcontractors": 2200.0,
+          "taxes": 280.0,
+          "utilities": 430.0,
+          "vehicle": 440.0
+        }
+      },
+      {
+        "month": "2026-06",
+        "basis": "cash",
+        "currency": "USD",
+        "period_start": "2026-06-01",
+        "period_end": "2026-06-30",
+        "period_complete": true,
+        "revenue": 25230.0,
+        "expenses": 22557.6,
+        "profit": 2672.4,
+        "transaction_count": 47,
+        "expenses_by_category": {
+          "bank_fees": 215.0,
+          "equipment": 857.8,
+          "fuel": 208.65,
+          "insurance": 1030.0,
+          "marketing": 299.0,
+          "materials": 2980.0,
+          "overhead": 662.15,
+          "payroll": 10460.0,
+          "permits": 150.0,
+          "rent": 1650.0,
+          "software": 190.0,
+          "subcontractors": 2550.0,
+          "taxes": 280.0,
+          "utilities": 450.0,
+          "vehicle": 575.0
+        }
+      },
+      {
+        "month": "2026-07",
+        "basis": "cash",
+        "currency": "USD",
+        "period_start": "2026-07-01",
+        "period_end": "2026-07-31",
+        "period_complete": true,
+        "revenue": 22736.0,
+        "expenses": 27458.1,
+        "profit": -4722.1,
+        "transaction_count": 52,
+        "expenses_by_category": {
+          "bank_fees": 197.0,
+          "equipment": 857.8,
+          "fuel": 208.65,
+          "income": 460.0,
+          "insurance": 1740.0,
+          "marketing": 299.0,
+          "materials": 3298.0,
+          "overhead": 517.15,
+          "payroll": 12320.0,
+          "permits": 150.0,
+          "rent": 1650.0,
+          "software": 190.0,
+          "subcontractors": 2900.0,
+          "taxes": 280.0,
+          "utilities": 470.0,
+          "vehicle": 1920.5
+        }
+      }
+    ],
+    "cash_balance": {
+      "as_of_date": "2026-07-31",
+      "opening_balance_date": "2026-05-01",
+      "currency": "USD",
+      "opening_balance": 107481.45,
+      "cash_in": 69680.0,
+      "cash_out": 76258.3,
+      "balance": 100903.15,
+      "tax_reserve": 0.0,
+      "available_cash": 100903.15
+    },
+    "receivables": {
+      "as_of_date": "2026-07-31",
+      "currency": "USD",
+      "total_outstanding": 34000.0,
+      "overdue_total": 34000.0,
+      "aging": {
+        "current": 0.0,
+        "1_30": 13000.0,
+        "31_60": 11500.0,
+        "61_90": 9500.0,
+        "90_plus": 0.0
+      },
+      "customers": [
+        {
+          "customer": "Ashford Library",
+          "outstanding": 20500.0
+        },
+        {
+          "customer": "Brookhaven Cafe",
+          "outstanding": 13500.0
+        }
+      ],
+      "invoices": [
+        {
+          "invoice_id": "INV-CS-0503",
+          "job_id": "CS-0503",
+          "customer": "Ashford Library",
+          "due": "2026-05-19",
+          "outstanding": 6000.0,
+          "days_overdue": 73,
+          "aging_bucket": "61_90"
+        },
+        {
+          "invoice_id": "INV-CS-0504",
+          "job_id": "CS-0504",
+          "customer": "Brookhaven Cafe",
+          "due": "2026-05-20",
+          "outstanding": 3500.0,
+          "days_overdue": 72,
+          "aging_bucket": "61_90"
+        },
+        {
+          "invoice_id": "INV-CS-0603",
+          "job_id": "CS-0603",
+          "customer": "Ashford Library",
+          "due": "2026-06-19",
+          "outstanding": 7000.0,
+          "days_overdue": 42,
+          "aging_bucket": "31_60"
+        },
+        {
+          "invoice_id": "INV-CS-0604",
+          "job_id": "CS-0604",
+          "customer": "Brookhaven Cafe",
+          "due": "2026-06-20",
+          "outstanding": 4500.0,
+          "days_overdue": 41,
+          "aging_bucket": "31_60"
+        },
+        {
+          "invoice_id": "INV-CS-0703",
+          "job_id": "CS-0703",
+          "customer": "Ashford Library",
+          "due": "2026-07-19",
+          "outstanding": 7500.0,
+          "days_overdue": 12,
+          "aging_bucket": "1_30"
+        },
+        {
+          "invoice_id": "INV-CS-0704",
+          "job_id": "CS-0704",
+          "customer": "Brookhaven Cafe",
+          "due": "2026-07-20",
+          "outstanding": 5500.0,
+          "days_overdue": 11,
+          "aging_bucket": "1_30"
+        }
+      ]
+    },
+    "job_status_counts": {
+      "completed": 15,
+      "quoted": 1,
+      "in_progress": 1,
+      "cancelled": 1
+    },
+    "warnings": [
+      "Left out 18 transfer transactions ($30,900.00) because they aren't business income or spending: money moved between the business's own accounts, including credit card payments.",
+      "Left out 3 owner transactions ($5,895.00) because they aren't business income or spending: owner draws, owner contributions, personal spending.",
+      "Left out 4 loan transactions ($20,700.00) because they aren't business income or spending: loan proceeds or loan principal payments."
+    ]
+  },
+  "duplicates": {
+    "skipped": 18,
+    "monthly_totals_unchanged": true,
+    "warnings": [
+      "Skipped 18 transactions that appeared in more than one file.",
+      "Left out 18 transfer transactions ($30,900.00) because they aren't business income or spending: money moved between the business's own accounts, including credit card payments.",
+      "Left out 3 owner transactions ($5,895.00) because they aren't business income or spending: owner draws, owner contributions, personal spending.",
+      "Left out 4 loan transactions ($20,700.00) because they aren't business income or spending: loan proceeds or loan principal payments."
+    ]
+  },
+  "partial_bad_rows": {
+    "summary": {
+      "month": "2026-06",
+      "basis": "cash",
+      "currency": "USD",
+      "period_start": "2026-06-01",
+      "period_end": "2026-06-11",
+      "period_complete": false,
+      "revenue": 500.0,
+      "expenses": 85.25,
+      "profit": 414.75,
+      "transaction_count": 2,
+      "expenses_by_category": {
+        "fuel": 85.25
+      }
+    },
+    "warnings": [
+      "partial_bad_rows.csv: skipped 3 rows without a readable date or amount."
+    ]
+  }
+}

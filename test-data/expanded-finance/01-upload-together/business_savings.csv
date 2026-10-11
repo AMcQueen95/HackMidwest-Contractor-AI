@@ -1,0 +1,7 @@
+Date,Description,Merchant,Category,Amount,Direction,Balance,Account
+2026-05-05,Transfer from business checking 5501,Internal transfer,transfer,2500.00,CREDIT,14500.00,Fictional savings 8822
+2026-05-31,Savings interest credited,Fictional Cedar Bank,income,14.00,CREDIT,14514.00,Fictional savings 8822
+2026-06-05,Transfer from business checking 5501,Internal transfer,transfer,2500.00,CREDIT,17014.00,Fictional savings 8822
+2026-06-30,Savings interest credited,Fictional Cedar Bank,income,15.00,CREDIT,17029.00,Fictional savings 8822
+2026-07-05,Transfer from business checking 5501,Internal transfer,transfer,2500.00,CREDIT,19529.00,Fictional savings 8822
+2026-07-31,Savings interest credited,Fictional Cedar Bank,income,16.00,CREDIT,19545.00,Fictional savings 8822

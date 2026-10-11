@@ -1,0 +1,19 @@
+Job ID,Customer,Job Type,Start Date,End Date,Quoted Price,Labor Hours,Status
+CS-0501,Cypress Court HOA,Landscape maintenance,2026-05-01,2026-05-03,7500.00,38,Completed
+CS-0502,Willow Market,Storefront remodel,2026-05-01,2026-05-04,5200.00,42,Completed
+CS-0503,Ashford Library,Accessible walkway,2026-05-01,2026-05-05,12000.00,96,Completed
+CS-0504,Brookhaven Cafe,Patio repair,2026-05-01,2026-05-06,3500.00,25,Completed
+CS-0505,Meadow Works,Irrigation service,2026-05-01,2026-05-07,2400.00,18,Completed
+CS-0601,Cypress Court HOA,Landscape maintenance,2026-06-01,2026-06-03,8500.00,38,Completed
+CS-0602,Willow Market,Storefront remodel,2026-06-01,2026-06-04,6000.00,42,Completed
+CS-0603,Ashford Library,Accessible walkway,2026-06-01,2026-06-05,14000.00,96,Completed
+CS-0604,Brookhaven Cafe,Patio repair,2026-06-01,2026-06-06,4500.00,25,Completed
+CS-0605,Meadow Works,Irrigation service,2026-06-01,2026-06-07,2800.00,18,Completed
+CS-0701,Cypress Court HOA,Landscape maintenance,2026-07-01,2026-07-03,6500.00,38,Completed
+CS-0702,Willow Market,Storefront remodel,2026-07-01,2026-07-04,4800.00,42,Completed
+CS-0703,Ashford Library,Accessible walkway,2026-07-01,2026-07-05,15000.00,96,Completed
+CS-0704,Brookhaven Cafe,Patio repair,2026-07-01,2026-07-06,5500.00,25,Completed
+CS-0705,Meadow Works,Irrigation service,2026-07-01,2026-07-07,3200.00,18,Completed
+CS-QUOTE-01,Fern Hollow Apartments,Courtyard redesign,2026-07-20,,18200.00,0,Quote
+CS-ACTIVE-01,Copper Gate Offices,Drainage installation,2026-07-24,,9700.00,16,In progress
+CS-CANCEL-01,Birch Lane Bakery,Patio expansion,2026-06-14,,4200.00,0,Cancelled

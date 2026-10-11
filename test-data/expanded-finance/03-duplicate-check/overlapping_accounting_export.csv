@@ -1,0 +1,19 @@
+Date,Description,Merchant,Category,Amount
+2026-05-02,Equipment loan proceeds,Cedar Equipment Finance,loan,18000.00
+2026-05-03,Electric and water service,Cedar Utility District,utilities,-245.00
+2026-05-03,Business mobile and internet,Field Signal Telecom,utilities,-185.00
+2026-05-04,Dispatch scheduling subscription,RouteNest,software,-89.00
+2026-05-04,Second scheduling subscription,CrewCalendar,software,-59.00
+2026-05-04,Accounting subscription,LedgerSprout,software,-42.00
+2026-05-05,Transfer to business savings 8822,Internal transfer,transfer,-2500.00
+2026-05-06,Transfer to petty cash box,Internal transfer,transfer,-250.00
+2026-05-08,Customer payment INV-CS-0501,Cypress Court HOA,income,7500.00
+2026-05-09,Customer payment INV-CS-0502,Willow Market,income,5200.00
+2026-05-09,Drainage subcontractor invoice,Stonepath Drainage,subcontractors,-2200.00
+2026-05-10,Customer payment INV-CS-0503,Ashford Library,income,6000.00
+2026-05-07,Lumber fasteners and masonry,Timberline Trade Supply,materials,-960.00
+2026-05-08,Diesel fuel crew truck,Trail Fuel Stop,fuel,-86.45
+2026-05-08,Diesel fuel crew truck,Trail Fuel Stop,fuel,-86.45
+2026-05-11,Truck service oil and tires,Oakbend Fleet Service,vehicle,-440.00
+2026-05-14,Mini excavator rental,Liftleaf Rentals,equipment,-720.00
+2026-05-17,Tool blades and safety equipment,Workshop Orchard,equipment,-137.80
