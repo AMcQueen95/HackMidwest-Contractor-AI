@@ -7,8 +7,10 @@ latest activity lands on the day the account is created.
 import random
 from datetime import date, timedelta
 
-CUSTOMERS = ["MILLER RESIDENCE", "WESTPORT DENTAL GRP", "BROOKSIDE PROPERTY MGMT", "OKAFOR HOME",
-             "PATEL RESIDENCE", "CROWN CENTER RETAIL", "LINDQVIST HOME", "NGUYEN RESIDENCE"]
+RESIDENTIAL = ["MILLER RESIDENCE", "OKAFOR HOME", "PATEL RESIDENCE", "LINDQVIST HOME", "NGUYEN RESIDENCE",
+               "BROOKS RESIDENCE", "DELGADO HOME", "SCHULTZ RESIDENCE", "KIM RESIDENCE", "RUSSO HOME",
+               "WHITFIELD RESIDENCE", "TRAN HOME", "COLEMAN RESIDENCE", "HADDAD HOME", "GARZA RESIDENCE"]
+COMMERCIAL = ["WESTPORT DENTAL GRP", "BROOKSIDE PROPERTY MGMT", "CROWN CENTER RETAIL", "PLAZA FITNESS LLC"]
 
 
 def _tx(day: date, amount: float, description: str) -> dict:
@@ -45,11 +47,27 @@ def contractor_config(end: date = date(2026, 10, 9), months: int = 3, seed: int 
             checking.append(_tx(day, 4200 + rng.randint(-600, 600), "PAYMENT TO CHASE CARD ENDING 4421"))
         if d == 28:
             checking.append(_tx(day, 3000, "ONLINE TRANSFER TO SAV XXXX9012 OWNER DRAW"))
-        if day.weekday() < 5 and rng.random() < 0.85:  # customer payments most weekdays
-            amount = rng.choice([rng.randint(280, 950), rng.randint(800, 1800), rng.randint(1800, 2600),
-                                 rng.randint(7200, 9600) if rng.random() < 0.35 else rng.randint(900, 2000)])
-            label = rng.choice(["MOBILE CHECK DEPOSIT", "STRIPE TRANSFER", f"ACH CREDIT {rng.choice(CUSTOMERS)}"])
-            checking.append(_tx(day, -amount, label))
+        if day.weekday() < 5:  # customer payments: most name the customer, card payouts don't
+            for _ in range(rng.choice([0, 1, 1, 2])):
+                kind = rng.random()
+                if kind < 0.18:
+                    amount = rng.choice([129, 149, 169, 189])  # tune-up
+                elif kind < 0.78:
+                    amount = rng.randint(220, 1400)  # repair
+                elif kind < 0.95:
+                    amount = rng.randint(6800, 13800)  # system install
+                else:
+                    amount = rng.randint(12500, 21000)  # commercial job
+                commercial = amount >= 12500
+                payer = rng.choice(COMMERCIAL if commercial else RESIDENTIAL)
+                style = rng.random()
+                if style < 0.25 and not commercial:
+                    label = "STRIPE TRANSFER ST-" + str(rng.randint(100000, 999999))
+                elif style < 0.45 and not commercial:
+                    label = f"ZELLE FROM {payer}"
+                else:
+                    label = f"ACH CREDIT {payer} INV {rng.randint(2000, 2999)}"
+                checking.append(_tx(day, -amount, label))
         if day.weekday() < 5 and rng.random() < 0.25:  # supply house runs
             vendor = rng.choice(["JOHNSTONE SUPPLY KC", "FERGUSON ENT #2231", "HVAC SUPPLY CO"])
             checking.append(_tx(day, rng.randint(350, 2400) * (1.3 if m >= 9 else 1), vendor))

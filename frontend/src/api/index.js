@@ -141,3 +141,12 @@ export function createCompany(name) {
   return request('/api/companies', { method: 'POST',
     headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ name }) })
 }
+
+// Kinds of work (onboarding). GET /api/trades lists them; POST /api/trade saves the company's choice.
+export async function getTrades() {
+  return (await request('/api/trades')).trades
+}
+export function saveTrades({ trades, other }) {
+  return request('/api/trade', { method: 'POST',
+    headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ trades, other }) })
+}

@@ -60,7 +60,9 @@ def test_trade_api_sets_trade_loads_sample_and_rejects_unknown():
         "hvac", "plumbing", "electrical"]
 
     picked = client.post("/api/trade", json={"trade": "hvac"}).json()
-    assert picked["trade"]["key"] == "hvac" and len(picked["trade_sections"]) == 5
+    ok = [x["key"] for x in hvac.sections(load_books(), picked["month"]) if x["status"] == "ok"]
+    assert picked["trade"]["key"] == "hvac" and [x["key"] for x in picked["trade_sections"]] == ok
+    assert "maintenance_plans" not in ok  # two months of books, no tune-ups: hidden, not shown empty
     assert picked["business"]["name"] == "Ridgeline Heating & Air"  # books unchanged
 
     sample = client.post("/api/trade", json={"trade": "hvac", "load_sample": True}).json()
@@ -145,3 +147,157 @@ def test_each_trade_loads_its_sample_and_gets_its_analyst(key):
         assert "trade_agent" in cfo.tool_names
         assert all(b.__doc__ in cfo.system_prompt for b in trades.get(key).SECTIONS)  # routing per trade
         assert all(b.__name__ in system_prompt(trades.get(key)) for b in trades.get(key).SECTIONS)
+
+
+# --- Jobs estimated from bank payments (bank connection without a jobs export) -----------
+
+from datetime import date as _date  # noqa: E402
+
+from backend.app.integrations.records import BusinessFacts, Records, Transaction, assemble  # noqa: E402
+
+
+def _bank_only_books(trade):
+    txs = [Transaction(date=_date(2026, 9, d), amount=amount, description=desc, vendor=vendor, category=cat)
+           for d, amount, desc, vendor, cat in [
+               (2, 9500, "ACH CREDIT MILLER RESIDENCE", "Miller Residence", "income"),
+               (3, 350, "ZELLE FROM PATEL RESIDENCE", "Patel Residence", "income"),
+               (4, 149, "ACH CREDIT OKAFOR HOME", "Okafor Home", "income"),
+               (5, 2400, "STRIPE TRANSFER ST-1", "Stripe", "income"),  # bundles customers: not a job
+               (6, -4200, "FERGUSON ENT", "Ferguson", "materials")]]
+    return assemble(Records(transactions=txs, closing_balance=20000), BusinessFacts(),
+                    trades.get(trade).estimate_job_type if trade else None)
+
+
+def test_named_payments_become_estimated_jobs_and_payouts_dont():
+    books, warnings, summary = _bank_only_books("hvac")
+    assert summary["estimated_jobs"] == 3
+    types = sorted(books.jobs["job_type"])
+    assert types == ["Repair (estimated from payment)", "System install (estimated from payment)",
+                     "Tune-up (estimated from payment)"]
+    assert any("estimated from customer payments" in w and "1 payouts" in w for w in warnings)
+
+
+def test_estimated_jobs_show_revenue_mix_without_fake_margins():
+    books, _, _ = _bank_only_books("hvac")
+    sections = {s["key"]: s for s in hvac.sections(books, "2026-09")}
+    mix = sections["installs_vs_repairs"]
+    assert all(r["margin"] is None for r in mix["table"]["rows"])
+    assert "estimated from customer payments" in mix["note"]
+    assert sections["callbacks"]["status"] == "needs_data"  # free visits never hit the bank
+    assert sections["equipment_costs"]["status"] == "needs_data"
+
+
+def test_jobs_export_turns_estimation_off():
+    books, _, summary = assemble(Records(
+        transactions=[Transaction(date=_date(2026, 9, 2), amount=900, description="ACH CREDIT ANN", vendor="Ann",
+                                  category="income")],
+        jobs=[__import__("backend.app.integrations.records", fromlist=["Job"]).Job(
+            "J1", "Ann", "AC repair", _date(2026, 9, 1), _date(2026, 9, 1), 900)]), BusinessFacts(),
+        hvac.estimate_job_type)
+    assert summary["estimated_jobs"] == 0 and list(books.jobs["job_id"]) == ["J1"]
+
+
+# --- Hiring ----------------------------------------------------------------------------------
+
+from backend.app.finance import hire_capacity  # noqa: E402
+
+
+def test_hire_capacity_from_a_full_year_of_books():
+    result = hire_capacity(SAMPLE, monthly_cost=5200)
+    assert "full year" in result["basis"]
+    afford = result["affordable_from_profit"]
+    assert afford["monthly_cost"] == result["average_monthly_profit"] > 0
+    assert afford["hourly_full_time"] == round(afford["monthly_wages"] / (40 * 52 / 12), 2)
+    hire = result["proposed_hire"]
+    assert hire["covered_by_current_profit"] is True
+    assert hire["extra_revenue_to_keep_profit"] == round(5200 / (result["margin_after_job_costs_percent"] / 100), 0) \
+        or abs(hire["extra_revenue_to_keep_profit"] - 5200 / (result["margin_after_job_costs_percent"] / 100)) < 25
+    assert hire["extra_jobs_per_month"] > 0 and hire["months_spare_cash_covers"] > 0
+
+
+def test_hire_agent_tool_converts_pay_to_monthly_cost(monkeypatch):
+    monkeypatch.setattr(ft, "get_books", lambda: SAMPLE)
+    result = ft.hire_affordability(hourly_rate=25)
+    assert result["proposed_hire"]["monthly_cost"] == round(25 * 40 * 52 / 12 * 1.2, 2)
+
+
+# --- Onboarding: several kinds of work ------------------------------------------------------
+
+def _new_company_client():
+    """A signed-in client whose company has no books yet, like right after onboarding step 2."""
+    app = create_app()
+    client = TestClient(app)
+    provider = app.state.accounts
+    user = provider.tokens[client.headers["Authorization"].split()[1]]
+    client.headers["X-Company-ID"] = provider.company(user, "New Shop")["id"]
+    return client
+
+
+def test_new_company_must_answer_the_trade_question_first():
+    client = _new_company_client()
+    report = client.get("/api/report").json()
+    assert report["has_books"] is False and report["trade_setup"]["done"] is False
+
+    saved = client.post("/api/trade", json={"trades": [], "other": None})
+    assert saved.status_code == 422  # pick something or describe it
+
+    saved = client.post("/api/trade", json={"trades": ["hvac", "plumbing"], "other": "Snow removal"}).json()
+    assert saved["has_books"] is False
+    assert saved["trade_setup"] == {"trades": ["hvac", "plumbing"], "other": "Snow removal", "done": True,
+                                    "names": ["HVAC", "Plumbing"]}
+    assert client.get("/api/report").json()["trade_setup"]["done"] is True  # saved with the company
+
+
+def test_other_only_counts_as_answered():
+    client = _new_company_client()
+    saved = client.post("/api/trade", json={"trades": [], "other": "Landscaping"}).json()
+    assert saved["trade_setup"]["done"] is True and saved["trade_sections"] == []
+
+
+def test_several_trades_show_each_trades_sections_and_questions():
+    client = TestClient(create_app())
+    report = client.post("/api/trade", json={"trades": ["plumbing", "hvac"]}).json()
+    # The two-month sample's jobs are just "plumbing", so no plumbing section can be worked out: none shown.
+    assert {s["trade"] for s in report["trade_sections"]} == {"hvac"}
+    assert all(s["status"] == "ok" for s in report["trade_sections"])
+    assert report["trade"]["name"] == "HVAC and Plumbing"
+    assert set(report["suggested_questions"]) & set(hvac.QUESTIONS) and \
+        set(report["suggested_questions"]) & set(plumbing.QUESTIONS)
+
+
+def test_cfo_gets_every_trade_and_the_owners_own_words():
+    with trades.use_trade(["hvac", "electrical"], "Generator installs"):
+        cfo = build_cfo_agent()
+        assert "trade_agent" in cfo.tool_names
+        assert hvac.ADVICE in cfo.system_prompt and electrical.ADVICE in cfo.system_prompt
+        assert "Generator installs" in cfo.system_prompt
+
+
+def test_work_mix_skips_other_trades_jobs_when_several_are_chosen():
+    books = load_books(trades.SAMPLES["plumbing"])  # plumbing jobs mostly look like "Other" to HVAC
+    from backend.app.trades import common
+    alone = hvac.installs_vs_repairs(books, "2026-09")
+    with common.several_trades(True):
+        together = hvac.installs_vs_repairs(books, "2026-09")
+    assert any(r["segment"] == "Other" for r in alone["table"]["rows"])
+    assert not any(r["segment"] == "Other" for r in together["table"]["rows"])
+
+
+def test_clearing_books_keeps_the_kinds_of_work():
+    client = TestClient(create_app())
+    client.post("/api/trade", json={"trades": ["electrical"], "other": "Generators"})
+    client.post("/api/reset")
+    report = client.get("/api/report").json()
+    assert report["has_books"] is False
+    assert report["trade_setup"]["trades"] == ["electrical"] and report["trade_setup"]["done"] is True
+
+
+
+def test_bank_only_books_hide_sections_that_need_a_jobs_export():
+    books, _, _ = _bank_only_books("hvac")
+    from backend.app.trades.routes import trade_payload
+    from backend.app.trades.store import trades as store
+    store.set("bank-only-test", ["hvac"])
+    shown = {s["key"] for s in trade_payload(books, "2026-09", "bank-only-test")["trade_sections"]}
+    assert "installs_vs_repairs" in shown
+    assert not shown & {"equipment_costs", "callbacks"}  # can't come from bank payments

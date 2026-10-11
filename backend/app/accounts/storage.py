@@ -108,7 +108,9 @@ class AccountDatasetStore(DatasetStore):
 
     def reset(self, token):
         if workspace := active_workspace.get():
+            kept = {k: workspace.data[k] for k in ("trades", "trade_other", "trade_done") if k in workspace.data}
             workspace.data.clear()
+            workspace.data.update(kept)  # clearing books keeps the company's kinds of work
             workspace.dataset = None
             workspace.imports = ImportState()
         else:

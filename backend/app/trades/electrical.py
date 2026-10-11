@@ -5,12 +5,14 @@ code from the numbers. Big jobs include ones still in progress, read straight
 from the books (job costs to date and invoices so far).
 """
 
+import re
 from statistics import median
 
 import pandas as pd
 
 from backend.app.data import Books
-from backend.app.trades.common import jobs_in, label, months, needs, pct, plain, section, sorter, work_mix
+from backend.app.trades.common import (ESTIMATED_NOTE, estimated, jobs_in, label, months, needs, pct, plain, section,
+                                       sorter, work_mix)
 
 KEY, NAME = "electrical", "Electrical"
 BIG_JOB = 5000  # dollars; big jobs are usually billed in stages
@@ -68,6 +70,8 @@ def big_jobs(books: Books, through: str) -> dict:
     jobs = _big_jobs(books)
     if jobs.empty:
         return needs(key, title, question, window, f"No jobs over ${BIG_JOB:,} found.")
+    if estimated(jobs):
+        return needs(key, title, question, window, ESTIMATED_NOTE)
     done = jobs[jobs["status"] == "completed"]
     typical = median(done["cost_share"]) if not done.empty else None
     open_jobs = jobs[jobs["status"] == "in_progress"]
@@ -207,6 +211,21 @@ def material_prices(books: Books, through: str) -> dict:
         {"key": "month", "label": "Month", "format": "text"}, {"key": "jobs", "label": "Jobs", "format": "count"},
         {"key": "material_share", "label": "Material share", "format": "percent"}], rows), takeaway,
         "Material share is the purchases tied to each finished job as a share of its price.")
+
+
+_BUSINESS = re.compile(r"\b(llc|inc|corp|co\b|group|dental|clinic|retail|center|properties|property|mgmt|"
+                       r"management|partners|school|church|office|restaurant|deli|hotel|apartments|lofts|suite)\b", re.I)
+
+
+def estimate_job_type(amount: float, customer: str) -> str:
+    """A job type from a customer payment's size, when there's no jobs export."""
+    if amount >= 15000 and _BUSINESS.search(customer):
+        return "New construction"
+    if amount >= 6000:
+        return "Remodel or rewire"
+    if amount >= 2400:
+        return "Panel upgrade"
+    return "Service call"
 
 
 SECTIONS = [kinds_of_work, big_jobs, unbilled_work, permits, material_prices]

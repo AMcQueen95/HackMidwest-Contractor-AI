@@ -1,6 +1,6 @@
 import { CheckIcon, Logo } from './Icons'
 
-export const STEPS = ['Account', 'Company', 'Add records', 'Review']
+export const STEPS = ['Account', 'Company', 'Type of work', 'Add records', 'Review']
 
 export default function OnboardingShell({ step, onBack, backLabel = 'Back', width = 'narrow', account, children }) {
   return (

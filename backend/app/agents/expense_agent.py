@@ -3,7 +3,7 @@
 from strands import Agent
 
 from backend.app.agents import finance_tools as ft
-from backend.app.agents.prompts import NUMBERS_RULES
+from backend.app.agents.prompts import BRIEF_RULES, ESTIMATED_JOBS, NUMBERS_RULES
 from backend.app.config import build_model
 
 SYSTEM_PROMPT = f"""\
@@ -21,7 +21,11 @@ Answer with short bullet points, biggest dollar impact first. For each point,
 give the dollar change, the percent change and one specific suggestion where
 there is one.
 
-{NUMBERS_RULES}"""
+{NUMBERS_RULES}
+
+{BRIEF_RULES}
+
+{ESTIMATED_JOBS}"""
 
 
 def build_expense_agent() -> Agent:

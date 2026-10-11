@@ -149,7 +149,8 @@ def create_app(
 
     def empty_report():
         return {"has_books": False, "company": active_workspace.get().company,
-                "agent_status": agent_status()}
+                "agent_status": agent_status(),
+                "trade_setup": trade_routes.trade_payload(None, None, None)["trade_setup"]}
 
     @app.get("/api/report")
     def report(request: Request, response: Response, month: str | None = None):
@@ -173,7 +174,7 @@ def create_app(
         selected = build_report(dataset.books, month)["month"]
 
         async def events():
-            with use_dataset(dataset.books, dataset.agent_state), use_trade(trades.get(token)):
+            with use_dataset(dataset.books, dataset.agent_state), use_trade(trades.get(token), trades.profile(token)["other"]):
                 try:
                     async for chunk in streaming.stream_narrative(selected):
                         yield {"reset": True} if chunk is None else {"text": chunk}
@@ -194,7 +195,7 @@ def create_app(
         selected = build_report(dataset.books, body.month)["month"]
 
         async def events():
-            with use_dataset(dataset.books, dataset.agent_state), use_trade(trades.get(token)):
+            with use_dataset(dataset.books, dataset.agent_state), use_trade(trades.get(token), trades.profile(token)["other"]):
                 try:
                     async for event in streaming.ask_stream(
                         body.question.strip(), body.session_id, selected

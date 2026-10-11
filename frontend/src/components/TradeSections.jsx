@@ -63,18 +63,20 @@ export function TradeSectionBody({ section, compact = false }) {
   )
 }
 
-export default function TradeSections({ trade, sections }) {
-  if (!trade || !sections?.length) return null
-  return (
-    <>
-      <h2 className="trade-heading">For your {trade.name} business</h2>
-      <div className="grid-2">
-        {sections.map((section) => (
-          <Section key={section.key} title={section.title} aside={section.period}>
-            <TradeSectionBody section={section} />
-          </Section>
-        ))}
-      </div>
-    </>
-  )
+// All trade sections in one flowing layout: cards pack into columns whatever their
+// count or height, and the column count follows the screen width.
+// One card per trade section, for the dashboard board. The trade's name sits in
+// the corner so cards from several trades can mix in one layout.
+export function tradeCards(sections = []) {
+  return sections
+    .filter((section) => section.status !== 'needs_data')
+    .map((section) => (
+      <Section
+        key={`${section.trade}:${section.key}`}
+        title={section.title}
+        aside={section.trade_name ? `${section.trade_name} · ${section.period}` : section.period}
+      >
+        <TradeSectionBody section={section} />
+      </Section>
+    ))
 }

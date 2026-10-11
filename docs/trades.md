@@ -5,15 +5,19 @@ agent, trade advice in every agent's prompt, suggested chat questions, and trade
 vocabulary when categorizing imports. HVAC, plumbing and electrical are built,
 each with a year-long sample business.
 
-## For onboarding (Tyler)
+## Onboarding and API
+
+Onboarding has five steps: Account, Company, **Type of work**, Add records, Review. The new step (`frontend/src/components/TradeStep.jsx`) shows after a company opens until it answers: HVAC, Plumbing and Electrical as checkboxes (any combination) plus Other with a short description.
 
 | Endpoint | Does |
 | --- | --- |
 | `GET /api/trades` | Trades and whether each is ready: `[{key, name, ready, has_sample, questions}]` |
-| `POST /api/trade` | `{"trade": "hvac"}` sets this browser's trade and returns the report with its sections. Add `"load_sample": true` to also load that trade's sample business. `{"trade": null}` clears it. |
-| `GET /api/trade` | The browser's current trade |
+| `POST /api/trade` | `{"trades": ["hvac", "plumbing"], "other": "Snow removal"}` saves the company's kinds of work (at least one trade or an Other description). `{"trade": "hvac", "load_sample": true}` also loads that trade's sample business. |
+| `GET /api/trade` | The company's choice: `{trades, other, done, names}` |
 
-Every report (`/api/report`, uploads, imports) now includes `trade`, `trade_sections` and `suggested_questions`. The report page renders `trade_sections` with `TradeSections.jsx`, and the chat uses `suggested_questions` for its chips. The trade is kept per browser and survives new uploads and imports.
+The choice is saved with the company (encrypted, with its books) and kept when books are cleared. Every report includes `trade_setup` (whether the question was answered), `trades`, `trade_sections` (each tagged with its `trade` and `trade_name`) and `suggested_questions` (mixed across the chosen trades). A section the company's data can't support is left out of the report; the agents still see it and can explain what's missing. With several trades, each trade's work-mix section leaves out the other trades' jobs.
+
+On the dashboard, trade cards share one board with the core cards, two per row on wide screens. Core cards with nothing to show (no money owed, no cost changes, no repeat bills, or jobs only estimated from bank payments) are hidden too.
 
 ## HVAC sections (`backend/app/trades/hvac.py`)
 
@@ -54,6 +58,10 @@ Shared pieces (month windows, the section shape, job profits by kind of work, th
 ## Agents
 
 When a trade is set, the CFO gets the trade's advice and the list of what its trade analyst covers (built from the section docstrings, so routing follows the trade), plus a fourth analyst (`trade_agent`: the HVAC, plumbing or electrical analyst) whose one tool, `trade_section`, reads any of the trade's sections. Its chat answers can include the sections as cards. The import categorizer gets the trade's vocabulary.
+
+## Bank data without a jobs export
+
+A bank connection has payments, not jobs. When there's no jobs or invoices export, each named customer payment (`ACH CREDIT MILLER RESIDENCE`, `ZELLE FROM PATEL`) becomes a finished, paid job labeled "(estimated from payment)", with a type guessed from its size by the trade's `estimate_job_type` (HVAC: $200 or less is a tune-up, $5,000+ an install). Card-processor payouts and deposits that bundle customers count only as revenue. The import warns about all of this. Sections then show revenue mix and average tickets but hide margins and job-cost figures, which need a jobs export, and callbacks say they can't be seen in bank data. Uploading a jobs export turns estimation off.
 
 ## Sample businesses
 

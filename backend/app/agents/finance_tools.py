@@ -177,6 +177,26 @@ def affordability(amount: float, reserve_months: int = 1) -> dict:
     return _card("affordability", finance.affordability(get_books(), amount, reserve_months=reserve_months))
 
 
+@tool
+def hire_affordability(hourly_rate: float | None = None, hours_per_week: float = 40,
+                       yearly_salary: float | None = None) -> dict:
+    """Can the business afford another employee? Returns what it can afford from recent profit
+    (monthly budget, hourly wage, yearly salary), how long spare cash covers a hire, and the
+    extra monthly revenue (and jobs) a hire must bring in to keep profit where it is. Pass the
+    proposed pay if the owner gave one; leave it out to get what's affordable.
+
+    Args:
+        hourly_rate: Proposed hourly wage in dollars.
+        hours_per_week: Hours a week for an hourly hire. Defaults to 40.
+        yearly_salary: Proposed yearly salary in dollars, instead of an hourly rate.
+    """
+    burden = 0.20
+    wages = (yearly_salary / 12 if yearly_salary else
+             hourly_rate * hours_per_week * 52 / 12 if hourly_rate else None)
+    return finance.hire_capacity(get_books(), monthly_cost=wages * (1 + burden) if wages else None,
+                                 burden_rate=burden)
+
+
 # --- Trade analyst ----------------------------------------------------------------
 
 @tool
@@ -190,14 +210,16 @@ def trade_section(section: str, month: str | None = None) -> dict:
     """
     from backend.app import trades
 
-    trade = trades.current()
-    if trade is None:
+    chosen = trades.current_all()
+    if not chosen:
         return {"error": "No trade is set for this business."}
-    builders = {build.__name__: build for build in trade.SECTIONS}
+    builders = {build.__name__: (trade, build) for trade in chosen for build in trade.SECTIONS}
     if section not in builders:
         return {"error": f"Unknown section '{section}'. Available: {', '.join(builders)}"}
+    trade, build = builders[section]
     books = get_books()
-    result = trade._plain(builders[section](books, month or latest_full_month(books)))
+    with trades.common.several_trades(len(chosen) > 1):
+        result = trade._plain(build(books, month or latest_full_month(books)))
     if result.get("status") == "ok":
         emit({"type": "card", "card": {"type": f"trade:{section}", "data": result}})
     return result

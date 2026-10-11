@@ -13,13 +13,15 @@ code from the numbers, never by a model.
 """
 
 from datetime import date
+import re
 from statistics import median
 
 import pandas as pd
 
 from backend.app.data import Books
 from backend.app.finance import cash_balance, monthly_summary
-from backend.app.trades.common import jobs_in, label, months, needs, pct, period, plain, section, sorter, work_mix
+from backend.app.trades.common import (estimated, jobs_in, label, months, needs, pct, period, plain, section, sorter,
+                                       work_mix)
 
 KEY, NAME = "hvac", "HVAC"
 
@@ -179,21 +181,28 @@ def maintenance_plans(books: Books, through: str) -> dict:
     in_slow = sum(by_month[m] for m in slow)
     rows = [{"month": _label(m), "visits": int((visits["month"] == m).sum()), "revenue": round(by_month[m], 2)}
             for m in months]
+    seasons_known = len(months) >= 8  # "slowest months" means little with only a few months of books
     headline = [{"label": "Plan customers", "value": customers, "format": "count", "tone": None},
-                {"label": "Share of revenue", "value": _pct(revenue, total), "format": "percent", "tone": None},
-                {"label": "Earned in your slowest months", "value": _pct(in_slow, revenue), "format": "percent",
-                 "tone": "good"},
-                {"label": "No visit in 10+ months", "value": len(lapsing), "format": "count",
-                 "tone": "bad" if len(lapsing) else None}]
+                {"label": "Share of revenue", "value": _pct(revenue, total), "format": "percent", "tone": None}]
+    if seasons_known:
+        headline.append({"label": "Earned in your slowest months", "value": _pct(in_slow, revenue),
+                         "format": "percent", "tone": "good"})
+    headline.append({"label": "No visit in 10+ months", "value": len(lapsing), "format": "count",
+                     "tone": "bad" if len(lapsing) else None})
     takeaway = (f"{customers} customers had {len(visits)} maintenance visits worth ${revenue:,.0f}, "
-                f"{_pct(revenue, total)}% of job revenue. {_pct(in_slow, revenue)}% of it came in your four slowest "
-                f"months, which is when you need it most.")
+                f"{_pct(revenue, total)}% of job revenue.")
+    if seasons_known:
+        takeaway += (f" {_pct(in_slow, revenue)}% of it came in your four slowest months, which is when you "
+                     f"need it most.")
     if len(lapsing):
         takeaway += f" {len(lapsing)} customers haven't had a visit in over 10 months: worth a call to renew."
+    note = "Maintenance visits are jobs whose type mentions maintenance, tune-ups, inspections or plans."
+    if estimated(jobs):
+        note = ("These visits are payments of $200 or less, assumed to be tune-ups. A jobs export shows real "
+                "plan visits.")
     return _section(key, title, question, months, headline, {"columns": [
         {"key": "month", "label": "Month", "format": "text"}, {"key": "visits", "label": "Visits", "format": "count"},
-        {"key": "revenue", "label": "Revenue", "format": "money"}], "rows": rows}, takeaway,
-        "Maintenance visits are jobs whose type mentions maintenance, tune-ups, inspections or plans.")
+        {"key": "revenue", "label": "Revenue", "format": "money"}], "rows": rows}, takeaway, note)
 
 
 def callbacks(books: Books, through: str) -> dict:
@@ -203,6 +212,10 @@ def callbacks(books: Books, through: str) -> dict:
     jobs = _jobs(books, months)
     if jobs.empty:
         return _needs(key, title, question, months, "No completed jobs in these months.")
+    if estimated(jobs):
+        return _needs(key, title, question, months, "Callbacks are usually free, so they don't show up in bank "
+                                                    "payments. Upload a jobs export from your field-service app "
+                                                    "to track them.")
     backs = jobs[jobs["segment"] == "callback"].sort_values("end_date")
     installs = jobs[jobs["segment"].isin(["install", "commercial"])]
     if backs.empty:
@@ -233,6 +246,21 @@ def callbacks(books: Books, through: str) -> dict:
         {"key": "after", "label": "After", "format": "text"}, {"key": "days_after", "label": "Days after", "format": "count"},
         {"key": "cost", "label": "Cost", "format": "money"}], "rows": rows[-15:]}, takeaway,
         "Callbacks are jobs marked warranty, callback or follow-up, or done at no charge.")
+
+
+_BUSINESS = re.compile(r"\b(llc|inc|corp|co\b|group|dental|clinic|retail|center|properties|property|mgmt|"
+                       r"management|partners|school|church|office|restaurant|deli|hotel|apartments|lofts|suite)\b", re.I)
+
+
+def estimate_job_type(amount: float, customer: str) -> str:
+    """A job type from a customer payment's size, when there's no jobs export."""
+    if amount >= 10000 and _BUSINESS.search(customer):
+        return "Commercial install"
+    if amount >= 5000:
+        return "System install"
+    if amount <= 200:
+        return "Tune-up"
+    return "Repair"
 
 
 SECTIONS = [installs_vs_repairs, slow_season, maintenance_plans, equipment_costs, callbacks]

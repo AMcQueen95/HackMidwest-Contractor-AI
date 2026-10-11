@@ -2,6 +2,7 @@ import { useEffect, useMemo, useState } from 'react'
 import { getReport, resetBooks, streamNarrative } from './api'
 import { parseNarrative } from './api/mock/narrative'
 import AddRecords from './components/AddRecords'
+import TradeStep from './components/TradeStep'
 import AiCaption from './components/AiCaption'
 import ChatWidget from './components/ChatWidget'
 import ExpenseChanges from './components/ExpenseChanges'
@@ -14,7 +15,7 @@ import PurchaseCheck from './components/PurchaseCheck'
 import Receivables from './components/Receivables'
 import RecurringCharges from './components/RecurringCharges'
 import Section from './components/Section'
-import TradeSections from './components/TradeSections'
+import { tradeCards } from './components/TradeSections'
 import { monthName, shortDate } from './lib/format'
 import { ThemeContext, applyTheme, savedTheme } from './lib/theme'
 
@@ -114,6 +115,22 @@ export default function App({ demo = false, company, email, busy, accountError, 
       </>
     )
   }
+  if (!demo && report.trade_setup && !report.trade_setup.done) {
+    return (
+      <TradeStep
+        company={report.company ?? { name: report.business?.name }}
+        initial={report.trade_setup}
+        account={(
+          <div className="onboarding-account">
+            <span>{email}</span>
+            <button type="button" className="button button-quiet" onClick={onSignOut} disabled={busy}>Sign out</button>
+          </div>
+        )}
+        onBack={onLeave}
+        onDone={reload}
+      />
+    )
+  }
   if (report.has_books === false || adding) {
     const hasBooks = report.has_books !== false
     return (
@@ -134,6 +151,13 @@ export default function App({ demo = false, company, email, busy, accountError, 
     )
   }
   const name = monthName(report.month)
+  // Show a section only when the books have something for it.
+  const jobs = report.job_profitability?.jobs ?? []
+  const estimatedJobs = jobs.filter((job) => job.job_type?.includes('(estimated')).length
+  const showJobs = jobs.length > 0 && estimatedJobs <= jobs.length / 2 // no fake 100% margins
+  const owed = (report.receivables?.total_outstanding ?? 0) > 0
+  const costChanges = (report.expense_changes?.changes ?? []).length > 0
+  const repeatBills = (report.recurring_charges?.charges ?? []).length > 0
 
   return (
     <ThemeContext.Provider value={theme}>
@@ -165,55 +189,61 @@ export default function App({ demo = false, company, email, busy, accountError, 
         <AiCaption available={aiAvailable} narrative={narrative} done={narrativeDone}
           error={narrativeError} message={report.agent_status?.message} onOpenChat={() => setChatOpen(true)} />
 
-        <div className="grid-2">
+        {showJobs && (
           <Section
-            title="Who owes you"
+            title="Profit by job"
             info={
-              <InfoTip term="Receivables aging">
-                Unpaid invoices grouped by how far past the due date they are.
+              <InfoTip term="Job profitability and gross margin">
+                Quoted price minus that job's materials and labor. Margin is the share of the quote
+                left over.
               </InfoTip>
             }
+            aside={`Jobs finished in ${name}`}
           >
-            <Receivables data={report.receivables} />
+            <MarginByJobType data={report.margin_by_job_type} />
+            <JobTable data={report.job_profitability} />
           </Section>
-          <Section
-            title="What changed in your costs"
-            info={
-              <InfoTip term="Expense variance">
-                Spending in each category compared with the month before, biggest increase first.
-              </InfoTip>
-            }
-          >
-            <ExpenseChanges data={report.expense_changes} />
-          </Section>
-        </div>
+        )}
 
-        <Section
-          title="Profit by job"
-          info={
-            <InfoTip term="Job profitability and gross margin">
-              Quoted price minus that job's materials and labor. Margin is the share of the quote
-              left over.
-            </InfoTip>
-          }
-          aside={`Jobs finished in ${name}`}
-        >
-          <MarginByJobType data={report.margin_by_job_type} />
-          <JobTable data={report.job_profitability} />
-        </Section>
-
-        <div className="grid-2">
-          <Section
-            title="Bills that repeat"
-            info={
-              <InfoTip term="Recurring charges">
-                Vendors you paid in more than one month, such as subscriptions, insurance, and
-                payroll.
-              </InfoTip>
-            }
-          >
-            <RecurringCharges data={report.recurring_charges} />
-          </Section>
+        {/* Cards pack into 2-3 columns and close up when one has nothing to show. */}
+        <div className="board">
+          {owed && (
+            <Section
+              title="Who owes you"
+              info={
+                <InfoTip term="Receivables aging">
+                  Unpaid invoices grouped by how far past the due date they are.
+                </InfoTip>
+              }
+            >
+              <Receivables data={report.receivables} />
+            </Section>
+          )}
+          {costChanges && (
+            <Section
+              title="What changed in your costs"
+              info={
+                <InfoTip term="Expense variance">
+                  Spending in each category compared with the month before, biggest increase first.
+                </InfoTip>
+              }
+            >
+              <ExpenseChanges data={report.expense_changes} />
+            </Section>
+          )}
+          {repeatBills && (
+            <Section
+              title="Bills that repeat"
+              info={
+                <InfoTip term="Recurring charges">
+                  Vendors you paid in more than one month, such as subscriptions, insurance, and
+                  payroll.
+                </InfoTip>
+              }
+            >
+              <RecurringCharges data={report.recurring_charges} />
+            </Section>
+          )}
           <Section
             title="Can you afford it?"
             info={
@@ -224,9 +254,8 @@ export default function App({ demo = false, company, email, busy, accountError, 
           >
             <PurchaseCheck datasetRevision={report.dataset_revision} />
           </Section>
+          {tradeCards(report.trade_sections)}
         </div>
-
-        <TradeSections trade={report.trade} sections={report.trade_sections} />
 
         <p className="page-footer">
           Figures are calculated from your books. AI analysis is available when configured.

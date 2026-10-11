@@ -103,7 +103,7 @@ function Warnings({ warnings }) {
 
 function BankReview({ company, result, account, onAddMore, onDone }) {
   return (
-    <OnboardingShell step={3} width="medium" account={account}>
+    <OnboardingShell step={4} width="medium" account={account}>
       <section className="setup-card">
         <p className="setup-kicker">{company.name}</p>
         <h1>Bank connected</h1>
@@ -177,7 +177,7 @@ export default function RecordsReview({ company, review, files, known, account, 
   }
 
   return (
-    <OnboardingShell step={3} width="medium" account={account} onBack={saving ? undefined : onBack}>
+    <OnboardingShell step={4} width="medium" account={account} onBack={saving ? undefined : onBack}>
       <form className="setup-card" onSubmit={save} noValidate>
         <p className="setup-kicker">{company.name}</p>
         <h1>Check what we read</h1>

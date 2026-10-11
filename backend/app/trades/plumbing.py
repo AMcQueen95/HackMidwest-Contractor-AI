@@ -4,12 +4,14 @@ Sections return the shared shape described in hvac.py. Takeaways are written by
 code from the numbers.
 """
 
+import re
 from statistics import median
 
 import pandas as pd
 
 from backend.app.data import Books
-from backend.app.trades.common import jobs_in, label, months, needs, pct, plain, section, sorter, work_mix
+from backend.app.trades.common import (ESTIMATED_NOTE, estimated, jobs_in, label, months, needs, pct, plain, section,
+                                       sorter, work_mix)
 
 KEY, NAME = "plumbing", "Plumbing"
 
@@ -97,8 +99,11 @@ def average_ticket(books: Books, through: str) -> dict:
     if recent_avg and earlier_avg:
         change = pct(recent_avg - earlier_avg, earlier_avg)
         takeaway += f" The last three months averaged ${recent_avg:,.0f}, {'up' if change >= 0 else 'down'} {abs(change)}%."
-    takeaway += (f" A quarter of calls were ${small_line:,.0f} or less, bringing in ${small['profit'].sum():,.0f} of "
-                 f"profit. A minimum service charge lifts those.")
+    if estimated(calls):
+        takeaway += f" A quarter of calls were ${small_line:,.0f} or less. A minimum service charge lifts those."
+    else:
+        takeaway += (f" A quarter of calls were ${small_line:,.0f} or less, bringing in ${small['profit'].sum():,.0f} "
+                     f"of profit. A minimum service charge lifts those.")
     return section(key, title, question, window, headline, _sec(window, [
         {"key": "month", "label": "Month", "format": "text"}, {"key": "calls", "label": "Calls", "format": "count"},
         {"key": "average_ticket", "label": "Avg. ticket", "format": "money"}], rows), takeaway,
@@ -154,6 +159,9 @@ def water_heaters(books: Books, through: str) -> dict:
     heaters = jobs[(jobs["segment"] == "water_heater") & (jobs["quoted_revenue"] > 0)] if not jobs.empty else jobs
     if heaters.empty:
         return needs(key, title, question, window, "No water heater jobs found in these months.")
+    if estimated(heaters) or heaters["direct_expenses"].sum() == 0:
+        return needs(key, title, question, window, f"{len(heaters)} water heater jobs found, but their costs aren't "
+                                                   f"tied to them. {ESTIMATED_NOTE}")
     heaters = heaters.assign(part_share=heaters["direct_expenses"] / heaters["quoted_revenue"] * 100)
     rows = [{"month": label(m), "jobs": int((heaters["month"] == m).sum()),
              "part_share": round(heaters.loc[heaters["month"] == m, "part_share"].mean(), 1)
@@ -181,6 +189,19 @@ def water_heaters(books: Books, through: str) -> dict:
         {"key": "part_share", "label": "Heater share", "format": "percent"},
         {"key": "margin", "label": "Margin", "format": "percent"}], rows), takeaway,
         "Heater share is the parts and permits tied to each job as a share of its price.")
+
+
+_BUSINESS = re.compile(r"\b(llc|inc|corp|co\b|group|dental|clinic|retail|center|properties|property|mgmt|"
+                       r"management|partners|school|church|office|restaurant|deli|hotel|apartments|lofts|suite)\b", re.I)
+
+
+def estimate_job_type(amount: float, customer: str) -> str:
+    """A job type from a customer payment's size, when there's no jobs export."""
+    if amount >= 3800:
+        return "Sewer or repipe replacement"
+    if amount >= 1300:
+        return "Water heater replacement"
+    return "Service call"
 
 
 SECTIONS = [service_vs_replacement, emergency_calls, average_ticket, drain_conversions, water_heaters]

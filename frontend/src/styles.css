@@ -423,9 +423,16 @@ h1 span {
 
 .infotip {
   position: relative;
-  display: inline-block;
+  display: inline-flex;
   margin-left: 6px;
   vertical-align: middle;
+}
+
+/* Headings with an info icon: center the icon on the whole line of text, not
+   on the lowercase letters, so it lines up with capitals like "Money in". */
+:where(h1, h2, h3, h4):has(> .infotip) {
+  display: flex;
+  align-items: center;
 }
 
 .infotip-button {
@@ -2269,4 +2276,112 @@ td > .pill:first-child {
 
 .trade-details[open] summary {
   margin-bottom: 8px;
+}
+
+/* Onboarding: kinds of work */
+.trade-choices {
+  display: grid;
+  gap: 10px;
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+
+.trade-choice {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 14px 16px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: var(--surface);
+  cursor: pointer;
+}
+
+.trade-choice:hover {
+  border-color: var(--ink-3);
+}
+
+.trade-choice.is-selected {
+  border-color: var(--accent);
+  background: var(--accent-soft);
+}
+
+.trade-choice input {
+  margin-top: 3px;
+  accent-color: var(--accent);
+}
+
+.trade-choice:has(input:focus-visible) {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.trade-choice span {
+  display: grid;
+  gap: 2px;
+}
+
+.trade-choice small {
+  color: var(--ink-3);
+  font-size: 13px;
+}
+
+.trade-group {
+  display: grid;
+  gap: 16px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+/* Trade sections: a masonry-style flow so cards fill the space */
+.trade-area {
+  display: grid;
+  gap: 12px;
+}
+
+.trade-flow {
+  column-width: 380px;
+  column-gap: 20px;
+}
+
+.trade-flow-item {
+  break-inside: avoid;
+  margin-bottom: 20px;
+}
+
+.trade-flow-item > .card {
+  margin: 0;
+}
+
+.trade-tag {
+  display: inline-block;
+  margin-right: 6px;
+  padding: 2px 8px;
+  border-radius: 999px;
+  background: var(--accent-soft);
+  color: var(--accent-ink);
+  font-size: 12px;
+  font-weight: 600;
+}
+
+/* Dashboard board: cards sit in rows that line up (two across on wide screens,
+   one on phones) and close up when a section is hidden. A card left alone in
+   the last row takes the full width instead of leaving half the row empty. */
+.board {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 520px), 1fr));
+  gap: 24px;
+  align-items: stretch;
+}
+
+.board > .card:last-child:nth-child(odd) {
+  grid-column: 1 / -1;
 }

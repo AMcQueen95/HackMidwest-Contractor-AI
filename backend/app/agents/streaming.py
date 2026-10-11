@@ -24,6 +24,7 @@ from datetime import date
 from backend.app.agents import finance_tools as ft
 from backend.app.agents.cfo_agent import _sessions, build_cfo_agent
 from backend.app.agents.events import set_emitter
+from backend.app.agents.prompts import STE_RULES
 from backend.app.agent_context import active_agent_state
 
 log = logging.getLogger(__name__)
@@ -64,7 +65,9 @@ Recommendations
 - <one action, starting with a verb, and what it's worth>
 <three or four recommendations, most valuable first>
 
-The words Issues and Recommendations must each be alone on their own line."""
+The words Issues and Recommendations must each be alone on their own line.
+
+{STE_RULES}"""
 
 
 def _seed_messages(month: str | None) -> list | None:

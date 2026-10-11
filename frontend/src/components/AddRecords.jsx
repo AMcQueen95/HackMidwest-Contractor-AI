@@ -113,7 +113,7 @@ export default function AddRecords({ company, aiStatus, hasBooks, account, onBac
   }
 
   return (
-    <OnboardingShell step={2} width="medium" account={account} onBack={busy ? undefined : onBack} backLabel={backLabel}>
+    <OnboardingShell step={3} width="medium" account={account} onBack={busy ? undefined : onBack} backLabel={backLabel}>
       <section className="setup-card">
         <p className="setup-kicker">{company.name}</p>
         <h1>{hasBooks ? 'Add more records' : 'Add your financial records'}</h1>

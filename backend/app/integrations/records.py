@@ -3,6 +3,8 @@
 import csv
 import io
 import json
+import re
+from collections.abc import Callable
 from dataclasses import dataclass, field
 from datetime import date, timedelta
 
@@ -147,10 +149,41 @@ def _match_payment_dates(invoices: list[Invoice], transactions: list[Transaction
     return matched
 
 
-def assemble(records: Records, facts: BusinessFacts) -> tuple[Books, list[str], dict]:
+ESTIMATED = "(estimated from payment)"
+# Payouts that bundle many customers (card processors) or say nothing about who paid.
+_BATCHED = re.compile(r"stripe|square|paypal|venmo|shopify|clover|toast|payout|batch|deposit|transfer|"
+                      r"atm|cash|branch|interest|dividend|refund|reversal", re.I)
+
+
+def estimate_jobs(txs: list[Transaction], guess: Callable[[float, str], str] | None) -> tuple[list, list, int]:
+    """Without a jobs export, treat each named customer payment as one finished, paid job.
+
+    The job type is a guess from the payment size (by trade), labeled as estimated.
+    Returns jobs, invoices and how many payments couldn't be tied to a customer.
+    """
+    jobs, invoices, batched = [], [], 0
+    for n, t in enumerate(sorted((t for t in txs if t.category == "income"), key=lambda t: t.date), 1):
+        customer = (t.vendor or "").strip()
+        if not customer or _BATCHED.search(customer) or _BATCHED.search(t.description[:20]):
+            batched += 1
+            continue
+        kind = guess(t.amount, customer) if guess else "Job"
+        job = Job(job_id=f"EST-{n:04d}", customer=customer, job_type=f"{kind} {ESTIMATED}", start_date=t.date,
+                  end_date=t.date, quoted_price=round(t.amount, 2), source="estimated")
+        jobs.append(job)
+        invoices.append(Invoice(invoice_id=f"EST-INV-{n:04d}", customer=customer, issued=t.date, due=t.date,
+                                amount=round(t.amount, 2), paid_amount=round(t.amount, 2), paid_date=t.date,
+                                job_ref=job.job_id, source="estimated"))
+    return jobs, invoices, batched
+
+
+def assemble(records: Records, facts: BusinessFacts,
+             guess_job_type: Callable[[float, str], str] | None = None) -> tuple[Books, list[str], dict]:
     """Turn categorized records into books, validated by the loader.
 
-    Returns the books, warnings for the owner, and a summary of what went in.
+    guess_job_type (from the owner's trade) names jobs estimated from payments when
+    there's no jobs or invoices export. Returns the books, warnings for the owner,
+    and a summary of what went in.
     """
     warnings = list(records.warnings)
     txs, dupes = _dedupe(records.transactions)
@@ -164,6 +197,19 @@ def assemble(records: Records, facts: BusinessFacts) -> tuple[Books, list[str], 
         if hits:
             warnings.append(f"Left out {len(hits)} {name} transactions (${sum(abs(t.amount) for t in hits):,.2f}) "
                             f"because they aren't business income or spending: {EXCLUDED[name].lower()}.")
+
+    estimated = 0
+    if not records.jobs and not records.invoices:
+        est_jobs, est_invoices, batched = estimate_jobs(txs, guess_job_type)
+        if est_jobs:
+            records = Records(transactions=records.transactions, invoices=est_invoices, jobs=est_jobs,
+                              opening_balance=records.opening_balance, closing_balance=records.closing_balance)
+            estimated = len(est_jobs)
+            warnings.append(
+                f"No jobs export, so {estimated} jobs were estimated from customer payments. Their types are "
+                f"guesses from the payment size, and job costs and margins need a jobs export from your "
+                f"field-service app." + (f" {batched} payouts (card processors, deposits) bundle several "
+                                         f"customers and count only as revenue." if batched else ""))
 
     # Jobs: every invoice needs a job. Exports without jobs get one job per invoice.
     jobs = {j.job_id: j for j in records.jobs}
@@ -253,7 +299,7 @@ def assemble(records: Records, facts: BusinessFacts) -> tuple[Books, list[str], 
     by_category: dict[str, float] = {}
     for t in txs:
         by_category[t.category] = round(by_category.get(t.category, 0.0) + t.amount, 2)
-    summary = {"transactions": len(txs), "invoices": len(invoices), "jobs": len(jobs),
+    summary = {"transactions": len(txs), "invoices": len(invoices), "jobs": len(jobs), "estimated_jobs": estimated,
                "excluded_transactions": len(excluded), "payment_dates_matched": matched,
                "date_range": [opening_date.isoformat(), as_of.isoformat()],
                "opening_balance": round(opening, 2),

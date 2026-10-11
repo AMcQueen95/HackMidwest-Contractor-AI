@@ -41,8 +41,7 @@ def build_router(datasets, cookie_name: str, set_cookie: Callable) -> APIRouter:
         return token, imports.get(token)
 
     def trade_hint(token: str) -> str:
-        trade = trade_registry.get(trades.get(token))
-        return trade.CATEGORY_HINTS if trade else ""
+        return " ".join(t.CATEGORY_HINTS for t in trade_registry.selected(trades.get(token)))
 
     def require_ai():
         if not agent_status()["available"]:
@@ -50,8 +49,11 @@ def build_router(datasets, cookie_name: str, set_cookie: Callable) -> APIRouter:
 
     async def rebuild(request: Request, response: Response, token: str, state: ImportState,
                       sources: dict, dry_run: bool = False) -> dict:
+        chosen = trade_registry.selected(trades.get(token))
+        trade = chosen[0] if chosen else None
         books, warnings, summary = await asyncio.to_thread(
-            assemble, copy.deepcopy(ImportState(sources=sources).combined()), state.facts)
+            assemble, copy.deepcopy(ImportState(sources=sources).combined()), state.facts,
+            trade.estimate_job_type if trade else None)
         report = await asyncio.to_thread(build_report, books)
         result = {"warnings": warnings, "summary": summary,
                   "sources": [{"name": n, "transactions": len(r.transactions), "invoices": len(r.invoices),

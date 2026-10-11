@@ -2,6 +2,8 @@
 
 import re
 import weakref
+from contextlib import contextmanager
+from contextvars import ContextVar
 from datetime import date
 
 import pandas as pd
@@ -37,6 +39,18 @@ def needs(key, title, question, window, note) -> dict:
     return section(key, title, question, window, [], {"columns": [], "rows": []}, "", note, "needs_data")
 
 
+ESTIMATED_NOTE = ("Most of these jobs are estimated from customer payments, so their types are guesses from the "
+                  "payment size and job costs aren't known. Upload a jobs export from your field-service app for "
+                  "real job types, costs and margins.")
+
+
+def estimated(jobs) -> bool:
+    """True when most jobs were estimated from bank payments rather than a jobs export."""
+    if jobs is None or len(jobs) == 0:
+        return False
+    return jobs["job_type"].str.contains("(estimated", regex=False).mean() > 0.5
+
+
 def plain(value):
     """Plain JSON types (pandas sums come back as numpy numbers)."""
     if isinstance(value, dict):
@@ -60,6 +74,20 @@ def sorter(rules: list[tuple[str, str]], free_jobs: str = "callback"):
                 return name
         return free_jobs if price == 0 else "other"
     return segment
+
+
+_several: ContextVar[bool] = ContextVar("several_trades", default=False)
+
+
+@contextmanager
+def several_trades(on: bool):
+    """While building sections for a company with several trades, each trade's work mix
+    leaves out jobs that belong to the other trades (they'd all land under Other)."""
+    token = _several.set(on)
+    try:
+        yield
+    finally:
+        _several.reset(token)
 
 
 _profits: dict[tuple, tuple[weakref.ref, pd.DataFrame]] = {}
@@ -93,6 +121,9 @@ def work_mix(books, through, segment, names, key, title, question, compare=None,
     (("install", "Install"), ("repair", "Repair"))."""
     window = months(books, through)
     jobs = jobs_in(books, window, segment)
+    if _several.get() and not jobs.empty:
+        jobs = jobs[jobs["segment"] != "other"]
+        note_other = False
     if jobs.empty:
         return needs(key, title, question, window, "No completed jobs in these months. Upload a jobs export "
                                                    "from your field-service app to see this.")
@@ -106,9 +137,18 @@ def work_mix(books, through, segment, names, key, title, question, compare=None,
         rows.append({"segment": name, "jobs": len(part), "revenue": round(revenue, 2), "share": pct(revenue, total),
                      "profit": round(profit, 2), "margin": pct(profit, revenue),
                      "average_ticket": round(revenue / len(part), 2)})
+    guessed = estimated(jobs)
+    if guessed:  # no job costs: margins would read as nearly 100%
+        for r in rows:
+            r["profit"], r["margin"] = None, None
     by = {r["segment"]: r for r in rows}
-    top = max(rows, key=lambda r: r["profit"])
-    takeaway = f"{top['segment']} brought in the most profit: ${top['profit']:,.0f} on {top['share']}% of revenue."
+    if guessed:
+        top = max(rows, key=lambda r: r["revenue"])
+        takeaway = (f"{top['segment']} brought in the most revenue: ${top['revenue']:,.0f}, {top['share']}% of the "
+                    f"total, averaging ${top['average_ticket']:,.0f} a job.")
+    else:
+        top = max(rows, key=lambda r: r["profit"])
+        takeaway = f"{top['segment']} brought in the most profit: ${top['profit']:,.0f} on {top['share']}% of revenue."
     headline = []
     if compare:
         (seg_a, one_a), (seg_b, one_b) = compare
@@ -117,11 +157,15 @@ def work_mix(books, through, segment, names, key, title, question, compare=None,
                      "format": "percent", "tone": None},
                     {"label": f"{one_a} margin", "value": a["margin"] if a else None, "format": "percent", "tone": None},
                     {"label": f"{one_b} margin", "value": b["margin"] if b else None, "format": "percent", "tone": None}]
-        if a and b and a["margin"] is not None and b["margin"] is not None:
+        if guessed:
+            headline = headline[:1]
+        elif a and b and a["margin"] is not None and b["margin"] is not None:
             takeaway += (f" {names[seg_b]} keep {b['margin']}% of each dollar after parts and labor; "
                          f"{names[seg_a].lower()} keep {a['margin']}%.")
     other = by.get(names.get("other", "Other"))
     note = f"{other['jobs']} jobs didn't match a known job type and are under Other." if other and note_other else None
+    if guessed:
+        note = ESTIMATED_NOTE
     return section(key, title, question, window, headline, {"columns": [
         {"key": "segment", "label": "Work", "format": "text"}, {"key": "jobs", "label": "Jobs", "format": "count"},
         {"key": "revenue", "label": "Revenue", "format": "money"}, {"key": "share", "label": "Share", "format": "percent"},

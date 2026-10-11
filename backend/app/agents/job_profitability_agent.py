@@ -3,7 +3,7 @@
 from strands import Agent
 
 from backend.app.agents import finance_tools as ft
-from backend.app.agents.prompts import NUMBERS_RULES
+from backend.app.agents.prompts import BRIEF_RULES, ESTIMATED_JOBS, NUMBERS_RULES
 from backend.app.config import build_model
 
 SYSTEM_PROMPT = f"""\
@@ -18,7 +18,11 @@ policies, pricing floors).
 
 Answer with short bullet points, worst first, naming the job ID and customer.
 
-{NUMBERS_RULES}"""
+{NUMBERS_RULES}
+
+{BRIEF_RULES}
+
+{ESTIMATED_JOBS}"""
 
 
 def build_job_profitability_agent() -> Agent:

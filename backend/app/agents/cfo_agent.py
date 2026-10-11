@@ -12,7 +12,7 @@ from backend.app.agents.events import emit
 from backend.app.agents.expense_agent import build_expense_agent
 from backend.app.agents.job_profitability_agent import build_job_profitability_agent
 from backend.app.agents.trade_agent import build_trade_agent
-from backend.app.agents.prompts import NUMBERS_RULES
+from backend.app.agents.prompts import NUMBERS_RULES, STE_RULES
 from backend.app.agents.schemas import AskResponse, FinancialHealthReport, ReportNarrative
 from backend.app.config import build_model
 
@@ -74,12 +74,12 @@ async def trade_agent(question: str) -> str:
     """
     from backend.app import trades
 
-    trade = trades.current()
-    if trade is None:
+    chosen = trades.current_all()
+    if not chosen:
         return "No trade is set for this business."
-    log.info("CFO -> %s Analyst: %s", trade.NAME, question)
-    answer = str(await build_trade_agent(trade).invoke_async(question))
-    emit({"type": "status", "text": f"Consulted the {trade.NAME} analyst"})
+    log.info("CFO -> %s Analyst: %s", trades.names(chosen), question)
+    answer = str(await build_trade_agent(chosen).invoke_async(question))
+    emit({"type": "status", "text": f"Consulted the {trades.names(chosen)} analyst"})
     return answer
 
 
@@ -99,16 +99,25 @@ How to work:
 1. Call business_profile if you need to know which month is "this month".
 2. Send each relevant specialist a specific question. Broad questions like "why
    did profit drop?" usually need all three; a narrow one may need just one.
-3. Combine their findings into one answer. Lead with the direct answer in one or
-   two sentences, then the main reasons, biggest dollar impact first, then two
-   to four concrete next steps.
+3. Combine their findings into one short answer.
 
-Keep it short enough to read on a phone between jobs. It shows in a chat window,
-so write plain text: short paragraphs separated by blank lines, and lists as
-lines starting with "- ". No bold, headings, tables or other markdown. Don't
-announce what you're about to look up; call the tools, then answer.
+How to write it (it's read on a phone between jobs):
+- Start with the direct answer in one or two sentences, with the key number.
+- Then at most three reasons as "- " bullets, one line each, biggest dollar
+  impact first. Only the numbers that matter; don't restate everything the
+  analysts found.
+- Then a blank line, then at most three next steps as "- " bullets, one line each.
+- Talk only about the business. Do not mention the analysts, tools, sections, or
+  labels such as "good" or "bad" ratings.
+- About 120 words in total. Go longer only if the owner asks for detail.
+- Plain text only: no bold, headings, tables or other markdown. Don't announce
+  what you're about to look up; call the tools, then answer.
+- For hiring questions, give the affordable pay (hourly or yearly) and the extra
+  monthly revenue or jobs a hire needs, from the cash flow analyst.
 
-{NUMBERS_RULES}"""
+{NUMBERS_RULES}
+
+{STE_RULES}"""
 
 
 def build_cfo_agent(stream: bool = False, messages: list | None = None) -> Agent:
@@ -118,15 +127,18 @@ def build_cfo_agent(stream: bool = False, messages: list | None = None) -> Agent
     from backend.app import trades
 
     kwargs = {} if stream else {"callback_handler": None}
-    trade = trades.current()
+    chosen = trades.current_all()
     tools = [ft.business_profile, ft.monthly_summary, expense_agent, job_profitability_agent, cash_flow_agent]
     prompt = SYSTEM_PROMPT
-    if trade is not None:
+    if chosen:
         tools.append(trade_agent)
-        covers = "\n".join(f"- {build.__doc__}" for build in trade.SECTIONS)
-        prompt += (f"\n\n{trade.ADVICE}\n\nYou also have a {trade.NAME} analyst (trade_agent). It has numbers "
+        advice = "\n\n".join(t.ADVICE for t in chosen)
+        covers = "\n".join(f"- {build.__doc__}" for t in chosen for build in t.SECTIONS)
+        prompt += (f"\n\n{advice}\n\nYou also have a {trades.names(chosen)} analyst (trade_agent). It has numbers "
                    f"the other analysts don't:\n{covers}\nAsk it whenever a question touches any of these, "
                    f"alongside the other analysts as needed.")
+    if other := trades.current_other():
+        prompt += f"\n\nThe owner describes their work as: {other}. Keep that in mind in your advice."
     return Agent(
         name="CFO Advisor",
         model=build_model("cfo"),
