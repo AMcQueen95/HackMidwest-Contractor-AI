@@ -4,11 +4,11 @@ import asyncio
 from concurrent.futures import ThreadPoolExecutor
 
 import pytest
-from fastapi.testclient import TestClient
+from backend.tests.account_helpers import AuthTestClient as TestClient, create_app
 
 from backend.app import config
 from backend.app.agents import finance_tools as ft, streaming
-from backend.app.main import COOKIE_NAME, create_app
+from backend.app.main import COOKIE_NAME
 from backend.tests.test_agent_api import sse
 from backend.tests.test_api import multipart
 
@@ -93,8 +93,11 @@ def test_upload_and_reset_replace_ai_cache_and_chat(monkeypatch, changed):
         assert client.post("/api/upload", files=multipart(invalid)).status_code == 422
         assert ask(client, new)[0] == new  # rejected input preserves AI history too
         client.post("/api/reset").raise_for_status()
+        assert client.post("/api/ask", json={"question": "What changed?", "session_id": new}).status_code == 409
+        assert client.get("/api/report").json()["has_books"] is False
+        client.post("/api/upload", files=multipart(changed)).raise_for_status()
         reset, text = ask(client, new)
-        assert reset != new and "$52,900" in text
+        assert reset != new and "$53,140" in text
 
 
 def test_simultaneous_streams_and_tool_threads_use_their_own_books(

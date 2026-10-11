@@ -5,11 +5,11 @@ import json
 from pathlib import Path
 
 import pytest
-from fastapi.testclient import TestClient
+from backend.tests.account_helpers import AuthTestClient as TestClient, create_app
 
 from backend.app.agents import streaming
 from backend.app.agents.events import emit
-from backend.app.main import COOKIE_NAME, create_app
+from backend.app.main import COOKIE_NAME
 
 
 @pytest.fixture
@@ -117,8 +117,8 @@ def test_new_chat_is_seeded_with_the_cached_report(monkeypatch, client):
 
     monkeypatch.setattr(streaming, "build_cfo_agent", build)
     client.get("/api/report")
-    dataset = client.app.state.datasets.get(client.cookies.get(COOKIE_NAME))
-    dataset.agent_state.narratives["2026-09"] = (
+    dataset = client.app.state.datasets.ai_state(client.headers["X-Company-ID"], "sample")
+    dataset.narratives["2026-09"] = (
         "September lost $7,830.\n\nIssues\n- Westport"
     )
     sse(

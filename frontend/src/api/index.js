@@ -1,19 +1,43 @@
 // All finance data comes from the Python API. Same-origin requests retain the
-// browser's dataset cookie through Vite's proxy or the built FastAPI app.
-async function requestResponse(path, options = {}) {
+// browser's HTTP-only account cookies through Vite's proxy or the built FastAPI app.
+let workspace = { demo: false, companyId: null }
+let refreshRequest = null
+export function setWorkspace(next) { workspace = next }
+
+export function refreshAccount() {
+  if (!refreshRequest) refreshRequest = request('/api/auth/refresh', { method: 'POST' })
+    .finally(() => { refreshRequest = null })
+  return refreshRequest
+}
+
+async function requestResponse(path, options = {}, retried = false) {
   let response
   try {
-    response = await fetch(path, { credentials: 'same-origin', ...options })
+    response = await fetch(path, { credentials: 'same-origin', ...options,
+      headers: { ...(workspace.companyId ? { 'X-Company-ID': workspace.companyId } : {}), ...options.headers },
+    })
   } catch (error) {
     if (error.name === 'AbortError') throw error
     throw new Error('Could not reach the backend. Check that the API is running and try again.')
   }
   if (!response.ok) {
+    if (response.status === 401 && retried) window.dispatchEvent(new Event('toolbelt-signed-out'))
+    if (response.status === 401 && !path.startsWith('/api/auth/') && !retried && !workspace.demo) {
+      try {
+        await refreshAccount()
+      } catch (error) {
+        if (error.status === 401) window.dispatchEvent(new Event('toolbelt-signed-out'))
+        throw error
+      }
+      return requestResponse(path, options, true)
+    }
     const body = await response.json().catch(() => ({}))
     const detail = Array.isArray(body.detail)
       ? body.detail.map((item) => item.msg).join('; ')
       : body.detail
-    throw new Error(detail || `Request failed (${response.status}). Please try again.`)
+    const error = new Error(detail || `Request failed (${response.status}). Please try again.`)
+    error.status = response.status
+    throw error
   }
   return response
 }
@@ -76,11 +100,11 @@ export async function ask(question, { sessionId, month } = {}, onEvent, signal) 
 
 export function getReport(month, signal) {
   const query = month == null ? '' : `?${new URLSearchParams({ month })}`
-  return request(`/api/report${query}`, { signal })
+  return request(`/api/${workspace.demo ? 'demo/' : ''}report${query}`, { signal })
 }
 
 export function checkAffordability(amount, signal) {
-  return request(`/api/affordability?${new URLSearchParams({ amount })}`, { signal })
+  return request(`/api/${workspace.demo ? 'demo/' : ''}affordability?${new URLSearchParams({ amount })}`, { signal })
 }
 
 export function uploadBooks(files) {
@@ -91,4 +115,16 @@ export function uploadBooks(files) {
 
 export function resetBooks() {
   return request('/api/reset', { method: 'POST' })
+}
+
+export const getAuthConfig = () => request('/api/auth/config')
+export const getAccount = () => request('/api/auth/me')
+export const signOut = () => request('/api/auth/logout', { method: 'POST' })
+export function accountAction(action, body) {
+  return request(`/api/auth/${action}`, { method: 'POST',
+    headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(body) })
+}
+export function createCompany(name) {
+  return request('/api/companies', { method: 'POST',
+    headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ name }) })
 }

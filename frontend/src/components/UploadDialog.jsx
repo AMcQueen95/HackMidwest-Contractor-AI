@@ -87,9 +87,9 @@ export default function UploadDialog({ onClose, onUploaded, isSample }) {
           ))}
         </ul>
         {error && <p role="alert" className="is-bad upload-error">{error} Your current books have been kept.</p>}
-        <p className="dialog-note">Uploads are temporary. Restarting the backend or an expired session restores the sample books.</p>
+        <p className="dialog-note">Validated books are saved to this company. Invalid uploads preserve your current books.</p>
         <footer className="dialog-footer">
-          {!isSample && <button type="button" className="button" onClick={reset} disabled={busy}>Use sample books</button>}
+          {!isSample && <button type="button" className="button" onClick={reset} disabled={busy}>Clear company books</button>}
           <button type="button" className="button" onClick={onClose} disabled={busy}>Cancel</button>
           <button type="submit" className="button button-primary" disabled={!ready || busy}>
             {busy ? 'Updating books…' : 'Upload books'}

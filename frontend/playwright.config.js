@@ -17,9 +17,9 @@ export default defineConfig({
   },
   webServer: [
     {
-      command: `"${python}" -m uvicorn backend.app.main:app --host 127.0.0.1 --port 8000`,
+      command: `"${python}" -m uvicorn backend.tests.account_browser_server:app --host 127.0.0.1 --port 8000`,
       cwd: root,
-      env: { MODEL_PROVIDER: 'anthropic', ANTHROPIC_API_KEY: '' },
+      env: { MODEL_PROVIDER: 'anthropic', ANTHROPIC_API_KEY: '', PUBLIC_APP_URL: 'http://127.0.0.1:5173' },
       url: 'http://127.0.0.1:8000/api/health',
       timeout: 30000,
     },

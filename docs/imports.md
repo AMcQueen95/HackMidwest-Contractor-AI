@@ -5,7 +5,7 @@ Owners shouldn't have to reformat anything. Two ways in, both backend only for n
 - **Any CSV exports.** Bank and card statements, QuickBooks reports, field-service app exports (Jobber, Housecall Pro, ServiceTitan) or anything else, as many files as they have.
 - **A bank connection through Plaid.** Checking, savings and card accounts, pulled directly.
 
-Both add up per browser: upload a bank export, then an invoice export, then connect a card account, and each step rebuilds one set of books from everything so far.
+Both add up per authenticated company: upload a bank export, then an invoice export, then connect a card account, and each step rebuilds one set of books from everything so far.
 
 ## How CSV import works
 
@@ -19,21 +19,21 @@ Both add up per browser: upload a bank export, then an invoice export, then conn
 | Endpoint | Does |
 | --- | --- |
 | `POST /api/import` | Multipart `files` (1–20 CSVs, 10 MiB each). Optional form fields: `business_name`, `opening_balance`, `labor_rate`, `tax_reserve_rate`, `replace` (start over), `dry_run` (show the interpretation without applying). Returns each file's interpretation, warnings, a summary and the new report. |
-| `GET /api/import/sources` | What this browser has imported so far |
-| `POST /api/import/clear` | Forget all imports and bank connections; back to the sample |
+| `GET /api/import/sources` | What the selected company has imported so far |
+| `POST /api/import/clear` | Clear the selected company’s books, imports, and stored bank connections |
 | `GET /api/plaid/status` | Whether Plaid keys are set and how many banks are connected |
 | `POST /api/plaid/link-token` | A token for Plaid Link in the browser |
 | `POST /api/plaid/exchange` | `{"public_token": ...}` from Plaid Link: connects the bank, pulls transactions and balances, rebuilds the books |
 | `POST /api/plaid/sandbox` | Sandbox only, no UI needed. `{"bank": "contractor"}` (default) loads a realistic HVAC shop checking account and card; `{"bank": "plaid"}` uses Plaid's generic test data |
 | `POST /api/plaid/refresh` | Pull the latest from every connected bank |
 
-Access tokens stay on the server, in memory, per browser.
+Every endpoint requires sign-in and an `X-Company-ID` header. Supabase row-level security limits access to the company owner. Books, import sources, and Plaid access tokens are encrypted before saving to the database. See [accounts.md](accounts.md) for setup and authenticated curl examples.
 
 ## Plaid setup
 
 1. Sign up at [dashboard.plaid.com](https://dashboard.plaid.com) (free) and copy the sandbox **client ID** and **secret** from Developers → Keys.
 2. Add them to `backend/.env` as `PLAID_CLIENT_ID` and `PLAID_SECRET`, with `PLAID_ENV=sandbox`.
-3. Try it: `curl -X POST localhost:8000/api/plaid/sandbox -H 'Content-Type: application/json' -d '{}'`
+3. Sign in, create/select a company, then call the sandbox endpoint using the account cookies and `X-Company-ID` header, as shown in [accounts.md](accounts.md). Real Plaid calls and import categorization also require working AI credentials.
 
 ## Testing
 
@@ -42,6 +42,9 @@ Access tokens stay on the server, in memory, per browser.
 - `RUN_LIVE_TESTS=1 python -m pytest backend/tests/test_integrations_live.py -v` runs the real agents on the sample exports, and Plaid sandbox if keys are set.
 
 ## Known limits
+
+- Clearing stored connections removes local tokens. It does not call Plaid `/item/remove` to revoke the connection; add an explicit disconnect flow before production.
+- Plaid pulls transactions and balances, not customer invoice documents. Invoice exports are still needed for receivables.
 
 - Bank transactions aren't linked to jobs, so job profit from imports counts labor but not materials. Linking purchases to jobs is a next step.
 - Cash is unknown (set to $0 with a warning) unless a bank export has a balance column, Plaid is connected, or the owner enters a starting balance.

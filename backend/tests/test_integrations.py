@@ -5,12 +5,11 @@ from datetime import date
 
 import httpx
 import pytest
-from fastapi.testclient import TestClient
+from backend.tests.account_helpers import AuthTestClient as TestClient, create_app
 
 from backend.app.integrations import csv_import, plaid, routes
 from backend.app.integrations.ai import Columns, FileInterpretation
 from backend.app.integrations.records import BusinessFacts, Invoice, Job, Records, Transaction, assemble
-from backend.app.main import create_app
 
 
 # --- Reading values ------------------------------------------------------------------
@@ -149,7 +148,7 @@ def test_dry_run_and_replace_and_clear(client):
     assert [s["name"] for s in replaced["sources"]] == ["bank.csv"]
 
     client.post("/api/import/clear")
-    assert client.get("/api/report").json()["business"]["name"] == "Ridgeline Heating & Air"
+    assert client.get("/api/report").json()["has_books"] is False
 
 
 # --- Plaid ------------------------------------------------------------------------------
