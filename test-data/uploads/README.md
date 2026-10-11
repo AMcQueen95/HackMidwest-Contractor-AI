@@ -1,13 +1,14 @@
 # Upload test files
 
-Each numbered folder contains the four files required by the dashboard.
+Each numbered folder contains the four files accepted by `POST /api/upload`.
 These are synthetic demo books based on the repository sample, not real company records.
 
-Start the API and frontend using docs/live-dashboard.md. Open the dashboard,
-choose **Use your own books**, and select all four files from ONE folder:
+The dashboard no longer has a four-file picker; its **Add records** step takes CSV exports
+(see `test-data/imports`) or a bank connection. Send these sets to the endpoint directly,
+all four files from ONE folder with their exact filenames:
 transactions.csv, jobs.csv, invoices.csv, and business.json.
-Upload the extracted files individually, not the ZIP or a whole folder.
-Keep the exact filenames.
+The browser tests seed companies the same way. Where a section below says "upload",
+it means through that endpoint.
 
 ## 1. 01-baseline: valid sample books
 

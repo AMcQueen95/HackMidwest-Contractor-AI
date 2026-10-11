@@ -55,3 +55,12 @@ export function niceTicks(max, count = 3) {
   for (let tick = 0; tick < max + step; tick += step) ticks.push(tick)
   return ticks
 }
+
+export function describeCounts({ transactions = 0, invoices = 0, jobs = 0 }) {
+  const parts = [
+    [transactions, 'transaction'],
+    [invoices, 'invoice'],
+    [jobs, 'job'],
+  ].filter(([count]) => count > 0).map(([count, noun]) => `${count.toLocaleString('en-US')} ${noun}${count === 1 ? '' : 's'}`)
+  return parts.length ? parts.join(', ') : 'No records'
+}

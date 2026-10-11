@@ -74,19 +74,25 @@ directory. Use one backend worker for consistent temporary AI chat history. Save
    The $15,000 purchase fails the one-month reserve policy.
 2. Select August. Monthly profit should be $15,000. Cash and receivables retain
    their labeled September 30 snapshot date.
-3. Return to welcome, create/sign in to an account, and create a company. It should start empty. Use the four files in `test-data/uploads/02-higher-insurance`.
-   September insurance is already changed from `-1260` to `-1500`.
-4. Choose **Upload financial records** (or **Use your own books** on an existing dashboard), select the four files, and submit. Expenses
-   become $53,140 and loss $8,070. The purchase shortfall becomes $16,903. The
-   badge changes from **Sample data** to **Your books**.
-5. Upload the four files from `test-data/uploads/03-invalid-invoices`.
-   The invoices file has missing columns. The dialog should
-   report the error, remain open, and retain the previous books.
-6. Open the upload dialog and choose **Clear company books**. The company becomes empty. Switch company and choose **Try the demo** to see the fictional books.
+3. Return to welcome, create/sign in to an account, and create a company. It opens at
+   **Add your financial records**, with a progress bar along the bottom.
+4. Add records. This step needs AI credentials. Either choose **Use the sample contractor bank**
+   (or **Connect a bank** for the Plaid window), or add the CSV exports in `test-data/imports`
+   and choose **Read 6 files**. The review step lists what each file was read as, skips
+   `crew_contacts.csv`, and asks for details the files did not supply. Text or out-of-range
+   values in those fields are rejected. Nothing is saved until **Save and open my dashboard**.
+   The badge then reads **Your books**.
+5. The four-file sets in `test-data/uploads` are no longer selectable in the browser. They
+   still load through `POST /api/upload` (see [accounts.md](accounts.md) for an authenticated
+   example) and are what the browser tests seed. Through that endpoint, `02-higher-insurance`
+   gives $53,140 expenses, an $8,070 loss, and a $16,903 purchase shortfall, and
+   `03-invalid-invoices` is rejected with the previous books kept.
+6. Open the gear menu, choose **Clear company books**, and confirm. The company returns to
+   **Add your financial records**. Switch company and choose **Try the demo** to see the fictional books.
 
 With provider credentials configured, also check that the written report loads
 and chat answers a question such as "How much did I spend in September?".
-After uploading the higher-insurance set, chat should use $53,140 expenses and
+After new records are saved, chat should use the new figures and
 start a new conversation. Another browser starts at welcome and can open its own account or the public demo. Signing into the same account reopens the saved books.
 If the provider fails, the UI should show an error and leave the dashboard usable.
 

@@ -122,9 +122,10 @@ Open the address printed by Vite in your local browser. `npm run build` writes
 forwards `/api` requests to FastAPI on port 8000 during development.
 
 Chat and AI explanations use Aidan's Strands agents when model access is configured.
-Without an API key, the finance dashboard, uploads, and purchase checks still work.
-Uploads validate all four files before replacing the selected company’s saved
-books. See [the live dashboard guide](docs/live-dashboard.md) for Windows commands,
+Without an API key, the finance dashboard and purchase checks still work, but adding
+records in the browser (CSV exports or a bank connection) needs it. The four-file
+`POST /api/upload` endpoint still validates all four files before replacing the selected
+company’s saved books. See [the live dashboard guide](docs/live-dashboard.md) for Windows commands,
 API contracts, upload behavior, and browser integration tests.
 
 ## Agents

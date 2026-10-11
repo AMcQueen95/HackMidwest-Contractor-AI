@@ -102,18 +102,21 @@ occupied. Restart the backend whenever you change `backend/.env`.
 1. The first page should show sign-in, account creation, and **Try the demo**.
 2. Choose **Create account**, enter your email and a password of at least 12
    characters. If confirmation is enabled, follow the email link before signing in.
-3. Create a company. Expect an empty company, with **Upload financial records**.
-4. Upload the four files in `test-data/uploads/01-baseline`.
-   September expenses should be **$52,900** and profit **−$7,830**.
+3. Create a company. Expect the **Add your financial records** step.
+4. Add records with **Use the sample contractor bank** or the CSV exports in
+   `test-data/imports` (both need AI credentials), review, and save. To load the exact
+   four-file set instead, send `test-data/uploads/01-baseline` to `POST /api/upload`;
+   September expenses should then be **$52,900** and profit **−$7,830**.
 5. Sign out. Open a private/incognito window, sign in as the same account, and
    select the company. Those books should still appear.
 6. Stop and restart the backend. Sign in/select the company again. Books should
    remain. AI conversations and cached narratives may reset.
 7. Create a second account. Its company list should be empty, and new companies
    should have no books. Knowing the first company's ID must not grant access.
-8. Upload `02-higher-insurance` to the first company. Expenses become **$53,140**.
-   Upload `03-invalid-invoices`; expect an error and unchanged prior books.
-9. Choose **Clear company books**. It becomes empty; the separate demo still works.
+8. Send `02-higher-insurance` to `POST /api/upload` for the first company. Expenses become
+   **$53,140**. Send `03-invalid-invoices`; expect a 422 error and unchanged prior books.
+9. In the gear menu choose **Clear company books** and confirm. It becomes empty; the
+   separate demo still works.
 10. Check **Forgot password?**, email delivery, the reset link, and signing in with
     the new password. Confirm the old password fails.
 

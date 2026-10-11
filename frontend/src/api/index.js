@@ -107,14 +107,27 @@ export function checkAffordability(amount, signal) {
   return request(`/api/${workspace.demo ? 'demo/' : ''}affordability?${new URLSearchParams({ amount })}`, { signal })
 }
 
-export function uploadBooks(files) {
+export function importRecords(files, { details = {}, dryRun = false } = {}) {
   const body = new FormData()
-  for (const file of Object.values(files)) body.append('files', file, file.name)
-  return request('/api/upload', { method: 'POST', body })
+  for (const file of files) body.append('files', file, file.name)
+  for (const [key, value] of Object.entries(details)) {
+    if (value != null && value !== '') body.append(key, String(value))
+  }
+  if (dryRun) body.append('dry_run', 'true')
+  return request('/api/import', { method: 'POST', body })
 }
 
 export function resetBooks() {
   return request('/api/reset', { method: 'POST' })
+}
+
+export const getImportSources = () => request('/api/import/sources')
+export const getPlaidStatus = () => request('/api/plaid/status')
+export const createPlaidLinkToken = () => request('/api/plaid/link-token', { method: 'POST' })
+export const connectSampleBank = () => request('/api/plaid/sandbox', { method: 'POST' })
+export function exchangePlaidToken(publicToken) {
+  return request('/api/plaid/exchange', { method: 'POST',
+    headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ public_token: publicToken }) })
 }
 
 export const getAuthConfig = () => request('/api/auth/config')

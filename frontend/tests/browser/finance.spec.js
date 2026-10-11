@@ -1,21 +1,26 @@
 import { test, expect } from '@playwright/test'
-import fs from 'node:fs'
-import { fileURLToPath } from 'node:url'
-import { prepareCompany, openCompany, companyReport } from './helpers'
-
-const sample = fileURLToPath(new URL('../../../backend/app/data/sample/', import.meta.url))
+import { prepareCompany, openCompany, companyReport, uploadBooks } from './helpers'
 
 test.beforeEach(async ({ page }) => { await prepareCompany(page) })
 
-async function selectBooks(page, { invalid = false } = {}) {
-  await page.getByRole('button', { name: 'Use your own books' }).click()
-  for (const name of ['transactions.csv', 'jobs.csv', 'invoices.csv', 'business.json']) {
-    let content = fs.readFileSync(`${sample}/${name}`, 'utf8')
-    if (name === 'transactions.csv') content = content.replace('insurance,-1260,', 'insurance,-1500,')
-    if (invalid && name === 'invoices.csv') content = 'invoice_id\n'
-    await page.getByLabel(name, { exact: true }).setInputFiles({ name, mimeType: name.endsWith('.json') ? 'application/json' : 'text/csv', buffer: Buffer.from(content) })
-  }
-  await page.getByRole('button', { name: 'Upload books', exact: true }).click()
+// Model responses are controlled here; reports/uploads still use the actual API.
+async function enableAi(page) {
+  await page.route(/\/api\/report(?:\?.*)?$/, async (route) => {
+    const response = await route.fetch()
+    const report = await response.json()
+    await route.fulfill({ response, json: { ...report, agent_status: { available: true, message: '' } } })
+  })
+}
+
+async function quietNarrative(page) {
+  await page.route('**/api/report/narrative?*', (route) => route.fulfill({
+    contentType: 'text/event-stream', body: events([{ done: true }]) }))
+}
+
+async function replaceBooks(page) {
+  expect((await uploadBooks(page, { insurance: '-1500' })).ok()).toBeTruthy()
+  await page.reload()
+  await page.getByRole('button', { name: page.company.name, exact: true }).click()
 }
 
 test('dashboard, month selection, and purchase checks use the live API', async ({ page }) => {
@@ -38,11 +43,10 @@ test('dashboard, month selection, and purchase checks use the live API', async (
   expect(errors).toEqual([])
 })
 
-test('upload updates real calculations, isolates browsers, preserves books on failure, and resets', async ({ page, browser }) => {
+test('new books update real calculations, isolate browsers, survive a failed upload, and can be cleared', async ({ page, browser }) => {
   await openCompany(page)
   await expect(page.locator('.tile-value').nth(1)).toHaveText('$52,900')
-  await selectBooks(page)
-  await expect(page.getByRole('dialog')).not.toBeVisible()
+  await replaceBooks(page)
   await expect(page.locator('.tile-value').nth(1)).toHaveText('$53,140')
   await expect(page.locator('.tile-value').nth(2)).toContainText('8,070')
   await expect(page.locator('.dataset-tag')).toHaveText('Your books')
@@ -58,15 +62,107 @@ test('upload updates real calculations, isolates browsers, preserves books on fa
     await other.close()
   }
 
-  await selectBooks(page, { invalid: true })
-  await expect(page.getByRole('alert')).toContainText('invoices.csv: missing columns')
+  const rejected = await uploadBooks(page, { invalid: true })
+  expect(rejected.status()).toBe(422)
+  expect((await rejected.json()).detail).toContain('invoices.csv: missing columns')
   const response = await companyReport(page)
   expect((await response.json()).monthly_summary.expenses).toBe(53140)
-  await page.getByRole('button', { name: 'Cancel', exact: true }).click()
-  await page.getByRole('button', { name: 'Use your own books' }).click()
+
+  await page.getByRole('button', { name: 'Settings' }).click()
   await page.getByRole('button', { name: 'Clear company books', exact: true }).click()
-  await expect(page.getByRole('dialog')).not.toBeVisible()
-  await expect(page.getByText('This company has no books yet.', { exact: false })).toBeVisible()
+  await page.getByRole('button', { name: 'Keep records', exact: true }).click()
+  await expect(page.locator('.tile-value').nth(1)).toHaveText('$53,140')
+  await page.getByRole('button', { name: 'Clear company books', exact: true }).click()
+  await page.getByRole('button', { name: 'Yes, clear them', exact: true }).click()
+  await expect(page.getByRole('heading', { name: 'Add your financial records' })).toBeVisible()
+})
+
+const csv = (name) => ({ name, mimeType: 'text/csv', buffer: Buffer.from('Date,Description,Amount\n09/02/2026,Deposit,100\n') })
+
+test('CSV exports are reviewed, missing details are validated, and nothing saves before confirming', async ({ page }) => {
+  await prepareCompany(page, { seed: false })
+  await enableAi(page)
+  await quietNarrative(page)
+  await page.route('**/api/plaid/status', (route) => route.fulfill({ json: { configured: true, environment: 'sandbox', banks_connected: 0 } }))
+  const posts = []
+  await page.route('**/api/import', async (route) => {
+    const body = route.request().postData()
+    const field = (name) => body.match(new RegExp(`name="${name}"\\r\\n\\r\\n([^\\r]*)`))?.[1]
+    const dryRun = field('dry_run') === 'true'
+    posts.push({ dryRun, name: field('business_name'), balance: field('opening_balance'), labor: field('labor_rate'), tax: field('tax_reserve_rate') })
+    if (!dryRun) expect((await uploadBooks(page)).ok()).toBeTruthy()
+    await route.fulfill({ json: {
+      applied: !dryRun,
+      files: [
+        { name: 'bank.csv', kind: 'transactions', source: 'Bank export', rows: 1, transactions: 1, invoices: 0, jobs: 0, notes: 'Signed amounts.' },
+        { name: 'jobs.csv', kind: 'jobs', source: 'Jobs export', rows: 1, transactions: 0, invoices: 0, jobs: 1, notes: '' },
+        { name: 'crew.csv', kind: 'unknown', source: '', rows: 2, transactions: 0, invoices: 0, jobs: 0, notes: 'A contact list.' },
+      ],
+      warnings: ['crew.csv: not a transactions, invoices or jobs file, so it was skipped.',
+        "Starting cash balance unknown, so it's set to $0.", 'Left out 2 transfer transactions.'],
+      summary: { transactions: 1, invoices: 0, jobs: 1, date_range: ['2026-09-02', '2026-09-30'], bank_balance_now: null },
+      sources: [],
+    } })
+  })
+
+  await openCompany(page)
+  await expect(page.getByRole('heading', { name: 'Add your financial records' })).toBeVisible()
+  await expect(page.getByRole('button', { name: 'Read my file', exact: true })).toBeDisabled()
+  await page.getByLabel('CSV files').setInputFiles([{ ...csv('notes.txt'), mimeType: 'text/plain' }])
+  await expect(page.getByRole('alert')).toContainText('notes.txt is not a CSV file.')
+  await page.getByLabel('CSV files').setInputFiles([csv('bank.csv'), csv('jobs.csv'), csv('crew.csv')])
+  await page.getByRole('button', { name: 'Read 3 files', exact: true }).click()
+
+  await expect(page.getByRole('heading', { name: 'Check what we read' })).toBeVisible()
+  await expect(page.locator('.file-results li')).toHaveCount(3)
+  await expect(page.locator('.file-results li.is-skipped')).toContainText('crew.csv')
+  await expect(page.locator('.review-warnings li')).toHaveCount(1)
+  await expect(page.getByLabel('Business name')).toHaveValue('Browser company')
+  expect(posts).toEqual([{ dryRun: true, name: 'Browser company', balance: undefined, labor: undefined, tax: undefined }])
+  expect((await (await companyReport(page)).json()).has_books).toBe(false)
+
+  await page.getByLabel('Bank balance at the start of these records').fill('adninwainwadnwa')
+  await page.getByLabel('What an hour of labor costs you').fill('-5')
+  await page.getByRole('button', { name: 'Save and open my dashboard' }).click()
+  await expect(page.locator('.field-error')).toHaveText([
+    'Use numbers only, like 45,000.', "This can't be less than 1.", 'Enter a percentage.'])
+  expect(posts).toHaveLength(1)
+
+  await page.getByLabel('Bank balance at the start of these records').fill('$45,000')
+  await page.getByLabel('What an hour of labor costs you').fill('50')
+  await page.getByLabel('Share of profit to set aside for taxes').fill('25%')
+  await expect(page.locator('.field-error')).toHaveCount(0)
+  await page.getByRole('button', { name: 'Save and open my dashboard' }).click()
+  await expect(page.locator('.tile-value').nth(1)).toHaveText('$52,900')
+  expect(posts[1]).toEqual({ dryRun: false, name: 'Browser company', balance: '45000', labor: '50', tax: '0.25' })
+
+  await page.getByRole('button', { name: 'Add records' }).click()
+  await expect(page.getByRole('heading', { name: 'Add more records' })).toBeVisible()
+  await page.getByRole('button', { name: 'Back to dashboard' }).click()
+  await expect(page.locator('.tile-value').nth(1)).toHaveText('$52,900')
+})
+
+test('the sample bank connects through the API and reports what was saved', async ({ page }) => {
+  await prepareCompany(page, { seed: false })
+  await enableAi(page)
+  await quietNarrative(page)
+  await page.route('**/api/plaid/status', (route) => route.fulfill({ json: { configured: true, environment: 'sandbox', banks_connected: 0 } }))
+  await page.route('**/api/plaid/sandbox', async (route) => {
+    expect((await uploadBooks(page)).ok()).toBeTruthy()
+    await route.fulfill({ json: {
+      applied: true, warnings: ['Left out 2 transfer transactions.'],
+      summary: { transactions: 28, invoices: 0, jobs: 0, date_range: ['2026-08-01', '2026-09-30'], bank_balance_now: 41250 },
+      sources: [], bank: { item_id: 'sandbox', transactions: 28, accounts: [
+        { name: 'Checking', type: 'depository', subtype: 'checking', mask: '4979', current_balance: 41250 }] },
+    } })
+  })
+  await openCompany(page)
+  await page.getByRole('button', { name: 'Use the sample contractor bank', exact: true }).click()
+  await expect(page.getByRole('heading', { name: 'Bank connected' })).toBeVisible()
+  await expect(page.locator('.file-results li')).toContainText('Checking ····4979')
+  await expect(page.locator('.file-results li')).toContainText('$41,250')
+  await page.getByRole('button', { name: 'Open my dashboard', exact: true }).click()
+  await expect(page.locator('.tile-value').nth(1)).toHaveText('$52,900')
 })
 
 test('a failed report request shows an error and can be retried', async ({ page }) => {
@@ -77,15 +173,6 @@ test('a failed report request shows an error and can be retried', async ({ page 
   await page.getByRole('button', { name: 'Try again' }).click()
   await expect(page.locator('.tile-value').nth(1)).toHaveText('$52,900')
 })
-
-// Model responses are controlled here; reports/uploads still use the actual API.
-async function enableAi(page) {
-  await page.route(/\/api\/report(?:\?.*)?$/, async (route) => {
-    const response = await route.fetch()
-    const report = await response.json()
-    await route.fulfill({ response, json: { ...report, agent_status: { available: true, message: '' } } })
-  })
-}
 
 function events(items) {
   return items.map((event) => `data: ${JSON.stringify(event)}\n\n`).join('')
@@ -133,7 +220,7 @@ test('AI narrative and chat retain live books and reset after upload', async ({ 
   expect(requests[0].session_id).toBeNull()
   expect(requests[1].session_id).toBe('chat-1')
   await page.getByRole('button', { name: 'Close chat' }).click()
-  await selectBooks(page)
+  await replaceBooks(page)
   await expect(page.locator('.caption-body')).toContainText('Expenses are $53,140.')
   await page.getByRole('button', { name: 'Ask your CFO', exact: true }).click()
   await expect(page.locator('.data-card')).toHaveCount(0)
