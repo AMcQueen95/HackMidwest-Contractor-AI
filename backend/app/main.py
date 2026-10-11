@@ -17,6 +17,7 @@ from .finance import affordability, build_report
 from .agent_context import use_dataset
 from .agents import streaming
 from .config import agent_status
+from .integrations.routes import build_router
 
 COOKIE_NAME = "toolbelt_session"
 FRONTEND_DIST = Path(__file__).resolve().parents[2] / "frontend" / "dist"
@@ -182,6 +183,8 @@ def create_app(
         return build_report(
             store.sample.books, is_sample=True, dataset_revision="sample"
         ) | {"agent_status": agent_status()}
+
+    app.include_router(build_router(store, COOKIE_NAME, _set_cookie))
 
     directory = frontend_directory if frontend_directory is not None else FRONTEND_DIST
     if directory.is_dir():

@@ -144,6 +144,10 @@ CLI entry points remain available:
 
 See the [agents README](backend/app/agents/README.md) for streaming event shapes.
 
+## Importing a business's own records
+
+Owners can upload any CSV exports they have (bank, card, QuickBooks, Jobber and so on), as many as they like, and connect bank accounts through Plaid. Agents identify each file and categorize transactions; code converts the values and the loader validates the result. Backend only for now: see [docs/imports.md](docs/imports.md) for the endpoints and Plaid setup.
+
 ## Planned project structure
 
 ```

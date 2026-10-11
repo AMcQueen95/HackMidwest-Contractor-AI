@@ -1,0 +1,16 @@
+Ridgeline Heating & Air
+Invoice List
+All Dates
+
+Date,Transaction type,Num,Customer full name,Due date,Amount,Open balance
+08/04/2026,Invoice,1041,Miller Residence,08/19/2026,"8,400.00",0.00
+08/07/2026,Invoice,1042,Okafor Home,08/22/2026,640.00,0.00
+08/12/2026,Invoice,1043,Crown Center Retail,08/27/2026,"6,200.00",0.00
+08/19/2026,Invoice,1044,Patel Residence,09/03/2026,"2,350.00",0.00
+08/26/2026,Invoice,1045,Lindqvist Home,09/10/2026,495.00,0.00
+09/03/2026,Invoice,1046,Nguyen Residence,09/18/2026,"9,100.00",0.00
+09/10/2026,Invoice,1047,Westport Dental Group,09/25/2026,"12,000.00","12,000.00"
+09/15/2026,Invoice,1048,Okafor Home,09/30/2026,780.00,0.00
+09/18/2026,Invoice,1049,Brookside Property Mgmt,10/03/2026,"9,000.00","9,000.00"
+09/24/2026,Invoice,1050,Patel Residence,10/09/2026,"1,950.00",0.00
+TOTAL,,,,,"50,915.00","21,000.00"

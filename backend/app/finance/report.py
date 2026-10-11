@@ -20,6 +20,8 @@ def build_report(
         )
     ]
     selected = months[-1] if month is None else month
+    if month is None and len(months) > 1 and not monthly_summary(books, selected)["period_complete"]:
+        selected = months[-2]  # real bank data ends mid-month; default to the last whole month
     if selected not in months:
         raise ValueError("month must be YYYY-MM within the books' opening/as-of window")
     index = months.index(selected)
