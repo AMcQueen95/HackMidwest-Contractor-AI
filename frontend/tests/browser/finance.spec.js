@@ -12,6 +12,11 @@ async function enableAi(page) {
   })
 }
 
+async function quietNarrative(page) {
+  await page.route('**/api/report/narrative?*', (route) => route.fulfill({
+    contentType: 'text/event-stream', body: events([{ done: true }]) }))
+}
+
 async function replaceBooks(page) {
   expect((await uploadBooks(page, { insurance: '-1500' })).ok()).toBeTruthy()
   await page.reload()
@@ -77,6 +82,7 @@ const csv = (name) => ({ name, mimeType: 'text/csv', buffer: Buffer.from('Date,D
 test('CSV exports are reviewed, missing details are validated, and nothing saves before confirming', async ({ page }) => {
   await prepareCompany(page, { seed: false })
   await enableAi(page)
+  await quietNarrative(page)
   await page.route('**/api/plaid/status', (route) => route.fulfill({ json: { configured: true, environment: 'sandbox', banks_connected: 0 } }))
   const posts = []
   await page.route('**/api/import', async (route) => {
@@ -139,6 +145,7 @@ test('CSV exports are reviewed, missing details are validated, and nothing saves
 test('the sample bank connects through the API and reports what was saved', async ({ page }) => {
   await prepareCompany(page, { seed: false })
   await enableAi(page)
+  await quietNarrative(page)
   await page.route('**/api/plaid/status', (route) => route.fulfill({ json: { configured: true, environment: 'sandbox', banks_connected: 0 } }))
   await page.route('**/api/plaid/sandbox', async (route) => {
     expect((await uploadBooks(page)).ok()).toBeTruthy()
