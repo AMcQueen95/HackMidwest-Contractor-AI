@@ -24,7 +24,7 @@ function Change({ current, previous, previousMonth, upIsGood, asDollars }) {
 
 export default function HeadlineTiles({ report }) {
   const [cashOpen, setCashOpen] = useState(false)
-  const { monthly_summary: now, previous_summary: before, cash_balance: cash, receivables } = report
+  const { monthly_summary: now, previous_summary: before, cash_balance: cash } = report
   const compare = { previousMonth: before?.month }
 
   return (
@@ -53,7 +53,7 @@ export default function HeadlineTiles({ report }) {
         <Change {...compare} current={now.expenses} previous={before?.expenses} upIsGood={false} />
       </div>
 
-      <div className="tile">
+      <div className={`tile tile-key ${now.profit < 0 ? 'is-loss' : 'is-profit'}`}>
         <h3>
           {now.profit < 0 ? 'Loss' : 'Profit'}
           <InfoTip term="Net profit (cash basis)">Money in minus money out for the month.</InfoTip>
@@ -88,22 +88,6 @@ export default function HeadlineTiles({ report }) {
           </button>
         </p>
         {cashOpen && <CashBreakdown data={cash} />}
-      </div>
-
-      <div className="tile">
-        <h3>
-          Owed to you
-          <InfoTip term="Accounts receivable">
-            Invoices you've sent that customers haven't paid yet.
-          </InfoTip>
-        </h3>
-        <p className="tile-value">{money(receivables.total_outstanding)}</p>
-        <p className={`tile-note ${receivables.overdue_total > 0 ? 'is-bad' : ''}`}>
-          {receivables.overdue_total > 0
-            ? `${money(receivables.overdue_total)} is past due`
-            : 'Nothing past due'}
-          <span className="tile-note-rest"> · as of {shortDate(receivables.as_of_date)}</span>
-        </p>
       </div>
     </div>
   )

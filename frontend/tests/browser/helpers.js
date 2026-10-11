@@ -5,6 +5,21 @@ import { expect } from '@playwright/test'
 const sample = fileURLToPath(new URL('../../../backend/app/data/sample/', import.meta.url))
 export const password = 'browser-passphrase-123'
 
+export async function uploadBooks(page, { insurance = '-1260', invalid = false } = {}) {
+  const body = new FormData()
+  for (const name of ['transactions.csv', 'jobs.csv', 'invoices.csv', 'business.json']) {
+    let content = fs.readFileSync(`${sample}/${name}`, 'utf8')
+    if (name === 'transactions.csv') content = content.replace('insurance,-1260,', `insurance,${insurance},`)
+    if (invalid && name === 'invoices.csv') content = 'invoice_id\n'
+    body.append('files', new Blob([content], { type: name.endsWith('.json') ? 'application/json' : 'text/csv' }), name)
+  }
+  const request = new Request('http://unused', { method: 'POST', body })
+  return page.request.post('/api/upload', {
+    headers: { 'X-Company-ID': page.company.id, 'Content-Type': request.headers.get('content-type') },
+    data: Buffer.from(await request.arrayBuffer()),
+  })
+}
+
 export async function prepareCompany(page, { seed = true } = {}) {
   const email = `browser-${crypto.randomUUID()}@example.com`
   const signup = await page.request.post('/api/auth/signup', { data: { email, password } })

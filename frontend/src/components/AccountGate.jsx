@@ -1,6 +1,8 @@
 import { useEffect, useState } from 'react'
 import { accountAction, createCompany, getAccount, getAuthConfig, refreshAccount, setWorkspace, signOut } from '../api'
 import App from '../App'
+import OnboardingShell from './OnboardingShell'
+import WelcomePitch from './WelcomePitch'
 
 let startup = null
 function loadAccount() {
@@ -105,57 +107,90 @@ export default function AccountGate() {
   }
 
   if (!ready) return <main className="page"><p role="status">Opening Toolbelt CFO…</p></main>
-  if (company || demo) return <>
-    <nav className="account-bar" aria-label="Account">
-      <span>{demo ? 'Read-only demo' : `${account.user.email} · ${company.name}`}</span>
-      <button className="button" onClick={leaveDashboard}>{demo ? 'Back to welcome' : 'Switch company'}</button>
-      {!demo && <button className="button" onClick={logout} disabled={busy}>Sign out</button>}
-      {error && <p role="alert">{error}</p>}
-    </nav>
-    <App key={demo ? 'demo' : company.id} demo={demo} />
-  </>
+  if (company || demo) return (
+    <App
+      key={demo ? 'demo' : company.id}
+      demo={demo}
+      company={company}
+      email={account?.user.email}
+      busy={busy}
+      accountError={error}
+      onLeave={leaveDashboard}
+      onSignOut={logout}
+    />
+  )
 
   const title = mode === 'register' ? 'Create your account' : mode === 'recover' ? 'Reset your password'
     : mode === 'password' ? 'Choose a new password' : 'Sign in to your company'
-  return <main className="page account-page">
-    <h1>Toolbelt CFO<span>Your business finances, in one place.</span></h1>
-    {error && <p role="alert" className="is-bad">{error}</p>}
-    {message && <p role="status">{message}</p>}
-    {account && mode !== 'password' ? <section className="account-card">
-      <h2>Your companies</h2>
-      <p>Signed in as {account.user.email}</p>
-      {account.companies.length ? <div className="company-list">{account.companies.map((item) =>
-        <button key={item.id} className="button" onClick={() => openCompany(item)}>{item.name}</button>)}</div>
-        : <p>Create a company to start. Your financial records will be kept separate from the demo.</p>}
-      <form onSubmit={addCompany}>
-        <label htmlFor="company-name">Company name</label>
-        <input id="company-name" value={name} onChange={(e) => setName(e.target.value)} required maxLength={120} />
-        <button className="button button-primary" disabled={busy}>{busy ? 'Creating…' : 'Create company'}</button>
-      </form>
-      <button className="button" onClick={logout} disabled={busy}>Sign out</button>
-    </section> : <section className="account-card">
-      <h2>{title}</h2>
-      {!configured && <p>Sign-in is being set up. You can explore the demo while we get it ready.</p>}
-      <form onSubmit={submit}>
-        {mode !== 'password' && <><label htmlFor="account-email">Email</label>
-          <input id="account-email" type="email" autoComplete="email" value={email} onChange={(e) => setEmail(e.target.value)} required maxLength={254} /></>}
-        {mode !== 'recover' && <><label htmlFor="account-password">Password</label>
-          <input id="account-password" type="password" autoComplete={mode === 'login' ? 'current-password' : 'new-password'}
-            value={password} onChange={(e) => setPassword(e.target.value)} required minLength={mode === 'login' ? 1 : 12} maxLength={128} />
-          {mode !== 'login' && <p className="footnote">Use at least 12 characters. A memorable passphrase works well.</p>}</>}
-        <button className="button button-primary" disabled={busy || !configured}>
-          {busy ? 'Please wait…' : mode === 'register' ? 'Create account' : mode === 'recover' ? 'Send reset link' : mode === 'password' ? 'Save password' : 'Sign in'}
-        </button>
-      </form>
-      <div className="account-links">
-        {mode !== 'login' && <button className="button" onClick={() => changeMode('login')}>Back to sign in</button>}
-        {mode === 'login' && <><button className="button" onClick={() => changeMode('register')}>Create account</button>
-          <button className="button" onClick={() => changeMode('recover')}>Forgot password?</button></>}
+
+  if (account && mode !== 'password') return (
+    <OnboardingShell step={1} onBack={logout} backLabel="Sign out">
+      <section className="setup-card">
+        <p className="setup-kicker">Signed in as {account.user.email}</p>
+        <h1>Your companies</h1>
+        {error && <p role="alert" className="form-alert is-bad">{error}</p>}
+        {message && <p role="status" className="form-alert">{message}</p>}
+        {account.companies.length ? (
+          <div className="company-list">
+            {account.companies.map((item) => (
+              <button key={item.id} type="button" className="company-choice" onClick={() => openCompany(item)}>
+                <span className="company-initial" aria-hidden="true">{item.name.trim().charAt(0).toUpperCase()}</span>
+                {item.name}
+              </button>
+            ))}
+          </div>
+        ) : (
+          <p className="setup-lede">Create a company to start. Your financial records will be kept separate from the demo.</p>
+        )}
+        <form className="setup-form" onSubmit={addCompany}>
+          <h2>{account.companies.length ? 'Add another company' : 'Name your company'}</h2>
+          <div className="field">
+            <label htmlFor="company-name">Company name</label>
+            <input id="company-name" value={name} onChange={(e) => setName(e.target.value)} required maxLength={120}
+              placeholder="Ridgeline Heating & Air" />
+          </div>
+          <button className="button button-primary button-large" disabled={busy}>{busy ? 'Creating…' : 'Create company'}</button>
+        </form>
+      </section>
+    </OnboardingShell>
+  )
+
+  return (
+    <OnboardingShell step={0} width="wide">
+      <div className="welcome">
+        <WelcomePitch />
+        <div className="welcome-side">
+          <section className="setup-card">
+            <h2>{title}</h2>
+            {error && <p role="alert" className="form-alert is-bad">{error}</p>}
+            {message && <p role="status" className="form-alert">{message}</p>}
+            {!configured && <p className="form-alert">Sign-in is being set up. You can explore the demo while we get it ready.</p>}
+            <form className="setup-form" onSubmit={submit}>
+              {mode !== 'password' && <div className="field"><label htmlFor="account-email">Email</label>
+                <input id="account-email" type="email" autoComplete="email" value={email} onChange={(e) => setEmail(e.target.value)} required maxLength={254} /></div>}
+              {mode !== 'recover' && <div className="field"><label htmlFor="account-password">Password</label>
+                <input id="account-password" type="password" autoComplete={mode === 'login' ? 'current-password' : 'new-password'}
+                  value={password} onChange={(e) => setPassword(e.target.value)} required minLength={mode === 'login' ? 1 : 12} maxLength={128} />
+                {mode !== 'login' && <p className="field-hint">Use at least 12 characters. A memorable passphrase works well.</p>}</div>}
+              <button className="button button-primary button-large" disabled={busy || !configured}>
+                {busy ? 'Please wait…' : mode === 'register' ? 'Create account' : mode === 'recover' ? 'Send reset link' : mode === 'password' ? 'Save password' : 'Sign in'}
+              </button>
+            </form>
+            <div className="account-links">
+              {mode !== 'login' && <button type="button" className="link" onClick={() => changeMode('login')}>Back to sign in</button>}
+              {mode === 'login' && <><button type="button" className="link" onClick={() => changeMode('register')}>Create account</button>
+                <button type="button" className="link" onClick={() => changeMode('recover')}>Forgot password?</button></>}
+            </div>
+          </section>
+          <section className="demo-card">
+            <div>
+              <h2>See how it works</h2>
+              <p>Explore Ridgeline’s fictional books. Your company starts with your own records.</p>
+            </div>
+            <button type="button" className="button" onClick={() => { setWorkspace({ demo: true, companyId: null }); setDemo(true) }}>Try the demo</button>
+          </section>
+        </div>
       </div>
-    </section>}
-    <section className="account-card"><h2>See how it works</h2>
-      <p>Explore Ridgeline’s fictional books. Your company starts with your own records.</p>
-      <button className="button" onClick={() => { setWorkspace({ demo: true, companyId: null }); setDemo(true) }}>Try the demo</button>
-    </section>
-  </main>
+    </OnboardingShell>
+  )
 }
