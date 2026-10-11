@@ -24,7 +24,7 @@ Both add up per browser: upload a bank export, then an invoice export, then conn
 | `GET /api/plaid/status` | Whether Plaid keys are set and how many banks are connected |
 | `POST /api/plaid/link-token` | A token for Plaid Link in the browser |
 | `POST /api/plaid/exchange` | `{"public_token": ...}` from Plaid Link: connects the bank, pulls transactions and balances, rebuilds the books |
-| `POST /api/plaid/sandbox` | Sandbox only, no UI needed. `{"bank": "contractor"}` (default) loads a realistic HVAC shop checking account and card; `{"bank": "plaid"}` uses Plaid's generic test data |
+| `POST /api/plaid/sandbox` | Sandbox only, no UI needed: connects the saved test bank account (see Plaid setup) |
 | `POST /api/plaid/refresh` | Pull the latest from every connected bank |
 
 Access tokens stay on the server, in memory, per browser.
@@ -33,7 +33,8 @@ Access tokens stay on the server, in memory, per browser.
 
 1. Sign up at [dashboard.plaid.com](https://dashboard.plaid.com) (free) and copy the sandbox **client ID** and **secret** from Developers → Keys.
 2. Add them to `backend/.env` as `PLAID_CLIENT_ID` and `PLAID_SECRET`, with `PLAID_ENV=sandbox`.
-3. Try it: `curl -X POST localhost:8000/api/plaid/sandbox -H 'Content-Type: application/json' -d '{}'`
+3. Create the test bank account once: `python scripts/create_plaid_sandbox_bank.py`. Plaid keeps it (an HVAC shop's checking account and credit card, about three months of activity) and the script saves its access token to `backend/.env`. Use `--plaid-default` for Plaid's generic test user instead. Its transactions are fixed as of the day it's created; run the script again to refresh them.
+4. Connect it: `curl -X POST localhost:8000/api/plaid/sandbox`. Every call reuses the same Plaid account.
 
 ## Testing
 

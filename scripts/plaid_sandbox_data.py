@@ -1,9 +1,7 @@
-"""A contractor's checking account and credit card for Plaid's sandbox.
-
-Plaid sandbox "custom users" hold exactly the transactions we give them, so the
-bank connection can be tested end to end with realistic HVAC-shop activity
-instead of Plaid's generic sample data. Plaid amounts: positive = money out.
-Dates roll forward so the latest activity lands on the day the bank is connected.
+"""What the test bank account in Plaid's sandbox contains: an HVAC shop's checking
+account and credit card. Used once by create_plaid_sandbox_bank.py; the app never
+reads this file. Plaid amounts: positive = money out. Dates roll forward so the
+latest activity lands on the day the account is created.
 """
 
 import random

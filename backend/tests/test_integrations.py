@@ -174,12 +174,10 @@ def fake_plaid(request: httpx.Request) -> httpx.Response:
     body = json.loads(request.content)
     assert body["client_id"] == "cid" and body["secret"] == "sec"
     path = request.url.path
-    if path == "/sandbox/public_token/create":
-        config = json.loads(body["options"]["override_password"])
-        assert len(config["override_accounts"]) == 2
-        return httpx.Response(200, json={"public_token": "public-1"})
-    if path == "/item/public_token/exchange":
-        return httpx.Response(200, json={"access_token": "access-1", "item_id": "item-1"})
+    if path in ("/sandbox/public_token/create", "/item/public_token/exchange"):
+        raise AssertionError("the saved test account should be reused, not created")
+    if "access_token" in body:
+        assert body["access_token"] == "access-saved"
     if path == "/accounts/get":
         return httpx.Response(200, json={"accounts": ACCOUNTS})
     if path == "/transactions/sync":
@@ -199,13 +197,15 @@ def test_plaid_records_flip_signs_skip_pending_and_find_starting_cash():
     assert records.closing_balance == 5900.0  # checking only; the card balance is money owed
 
 
-def test_plaid_sandbox_connect_builds_books(client, monkeypatch):
+def test_plaid_sandbox_reuses_the_saved_test_account(client, monkeypatch):
     monkeypatch.setenv("PLAID_CLIENT_ID", "cid")
     monkeypatch.setenv("PLAID_SECRET", "sec")
+    monkeypatch.setenv("PLAID_SANDBOX_ACCESS_TOKEN", "access-saved")
+    monkeypatch.setenv("PLAID_SANDBOX_ITEM_ID", "item-1")
     real_client, real_sync = plaid.PlaidClient, plaid.PlaidClient.sync
     monkeypatch.setattr(plaid.PlaidClient, "sync", lambda self, token: real_sync(self, token, quiet_seconds=0))
     monkeypatch.setattr(plaid, "PlaidClient", lambda: real_client(httpx.MockTransport(fake_plaid)))
-    result = client.post("/api/plaid/sandbox", json={"bank": "contractor"}).json()
+    result = client.post("/api/plaid/sandbox").json()
 
     assert result["applied"] and result["bank"]["transactions"] == 3
     assert {a["mask"] for a in result["bank"]["accounts"]} == {"4421", "9001"}
@@ -215,5 +215,13 @@ def test_plaid_sandbox_connect_builds_books(client, monkeypatch):
 
 def test_plaid_without_keys_says_how_to_set_it_up(client, monkeypatch):
     monkeypatch.delenv("PLAID_CLIENT_ID", raising=False)
-    response = client.post("/api/plaid/sandbox", json={})
+    response = client.post("/api/plaid/sandbox")
     assert response.status_code == 503 and "PLAID_CLIENT_ID" in response.json()["detail"]
+
+
+def test_plaid_sandbox_without_a_saved_account_says_how_to_create_one(client, monkeypatch):
+    monkeypatch.setenv("PLAID_CLIENT_ID", "cid")
+    monkeypatch.setenv("PLAID_SECRET", "sec")
+    monkeypatch.delenv("PLAID_SANDBOX_ACCESS_TOKEN", raising=False)
+    response = client.post("/api/plaid/sandbox")
+    assert response.status_code == 503 and "create_plaid_sandbox_bank.py" in response.json()["detail"]

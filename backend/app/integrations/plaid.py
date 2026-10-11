@@ -29,11 +29,14 @@ def environment() -> str:
     return os.getenv("PLAID_ENV", "sandbox")
 
 
+SETUP_MESSAGE = ("Plaid isn't set up. Add PLAID_CLIENT_ID and PLAID_SECRET to backend/.env "
+                 "(free sandbox keys at dashboard.plaid.com).")
+
+
 class PlaidClient:
     def __init__(self, transport: httpx.AsyncBaseTransport | None = None):
         if not configured():
-            raise PlaidError("Plaid isn't set up. Add PLAID_CLIENT_ID and PLAID_SECRET to backend/.env "
-                             "(free sandbox keys at dashboard.plaid.com).")
+            raise PlaidError(SETUP_MESSAGE)
         if environment() not in HOSTS:
             raise PlaidError("PLAID_ENV must be sandbox or production.")
         self._http = httpx.AsyncClient(base_url=HOSTS[environment()], timeout=30, transport=transport)

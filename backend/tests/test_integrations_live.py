@@ -2,7 +2,8 @@
 
 Skipped by default. Run with:
     RUN_LIVE_TESTS=1 python -m pytest backend/tests/test_integrations_live.py -v
-The Plaid test also needs PLAID_CLIENT_ID and PLAID_SECRET (sandbox) in backend/.env.
+The Plaid test also needs Plaid sandbox keys and a saved test account in backend/.env
+(python scripts/create_plaid_sandbox_bank.py).
 """
 
 import os
@@ -50,11 +51,12 @@ def test_messy_exports_are_identified_and_combined(client):
 
 
 def test_plaid_sandbox_contractor_bank(client, monkeypatch):
-    if not (ENV.get("PLAID_CLIENT_ID") and ENV.get("PLAID_SECRET")):
-        pytest.skip("no Plaid sandbox keys in backend/.env")
-    monkeypatch.setenv("PLAID_CLIENT_ID", ENV["PLAID_CLIENT_ID"])
-    monkeypatch.setenv("PLAID_SECRET", ENV["PLAID_SECRET"])
-    result = client.post("/api/plaid/sandbox", json={"bank": "contractor"}).json()
+    needed = ("PLAID_CLIENT_ID", "PLAID_SECRET", "PLAID_SANDBOX_ACCESS_TOKEN")
+    if not all(ENV.get(k) for k in needed):
+        pytest.skip("needs Plaid keys and a saved test account (scripts/create_plaid_sandbox_bank.py)")
+    for key in needed + ("PLAID_SANDBOX_ITEM_ID",):
+        monkeypatch.setenv(key, ENV.get(key) or "")
+    result = client.post("/api/plaid/sandbox").json()
     assert result.get("applied"), result
     assert result["bank"]["transactions"] > 100
     totals = result["summary"]["totals_by_category"]

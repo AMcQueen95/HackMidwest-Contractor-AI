@@ -7,6 +7,7 @@ of them. Nothing replaces the current books unless the whole result validates.
 
 import asyncio
 import copy
+import os
 from collections.abc import Callable
 
 from fastapi import APIRouter, File, Form, HTTPException, Request, Response, UploadFile
@@ -19,7 +20,6 @@ from backend.app.integrations import plaid
 from backend.app.integrations.ai import categorize
 from backend.app.integrations.csv_import import read_file
 from backend.app.integrations.records import BusinessFacts, assemble
-from backend.app.integrations.sandbox_bank import contractor_config
 from backend.app.integrations.sessions import ImportState, ImportStore
 
 MAX_FILES = 20
@@ -27,10 +27,6 @@ MAX_FILES = 20
 
 class ExchangeRequest(BaseModel):
     public_token: str
-
-
-class SandboxRequest(BaseModel):
-    bank: str = "contractor"  # "contractor": realistic HVAC shop; "plaid": Plaid's generic sample data
 
 
 def build_router(datasets, cookie_name: str, set_cookie: Callable) -> APIRouter:
@@ -181,18 +177,20 @@ def build_router(datasets, cookie_name: str, set_cookie: Callable) -> APIRouter:
         return await plaid_call(work)
 
     @router.post("/plaid/sandbox")
-    async def plaid_sandbox(request: Request, response: Response, body: SandboxRequest = SandboxRequest()):
-        """Sandbox only: connect a test bank without the Link UI."""
+    async def plaid_sandbox(request: Request, response: Response):
+        """Sandbox only: connect the saved test bank account without the Link UI. It's created
+        once in Plaid by scripts/create_plaid_sandbox_bank.py."""
         require_ai()
         if plaid.environment() != "sandbox":
             raise HTTPException(403, "Only available with PLAID_ENV=sandbox.")
+        if not plaid.configured():
+            raise HTTPException(503, plaid.SETUP_MESSAGE)
+        access_token = os.getenv("PLAID_SANDBOX_ACCESS_TOKEN")
+        if not access_token:
+            raise HTTPException(503, "No saved test bank account. Run: python scripts/create_plaid_sandbox_bank.py")
         token, state = session(request)
-
-        async def work(client):
-            public = await client.sandbox_public_token(contractor_config() if body.bank == "contractor" else None)
-            access_token, item_id = await client.exchange(public)
-            return await connect(request, response, token, state, client, access_token, item_id)
-        return await plaid_call(work)
+        item_id = os.getenv("PLAID_SANDBOX_ITEM_ID", "sandbox")
+        return await plaid_call(lambda client: connect(request, response, token, state, client, access_token, item_id))
 
     @router.post("/plaid/refresh")
     async def plaid_refresh(request: Request, response: Response):
