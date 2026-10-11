@@ -213,3 +213,4 @@ The demo will use books for **Ridgeline Heating & Air**, a fictional four-person
 Built at Hack Midwest 2026 by:
 
 - Aidan ([@AMcQueen95](https://github.com/AMcQueen95))
+- Palmer [@PBoekhout](https://github.com/Pboekhout))
